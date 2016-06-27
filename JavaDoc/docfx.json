@@ -1,37 +1,33 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "api/**/*.yml",
-		  "toc.yml"
-        ],
-        "exclude": [
-          "java/**",
-          "**/bin/**",
-          "**/obj/**"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**",
-		  "java/**"
-        ]
-      }
-    ],
-	"globalMetadata": {
-	  "breadcrumb_path": "toc.json",
-    },
-    "dest": "java",
-    "template": [
-      "docs.html"
-    ]
-  }
+	"build": {
+		"content": [{
+			"files": [
+				"api/**/*.yml",
+				"toc.yml"
+			],
+			"exclude": [
+				"java/**",
+				"**/bin/**",
+				"**/obj/**"
+			]
+		}],
+		"resource": [{
+			"files": [
+				"**/*.png",
+				"**/*.jpg"
+			],
+			"exclude": [
+				"**/bin/**",
+				"**/obj/**",
+				"java/**"
+			]
+		}],
+		"globalMetadata": {
+			"breadcrumb_path": "toc.json"
+		},
+		"dest": "java",
+		"template": [
+			"docs.html"
+		]
+	}
 }
