@@ -1,0 +1,120 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner
+  id: _usage_list_result_inner
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner_1a104994afaf382089d1610061b817392a
+  - com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner_1a80dcf3bb5bd959336c7359a24ab71968
+  href: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner.yml
+  langs:
+  - java
+  name: UsageListResultInner
+  fullName: com.microsoft.azure.management.storage.implementation.api.UsageListResultInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageListResultInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageListResultInner.java
+    startLine: 13
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>The List <xref href="com.microsoft.azure.management.storage._usages" data-throw-if-not-resolved="false"></xref> operation response. </p>
+  syntax: &o1
+    content: public class UsageListResultInner
+- uid: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner_1a104994afaf382089d1610061b817392a
+  id: _usage_list_result_inner_1a104994afaf382089d1610061b817392a
+  parent: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner
+  href: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: List<Usage> com.microsoft.azure.management.storage.implementation.api.UsageListResultInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageListResultInner.java
+    startLine: 24
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< Usage > value()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.storage.implementation.api._usage9ec3e006
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner_1a80dcf3bb5bd959336c7359a24ab71968
+  id: _usage_list_result_inner_1a80dcf3bb5bd959336c7359a24ab71968
+  parent: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner
+  href: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner.yml
+  langs:
+  - java
+  name: withValue(List< Usage > value)
+  fullName: UsageListResultInner com.microsoft.azure.management.storage.implementation.api.UsageListResultInner.withValue(List< Usage > value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageListResultInner.java
+    startLine: 34
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public UsageListResultInner withValue(List< Usage > value)
+    parameters:
+    - id: value
+      type: f6a6204dcom.microsoft.azure.management.storage.implementation.api._usage9ec3e006
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.storage.implementation.api._usage9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.storage.implementation.api._usage
+    name: Usage
+    fullName: com.microsoft.azure.management.storage.implementation.api.Usage
+    href: com.microsoft.azure.management.storage.implementation.api._usage.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.storage.implementation.api._usage
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._usage.yml
+  name: Usage
+  fullName: com.microsoft.azure.management.storage.implementation.api.Usage
+  type: Class
+  summary: <p>Describes Storage <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.storage.implementation.api._usage" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Usage
+- uid: com.microsoft.azure._resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._resource.yml
+  name: Resource
+  fullName: com.microsoft.azure.Resource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class Resource
+- uid: com.microsoft.azure.management.storage._usages
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usages.yml
+  name: Usages
+  fullName: com.microsoft.azure.management.storage.Usages
+  type: Interface
+  summary: <p>Entry point for storage resource usage management API. </p>
+  syntax:
+    content: public interface Usages
+- uid: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner.yml
+  name: UsageListResultInner
+  fullName: com.microsoft.azure.management.storage.implementation.api.UsageListResultInner
+  type: Class
+  summary: <p>The List <xref href="com.microsoft.azure.management.storage._usages" data-throw-if-not-resolved="false"></xref> operation response. </p>
+  syntax: *o1

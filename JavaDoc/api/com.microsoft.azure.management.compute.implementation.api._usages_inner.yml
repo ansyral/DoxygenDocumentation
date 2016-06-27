@@ -1,0 +1,337 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  id: _usages_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._usages_inner_1a3acf6784618e364c5bf3675be18cfbc2
+  - com.microsoft.azure.management.compute.implementation.api._usages_inner_1a04eb3dbc4488d5ee7211f5fa4ea8a1c4
+  - com.microsoft.azure.management.compute.implementation.api._usages_inner_1a6a361addf939a49772d09fa33677e401
+  - com.microsoft.azure.management.compute.implementation.api._usages_inner_1adcd46f18e0ccbb0768e4b9309a5a7787
+  - com.microsoft.azure.management.compute.implementation.api._usages_inner_1ae30fe5d017de28e606a39db0729d2698
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: UsagesInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.UsagesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+    startLine: 34
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in Usages. </p>
+  syntax: &o1
+    content: public class UsagesInner
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner_1a3acf6784618e364c5bf3675be18cfbc2
+  id: _usages_inner_1a3acf6784618e364c5bf3675be18cfbc2
+  parent: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: list(final String location)
+  fullName: ServiceResponse<PagedList<UsageInner> > com.microsoft.azure.management.compute.implementation.api.UsagesInner.list(final String location)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+    startLine: 75
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Lists compute usages for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< UsageInner > > list(final String location)
+    parameters:
+    - id: location
+      type: 3d93591e
+      description: <p>The location upon which resource usage is queried. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._usage_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner_1a04eb3dbc4488d5ee7211f5fa4ea8a1c4
+  id: _usages_inner_1a04eb3dbc4488d5ee7211f5fa4ea8a1c4
+  parent: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: listAsync(final String location, final ListOperationCallback< UsageInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.UsagesInner.listAsync(final String location, final ListOperationCallback< UsageInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+    startLine: 104
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Lists compute usages for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String location, final ListOperationCallback< UsageInner > serviceCallback)
+    parameters:
+    - id: location
+      type: 3d93591e
+      description: <p>The location upon which resource usage is queried. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner_1a6a361addf939a49772d09fa33677e401
+  id: _usages_inner_1a6a361addf939a49772d09fa33677e401
+  parent: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl1<UsageInner> > com.microsoft.azure.management.compute.implementation.api.UsagesInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+    startLine: 158
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Lists compute usages for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl1< UsageInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._page_impl1151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._usage_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner_1adcd46f18e0ccbb0768e4b9309a5a7787
+  id: _usages_inner_1adcd46f18e0ccbb0768e4b9309a5a7787
+  parent: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< UsageInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.UsagesInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< UsageInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+    startLine: 175
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Lists compute usages for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< UsageInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner_1ae30fe5d017de28e606a39db0729d2698
+  id: _usages_inner_1ae30fe5d017de28e606a39db0729d2698
+  parent: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: UsagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  fullName: com.microsoft.azure.management.compute.implementation.api.UsagesInner.UsagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UsagesInner.java
+    startLine: 46
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.compute.implementation.api._usages_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public UsagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._usage_inner
+    name: UsageInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.UsageInner
+    href: com.microsoft.azure.management.compute.implementation.api._usage_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._usage_inner
+    name: UsageInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.UsageInner
+    href: com.microsoft.azure.management.compute.implementation.api._usage_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._page_impl1151dc42ccom.microsoft.azure.management.compute.implementation.api._usage_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._page_impl1
+    name: PageImpl1
+    fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl1
+    href: com.microsoft.azure.management.compute.implementation.api._page_impl1.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._usage_inner
+    name: UsageInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.UsageInner
+    href: com.microsoft.azure.management.compute.implementation.api._usage_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner._usages_service
+- uid: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl.yml
+  name: ComputeManagementClientImpl
+  fullName: com.microsoft.azure.management.compute.implementation.api.ComputeManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class ComputeManagementClientImpl
+- uid: com.microsoft.azure.management.compute.implementation.api._usages_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._usages_inner.yml
+  name: UsagesInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.UsagesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Usages. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.compute.implementation.api._usage_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._usage_inner.yml
+  name: UsageInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.UsageInner
+  type: Class
+  summary: <p>Describes Compute <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> Usage. </p>
+  syntax:
+    content: public class UsageInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl1
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl1.yml
+  name: PageImpl1
+  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl1
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl1

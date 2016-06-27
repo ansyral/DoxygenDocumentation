@@ -1,0 +1,158 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+  id: _disk_instance_view
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1a31e3b1319c33cb4827a5245d1c53f91d
+  - com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1a23604ed3118786a336e194da5d92098d
+  - com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1ad3f15f692e5c97b4fd0ace9fedd2f154
+  - com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1a55cd5b76fd0b227a690a8db7ca7d0973
+  href: com.microsoft.azure.management.compute.implementation.api._disk_instance_view.yml
+  langs:
+  - java
+  name: DiskInstanceView
+  fullName: com.microsoft.azure.management.compute.implementation.api.DiskInstanceView
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/DiskInstanceView.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/DiskInstanceView.java
+    startLine: 13
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>The instance view of the disk. </p>
+  syntax: &o1
+    content: public class DiskInstanceView
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1a31e3b1319c33cb4827a5245d1c53f91d
+  id: _disk_instance_view_1a31e3b1319c33cb4827a5245d1c53f91d
+  parent: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+  href: com.microsoft.azure.management.compute.implementation.api._disk_instance_view.yml
+  langs:
+  - java
+  name: name()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.DiskInstanceView.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/DiskInstanceView.java
+    startLine: 29
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1a23604ed3118786a336e194da5d92098d
+  id: _disk_instance_view_1a23604ed3118786a336e194da5d92098d
+  parent: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+  href: com.microsoft.azure.management.compute.implementation.api._disk_instance_view.yml
+  langs:
+  - java
+  name: statuses()
+  fullName: List<InstanceViewStatus> com.microsoft.azure.management.compute.implementation.api.DiskInstanceView.statuses()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/DiskInstanceView.java
+    startLine: 49
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the statuses value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< InstanceViewStatus > statuses()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._instance_view_status9ec3e006
+      description: <p>the statuses value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1ad3f15f692e5c97b4fd0ace9fedd2f154
+  id: _disk_instance_view_1ad3f15f692e5c97b4fd0ace9fedd2f154
+  parent: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+  href: com.microsoft.azure.management.compute.implementation.api._disk_instance_view.yml
+  langs:
+  - java
+  name: withName(String name)
+  fullName: DiskInstanceView com.microsoft.azure.management.compute.implementation.api.DiskInstanceView.withName(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/DiskInstanceView.java
+    startLine: 39
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public DiskInstanceView withName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._disk_instance_view" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_instance_view_1a55cd5b76fd0b227a690a8db7ca7d0973
+  id: _disk_instance_view_1a55cd5b76fd0b227a690a8db7ca7d0973
+  parent: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+  href: com.microsoft.azure.management.compute.implementation.api._disk_instance_view.yml
+  langs:
+  - java
+  name: withStatuses(List< InstanceViewStatus > statuses)
+  fullName: DiskInstanceView com.microsoft.azure.management.compute.implementation.api.DiskInstanceView.withStatuses(List< InstanceViewStatus > statuses)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/DiskInstanceView.java
+    startLine: 59
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the statuses value.</p>
+
+    <p></p>
+  syntax:
+    content: public DiskInstanceView withStatuses(List< InstanceViewStatus > statuses)
+    parameters:
+    - id: statuses
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._instance_view_status9ec3e006
+      description: <p>the statuses value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._disk_instance_view" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._instance_view_status9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._instance_view_status
+    name: InstanceViewStatus
+    fullName: com.microsoft.azure.management.compute.implementation.api.InstanceViewStatus
+    href: com.microsoft.azure.management.compute.implementation.api._instance_view_status.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.compute.implementation.api._instance_view_status
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._instance_view_status.yml
+  name: InstanceViewStatus
+  fullName: com.microsoft.azure.management.compute.implementation.api.InstanceViewStatus
+  type: Class
+  summary: <p>Instance view status. </p>
+  syntax:
+    content: public class InstanceViewStatus
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_instance_view
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._disk_instance_view.yml
+  name: DiskInstanceView
+  fullName: com.microsoft.azure.management.compute.implementation.api.DiskInstanceView
+  type: Class
+  summary: <p>The instance view of the disk. </p>
+  syntax: *o1

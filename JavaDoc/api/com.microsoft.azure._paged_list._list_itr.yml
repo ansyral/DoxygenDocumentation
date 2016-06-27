@@ -1,0 +1,243 @@
+items:
+- uid: com.microsoft.azure._paged_list._list_itr
+  id: _list_itr
+  parent: com.microsoft.azure
+  children:
+  - com.microsoft.azure._paged_list._list_itr_1af5ca14e79701e22608462e371cb8ac24
+  - com.microsoft.azure._paged_list._list_itr_1ac7ccf860fb208d4471c72f02e2cc05b8
+  - com.microsoft.azure._paged_list._list_itr_1a9506998c030b0d3b64eb6b0464883d21
+  - com.microsoft.azure._paged_list._list_itr_1a85d28217ae00998e18c8cad3d2e9232b
+  - com.microsoft.azure._paged_list._list_itr_1a1fd15547827f1b3ba15a67ac61e545b6
+  - com.microsoft.azure._paged_list._list_itr_1a6b8a94bd4f18dc5bd1098858c3d682bd
+  - com.microsoft.azure._paged_list._list_itr_1a6d98be1edbb01d2f97d9d6e1bbf24e1e
+  - com.microsoft.azure._paged_list._list_itr_1a8d50681d71e2fb506a22749e2b33065b
+  - com.microsoft.azure._paged_list._list_itr_1a151c386ed4321db5cf7c190d16252a1b
+  - com.microsoft.azure._paged_list._list_itr_1a00c3ee744966bb8d419da55a978191dd
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: PagedList.ListItr
+  fullName: com.microsoft.azure.PagedList.ListItr
+  type: Class
+  source:
+    remote: &o0
+      path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 120
+  package: com.microsoft.azure
+  summary: <p>The implementation of <ref refid="" kindref="compound">ListIterator</ref> for <xref href="com.microsoft.azure._paged_list" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: private class ListItr
+- uid: com.microsoft.azure._paged_list._list_itr_1af5ca14e79701e22608462e371cb8ac24
+  id: _list_itr_1af5ca14e79701e22608462e371cb8ac24
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: add(E e)
+  fullName: void com.microsoft.azure.PagedList< E >.ListItr.add(E e)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 183
+  package: com.microsoft.azure
+  syntax:
+    content: public void add(E e)
+    parameters:
+    - id: e
+      type: 0ca03e3a
+- uid: com.microsoft.azure._paged_list._list_itr_1ac7ccf860fb208d4471c72f02e2cc05b8
+  id: _list_itr_1ac7ccf860fb208d4471c72f02e2cc05b8
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: hasNext()
+  fullName: boolean com.microsoft.azure.PagedList< E >.ListItr.hasNext()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 134
+  package: com.microsoft.azure
+  syntax:
+    content: public boolean hasNext()
+    return:
+      type: 4fc6e284
+- uid: com.microsoft.azure._paged_list._list_itr_1a9506998c030b0d3b64eb6b0464883d21
+  id: _list_itr_1a9506998c030b0d3b64eb6b0464883d21
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: hasPrevious()
+  fullName: boolean com.microsoft.azure.PagedList< E >.ListItr.hasPrevious()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 158
+  package: com.microsoft.azure
+  syntax:
+    content: public boolean hasPrevious()
+    return:
+      type: 4fc6e284
+- uid: com.microsoft.azure._paged_list._list_itr_1a85d28217ae00998e18c8cad3d2e9232b
+  id: _list_itr_1a85d28217ae00998e18c8cad3d2e9232b
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: ListItr(int index)
+  fullName: com.microsoft.azure.PagedList< E >.ListItr.ListItr(int index)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 129
+  package: com.microsoft.azure
+  summary: >-
+    <p>Creates an instance of the ListIterator.</p>
+
+    <p></p>
+  syntax:
+    content: ListItr(int index)
+    parameters:
+    - id: index
+      type: f75371fa
+      description: <p>the position in the list to start. </p>
+- uid: com.microsoft.azure._paged_list._list_itr_1a1fd15547827f1b3ba15a67ac61e545b6
+  id: _list_itr_1a1fd15547827f1b3ba15a67ac61e545b6
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: next()
+  fullName: E com.microsoft.azure.PagedList< E >.ListItr.next()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 139
+  package: com.microsoft.azure
+  syntax:
+    content: public E next()
+    return:
+      type: 0ca03e3a
+- uid: com.microsoft.azure._paged_list._list_itr_1a6b8a94bd4f18dc5bd1098858c3d682bd
+  id: _list_itr_1a6b8a94bd4f18dc5bd1098858c3d682bd
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: nextIndex()
+  fullName: int com.microsoft.azure.PagedList< E >.ListItr.nextIndex()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 168
+  package: com.microsoft.azure
+  syntax:
+    content: public int nextIndex()
+    return:
+      type: f75371fa
+- uid: com.microsoft.azure._paged_list._list_itr_1a6d98be1edbb01d2f97d9d6e1bbf24e1e
+  id: _list_itr_1a6d98be1edbb01d2f97d9d6e1bbf24e1e
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: previous()
+  fullName: E com.microsoft.azure.PagedList< E >.ListItr.previous()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 163
+  package: com.microsoft.azure
+  syntax:
+    content: public E previous()
+    return:
+      type: 0ca03e3a
+- uid: com.microsoft.azure._paged_list._list_itr_1a8d50681d71e2fb506a22749e2b33065b
+  id: _list_itr_1a8d50681d71e2fb506a22749e2b33065b
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: previousIndex()
+  fullName: int com.microsoft.azure.PagedList< E >.ListItr.previousIndex()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 173
+  package: com.microsoft.azure
+  syntax:
+    content: public int previousIndex()
+    return:
+      type: f75371fa
+- uid: com.microsoft.azure._paged_list._list_itr_1a151c386ed4321db5cf7c190d16252a1b
+  id: _list_itr_1a151c386ed4321db5cf7c190d16252a1b
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: remove()
+  fullName: void com.microsoft.azure.PagedList< E >.ListItr.remove()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 153
+  package: com.microsoft.azure
+  syntax:
+    content: public void remove()
+- uid: com.microsoft.azure._paged_list._list_itr_1a00c3ee744966bb8d419da55a978191dd
+  id: _list_itr_1a00c3ee744966bb8d419da55a978191dd
+  parent: com.microsoft.azure._paged_list._list_itr
+  href: com.microsoft.azure._paged_list._list_itr.yml
+  langs:
+  - java
+  name: set(E e)
+  fullName: void com.microsoft.azure.PagedList< E >.ListItr.set(E e)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
+    startLine: 178
+  package: com.microsoft.azure
+  syntax:
+    content: public void set(E e)
+    parameters:
+    - id: e
+      type: 0ca03e3a
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: 0ca03e3a
+  spec.java:
+  - name: E
+    fullName: E
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList

@@ -1,0 +1,503 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  id: _generic_resources_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  children:
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a5b833543cd154825c59d39df03f0c8af
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a7531232889d0c5b1f8be311e55c62e5b
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1aaa80bba386b965d6edc8af4263277798
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a7de7912cf25fa4221d5eea54cdd0d63f
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a77cd04408a136c60cca4e76c97b20ff2
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1ac09683345d4b88f8e08d0cae42c018aa
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1aa9302aa434ed8d0ae7aebf0d3fb9fd8d
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1afabb303ab571d41a7e39d85ecba83e9a
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a44e8b24a2fac22cf8120a8a7ac333361
+  - com.microsoft.azure.management.resources.implementation._generic_resources_impl_1aa4ed25a188f83212a2ea315321510b18
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: GenericResourcesImpl
+  fullName: com.microsoft.azure.management.resources.implementation.GenericResourcesImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 28
+  package: com.microsoft.azure.management.resources.implementation
+  summary: 'Implementation of the GenericResouces interface. (Internal use only) '
+  syntax:
+    content: class GenericResourcesImpl
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a5b833543cd154825c59d39df03f0c8af
+  id: _generic_resources_impl_1a5b833543cd154825c59d39df03f0c8af
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: GenericResourcesImpl(ResourceManagementClientImpl serviceClient, ResourceManager resourceManager)
+  fullName: com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.GenericResourcesImpl(ResourceManagementClientImpl serviceClient, ResourceManager resourceManager)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 35
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: GenericResourcesImpl(ResourceManagementClientImpl serviceClient, ResourceManager resourceManager)
+    parameters:
+    - id: serviceClient
+      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a7531232889d0c5b1f8be311e55c62e5b
+  id: _generic_resources_impl_1a7531232889d0c5b1f8be311e55c62e5b
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: listByGroup(String groupName)
+  fullName: PagedList<GenericResource> com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.listByGroup(String groupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 42
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public PagedList< GenericResource > listByGroup(String groupName)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._generic_resource9ec3e006
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1aaa80bba386b965d6edc8af4263277798
+  id: _generic_resources_impl_1aaa80bba386b965d6edc8af4263277798
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: define(String name)
+  fullName: GenericResource.DefinitionBlank com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.define(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 47
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public GenericResource.DefinitionBlank define(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: 4d7f83aa
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a7de7912cf25fa4221d5eea54cdd0d63f
+  id: _generic_resources_impl_1a7de7912cf25fa4221d5eea54cdd0d63f
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: checkExistence(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  fullName: boolean com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.checkExistence(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 57
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public boolean checkExistence(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+    - id: resourceProviderNamespace
+      type: "26831127"
+    - id: parentResourcePath
+      type: "26831127"
+    - id: resourceType
+      type: "26831127"
+    - id: resourceName
+      type: "26831127"
+    - id: apiVersion
+      type: "26831127"
+    return:
+      type: 4fc6e284
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a77cd04408a136c60cca4e76c97b20ff2
+  id: _generic_resources_impl_1a77cd04408a136c60cca4e76c97b20ff2
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  fullName: GenericResource com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.get(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 68
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public GenericResource get(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+    - id: resourceProviderNamespace
+      type: "26831127"
+    - id: parentResourcePath
+      type: "26831127"
+    - id: resourceType
+      type: "26831127"
+    - id: resourceName
+      type: "26831127"
+    - id: apiVersion
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._generic_resource
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1ac09683345d4b88f8e08d0cae42c018aa
+  id: _generic_resources_impl_1ac09683345d4b88f8e08d0cae42c018aa
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: moveResources(String sourceResourceGroupName, ResourceGroup targetResourceGroup, List< String > resources)
+  fullName: void com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.moveResources(String sourceResourceGroupName, ResourceGroup targetResourceGroup, List< String > resources)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 85
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public void moveResources(String sourceResourceGroupName, ResourceGroup targetResourceGroup, List< String > resources)
+    parameters:
+    - id: sourceResourceGroupName
+      type: "26831127"
+    - id: targetResourceGroup
+      type: com.microsoft.azure.management.resources._resource_group
+    - id: resources
+      type: f35af49b
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1aa9302aa434ed8d0ae7aebf0d3fb9fd8d
+  id: _generic_resources_impl_1aa9302aa434ed8d0ae7aebf0d3fb9fd8d
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  fullName: void com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.delete(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 93
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public void delete(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+    - id: resourceProviderNamespace
+      type: "26831127"
+    - id: parentResourcePath
+      type: "26831127"
+    - id: resourceType
+      type: "26831127"
+    - id: resourceName
+      type: "26831127"
+    - id: apiVersion
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1afabb303ab571d41a7e39d85ecba83e9a
+  id: _generic_resources_impl_1afabb303ab571d41a7e39d85ecba83e9a
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: getByGroup(String groupName, String name)
+  fullName: GenericResource com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.getByGroup(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 98
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public GenericResource getByGroup(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._generic_resource
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1a44e8b24a2fac22cf8120a8a7ac333361
+  id: _generic_resources_impl_1a44e8b24a2fac22cf8120a8a7ac333361
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: wrapModel(String id)
+  fullName: GenericResourceImpl com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.wrapModel(String id)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 109
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: protected GenericResourceImpl wrapModel(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+    return:
+      type: b27cf1fe
+- uid: com.microsoft.azure.management.resources.implementation._generic_resources_impl_1aa4ed25a188f83212a2ea315321510b18
+  id: _generic_resources_impl_1aa4ed25a188f83212a2ea315321510b18
+  parent: com.microsoft.azure.management.resources.implementation._generic_resources_impl
+  href: com.microsoft.azure.management.resources.implementation._generic_resources_impl.yml
+  langs:
+  - java
+  name: wrapModel(GenericResourceInner inner)
+  fullName: GenericResourceImpl com.microsoft.azure.management.resources.implementation.GenericResourcesImpl.wrapModel(GenericResourceInner inner)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/GenericResourcesImpl.java
+    startLine: 123
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: protected GenericResourceImpl wrapModel(GenericResourceInner inner)
+    parameters:
+    - id: inner
+      type: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+    return:
+      type: b27cf1fe
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._generic_resource9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources._generic_resource
+    name: GenericResource
+    fullName: com.microsoft.azure.management.resources.GenericResource
+    href: com.microsoft.azure.management.resources._generic_resource.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 4d7f83aa
+  spec.java:
+  - name: GenericResource.DefinitionBlank
+    fullName: GenericResource.DefinitionBlank
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: f35af49b
+  spec.java:
+  - name: List< String >
+    fullName: List< String >
+- uid: b27cf1fe
+  spec.java:
+  - name: GenericResourceImpl
+    fullName: GenericResourceImpl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: getById(String id)
+  fullName: final T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.getById(String id)
+  type: Method
+  summary: Gets the information about a resource from Azure based on the resource id.
+  syntax:
+    content: public final T getById(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+      description: 'the id of the resource. '
+    return:
+      type: 8cbc54f7
+      description: 'an immutable representation of the resource '
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  type: Method
+  syntax:
+    content: protected GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+    parameters:
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    - id: innerCollection
+      type: 891f7fcf
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: innerCollection
+  fullName: final InnerCollectionT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.innerCollection
+  type: Field
+  syntax:
+    content: protected final InnerCollectionT innerCollection
+    return:
+      type: 5cd01b93
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: resourceManager
+  fullName: final ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.resourceManager
+  type: Field
+  syntax:
+    content: protected final ResourceManager resourceManager
+    return:
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapList(PagedList< InnerT > pagedList)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(PagedList< InnerT > pagedList)
+  type: Method
+  syntax:
+    content: protected PagedList< T > wrapList(PagedList< InnerT > pagedList)
+    parameters:
+    - id: pagedList
+      type: com.microsoft.azure._paged_list5b074597
+    return:
+      type: com.microsoft.azure._paged_list34132889
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapList(List< InnerT > list)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(List< InnerT > list)
+  type: Method
+  syntax:
+    content: protected PagedList< T > wrapList(List< InnerT > list)
+    parameters:
+    - id: list
+      type: c2cb7003
+    return:
+      type: com.microsoft.azure._paged_list34132889
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapModel(InnerT inner)
+  fullName: abstract ImplT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapModel(InnerT inner)
+  type: Method
+  syntax:
+    content: protected abstract ImplT wrapModel(InnerT inner)
+    parameters:
+    - id: inner
+      type: 52cf8095
+    return:
+      type: afe49e45
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: WrappersImpl()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.WrappersImpl()
+  type: Method
+  syntax:
+    content: protected WrappersImpl()
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: GroupableResourcesImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl
+  type: Class
+  syntax:
+    content: public class GroupableResourcesImpl
+- uid: com.microsoft.azure.management.resources._generic_resources
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._generic_resources.yml
+  name: GenericResources
+  fullName: com.microsoft.azure.management.resources.GenericResources
+  type: Interface
+  summary: 'Entry point to generic resources management API. '
+  syntax:
+    content: public interface GenericResources
+- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
+  name: ResourceManagementClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementClientImpl
+  type: Class
+  summary: 'Initializes a new instance of the ResourceManagementClientImpl class. '
+  syntax:
+    content: public class ResourceManagementClientImpl
+- uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner.yml
+  name: ResourceGroupsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in ResourceGroups. '
+  syntax:
+    content: public class ResourceGroupsInner
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: 'Entry point to Azure resource management. '
+  syntax:
+    content: public class ResourceManager
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.resources._generic_resource
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._generic_resource.yml
+  name: GenericResource
+  fullName: com.microsoft.azure.management.resources.GenericResource
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure generic resource. '
+  syntax:
+    content: public interface GenericResource
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.azure.management.resources._resource_group
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_group.yml
+  name: ResourceGroup
+  fullName: com.microsoft.azure.management.resources.ResourceGroup
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure resource group. '
+  syntax:
+    content: public interface ResourceGroup
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  name: GenericResourceInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+  type: Class
+  summary: 'Resource information. '
+  syntax:
+    content: public class GenericResourceInner

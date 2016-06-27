@@ -1,0 +1,130 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation._usages_impl
+  id: _usages_impl
+  parent: com.microsoft.azure.management.storage.implementation
+  children:
+  - com.microsoft.azure.management.storage.implementation._usages_impl_1ad74037d9fe048a46d20f060f6087c95d
+  - com.microsoft.azure.management.storage.implementation._usages_impl_1abb1f87daa5e0301382d6165bbb433398
+  href: com.microsoft.azure.management.storage.implementation._usages_impl.yml
+  langs:
+  - java
+  name: UsagesImpl
+  fullName: com.microsoft.azure.management.storage.implementation.UsagesImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsagesImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsagesImpl.java
+    startLine: 18
+  package: com.microsoft.azure.management.storage.implementation
+  summary: 'The implementation of Usage and its parent interfaces. '
+  syntax:
+    content: class UsagesImpl
+- uid: com.microsoft.azure.management.storage.implementation._usages_impl_1ad74037d9fe048a46d20f060f6087c95d
+  id: _usages_impl_1ad74037d9fe048a46d20f060f6087c95d
+  parent: com.microsoft.azure.management.storage.implementation._usages_impl
+  href: com.microsoft.azure.management.storage.implementation._usages_impl.yml
+  langs:
+  - java
+  name: UsagesImpl(StorageManagementClientImpl client)
+  fullName: com.microsoft.azure.management.storage.implementation.UsagesImpl.UsagesImpl(StorageManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsagesImpl.java
+    startLine: 22
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: UsagesImpl(StorageManagementClientImpl client)
+    parameters:
+    - id: client
+      type: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
+- uid: com.microsoft.azure.management.storage.implementation._usages_impl_1abb1f87daa5e0301382d6165bbb433398
+  id: _usages_impl_1abb1f87daa5e0301382d6165bbb433398
+  parent: com.microsoft.azure.management.storage.implementation._usages_impl
+  href: com.microsoft.azure.management.storage.implementation._usages_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<Usage> com.microsoft.azure.management.storage.implementation.UsagesImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsagesImpl.java
+    startLine: 27
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public PagedList< Usage > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.storage._usage9ec3e006
+references:
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.storage._usage9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.storage._usage
+    name: Usage
+    fullName: com.microsoft.azure.management.storage.Usage
+    href: com.microsoft.azure.management.storage._usage.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.storage._usages
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usages.yml
+  name: Usages
+  fullName: com.microsoft.azure.management.storage.Usages
+  type: Interface
+  summary: 'Entry point for storage resource usage management API. '
+  syntax:
+    content: public interface Usages
+- uid: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl.yml
+  name: StorageManagementClientImpl
+  fullName: com.microsoft.azure.management.storage.implementation.api.StorageManagementClientImpl
+  type: Class
+  summary: 'Initializes a new instance of the StorageManagementClientImpl class. '
+  syntax:
+    content: public class StorageManagementClientImpl
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.storage._usage
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usage.yml
+  name: Usage
+  fullName: com.microsoft.azure.management.storage.Usage
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure storage resource usage info object. '
+  syntax:
+    content: public interface Usage
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.azure.management.storage.implementation.api._usage
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._usage.yml
+  name: Usage
+  fullName: com.microsoft.azure.management.storage.implementation.api.Usage
+  type: Class
+  summary: 'Describes Storage ResourceUsage. '
+  syntax:
+    content: public class Usage

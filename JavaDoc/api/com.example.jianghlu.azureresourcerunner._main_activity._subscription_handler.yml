@@ -1,0 +1,93 @@
+items:
+- uid: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler
+  id: _subscription_handler
+  parent: com.example.jianghlu.azureresourcerunner
+  children:
+  - com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler_1a59e4ac8fb24019455741b9d4ab2d9426
+  - com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler_1aafdec8889410e83ed85f06389b02ad80
+  href: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler.yml
+  langs:
+  - java
+  name: MainActivity.SubscriptionHandler
+  fullName: com.example.jianghlu.azureresourcerunner.MainActivity.SubscriptionHandler
+  type: Class
+  source:
+    remote: &o0
+      path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
+    startLine: 137
+  package: com.example.jianghlu.azureresourcerunner
+  syntax:
+    content: public class SubscriptionHandler
+- uid: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler_1a59e4ac8fb24019455741b9d4ab2d9426
+  id: _subscription_handler_1a59e4ac8fb24019455741b9d4ab2d9426
+  parent: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler
+  href: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler.yml
+  langs:
+  - java
+  name: handleMessage(Message input)
+  fullName: void com.example.jianghlu.azureresourcerunner.MainActivity.SubscriptionHandler.handleMessage(Message input)
+  type: Method
+  source:
+    remote: *o0
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
+    startLine: 147
+  package: com.example.jianghlu.azureresourcerunner
+  syntax:
+    content: public void handleMessage(Message input)
+    parameters:
+    - id: input
+      type: e78f2a4c
+- uid: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler_1aafdec8889410e83ed85f06389b02ad80
+  id: _subscription_handler_1aafdec8889410e83ed85f06389b02ad80
+  parent: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler
+  href: com.example.jianghlu.azureresourcerunner._main_activity._subscription_handler.yml
+  langs:
+  - java
+  name: SubscriptionHandler(WeakReference< MainActivity > activityRef)
+  fullName: com.example.jianghlu.azureresourcerunner.MainActivity.SubscriptionHandler.SubscriptionHandler(WeakReference< MainActivity > activityRef)
+  type: Method
+  source:
+    remote: *o0
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
+    startLine: 142
+  package: com.example.jianghlu.azureresourcerunner
+  syntax:
+    content: public SubscriptionHandler(WeakReference< MainActivity > activityRef)
+    parameters:
+    - id: activityRef
+      type: 30ec18decom.example.jianghlu.azureresourcerunner._main_activity9ec3e006
+references:
+- uid: 30ec18decom.example.jianghlu.azureresourcerunner._main_activity9ec3e006
+  spec.java:
+  - name: 'WeakReference< '
+    fullName: 'WeakReference< '
+  - uid: com.example.jianghlu.azureresourcerunner._main_activity
+    name: MainActivity
+    fullName: com.example.jianghlu.azureresourcerunner.MainActivity
+    href: com.example.jianghlu.azureresourcerunner._main_activity.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: e78f2a4c
+  spec.java:
+  - name: Message
+    fullName: Message
+- uid: com.example.jianghlu.azureresourcerunner._main_activity
+  parent: com.example.jianghlu.azureresourcerunner
+  href: com.example.jianghlu.azureresourcerunner._main_activity.yml
+  name: MainActivity
+  fullName: com.example.jianghlu.azureresourcerunner.MainActivity
+  type: Class
+  syntax:
+    content: public class MainActivity
+- uid: com.example.jianghlu.azureresourcerunner._subscription_info
+  parent: com.example.jianghlu.azureresourcerunner
+  href: com.example.jianghlu.azureresourcerunner._subscription_info.yml
+  name: SubscriptionInfo
+  fullName: com.example.jianghlu.azureresourcerunner.SubscriptionInfo
+  type: Class
+  summary: <p>Created by jianghlu on 1/14/2016. </p>
+  syntax:
+    content: public class SubscriptionInfo

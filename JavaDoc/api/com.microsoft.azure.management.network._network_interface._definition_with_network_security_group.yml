@@ -1,0 +1,113 @@
+items:
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
+  id: _definition_with_network_security_group
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_security_group_1aafa7a3526a177cc275e89bbe09f2f832
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_security_group_1acbe6a9775194fbb786d3d4126ef0196c
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group.yml
+  langs:
+  - java
+  name: NetworkInterface.DefinitionWithNetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetworkSecurityGroup
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 287
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the network interface definition allowing to associate a network security group. </p>
+  syntax:
+    content: public interface DefinitionWithNetworkSecurityGroup
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group_1aafa7a3526a177cc275e89bbe09f2f832
+  id: _definition_with_network_security_group_1aafa7a3526a177cc275e89bbe09f2f832
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group.yml
+  langs:
+  - java
+  name: withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetworkSecurityGroup.withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 302
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Associates an existing network security group with the network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
+    parameters:
+    - id: networkSecurityGroup
+      type: com.microsoft.azure.management.network._network_security_group
+      description: <p>an existing network security group </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group_1acbe6a9775194fbb786d3d4126ef0196c
+  id: _definition_with_network_security_group_1acbe6a9775194fbb786d3d4126ef0196c
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group.yml
+  langs:
+  - java
+  name: withNewNetworkSecurityGroup(NetworkSecurityGroup.DefinitionCreatable creatable)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetworkSecurityGroup.withNewNetworkSecurityGroup(NetworkSecurityGroup.DefinitionCreatable creatable)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 294
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Create a new network security group to associate with network interface, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withNewNetworkSecurityGroup(NetworkSecurityGroup.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 40d2886b
+      description: <p>a creatable definition for a new network security group </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+references:
+- uid: 40d2886b
+  spec.java:
+  - name: NetworkSecurityGroup.DefinitionCreatable
+    fullName: NetworkSecurityGroup.DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network_interface._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitions.yml
+  name: NetworkInterface.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: NetworkInterface.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network_security_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group.yml
+  name: NetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
+  syntax:
+    content: public interface NetworkSecurityGroup

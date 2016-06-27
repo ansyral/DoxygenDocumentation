@@ -1,0 +1,218 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._usages_inner
+  id: _usages_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._usages_inner_1afccf3b4b418cb42061a9c761bf9d2a8d
+  - com.microsoft.azure.management.website.implementation.api._usages_inner_1af315450912090b5424bbfc2ca4bae350
+  - com.microsoft.azure.management.website.implementation.api._usages_inner_1a3933a8afb20d4efd271052a5d237e0bf
+  href: com.microsoft.azure.management.website.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: UsagesInner
+  fullName: com.microsoft.azure.management.website.implementation.api.UsagesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/UsagesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/UsagesInner.java
+    startLine: 30
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in Usages. </p>
+  syntax: &o1
+    content: public class UsagesInner
+- uid: com.microsoft.azure.management.website.implementation.api._usages_inner_1afccf3b4b418cb42061a9c761bf9d2a8d
+  id: _usages_inner_1afccf3b4b418cb42061a9c761bf9d2a8d
+  parent: com.microsoft.azure.management.website.implementation.api._usages_inner
+  href: com.microsoft.azure.management.website.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: getUsage(String resourceGroupName, String environmentName, String lastId, int batchSize)
+  fullName: ServiceResponse<Object> com.microsoft.azure.management.website.implementation.api.UsagesInner.getUsage(String resourceGroupName, String environmentName, String lastId, int batchSize)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/UsagesInner.java
+    startLine: 70
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Returns usage records for specified subscription and resource groups.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Object > getUsage(String resourceGroupName, String environmentName, String lastId, int batchSize)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: environmentName
+      type: "26831127"
+      description: <p>Environment name </p>
+    - id: lastId
+      type: "26831127"
+      description: <p>Last marker that was returned from the batch </p>
+    - id: batchSize
+      type: f75371fa
+      description: <p>size of the batch to be returned. </p>
+    return:
+      type: com.microsoft.rest._service_response9aef07c3
+      description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._usages_inner_1af315450912090b5424bbfc2ca4bae350
+  id: _usages_inner_1af315450912090b5424bbfc2ca4bae350
+  parent: com.microsoft.azure.management.website.implementation.api._usages_inner
+  href: com.microsoft.azure.management.website.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: getUsageAsync(String resourceGroupName, String environmentName, String lastId, int batchSize, final ServiceCallback< Object > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.UsagesInner.getUsageAsync(String resourceGroupName, String environmentName, String lastId, int batchSize, final ServiceCallback< Object > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/UsagesInner.java
+    startLine: 101
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Returns usage records for specified subscription and resource groups.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getUsageAsync(String resourceGroupName, String environmentName, String lastId, int batchSize, final ServiceCallback< Object > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: environmentName
+      type: "26831127"
+      description: <p>Environment name </p>
+    - id: lastId
+      type: "26831127"
+      description: <p>Last marker that was returned from the batch </p>
+    - id: batchSize
+      type: f75371fa
+      description: <p>size of the batch to be returned. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._usages_inner_1a3933a8afb20d4efd271052a5d237e0bf
+  id: _usages_inner_1a3933a8afb20d4efd271052a5d237e0bf
+  parent: com.microsoft.azure.management.website.implementation.api._usages_inner
+  href: com.microsoft.azure.management.website.implementation.api._usages_inner.yml
+  langs:
+  - java
+  name: UsagesInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  fullName: com.microsoft.azure.management.website.implementation.api.UsagesInner.UsagesInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/UsagesInner.java
+    startLine: 42
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.website.implementation.api._usages_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public UsagesInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.rest._service_response9aef07c3
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: com.microsoft.azure.management.website.implementation.api._usages_inner._usages_service
+- uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
+  name: WebSiteManagementClientImpl
+  fullName: com.microsoft.azure.management.website.implementation.api.WebSiteManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class WebSiteManagementClientImpl
+- uid: com.microsoft.azure.management.website.implementation.api._usages_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._usages_inner.yml
+  name: UsagesInner
+  fullName: com.microsoft.azure.management.website.implementation.api.UsagesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Usages. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback

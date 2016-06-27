@@ -1,0 +1,148 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  id: _win_r_m_listener
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1acce211783990bf7d65448453e4d37097
+  - com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1ac3489b3ea557e9ffdd9424c03873349a
+  - com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1ae270f41ff9a8cc5f2041bc332e276d94
+  - com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1afd1f36e09949e1c3deed0eb59548e33c
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  langs:
+  - java
+  name: WinRMListener
+  fullName: com.microsoft.azure.management.compute.implementation.api.WinRMListener
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMListener.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMListener.java
+    startLine: 12
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Describes Protocol and thumbprint of Windows Remote Management listener. </p>
+  syntax: &o1
+    content: public class WinRMListener
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1acce211783990bf7d65448453e4d37097
+  id: _win_r_m_listener_1acce211783990bf7d65448453e4d37097
+  parent: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  langs:
+  - java
+  name: certificateUrl()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.WinRMListener.certificateUrl()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMListener.java
+    startLine: 50
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the certificateUrl value.</p>
+
+    <p></p>
+  syntax:
+    content: public String certificateUrl()
+    return:
+      type: "26831127"
+      description: <p>the certificateUrl value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1ac3489b3ea557e9ffdd9424c03873349a
+  id: _win_r_m_listener_1ac3489b3ea557e9ffdd9424c03873349a
+  parent: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  langs:
+  - java
+  name: protocol()
+  fullName: ProtocolTypes com.microsoft.azure.management.compute.implementation.api.WinRMListener.protocol()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMListener.java
+    startLine: 30
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the protocol value.</p>
+
+    <p></p>
+  syntax:
+    content: public ProtocolTypes protocol()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._protocol_types
+      description: <p>the protocol value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1ae270f41ff9a8cc5f2041bc332e276d94
+  id: _win_r_m_listener_1ae270f41ff9a8cc5f2041bc332e276d94
+  parent: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  langs:
+  - java
+  name: withCertificateUrl(String certificateUrl)
+  fullName: WinRMListener com.microsoft.azure.management.compute.implementation.api.WinRMListener.withCertificateUrl(String certificateUrl)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMListener.java
+    startLine: 60
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the certificateUrl value.</p>
+
+    <p></p>
+  syntax:
+    content: public WinRMListener withCertificateUrl(String certificateUrl)
+    parameters:
+    - id: certificateUrl
+      type: "26831127"
+      description: <p>the certificateUrl value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._win_r_m_listener" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener_1afd1f36e09949e1c3deed0eb59548e33c
+  id: _win_r_m_listener_1afd1f36e09949e1c3deed0eb59548e33c
+  parent: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  langs:
+  - java
+  name: withProtocol(ProtocolTypes protocol)
+  fullName: WinRMListener com.microsoft.azure.management.compute.implementation.api.WinRMListener.withProtocol(ProtocolTypes protocol)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMListener.java
+    startLine: 40
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the protocol value.</p>
+
+    <p></p>
+  syntax:
+    content: public WinRMListener withProtocol(ProtocolTypes protocol)
+    parameters:
+    - id: protocol
+      type: com.microsoft.azure.management.compute.implementation.api._protocol_types
+      description: <p>the protocol value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._win_r_m_listener" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._protocol_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._protocol_types.yml
+  name: ProtocolTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.ProtocolTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._protocol_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum ProtocolTypes
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  name: WinRMListener
+  fullName: com.microsoft.azure.management.compute.implementation.api.WinRMListener
+  type: Class
+  summary: <p>Describes Protocol and thumbprint of Windows Remote Management listener. </p>
+  syntax: *o1

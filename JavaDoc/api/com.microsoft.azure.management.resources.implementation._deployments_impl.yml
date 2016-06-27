@@ -1,0 +1,423 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl
+  id: _deployments_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  children:
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a28979f36a678d64777a3ec4cfb9fd657
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a4804d4c6bcd5aaea56296c24ee5c337e
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a0631b8b9e306429941415d5e3a5a4e0e
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a01c4ec9fbdcbe34c6db2980121307c1e
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a9b3c7261627e23b1a7e67452782dd510
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a0495083486273f07602d46d0c71f732e
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a83332601e937a90f107904b23f6a321d
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a40cac87c4c025afb2c2fe3c97050b8b2
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a67a79df74a83e7807f1ee6da65baf4b1
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1adc9069bda0ec0e978f0f3e9861e0c56c
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a2c4b545522301492986df398b004b546
+  - com.microsoft.azure.management.resources.implementation._deployments_impl_1a4885ef74197be8cd48a7549d199f4d69
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: DeploymentsImpl
+  fullName: com.microsoft.azure.management.resources.implementation.DeploymentsImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 27
+  package: com.microsoft.azure.management.resources.implementation
+  summary: 'The implementation for Deployments and its parent interfaces. '
+  syntax:
+    content: class DeploymentsImpl
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a28979f36a678d64777a3ec4cfb9fd657
+  id: _deployments_impl_1a28979f36a678d64777a3ec4cfb9fd657
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: DeploymentsImpl(final DeploymentsInner client, final DeploymentOperationsInner deploymentOperationsClient, final ResourceManager resourceManager)
+  fullName: com.microsoft.azure.management.resources.implementation.DeploymentsImpl.DeploymentsImpl(final DeploymentsInner client, final DeploymentOperationsInner deploymentOperationsClient, final ResourceManager resourceManager)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 35
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: DeploymentsImpl(final DeploymentsInner client, final DeploymentOperationsInner deploymentOperationsClient, final ResourceManager resourceManager)
+    parameters:
+    - id: client
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation.api._deployments_inner
+    - id: deploymentOperationsClient
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+    - id: resourceManager
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a4804d4c6bcd5aaea56296c24ee5c337e
+  id: _deployments_impl_1a4804d4c6bcd5aaea56296c24ee5c337e
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<Deployment> com.microsoft.azure.management.resources.implementation.DeploymentsImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 50
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public PagedList< Deployment > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._deployment9ec3e006
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a0631b8b9e306429941415d5e3a5a4e0e
+  id: _deployments_impl_1a0631b8b9e306429941415d5e3a5a4e0e
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: listByGroup(String groupName)
+  fullName: PagedList<Deployment> com.microsoft.azure.management.resources.implementation.DeploymentsImpl.listByGroup(String groupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 60
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public PagedList< Deployment > listByGroup(String groupName)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._deployment9ec3e006
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a01c4ec9fbdcbe34c6db2980121307c1e
+  id: _deployments_impl_1a01c4ec9fbdcbe34c6db2980121307c1e
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: getByName(String name)
+  fullName: Deployment com.microsoft.azure.management.resources.implementation.DeploymentsImpl.getByName(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 65
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Deployment getByName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._deployment
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a9b3c7261627e23b1a7e67452782dd510
+  id: _deployments_impl_1a9b3c7261627e23b1a7e67452782dd510
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: getByGroup(String groupName, String name)
+  fullName: Deployment com.microsoft.azure.management.resources.implementation.DeploymentsImpl.getByGroup(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 80
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Deployment getByGroup(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._deployment
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a0495083486273f07602d46d0c71f732e
+  id: _deployments_impl_1a0495083486273f07602d46d0c71f732e
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: delete(String id)
+  fullName: void com.microsoft.azure.management.resources.implementation.DeploymentsImpl.delete(String id)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 85
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public void delete(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a83332601e937a90f107904b23f6a321d
+  id: _deployments_impl_1a83332601e937a90f107904b23f6a321d
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: delete(String groupName, String name)
+  fullName: void com.microsoft.azure.management.resources.implementation.DeploymentsImpl.delete(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 90
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public void delete(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a40cac87c4c025afb2c2fe3c97050b8b2
+  id: _deployments_impl_1a40cac87c4c025afb2c2fe3c97050b8b2
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: define(String name)
+  fullName: Deployment.DefinitionBlank com.microsoft.azure.management.resources.implementation.DeploymentsImpl.define(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 95
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Deployment.DefinitionBlank define(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: 95e5ac67
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a67a79df74a83e7807f1ee6da65baf4b1
+  id: _deployments_impl_1a67a79df74a83e7807f1ee6da65baf4b1
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: checkExistence(String resourceGroupName, String deploymentName)
+  fullName: boolean com.microsoft.azure.management.resources.implementation.DeploymentsImpl.checkExistence(String resourceGroupName, String deploymentName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 100
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public boolean checkExistence(String resourceGroupName, String deploymentName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+    - id: deploymentName
+      type: "26831127"
+    return:
+      type: 4fc6e284
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1adc9069bda0ec0e978f0f3e9861e0c56c
+  id: _deployments_impl_1adc9069bda0ec0e978f0f3e9861e0c56c
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: getById(String id)
+  fullName: Deployment com.microsoft.azure.management.resources.implementation.DeploymentsImpl.getById(String id)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 117
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Deployment getById(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._deployment
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a2c4b545522301492986df398b004b546
+  id: _deployments_impl_1a2c4b545522301492986df398b004b546
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: createFluentModel(String name)
+  fullName: DeploymentImpl com.microsoft.azure.management.resources.implementation.DeploymentsImpl.createFluentModel(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 104
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: protected DeploymentImpl createFluentModel(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: 9762669b
+- uid: com.microsoft.azure.management.resources.implementation._deployments_impl_1a4885ef74197be8cd48a7549d199f4d69
+  id: _deployments_impl_1a4885ef74197be8cd48a7549d199f4d69
+  parent: com.microsoft.azure.management.resources.implementation._deployments_impl
+  href: com.microsoft.azure.management.resources.implementation._deployments_impl.yml
+  langs:
+  - java
+  name: createFluentModel(DeploymentExtendedInner deploymentExtendedInner)
+  fullName: DeploymentImpl com.microsoft.azure.management.resources.implementation.DeploymentsImpl.createFluentModel(DeploymentExtendedInner deploymentExtendedInner)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentsImpl.java
+    startLine: 112
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: protected DeploymentImpl createFluentModel(DeploymentExtendedInner deploymentExtendedInner)
+    parameters:
+    - id: deploymentExtendedInner
+      type: com.microsoft.azure.management.resources.implementation.api._deployment_extended_inner
+    return:
+      type: 9762669b
+references:
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation.api._deployments_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation.api._deployments_inner
+    name: DeploymentsInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentsInner
+    href: com.microsoft.azure.management.resources.implementation.api._deployments_inner.yml
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+    name: DeploymentOperationsInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentOperationsInner
+    href: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner.yml
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation._resource_manager
+    name: ResourceManager
+    fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+    href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._deployment9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources._deployment
+    name: Deployment
+    fullName: com.microsoft.azure.management.resources.Deployment
+    href: com.microsoft.azure.management.resources._deployment.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 95e5ac67
+  spec.java:
+  - name: Deployment.DefinitionBlank
+    fullName: Deployment.DefinitionBlank
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: 9762669b
+  spec.java:
+  - name: DeploymentImpl
+    fullName: DeploymentImpl
+- uid: com.microsoft.azure.management.resources._deployments
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployments.yml
+  name: Deployments
+  fullName: com.microsoft.azure.management.resources.Deployments
+  type: Interface
+  summary: 'Entry point to template deployment in Azure. '
+  syntax:
+    content: public interface Deployments
+- uid: com.microsoft.azure.management.resources.implementation.api._deployments_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployments_inner.yml
+  name: DeploymentsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentsInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in Deployments. '
+  syntax:
+    content: public class DeploymentsInner
+- uid: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner.yml
+  name: DeploymentOperationsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentOperationsInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in DeploymentOperations. '
+  syntax:
+    content: public class DeploymentOperationsInner
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: 'Entry point to Azure resource management. '
+  syntax:
+    content: public class ResourceManager
+- uid: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter
+  parent: com.microsoft.azure.management.resources.fluentcore.utils
+  href: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter.yml
+  name: PagedListConverter
+  fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter
+  type: Class
+  summary: The base class for converting PagedList of one type of resource to another, without polling down all the items in a list. This converter is useful in converting inner top level resources into fluent top level resources.
+  syntax:
+    content: public class PagedListConverter
+- uid: com.microsoft.azure.management.resources.implementation.api._deployment_extended_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployment_extended_inner.yml
+  name: DeploymentExtendedInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentExtendedInner
+  type: Class
+  summary: 'Deployment information. '
+  syntax:
+    content: public class DeploymentExtendedInner
+- uid: com.microsoft.azure.management.resources._deployment
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment.yml
+  name: Deployment
+  fullName: com.microsoft.azure.management.resources.Deployment
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure deployment. '
+  syntax:
+    content: public interface Deployment
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException

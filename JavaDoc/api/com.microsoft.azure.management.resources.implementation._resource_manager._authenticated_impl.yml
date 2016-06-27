@@ -1,0 +1,161 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl
+  id: _authenticated_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  children:
+  - com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1a90cc9c119517299041f9648d1fad8817
+  - com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1a2e2129d8da302fdee4879e5482e67da2
+  - com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1a397ceeb5da3b4ed719f067dd4fab9172
+  - com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1adb885dfeed96a5788956c7d761da503c
+  href: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl.yml
+  langs:
+  - java
+  name: ResourceManager.AuthenticatedImpl
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager.AuthenticatedImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ResourceManager.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ResourceManager.java
+    startLine: 117
+  package: com.microsoft.azure.management.resources.implementation
+  summary: <p>The implementation for <xref href="com.microsoft.azure.management.resources.implementation._resource_manager._authenticated" data-throw-if-not-resolved="false"></xref> interface. </p>
+  syntax:
+    content: private class AuthenticatedImpl
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1a90cc9c119517299041f9648d1fad8817
+  id: _authenticated_impl_1a90cc9c119517299041f9648d1fad8817
+  parent: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl
+  href: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl.yml
+  langs:
+  - java
+  name: AuthenticatedImpl(RestClient restClient)
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager.AuthenticatedImpl.AuthenticatedImpl(RestClient restClient)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ResourceManager.java
+    startLine: 124
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: AuthenticatedImpl(RestClient restClient)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1a2e2129d8da302fdee4879e5482e67da2
+  id: _authenticated_impl_1a2e2129d8da302fdee4879e5482e67da2
+  parent: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl
+  href: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl.yml
+  langs:
+  - java
+  name: subscriptions()
+  fullName: Subscriptions com.microsoft.azure.management.resources.implementation.ResourceManager.AuthenticatedImpl.subscriptions()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ResourceManager.java
+    startLine: 129
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Subscriptions subscriptions()
+    return:
+      type: com.microsoft.azure.management.resources._subscriptions
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1a397ceeb5da3b4ed719f067dd4fab9172
+  id: _authenticated_impl_1a397ceeb5da3b4ed719f067dd4fab9172
+  parent: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl
+  href: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl.yml
+  langs:
+  - java
+  name: tenants()
+  fullName: Tenants com.microsoft.azure.management.resources.implementation.ResourceManager.AuthenticatedImpl.tenants()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ResourceManager.java
+    startLine: 136
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Tenants tenants()
+    return:
+      type: com.microsoft.azure.management.resources._tenants
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl_1adb885dfeed96a5788956c7d761da503c
+  id: _authenticated_impl_1adb885dfeed96a5788956c7d761da503c
+  parent: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl
+  href: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated_impl.yml
+  langs:
+  - java
+  name: withSubscription(String subscriptionId)
+  fullName: ResourceManager com.microsoft.azure.management.resources.implementation.ResourceManager.AuthenticatedImpl.withSubscription(String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ResourceManager.java
+    startLine: 144
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public ResourceManager withSubscription(String subscriptionId)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager._authenticated.yml
+  name: ResourceManager.Authenticated
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager.Authenticated
+  type: Interface
+  summary: <p>The interface exposing resource management API entry points that work across subscriptions. </p>
+  syntax:
+    content: public interface Authenticated
+- uid: com.microsoft.azure._rest_client
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._rest_client.yml
+  name: RestClient
+  fullName: com.microsoft.azure.RestClient
+  type: Class
+  summary: <p>An instance of this class stores the client information for making REST calls. </p>
+  syntax:
+    content: public class RestClient
+- uid: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl.yml
+  name: SubscriptionClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._subscription_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class SubscriptionClientImpl
+- uid: com.microsoft.azure.management.resources._subscriptions
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._subscriptions.yml
+  name: Subscriptions
+  fullName: com.microsoft.azure.management.resources.Subscriptions
+  type: Interface
+  summary: <p>Entry point to subscription management API. </p>
+  syntax:
+    content: public interface Subscriptions
+- uid: com.microsoft.azure.management.resources._tenants
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._tenants.yml
+  name: Tenants
+  fullName: com.microsoft.azure.management.resources.Tenants
+  type: Interface
+  summary: <p>Entry point to tenant management API. </p>
+  syntax:
+    content: public interface Tenants
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource management. </p>
+  syntax:
+    content: public class ResourceManager

@@ -1,0 +1,138 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  id: _sku_tier
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._sku_tier_1a5dfc7e14b4c6e9d5eac842351597abc1
+  - com.microsoft.azure.management.storage.implementation.api._sku_tier_1a6befe60ab58970da200129fbf2e8c214
+  - com.microsoft.azure.management.storage.implementation.api._sku_tier_1ac1e25a511e0789958ffcb641f0c8b4ab
+  - com.microsoft.azure.management.storage.implementation.api._sku_tier_1a364e23f270a9dc97b0e8f05ee2ed4586
+  - com.microsoft.azure.management.storage.implementation.api._sku_tier_1ad7cffd0de6338e8f00303e70776572cc
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  langs:
+  - java
+  name: SkuTier
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+    startLine: 14
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._sku_tier" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum SkuTier
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier_1a5dfc7e14b4c6e9d5eac842351597abc1
+  id: _sku_tier_1a5dfc7e14b4c6e9d5eac842351597abc1
+  parent: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static SkuTier com.microsoft.azure.management.storage.implementation.api.SkuTier.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+    startLine: 35
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.storage.implementation.api._sku_tier" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static SkuTier fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._sku_tier
+      description: <p>the parsed <xref href="com.microsoft.azure.management.storage.implementation.api._sku_tier" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier_1a6befe60ab58970da200129fbf2e8c214
+  id: _sku_tier_1a6befe60ab58970da200129fbf2e8c214
+  parent: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  langs:
+  - java
+  name: PREMIUM
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier.PREMIUM
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+    startLine: 19
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>Enum value Premium. </p>
+  syntax:
+    content: public PREMIUM=("Premium")
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier_1ac1e25a511e0789958ffcb641f0c8b4ab
+  id: _sku_tier_1ac1e25a511e0789958ffcb641f0c8b4ab
+  parent: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  langs:
+  - java
+  name: SkuTier(String value)
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier.SkuTier(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+    startLine: 24
+  package: com.microsoft.azure.management.storage.implementation.api
+  syntax:
+    content: public SkuTier(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier_1a364e23f270a9dc97b0e8f05ee2ed4586
+  id: _sku_tier_1a364e23f270a9dc97b0e8f05ee2ed4586
+  parent: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  langs:
+  - java
+  name: STANDARD
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier.STANDARD
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+    startLine: 16
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>Enum value Standard. </p>
+  syntax:
+    content: public STANDARD=("Standard")
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier_1ad7cffd0de6338e8f00303e70776572cc
+  id: _sku_tier_1ad7cffd0de6338e8f00303e70776572cc
+  parent: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.storage.implementation.api.SkuTier.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
+    startLine: 47
+  package: com.microsoft.azure.management.storage.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  name: SkuTier
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._sku_tier" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

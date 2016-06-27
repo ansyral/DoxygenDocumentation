@@ -1,0 +1,111 @@
+items:
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  id: _definition_with_destination_address
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a952b37d4c74c1f328ef1acd8446ab406
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  langs:
+  - java
+  name: NetworkSecurityRule.DefinitionWithDestinationAddress
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 265
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationAddress
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
+  id: _definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  langs:
+  - java
+  name: toAddress(String cidr)
+  fullName: DefinitionWithDestinationPort<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress< ParentT >.toAddress(String cidr)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 271
+  package: com.microsoft.azure.management.network
+  summary: <p>Specifies the traffic destination address range to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithDestinationPort< ParentT > toAddress(String cidr)
+    parameters:
+    - id: cidr
+      type: "26831127"
+      description: <p>an IP address range expressed in the CIDR notation </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_porta6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a952b37d4c74c1f328ef1acd8446ab406
+  id: _definition_with_destination_address_1a952b37d4c74c1f328ef1acd8446ab406
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  langs:
+  - java
+  name: toAnyAddress()
+  fullName: DefinitionWithDestinationPort<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress< ParentT >.toAnyAddress()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 277
+  package: com.microsoft.azure.management.network
+  summary: <p>Makes the rule apply to any traffic destination address. </p>
+  syntax:
+    content: public DefinitionWithDestinationPort< ParentT > toAnyAddress()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_porta6da57ba
+      description: <p>the next stage of the security rule definition </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_porta6da57ba
+  spec.java:
+  - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+    name: NetworkSecurityRule.DefinitionWithDestinationPort
+    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort
+    href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  - name: < ParentT >
+    fullName: < ParentT >
+- uid: com.microsoft.azure.management.network._network_security_rule._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
+  name: NetworkSecurityRule.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  type: Interface
+  summary: <p>The entirety of a network security rule definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  name: NetworkSecurityRule.DefinitionWithDestinationPort
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationPort
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>

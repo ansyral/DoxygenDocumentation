@@ -1,0 +1,158 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  id: _server_farm_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1a1232c915fd19799267b71e5e3babedf7
+  - com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1ab9f96219a44b0f94d2e83463261cae78
+  - com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1a8add16f8ddac0663508e78de95c30627
+  - com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1a45d99dbd1cee381f55b46b659e3861b6
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  langs:
+  - java
+  name: ServerFarmCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ServerFarmCollectionInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ServerFarmCollectionInner.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Collection of serverfarms. </p>
+  syntax: &o1
+    content: public class ServerFarmCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1a1232c915fd19799267b71e5e3babedf7
+  id: _server_farm_collection_inner_1a1232c915fd19799267b71e5e3babedf7
+  parent: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  langs:
+  - java
+  name: nextLink()
+  fullName: String com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner.nextLink()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ServerFarmCollectionInner.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public String nextLink()
+    return:
+      type: "26831127"
+      description: <p>the nextLink value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1ab9f96219a44b0f94d2e83463261cae78
+  id: _server_farm_collection_inner_1ab9f96219a44b0f94d2e83463261cae78
+  parent: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: List<ServerFarmWithRichSkuInner> com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ServerFarmCollectionInner.java
+    startLine: 29
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< ServerFarmWithRichSkuInner > value()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner9ec3e006
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1a8add16f8ddac0663508e78de95c30627
+  id: _server_farm_collection_inner_1a8add16f8ddac0663508e78de95c30627
+  parent: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  langs:
+  - java
+  name: withNextLink(String nextLink)
+  fullName: ServerFarmCollectionInner com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner.withNextLink(String nextLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ServerFarmCollectionInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public ServerFarmCollectionInner withNextLink(String nextLink)
+    parameters:
+    - id: nextLink
+      type: "26831127"
+      description: <p>the nextLink value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner_1a45d99dbd1cee381f55b46b659e3861b6
+  id: _server_farm_collection_inner_1a45d99dbd1cee381f55b46b659e3861b6
+  parent: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  langs:
+  - java
+  name: withValue(List< ServerFarmWithRichSkuInner > value)
+  fullName: ServerFarmCollectionInner com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner.withValue(List< ServerFarmWithRichSkuInner > value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ServerFarmCollectionInner.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public ServerFarmCollectionInner withValue(List< ServerFarmWithRichSkuInner > value)
+    parameters:
+    - id: value
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner9ec3e006
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner
+    name: ServerFarmWithRichSkuInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmWithRichSkuInner
+    href: com.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_with_rich_sku_inner.yml
+  name: ServerFarmWithRichSkuInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmWithRichSkuInner
+  type: Class
+  summary: <p>App Service Plan Model. </p>
+  syntax:
+    content: public class ServerFarmWithRichSkuInner
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  name: ServerFarmCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner
+  type: Class
+  summary: <p>Collection of serverfarms. </p>
+  syntax: *o1

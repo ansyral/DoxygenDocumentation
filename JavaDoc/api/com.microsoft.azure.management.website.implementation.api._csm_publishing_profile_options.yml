@@ -1,0 +1,87 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options
+  id: _csm_publishing_profile_options
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options_1aae74a47e004dd19decf1fe9ef70c52b9
+  - com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options_1a7c5077c3e89c96c02b82965215621c00
+  href: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options.yml
+  langs:
+  - java
+  name: CsmPublishingProfileOptions
+  fullName: com.microsoft.azure.management.website.implementation.api.CsmPublishingProfileOptions
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmPublishingProfileOptions.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmPublishingProfileOptions.java
+    startLine: 12
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Publishing options for requested profile. </p>
+  syntax: &o1
+    content: public class CsmPublishingProfileOptions
+- uid: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options_1aae74a47e004dd19decf1fe9ef70c52b9
+  id: _csm_publishing_profile_options_1aae74a47e004dd19decf1fe9ef70c52b9
+  parent: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options
+  href: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options.yml
+  langs:
+  - java
+  name: format()
+  fullName: String com.microsoft.azure.management.website.implementation.api.CsmPublishingProfileOptions.format()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmPublishingProfileOptions.java
+    startLine: 26
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the format value.</p>
+
+    <p></p>
+  syntax:
+    content: public String format()
+    return:
+      type: "26831127"
+      description: <p>the format value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options_1a7c5077c3e89c96c02b82965215621c00
+  id: _csm_publishing_profile_options_1a7c5077c3e89c96c02b82965215621c00
+  parent: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options
+  href: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options.yml
+  langs:
+  - java
+  name: withFormat(String format)
+  fullName: CsmPublishingProfileOptions com.microsoft.azure.management.website.implementation.api.CsmPublishingProfileOptions.withFormat(String format)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmPublishingProfileOptions.java
+    startLine: 36
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the format value.</p>
+
+    <p></p>
+  syntax:
+    content: public CsmPublishingProfileOptions withFormat(String format)
+    parameters:
+    - id: format
+      type: "26831127"
+      description: <p>the format value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._csm_publishing_profile_options.yml
+  name: CsmPublishingProfileOptions
+  fullName: com.microsoft.azure.management.website.implementation.api.CsmPublishingProfileOptions
+  type: Class
+  summary: <p>Publishing options for requested profile. </p>
+  syntax: *o1

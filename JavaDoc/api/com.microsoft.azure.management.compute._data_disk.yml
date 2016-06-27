@@ -1,0 +1,332 @@
+items:
+- uid: com.microsoft.azure.management.compute._data_disk
+  id: _data_disk
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._data_disk_1a31893baabc880a6ae43f96e4aa7059f7
+  - com.microsoft.azure.management.compute._data_disk_1a60c785e721ab298c338fc49c0e036ac7
+  - com.microsoft.azure.management.compute._data_disk_1acb3f53a05969aae391ab9cf808f98db4
+  - com.microsoft.azure.management.compute._data_disk_1a8fd38c893249ebe29ca5d5c4676382d1
+  - com.microsoft.azure.management.compute._data_disk_1a0eefeb5fe3aaab508ee60d1c85a0ae1f
+  - com.microsoft.azure.management.compute._data_disk_1ac8f43aa7c463b204c48bc681e3341e78
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: DataDisk
+  fullName: com.microsoft.azure.management.compute.DataDisk
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 12
+  package: com.microsoft.azure.management.compute
+  summary: <p>A data disk of a virtual machine. </p>
+  syntax:
+    content: public interface DataDisk
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource_1a384971adbe954cdc27906f16028e22d3
+- uid: com.microsoft.azure.management.compute._data_disk_1a31893baabc880a6ae43f96e4aa7059f7
+  id: _data_disk_1a31893baabc880a6ae43f96e4aa7059f7
+  parent: com.microsoft.azure.management.compute._data_disk
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: cachingType()
+  fullName: CachingTypes com.microsoft.azure.management.compute.DataDisk.cachingType()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 42
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Gets the disk caching type. </p>
+
+    <p>possible values are: 'None', 'ReadOnly', 'ReadWrite'</p>
+
+    <p></p>
+  syntax:
+    content: public CachingTypes cachingType()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._caching_types
+      description: <p>the caching type </p>
+- uid: com.microsoft.azure.management.compute._data_disk_1a60c785e721ab298c338fc49c0e036ac7
+  id: _data_disk_1a60c785e721ab298c338fc49c0e036ac7
+  parent: com.microsoft.azure.management.compute._data_disk
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: createOption()
+  fullName: DiskCreateOptionTypes com.microsoft.azure.management.compute.DataDisk.createOption()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 65
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Gets the create option used while creating this disk. </p>
+
+    <p>Possible values include: 'fromImage', 'empty', 'attach' 'fromImage' - if data disk was created from a user image 'attach' - if an existing vhd was usd to back the data disk 'empty' - if the disk was created as an empty disk when disk is created using 'fromImage' option, a copy of user image vhd will be created first and it will be used as the vhd to back the data disk</p>
+
+    <p></p>
+  syntax:
+    content: public DiskCreateOptionTypes createOption()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._disk_create_option_types
+      description: <p>disk create option </p>
+- uid: com.microsoft.azure.management.compute._data_disk_1acb3f53a05969aae391ab9cf808f98db4
+  id: _data_disk_1acb3f53a05969aae391ab9cf808f98db4
+  parent: com.microsoft.azure.management.compute._data_disk
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: lun()
+  fullName: int com.microsoft.azure.management.compute.DataDisk.lun()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 28
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public int lun()
+    return:
+      type: f75371fa
+      description: <p>the logical unit number assigned to this data disk </p>
+- uid: com.microsoft.azure.management.compute._data_disk_1a8fd38c893249ebe29ca5d5c4676382d1
+  id: _data_disk_1a8fd38c893249ebe29ca5d5c4676382d1
+  parent: com.microsoft.azure.management.compute._data_disk
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: size()
+  fullName: int com.microsoft.azure.management.compute.DataDisk.size()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 23
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public int size()
+    return:
+      type: f75371fa
+      description: <p>the size of this data disk in GB </p>
+- uid: com.microsoft.azure.management.compute._data_disk_1a0eefeb5fe3aaab508ee60d1c85a0ae1f
+  id: _data_disk_1a0eefeb5fe3aaab508ee60d1c85a0ae1f
+  parent: com.microsoft.azure.management.compute._data_disk
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: sourceImageUri()
+  fullName: String com.microsoft.azure.management.compute.DataDisk.sourceImageUri()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 51
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>uri to the source virtual hard disk user image from which this disk was created. </p>
+
+    <p>null will be returned if this disk is not based on an image</p>
+
+    <p></p>
+  syntax:
+    content: public String sourceImageUri()
+    return:
+      type: "26831127"
+      description: <p>the uri of the source vhd image </p>
+- uid: com.microsoft.azure.management.compute._data_disk_1ac8f43aa7c463b204c48bc681e3341e78
+  id: _data_disk_1ac8f43aa7c463b204c48bc681e3341e78
+  parent: com.microsoft.azure.management.compute._data_disk
+  href: com.microsoft.azure.management.compute._data_disk.yml
+  langs:
+  - java
+  name: vhdUri()
+  fullName: String com.microsoft.azure.management.compute.DataDisk.vhdUri()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 33
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public String vhdUri()
+    return:
+      type: "26831127"
+      description: <p>uri to the virtual hard disk backing this data disk </p>
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
+  parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
+  name: inner()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Wrapper< T >.inner()
+  type: Method
+  syntax:
+    content: public T inner()
+    return:
+      type: 8ce1ecb9
+      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> REST API </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  name: key()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource_1a384971adbe954cdc27906f16028e22d3
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
+  name: name()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource.name()
+  type: Method
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name of the child resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
+  name: Wrapper
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Wrapper
+  type: Interface
+  summary: >-
+    <p>The wrapper around an inner object providing extended functionalities.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Wrapper
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
+  name: ChildResource
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource
+  type: Interface
+  summary: <p>Base interface used by child resources. </p>
+  syntax:
+    content: public interface ChildResource
+- uid: com.microsoft.azure.management.compute.implementation._data_disk_impl
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
+  name: DataDisk.DefinitionAttachable
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The stage of the data disk definition which contains all the minimum required inputs for the resource to be attached (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk.yml
+  name: DataDisk.DefinitionAttachExistingDataDisk
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachExistingDataDisk
+  type: Interface
+  summary: >-
+    <p>The first stage of attaching an existing disk as data disk and configuring it.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachExistingDataDisk
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk.yml
+  name: DataDisk.DefinitionAttachNewDataDisk
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachNewDataDisk
+  type: Interface
+  summary: >-
+    <p>The first stage of new data disk configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachNewDataDisk
+- uid: com.microsoft.azure.management.compute._data_disk._definitions
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definitions.yml
+  name: DataDisk.Definitions
+  fullName: com.microsoft.azure.management.compute.DataDisk.Definitions
+  type: Interface
+  summary: >-
+    <p>Container interface for all the definitions.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
+  name: DataDisk.DefinitionWithOptionalConfiguration
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionWithOptionalConfiguration
+  type: Interface
+  summary: >-
+    <p>The stage of the data disk configuration allowing to specify optionals common for new and attachable existing data disks.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithOptionalConfiguration
+- uid: com.microsoft.azure.management.compute._data_disk._definition_with_store_at
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_with_store_at.yml
+  name: DataDisk.DefinitionWithStoreAt
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionWithStoreAt
+  type: Interface
+  summary: >-
+    <p>The stage of the data disk configuration allowing to specify location to store the VHD.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithStoreAt
+- uid: com.microsoft.azure.management.compute._data_disk._update
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._update.yml
+  name: DataDisk.Update
+  fullName: com.microsoft.azure.management.compute.DataDisk.Update
+  type: Interface
+  summary: >-
+    <p>The template for a data disk update operation, containing all the settings that can be modified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.compute.implementation.api._caching_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml
+  name: CachingTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.CachingTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._caching_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum CachingTypes
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_create_option_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._disk_create_option_types.yml
+  name: DiskCreateOptionTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.DiskCreateOptionTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._disk_create_option_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum DiskCreateOptionTypes

@@ -1,0 +1,139 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._slot_config_names
+  id: _slot_config_names
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._slot_config_names_1a741f9ed3f264c5852e3f9cde91a24809
+  - com.microsoft.azure.management.website.implementation.api._slot_config_names_1a75988b5ace50dc7cd881cb6d7fd39040
+  - com.microsoft.azure.management.website.implementation.api._slot_config_names_1a26118288c9384d184c86ab402126080b
+  - com.microsoft.azure.management.website.implementation.api._slot_config_names_1a33dbcbca6c922f14eab1be6ebb956ca9
+  href: com.microsoft.azure.management.website.implementation.api._slot_config_names.yml
+  langs:
+  - java
+  name: SlotConfigNames
+  fullName: com.microsoft.azure.management.website.implementation.api.SlotConfigNames
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SlotConfigNames.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SlotConfigNames.java
+    startLine: 16
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Class containing names for connection strings and application settings to be marked as sticky to the slot and not moved during swap operation This is valid for all deployment slots under the site. </p>
+  syntax: &o1
+    content: public class SlotConfigNames
+- uid: com.microsoft.azure.management.website.implementation.api._slot_config_names_1a741f9ed3f264c5852e3f9cde91a24809
+  id: _slot_config_names_1a741f9ed3f264c5852e3f9cde91a24809
+  parent: com.microsoft.azure.management.website.implementation.api._slot_config_names
+  href: com.microsoft.azure.management.website.implementation.api._slot_config_names.yml
+  langs:
+  - java
+  name: appSettingNames()
+  fullName: List<String> com.microsoft.azure.management.website.implementation.api.SlotConfigNames.appSettingNames()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SlotConfigNames.java
+    startLine: 52
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the appSettingNames value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< String > appSettingNames()
+    return:
+      type: f35af49b
+      description: <p>the appSettingNames value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._slot_config_names_1a75988b5ace50dc7cd881cb6d7fd39040
+  id: _slot_config_names_1a75988b5ace50dc7cd881cb6d7fd39040
+  parent: com.microsoft.azure.management.website.implementation.api._slot_config_names
+  href: com.microsoft.azure.management.website.implementation.api._slot_config_names.yml
+  langs:
+  - java
+  name: connectionStringNames()
+  fullName: List<String> com.microsoft.azure.management.website.implementation.api.SlotConfigNames.connectionStringNames()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SlotConfigNames.java
+    startLine: 32
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the connectionStringNames value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< String > connectionStringNames()
+    return:
+      type: f35af49b
+      description: <p>the connectionStringNames value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._slot_config_names_1a26118288c9384d184c86ab402126080b
+  id: _slot_config_names_1a26118288c9384d184c86ab402126080b
+  parent: com.microsoft.azure.management.website.implementation.api._slot_config_names
+  href: com.microsoft.azure.management.website.implementation.api._slot_config_names.yml
+  langs:
+  - java
+  name: withAppSettingNames(List< String > appSettingNames)
+  fullName: SlotConfigNames com.microsoft.azure.management.website.implementation.api.SlotConfigNames.withAppSettingNames(List< String > appSettingNames)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SlotConfigNames.java
+    startLine: 62
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the appSettingNames value.</p>
+
+    <p></p>
+  syntax:
+    content: public SlotConfigNames withAppSettingNames(List< String > appSettingNames)
+    parameters:
+    - id: appSettingNames
+      type: f35af49b
+      description: <p>the appSettingNames value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._slot_config_names
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._slot_config_names" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._slot_config_names_1a33dbcbca6c922f14eab1be6ebb956ca9
+  id: _slot_config_names_1a33dbcbca6c922f14eab1be6ebb956ca9
+  parent: com.microsoft.azure.management.website.implementation.api._slot_config_names
+  href: com.microsoft.azure.management.website.implementation.api._slot_config_names.yml
+  langs:
+  - java
+  name: withConnectionStringNames(List< String > connectionStringNames)
+  fullName: SlotConfigNames com.microsoft.azure.management.website.implementation.api.SlotConfigNames.withConnectionStringNames(List< String > connectionStringNames)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SlotConfigNames.java
+    startLine: 42
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the connectionStringNames value.</p>
+
+    <p></p>
+  syntax:
+    content: public SlotConfigNames withConnectionStringNames(List< String > connectionStringNames)
+    parameters:
+    - id: connectionStringNames
+      type: f35af49b
+      description: <p>the connectionStringNames value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._slot_config_names
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._slot_config_names" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f35af49b
+  spec.java:
+  - name: List< String >
+    fullName: List< String >
+- uid: com.microsoft.azure.management.website.implementation.api._slot_config_names
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._slot_config_names.yml
+  name: SlotConfigNames
+  fullName: com.microsoft.azure.management.website.implementation.api.SlotConfigNames
+  type: Class
+  summary: <p>Class containing names for connection strings and application settings to be marked as sticky to the slot and not moved during swap operation This is valid for all deployment slots under the site. </p>
+  syntax: *o1

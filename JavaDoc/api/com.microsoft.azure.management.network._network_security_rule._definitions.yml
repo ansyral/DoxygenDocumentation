@@ -1,0 +1,376 @@
+items:
+- uid: com.microsoft.azure.management.network._network_security_rule._definitions
+  id: _definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
+  langs:
+  - java
+  name: NetworkSecurityRule.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  type: Interface
+  source:
+    remote:
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 167
+  package: com.microsoft.azure.management.network
+  summary: <p>The entirety of a network security rule definition. </p>
+  syntax:
+    content: public interface Definitions
+  inheritance:
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  - com.microsoft.azure.management.network._network_security_rule._definition_blank
+  inheritedMembers:
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a668ca373405e51a9510947abaed11b0f
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a0dcfe6a13db08833d803946ddb8f8440
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a79104fcb7eff8aa25d4adf570c17706b
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a77db2acce8f1892bd0e0b170651175cc
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_address_1a4eb09ad2bc1391710ca93d967b311873
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_address_1a4fbd89611900d19291a8fb5cb9f28ca9
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a644966b33bcc629f67fcffc570422b8c
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a6182738e7a5139a13f16f37625312382
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1aeba7e9a37c5401415aff7ce1365f5a18
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a952b37d4c74c1f328ef1acd8446ab406
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port_1a5f41df45f380e8b9ed20ac4a196c45bf
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port_1ad4746c1e0528bc4b3ed57cbd2d190d63
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port_1aed8281a0fb43d842666f30ef974a0a81
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a4e4bff2ea3e968999e0a77aa791fad97
+  - com.microsoft.azure.management.network._network_security_rule._definition_attachable_1a33280b348be95540aff240af05b12e49
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a7bee3eed2c97349ab85045fb00134316
+references:
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a668ca373405e51a9510947abaed11b0f
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
+  name: allowInbound()
+  fullName: DefinitionWithSourceAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess< ParentT >.allowInbound()
+  type: Method
+  summary: <p>Allows inbound traffic. </p>
+  syntax:
+    content: public DefinitionWithSourceAddress< ParentT > allowInbound()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a0dcfe6a13db08833d803946ddb8f8440
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
+  name: allowOutbound()
+  fullName: DefinitionWithSourceAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess< ParentT >.allowOutbound()
+  type: Method
+  summary: <p>Allows outbound traffic. </p>
+  syntax:
+    content: public DefinitionWithSourceAddress< ParentT > allowOutbound()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a79104fcb7eff8aa25d4adf570c17706b
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
+  name: denyInbound()
+  fullName: DefinitionWithSourceAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess< ParentT >.denyInbound()
+  type: Method
+  summary: <p>Blocks inbound traffic. </p>
+  syntax:
+    content: public DefinitionWithSourceAddress< ParentT > denyInbound()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a77db2acce8f1892bd0e0b170651175cc
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
+  name: denyOutbound()
+  fullName: DefinitionWithSourceAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess< ParentT >.denyOutbound()
+  type: Method
+  summary: <p>Blocks outbound traffic. </p>
+  syntax:
+    content: public DefinitionWithSourceAddress< ParentT > denyOutbound()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address_1a4eb09ad2bc1391710ca93d967b311873
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
+  name: fromAddress(String cidr)
+  fullName: DefinitionWithSourcePort<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress< ParentT >.fromAddress(String cidr)
+  type: Method
+  summary: <p>Specifies the traffic source address prefix to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithSourcePort< ParentT > fromAddress(String cidr)
+    parameters:
+    - id: cidr
+      type: "26831127"
+      description: <p>an IP address prefix expressed in the CIDR notation </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_porta6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address_1a4fbd89611900d19291a8fb5cb9f28ca9
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
+  name: fromAnyAddress()
+  fullName: DefinitionWithSourcePort<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress< ParentT >.fromAnyAddress()
+  type: Method
+  summary: <p>Specifies that the rule applies to any traffic source address. </p>
+  syntax:
+    content: public DefinitionWithSourcePort< ParentT > fromAnyAddress()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_porta6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a644966b33bcc629f67fcffc570422b8c
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  name: fromAnyPort()
+  fullName: DefinitionWithDestinationAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort< ParentT >.fromAnyPort()
+  type: Method
+  summary: <p>Makes this rule apply to any source port. </p>
+  syntax:
+    content: public DefinitionWithDestinationAddress< ParentT > fromAnyPort()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a6182738e7a5139a13f16f37625312382
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  name: fromPort(int port)
+  fullName: DefinitionWithDestinationAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort< ParentT >.fromPort(int port)
+  type: Method
+  summary: <p>Specifies the source port to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithDestinationAddress< ParentT > fromPort(int port)
+    parameters:
+    - id: port
+      type: f75371fa
+      description: <p>the source port number </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1aeba7e9a37c5401415aff7ce1365f5a18
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  name: fromPortRange(int from, int to)
+  fullName: DefinitionWithDestinationAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort< ParentT >.fromPortRange(int from, int to)
+  type: Method
+  summary: <p>Specifies the source port range to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithDestinationAddress< ParentT > fromPortRange(int from, int to)
+    parameters:
+    - id: from
+      type: f75371fa
+      description: <p>the starting port number </p>
+    - id: to
+      type: f75371fa
+      description: <p>the ending port number </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  name: toAddress(String cidr)
+  fullName: DefinitionWithDestinationPort<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress< ParentT >.toAddress(String cidr)
+  type: Method
+  summary: <p>Specifies the traffic destination address range to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithDestinationPort< ParentT > toAddress(String cidr)
+    parameters:
+    - id: cidr
+      type: "26831127"
+      description: <p>an IP address range expressed in the CIDR notation </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_porta6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a952b37d4c74c1f328ef1acd8446ab406
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  name: toAnyAddress()
+  fullName: DefinitionWithDestinationPort<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress< ParentT >.toAnyAddress()
+  type: Method
+  summary: <p>Makes the rule apply to any traffic destination address. </p>
+  syntax:
+    content: public DefinitionWithDestinationPort< ParentT > toAnyAddress()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_porta6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port_1a5f41df45f380e8b9ed20ac4a196c45bf
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  name: toAnyPort()
+  fullName: DefinitionWithProtocol<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort< ParentT >.toAnyPort()
+  type: Method
+  summary: <p>Makes this rule apply to any destination port. </p>
+  syntax:
+    content: public DefinitionWithProtocol< ParentT > toAnyPort()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_protocola6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port_1ad4746c1e0528bc4b3ed57cbd2d190d63
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  name: toPort(int port)
+  fullName: DefinitionWithProtocol<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort< ParentT >.toPort(int port)
+  type: Method
+  summary: <p>Specifies the destination port to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithProtocol< ParentT > toPort(int port)
+    parameters:
+    - id: port
+      type: f75371fa
+      description: <p>the destination port number </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_protocola6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port_1aed8281a0fb43d842666f30ef974a0a81
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  name: toPortRange(int from, int to)
+  fullName: DefinitionWithProtocol<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort< ParentT >.toPortRange(int from, int to)
+  type: Method
+  summary: <p>Specifies the destination port range to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithProtocol< ParentT > toPortRange(int from, int to)
+    parameters:
+    - id: from
+      type: f75371fa
+      description: <p>the starting port number </p>
+    - id: to
+      type: f75371fa
+      description: <p>the ending port number </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_protocola6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a4e4bff2ea3e968999e0a77aa791fad97
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  name: withAnyProtocol()
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol< ParentT >.withAnyProtocol()
+  type: Method
+  summary: <p>Makes this rule apply to any supported protocol. </p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withAnyProtocol()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable_1a33280b348be95540aff240af05b12e49
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_attachable
+  href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
+  name: withPriority(int priority)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable< ParentT >.withPriority(int priority)
+  type: Method
+  summary: >-
+    <p>Specifies the priority to assign to this rule. </p>
+
+    <p>Security rules are applied in the order of their assigned priority. </p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withPriority(int priority)
+    parameters:
+    - id: priority
+      type: f75371fa
+      description: <p>the priority number in the range 100 to 4096 </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
+      description: <p>the next stage of the update </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a7bee3eed2c97349ab85045fb00134316
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  name: withProtocol(Protocol protocol)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol< ParentT >.withProtocol(Protocol protocol)
+  type: Method
+  summary: <p>Specifies the protocol that this rule applies to. </p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withProtocol(Protocol protocol)
+    parameters:
+    - id: protocol
+      type: com.microsoft.azure.management.network._network_security_rule._protocol
+      description: <p>one of the supported protocols </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_blank.yml
+  name: NetworkSecurityRule.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of the subnet definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
+  name: NetworkSecurityRule.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the security rule definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
+  name: NetworkSecurityRule.DefinitionWithDirectionAccess
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the direction and the access type to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDirectionAccess
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  name: NetworkSecurityRule.DefinitionWithProtocol
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol
+  type: Interface
+  summary: <p>The stage of the security rule definition allowing the protocol that the rule applies to to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithProtocol
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
+  name: NetworkSecurityRule.DefinitionWithSourceAddress
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithSourceAddress
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  name: NetworkSecurityRule.DefinitionWithSourcePort
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the source port(s) to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithSourcePort
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  name: NetworkSecurityRule.DefinitionWithDestinationAddress
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationAddress
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  name: NetworkSecurityRule.DefinitionWithDestinationPort
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationPort

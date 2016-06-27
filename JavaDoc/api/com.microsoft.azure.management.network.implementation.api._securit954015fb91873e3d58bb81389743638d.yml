@@ -1,0 +1,308 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  id: _securit954015fb91873e3d58bb81389743638d
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a6704c57bab95852f2b610f6028cb605d
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1aa10ce83d2f50002ac622e26113439597
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a48a2984fa16d5f80417a1ff23b07deca
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a442812552971e23a588bb7440d267bb4
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a7ab1ead3e0b3c24dd727f83a7b816b42
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a5ac76ca165c529ee1389acaf9780815f
+  - com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a98269d947aad2a6d7e641de7fa1e6f20
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: SecurityRulesInner.SecurityRulesService
+  fullName: com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: 'The interface defining all the services for SecurityRules to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface SecurityRulesInner.SecurityRulesService
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a6704c57bab95852f2b610f6028cb605d
+  id: _securit954015fb91873e3d58bb81389743638d_1a6704c57bab95852f2b610f6028cb605d
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: securityRuleName
+      type: 147ee5da
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1aa10ce83d2f50002ac622e26113439597
+  id: _securit954015fb91873e3d58bb81389743638d_1aa10ce83d2f50002ac622e26113439597
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: securityRuleName
+      type: 147ee5da
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a48a2984fa16d5f80417a1ff23b07deca
+  id: _securit954015fb91873e3d58bb81389743638d_1a48a2984fa16d5f80417a1ff23b07deca
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.get(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: securityRuleName
+      type: 147ee5da
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a442812552971e23a588bb7440d267bb4
+  id: _securit954015fb91873e3d58bb81389743638d_1a442812552971e23a588bb7440d267bb4
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Body SecurityRuleInner securityRuleParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Body SecurityRuleInner securityRuleParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Body SecurityRuleInner securityRuleParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: securityRuleName
+      type: 147ee5da
+    - id: subscriptionId
+      type: a014476f
+    - id: securityRuleParameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._security_rule_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a7ab1ead3e0b3c24dd727f83a7b816b42
+  id: _securit954015fb91873e3d58bb81389743638d_1a7ab1ead3e0b3c24dd727f83a7b816b42
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Body SecurityRuleInner securityRuleParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Body SecurityRuleInner securityRuleParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("securityRuleName") String securityRuleName,@Path("subscriptionId") String subscriptionId,@Body SecurityRuleInner securityRuleParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: securityRuleName
+      type: 147ee5da
+    - id: subscriptionId
+      type: a014476f
+    - id: securityRuleParameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._security_rule_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a5ac76ca165c529ee1389acaf9780815f
+  id: _securit954015fb91873e3d58bb81389743638d_1a5ac76ca165c529ee1389acaf9780815f
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.list(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d_1a98269d947aad2a6d7e641de7fa1e6f20
+  id: _securit954015fb91873e3d58bb81389743638d_1a98269d947aad2a6d7e641de7fa1e6f20
+  parent: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d
+  href: com.microsoft.azure.management.network.implementation.api._securit954015fb91873e3d58bb81389743638d.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.SecurityRulesInner.SecurityRulesService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/SecurityRulesInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: 6a8664c0
+  spec.java:
+  - name: '@Path("networkSecurityGroupName") String'
+    fullName: '@Path("networkSecurityGroupName") String'
+- uid: 147ee5da
+  spec.java:
+  - name: '@Path("securityRuleName") String'
+    fullName: '@Path("securityRuleName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 96b6cf22com.microsoft.azure.management.network.implementation.api._security_rule_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.network.implementation.api._security_rule_inner
+    name: SecurityRuleInner
+    fullName: com.microsoft.azure.management.network.implementation.api.SecurityRuleInner
+    href: com.microsoft.azure.management.network.implementation.api._security_rule_inner.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.network.implementation.api._security_rule_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._security_rule_inner.yml
+  name: SecurityRuleInner
+  fullName: com.microsoft.azure.management.network.implementation.api.SecurityRuleInner
+  type: Class
+  summary: 'Network security rule. '
+  syntax:
+    content: public class SecurityRuleInner

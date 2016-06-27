@@ -1,0 +1,87 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._hardware_profile
+  id: _hardware_profile
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._hardware_profile_1a538ad9cc7a7d7fb895497c4c49a5c5f4
+  - com.microsoft.azure.management.compute.implementation.api._hardware_profile_1af114a632cc5530f9ab9b0eb7a447065b
+  href: com.microsoft.azure.management.compute.implementation.api._hardware_profile.yml
+  langs:
+  - java
+  name: HardwareProfile
+  fullName: com.microsoft.azure.management.compute.implementation.api.HardwareProfile
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/HardwareProfile.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/HardwareProfile.java
+    startLine: 12
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Describes a hardware profile. </p>
+  syntax: &o1
+    content: public class HardwareProfile
+- uid: com.microsoft.azure.management.compute.implementation.api._hardware_profile_1a538ad9cc7a7d7fb895497c4c49a5c5f4
+  id: _hardware_profile_1a538ad9cc7a7d7fb895497c4c49a5c5f4
+  parent: com.microsoft.azure.management.compute.implementation.api._hardware_profile
+  href: com.microsoft.azure.management.compute.implementation.api._hardware_profile.yml
+  langs:
+  - java
+  name: vmSize()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.HardwareProfile.vmSize()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/HardwareProfile.java
+    startLine: 36
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the vmSize value.</p>
+
+    <p></p>
+  syntax:
+    content: public String vmSize()
+    return:
+      type: "26831127"
+      description: <p>the vmSize value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._hardware_profile_1af114a632cc5530f9ab9b0eb7a447065b
+  id: _hardware_profile_1af114a632cc5530f9ab9b0eb7a447065b
+  parent: com.microsoft.azure.management.compute.implementation.api._hardware_profile
+  href: com.microsoft.azure.management.compute.implementation.api._hardware_profile.yml
+  langs:
+  - java
+  name: withVmSize(String vmSize)
+  fullName: HardwareProfile com.microsoft.azure.management.compute.implementation.api.HardwareProfile.withVmSize(String vmSize)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/HardwareProfile.java
+    startLine: 46
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the vmSize value.</p>
+
+    <p></p>
+  syntax:
+    content: public HardwareProfile withVmSize(String vmSize)
+    parameters:
+    - id: vmSize
+      type: "26831127"
+      description: <p>the vmSize value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._hardware_profile
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._hardware_profile" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._hardware_profile
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._hardware_profile.yml
+  name: HardwareProfile
+  fullName: com.microsoft.azure.management.compute.implementation.api.HardwareProfile
+  type: Class
+  summary: <p>Describes a hardware profile. </p>
+  syntax: *o1

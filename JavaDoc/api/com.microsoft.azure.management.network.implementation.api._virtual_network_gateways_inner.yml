@@ -1,0 +1,1043 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  id: _virtual_network_gateways_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a7e4df1ff8bfc0af5d513ced42b91b36c
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1af26b607bdc4f830b73c64f6d30d87178
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a3b40eaa77047909dcae8299bb473aa61
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ac1a9cc948db29fbc5b8baeeca64c4fef
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ab62a91c38046e9fcccbe2af311bc999e
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a4cd85fa526f992e19ed2a06c08b5be77
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a96099bbdfab5033b94330e4542c9d1cf
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1aff47b5eb50049858ae6e157686e6ced1
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1aad5e7a86277b7d4416657e41d07914a3
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a8d379b8ad2122a6896abfb70bb4c5257
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a23b9f51ec1ed2d776a254bd050dfe04b
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1abebb925e2ceb0e7e8ae85ef1489da730
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ad6841f0286b2b1be2daa486b0142ba97
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a563c546a92c1c227273b98100749292b
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1adeff5eb818960a7d7381ee119a6c90e7
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a643f92518342426eb3865e7d038aee7c
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1af14edbf6ebb4b40702064c8e0047b49f
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a72d233217b409f11d355616f7ba26541
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a266cd22e299368d37a1c47c84966eb9e
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ad2aa7347fe812c22f0ff917937c8347b
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a1ebea59443774175126171f29ae3ff9d
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ac332ee9367b365d4adbec5f06f0760f2
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a4d0c9cd2d748880e01e7b52c7e6a5a73
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: VirtualNetworkGatewaysInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 41
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in VirtualNetworkGateways. </p>
+  syntax: &o1
+    content: public class VirtualNetworkGatewaysInner
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a7e4df1ff8bfc0af5d513ced42b91b36c
+  id: _virtual_network_gateways_inner_1a7e4df1ff8bfc0af5d513ced42b91b36c
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  fullName: ServiceResponse<VirtualNetworkGatewayInner> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.beginCreateOrUpdate(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 194
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put VirtualNetworkGateway operation creates/updates a virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualNetworkGatewayInner > beginCreateOrUpdate(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Create or update Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1af26b607bdc4f830b73c64f6d30d87178
+  id: _virtual_network_gateways_inner_1af26b607bdc4f830b73c64f6d30d87178
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.beginCreateOrUpdateAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 225
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put VirtualNetworkGateway operation creates/updates a virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Create or update Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a3b40eaa77047909dcae8299bb473aa61
+  id: _virtual_network_gateways_inner_1a3b40eaa77047909dcae8299bb473aa61
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String virtualNetworkGatewayName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.beginDelete(String resourceGroupName, String virtualNetworkGatewayName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 429
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete VirtualNetworkGateway operation deletes the specifed virtual network Gateway through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String virtualNetworkGatewayName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ac1a9cc948db29fbc5b8baeeca64c4fef
+  id: _virtual_network_gateways_inner_1ac1a9cc948db29fbc5b8baeeca64c4fef
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.beginDeleteAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 455
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete VirtualNetworkGateway operation deletes the specifed virtual network Gateway through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ab62a91c38046e9fcccbe2af311bc999e
+  id: _virtual_network_gateways_inner_1ab62a91c38046e9fcccbe2af311bc999e
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: beginReset(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  fullName: ServiceResponse<VirtualNetworkGatewayInner> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.beginReset(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 670
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Reset VirtualNetworkGateway operation resets the primary of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualNetworkGatewayInner > beginReset(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Reset Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a4cd85fa526f992e19ed2a06c08b5be77
+  id: _virtual_network_gateways_inner_1a4cd85fa526f992e19ed2a06c08b5be77
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: beginResetAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.beginResetAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 701
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Reset VirtualNetworkGateway operation resets the primary of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginResetAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Reset Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a96099bbdfab5033b94330e4542c9d1cf
+  id: _virtual_network_gateways_inner_1a96099bbdfab5033b94330e4542c9d1cf
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  fullName: ServiceResponse<VirtualNetworkGatewayInner> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.createOrUpdate(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 117
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put VirtualNetworkGateway operation creates/updates a virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualNetworkGatewayInner > createOrUpdate(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Create or update Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1aff47b5eb50049858ae6e157686e6ced1
+  id: _virtual_network_gateways_inner_1aff47b5eb50049858ae6e157686e6ced1
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.createOrUpdateAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 148
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put VirtualNetworkGateway operation creates/updates a virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Create or update Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1aad5e7a86277b7d4416657e41d07914a3
+  id: _virtual_network_gateways_inner_1aad5e7a86277b7d4416657e41d07914a3
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String virtualNetworkGatewayName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.delete(String resourceGroupName, String virtualNetworkGatewayName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 362
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete VirtualNetworkGateway operation deletes the specifed virtual network Gateway through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String virtualNetworkGatewayName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a8d379b8ad2122a6896abfb70bb4c5257
+  id: _virtual_network_gateways_inner_1a8d379b8ad2122a6896abfb70bb4c5257
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.deleteAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 388
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete VirtualNetworkGateway operation deletes the specifed virtual network Gateway through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a23b9f51ec1ed2d776a254bd050dfe04b
+  id: _virtual_network_gateways_inner_1a23b9f51ec1ed2d776a254bd050dfe04b
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: generatevpnclientpackage(String resourceGroupName, String virtualNetworkGatewayName)
+  fullName: ServiceResponse<String> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.generatevpnclientpackage(String resourceGroupName, String virtualNetworkGatewayName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 759
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Generatevpnclientpackage operation generates Vpn client package for P2S client of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< String > generatevpnclientpackage(String resourceGroupName, String virtualNetworkGatewayName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    return:
+      type: com.microsoft.rest._service_responsec146e1b2
+      description: <p>the String object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1abebb925e2ceb0e7e8ae85ef1489da730
+  id: _virtual_network_gateways_inner_1abebb925e2ceb0e7e8ae85ef1489da730
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: generatevpnclientpackage(String resourceGroupName, String virtualNetworkGatewayName, String processorArchitecture)
+  fullName: ServiceResponse<String> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.generatevpnclientpackage(String resourceGroupName, String virtualNetworkGatewayName, String processorArchitecture)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 837
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Generatevpnclientpackage operation generates Vpn client package for P2S client of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< String > generatevpnclientpackage(String resourceGroupName, String virtualNetworkGatewayName, String processorArchitecture)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: processorArchitecture
+      type: "26831127"
+      description: '<p>VPN client Processor Architecture -Amd64/X86. Possible values include: ''Amd64'', ''X86'' </p>'
+    return:
+      type: com.microsoft.rest._service_responsec146e1b2
+      description: <p>the String object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ad6841f0286b2b1be2daa486b0142ba97
+  id: _virtual_network_gateways_inner_1ad6841f0286b2b1be2daa486b0142ba97
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: generatevpnclientpackageAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< String > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.generatevpnclientpackageAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< String > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 788
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Generatevpnclientpackage operation generates Vpn client package for P2S client of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall generatevpnclientpackageAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< String > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackc146e1b2
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a563c546a92c1c227273b98100749292b
+  id: _virtual_network_gateways_inner_1a563c546a92c1c227273b98100749292b
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: generatevpnclientpackageAsync(String resourceGroupName, String virtualNetworkGatewayName, String processorArchitecture, final ServiceCallback< String > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.generatevpnclientpackageAsync(String resourceGroupName, String virtualNetworkGatewayName, String processorArchitecture, final ServiceCallback< String > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 866
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Generatevpnclientpackage operation generates Vpn client package for P2S client of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall generatevpnclientpackageAsync(String resourceGroupName, String virtualNetworkGatewayName, String processorArchitecture, final ServiceCallback< String > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: processorArchitecture
+      type: "26831127"
+      description: '<p>VPN client Processor Architecture -Amd64/X86. Possible values include: ''Amd64'', ''X86'' </p>'
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackc146e1b2
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1adeff5eb818960a7d7381ee119a6c90e7
+  id: _virtual_network_gateways_inner_1adeff5eb818960a7d7381ee119a6c90e7
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String virtualNetworkGatewayName)
+  fullName: ServiceResponse<VirtualNetworkGatewayInner> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.get(String resourceGroupName, String virtualNetworkGatewayName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 283
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get VirtualNetworkGateway operation retrieves information about the specified virtual network gateway through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualNetworkGatewayInner > get(String resourceGroupName, String virtualNetworkGatewayName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a643f92518342426eb3865e7d038aee7c
+  id: _virtual_network_gateways_inner_1a643f92518342426eb3865e7d038aee7c
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.getAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 309
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get VirtualNetworkGateway operation retrieves information about the specified virtual network gateway through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String virtualNetworkGatewayName, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1af14edbf6ebb4b40702064c8e0047b49f
+  id: _virtual_network_gateways_inner_1af14edbf6ebb4b40702064c8e0047b49f
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: list(final String resourceGroupName)
+  fullName: ServiceResponse<PagedList<VirtualNetworkGatewayInner> > com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.list(final String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 507
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List VirtualNetworkGateways opertion retrieves all the virtual network gateways stored.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< VirtualNetworkGatewayInner > > list(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a72d233217b409f11d355616f7ba26541
+  id: _virtual_network_gateways_inner_1a72d233217b409f11d355616f7ba26541
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: listAsync(final String resourceGroupName, final ListOperationCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.listAsync(final String resourceGroupName, final ListOperationCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 536
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List VirtualNetworkGateways opertion retrieves all the virtual network gateways stored.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String resourceGroupName, final ListOperationCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a266cd22e299368d37a1c47c84966eb9e
+  id: _virtual_network_gateways_inner_1a266cd22e299368d37a1c47c84966eb9e
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<VirtualNetworkGatewayInner> > com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 919
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List VirtualNetworkGateways opertion retrieves all the virtual network gateways stored.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< VirtualNetworkGatewayInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ad2aa7347fe812c22f0ff917937c8347b
+  id: _virtual_network_gateways_inner_1ad2aa7347fe812c22f0ff917937c8347b
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 936
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List VirtualNetworkGateways opertion retrieves all the virtual network gateways stored.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a1ebea59443774175126171f29ae3ff9d
+  id: _virtual_network_gateways_inner_1a1ebea59443774175126171f29ae3ff9d
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: reset(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  fullName: ServiceResponse<VirtualNetworkGatewayInner> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.reset(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 593
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Reset VirtualNetworkGateway operation resets the primary of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualNetworkGatewayInner > reset(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Reset Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1ac332ee9367b365d4adbec5f06f0760f2
+  id: _virtual_network_gateways_inner_1ac332ee9367b365d4adbec5f06f0760f2
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: resetAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.resetAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 624
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Reset VirtualNetworkGateway operation resets the primary of the virtual network gateway in the specified resource group through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall resetAsync(String resourceGroupName, String virtualNetworkGatewayName, VirtualNetworkGatewayInner parameters, final ServiceCallback< VirtualNetworkGatewayInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: virtualNetworkGatewayName
+      type: "26831127"
+      description: <p>The name of the virtual network gateway. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>Parameters supplied to the Begin Reset Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Gateway operation through <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource provider. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner_1a4d0c9cd2d748880e01e7b52c7e6a5a73
+  id: _virtual_network_gateways_inner_1a4d0c9cd2d748880e01e7b52c7e6a5a73
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  langs:
+  - java
+  name: VirtualNetworkGatewaysInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner.VirtualNetworkGatewaysInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewaysInner.java
+    startLine: 53
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewaysInner(Retrofit retrofit, NetworkManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+    name: VirtualNetworkGatewayInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+    name: VirtualNetworkGatewayInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+    name: VirtualNetworkGatewayInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+    name: VirtualNetworkGatewayInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_responsec146e1b2
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < String >
+    fullName: < String >
+- uid: 93de0ef9com.microsoft.rest._service_callbackc146e1b2
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < String >
+    fullName: < String >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+    name: VirtualNetworkGatewayInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.network.implementation.api._virtual9e6f9d6acc22061acca336fbcd29076e
+- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+  name: NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class NetworkManagementClientImpl
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
+  name: VirtualNetworkGatewaysInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaysInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in VirtualNetworkGateways. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  name: VirtualNetworkGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+  type: Class
+  summary: <p>A common class for general resource information. </p>
+  syntax:
+    content: public class VirtualNetworkGatewayInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.azure.management.network._network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network.yml
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Network
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

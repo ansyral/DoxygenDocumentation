@@ -1,0 +1,128 @@
+items:
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_template
+  id: _definition_with_template
+  parent: com.microsoft.azure.management.resources
+  children:
+  - com.microsoft.azure.management.resources._deployment._definition_with_template_1a37dfa0808b499cf2939a825a04898d8d
+  - com.microsoft.azure.management.resources._deployment._definition_with_template_1aaabb0d442f73cb125241c55789c2e198
+  - com.microsoft.azure.management.resources._deployment._definition_with_template_1aedd943075c0b07cfb22133f600023f1b
+  href: com.microsoft.azure.management.resources._deployment._definition_with_template.yml
+  langs:
+  - java
+  name: Deployment.DefinitionWithTemplate
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionWithTemplate
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 146
+  package: com.microsoft.azure.management.resources
+  summary: <p>A deployment definition allowing template to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithTemplate
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_template_1a37dfa0808b499cf2939a825a04898d8d
+  id: _definition_with_template_1a37dfa0808b499cf2939a825a04898d8d
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_template
+  href: com.microsoft.azure.management.resources._deployment._definition_with_template.yml
+  langs:
+  - java
+  name: withTemplate(Object template)
+  fullName: DefinitionWithParameters com.microsoft.azure.management.resources.Deployment.DefinitionWithTemplate.withTemplate(Object template)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 153
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the template as a Java object.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithParameters withTemplate(Object template)
+    parameters:
+    - id: template
+      type: "79317049"
+      description: <p>the Java object </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+      description: <p>the next stage of the deployment definition </p>
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_template_1aaabb0d442f73cb125241c55789c2e198
+  id: _definition_with_template_1aaabb0d442f73cb125241c55789c2e198
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_template
+  href: com.microsoft.azure.management.resources._deployment._definition_with_template.yml
+  langs:
+  - java
+  name: withTemplate(String templateJson)
+  fullName: DefinitionWithParameters com.microsoft.azure.management.resources.Deployment.DefinitionWithTemplate.withTemplate(String templateJson)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 161
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the template as a JSON string.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithParameters withTemplate(String templateJson)
+    parameters:
+    - id: templateJson
+      type: "26831127"
+      description: <p>the JSON string </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+      description: <p>the next stage of the deployment definition </p>
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_template_1aedd943075c0b07cfb22133f600023f1b
+  id: _definition_with_template_1aedd943075c0b07cfb22133f600023f1b
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_template
+  href: com.microsoft.azure.management.resources._deployment._definition_with_template.yml
+  langs:
+  - java
+  name: withTemplateLink(String uri, String contentVersion)
+  fullName: DefinitionWithParameters com.microsoft.azure.management.resources.Deployment.DefinitionWithTemplate.withTemplateLink(String uri, String contentVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 170
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the template as a URL.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithParameters withTemplateLink(String uri, String contentVersion)
+    parameters:
+    - id: uri
+      type: "26831127"
+      description: <p>the location of the remote template file </p>
+    - id: contentVersion
+      type: "26831127"
+      description: <p>the version of the template file </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+      description: <p>the next stage of the deployment definition </p>
+references:
+- uid: "79317049"
+  spec.java:
+  - name: Object
+    fullName: Object
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.implementation._deployment_impl
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._definition_with_parameters.yml
+  name: Deployment.DefinitionWithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionWithParameters
+  type: Interface
+  summary: <p>A deployment definition allowing parameters to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithParameters

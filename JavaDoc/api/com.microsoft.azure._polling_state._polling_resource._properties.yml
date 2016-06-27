@@ -1,0 +1,70 @@
+items:
+- uid: com.microsoft.azure._polling_state._polling_resource._properties
+  id: _properties
+  parent: com.microsoft.azure
+  children:
+  - com.microsoft.azure._polling_state._polling_resource._properties_1a6cfbe9d12cd97f0b27d3131959b73314
+  - com.microsoft.azure._polling_state._polling_resource._properties_1a4d4b9e139d472d9451409c26545d7ab6
+  href: com.microsoft.azure._polling_state._polling_resource._properties.yml
+  langs:
+  - java
+  name: PollingState.PollingResource.Properties
+  fullName: com.microsoft.azure.PollingState.PollingResource.Properties
+  type: Class
+  source:
+    remote: &o0
+      path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PollingState.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PollingState.java
+    startLine: 291
+  package: com.microsoft.azure
+  summary: 'Inner properties class. '
+  syntax:
+    content: class PollingState.PollingResource.Properties
+- uid: com.microsoft.azure._polling_state._polling_resource._properties_1a6cfbe9d12cd97f0b27d3131959b73314
+  id: _properties_1a6cfbe9d12cd97f0b27d3131959b73314
+  parent: com.microsoft.azure._polling_state._polling_resource._properties
+  href: com.microsoft.azure._polling_state._polling_resource._properties.yml
+  langs:
+  - java
+  name: getProvisioningState()
+  fullName: String com.microsoft.azure.PollingState< T >.PollingResource.Properties.getProvisioningState()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PollingState.java
+    startLine: 301
+  package: com.microsoft.azure
+  summary: Gets the provisioning state of the resource.
+  syntax:
+    content: public String getProvisioningState()
+    return:
+      type: "26831127"
+      description: 'the provisioning state. '
+- uid: com.microsoft.azure._polling_state._polling_resource._properties_1a4d4b9e139d472d9451409c26545d7ab6
+  id: _properties_1a4d4b9e139d472d9451409c26545d7ab6
+  parent: com.microsoft.azure._polling_state._polling_resource._properties
+  href: com.microsoft.azure._polling_state._polling_resource._properties.yml
+  langs:
+  - java
+  name: setProvisioningState(String provisioningState)
+  fullName: void com.microsoft.azure.PollingState< T >.PollingResource.Properties.setProvisioningState(String provisioningState)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PollingState.java
+    startLine: 310
+  package: com.microsoft.azure
+  summary: Sets the provisioning state of the resource.
+  syntax:
+    content: public void setProvisioningState(String provisioningState)
+    parameters:
+    - id: provisioningState
+      type: "26831127"
+      description: 'the provisioning state. '
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String

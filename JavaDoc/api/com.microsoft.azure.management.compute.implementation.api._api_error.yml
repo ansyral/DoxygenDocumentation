@@ -1,0 +1,323 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error
+  id: _api_error
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1a4853ed39f2af097b77f9b8ee571c7a29
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1a47b21b45fdf7e855dfd832459f594991
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1a1fce29c6ddca0ef965ae254e1d88d808
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1a3de31cfbdc1816be9bba79dbe25e325e
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1a40baaf2f96219b9aa2e454af7d431cc3
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1a4c7cdf69b09837c6f2800c5ac1deac4a
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1ac0ab3f21f2e8448042958556b313fb60
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1ac2b8aed78c88d2ce5536ec3ad50943bb
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1af07cbb5c03255a3908da5453c221c982
+  - com.microsoft.azure.management.compute.implementation.api._api_error_1acb98f58d7efdc9b9fda071fd6aae3c8b
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: ApiError
+  fullName: com.microsoft.azure.management.compute.implementation.api.ApiError
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 13
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Api error. </p>
+  syntax: &o1
+    content: public class ApiError
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1a4853ed39f2af097b77f9b8ee571c7a29
+  id: _api_error_1a4853ed39f2af097b77f9b8ee571c7a29
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: code()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.ApiError.code()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 84
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the code value.</p>
+
+    <p></p>
+  syntax:
+    content: public String code()
+    return:
+      type: "26831127"
+      description: <p>the code value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1a47b21b45fdf7e855dfd832459f594991
+  id: _api_error_1a47b21b45fdf7e855dfd832459f594991
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: details()
+  fullName: List<ApiErrorBase> com.microsoft.azure.management.compute.implementation.api.ApiError.details()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 44
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the details value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< ApiErrorBase > details()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._api_error_base9ec3e006
+      description: <p>the details value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1a1fce29c6ddca0ef965ae254e1d88d808
+  id: _api_error_1a1fce29c6ddca0ef965ae254e1d88d808
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: innererror()
+  fullName: InnerError com.microsoft.azure.management.compute.implementation.api.ApiError.innererror()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 64
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the innererror value.</p>
+
+    <p></p>
+  syntax:
+    content: public InnerError innererror()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._inner_error
+      description: <p>the innererror value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1a3de31cfbdc1816be9bba79dbe25e325e
+  id: _api_error_1a3de31cfbdc1816be9bba79dbe25e325e
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: message()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.ApiError.message()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 124
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the message value.</p>
+
+    <p></p>
+  syntax:
+    content: public String message()
+    return:
+      type: "26831127"
+      description: <p>the message value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1a40baaf2f96219b9aa2e454af7d431cc3
+  id: _api_error_1a40baaf2f96219b9aa2e454af7d431cc3
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: target()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.ApiError.target()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 104
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the target value.</p>
+
+    <p></p>
+  syntax:
+    content: public String target()
+    return:
+      type: "26831127"
+      description: <p>the target value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1a4c7cdf69b09837c6f2800c5ac1deac4a
+  id: _api_error_1a4c7cdf69b09837c6f2800c5ac1deac4a
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: withCode(String code)
+  fullName: ApiError com.microsoft.azure.management.compute.implementation.api.ApiError.withCode(String code)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 94
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the code value.</p>
+
+    <p></p>
+  syntax:
+    content: public ApiError withCode(String code)
+    parameters:
+    - id: code
+      type: "26831127"
+      description: <p>the code value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._api_error
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._api_error" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1ac0ab3f21f2e8448042958556b313fb60
+  id: _api_error_1ac0ab3f21f2e8448042958556b313fb60
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: withDetails(List< ApiErrorBase > details)
+  fullName: ApiError com.microsoft.azure.management.compute.implementation.api.ApiError.withDetails(List< ApiErrorBase > details)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 54
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the details value.</p>
+
+    <p></p>
+  syntax:
+    content: public ApiError withDetails(List< ApiErrorBase > details)
+    parameters:
+    - id: details
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._api_error_base9ec3e006
+      description: <p>the details value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._api_error
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._api_error" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1ac2b8aed78c88d2ce5536ec3ad50943bb
+  id: _api_error_1ac2b8aed78c88d2ce5536ec3ad50943bb
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: withInnererror(InnerError innererror)
+  fullName: ApiError com.microsoft.azure.management.compute.implementation.api.ApiError.withInnererror(InnerError innererror)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 74
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the innererror value.</p>
+
+    <p></p>
+  syntax:
+    content: public ApiError withInnererror(InnerError innererror)
+    parameters:
+    - id: innererror
+      type: com.microsoft.azure.management.compute.implementation.api._inner_error
+      description: <p>the innererror value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._api_error
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._api_error" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1af07cbb5c03255a3908da5453c221c982
+  id: _api_error_1af07cbb5c03255a3908da5453c221c982
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: withMessage(String message)
+  fullName: ApiError com.microsoft.azure.management.compute.implementation.api.ApiError.withMessage(String message)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 134
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the message value.</p>
+
+    <p></p>
+  syntax:
+    content: public ApiError withMessage(String message)
+    parameters:
+    - id: message
+      type: "26831127"
+      description: <p>the message value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._api_error
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._api_error" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_1acb98f58d7efdc9b9fda071fd6aae3c8b
+  id: _api_error_1acb98f58d7efdc9b9fda071fd6aae3c8b
+  parent: com.microsoft.azure.management.compute.implementation.api._api_error
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  langs:
+  - java
+  name: withTarget(String target)
+  fullName: ApiError com.microsoft.azure.management.compute.implementation.api.ApiError.withTarget(String target)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ApiError.java
+    startLine: 114
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the target value.</p>
+
+    <p></p>
+  syntax:
+    content: public ApiError withTarget(String target)
+    parameters:
+    - id: target
+      type: "26831127"
+      description: <p>the target value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._api_error
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._api_error" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._api_error_base9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._api_error_base
+    name: ApiErrorBase
+    fullName: com.microsoft.azure.management.compute.implementation.api.ApiErrorBase
+    href: com.microsoft.azure.management.compute.implementation.api._api_error_base.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error_base
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._api_error_base.yml
+  name: ApiErrorBase
+  fullName: com.microsoft.azure.management.compute.implementation.api.ApiErrorBase
+  type: Class
+  summary: <p>Api error base. </p>
+  syntax:
+    content: public class ApiErrorBase
+- uid: com.microsoft.azure.management.compute.implementation.api._inner_error
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._inner_error.yml
+  name: InnerError
+  fullName: com.microsoft.azure.management.compute.implementation.api.InnerError
+  type: Class
+  summary: <p>Inner error details. </p>
+  syntax:
+    content: public class InnerError
+- uid: com.microsoft.azure.management.compute.implementation.api._api_error
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._api_error.yml
+  name: ApiError
+  fullName: com.microsoft.azure.management.compute.implementation.api.ApiError
+  type: Class
+  summary: <p>Api error. </p>
+  syntax: *o1

@@ -1,0 +1,171 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+  id: _virtual_machine_image_offer_impl
+  parent: com.microsoft.azure.management.compute.implementation
+  children:
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1adaabd154e71d27e221c93af079465bc9
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1a6e773ae42560921d57fc670268d3618a
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1a57bcc86899dc141d2cf99977ed35c51a
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1aa9a2fe4c9a73b90498c7c4287c1c9c9f
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1a686733f9dfcfbef097ade6cef1bd897b
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl.yml
+  langs:
+  - java
+  name: VirtualMachineImageOfferImpl
+  fullName: com.microsoft.azure.management.compute.implementation.VirtualMachineImageOfferImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+    startLine: 15
+  package: com.microsoft.azure.management.compute.implementation
+  summary: 'The implementation for VirtualMachineImage.Offer. '
+  syntax:
+    content: class VirtualMachineImageOfferImpl
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1adaabd154e71d27e221c93af079465bc9
+  id: _virtual_machine_image_offer_impl_1adaabd154e71d27e221c93af079465bc9
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl.yml
+  langs:
+  - java
+  name: VirtualMachineImageOfferImpl(VirtualMachineImage.Publisher publisher, String offer, VirtualMachineImagesInner client)
+  fullName: com.microsoft.azure.management.compute.implementation.VirtualMachineImageOfferImpl.VirtualMachineImageOfferImpl(VirtualMachineImage.Publisher publisher, String offer, VirtualMachineImagesInner client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+    startLine: 21
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: VirtualMachineImageOfferImpl(VirtualMachineImage.Publisher publisher, String offer, VirtualMachineImagesInner client)
+    parameters:
+    - id: publisher
+      type: "63187624"
+    - id: offer
+      type: "26831127"
+    - id: client
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1a6e773ae42560921d57fc670268d3618a
+  id: _virtual_machine_image_offer_impl_1a6e773ae42560921d57fc670268d3618a
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl.yml
+  langs:
+  - java
+  name: region()
+  fullName: Region com.microsoft.azure.management.compute.implementation.VirtualMachineImageOfferImpl.region()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+    startLine: 28
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1a57bcc86899dc141d2cf99977ed35c51a
+  id: _virtual_machine_image_offer_impl_1a57bcc86899dc141d2cf99977ed35c51a
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl.yml
+  langs:
+  - java
+  name: publisher()
+  fullName: String com.microsoft.azure.management.compute.implementation.VirtualMachineImageOfferImpl.publisher()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+    startLine: 33
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public String publisher()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1aa9a2fe4c9a73b90498c7c4287c1c9c9f
+  id: _virtual_machine_image_offer_impl_1aa9a2fe4c9a73b90498c7c4287c1c9c9f
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl.yml
+  langs:
+  - java
+  name: offer()
+  fullName: String com.microsoft.azure.management.compute.implementation.VirtualMachineImageOfferImpl.offer()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+    startLine: 38
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public String offer()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl_1a686733f9dfcfbef097ade6cef1bd897b
+  id: _virtual_machine_image_offer_impl_1a686733f9dfcfbef097ade6cef1bd897b
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl.yml
+  langs:
+  - java
+  name: listSkus()
+  fullName: List<VirtualMachineImage.Sku> com.microsoft.azure.management.compute.implementation.VirtualMachineImageOfferImpl.listSkus()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImageOfferImpl.java
+    startLine: 43
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public List< VirtualMachineImage.Sku > listSkus()
+    return:
+      type: d830bb29
+references:
+- uid: "63187624"
+  spec.java:
+  - name: VirtualMachineImage.Publisher
+    fullName: VirtualMachineImage.Publisher
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: d830bb29
+  spec.java:
+  - name: List< VirtualMachineImage.Sku >
+    fullName: List< VirtualMachineImage.Sku >
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._offer
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
+  name: VirtualMachineImage.Offer
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImage.Offer
+  type: Interface
+  summary: 'Represents a virtual machine image offer. '
+  syntax:
+    content: public interface VirtualMachineImage.Offer
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  name: VirtualMachineImagesInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in VirtualMachineImages. '
+  syntax:
+    content: public class VirtualMachineImagesInner
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: Enumeration of the Azure datacenter regions. See https://azure.microsoft.com/regions/
+  syntax:
+    content: public enum Region
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException

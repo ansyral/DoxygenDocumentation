@@ -1,0 +1,615 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  id: _virtual3327d4f38102525b36eb540cce203096
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1abde640eb20f8243890af2f2beec86272
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a475aed594326c78e044df98225a97496
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1add38a5dfea5ffd936342118b2c55ecc8
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1aff8db0bab6eb4299b315e93f2009277f
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1ac9c7270567445f25c0dcf4673b12f6d6
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1acf5c1c5f1407f1cc80daa422bfc25a06
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a4d471aa34ef8af8a4d0b36cf795f2390
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a0f545ab0cd3b4dc1b904b7bd4f965e70
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a1d61afa580045ef6d991b10d4672dc2b
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a43aa8ca7c51a5b26763f2c8ce1b95532
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1aa290e3ef83eac7ad421bf79189adfb44
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a24fa1fda46804deea7e320c179779fb2
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a13be4c404ce1e57e7a1d83dfd291fd1a
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1aa9c5455361b4e75870851bbfbaa29aa7
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a168d385db31b819114457aa6b630117b
+  - com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1af262afbe55648cf4cf176b4e57d51006
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: 'The interface defining all the services for VirtualMachineScaleSetVMs to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1abde640eb20f8243890af2f2beec86272
+  id: _virtual3327d4f38102525b36eb540cce203096_1abde640eb20f8243890af2f2beec86272
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: reimage(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.reimage(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 62
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > reimage(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a475aed594326c78e044df98225a97496
+  id: _virtual3327d4f38102525b36eb540cce203096_1a475aed594326c78e044df98225a97496
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: beginReimage(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.beginReimage(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 66
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginReimage(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1add38a5dfea5ffd936342118b2c55ecc8
+  id: _virtual3327d4f38102525b36eb540cce203096_1add38a5dfea5ffd936342118b2c55ecc8
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: deallocate(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.deallocate(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 70
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > deallocate(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1aff8db0bab6eb4299b315e93f2009277f
+  id: _virtual3327d4f38102525b36eb540cce203096_1aff8db0bab6eb4299b315e93f2009277f
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: beginDeallocate(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.beginDeallocate(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 74
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDeallocate(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1ac9c7270567445f25c0dcf4673b12f6d6
+  id: _virtual3327d4f38102525b36eb540cce203096_1ac9c7270567445f25c0dcf4673b12f6d6
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 78
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1acf5c1c5f1407f1cc80daa422bfc25a06
+  id: _virtual3327d4f38102525b36eb540cce203096_1acf5c1c5f1407f1cc80daa422bfc25a06
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 82
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a4d471aa34ef8af8a4d0b36cf795f2390
+  id: _virtual3327d4f38102525b36eb540cce203096_1a4d471aa34ef8af8a4d0b36cf795f2390
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.get(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 86
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a0f545ab0cd3b4dc1b904b7bd4f965e70
+  id: _virtual3327d4f38102525b36eb540cce203096_1a0f545ab0cd3b4dc1b904b7bd4f965e70
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: getInstanceView(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.getInstanceView(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 90
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getInstanceView(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a1d61afa580045ef6d991b10d4672dc2b
+  id: _virtual3327d4f38102525b36eb540cce203096_1a1d61afa580045ef6d991b10d4672dc2b
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.list(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 94
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualMachineScaleSetName
+      type: f70ecc49
+    - id: subscriptionId
+      type: a014476f
+    - id: filter
+      type: 32841eb2
+    - id: select
+      type: 7da619bd
+    - id: expand
+      type: 99e81acb
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a43aa8ca7c51a5b26763f2c8ce1b95532
+  id: _virtual3327d4f38102525b36eb540cce203096_1a43aa8ca7c51a5b26763f2c8ce1b95532
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: powerOff(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.powerOff(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 98
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > powerOff(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1aa290e3ef83eac7ad421bf79189adfb44
+  id: _virtual3327d4f38102525b36eb540cce203096_1aa290e3ef83eac7ad421bf79189adfb44
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: beginPowerOff(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.beginPowerOff(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 102
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginPowerOff(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a24fa1fda46804deea7e320c179779fb2
+  id: _virtual3327d4f38102525b36eb540cce203096_1a24fa1fda46804deea7e320c179779fb2
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: restart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.restart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 106
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > restart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a13be4c404ce1e57e7a1d83dfd291fd1a
+  id: _virtual3327d4f38102525b36eb540cce203096_1a13be4c404ce1e57e7a1d83dfd291fd1a
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: beginRestart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.beginRestart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 110
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginRestart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1aa9c5455361b4e75870851bbfbaa29aa7
+  id: _virtual3327d4f38102525b36eb540cce203096_1aa9c5455361b4e75870851bbfbaa29aa7
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: start(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.start(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 114
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > start(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1a168d385db31b819114457aa6b630117b
+  id: _virtual3327d4f38102525b36eb540cce203096_1a168d385db31b819114457aa6b630117b
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: beginStart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.beginStart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 118
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginStart(@Path("resourceGroupName") String resourceGroupName,@Path("vmScaleSetName") String vmScaleSetName,@Path("instanceId") String instanceId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmScaleSetName
+      type: 4194dd45
+    - id: instanceId
+      type: 8dfa51e1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096_1af262afbe55648cf4cf176b4e57d51006
+  id: _virtual3327d4f38102525b36eb540cce203096_1af262afbe55648cf4cf176b4e57d51006
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3327d4f38102525b36eb540cce203096.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetVMsInner.VirtualMachineScaleSetVMsService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetVMsInner.java
+    startLine: 122
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: 4194dd45
+  spec.java:
+  - name: '@Path("vmScaleSetName") String'
+    fullName: '@Path("vmScaleSetName") String'
+- uid: 8dfa51e1
+  spec.java:
+  - name: '@Path("instanceId") String'
+    fullName: '@Path("instanceId") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: f70ecc49
+  spec.java:
+  - name: '@Path("virtualMachineScaleSetName") String'
+    fullName: '@Path("virtualMachineScaleSetName") String'
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: 7da619bd
+  spec.java:
+  - name: '@Query("$select") String'
+    fullName: '@Query("$select") String'
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'

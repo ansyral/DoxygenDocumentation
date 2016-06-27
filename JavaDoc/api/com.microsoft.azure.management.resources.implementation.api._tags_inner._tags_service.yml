@@ -1,0 +1,233 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  id: _tags_service
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a5b380c18b9df2a856b3f5e93da7323d1
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a54f1a86eaf0293992bc608a83b5c00dd
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1ae5c721a30f9a25b9e69211290102a539
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1ad68cf91c91a621726305ec02f0f013e6
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a07ecb25ccd5e099144924c8df34c35dd
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a30e0afd9009d97257df04a88b5279b8c
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: TagsInner.TagsService
+  fullName: com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 58
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: 'The interface defining all the services for Tags to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface TagsInner.TagsService
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a5b380c18b9df2a856b3f5e93da7323d1
+  id: _tags_service_1a5b380c18b9df2a856b3f5e93da7323d1
+  parent: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: deleteValue(@Path("tagName") String tagName,@Path("tagValue") String tagValue,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService.deleteValue(@Path("tagName") String tagName,@Path("tagValue") String tagValue,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > deleteValue(@Path("tagName") String tagName,@Path("tagValue") String tagValue,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: tagName
+      type: 9c896ba1
+    - id: tagValue
+      type: 5d381b1f
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a54f1a86eaf0293992bc608a83b5c00dd
+  id: _tags_service_1a54f1a86eaf0293992bc608a83b5c00dd
+  parent: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: createOrUpdateValue(@Path("tagName") String tagName,@Path("tagValue") String tagValue,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService.createOrUpdateValue(@Path("tagName") String tagName,@Path("tagValue") String tagValue,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 65
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdateValue(@Path("tagName") String tagName,@Path("tagValue") String tagValue,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: tagName
+      type: 9c896ba1
+    - id: tagValue
+      type: 5d381b1f
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1ae5c721a30f9a25b9e69211290102a539
+  id: _tags_service_1ae5c721a30f9a25b9e69211290102a539
+  parent: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("tagName") String tagName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService.createOrUpdate(@Path("tagName") String tagName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 69
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("tagName") String tagName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: tagName
+      type: 9c896ba1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1ad68cf91c91a621726305ec02f0f013e6
+  id: _tags_service_1ad68cf91c91a621726305ec02f0f013e6
+  parent: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: delete(@Path("tagName") String tagName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService.delete(@Path("tagName") String tagName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 73
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("tagName") String tagName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: tagName
+      type: 9c896ba1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a07ecb25ccd5e099144924c8df34c35dd
+  id: _tags_service_1a07ecb25ccd5e099144924c8df34c35dd
+  parent: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: list(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService.list(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 77
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service_1a30e0afd9009d97257df04a88b5279b8c
+  id: _tags_service_1a30e0afd9009d97257df04a88b5279b8c
+  parent: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
+  href: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.TagsInner.TagsService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/TagsInner.java
+    startLine: 81
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 9c896ba1
+  spec.java:
+  - name: '@Path("tagName") String'
+    fullName: '@Path("tagName") String'
+- uid: 5d381b1f
+  spec.java:
+  - name: '@Path("tagValue") String'
+    fullName: '@Path("tagValue") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'

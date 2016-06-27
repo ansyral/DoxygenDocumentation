@@ -1,0 +1,149 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._offer
+  id: _offer
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._virtual_machine_image._offer_1ab23e75c0d4d7201a3c06755f7303554e
+  - com.microsoft.azure.management.compute._virtual_machine_image._offer_1a768dcd52d9464c7fdf47cd13cb191cff
+  - com.microsoft.azure.management.compute._virtual_machine_image._offer_1aad98fff912ae393f5a7b2cdf1be57b0e
+  - com.microsoft.azure.management.compute._virtual_machine_image._offer_1a45a7725d4eb650caf5b145d43a2226ca
+  href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
+  langs:
+  - java
+  name: VirtualMachineImage.Offer
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImage.Offer
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
+    startLine: 91
+  package: com.microsoft.azure.management.compute
+  summary: <p>Represents a virtual machine image offer. </p>
+  syntax:
+    content: public interface Offer
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._offer_1ab23e75c0d4d7201a3c06755f7303554e
+  id: _offer_1ab23e75c0d4d7201a3c06755f7303554e
+  parent: com.microsoft.azure.management.compute._virtual_machine_image._offer
+  href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
+  langs:
+  - java
+  name: listSkus()
+  fullName: List<Sku> com.microsoft.azure.management.compute.VirtualMachineImage.Offer.listSkus()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
+    startLine: 114
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Lists the virtual machine image SKUs in this offer.</p>
+
+    <p></p>
+  syntax:
+    content: public List< Sku > listSkus()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.compute._virtual_machine_image._sku9ec3e006
+      description: <p>the virtual machine image SKUs </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._offer_1a768dcd52d9464c7fdf47cd13cb191cff
+  id: _offer_1a768dcd52d9464c7fdf47cd13cb191cff
+  parent: com.microsoft.azure.management.compute._virtual_machine_image._offer
+  href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
+  langs:
+  - java
+  name: offer()
+  fullName: String com.microsoft.azure.management.compute.VirtualMachineImage.Offer.offer()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
+    startLine: 105
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public String offer()
+    return:
+      type: "26831127"
+      description: <p>the name of the virtual machine image offer </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._offer_1aad98fff912ae393f5a7b2cdf1be57b0e
+  id: _offer_1aad98fff912ae393f5a7b2cdf1be57b0e
+  parent: com.microsoft.azure.management.compute._virtual_machine_image._offer
+  href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
+  langs:
+  - java
+  name: publisher()
+  fullName: String com.microsoft.azure.management.compute.VirtualMachineImage.Offer.publisher()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
+    startLine: 100
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public String publisher()
+    return:
+      type: "26831127"
+      description: <p>the publisher name of this virtual machine image offer </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._offer_1a45a7725d4eb650caf5b145d43a2226ca
+  id: _offer_1a45a7725d4eb650caf5b145d43a2226ca
+  parent: com.microsoft.azure.management.compute._virtual_machine_image._offer
+  href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
+  langs:
+  - java
+  name: region()
+  fullName: Region com.microsoft.azure.management.compute.VirtualMachineImage.Offer.region()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
+    startLine: 95
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region where this virtual machine image offer is available </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f6a6204dcom.microsoft.azure.management.compute._virtual_machine_image._sku9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.compute._virtual_machine_image._sku
+    name: VirtualMachineImage.Sku
+    fullName: com.microsoft.azure.management.compute.VirtualMachineImage.Sku
+    href: com.microsoft.azure.management.compute._virtual_machine_image._sku.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
+  syntax:
+    content: public enum Region
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._sku
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_image._sku.yml
+  name: VirtualMachineImage.Sku
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImage.Sku
+  type: Interface
+  summary: <p>Represents a virtual machine image SKU. </p>
+  syntax:
+    content: public interface Sku
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException

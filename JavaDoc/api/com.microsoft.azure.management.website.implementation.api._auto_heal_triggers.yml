@@ -1,0 +1,292 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  id: _auto_heal_triggers
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1ab45085a9df05374a98fec88935a1d393
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1ac49d68810e3ce9710d7496e0b9c1862f
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a8cf69b4571c37b2fd50d890cee8d2fa2
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a22f9d482e614cac3a9fdb20c760e6b7a
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a01542c78b7ab1f938ee9f8a5600574fa
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a388091cc99ff5a014769dcd33047f16e
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1aa7bf2114784493a29dae80871e2a2fd8
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a0f2675a0629b473d9e00496e0b591242
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: AutoHealTriggers
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealTriggers
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> - describes the triggers for auto-heal. </p>
+  syntax: &o1
+    content: public class AutoHealTriggers
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1ab45085a9df05374a98fec88935a1d393
+  id: _auto_heal_triggers_1ab45085a9df05374a98fec88935a1d393
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: privateBytesInKB()
+  fullName: Integer com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.privateBytesInKB()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the privateBytesInKB value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer privateBytesInKB()
+    return:
+      type: 08effaa0
+      description: <p>the privateBytesInKB value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1ac49d68810e3ce9710d7496e0b9c1862f
+  id: _auto_heal_triggers_1ac49d68810e3ce9710d7496e0b9c1862f
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: requests()
+  fullName: RequestsBasedTrigger com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.requests()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the requests value.</p>
+
+    <p></p>
+  syntax:
+    content: public RequestsBasedTrigger requests()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+      description: <p>the requests value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a8cf69b4571c37b2fd50d890cee8d2fa2
+  id: _auto_heal_triggers_1a8cf69b4571c37b2fd50d890cee8d2fa2
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: slowRequests()
+  fullName: SlowRequestsBasedTrigger com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.slowRequests()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 99
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the slowRequests value.</p>
+
+    <p></p>
+  syntax:
+    content: public SlowRequestsBasedTrigger slowRequests()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._slow_requests_based_trigger
+      description: <p>the slowRequests value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a22f9d482e614cac3a9fdb20c760e6b7a
+  id: _auto_heal_triggers_1a22f9d482e614cac3a9fdb20c760e6b7a
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: statusCodes()
+  fullName: List<StatusCodesBasedTrigger> com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.statusCodes()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 79
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the statusCodes value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< StatusCodesBasedTrigger > statusCodes()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._status_codes_based_trigger9ec3e006
+      description: <p>the statusCodes value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a01542c78b7ab1f938ee9f8a5600574fa
+  id: _auto_heal_triggers_1a01542c78b7ab1f938ee9f8a5600574fa
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: withPrivateBytesInKB(Integer privateBytesInKB)
+  fullName: AutoHealTriggers com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.withPrivateBytesInKB(Integer privateBytesInKB)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 69
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the privateBytesInKB value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealTriggers withPrivateBytesInKB(Integer privateBytesInKB)
+    parameters:
+    - id: privateBytesInKB
+      type: 08effaa0
+      description: <p>the privateBytesInKB value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a388091cc99ff5a014769dcd33047f16e
+  id: _auto_heal_triggers_1a388091cc99ff5a014769dcd33047f16e
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: withRequests(RequestsBasedTrigger requests)
+  fullName: AutoHealTriggers com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.withRequests(RequestsBasedTrigger requests)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the requests value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealTriggers withRequests(RequestsBasedTrigger requests)
+    parameters:
+    - id: requests
+      type: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+      description: <p>the requests value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1aa7bf2114784493a29dae80871e2a2fd8
+  id: _auto_heal_triggers_1aa7bf2114784493a29dae80871e2a2fd8
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: withSlowRequests(SlowRequestsBasedTrigger slowRequests)
+  fullName: AutoHealTriggers com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.withSlowRequests(SlowRequestsBasedTrigger slowRequests)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 109
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the slowRequests value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealTriggers withSlowRequests(SlowRequestsBasedTrigger slowRequests)
+    parameters:
+    - id: slowRequests
+      type: com.microsoft.azure.management.website.implementation.api._slow_requests_based_trigger
+      description: <p>the slowRequests value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers_1a0f2675a0629b473d9e00496e0b591242
+  id: _auto_heal_triggers_1a0f2675a0629b473d9e00496e0b591242
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  langs:
+  - java
+  name: withStatusCodes(List< StatusCodesBasedTrigger > statusCodes)
+  fullName: AutoHealTriggers com.microsoft.azure.management.website.implementation.api.AutoHealTriggers.withStatusCodes(List< StatusCodesBasedTrigger > statusCodes)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealTriggers.java
+    startLine: 89
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the statusCodes value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealTriggers withStatusCodes(List< StatusCodesBasedTrigger > statusCodes)
+    parameters:
+    - id: statusCodes
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._status_codes_based_trigger9ec3e006
+      description: <p>the statusCodes value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: f6a6204dcom.microsoft.azure.management.website.implementation.api._status_codes_based_trigger9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.website.implementation.api._status_codes_based_trigger
+    name: StatusCodesBasedTrigger
+    fullName: com.microsoft.azure.management.website.implementation.api.StatusCodesBasedTrigger
+    href: com.microsoft.azure.management.website.implementation.api._status_codes_based_trigger.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  name: RequestsBasedTrigger
+  fullName: com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._requests_based_trigger" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class RequestsBasedTrigger
+- uid: com.microsoft.azure.management.website.implementation.api._status_codes_based_trigger
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._status_codes_based_trigger.yml
+  name: StatusCodesBasedTrigger
+  fullName: com.microsoft.azure.management.website.implementation.api.StatusCodesBasedTrigger
+  type: Class
+  summary: <p>StatusCodeBasedTrigger. </p>
+  syntax:
+    content: public class StatusCodesBasedTrigger
+- uid: com.microsoft.azure.management.website.implementation.api._slow_requests_based_trigger
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._slow_requests_based_trigger.yml
+  name: SlowRequestsBasedTrigger
+  fullName: com.microsoft.azure.management.website.implementation.api.SlowRequestsBasedTrigger
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._slow_requests_based_trigger" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class SlowRequestsBasedTrigger
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  name: AutoHealTriggers
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealTriggers
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> - describes the triggers for auto-heal. </p>
+  syntax: *o1

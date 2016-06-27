@@ -1,0 +1,125 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._sku
+  id: _sku
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._sku_1a05ab662ea75de7420db607df76e3978e
+  - com.microsoft.azure.management.storage.implementation.api._sku_1a8a23db3881e64b01e29221f8630190f8
+  - com.microsoft.azure.management.storage.implementation.api._sku_1a663617cc3c7a9c0837db0a2e678c7f69
+  href: com.microsoft.azure.management.storage.implementation.api._sku.yml
+  langs:
+  - java
+  name: Sku
+  fullName: com.microsoft.azure.management.storage.implementation.api.Sku
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Sku.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Sku.java
+    startLine: 13
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>The SKU of the storage account. </p>
+  syntax: &o1
+    content: public class Sku
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_1a05ab662ea75de7420db607df76e3978e
+  id: _sku_1a05ab662ea75de7420db607df76e3978e
+  parent: com.microsoft.azure.management.storage.implementation.api._sku
+  href: com.microsoft.azure.management.storage.implementation.api._sku.yml
+  langs:
+  - java
+  name: name()
+  fullName: SkuName com.microsoft.azure.management.storage.implementation.api.Sku.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Sku.java
+    startLine: 35
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public SkuName name()
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._sku_name
+      description: <p>the name value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_1a8a23db3881e64b01e29221f8630190f8
+  id: _sku_1a8a23db3881e64b01e29221f8630190f8
+  parent: com.microsoft.azure.management.storage.implementation.api._sku
+  href: com.microsoft.azure.management.storage.implementation.api._sku.yml
+  langs:
+  - java
+  name: tier()
+  fullName: SkuTier com.microsoft.azure.management.storage.implementation.api.Sku.tier()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Sku.java
+    startLine: 55
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the tier value.</p>
+
+    <p></p>
+  syntax:
+    content: public SkuTier tier()
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._sku_tier
+      description: <p>the tier value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_1a663617cc3c7a9c0837db0a2e678c7f69
+  id: _sku_1a663617cc3c7a9c0837db0a2e678c7f69
+  parent: com.microsoft.azure.management.storage.implementation.api._sku
+  href: com.microsoft.azure.management.storage.implementation.api._sku.yml
+  langs:
+  - java
+  name: withName(SkuName name)
+  fullName: Sku com.microsoft.azure.management.storage.implementation.api.Sku.withName(SkuName name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Sku.java
+    startLine: 45
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public Sku withName(SkuName name)
+    parameters:
+    - id: name
+      type: com.microsoft.azure.management.storage.implementation.api._sku_name
+      description: <p>the name value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._sku
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._sku" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_name
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._sku_name.yml
+  name: SkuName
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuName
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._sku_name" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum SkuName
+- uid: com.microsoft.azure.management.storage.implementation.api._sku_tier
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._sku_tier.yml
+  name: SkuTier
+  fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._sku_tier" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum SkuTier
+- uid: com.microsoft.azure.management.storage.implementation.api._sku
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._sku.yml
+  name: Sku
+  fullName: com.microsoft.azure.management.storage.implementation.api.Sku
+  type: Class
+  summary: <p>The SKU of the storage account. </p>
+  syntax: *o1

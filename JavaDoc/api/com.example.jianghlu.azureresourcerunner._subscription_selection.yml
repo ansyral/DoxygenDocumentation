@@ -1,0 +1,57 @@
+items:
+- uid: com.example.jianghlu.azureresourcerunner._subscription_selection
+  id: _subscription_selection
+  parent: com.example.jianghlu.azureresourcerunner
+  children:
+  - com.example.jianghlu.azureresourcerunner._subscription_selection_1a2c223c9fb1adf8aac1e1ab4f8fd68319
+  href: com.example.jianghlu.azureresourcerunner._subscription_selection.yml
+  langs:
+  - java
+  name: SubscriptionSelection
+  fullName: com.example.jianghlu.azureresourcerunner.SubscriptionSelection
+  type: Class
+  source:
+    remote: &o0
+      path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/SubscriptionSelection.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/SubscriptionSelection.java
+    startLine: 21
+  package: com.example.jianghlu.azureresourcerunner
+  syntax:
+    content: public class SubscriptionSelection
+  inheritance:
+  - AppCompatActivity
+- uid: com.example.jianghlu.azureresourcerunner._subscription_selection_1a2c223c9fb1adf8aac1e1ab4f8fd68319
+  id: _subscription_selection_1a2c223c9fb1adf8aac1e1ab4f8fd68319
+  parent: com.example.jianghlu.azureresourcerunner._subscription_selection
+  href: com.example.jianghlu.azureresourcerunner._subscription_selection.yml
+  langs:
+  - java
+  name: onCreate(Bundle savedInstanceState)
+  fullName: void com.example.jianghlu.azureresourcerunner.SubscriptionSelection.onCreate(Bundle savedInstanceState)
+  type: Method
+  source:
+    remote: *o0
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/SubscriptionSelection.java
+    startLine: 25
+  package: com.example.jianghlu.azureresourcerunner
+  syntax:
+    content: protected void onCreate(Bundle savedInstanceState)
+    parameters:
+    - id: savedInstanceState
+      type: 191fc594
+references:
+- uid: 191fc594
+  spec.java:
+  - name: Bundle
+    fullName: Bundle
+- uid: com.example.jianghlu.azureresourcerunner._subscription_info
+  parent: com.example.jianghlu.azureresourcerunner
+  href: com.example.jianghlu.azureresourcerunner._subscription_info.yml
+  name: SubscriptionInfo
+  fullName: com.example.jianghlu.azureresourcerunner.SubscriptionInfo
+  type: Class
+  summary: <p>Created by jianghlu on 1/14/2016. </p>
+  syntax:
+    content: public class SubscriptionInfo

@@ -1,0 +1,158 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+  id: _resource_metric_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1a02e59a1f863ddb3a4d5133ff43df35c5
+  - com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1af34cf17cf7b9877c364c097ff13598ca
+  - com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1a94f57f13dbade5a03aa1a59adb698106
+  - com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1a35d8006cec7bb9432e60ea0c1e38e40a
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner.yml
+  langs:
+  - java
+  name: ResourceMetricCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ResourceMetricCollectionInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ResourceMetricCollectionInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ResourceMetricCollectionInner.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Collection of metric responses. </p>
+  syntax: &o1
+    content: public class ResourceMetricCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1a02e59a1f863ddb3a4d5133ff43df35c5
+  id: _resource_metric_collection_inner_1a02e59a1f863ddb3a4d5133ff43df35c5
+  parent: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner.yml
+  langs:
+  - java
+  name: nextLink()
+  fullName: String com.microsoft.azure.management.website.implementation.api.ResourceMetricCollectionInner.nextLink()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ResourceMetricCollectionInner.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public String nextLink()
+    return:
+      type: "26831127"
+      description: <p>the nextLink value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1af34cf17cf7b9877c364c097ff13598ca
+  id: _resource_metric_collection_inner_1af34cf17cf7b9877c364c097ff13598ca
+  parent: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: List<ResourceMetric> com.microsoft.azure.management.website.implementation.api.ResourceMetricCollectionInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ResourceMetricCollectionInner.java
+    startLine: 29
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< ResourceMetric > value()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._resource_metric9ec3e006
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1a94f57f13dbade5a03aa1a59adb698106
+  id: _resource_metric_collection_inner_1a94f57f13dbade5a03aa1a59adb698106
+  parent: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner.yml
+  langs:
+  - java
+  name: withNextLink(String nextLink)
+  fullName: ResourceMetricCollectionInner com.microsoft.azure.management.website.implementation.api.ResourceMetricCollectionInner.withNextLink(String nextLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ResourceMetricCollectionInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public ResourceMetricCollectionInner withNextLink(String nextLink)
+    parameters:
+    - id: nextLink
+      type: "26831127"
+      description: <p>the nextLink value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner_1a35d8006cec7bb9432e60ea0c1e38e40a
+  id: _resource_metric_collection_inner_1a35d8006cec7bb9432e60ea0c1e38e40a
+  parent: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner.yml
+  langs:
+  - java
+  name: withValue(List< ResourceMetric > value)
+  fullName: ResourceMetricCollectionInner com.microsoft.azure.management.website.implementation.api.ResourceMetricCollectionInner.withValue(List< ResourceMetric > value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ResourceMetricCollectionInner.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public ResourceMetricCollectionInner withValue(List< ResourceMetric > value)
+    parameters:
+    - id: value
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._resource_metric9ec3e006
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.website.implementation.api._resource_metric9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.website.implementation.api._resource_metric
+    name: ResourceMetric
+    fullName: com.microsoft.azure.management.website.implementation.api.ResourceMetric
+    href: com.microsoft.azure.management.website.implementation.api._resource_metric.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric.yml
+  name: ResourceMetric
+  fullName: com.microsoft.azure.management.website.implementation.api.ResourceMetric
+  type: Class
+  summary: <p>Object representing a metric for any resource. </p>
+  syntax:
+    content: public class ResourceMetric
+- uid: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._resource_metric_collection_inner.yml
+  name: ResourceMetricCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ResourceMetricCollectionInner
+  type: Class
+  summary: <p>Collection of metric responses. </p>
+  syntax: *o1

@@ -1,0 +1,120 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+  id: _force_update_tag_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1ab5aef8375ced87eba063b0500220c1d3
+  - com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1a2bb06782401c05f050f48922abfc8686
+  - com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1aa2efb7185e2e4fd47952b9c2c61567e7
+  - com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1a79d05ed78127d565be8cfbc10670cb23
+  href: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types.yml
+  langs:
+  - java
+  name: ForceUpdateTagTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.ForceUpdateTagTypes
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ForceUpdateTagTypes.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ForceUpdateTagTypes.java
+    startLine: 14
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._force_update_tag_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum ForceUpdateTagTypes
+- uid: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1ab5aef8375ced87eba063b0500220c1d3
+  id: _force_update_tag_types_1ab5aef8375ced87eba063b0500220c1d3
+  parent: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+  href: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types.yml
+  langs:
+  - java
+  name: ForceUpdateTagTypes(String value)
+  fullName: com.microsoft.azure.management.compute.implementation.api.ForceUpdateTagTypes.ForceUpdateTagTypes(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ForceUpdateTagTypes.java
+    startLine: 21
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public ForceUpdateTagTypes(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1a2bb06782401c05f050f48922abfc8686
+  id: _force_update_tag_types_1a2bb06782401c05f050f48922abfc8686
+  parent: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+  href: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static ForceUpdateTagTypes com.microsoft.azure.management.compute.implementation.api.ForceUpdateTagTypes.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ForceUpdateTagTypes.java
+    startLine: 32
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.compute.implementation.api._force_update_tag_types" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static ForceUpdateTagTypes fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+      description: <p>the parsed <xref href="com.microsoft.azure.management.compute.implementation.api._force_update_tag_types" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1aa2efb7185e2e4fd47952b9c2c61567e7
+  id: _force_update_tag_types_1aa2efb7185e2e4fd47952b9c2c61567e7
+  parent: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+  href: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types.yml
+  langs:
+  - java
+  name: RERUN_EXTENSION
+  fullName: com.microsoft.azure.management.compute.implementation.api.ForceUpdateTagTypes.RERUN_EXTENSION
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ForceUpdateTagTypes.java
+    startLine: 16
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Enum value RerunExtension. </p>
+  syntax:
+    content: public RERUN_EXTENSION=("RerunExtension")
+- uid: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types_1a79d05ed78127d565be8cfbc10670cb23
+  id: _force_update_tag_types_1a79d05ed78127d565be8cfbc10670cb23
+  parent: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+  href: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.ForceUpdateTagTypes.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ForceUpdateTagTypes.java
+    startLine: 44
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._force_update_tag_types.yml
+  name: ForceUpdateTagTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.ForceUpdateTagTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._force_update_tag_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

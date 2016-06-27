@@ -1,0 +1,33 @@
+items:
+- uid: com.microsoft.azure.management.network._network_interface._definition_blank
+  id: _definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_blank.yml
+  langs:
+  - java
+  name: NetworkInterface.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionBlank
+  type: Interface
+  source:
+    remote:
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 144
+  package: com.microsoft.azure.management.network
+  summary: <p>The first stage of the network interface. </p>
+  syntax:
+    content: public interface DefinitionBlank
+  inheritance:
+  - GroupableResource.DefinitionWithRegion< NetworkInterface.DefinitionWithGroup >
+references:
+- uid: com.microsoft.azure.management.network._network_interface._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitions.yml
+  name: NetworkInterface.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions

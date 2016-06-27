@@ -1,0 +1,649 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine._update
+  id: _update
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a1e53c6c9b42506ac00b686b99a10bc11
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a72aa5383238f3df2cde274496cf2b4c4
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a6b4648da628a723902d61090d69ff497
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a42856313a583e31b3995a195a27d8945
+  - com.microsoft.azure.management.compute._virtual_machine._update_1ad1f1b6036e79b33337b89d7998df0264
+  - com.microsoft.azure.management.compute._virtual_machine._update_1acd36f3357c8257d9ae3022c8b07c6b00
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a575967895aeeb03a810c3d68eab95a2d
+  - com.microsoft.azure.management.compute._virtual_machine._update_1abd256edd793a7b535c4bc41b08c65dcd
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a8151ee2dd0a22c7ae469fb61b2c8d08b
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a32b78c67d00c89742c55d33a760e7b7d
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a393cf4424a0884b32f21f6477c43a9d5
+  - com.microsoft.azure.management.compute._virtual_machine._update_1adced81042571629c19c8610fce256212
+  - com.microsoft.azure.management.compute._virtual_machine._update_1ad316a17097480cfac4bcac080fbfd5b9
+  - com.microsoft.azure.management.compute._virtual_machine._update_1a534e4acdd660ff18e683d1c3ceaf6a8d
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: VirtualMachine.Update
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 868
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>The template for a virtual machine update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public interface Update
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable
+  - com.microsoft.azure.management.resources.fluentcore.model._appliable
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
+  - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a614b76a85ab8e27c82a680c826e7c293
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1af307b0910a16e1a10cd53688d90964ab
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1a29b90aa888ae72ce7027d21801c3ec2e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1a776ea31fee986700468bded993381c1d
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a1e53c6c9b42506ac00b686b99a10bc11
+  id: _update_1a1e53c6c9b42506ac00b686b99a10bc11
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: defineExistingDataDisk(String name)
+  fullName: DataDisk.DefinitionAttachExistingDataDisk<Update> com.microsoft.azure.management.compute.VirtualMachine.Update.defineExistingDataDisk(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 936
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies an existing VHD that needs to be attached to the virtual machine as data disk along with it's configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DataDisk.DefinitionAttachExistingDataDisk< Update > defineExistingDataDisk(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name for the data disk </p>
+    return:
+      type: 912c6d2dcom.microsoft.azure.management.compute._virtual_machine._update9ec3e006
+      description: <p>the stage representing configuration for the data disk </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a72aa5383238f3df2cde274496cf2b4c4
+  id: _update_1a72aa5383238f3df2cde274496cf2b4c4
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: defineNewDataDisk(String name)
+  fullName: DataDisk.DefinitionAttachNewDataDisk<Update> com.microsoft.azure.management.compute.VirtualMachine.Update.defineNewDataDisk(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 927
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies a new blank data disk to be attached to the virtual machine along with it's configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DataDisk.DefinitionAttachNewDataDisk< Update > defineNewDataDisk(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name for the data disk </p>
+    return:
+      type: 3c0bde1acom.microsoft.azure.management.compute._virtual_machine._update9ec3e006
+      description: <p>the stage representing configuration for the data disk </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a6b4648da628a723902d61090d69ff497
+  id: _update_1a6b4648da628a723902d61090d69ff497
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: updateDataDisk(String name)
+  fullName: DataDisk.Update<VirtualMachine.Update> com.microsoft.azure.management.compute.VirtualMachine.Update.updateDataDisk(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 944
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Starts a stage for updating data disk attached to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public DataDisk.Update< VirtualMachine.Update > updateDataDisk(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the data disk </p>
+    return:
+      type: c18d0803
+      description: <p>the stage representing configuration update for the data disk </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a42856313a583e31b3995a195a27d8945
+  id: _update_1a42856313a583e31b3995a195a27d8945
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withExistingDataDisk(String storageAccountName, String containerName, String vhdName)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withExistingDataDisk(String storageAccountName, String containerName, String vhdName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 919
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies an existing VHD that needs to be attached to the virtual machine as data disk.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withExistingDataDisk(String storageAccountName, String containerName, String vhdName)
+    parameters:
+    - id: storageAccountName
+      type: "26831127"
+      description: <p>the storage account name </p>
+    - id: containerName
+      type: "26831127"
+      description: <p>the name of the container holding the VHD file </p>
+    - id: vhdName
+      type: "26831127"
+      description: <p>the name for the VHD file </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1ad1f1b6036e79b33337b89d7998df0264
+  id: _update_1ad1f1b6036e79b33337b89d7998df0264
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 984
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Associate an existing network interface with the virtual machine.</p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+    parameters:
+    - id: networkInterface
+      type: com.microsoft.azure.management.network._network_interface
+      description: <p>an existing network interface </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1acd36f3357c8257d9ae3022c8b07c6b00
+  id: _update_1acd36f3357c8257d9ae3022c8b07c6b00
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withNewDataDisk(Integer sizeInGB)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withNewDataDisk(Integer sizeInGB)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 909
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies that a new blank data disk needs to be attached to virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withNewDataDisk(Integer sizeInGB)
+    parameters:
+    - id: sizeInGB
+      type: 08effaa0
+      description: <p>the disk size in GB </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a575967895aeeb03a810c3d68eab95a2d
+  id: _update_1a575967895aeeb03a810c3d68eab95a2d
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 973
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Create a new network interface to associate with the virtual machine, based on the provided definition.</p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: fb7da1e0
+      description: <p>a creatable definition for a new network interface </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1abd256edd793a7b535c4bc41b08c65dcd
+  id: _update_1abd256edd793a7b535c4bc41b08c65dcd
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withOsDiskCaching(CachingTypes cachingType)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withOsDiskCaching(CachingTypes cachingType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 877
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the caching type for the Operating System disk.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withOsDiskCaching(CachingTypes cachingType)
+    parameters:
+    - id: cachingType
+      type: com.microsoft.azure.management.compute.implementation.api._caching_types
+      description: <p>the caching type. </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a8151ee2dd0a22c7ae469fb61b2c8d08b
+  id: _update_1a8151ee2dd0a22c7ae469fb61b2c8d08b
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withOsDiskSizeInGb(Integer size)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withOsDiskSizeInGb(Integer size)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 885
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the size of the OSDisk in GB.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withOsDiskSizeInGb(Integer size)
+    parameters:
+    - id: size
+      type: 08effaa0
+      description: <p>the VHD size. </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a32b78c67d00c89742c55d33a760e7b7d
+  id: _update_1a32b78c67d00c89742c55d33a760e7b7d
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withoutDataDisk(int lun)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withoutDataDisk(int lun)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 960
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Detaches a data disk with the given logical unit number from the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withoutDataDisk(int lun)
+    parameters:
+    - id: lun
+      type: f75371fa
+      description: <p>the logical unit number of the data disk to remove </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a393cf4424a0884b32f21f6477c43a9d5
+  id: _update_1a393cf4424a0884b32f21f6477c43a9d5
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withoutDataDisk(String name)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withoutDataDisk(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 952
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Detaches a data disk with the given name from the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withoutDataDisk(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the data disk to remove </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1adced81042571629c19c8610fce256212
+  id: _update_1adced81042571629c19c8610fce256212
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withoutSecondaryNetworkInterface(String name)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withoutSecondaryNetworkInterface(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 992
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Removes a network interface associated with virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withoutSecondaryNetworkInterface(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the secondary network interface to remove </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1ad316a17097480cfac4bcac080fbfd5b9
+  id: _update_1ad316a17097480cfac4bcac080fbfd5b9
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withSize(String sizeName)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withSize(String sizeName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 893
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the new size for the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withSize(String sizeName)
+    parameters:
+    - id: sizeName
+      type: "26831127"
+      description: <p>the name of the size for the virtual machine as text </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_1a534e4acdd660ff18e683d1c3ceaf6a8d
+  id: _update_1a534e4acdd660ff18e683d1c3ceaf6a8d
+  parent: com.microsoft.azure.management.compute._virtual_machine._update
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  langs:
+  - java
+  name: withSize(VirtualMachineSizeTypes size)
+  fullName: Update com.microsoft.azure.management.compute.VirtualMachine.Update.withSize(VirtualMachineSizeTypes size)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 901
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the new size for the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withSize(VirtualMachineSizeTypes size)
+    parameters:
+    - id: size
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_types
+      description: <p>a size from the list of available sizes for the virtual machine </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._update
+      description: <p>the stage representing updatable VM definition </p>
+references:
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 3c0bde1acom.microsoft.azure.management.compute._virtual_machine._update9ec3e006
+  spec.java:
+  - name: 'DataDisk.DefinitionAttachNewDataDisk< '
+    fullName: 'DataDisk.DefinitionAttachNewDataDisk< '
+  - uid: com.microsoft.azure.management.compute._virtual_machine._update
+    name: VirtualMachine.Update
+    fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
+    href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 912c6d2dcom.microsoft.azure.management.compute._virtual_machine._update9ec3e006
+  spec.java:
+  - name: 'DataDisk.DefinitionAttachExistingDataDisk< '
+    fullName: 'DataDisk.DefinitionAttachExistingDataDisk< '
+  - uid: com.microsoft.azure.management.compute._virtual_machine._update
+    name: VirtualMachine.Update
+    fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
+    href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: c18d0803
+  spec.java:
+  - name: DataDisk.Update< VirtualMachine.Update >
+    fullName: DataDisk.Update< VirtualMachine.Update >
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: fb7da1e0
+  spec.java:
+  - name: NetworkInterface.DefinitionCreatable
+    fullName: NetworkInterface.DefinitionCreatable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
+  parent: com.microsoft.azure.management.resources.fluentcore.model._appliable
+  href: com.microsoft.azure.management.resources.fluentcore.model._appliable.yml
+  name: apply()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Appliable< T >.apply()
+  type: Method
+  summary: >-
+    <p>Execute the update request.</p>
+
+    <p></p>
+  syntax:
+    content: public T apply()
+    return:
+      type: 8ce1ecb9
+      description: <p>the updated resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._appliable_1a614b76a85ab8e27c82a680c826e7c293
+  parent: com.microsoft.azure.management.resources.fluentcore.model._appliable
+  href: com.microsoft.azure.management.resources.fluentcore.model._appliable.yml
+  name: applyAsync(ServiceCallback< T > callback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.fluentcore.model.Appliable< T >.applyAsync(ServiceCallback< T > callback)
+  type: Method
+  summary: >-
+    <p>Execute the update request asynchronously.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall applyAsync(ServiceCallback< T > callback)
+    parameters:
+    - id: callback
+      type: com.microsoft.rest._service_callback34132889
+      description: <p>the callback for success and failure </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the handle to the REST call </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  name: key()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1af307b0910a16e1a10cd53688d90964ab
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
+  name: withoutTag(String key)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags< T >.withoutTag(String key)
+  type: Method
+  summary: <p>Removes a tag from the resource. </p>
+  syntax:
+    content: public T withoutTag(String key)
+    parameters:
+    - id: key
+      type: "26831127"
+      description: <p>the key of the tag to remove </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1a29b90aa888ae72ce7027d21801c3ec2e
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
+  name: withTag(String key, String value)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags< T >.withTag(String key, String value)
+  type: Method
+  summary: <p>Adds a tag to the resource. </p>
+  syntax:
+    content: public T withTag(String key, String value)
+    parameters:
+    - id: key
+      type: "26831127"
+      description: <p>the key for the tag </p>
+    - id: value
+      type: "26831127"
+      description: <p>the value for the tag </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1a776ea31fee986700468bded993381c1d
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
+  name: withTags(Map< String, String > tags)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags< T >.withTags(Map< String, String > tags)
+  type: Method
+  summary: <p>Specifies tags for the resource as a <ref refid="" kindref="compound">Map</ref>. </p>
+  syntax:
+    content: public T withTags(Map< String, String > tags)
+    parameters:
+    - id: tags
+      type: 805937fc
+      description: <p>a <ref refid="" kindref="compound">Map</ref> of tags </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._appliable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._appliable.yml
+  name: Appliable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable
+  type: Interface
+  summary: >-
+    <p>The base interface for all template interfaces that support update operations.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Appliable
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
+  name: Resource.UpdateWithTags
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags
+  type: Interface
+  summary: >-
+    <p>An update allowing tags to be modified for the resource.</p>
+
+    <p></p>
+  syntax:
+    content: public interface UpdateWithTags
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_impl
+- uid: com.microsoft.azure.management.compute._virtual_machine._update
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._update.yml
+  name: VirtualMachine.Update
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
+  type: Interface
+  summary: >-
+    <p>The template for a virtual machine update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1
+- uid: com.microsoft.azure.management.compute.implementation.api._caching_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml
+  name: CachingTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.CachingTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._caching_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum CachingTypes
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_types.yml
+  name: VirtualMachineSizeTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineSizeTypes
+  type: Class
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class VirtualMachineSizeTypes
+- uid: com.microsoft.azure.management.network._network_interface
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface.yml
+  name: NetworkInterface
+  fullName: com.microsoft.azure.management.network.NetworkInterface
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
+  syntax:
+    content: public interface NetworkInterface
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

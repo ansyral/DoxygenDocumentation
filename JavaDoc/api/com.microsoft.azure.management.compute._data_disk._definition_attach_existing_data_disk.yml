@@ -1,0 +1,108 @@
+items:
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk
+  id: _definition_attach_existing_data_disk
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk_1aca58c403790cea0cf858e5ddbf3cb0ca
+  href: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk.yml
+  langs:
+  - java
+  name: DataDisk.DefinitionAttachExistingDataDisk
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachExistingDataDisk
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 104
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>The first stage of attaching an existing disk as data disk and configuring it.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachExistingDataDisk
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk_1aca58c403790cea0cf858e5ddbf3cb0ca
+  id: _definition_attach_existing_data_disk_1aca58c403790cea0cf858e5ddbf3cb0ca
+  parent: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk
+  href: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk.yml
+  langs:
+  - java
+  name: from(String storageAccountName, String containerName, String vhdName)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.compute.DataDisk.DefinitionAttachExistingDataDisk< ParentT >.from(String storageAccountName, String containerName, String vhdName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 113
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies an existing VHD that needs to be attached to the virtual machine as data disk.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > from(String storageAccountName, String containerName, String vhdName)
+    parameters:
+    - id: storageAccountName
+      type: "26831127"
+      description: <p>the storage account name </p>
+    - id: containerName
+      type: "26831127"
+      description: <p>the name of the container holding the VHD file </p>
+    - id: vhdName
+      type: "26831127"
+      description: <p>the name for the VHD file </p>
+    return:
+      type: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
+      description: <p>the stage representing optional additional settings for the attachable data disk </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
+  spec.java:
+  - uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
+    name: DataDisk.DefinitionAttachable
+    fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+    href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
+  - name: < ParentT >
+    fullName: < ParentT >
+- uid: com.microsoft.azure.management.compute._data_disk._definitions
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definitions.yml
+  name: DataDisk.Definitions
+  fullName: com.microsoft.azure.management.compute.DataDisk.Definitions
+  type: Interface
+  summary: >-
+    <p>Container interface for all the definitions.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
+  name: DataDisk.DefinitionAttachable
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The stage of the data disk definition which contains all the minimum required inputs for the resource to be attached (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>

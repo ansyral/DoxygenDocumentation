@@ -1,0 +1,273 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager
+  id: _storage_manager
+  parent: com.microsoft.azure.management.storage.implementation
+  children:
+  - com.microsoft.azure.management.storage.implementation._storage_manager_1a1529814e1250e3361dc10aa02e93fbf9
+  - com.microsoft.azure.management.storage.implementation._storage_manager_1a13e8b4abeabe2d1dcd73e71044df134e
+  - com.microsoft.azure.management.storage.implementation._storage_manager_1ad8705f7c764d857c9a71e2223d53042b
+  - com.microsoft.azure.management.storage.implementation._storage_manager_1a4138d843779ef66ee3833d47e4525106
+  - com.microsoft.azure.management.storage.implementation._storage_manager_1a4bd89a119e37112043212297112cb4d1
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  langs:
+  - java
+  name: StorageManager
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+    startLine: 21
+  package: com.microsoft.azure.management.storage.implementation
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
+  syntax: &o1
+    content: public class StorageManager
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager_1a1529814e1250e3361dc10aa02e93fbf9
+  id: _storage_manager_1a1529814e1250e3361dc10aa02e93fbf9
+  parent: com.microsoft.azure.management.storage.implementation._storage_manager
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  langs:
+  - java
+  name: authenticate(RestClient restClient, String subscriptionId)
+  fullName: static StorageManager com.microsoft.azure.management.storage.implementation.StorageManager.authenticate(RestClient restClient, String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+    startLine: 57
+  package: com.microsoft.azure.management.storage.implementation
+  summary: >-
+    <p>Creates an instance of <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref> that exposes storage resource management API entry points.</p>
+
+    <p></p>
+  syntax:
+    content: public static StorageManager authenticate(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+      description: <p>the <xref href="com.microsoft.azure._rest_client" data-throw-if-not-resolved="false"></xref> to be used for API calls. </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation._storage_manager
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref></p>
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager_1a13e8b4abeabe2d1dcd73e71044df134e
+  id: _storage_manager_1a13e8b4abeabe2d1dcd73e71044df134e
+  parent: com.microsoft.azure.management.storage.implementation._storage_manager
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  langs:
+  - java
+  name: authenticate(ServiceClientCredentials credentials, String subscriptionId)
+  fullName: static StorageManager com.microsoft.azure.management.storage.implementation.StorageManager.authenticate(ServiceClientCredentials credentials, String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+    startLine: 44
+  package: com.microsoft.azure.management.storage.implementation
+  summary: >-
+    <p>Creates an instance of <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref> that exposes storage resource management API entry points.</p>
+
+    <p></p>
+  syntax:
+    content: public static StorageManager authenticate(ServiceClientCredentials credentials, String subscriptionId)
+    parameters:
+    - id: credentials
+      type: com.microsoft.rest.credentials._service_client_credentials
+      description: <p>the credentials to use </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation._storage_manager
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref></p>
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager_1ad8705f7c764d857c9a71e2223d53042b
+  id: _storage_manager_1ad8705f7c764d857c9a71e2223d53042b
+  parent: com.microsoft.azure.management.storage.implementation._storage_manager
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  langs:
+  - java
+  name: configure()
+  fullName: static Configurable com.microsoft.azure.management.storage.implementation.StorageManager.configure()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+    startLine: 33
+  package: com.microsoft.azure.management.storage.implementation
+  summary: >-
+    <p>Get a <xref href="com.microsoft.azure.management.storage.implementation._storage_manager._configurable" data-throw-if-not-resolved="false"></xref> instance that can be used to create <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref> with optional configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public static Configurable configure()
+    return:
+      type: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
+      description: <p>the instance allowing configurations </p>
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager_1a4138d843779ef66ee3833d47e4525106
+  id: _storage_manager_1a4138d843779ef66ee3833d47e4525106
+  parent: com.microsoft.azure.management.storage.implementation._storage_manager
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  langs:
+  - java
+  name: storageAccounts()
+  fullName: StorageAccounts com.microsoft.azure.management.storage.implementation.StorageManager.storageAccounts()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+    startLine: 93
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public StorageAccounts storageAccounts()
+    return:
+      type: com.microsoft.azure.management.storage._storage_accounts
+      description: <p>the storage account management API entry point </p>
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager_1a4bd89a119e37112043212297112cb4d1
+  id: _storage_manager_1a4bd89a119e37112043212297112cb4d1
+  parent: com.microsoft.azure.management.storage.implementation._storage_manager
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  langs:
+  - java
+  name: usages()
+  fullName: Usages com.microsoft.azure.management.storage.implementation.StorageManager.usages()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
+    startLine: 105
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public Usages usages()
+    return:
+      type: com.microsoft.azure.management.storage._usages
+      description: <p>the storage resource usage management API entry point </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  name: Manager(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.Manager(RestClient restClient, String subscriptionId)
+  type: Method
+  syntax:
+    content: protected Manager(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+    - id: subscriptionId
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  name: resourceManager()
+  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.resourceManager()
+  type: Method
+  syntax:
+    content: protected ResourceManager resourceManager()
+    return:
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  name: Manager
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager
+  type: Class
+  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  syntax:
+    content: public class Manager
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable.yml
+  name: StorageManager.Configurable
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl.yml
+  name: StorageManager.ConfigurableImpl
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.ConfigurableImpl
+  type: Class
+  summary: <p>The implementation for <xref href="com.microsoft.azure.management.storage.implementation._storage_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
+  syntax:
+    content: private class ConfigurableImpl
+- uid: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl.yml
+  name: StorageManagementClientImpl
+  fullName: com.microsoft.azure.management.storage.implementation.api.StorageManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class StorageManagementClientImpl
+- uid: com.microsoft.azure.management.storage._storage_accounts
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._storage_accounts.yml
+  name: StorageAccounts
+  fullName: com.microsoft.azure.management.storage.StorageAccounts
+  type: Interface
+  summary: <p>Entry point for storage accounts management API. </p>
+  syntax:
+    content: public interface StorageAccounts
+- uid: com.microsoft.azure.management.storage._usages
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usages.yml
+  name: Usages
+  fullName: com.microsoft.azure.management.storage.Usages
+  type: Interface
+  summary: <p>Entry point for storage resource usage management API. </p>
+  syntax:
+    content: public interface Usages
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  name: StorageManager
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
+  syntax: *o1
+- uid: com.microsoft.rest.credentials._service_client_credentials
+  parent: com.microsoft.rest.credentials
+  href: com.microsoft.rest.credentials._service_client_credentials.yml
+  name: ServiceClientCredentials
+  fullName: com.microsoft.rest.credentials.ServiceClientCredentials
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.rest.credentials._service_client_credentials" data-throw-if-not-resolved="false"></xref> is the abstraction for credentials used by ServiceClients accessing REST services. </p>
+  syntax:
+    content: public interface ServiceClientCredentials
+- uid: com.microsoft.azure._rest_client
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._rest_client.yml
+  name: RestClient
+  fullName: com.microsoft.azure.RestClient
+  type: Class
+  summary: <p>An instance of this class stores the client information for making REST calls. </p>
+  syntax:
+    content: public class RestClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

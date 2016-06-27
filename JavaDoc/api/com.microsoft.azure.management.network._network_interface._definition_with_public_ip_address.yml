@@ -1,0 +1,354 @@
+items:
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  id: _definition_with_public_ip_address
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1a25e09eeac69564e7ff6179372c4df876
+  - com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1a610f328900733c33f7174b66b857c58b
+  - com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1ad8c1ba6429b2efcd9bfdd3f17c721d04
+  - com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1a551d1092da10468f80ae16347a4c6bdd
+  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
+  langs:
+  - java
+  name: NetworkInterface.DefinitionWithPublicIpAddress
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 243
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary Ip configuration. </p>
+  syntax:
+    content: public interface DefinitionWithPublicIpAddress
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable
+  - com.microsoft.azure.management.network._network_interface._definition_creatable
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
+  - com.microsoft.azure.management.network._network_interface._definition_creatable_1a59468f11b9e2a38400266cc868e7de38
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  - com.microsoft.azure.management.network._network_interface._definition_creatable_1ab5860adc7fda16471ab73115899b7236
+  - com.microsoft.azure.management.network._network_interface._definition_creatable_1af3ca7fa719febf0f03768f376d815b94
+  - com.microsoft.azure.management.network._network_interface._definition_creatable_1a380204ea8f913b3f650137d220d135eb
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1ab2f7fad2cbb4cb3fdcffcc1cf6b8d5f8
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1a5cc4db7c23294a045cab58bc3d0eb625
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1af64687022003b777d0cfc486c9c08503
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1a25e09eeac69564e7ff6179372c4df876
+  id: _definition_with_public_ip_address_1a25e09eeac69564e7ff6179372c4df876
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
+  langs:
+  - java
+  name: withExistingPrimaryPublicIpAddress(PublicIpAddress publicIpAddress)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress.withExistingPrimaryPublicIpAddress(PublicIpAddress publicIpAddress)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 281
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Associates an existing public IP address with the network interface's primary Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withExistingPrimaryPublicIpAddress(PublicIpAddress publicIpAddress)
+    parameters:
+    - id: publicIpAddress
+      type: com.microsoft.azure.management.network._public_ip_address
+      description: <p>an existing public IP address </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1a610f328900733c33f7174b66b857c58b
+  id: _definition_with_public_ip_address_1a610f328900733c33f7174b66b857c58b
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
+  langs:
+  - java
+  name: withNewPrimaryPublicIpAddress()
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress.withNewPrimaryPublicIpAddress()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 262
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource and associate it with the network interface's primary Ip configuration. </p>
+
+    <p>the internal name and DNS label for the public IP address will be derived from the network interface name</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withNewPrimaryPublicIpAddress()
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1ad8c1ba6429b2efcd9bfdd3f17c721d04
+  id: _definition_with_public_ip_address_1ad8c1ba6429b2efcd9bfdd3f17c721d04
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
+  langs:
+  - java
+  name: withNewPrimaryPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress.withNewPrimaryPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 252
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Create a new public IP address to associate with network interface's primary Ip configuration, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withNewPrimaryPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 0d27d50c
+      description: <p>a creatable definition for a new public IP </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address_1a551d1092da10468f80ae16347a4c6bdd
+  id: _definition_with_public_ip_address_1a551d1092da10468f80ae16347a4c6bdd
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
+  langs:
+  - java
+  name: withNewPrimaryPublicIpAddress(String leafDnsLabel)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress.withNewPrimaryPublicIpAddress(String leafDnsLabel)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 273
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the network interface's primary Ip configuration. </p>
+
+    <p>the internal name for the public IP address will be derived from the DNS label</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withNewPrimaryPublicIpAddress(String leafDnsLabel)
+    parameters:
+    - id: leafDnsLabel
+      type: "26831127"
+      description: <p>the leaf domain label </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+references:
+- uid: 0d27d50c
+  spec.java:
+  - name: PublicIpAddress.DefinitionCreatable
+    fullName: PublicIpAddress.DefinitionCreatable
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
+  parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  name: create()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Creatable< T >.create()
+  type: Method
+  summary: >-
+    <p>Execute the create request.</p>
+
+    <p></p>
+  syntax:
+    content: public T create()
+    return:
+      type: 8ce1ecb9
+      description: <p>the create resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
+  parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  name: createAsync(ServiceCallback< T > callback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.fluentcore.model.Creatable< T >.createAsync(ServiceCallback< T > callback)
+  type: Method
+  summary: >-
+    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createAsync(ServiceCallback< T > callback)
+    parameters:
+    - id: callback
+      type: com.microsoft.rest._service_callback34132889
+      description: <p>the callback to handle success and failure </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>a handle to cancel the request </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable_1a59468f11b9e2a38400266cc868e7de38
+  parent: com.microsoft.azure.management.network._network_interface._definition_creatable
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: defineSecondaryIpConfiguration(String name)
+  fullName: NicIpConfiguration.DefinitionBlank<DefinitionCreatable> com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable.defineSecondaryIpConfiguration(String name)
+  type: Method
+  summary: >-
+    <p>Starts definition of a secondary Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public NicIpConfiguration.DefinitionBlank< DefinitionCreatable > defineSecondaryIpConfiguration(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: dc61855acom.microsoft.azure.management.network._network_interface._definition_creatable9ec3e006
+      description: <p>the first stage of a secondary Ip configuration definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  name: key()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable_1ab5860adc7fda16471ab73115899b7236
+  parent: com.microsoft.azure.management.network._network_interface._definition_creatable
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: withDnsServer(String ipAddress)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable.withDnsServer(String ipAddress)
+  type: Method
+  summary: >-
+    <p>Specifies the IP address of the custom DNS server to associate with the network interface. </p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new dns server is added to the network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withDnsServer(String ipAddress)
+    parameters:
+    - id: ipAddress
+      type: "26831127"
+      description: <p>the IP address of the DNS server </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable_1af3ca7fa719febf0f03768f376d815b94
+  parent: com.microsoft.azure.management.network._network_interface._definition_creatable
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: withInternalDnsNameLabel(String dnsNameLabel)
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable.withInternalDnsNameLabel(String dnsNameLabel)
+  type: Method
+  summary: >-
+    <p>Specifies the internal DNS name label for the network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withInternalDnsNameLabel(String dnsNameLabel)
+    parameters:
+    - id: dnsNameLabel
+      type: "26831127"
+      description: <p>the internal DNS name label </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable_1a380204ea8f913b3f650137d220d135eb
+  parent: com.microsoft.azure.management.network._network_interface._definition_creatable
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: withIpForwarding()
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable.withIpForwarding()
+  type: Method
+  summary: >-
+    <p>Enable IP forwarding in the network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withIpForwarding()
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_creatable
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1ab2f7fad2cbb4cb3fdcffcc1cf6b8d5f8
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
+  name: withoutTag(String key)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags< T >.withoutTag(String key)
+  type: Method
+  summary: <p>Removes a tag from the resource. </p>
+  syntax:
+    content: public T withoutTag(String key)
+    parameters:
+    - id: key
+      type: "26831127"
+      description: <p>the key of the tag to remove </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1a5cc4db7c23294a045cab58bc3d0eb625
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
+  name: withTag(String key, String value)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags< T >.withTag(String key, String value)
+  type: Method
+  summary: <p>Adds a tag to the resource. </p>
+  syntax:
+    content: public T withTag(String key, String value)
+    parameters:
+    - id: key
+      type: "26831127"
+      description: <p>the key for the tag </p>
+    - id: value
+      type: "26831127"
+      description: <p>the value for the tag </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1af64687022003b777d0cfc486c9c08503
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
+  name: withTags(Map< String, String > tags)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags< T >.withTags(Map< String, String > tags)
+  type: Method
+  summary: <p>Specifies tags for the resource as a <ref refid="" kindref="compound">Map</ref>. </p>
+  syntax:
+    content: public T withTags(Map< String, String > tags)
+    parameters:
+    - id: tags
+      type: 805937fc
+      description: <p>a <ref refid="" kindref="compound">Map</ref> of tags </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: NetworkInterface.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network_interface._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitions.yml
+  name: NetworkInterface.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._public_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  name: PublicIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress
+  type: Interface
+  summary: <p>Public IP address. </p>
+  syntax:
+    content: public interface PublicIpAddress

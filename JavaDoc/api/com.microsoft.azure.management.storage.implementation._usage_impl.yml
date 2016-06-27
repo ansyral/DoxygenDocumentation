@@ -1,0 +1,193 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl
+  id: _usage_impl
+  parent: com.microsoft.azure.management.storage.implementation
+  children:
+  - com.microsoft.azure.management.storage.implementation._usage_impl_1ae7510ce40c758bd4fbeba045cc03c8c2
+  - com.microsoft.azure.management.storage.implementation._usage_impl_1a15a06683186001fe51531b962838284c
+  - com.microsoft.azure.management.storage.implementation._usage_impl_1a9bd31a385f71bbf4669a7acea57a1244
+  - com.microsoft.azure.management.storage.implementation._usage_impl_1a68870f8be52ecd05b17d2738b5f2cc38
+  - com.microsoft.azure.management.storage.implementation._usage_impl_1a660ebd33c47a9bcd913f8b34ca7260e9
+  href: com.microsoft.azure.management.storage.implementation._usage_impl.yml
+  langs:
+  - java
+  name: UsageImpl
+  fullName: com.microsoft.azure.management.storage.implementation.UsageImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+    startLine: 10
+  package: com.microsoft.azure.management.storage.implementation
+  summary: 'The implementation of Usage and its parent interfaces. '
+  syntax:
+    content: class UsageImpl
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl_1a6e63a2fb4b6b7bb51415a3b8a71bca75
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl_1a6172776d4e0886d9bd9945b91a52d0e6
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl_1ae7510ce40c758bd4fbeba045cc03c8c2
+  id: _usage_impl_1ae7510ce40c758bd4fbeba045cc03c8c2
+  parent: com.microsoft.azure.management.storage.implementation._usage_impl
+  href: com.microsoft.azure.management.storage.implementation._usage_impl.yml
+  langs:
+  - java
+  name: UsageImpl(com.microsoft.azure.management.storage.implementation.api.Usage innerObject)
+  fullName: com.microsoft.azure.management.storage.implementation.UsageImpl.UsageImpl(com.microsoft.azure.management.storage.implementation.api.Usage innerObject)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+    startLine: 11
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: UsageImpl(com.microsoft.azure.management.storage.implementation.api.Usage innerObject)
+    parameters:
+    - id: innerObject
+      type: com.microsoft.azure.management.storage.implementation.api._usage
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl_1a15a06683186001fe51531b962838284c
+  id: _usage_impl_1a15a06683186001fe51531b962838284c
+  parent: com.microsoft.azure.management.storage.implementation._usage_impl
+  href: com.microsoft.azure.management.storage.implementation._usage_impl.yml
+  langs:
+  - java
+  name: unit()
+  fullName: UsageUnit com.microsoft.azure.management.storage.implementation.UsageImpl.unit()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+    startLine: 16
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public UsageUnit unit()
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._usage_unit
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl_1a9bd31a385f71bbf4669a7acea57a1244
+  id: _usage_impl_1a9bd31a385f71bbf4669a7acea57a1244
+  parent: com.microsoft.azure.management.storage.implementation._usage_impl
+  href: com.microsoft.azure.management.storage.implementation._usage_impl.yml
+  langs:
+  - java
+  name: currentValue()
+  fullName: int com.microsoft.azure.management.storage.implementation.UsageImpl.currentValue()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+    startLine: 21
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public int currentValue()
+    return:
+      type: f75371fa
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl_1a68870f8be52ecd05b17d2738b5f2cc38
+  id: _usage_impl_1a68870f8be52ecd05b17d2738b5f2cc38
+  parent: com.microsoft.azure.management.storage.implementation._usage_impl
+  href: com.microsoft.azure.management.storage.implementation._usage_impl.yml
+  langs:
+  - java
+  name: limit()
+  fullName: int com.microsoft.azure.management.storage.implementation.UsageImpl.limit()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+    startLine: 26
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public int limit()
+    return:
+      type: f75371fa
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl_1a660ebd33c47a9bcd913f8b34ca7260e9
+  id: _usage_impl_1a660ebd33c47a9bcd913f8b34ca7260e9
+  parent: com.microsoft.azure.management.storage.implementation._usage_impl
+  href: com.microsoft.azure.management.storage.implementation._usage_impl.yml
+  langs:
+  - java
+  name: name()
+  fullName: UsageName com.microsoft.azure.management.storage.implementation.UsageImpl.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/UsageImpl.java
+    startLine: 31
+  package: com.microsoft.azure.management.storage.implementation
+  syntax:
+    content: public UsageName name()
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._usage_name
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl_1a6e63a2fb4b6b7bb51415a3b8a71bca75
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
+  name: inner()
+  fullName: InnerT com.microsoft.azure.management.resources.fluentcore.model.implementation.WrapperImpl< InnerT >.inner()
+  type: Method
+  syntax:
+    content: public InnerT inner()
+    return:
+      type: 52cf8095
+      description: 'wrapped inner object providing direct access to the underlying auto-generated API implementation, based on Azure REST API '
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl_1a6172776d4e0886d9bd9945b91a52d0e6
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
+  name: WrapperImpl(InnerT innerObject)
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.WrapperImpl< InnerT >.WrapperImpl(InnerT innerObject)
+  type: Method
+  syntax:
+    content: protected WrapperImpl(InnerT innerObject)
+    parameters:
+    - id: innerObject
+      type: 52cf8095
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
+  name: WrapperImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.WrapperImpl
+  type: Class
+  summary: Base implementation for Wrapper interface.
+  syntax:
+    content: public class WrapperImpl
+- uid: com.microsoft.azure.management.storage._usage
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usage.yml
+  name: Usage
+  fullName: com.microsoft.azure.management.storage.Usage
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure storage resource usage info object. '
+  syntax:
+    content: public interface Usage
+- uid: com.microsoft.azure.management.storage.implementation.api._usage
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._usage.yml
+  name: Usage
+  fullName: com.microsoft.azure.management.storage.implementation.api.Usage
+  type: Class
+  summary: 'Describes Storage ResourceUsage. '
+  syntax:
+    content: public class Usage
+- uid: com.microsoft.azure.management.storage.implementation.api._usage_unit
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._usage_unit.yml
+  name: UsageUnit
+  fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit
+  type: Enum
+  summary: 'Defines values for UsageUnit. '
+  syntax:
+    content: public enum UsageUnit
+- uid: com.microsoft.azure.management.storage.implementation.api._usage_name
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._usage_name.yml
+  name: UsageName
+  fullName: com.microsoft.azure.management.storage.implementation.api.UsageName
+  type: Class
+  summary: 'The Usage Names. '
+  syntax:
+    content: public class UsageName

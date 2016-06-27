@@ -1,0 +1,102 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration
+  id: _win_r_m_configuration
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration_1a0d81e6a52818d86ed99c56c55fce0378
+  - com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration_1a6fb037878826ca0a16e67ba75982a0ff
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration.yml
+  langs:
+  - java
+  name: WinRMConfiguration
+  fullName: com.microsoft.azure.management.compute.implementation.api.WinRMConfiguration
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMConfiguration.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMConfiguration.java
+    startLine: 13
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Describes Windows Remote Management configuration of the VM. </p>
+  syntax: &o1
+    content: public class WinRMConfiguration
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration_1a0d81e6a52818d86ed99c56c55fce0378
+  id: _win_r_m_configuration_1a0d81e6a52818d86ed99c56c55fce0378
+  parent: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration.yml
+  langs:
+  - java
+  name: listeners()
+  fullName: List<WinRMListener> com.microsoft.azure.management.compute.implementation.api.WinRMConfiguration.listeners()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMConfiguration.java
+    startLine: 24
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the listeners value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< WinRMListener > listeners()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._win_r_m_listener9ec3e006
+      description: <p>the listeners value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration_1a6fb037878826ca0a16e67ba75982a0ff
+  id: _win_r_m_configuration_1a6fb037878826ca0a16e67ba75982a0ff
+  parent: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration.yml
+  langs:
+  - java
+  name: withListeners(List< WinRMListener > listeners)
+  fullName: WinRMConfiguration com.microsoft.azure.management.compute.implementation.api.WinRMConfiguration.withListeners(List< WinRMListener > listeners)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/WinRMConfiguration.java
+    startLine: 34
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the listeners value.</p>
+
+    <p></p>
+  syntax:
+    content: public WinRMConfiguration withListeners(List< WinRMListener > listeners)
+    parameters:
+    - id: listeners
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._win_r_m_listener9ec3e006
+      description: <p>the listeners value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._win_r_m_listener9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+    name: WinRMListener
+    fullName: com.microsoft.azure.management.compute.implementation.api.WinRMListener
+    href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener.yml
+  name: WinRMListener
+  fullName: com.microsoft.azure.management.compute.implementation.api.WinRMListener
+  type: Class
+  summary: <p>Describes Protocol and thumbprint of Windows Remote Management listener. </p>
+  syntax:
+    content: public class WinRMListener
+- uid: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._win_r_m_configuration.yml
+  name: WinRMConfiguration
+  fullName: com.microsoft.azure.management.compute.implementation.api.WinRMConfiguration
+  type: Class
+  summary: <p>Describes Windows Remote Management configuration of the VM. </p>
+  syntax: *o1

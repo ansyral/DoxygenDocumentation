@@ -1,0 +1,138 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type
+  id: _host_name_type
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._host_name_type_1a767d9caac06d33f408cbf922d6296240
+  - com.microsoft.azure.management.website.implementation.api._host_name_type_1a78fe09a95c244bc1ccf2c9433067d0f7
+  - com.microsoft.azure.management.website.implementation.api._host_name_type_1ad9ab19b63ddd3bc64124d3ed37e2284a
+  - com.microsoft.azure.management.website.implementation.api._host_name_type_1a45b4ee2149c5a91e3e594b2c6a3d7c55
+  - com.microsoft.azure.management.website.implementation.api._host_name_type_1aaef8725a66c4edb72b1834eff6401131
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  langs:
+  - java
+  name: HostNameType
+  fullName: com.microsoft.azure.management.website.implementation.api.HostNameType
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._host_name_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum HostNameType
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type_1a767d9caac06d33f408cbf922d6296240
+  id: _host_name_type_1a767d9caac06d33f408cbf922d6296240
+  parent: com.microsoft.azure.management.website.implementation.api._host_name_type
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static HostNameType com.microsoft.azure.management.website.implementation.api.HostNameType.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+    startLine: 35
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.website.implementation.api._host_name_type" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static HostNameType fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._host_name_type
+      description: <p>the parsed <xref href="com.microsoft.azure.management.website.implementation.api._host_name_type" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type_1a78fe09a95c244bc1ccf2c9433067d0f7
+  id: _host_name_type_1a78fe09a95c244bc1ccf2c9433067d0f7
+  parent: com.microsoft.azure.management.website.implementation.api._host_name_type
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  langs:
+  - java
+  name: HostNameType(String value)
+  fullName: com.microsoft.azure.management.website.implementation.api.HostNameType.HostNameType(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+    startLine: 24
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public HostNameType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type_1ad9ab19b63ddd3bc64124d3ed37e2284a
+  id: _host_name_type_1ad9ab19b63ddd3bc64124d3ed37e2284a
+  parent: com.microsoft.azure.management.website.implementation.api._host_name_type
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  langs:
+  - java
+  name: MANAGED
+  fullName: com.microsoft.azure.management.website.implementation.api.HostNameType.MANAGED
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+    startLine: 19
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Managed. </p>
+  syntax:
+    content: public MANAGED=("Managed")
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type_1a45b4ee2149c5a91e3e594b2c6a3d7c55
+  id: _host_name_type_1a45b4ee2149c5a91e3e594b2c6a3d7c55
+  parent: com.microsoft.azure.management.website.implementation.api._host_name_type
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.website.implementation.api.HostNameType.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+    startLine: 47
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type_1aaef8725a66c4edb72b1834eff6401131
+  id: _host_name_type_1aaef8725a66c4edb72b1834eff6401131
+  parent: com.microsoft.azure.management.website.implementation.api._host_name_type
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  langs:
+  - java
+  name: VERIFIED
+  fullName: com.microsoft.azure.management.website.implementation.api.HostNameType.VERIFIED
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostNameType.java
+    startLine: 16
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Verified. </p>
+  syntax:
+    content: public VERIFIED=("Verified")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._host_name_type
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._host_name_type.yml
+  name: HostNameType
+  fullName: com.microsoft.azure.management.website.implementation.api.HostNameType
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._host_name_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

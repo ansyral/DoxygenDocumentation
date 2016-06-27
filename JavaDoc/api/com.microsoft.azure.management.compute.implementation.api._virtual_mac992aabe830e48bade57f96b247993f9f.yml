@@ -1,0 +1,102 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f
+  id: _virtual_mac992aabe830e48bade57f96b247993f9f
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f_1ac91705e3634252b31f138ab400119a3c
+  - com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f_1ae10de7ae5df24a9f9912dca1c617b994
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f.yml
+  langs:
+  - java
+  name: VirtualMachineScaleSetExtensionProfile
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetExtensionProfile
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetExtensionProfile.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetExtensionProfile.java
+    startLine: 13
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Describes a virtual machine scale set extension profile. </p>
+  syntax: &o1
+    content: public class VirtualMachineScaleSetExtensionProfile
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f_1ac91705e3634252b31f138ab400119a3c
+  id: _virtual_mac992aabe830e48bade57f96b247993f9f_1ac91705e3634252b31f138ab400119a3c
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f.yml
+  langs:
+  - java
+  name: extensions()
+  fullName: List<VirtualMachineScaleSetExtension> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetExtensionProfile.extensions()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetExtensionProfile.java
+    startLine: 24
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the extensions value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< VirtualMachineScaleSetExtension > extensions()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension9ec3e006
+      description: <p>the extensions value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f_1ae10de7ae5df24a9f9912dca1c617b994
+  id: _virtual_mac992aabe830e48bade57f96b247993f9f_1ae10de7ae5df24a9f9912dca1c617b994
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f.yml
+  langs:
+  - java
+  name: withExtensions(List< VirtualMachineScaleSetExtension > extensions)
+  fullName: VirtualMachineScaleSetExtensionProfile com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetExtensionProfile.withExtensions(List< VirtualMachineScaleSetExtension > extensions)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetExtensionProfile.java
+    startLine: 34
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the extensions value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualMachineScaleSetExtensionProfile withExtensions(List< VirtualMachineScaleSetExtension > extensions)
+    parameters:
+    - id: extensions
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension9ec3e006
+      description: <p>the extensions value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension
+    name: VirtualMachineScaleSetExtension
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetExtension
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_extension.yml
+  name: VirtualMachineScaleSetExtension
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetExtension
+  type: Class
+  summary: <p>Describes a Virtual Machine Scale Set Extension. </p>
+  syntax:
+    content: public class VirtualMachineScaleSetExtension
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f.yml
+  name: VirtualMachineScaleSetExtensionProfile
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetExtensionProfile
+  type: Class
+  summary: <p>Describes a virtual machine scale set extension profile. </p>
+  syntax: *o1

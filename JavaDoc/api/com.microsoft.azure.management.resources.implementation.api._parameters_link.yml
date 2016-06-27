@@ -1,0 +1,139 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._parameters_link
+  id: _parameters_link
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._parameters_link_1a7e8793e9588f8ce647b86ae60ff8af73
+  - com.microsoft.azure.management.resources.implementation.api._parameters_link_1ae72595ce258e2440d2d4f5880d9b623d
+  - com.microsoft.azure.management.resources.implementation.api._parameters_link_1aadceb0a7405d9915877726686a04b4af
+  - com.microsoft.azure.management.resources.implementation.api._parameters_link_1a4eba216f731fda2193d58582efd71c24
+  href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
+  langs:
+  - java
+  name: ParametersLink
+  fullName: com.microsoft.azure.management.resources.implementation.api.ParametersLink
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ParametersLink.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ParametersLink.java
+    startLine: 13
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: <p>Entity representing the reference to the deployment paramaters. </p>
+  syntax: &o1
+    content: public class ParametersLink
+- uid: com.microsoft.azure.management.resources.implementation.api._parameters_link_1a7e8793e9588f8ce647b86ae60ff8af73
+  id: _parameters_link_1a7e8793e9588f8ce647b86ae60ff8af73
+  parent: com.microsoft.azure.management.resources.implementation.api._parameters_link
+  href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
+  langs:
+  - java
+  name: contentVersion()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.ParametersLink.contentVersion()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ParametersLink.java
+    startLine: 50
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get the contentVersion value.</p>
+
+    <p></p>
+  syntax:
+    content: public String contentVersion()
+    return:
+      type: "26831127"
+      description: <p>the contentVersion value </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._parameters_link_1ae72595ce258e2440d2d4f5880d9b623d
+  id: _parameters_link_1ae72595ce258e2440d2d4f5880d9b623d
+  parent: com.microsoft.azure.management.resources.implementation.api._parameters_link
+  href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
+  langs:
+  - java
+  name: uri()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.ParametersLink.uri()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ParametersLink.java
+    startLine: 30
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get the uri value.</p>
+
+    <p></p>
+  syntax:
+    content: public String uri()
+    return:
+      type: "26831127"
+      description: <p>the uri value </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._parameters_link_1aadceb0a7405d9915877726686a04b4af
+  id: _parameters_link_1aadceb0a7405d9915877726686a04b4af
+  parent: com.microsoft.azure.management.resources.implementation.api._parameters_link
+  href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
+  langs:
+  - java
+  name: withContentVersion(String contentVersion)
+  fullName: ParametersLink com.microsoft.azure.management.resources.implementation.api.ParametersLink.withContentVersion(String contentVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ParametersLink.java
+    startLine: 60
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Set the contentVersion value.</p>
+
+    <p></p>
+  syntax:
+    content: public ParametersLink withContentVersion(String contentVersion)
+    parameters:
+    - id: contentVersion
+      type: "26831127"
+      description: <p>the contentVersion value to set </p>
+    return:
+      type: com.microsoft.azure.management.resources.implementation.api._parameters_link
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._parameters_link" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._parameters_link_1a4eba216f731fda2193d58582efd71c24
+  id: _parameters_link_1a4eba216f731fda2193d58582efd71c24
+  parent: com.microsoft.azure.management.resources.implementation.api._parameters_link
+  href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
+  langs:
+  - java
+  name: withUri(String uri)
+  fullName: ParametersLink com.microsoft.azure.management.resources.implementation.api.ParametersLink.withUri(String uri)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ParametersLink.java
+    startLine: 40
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Set the uri value.</p>
+
+    <p></p>
+  syntax:
+    content: public ParametersLink withUri(String uri)
+    parameters:
+    - id: uri
+      type: "26831127"
+      description: <p>the uri value to set </p>
+    return:
+      type: com.microsoft.azure.management.resources.implementation.api._parameters_link
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._parameters_link" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.implementation.api._parameters_link
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
+  name: ParametersLink
+  fullName: com.microsoft.azure.management.resources.implementation.api.ParametersLink
+  type: Class
+  summary: <p>Entity representing the reference to the deployment paramaters. </p>
+  syntax: *o1

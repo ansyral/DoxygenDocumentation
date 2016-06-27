@@ -1,0 +1,165 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+  id: _auto_heal_rules
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a35be1042d7fc9cff864127a33e010b78
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a90bceb5256837712b661fc14092a1059
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a0499d302171d1d4b2084993642618b72
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a2fbb5d3b0fb1ed49471e9410ae0e2be7
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_rules.yml
+  langs:
+  - java
+  name: AutoHealRules
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealRules
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealRules.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealRules.java
+    startLine: 12
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_rules" data-throw-if-not-resolved="false"></xref> - describes the rules which can be defined for auto-heal. </p>
+  syntax: &o1
+    content: public class AutoHealRules
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a35be1042d7fc9cff864127a33e010b78
+  id: _auto_heal_rules_1a35be1042d7fc9cff864127a33e010b78
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_rules.yml
+  langs:
+  - java
+  name: actions()
+  fullName: AutoHealActions com.microsoft.azure.management.website.implementation.api.AutoHealRules.actions()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealRules.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the actions value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealActions actions()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+      description: <p>the actions value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a90bceb5256837712b661fc14092a1059
+  id: _auto_heal_rules_1a90bceb5256837712b661fc14092a1059
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_rules.yml
+  langs:
+  - java
+  name: triggers()
+  fullName: AutoHealTriggers com.microsoft.azure.management.website.implementation.api.AutoHealRules.triggers()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealRules.java
+    startLine: 29
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the triggers value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealTriggers triggers()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+      description: <p>the triggers value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a0499d302171d1d4b2084993642618b72
+  id: _auto_heal_rules_1a0499d302171d1d4b2084993642618b72
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_rules.yml
+  langs:
+  - java
+  name: withActions(AutoHealActions actions)
+  fullName: AutoHealRules com.microsoft.azure.management.website.implementation.api.AutoHealRules.withActions(AutoHealActions actions)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealRules.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the actions value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealRules withActions(AutoHealActions actions)
+    parameters:
+    - id: actions
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+      description: <p>the actions value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_rules" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_rules_1a2fbb5d3b0fb1ed49471e9410ae0e2be7
+  id: _auto_heal_rules_1a2fbb5d3b0fb1ed49471e9410ae0e2be7
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_rules.yml
+  langs:
+  - java
+  name: withTriggers(AutoHealTriggers triggers)
+  fullName: AutoHealRules com.microsoft.azure.management.website.implementation.api.AutoHealRules.withTriggers(AutoHealTriggers triggers)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealRules.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the triggers value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealRules withTriggers(AutoHealTriggers triggers)
+    parameters:
+    - id: triggers
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+      description: <p>the triggers value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_rules" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_triggers.yml
+  name: AutoHealTriggers
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealTriggers
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_triggers" data-throw-if-not-resolved="false"></xref> - describes the triggers for auto-heal. </p>
+  syntax:
+    content: public class AutoHealTriggers
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  name: AutoHealActions
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealActions
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_actions" data-throw-if-not-resolved="false"></xref> - Describes the actions which can be taken by the auto-heal module when a rule is triggered. </p>
+  syntax:
+    content: public class AutoHealActions
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_rules
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_rules.yml
+  name: AutoHealRules
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealRules
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_rules" data-throw-if-not-resolved="false"></xref> - describes the rules which can be defined for auto-heal. </p>
+  syntax: *o1

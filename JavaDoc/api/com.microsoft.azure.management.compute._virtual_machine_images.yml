@@ -1,0 +1,119 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine_images
+  id: _virtual_machine_images
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._virtual_machine_images_1a1061d568b7c036b9fdb80175d30b7c50
+  href: com.microsoft.azure.management.compute._virtual_machine_images.yml
+  langs:
+  - java
+  name: VirtualMachineImages
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImages
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
+    startLine: 12
+  package: com.microsoft.azure.management.compute
+  summary: <p>Entry point to virtual machine image management API. </p>
+  syntax:
+    content: public interface VirtualMachineImages
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1a20a3979e5b8bd18b607e5b122fa684ca
+- uid: com.microsoft.azure.management.compute._virtual_machine_images_1a1061d568b7c036b9fdb80175d30b7c50
+  id: _virtual_machine_images_1a1061d568b7c036b9fdb80175d30b7c50
+  parent: com.microsoft.azure.management.compute._virtual_machine_images
+  href: com.microsoft.azure.management.compute._virtual_machine_images.yml
+  langs:
+  - java
+  name: listPublishers(final Region region)
+  fullName: List<VirtualMachineImage.Publisher> com.microsoft.azure.management.compute.VirtualMachineImages.listPublishers(final Region region)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
+    startLine: 22
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Lists the virtual machine publishers in a region.</p>
+
+    <p></p>
+  syntax:
+    content: public List< VirtualMachineImage.Publisher > listPublishers(final Region region)
+    parameters:
+    - id: region
+      type: 93de0ef9com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region </p>
+    return:
+      type: 6260f9d1
+      description: <p>the list of VM image publishers </p>
+references:
+- uid: 93de0ef9com.microsoft.azure.management.resources.fluentcore.arm._region
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+    name: Region
+    fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+    href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+- uid: 6260f9d1
+  spec.java:
+  - name: List< VirtualMachineImage.Publisher >
+    fullName: List< VirtualMachineImage.Publisher >
+- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1a20a3979e5b8bd18b607e5b122fa684ca
+  parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
+  href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region.yml
+  name: list(Region region)
+  fullName: List<T> com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion< T >.list(Region region)
+  type: Method
+  summary: >-
+    <p>Lists all the resources of the specified type in the specified region.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > list(Region region)
+    parameters:
+    - id: region
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> region to list the resources from </p>
+    return:
+      type: 18bbd974
+      description: <p>list of resources </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
+  parent: com.microsoft.azure.management.resources.fluentcore.collection
+  href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region.yml
+  name: SupportsListingByRegion
+  fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion
+  type: Interface
+  summary: >-
+    <p>Provides access to listing <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources of a specific type based on their region. </p>
+
+    <p>(Note: this interface is not intended to be implemented by user code)</p>
+
+    <p></p>
+  syntax:
+    content: public interface SupportsListingByRegion
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_impl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
+  syntax:
+    content: public enum Region
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException

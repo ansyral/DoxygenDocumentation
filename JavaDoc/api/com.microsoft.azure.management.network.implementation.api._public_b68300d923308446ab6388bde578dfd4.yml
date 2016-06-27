@@ -1,0 +1,352 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  id: _public_b68300d923308446ab6388bde578dfd4
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a47c790589ea1b50c556efc2fd612630c
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1ae90a5caea2f73b42f532a4dc1db390e8
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1adcca37059721c4bfd14cc25299f85a81
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a0b3994ee8320c0554db1296955598f88
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1afa9d4df44031c7761270c6564e18bf37
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a1af5f1ab00bc696036d5d6f77cfaccd3
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a55b861941c3e84c83e6840b9a99eceda
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1af9fdc9fece46741ca6ae7db017fd7576
+  - com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a19527d3a7b7dd0b3f4818b80cfac24ba
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: PublicIPAddressesInner.PublicIPAddressesService
+  fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: 'The interface defining all the services for PublicIPAddresses to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface PublicIPAddressesInner.PublicIPAddressesService
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a47c790589ea1b50c556efc2fd612630c
+  id: _public_b68300d923308446ab6388bde578dfd4_1a47c790589ea1b50c556efc2fd612630c
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: publicIpAddressName
+      type: d4166dd4
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1ae90a5caea2f73b42f532a4dc1db390e8
+  id: _public_b68300d923308446ab6388bde578dfd4_1ae90a5caea2f73b42f532a4dc1db390e8
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: publicIpAddressName
+      type: d4166dd4
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1adcca37059721c4bfd14cc25299f85a81
+  id: _public_b68300d923308446ab6388bde578dfd4_1adcca37059721c4bfd14cc25299f85a81
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.get(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: publicIpAddressName
+      type: d4166dd4
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: expand
+      type: 99e81acb
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a0b3994ee8320c0554db1296955598f88
+  id: _public_b68300d923308446ab6388bde578dfd4_1a0b3994ee8320c0554db1296955598f88
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Body PublicIPAddressInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Body PublicIPAddressInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Body PublicIPAddressInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: publicIpAddressName
+      type: d4166dd4
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1afa9d4df44031c7761270c6564e18bf37
+  id: _public_b68300d923308446ab6388bde578dfd4_1afa9d4df44031c7761270c6564e18bf37
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Body PublicIPAddressInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Body PublicIPAddressInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("publicIpAddressName") String publicIpAddressName,@Path("subscriptionId") String subscriptionId,@Body PublicIPAddressInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: publicIpAddressName
+      type: d4166dd4
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a1af5f1ab00bc696036d5d6f77cfaccd3
+  id: _public_b68300d923308446ab6388bde578dfd4_1a1af5f1ab00bc696036d5d6f77cfaccd3
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a55b861941c3e84c83e6840b9a99eceda
+  id: _public_b68300d923308446ab6388bde578dfd4_1a55b861941c3e84c83e6840b9a99eceda
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1af9fdc9fece46741ca6ae7db017fd7576
+  id: _public_b68300d923308446ab6388bde578dfd4_1af9fdc9fece46741ca6ae7db017fd7576
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4_1a19527d3a7b7dd0b3f4818b80cfac24ba
+  id: _public_b68300d923308446ab6388bde578dfd4_1a19527d3a7b7dd0b3f4818b80cfac24ba
+  parent: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+  href: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: d4166dd4
+  spec.java:
+  - name: '@Path("publicIpAddressName") String'
+    fullName: '@Path("publicIpAddressName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: 96b6cf22com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    name: PublicIPAddressInner
+    fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+    href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  name: PublicIPAddressInner
+  fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+  type: Class
+  summary: 'PublicIPAddress resource. '
+  syntax:
+    content: public class PublicIPAddressInner

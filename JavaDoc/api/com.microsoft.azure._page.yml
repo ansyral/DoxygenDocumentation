@@ -1,0 +1,511 @@
+items:
+- uid: com.microsoft.azure._page
+  id: _page
+  parent: com.microsoft.azure
+  children:
+  - com.microsoft.azure._page_1ad20a7f360ac9137ac0fa9de34c8815d4
+  - com.microsoft.azure._page_1ad7782f2970ee6d6b4f1df557521219db
+  href: com.microsoft.azure._page.yml
+  langs:
+  - java
+  name: Page
+  fullName: com.microsoft.azure.Page
+  type: Interface
+  source:
+    remote: &o0
+      path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Page.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Page.java
+    startLine: 16
+  package: com.microsoft.azure
+  summary: >-
+    <p>Defines a page interface in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> responses.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Page
+- uid: com.microsoft.azure._page_1ad20a7f360ac9137ac0fa9de34c8815d4
+  id: _page_1ad20a7f360ac9137ac0fa9de34c8815d4
+  parent: com.microsoft.azure._page
+  href: com.microsoft.azure._page.yml
+  langs:
+  - java
+  name: getItems()
+  fullName: List<E> com.microsoft.azure.Page< E >.getItems()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Page.java
+    startLine: 29
+  package: com.microsoft.azure
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< E > getItems()
+    return:
+      type: aeed54a4
+      description: <p>the list of items. </p>
+- uid: com.microsoft.azure._page_1ad7782f2970ee6d6b4f1df557521219db
+  id: _page_1ad7782f2970ee6d6b4f1df557521219db
+  parent: com.microsoft.azure._page
+  href: com.microsoft.azure._page.yml
+  langs:
+  - java
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.Page< E >.getNextPageLink()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Page.java
+    startLine: 22
+  package: com.microsoft.azure
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: aeed54a4
+  spec.java:
+  - name: List< E >
+    fullName: List< E >
+- uid: com.microsoft.azure.batch.protocol.models._page_impl
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.batch.protocol.models.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl1
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl1.yml
+  name: PageImpl1
+  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl1
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl1
+- uid: com.microsoft.azure.management.datalake.analytics.models._page_impl
+  parent: com.microsoft.azure.management.datalake.analytics.models
+  href: com.microsoft.azure.management.datalake.analytics.models._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.datalake.analytics.models.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.datalake.store.models._page_impl
+  parent: com.microsoft.azure.management.datalake.store.models
+  href: com.microsoft.azure.management.datalake.store.models._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.datalake.store.models.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl1
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl1.yml
+  name: PageImpl1
+  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl1
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl1
+- uid: com.microsoft.azure.management.storage.implementation.api._page_impl
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.storage.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.website.implementation.api._page_impl
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.website.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.website.implementation.api._page_impl_1a006eb35205a2bec1c1289faf1e3904bf
+  parent: com.microsoft.azure.management.website.implementation.api._page_impl
+  href: com.microsoft.azure.management.website.implementation.api._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.website.implementation.api.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._page_impl_1a66f932c4dc456a6b4c762113c0102f7a
+  parent: com.microsoft.azure.management.storage.implementation.api._page_impl
+  href: com.microsoft.azure.management.storage.implementation.api._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.storage.implementation.api.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl1_1a2f4fe166aacd94c7703523fe84a0a88b
+  parent: com.microsoft.azure.management.resources.implementation.api._page_impl1
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl1.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.PageImpl1< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl_1a683131b667c53f5b0c4dc45df4bede1b
+  parent: com.microsoft.azure.management.resources.implementation.api._page_impl
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl_1af4841ebe270621760ca6676e9537ef75
+  parent: com.microsoft.azure.management.network.implementation.api._page_impl
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.network.implementation.api.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.datalake.store.models._page_impl_1a981317cf1ef594b6581e45fb00a742aa
+  parent: com.microsoft.azure.management.datalake.store.models._page_impl
+  href: com.microsoft.azure.management.datalake.store.models._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.datalake.store.models.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.datalake.analytics.models._page_impl_1a2293438c82d483637f972aa62fd2cc74
+  parent: com.microsoft.azure.management.datalake.analytics.models._page_impl
+  href: com.microsoft.azure.management.datalake.analytics.models._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.datalake.analytics.models.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl1_1ab3f99b93c028d73040c1a88a3ad69ffe
+  parent: com.microsoft.azure.management.compute.implementation.api._page_impl1
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl1.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.PageImpl1< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl_1ab2feb4d590dfb691e7a6e426abae59e8
+  parent: com.microsoft.azure.management.compute.implementation.api._page_impl
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.batch.protocol.models._page_impl_1a3aee267327c096cbf4fa95329b1e6e42
+  parent: com.microsoft.azure.batch.protocol.models._page_impl
+  href: com.microsoft.azure.batch.protocol.models._page_impl.yml
+  name: getNextPageLink()
+  fullName: String com.microsoft.azure.batch.protocol.models.PageImpl< T >.getNextPageLink()
+  type: Method
+  summary: >-
+    <p>Gets the link to the next page.</p>
+
+    <p></p>
+  syntax:
+    content: public String getNextPageLink()
+    return:
+      type: "26831127"
+      description: <p>the link to the next page. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._page_impl_1a55bf3e2b688833c841abccab85e632dc
+  parent: com.microsoft.azure.management.website.implementation.api._page_impl
+  href: com.microsoft.azure.management.website.implementation.api._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.website.implementation.api.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._page_impl_1a599131efb9ebad6733521b39dd21843f
+  parent: com.microsoft.azure.management.storage.implementation.api._page_impl
+  href: com.microsoft.azure.management.storage.implementation.api._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.storage.implementation.api.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl1_1a2a42cd87b85587b1b37371125127f780
+  parent: com.microsoft.azure.management.resources.implementation.api._page_impl1
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl1.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.resources.implementation.api.PageImpl1< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl_1a7d3bd40526e49d8ec26878d9858ff3ef
+  parent: com.microsoft.azure.management.resources.implementation.api._page_impl
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.resources.implementation.api.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl_1a1778fc8032107e290a6b54114e9f79a5
+  parent: com.microsoft.azure.management.network.implementation.api._page_impl
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.network.implementation.api.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.datalake.store.models._page_impl_1a6aed570b29eab0d7d0d70a4e552a2c0a
+  parent: com.microsoft.azure.management.datalake.store.models._page_impl
+  href: com.microsoft.azure.management.datalake.store.models._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.datalake.store.models.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.datalake.analytics.models._page_impl_1a2f8597377ca93d0bd67ff3f803f274a1
+  parent: com.microsoft.azure.management.datalake.analytics.models._page_impl
+  href: com.microsoft.azure.management.datalake.analytics.models._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.datalake.analytics.models.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl1_1a837b1acbd52e027e56aeb295948af5a6
+  parent: com.microsoft.azure.management.compute.implementation.api._page_impl1
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl1.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.compute.implementation.api.PageImpl1< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl_1ab547bf58deb91ba0e6a912d7cc1e9bbf
+  parent: com.microsoft.azure.management.compute.implementation.api._page_impl
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.management.compute.implementation.api.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure.batch.protocol.models._page_impl_1a2e1ac5768a507f054e1fbc418bfa5fdc
+  parent: com.microsoft.azure.batch.protocol.models._page_impl
+  href: com.microsoft.azure.batch.protocol.models._page_impl.yml
+  name: getItems()
+  fullName: List<T> com.microsoft.azure.batch.protocol.models.PageImpl< T >.getItems()
+  type: Method
+  summary: >-
+    <p>Gets the list of items.</p>
+
+    <p></p>
+  syntax:
+    content: public List< T > getItems()
+    return:
+      type: 18bbd974
+      description: <p>the list of items in <ref refid="" kindref="compound">List</ref>. </p>
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

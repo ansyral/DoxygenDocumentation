@@ -1,0 +1,432 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  id: _availability_sets_impl
+  parent: com.microsoft.azure.management.compute.implementation
+  children:
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a0412557d0c202c0d84ca1a25eb8b4e26
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1aae5f47e64bca172a0a6ae0e9a69a5f05
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1abcf04467d2caa393a2cf7a20566f426c
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a117ee7514182091efc6029afd8697276
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1acac59d8f59dc15e127ca39dd7e68d251
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a0111bd6a16faf48a5e7779ddb937589d
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a9d09c69a26354819958965c55ee5498f
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a60f1d032ba57c32fd0fa7201ae95f60d
+  - com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a7cdc01bd2037af0be146e252536d2789
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: AvailabilitySetsImpl
+  fullName: com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 26
+  package: com.microsoft.azure.management.compute.implementation
+  summary: 'The implementation for AvailabilitySets. '
+  syntax:
+    content: class AvailabilitySetsImpl
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a0412557d0c202c0d84ca1a25eb8b4e26
+  id: _availability_sets_impl_1a0412557d0c202c0d84ca1a25eb8b4e26
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: AvailabilitySetsImpl(final AvailabilitySetsInner client, final ResourceManager resourceManager)
+  fullName: com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.AvailabilitySetsImpl(final AvailabilitySetsInner client, final ResourceManager resourceManager)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 30
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: AvailabilitySetsImpl(final AvailabilitySetsInner client, final ResourceManager resourceManager)
+    parameters:
+    - id: client
+      type: 93de0ef9com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+    - id: resourceManager
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1aae5f47e64bca172a0a6ae0e9a69a5f05
+  id: _availability_sets_impl_1aae5f47e64bca172a0a6ae0e9a69a5f05
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<AvailabilitySet> com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 37
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public PagedList< AvailabilitySet > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._availability_set9ec3e006
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1abcf04467d2caa393a2cf7a20566f426c
+  id: _availability_sets_impl_1abcf04467d2caa393a2cf7a20566f426c
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: listByGroup(String groupName)
+  fullName: PagedList<AvailabilitySet> com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.listByGroup(String groupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 47
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public PagedList< AvailabilitySet > listByGroup(String groupName)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._availability_set9ec3e006
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a117ee7514182091efc6029afd8697276
+  id: _availability_sets_impl_1a117ee7514182091efc6029afd8697276
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: getByGroup(String groupName, String name)
+  fullName: AvailabilitySetImpl com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.getByGroup(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 52
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public AvailabilitySetImpl getByGroup(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+    return:
+      type: bae4c764
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1acac59d8f59dc15e127ca39dd7e68d251
+  id: _availability_sets_impl_1acac59d8f59dc15e127ca39dd7e68d251
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: define(String name)
+  fullName: AvailabilitySetImpl com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.define(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 58
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public AvailabilitySetImpl define(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: bae4c764
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a0111bd6a16faf48a5e7779ddb937589d
+  id: _availability_sets_impl_1a0111bd6a16faf48a5e7779ddb937589d
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: delete(String id)
+  fullName: void com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.delete(String id)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 63
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public void delete(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a9d09c69a26354819958965c55ee5498f
+  id: _availability_sets_impl_1a9d09c69a26354819958965c55ee5498f
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: delete(String groupName, String name)
+  fullName: void com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.delete(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 68
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public void delete(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a60f1d032ba57c32fd0fa7201ae95f60d
+  id: _availability_sets_impl_1a60f1d032ba57c32fd0fa7201ae95f60d
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: wrapModel(String name)
+  fullName: AvailabilitySetImpl com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.wrapModel(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 77
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: protected AvailabilitySetImpl wrapModel(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: bae4c764
+- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl_1a7cdc01bd2037af0be146e252536d2789
+  id: _availability_sets_impl_1a7cdc01bd2037af0be146e252536d2789
+  parent: com.microsoft.azure.management.compute.implementation._availability_sets_impl
+  href: com.microsoft.azure.management.compute.implementation._availability_sets_impl.yml
+  langs:
+  - java
+  name: wrapModel(AvailabilitySetInner availabilitySetInner)
+  fullName: AvailabilitySetImpl com.microsoft.azure.management.compute.implementation.AvailabilitySetsImpl.wrapModel(AvailabilitySetInner availabilitySetInner)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/AvailabilitySetsImpl.java
+    startLine: 85
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: protected AvailabilitySetImpl wrapModel(AvailabilitySetInner availabilitySetInner)
+    parameters:
+    - id: availabilitySetInner
+      type: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+    return:
+      type: bae4c764
+references:
+- uid: 93de0ef9com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+    name: AvailabilitySetsInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner
+    href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation._resource_manager
+    name: ResourceManager
+    fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+    href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._availability_set9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute._availability_set
+    name: AvailabilitySet
+    fullName: com.microsoft.azure.management.compute.AvailabilitySet
+    href: com.microsoft.azure.management.compute._availability_set.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: bae4c764
+  spec.java:
+  - name: AvailabilitySetImpl
+    fullName: AvailabilitySetImpl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: getById(String id)
+  fullName: final T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.getById(String id)
+  type: Method
+  summary: Gets the information about a resource from Azure based on the resource id.
+  syntax:
+    content: public final T getById(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+      description: 'the id of the resource. '
+    return:
+      type: 8cbc54f7
+      description: 'an immutable representation of the resource '
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  type: Method
+  syntax:
+    content: protected GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+    parameters:
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    - id: innerCollection
+      type: 891f7fcf
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: innerCollection
+  fullName: final InnerCollectionT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.innerCollection
+  type: Field
+  syntax:
+    content: protected final InnerCollectionT innerCollection
+    return:
+      type: 5cd01b93
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: resourceManager
+  fullName: final ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.resourceManager
+  type: Field
+  syntax:
+    content: protected final ResourceManager resourceManager
+    return:
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapList(PagedList< InnerT > pagedList)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(PagedList< InnerT > pagedList)
+  type: Method
+  syntax:
+    content: protected PagedList< T > wrapList(PagedList< InnerT > pagedList)
+    parameters:
+    - id: pagedList
+      type: com.microsoft.azure._paged_list5b074597
+    return:
+      type: com.microsoft.azure._paged_list34132889
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapList(List< InnerT > list)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(List< InnerT > list)
+  type: Method
+  syntax:
+    content: protected PagedList< T > wrapList(List< InnerT > list)
+    parameters:
+    - id: list
+      type: c2cb7003
+    return:
+      type: com.microsoft.azure._paged_list34132889
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapModel(InnerT inner)
+  fullName: abstract ImplT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapModel(InnerT inner)
+  type: Method
+  syntax:
+    content: protected abstract ImplT wrapModel(InnerT inner)
+    parameters:
+    - id: inner
+      type: 52cf8095
+    return:
+      type: afe49e45
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: WrappersImpl()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.WrappersImpl()
+  type: Method
+  syntax:
+    content: protected WrappersImpl()
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: GroupableResourcesImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl
+  type: Class
+  syntax:
+    content: public class GroupableResourcesImpl
+- uid: com.microsoft.azure.management.compute._availability_sets
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._availability_sets.yml
+  name: AvailabilitySets
+  fullName: com.microsoft.azure.management.compute.AvailabilitySets
+  type: Interface
+  summary: 'Entry point to availability set management API. '
+  syntax:
+    content: public interface AvailabilitySets
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  name: AvailabilitySetsInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in AvailabilitySets. '
+  syntax:
+    content: public class AvailabilitySetsInner
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: 'Entry point to Azure resource management. '
+  syntax:
+    content: public class ResourceManager
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.compute._availability_set
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._availability_set.yml
+  name: AvailabilitySet
+  fullName: com.microsoft.azure.management.compute.AvailabilitySet
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure availability set. '
+  syntax:
+    content: public interface AvailabilitySet
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
+  name: AvailabilitySetInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetInner
+  type: Class
+  summary: 'Create or update Availability Set parameters. '
+  syntax:
+    content: public class AvailabilitySetInner

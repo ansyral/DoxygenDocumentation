@@ -1,0 +1,111 @@
+items:
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
+  id: _definition_with_ip_address
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address_1a83dd655b79986b9bfceb081f6c208d29
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address_1aa205141965cd6629cd5e2699d16cba02
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
+  langs:
+  - java
+  name: PublicIpAddress.DefinitionWithIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithIpAddress
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 91
+  package: com.microsoft.azure.management.network
+  summary: <p>A public IP address definition allowing to set the IP allocation method (static or dynamic). </p>
+  syntax:
+    content: public interface DefinitionWithIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address_1a83dd655b79986b9bfceb081f6c208d29
+  id: _definition_with_ip_address_1a83dd655b79986b9bfceb081f6c208d29
+  parent: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
+  langs:
+  - java
+  name: withDynamicIp()
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithIpAddress.withDynamicIp()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 107
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Enables dynamic IP address allocation.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withDynamicIp()
+    return:
+      type: com.microsoft.azure.management.network._public_ip_address._definition_creatable
+      description: <p>the next stage of the public IP address definition </p>
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address_1aa205141965cd6629cd5e2699d16cba02
+  id: _definition_with_ip_address_1aa205141965cd6629cd5e2699d16cba02
+  parent: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
+  langs:
+  - java
+  name: withStaticIp()
+  fullName: DefinitionCreatable com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithIpAddress.withStaticIp()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 100
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Enables static IP address allocation. </p>
+
+    <p>Use <xref href="com.microsoft.azure.management.network._public_ip_address_1a3725d2f28423f7b1760053415b68c37d" data-throw-if-not-resolved="false"></xref> after the public IP address is created to obtain the actual IP address allocated for this resource by <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref></p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withStaticIp()
+    return:
+      type: com.microsoft.azure.management.network._public_ip_address._definition_creatable
+      description: <p>the next stage of the public IP address definition </p>
+references:
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_creatable.yml
+  name: PublicIpAddress.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._public_ip_address._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definitions.yml
+  name: PublicIpAddress.Definitions
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._public_ip_address_1a3725d2f28423f7b1760053415b68c37d
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  name: ipAddress()
+  fullName: String com.microsoft.azure.management.network.PublicIpAddress.ipAddress()
+  type: Method
+  syntax:
+    content: public String ipAddress()
+    return:
+      type: "26831127"
+      description: <p>the assigned IP address </p>
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

@@ -1,0 +1,99 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.management.storage.implementation._account_statuses
+  - com.microsoft.azure.management.storage.implementation._check_name_availability_result
+  - com.microsoft.azure.management.storage.implementation._public_endpoints
+  - com.microsoft.azure.management.storage.implementation._storage_manager
+  - com.microsoft.azure.management.storage.implementation._storage_manager._configurable
+  - com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl
+  href: com.microsoft.azure.management.storage.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.management.storage.implementation
+  fullName: com.microsoft.azure.management.storage.implementation
+  type: Namespace
+  source:
+    remote:
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
+    startLine: 6
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the implementation classes for StorageManagementClient. The Storage Management Client. </p>
+  syntax:
+    content: namespace implementation
+references:
+- uid: com.microsoft.azure.management.storage.implementation._account_statuses
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._account_statuses.yml
+  name: AccountStatuses
+  fullName: com.microsoft.azure.management.storage.implementation.AccountStatuses
+  type: Class
+  summary: <p>An instance of this class stores the availability of a storage account. </p>
+  syntax:
+    content: public class AccountStatuses
+- uid: com.microsoft.azure.management.storage.implementation._check_name_availability_result
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._check_name_availability_result.yml
+  name: CheckNameAvailabilityResult
+  fullName: com.microsoft.azure.management.storage.implementation.CheckNameAvailabilityResult
+  type: Class
+  summary: <p>The CheckNameAvailability operation response. </p>
+  syntax:
+    content: public class CheckNameAvailabilityResult
+- uid: com.microsoft.azure.management.storage.implementation._public_endpoints
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._public_endpoints.yml
+  name: PublicEndpoints
+  fullName: com.microsoft.azure.management.storage.implementation.PublicEndpoints
+  type: Class
+  summary: <p>An instance of this class stores the The URIs associated with a storage account that are used to perform a retrieval of a public blob, queue or table object. </p>
+  syntax:
+    content: public class PublicEndpoints
+- uid: com.microsoft.azure.management.storage.implementation._storage_account_impl
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_impl
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  name: StorageManager
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
+  syntax:
+    content: public class StorageManager
+- uid: com.microsoft.azure.management.storage.implementation._usage_impl
+- uid: com.microsoft.azure.management.storage.implementation._usages_impl
+- uid: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api.yml
+  name: com.microsoft.azure.management.storage.implementation.api
+  fullName: com.microsoft.azure.management.storage.implementation.api
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the <xref href="com.microsoft.azure.management.storage.implementation.api" data-throw-if-not-resolved="false"></xref> classes for StorageManagementClient. The Storage Management Client. </p>
+  syntax:
+    content: namespace api
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable.yml
+  name: StorageManager.Configurable
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl.yml
+  name: StorageManager.ConfigurableImpl
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.ConfigurableImpl
+  type: Class
+  summary: <p>The implementation for <xref href="com.microsoft.azure.management.storage.implementation._storage_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
+  syntax:
+    content: private class ConfigurableImpl

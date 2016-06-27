@@ -1,0 +1,115 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
+  id: _definition_with_secondary_network_interface
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1ac0491dca9d5e98beb962fcfdf37c324b
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface.yml
+  langs:
+  - java
+  name: VirtualMachine.DefinitionWithSecondaryNetworkInterface
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSecondaryNetworkInterface
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 801
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>The stage of virtual machine definition allowing to specify additional network interfaces.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithSecondaryNetworkInterface
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
+  id: _definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface.yml
+  langs:
+  - java
+  name: withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSecondaryNetworkInterface< T extends DefinitionCreatable >.withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 824
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Associate an existing network interface with the virtual machine.</p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public T withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+    parameters:
+    - id: networkInterface
+      type: com.microsoft.azure.management.network._network_interface
+      description: <p>an existing network interface </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1ac0491dca9d5e98beb962fcfdf37c324b
+  id: _definition_with_secondary_network_interface_1ac0491dca9d5e98beb962fcfdf37c324b
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface.yml
+  langs:
+  - java
+  name: withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSecondaryNetworkInterface< T extends DefinitionCreatable >.withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 813
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Create a new network interface to associate with the virtual machine, based on the provided definition.</p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: fb7da1e0
+      description: <p>a creatable definition for a new network interface </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+references:
+- uid: fb7da1e0
+  spec.java:
+  - name: NetworkInterface.DefinitionCreatable
+    fullName: NetworkInterface.DefinitionCreatable
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_creatable.yml
+  name: VirtualMachine.DefinitionCreatable
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network_interface
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface.yml
+  name: NetworkInterface
+  fullName: com.microsoft.azure.management.network.NetworkInterface
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
+  syntax:
+    content: public interface NetworkInterface

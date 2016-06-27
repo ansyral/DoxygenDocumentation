@@ -1,0 +1,115 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_service
+  id: _encryption_service
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._encryption_service_1ad17cefa246a7297aa1e4867a55a4f3e0
+  - com.microsoft.azure.management.storage.implementation.api._encryption_service_1a843e9e4ecbd61343073bdee13835947d
+  - com.microsoft.azure.management.storage.implementation.api._encryption_service_1aa6afa77222356f60797efe026aeb8fef
+  href: com.microsoft.azure.management.storage.implementation.api._encryption_service.yml
+  langs:
+  - java
+  name: EncryptionService
+  fullName: com.microsoft.azure.management.storage.implementation.api.EncryptionService
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/EncryptionService.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/EncryptionService.java
+    startLine: 14
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>An encrypted service. </p>
+  syntax: &o1
+    content: public class EncryptionService
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_service_1ad17cefa246a7297aa1e4867a55a4f3e0
+  id: _encryption_service_1ad17cefa246a7297aa1e4867a55a4f3e0
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption_service
+  href: com.microsoft.azure.management.storage.implementation.api._encryption_service.yml
+  langs:
+  - java
+  name: enabled()
+  fullName: Boolean com.microsoft.azure.management.storage.implementation.api.EncryptionService.enabled()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/EncryptionService.java
+    startLine: 35
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the enabled value.</p>
+
+    <p></p>
+  syntax:
+    content: public Boolean enabled()
+    return:
+      type: 866c2227
+      description: <p>the enabled value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_service_1a843e9e4ecbd61343073bdee13835947d
+  id: _encryption_service_1a843e9e4ecbd61343073bdee13835947d
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption_service
+  href: com.microsoft.azure.management.storage.implementation.api._encryption_service.yml
+  langs:
+  - java
+  name: lastEnabledTime()
+  fullName: DateTime com.microsoft.azure.management.storage.implementation.api.EncryptionService.lastEnabledTime()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/EncryptionService.java
+    startLine: 55
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the lastEnabledTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime lastEnabledTime()
+    return:
+      type: 230df18c
+      description: <p>the lastEnabledTime value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_service_1aa6afa77222356f60797efe026aeb8fef
+  id: _encryption_service_1aa6afa77222356f60797efe026aeb8fef
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption_service
+  href: com.microsoft.azure.management.storage.implementation.api._encryption_service.yml
+  langs:
+  - java
+  name: withEnabled(Boolean enabled)
+  fullName: EncryptionService com.microsoft.azure.management.storage.implementation.api.EncryptionService.withEnabled(Boolean enabled)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/EncryptionService.java
+    startLine: 45
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the enabled value.</p>
+
+    <p></p>
+  syntax:
+    content: public EncryptionService withEnabled(Boolean enabled)
+    parameters:
+    - id: enabled
+      type: 866c2227
+      description: <p>the enabled value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._encryption_service
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._encryption_service" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_service
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._encryption_service.yml
+  name: EncryptionService
+  fullName: com.microsoft.azure.management.storage.implementation.api.EncryptionService
+  type: Class
+  summary: <p>An encrypted service. </p>
+  syntax: *o1

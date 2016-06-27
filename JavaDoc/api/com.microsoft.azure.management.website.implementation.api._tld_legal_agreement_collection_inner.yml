@@ -1,0 +1,158 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+  id: _tld_legal_agreement_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1a8683e3eadbe6815a65994491d56b4bce
+  - com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1af8e09f9f478a39212ab178fd6996fcb5
+  - com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1a37acdc0625f6fc72ba0a2a09e09e7d5b
+  - com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1a39b04ed087394f62cf2269f88166af9d
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml
+  langs:
+  - java
+  name: TldLegalAgreementCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.TldLegalAgreementCollectionInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/TldLegalAgreementCollectionInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/TldLegalAgreementCollectionInner.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Collection of Tld Legal Agreements. </p>
+  syntax: &o1
+    content: public class TldLegalAgreementCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1a8683e3eadbe6815a65994491d56b4bce
+  id: _tld_legal_agreement_collection_inner_1a8683e3eadbe6815a65994491d56b4bce
+  parent: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml
+  langs:
+  - java
+  name: nextLink()
+  fullName: String com.microsoft.azure.management.website.implementation.api.TldLegalAgreementCollectionInner.nextLink()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/TldLegalAgreementCollectionInner.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public String nextLink()
+    return:
+      type: "26831127"
+      description: <p>the nextLink value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1af8e09f9f478a39212ab178fd6996fcb5
+  id: _tld_legal_agreement_collection_inner_1af8e09f9f478a39212ab178fd6996fcb5
+  parent: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: List<TldLegalAgreement> com.microsoft.azure.management.website.implementation.api.TldLegalAgreementCollectionInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/TldLegalAgreementCollectionInner.java
+    startLine: 29
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< TldLegalAgreement > value()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._tld_legal_agreement9ec3e006
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1a37acdc0625f6fc72ba0a2a09e09e7d5b
+  id: _tld_legal_agreement_collection_inner_1a37acdc0625f6fc72ba0a2a09e09e7d5b
+  parent: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml
+  langs:
+  - java
+  name: withNextLink(String nextLink)
+  fullName: TldLegalAgreementCollectionInner com.microsoft.azure.management.website.implementation.api.TldLegalAgreementCollectionInner.withNextLink(String nextLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/TldLegalAgreementCollectionInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public TldLegalAgreementCollectionInner withNextLink(String nextLink)
+    parameters:
+    - id: nextLink
+      type: "26831127"
+      description: <p>the nextLink value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner_1a39b04ed087394f62cf2269f88166af9d
+  id: _tld_legal_agreement_collection_inner_1a39b04ed087394f62cf2269f88166af9d
+  parent: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml
+  langs:
+  - java
+  name: withValue(List< TldLegalAgreement > value)
+  fullName: TldLegalAgreementCollectionInner com.microsoft.azure.management.website.implementation.api.TldLegalAgreementCollectionInner.withValue(List< TldLegalAgreement > value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/TldLegalAgreementCollectionInner.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public TldLegalAgreementCollectionInner withValue(List< TldLegalAgreement > value)
+    parameters:
+    - id: value
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._tld_legal_agreement9ec3e006
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.website.implementation.api._tld_legal_agreement9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement
+    name: TldLegalAgreement
+    fullName: com.microsoft.azure.management.website.implementation.api.TldLegalAgreement
+    href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement.yml
+  name: TldLegalAgreement
+  fullName: com.microsoft.azure.management.website.implementation.api.TldLegalAgreement
+  type: Class
+  summary: <p>Represents a legal agreement for top level domain. </p>
+  syntax:
+    content: public class TldLegalAgreement
+- uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml
+  name: TldLegalAgreementCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.TldLegalAgreementCollectionInner
+  type: Class
+  summary: <p>Collection of Tld Legal Agreements. </p>
+  syntax: *o1

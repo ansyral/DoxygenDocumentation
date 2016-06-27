@@ -1,0 +1,203 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner
+  id: _global_resource_groups_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1a841f68748e55be70452c1fc61acbe80e
+  - com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1a13c77fce53553c6c6fb366259be70fa1
+  - com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1af3ef0281a051c981fa7f539d0429b7ec
+  href: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner.yml
+  langs:
+  - java
+  name: GlobalResourceGroupsInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalResourceGroupsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
+    startLine: 32
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in GlobalResourceGroups. </p>
+  syntax: &o1
+    content: public class GlobalResourceGroupsInner
+- uid: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1a841f68748e55be70452c1fc61acbe80e
+  id: _global_resource_groups_inner_1a841f68748e55be70452c1fc61acbe80e
+  parent: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner.yml
+  langs:
+  - java
+  name: GlobalResourceGroupsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalResourceGroupsInner.GlobalResourceGroupsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
+    startLine: 44
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public GlobalResourceGroupsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1a13c77fce53553c6c6fb366259be70fa1
+  id: _global_resource_groups_inner_1a13c77fce53553c6c6fb366259be70fa1
+  parent: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner.yml
+  langs:
+  - java
+  name: moveResources(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.website.implementation.api.GlobalResourceGroupsInner.moveResources(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
+    startLine: 69
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public ServiceResponse< Void > moveResources(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: moveResourceEnvelope
+      type: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner" data-throw-if-not-resolved="false"></xref> value </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1af3ef0281a051c981fa7f539d0429b7ec
+  id: _global_resource_groups_inner_1af3ef0281a051c981fa7f539d0429b7ec
+  parent: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner.yml
+  langs:
+  - java
+  name: moveResourcesAsync(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalResourceGroupsInner.moveResourcesAsync(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
+    startLine: 95
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public ServiceCall moveResourcesAsync(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: moveResourceEnvelope
+      type: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner" data-throw-if-not-resolved="false"></xref> value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.azure.management.website.implementation.api._global_799094604b155a1faf0287cb2e05deff
+- uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
+  name: WebSiteManagementClientImpl
+  fullName: com.microsoft.azure.management.website.implementation.api.WebSiteManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class WebSiteManagementClientImpl
+- uid: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner.yml
+  name: GlobalResourceGroupsInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalResourceGroupsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in GlobalResourceGroups. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  name: CsmMoveResourceEnvelopeInner
+  fullName: com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner
+  type: Class
+  summary: <p>Class containing a list of the resources that need to be moved and the resource group they should be moved to. </p>
+  syntax:
+    content: public class CsmMoveResourceEnvelopeInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback

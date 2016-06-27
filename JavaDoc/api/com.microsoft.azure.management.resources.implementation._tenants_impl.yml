@@ -1,0 +1,129 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation._tenants_impl
+  id: _tenants_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  children:
+  - com.microsoft.azure.management.resources.implementation._tenants_impl_1a15e666fc4f46161d9133408e1c398c2e
+  - com.microsoft.azure.management.resources.implementation._tenants_impl_1a5d13a12328223a749dda1d6cf045bd38
+  href: com.microsoft.azure.management.resources.implementation._tenants_impl.yml
+  langs:
+  - java
+  name: TenantsImpl
+  fullName: com.microsoft.azure.management.resources.implementation.TenantsImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/TenantsImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/TenantsImpl.java
+    startLine: 21
+  package: com.microsoft.azure.management.resources.implementation
+  summary: 'Implementation for Tenants and its nested interfaces. '
+  syntax:
+    content: class TenantsImpl
+- uid: com.microsoft.azure.management.resources.implementation._tenants_impl_1a15e666fc4f46161d9133408e1c398c2e
+  id: _tenants_impl_1a15e666fc4f46161d9133408e1c398c2e
+  parent: com.microsoft.azure.management.resources.implementation._tenants_impl
+  href: com.microsoft.azure.management.resources.implementation._tenants_impl.yml
+  langs:
+  - java
+  name: TenantsImpl(final TenantsInner client)
+  fullName: com.microsoft.azure.management.resources.implementation.TenantsImpl.TenantsImpl(final TenantsInner client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/TenantsImpl.java
+    startLine: 25
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: TenantsImpl(final TenantsInner client)
+    parameters:
+    - id: client
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation.api._tenants_inner
+- uid: com.microsoft.azure.management.resources.implementation._tenants_impl_1a5d13a12328223a749dda1d6cf045bd38
+  id: _tenants_impl_1a5d13a12328223a749dda1d6cf045bd38
+  parent: com.microsoft.azure.management.resources.implementation._tenants_impl
+  href: com.microsoft.azure.management.resources.implementation._tenants_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<Tenant> com.microsoft.azure.management.resources.implementation.TenantsImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/TenantsImpl.java
+    startLine: 30
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public PagedList< Tenant > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._tenant9ec3e006
+references:
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation.api._tenants_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation.api._tenants_inner
+    name: TenantsInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.TenantsInner
+    href: com.microsoft.azure.management.resources.implementation.api._tenants_inner.yml
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._tenant9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources._tenant
+    name: Tenant
+    fullName: com.microsoft.azure.management.resources.Tenant
+    href: com.microsoft.azure.management.resources._tenant.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.resources._tenants
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._tenants.yml
+  name: Tenants
+  fullName: com.microsoft.azure.management.resources.Tenants
+  type: Interface
+  summary: 'Entry point to tenant management API. '
+  syntax:
+    content: public interface Tenants
+- uid: com.microsoft.azure.management.resources.implementation.api._tenants_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._tenants_inner.yml
+  name: TenantsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.TenantsInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in Tenants. '
+  syntax:
+    content: public class TenantsInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.resources._tenant
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._tenant.yml
+  name: Tenant
+  fullName: com.microsoft.azure.management.resources.Tenant
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure tenant. '
+  syntax:
+    content: public interface Tenant
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException

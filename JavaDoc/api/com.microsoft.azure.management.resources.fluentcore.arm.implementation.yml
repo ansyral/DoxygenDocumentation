@@ -1,0 +1,47 @@
+items:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._azure_configurable_impl
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  type: Namespace
+  source:
+    remote:
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/AzureConfigurableImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/AzureConfigurableImpl.java
+    startLine: 6
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the implementations for ARM base classes. </p>
+  syntax:
+    content: namespace implementation
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._azure_configurable_impl
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._azure_configurable_impl.yml
+  name: AzureConfigurableImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.AzureConfigurableImpl
+  type: Class
+  summary: >-
+    <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable" data-throw-if-not-resolved="false"></xref> and the base class for configurable implementations.</p>
+
+    <p></p>
+  syntax:
+    content: public class AzureConfigurableImpl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  name: Manager
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager
+  type: Class
+  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  syntax:
+    content: public class Manager

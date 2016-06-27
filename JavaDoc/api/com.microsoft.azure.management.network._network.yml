@@ -1,0 +1,382 @@
+items:
+- uid: com.microsoft.azure.management.network._network
+  id: _network
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_1a248e431acefb9dcafa6a7c48e1ae1556
+  - com.microsoft.azure.management.network._network_1ad0aefaa780208eb6ea36e497fb9c8c3f
+  - com.microsoft.azure.management.network._network_1ac24ab3d8387baee51bc75a964397ff4f
+  href: com.microsoft.azure.management.network._network.yml
+  langs:
+  - java
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
+    startLine: 22
+  package: com.microsoft.azure.management.network
+  summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public interface Network
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
+  - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
+  - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
+  - com.microsoft.azure.management.resources.fluentcore.model._updatable_1ad0b8439cb1d8039e01301ab5d374749c
+- uid: com.microsoft.azure.management.network._network_1a248e431acefb9dcafa6a7c48e1ae1556
+  id: _network_1a248e431acefb9dcafa6a7c48e1ae1556
+  parent: com.microsoft.azure.management.network._network
+  href: com.microsoft.azure.management.network._network.yml
+  langs:
+  - java
+  name: addressSpaces()
+  fullName: List<String> com.microsoft.azure.management.network.Network.addressSpaces()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
+    startLine: 34
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public List< String > addressSpaces()
+    return:
+      type: f35af49b
+      description: <p>list of address spaces associated with this virtual network, in the CIDR notation </p>
+- uid: com.microsoft.azure.management.network._network_1ad0aefaa780208eb6ea36e497fb9c8c3f
+  id: _network_1ad0aefaa780208eb6ea36e497fb9c8c3f
+  parent: com.microsoft.azure.management.network._network
+  href: com.microsoft.azure.management.network._network.yml
+  langs:
+  - java
+  name: dnsServerIPs()
+  fullName: List<String> com.microsoft.azure.management.network.Network.dnsServerIPs()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
+    startLine: 39
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public List< String > dnsServerIPs()
+    return:
+      type: f35af49b
+      description: <p>list of DNS server IP addresses associated with this virtual network </p>
+- uid: com.microsoft.azure.management.network._network_1ac24ab3d8387baee51bc75a964397ff4f
+  id: _network_1ac24ab3d8387baee51bc75a964397ff4f
+  parent: com.microsoft.azure.management.network._network
+  href: com.microsoft.azure.management.network._network.yml
+  langs:
+  - java
+  name: subnets()
+  fullName: List<Subnet> com.microsoft.azure.management.network.Network.subnets()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
+    startLine: 44
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public List< Subnet > subnets()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.network._subnet9ec3e006
+      description: <p>list of subnets of this virtual network </p>
+references:
+- uid: f35af49b
+  spec.java:
+  - name: List< String >
+    fullName: List< String >
+- uid: f6a6204dcom.microsoft.azure.management.network._subnet9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.network._subnet
+    name: Subnet
+    fullName: com.microsoft.azure.management.network.Subnet
+    href: com.microsoft.azure.management.network._subnet.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: id()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.id()
+  type: Method
+  syntax:
+    content: public String id()
+    return:
+      type: "26831127"
+      description: <p>the resource ID string </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
+  parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
+  name: inner()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Wrapper< T >.inner()
+  type: Method
+  syntax:
+    content: public T inner()
+    return:
+      type: 8ce1ecb9
+      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> REST API </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  name: key()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: name()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.name()
+  type: Method
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name of the reosurce </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
+  parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
+  href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
+  name: refresh()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Refreshable< T >.refresh()
+  type: Method
+  summary: >-
+    <p>Refreshes the resource to sync with <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public T refresh()
+    return:
+      type: 8ce1ecb9
+      description: <p>the refreshed resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: region()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  type: Method
+  syntax:
+    content: public String region()
+    return:
+      type: "26831127"
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
+  name: resourceGroupName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.resourceGroupName()
+  type: Method
+  syntax:
+    content: public String resourceGroupName()
+    return:
+      type: "26831127"
+      description: <p>the name of the resource group </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: tags()
+  fullName: Map<String, String> com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.tags()
+  type: Method
+  syntax:
+    content: public Map< String, String > tags()
+    return:
+      type: 805937fc
+      description: <p>the tags for the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: type()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.type()
+  type: Method
+  syntax:
+    content: public String type()
+    return:
+      type: "26831127"
+      description: <p>the type of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._updatable_1ad0b8439cb1d8039e01301ab5d374749c
+  parent: com.microsoft.azure.management.resources.fluentcore.model._updatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
+  name: update()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Updatable< T >.update()
+  type: Method
+  summary: >-
+    <p>Begins an update for a new resource. </p>
+
+    <p>This is the beginning of the builder pattern used to update top level resources in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. The final method completing the definition and starting the actual resource creation process in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> is <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public T update()
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage of new resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
+  name: GroupableResource
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
+  type: Interface
+  summary: <p>Base interface for resources in resource groups. </p>
+  syntax:
+    content: public interface GroupableResource
+- uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
+  name: Refreshable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  type: Interface
+  summary: >-
+    <p>Base class for resources that can be refreshed to get the latest state.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Refreshable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
+  name: Wrapper
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Wrapper
+  type: Interface
+  summary: >-
+    <p>The wrapper around an inner object providing extended functionalities.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Wrapper
+- uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
+  name: Updatable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable
+  type: Interface
+  summary: >-
+    <p>Base class for resource that can be updated.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Updatable
+- uid: com.microsoft.azure.management.network.implementation._network_impl
+- uid: com.microsoft.azure.management.network._network._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_blank.yml
+  name: Network.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.Network.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of a virtual network definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._network._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_creatable.yml
+  name: Network.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatable
+  type: Interface
+  summary: >-
+    <p>The stage of the virtual network definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, except for adding subnets. </p>
+
+    <p>Subnets can be added only right after the address space is explicitly specified (see <ref refid="" kindref="compound">DefinitionWithAddressSpace#withAddressSpace(String)).</ref></p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network._definition_creatable_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_creatable_with_subnet.yml
+  name: Network.DefinitionCreatableWithSubnet
+  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatableWithSubnet
+  type: Interface
+  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, including adding subnets. </p>
+  syntax:
+    content: public interface DefinitionCreatableWithSubnet
+- uid: com.microsoft.azure.management.network._network._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definitions.yml
+  name: Network.Definitions
+  fullName: com.microsoft.azure.management.network.Network.Definitions
+  type: Interface
+  summary: <p>The entirety of the virtual network definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network._definition_with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_with_group.yml
+  name: Network.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.network.Network.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the virtual network definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.network._network._definition_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_with_subnet.yml
+  name: Network.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.network.Network.DefinitionWithSubnet
+  type: Interface
+  summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.network._network._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._update.yml
+  name: Network.Update
+  fullName: com.microsoft.azure.management.network.Network.Update
+  type: Interface
+  summary: >-
+    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._network._update_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._update_with_subnet.yml
+  name: Network.UpdateWithSubnet
+  fullName: com.microsoft.azure.management.network.Network.UpdateWithSubnet
+  type: Interface
+  summary: <p>The stage of the virtual network update allowing to add or remove subnets. </p>
+  syntax:
+    content: public interface UpdateWithSubnet
+- uid: com.microsoft.azure.management.network._subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet.yml
+  name: Subnet
+  fullName: com.microsoft.azure.management.network.Subnet
+  type: Interface
+  summary: <p>An immutable client-side representation of a subnet of a virtual network. </p>
+  syntax:
+    content: public interface Subnet
+- uid: com.microsoft.azure.management.network._network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network.yml
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

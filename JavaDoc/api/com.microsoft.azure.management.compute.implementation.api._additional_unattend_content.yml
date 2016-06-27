@@ -1,0 +1,270 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  id: _additional_unattend_content
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1aa6de78eab350cfb2672ff73bde846774
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a3129386006bdc3b3ef32face71e6c5c9
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a879a9ec90c54c8680840706f1f2e5a92
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1aa1b944820da1d8fba2d7b6450175ef34
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a33baf60ae0d22e9eb95371474a1e95e6
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1afcaf8734274e241e0bb82d389ff6ba31
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a234f37f583f8ca61a8ed1d2178622930
+  - com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a045911c3b224fd1f7fac88999b6a5cc5
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: AdditionalUnattendContent
+  fullName: com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 15
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Gets or sets additional XML formatted information that can be included in the Unattend.xml file, which is used by Windows Setup. Contents are defined by setting name, component name, and the pass in which the content is a applied. </p>
+  syntax: &o1
+    content: public class AdditionalUnattendContent
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1aa6de78eab350cfb2672ff73bde846774
+  id: _additional_unattend_content_1aa6de78eab350cfb2672ff73bde846774
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: componentName()
+  fullName: ComponentNames com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.componentName()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 68
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the componentName value.</p>
+
+    <p></p>
+  syntax:
+    content: public ComponentNames componentName()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._component_names
+      description: <p>the componentName value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a3129386006bdc3b3ef32face71e6c5c9
+  id: _additional_unattend_content_1a3129386006bdc3b3ef32face71e6c5c9
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: content()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.content()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 108
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the content value.</p>
+
+    <p></p>
+  syntax:
+    content: public String content()
+    return:
+      type: "26831127"
+      description: <p>the content value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a879a9ec90c54c8680840706f1f2e5a92
+  id: _additional_unattend_content_1a879a9ec90c54c8680840706f1f2e5a92
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: passName()
+  fullName: PassNames com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.passName()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 48
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the passName value.</p>
+
+    <p></p>
+  syntax:
+    content: public PassNames passName()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._pass_names
+      description: <p>the passName value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1aa1b944820da1d8fba2d7b6450175ef34
+  id: _additional_unattend_content_1aa1b944820da1d8fba2d7b6450175ef34
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: settingName()
+  fullName: SettingNames com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.settingName()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 88
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the settingName value.</p>
+
+    <p></p>
+  syntax:
+    content: public SettingNames settingName()
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._setting_names
+      description: <p>the settingName value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a33baf60ae0d22e9eb95371474a1e95e6
+  id: _additional_unattend_content_1a33baf60ae0d22e9eb95371474a1e95e6
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: withComponentName(ComponentNames componentName)
+  fullName: AdditionalUnattendContent com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.withComponentName(ComponentNames componentName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 78
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the componentName value.</p>
+
+    <p></p>
+  syntax:
+    content: public AdditionalUnattendContent withComponentName(ComponentNames componentName)
+    parameters:
+    - id: componentName
+      type: com.microsoft.azure.management.compute.implementation.api._component_names
+      description: <p>the componentName value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._additional_unattend_content" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1afcaf8734274e241e0bb82d389ff6ba31
+  id: _additional_unattend_content_1afcaf8734274e241e0bb82d389ff6ba31
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: withContent(String content)
+  fullName: AdditionalUnattendContent com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.withContent(String content)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 118
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the content value.</p>
+
+    <p></p>
+  syntax:
+    content: public AdditionalUnattendContent withContent(String content)
+    parameters:
+    - id: content
+      type: "26831127"
+      description: <p>the content value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._additional_unattend_content" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a234f37f583f8ca61a8ed1d2178622930
+  id: _additional_unattend_content_1a234f37f583f8ca61a8ed1d2178622930
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: withPassName(PassNames passName)
+  fullName: AdditionalUnattendContent com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.withPassName(PassNames passName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 58
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the passName value.</p>
+
+    <p></p>
+  syntax:
+    content: public AdditionalUnattendContent withPassName(PassNames passName)
+    parameters:
+    - id: passName
+      type: com.microsoft.azure.management.compute.implementation.api._pass_names
+      description: <p>the passName value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._additional_unattend_content" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content_1a045911c3b224fd1f7fac88999b6a5cc5
+  id: _additional_unattend_content_1a045911c3b224fd1f7fac88999b6a5cc5
+  parent: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  langs:
+  - java
+  name: withSettingName(SettingNames settingName)
+  fullName: AdditionalUnattendContent com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent.withSettingName(SettingNames settingName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AdditionalUnattendContent.java
+    startLine: 98
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the settingName value.</p>
+
+    <p></p>
+  syntax:
+    content: public AdditionalUnattendContent withSettingName(SettingNames settingName)
+    parameters:
+    - id: settingName
+      type: com.microsoft.azure.management.compute.implementation.api._setting_names
+      description: <p>the settingName value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._additional_unattend_content" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._pass_names
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._pass_names.yml
+  name: PassNames
+  fullName: com.microsoft.azure.management.compute.implementation.api.PassNames
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._pass_names" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum PassNames
+- uid: com.microsoft.azure.management.compute.implementation.api._component_names
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._component_names.yml
+  name: ComponentNames
+  fullName: com.microsoft.azure.management.compute.implementation.api.ComponentNames
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._component_names" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum ComponentNames
+- uid: com.microsoft.azure.management.compute.implementation.api._setting_names
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._setting_names.yml
+  name: SettingNames
+  fullName: com.microsoft.azure.management.compute.implementation.api.SettingNames
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._setting_names" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum SettingNames
+- uid: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._additional_unattend_content.yml
+  name: AdditionalUnattendContent
+  fullName: com.microsoft.azure.management.compute.implementation.api.AdditionalUnattendContent
+  type: Class
+  summary: <p>Gets or sets additional XML formatted information that can be included in the Unattend.xml file, which is used by Windows Setup. Contents are defined by setting name, component name, and the pass in which the content is a applied. </p>
+  syntax: *o1

@@ -1,0 +1,139 @@
+items:
+- uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
+  id: _definition_with_optional_configuration
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration_1a450202d1000980db8498f97374b686c9
+  - com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration_1a39d985bc660c9a00f8161a8c344b8e55
+  href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
+  langs:
+  - java
+  name: DataDisk.DefinitionWithOptionalConfiguration
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionWithOptionalConfiguration
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 139
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>The stage of the data disk configuration allowing to specify optionals common for new and attachable existing data disks.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithOptionalConfiguration
+- uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration_1a450202d1000980db8498f97374b686c9
+  id: _definition_with_optional_configuration_1a450202d1000980db8498f97374b686c9
+  parent: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
+  href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
+  langs:
+  - java
+  name: withCaching(CachingTypes cachingType)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.compute.DataDisk.DefinitionWithOptionalConfiguration< ParentT >.withCaching(CachingTypes cachingType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 154
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the caching type for the data disk.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withCaching(CachingTypes cachingType)
+    parameters:
+    - id: cachingType
+      type: com.microsoft.azure.management.compute.implementation.api._caching_types
+      description: '<p>the disk caching type. Possible values include: ''None'', ''ReadOnly'', ''ReadWrite'' </p>'
+    return:
+      type: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
+      description: <p>the next stage of data disk configuration </p>
+- uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration_1a39d985bc660c9a00f8161a8c344b8e55
+  id: _definition_with_optional_configuration_1a39d985bc660c9a00f8161a8c344b8e55
+  parent: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
+  href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
+  langs:
+  - java
+  name: withLun(Integer lun)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.compute.DataDisk.DefinitionWithOptionalConfiguration< ParentT >.withLun(Integer lun)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/DataDisk.java
+    startLine: 146
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the logical unit number for the data disk.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withLun(Integer lun)
+    parameters:
+    - id: lun
+      type: 08effaa0
+      description: <p>the logical unit number </p>
+    return:
+      type: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
+      description: <p>the next stage of data disk configuration </p>
+references:
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
+  spec.java:
+  - uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
+    name: DataDisk.DefinitionAttachable
+    fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+    href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
+  - name: < ParentT >
+    fullName: < ParentT >
+- uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
+  name: DataDisk.DefinitionAttachable
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The stage of the data disk definition which contains all the minimum required inputs for the resource to be attached (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.compute._data_disk._definitions
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._definitions.yml
+  name: DataDisk.Definitions
+  fullName: com.microsoft.azure.management.compute.DataDisk.Definitions
+  type: Interface
+  summary: >-
+    <p>Container interface for all the definitions.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.compute.implementation.api._caching_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml
+  name: CachingTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.CachingTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._caching_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum CachingTypes
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>

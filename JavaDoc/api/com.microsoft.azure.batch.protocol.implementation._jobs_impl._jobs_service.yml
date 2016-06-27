@@ -1,0 +1,799 @@
+items:
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  id: _jobs_service
+  parent: com.microsoft.azure.batch.protocol.implementation
+  children:
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a90a783f522a3de8a73b2b12b9f0e1db5
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a026efce0cf060d36ff8eab0531510bea
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a142411345ca8d763969b586f0a015f61
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a23fdad08b6cf22876c48a1341aa65498
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a34340128c926536fb9460aeaa4d842bb
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1aeb147fbebc4c14d93839164417075d2c
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a11f75b2e4f6f9c8396aeb764fabd6c01
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a995aa1f3a0619acbc2a84edce5434769
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a040fc7c19e584c11ce259938b6ceaae7
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a43152d3b65535d6a59aaca3e5c5c70d2
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1acdb307408871e4abfef3f2208aa3a717
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a836175fe2b6c2488040605ca3ad231ee
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a9f5f3a38996f4769f423afe0ca5de4a4
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1ab8fec699079190c146d1d02850dc90ad
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a65e8a6fd7ae6a8813e9ae30ad6857ab0
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: JobsImpl.JobsService
+  fullName: com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 102
+  package: com.microsoft.azure.batch.protocol.implementation
+  summary: 'The interface defining all the services for Jobs to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface JobsImpl.JobsService
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a90a783f522a3de8a73b2b12b9f0e1db5
+  id: _jobs_service_1a90a783f522a3de8a73b2b12b9f0e1db5
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: getAllJobsLifetimeStatistics(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.getAllJobsLifetimeStatistics(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 105
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > getAllJobsLifetimeStatistics(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a026efce0cf060d36ff8eab0531510bea
+  id: _jobs_service_1a026efce0cf060d36ff8eab0531510bea
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: delete(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.delete(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 109
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a142411345ca8d763969b586f0a015f61
+  id: _jobs_service_1a142411345ca8d763969b586f0a015f61
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: get(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("$expand") String expand,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.get(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("$expand") String expand,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 113
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > get(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("$expand") String expand,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: select
+      type: 7da619bd
+    - id: expand
+      type: 99e81acb
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a23fdad08b6cf22876c48a1341aa65498
+  id: _jobs_service_1a23fdad08b6cf22876c48a1341aa65498
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: patch(@Path("jobId") String jobId,@Body JobPatchParameter jobPatchParameter,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.patch(@Path("jobId") String jobId,@Body JobPatchParameter jobPatchParameter,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 117
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > patch(@Path("jobId") String jobId,@Body JobPatchParameter jobPatchParameter,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: jobPatchParameter
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._job_patch_parameter
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a34340128c926536fb9460aeaa4d842bb
+  id: _jobs_service_1a34340128c926536fb9460aeaa4d842bb
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: update(@Path("jobId") String jobId,@Body JobUpdateParameter jobUpdateParameter,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.update(@Path("jobId") String jobId,@Body JobUpdateParameter jobUpdateParameter,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 121
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > update(@Path("jobId") String jobId,@Body JobUpdateParameter jobUpdateParameter,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: jobUpdateParameter
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._job_update_parameter
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1aeb147fbebc4c14d93839164417075d2c
+  id: _jobs_service_1aeb147fbebc4c14d93839164417075d2c
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: disable(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body JobDisableParameter jobDisableParameter,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.disable(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body JobDisableParameter jobDisableParameter,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 125
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > disable(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body JobDisableParameter jobDisableParameter,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: jobDisableParameter
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._job_disable_parameter
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a11f75b2e4f6f9c8396aeb764fabd6c01
+  id: _jobs_service_1a11f75b2e4f6f9c8396aeb764fabd6c01
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: enable(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.enable(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 129
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > enable(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a995aa1f3a0619acbc2a84edce5434769
+  id: _jobs_service_1a995aa1f3a0619acbc2a84edce5434769
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: terminate(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body JobTerminateParameter jobTerminateParameter,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.terminate(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body JobTerminateParameter jobTerminateParameter,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 133
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > terminate(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body JobTerminateParameter jobTerminateParameter,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: jobTerminateParameter
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._job_terminate_parameter
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a040fc7c19e584c11ce259938b6ceaae7
+  id: _jobs_service_1a040fc7c19e584c11ce259938b6ceaae7
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: add(@Body JobAddParameter job,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.add(@Body JobAddParameter job,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 137
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > add(@Body JobAddParameter job,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: job
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._job_add_parameter
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a43152d3b65535d6a59aaca3e5c5c70d2
+  id: _jobs_service_1a43152d3b65535d6a59aaca3e5c5c70d2
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: list(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.list(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 141
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > list(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: filter
+      type: 32841eb2
+    - id: select
+      type: 7da619bd
+    - id: expand
+      type: 99e81acb
+    - id: maxResults
+      type: b86c3b3e
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1acdb307408871e4abfef3f2208aa3a717
+  id: _jobs_service_1acdb307408871e4abfef3f2208aa3a717
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: listFromJobSchedule(@Path("jobScheduleId") String jobScheduleId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.listFromJobSchedule(@Path("jobScheduleId") String jobScheduleId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 145
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listFromJobSchedule(@Path("jobScheduleId") String jobScheduleId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobScheduleId
+      type: 58e8cfff
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: filter
+      type: 32841eb2
+    - id: select
+      type: 7da619bd
+    - id: expand
+      type: 99e81acb
+    - id: maxResults
+      type: b86c3b3e
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a836175fe2b6c2488040605ca3ad231ee
+  id: _jobs_service_1a836175fe2b6c2488040605ca3ad231ee
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: listPreparationAndReleaseTaskStatus(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.listPreparationAndReleaseTaskStatus(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 149
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listPreparationAndReleaseTaskStatus(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: filter
+      type: 32841eb2
+    - id: select
+      type: 7da619bd
+    - id: maxResults
+      type: b86c3b3e
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a9f5f3a38996f4769f423afe0ca5de4a4
+  id: _jobs_service_1a9f5f3a38996f4769f423afe0ca5de4a4
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 153
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1ab8fec699079190c146d1d02850dc90ad
+  id: _jobs_service_1ab8fec699079190c146d1d02850dc90ad
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: listFromJobScheduleNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.listFromJobScheduleNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 157
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listFromJobScheduleNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service_1a65e8a6fd7ae6a8813e9ae30ad6857ab0
+  id: _jobs_service_1a65e8a6fd7ae6a8813e9ae30ad6857ab0
+  parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service
+  href: com.microsoft.azure.batch.protocol.implementation._jobs_impl._jobs_service.yml
+  langs:
+  - java
+  name: listPreparationAndReleaseTaskStatusNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.JobsImpl.JobsService.listPreparationAndReleaseTaskStatusNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/JobsImpl.java
+    startLine: 161
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listPreparationAndReleaseTaskStatusNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: e90f45ef
+  spec.java:
+  - name: '@Query("timeout") Integer'
+    fullName: '@Query("timeout") Integer'
+- uid: 74e7aeab
+  spec.java:
+  - name: '@Header("client-request-id") String'
+    fullName: '@Header("client-request-id") String'
+- uid: 08b12507
+  spec.java:
+  - name: '@Header("return-client-request-id") Boolean'
+    fullName: '@Header("return-client-request-id") Boolean'
+- uid: 5bec6339
+  spec.java:
+  - name: '@Header("ocp-date") DateTimeRfc1123'
+    fullName: '@Header("ocp-date") DateTimeRfc1123'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 6489af51
+  spec.java:
+  - name: '@Path("jobId") String'
+    fullName: '@Path("jobId") String'
+- uid: e36a69fe
+  spec.java:
+  - name: '@Header("If-Match") String'
+    fullName: '@Header("If-Match") String'
+- uid: e6117989
+  spec.java:
+  - name: '@Header("If-None-Match") String'
+    fullName: '@Header("If-None-Match") String'
+- uid: 1e2c8ccc
+  spec.java:
+  - name: '@Header("If-Modified-Since") DateTimeRfc1123'
+    fullName: '@Header("If-Modified-Since") DateTimeRfc1123'
+- uid: b64486d5
+  spec.java:
+  - name: '@Header("If-Unmodified-Since") DateTimeRfc1123'
+    fullName: '@Header("If-Unmodified-Since") DateTimeRfc1123'
+- uid: 7da619bd
+  spec.java:
+  - name: '@Query("$select") String'
+    fullName: '@Query("$select") String'
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._job_patch_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._job_patch_parameter
+    name: JobPatchParameter
+    fullName: com.microsoft.azure.batch.protocol.models.JobPatchParameter
+    href: com.microsoft.azure.batch.protocol.models._job_patch_parameter.yml
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._job_update_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._job_update_parameter
+    name: JobUpdateParameter
+    fullName: com.microsoft.azure.batch.protocol.models.JobUpdateParameter
+    href: com.microsoft.azure.batch.protocol.models._job_update_parameter.yml
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._job_disable_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._job_disable_parameter
+    name: JobDisableParameter
+    fullName: com.microsoft.azure.batch.protocol.models.JobDisableParameter
+    href: com.microsoft.azure.batch.protocol.models._job_disable_parameter.yml
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._job_terminate_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._job_terminate_parameter
+    name: JobTerminateParameter
+    fullName: com.microsoft.azure.batch.protocol.models.JobTerminateParameter
+    href: com.microsoft.azure.batch.protocol.models._job_terminate_parameter.yml
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._job_add_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._job_add_parameter
+    name: JobAddParameter
+    fullName: com.microsoft.azure.batch.protocol.models.JobAddParameter
+    href: com.microsoft.azure.batch.protocol.models._job_add_parameter.yml
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: b86c3b3e
+  spec.java:
+  - name: '@Query("maxresults") Integer'
+    fullName: '@Query("maxresults") Integer'
+- uid: 58e8cfff
+  spec.java:
+  - name: '@Path("jobScheduleId") String'
+    fullName: '@Path("jobScheduleId") String'
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.batch.protocol.models._job_patch_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._job_patch_parameter.yml
+  name: JobPatchParameter
+  fullName: com.microsoft.azure.batch.protocol.models.JobPatchParameter
+  type: Class
+  summary: 'Parameters for a CloudJobOperations.Patch request. '
+  syntax:
+    content: public class JobPatchParameter
+- uid: com.microsoft.azure.batch.protocol.models._job_update_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._job_update_parameter.yml
+  name: JobUpdateParameter
+  fullName: com.microsoft.azure.batch.protocol.models.JobUpdateParameter
+  type: Class
+  summary: 'Parameters for a CloudJobOperations.Update request. '
+  syntax:
+    content: public class JobUpdateParameter
+- uid: com.microsoft.azure.batch.protocol.models._job_disable_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._job_disable_parameter.yml
+  name: JobDisableParameter
+  fullName: com.microsoft.azure.batch.protocol.models.JobDisableParameter
+  type: Class
+  summary: 'Parameters for a CloudJobOperations.Disable request. '
+  syntax:
+    content: public class JobDisableParameter
+- uid: com.microsoft.azure.batch.protocol.models._job_terminate_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._job_terminate_parameter.yml
+  name: JobTerminateParameter
+  fullName: com.microsoft.azure.batch.protocol.models.JobTerminateParameter
+  type: Class
+  summary: 'Parameters for a CloudJobOperations.Terminate request. '
+  syntax:
+    content: public class JobTerminateParameter
+- uid: com.microsoft.azure.batch.protocol.models._job_add_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._job_add_parameter.yml
+  name: JobAddParameter
+  fullName: com.microsoft.azure.batch.protocol.models.JobAddParameter
+  type: Class
+  summary: 'An Azure Batch job to add. '
+  syntax:
+    content: public class JobAddParameter
+- uid: com.microsoft.azure.batch.protocol._jobs
+  parent: com.microsoft.azure.batch.protocol
+  href: com.microsoft.azure.batch.protocol._jobs.yml
+  name: Jobs
+  fullName: com.microsoft.azure.batch.protocol.Jobs
+  type: Interface
+  summary: 'An instance of this class provides access to all the operations defined in Jobs. '
+  syntax:
+    content: public interface Jobs

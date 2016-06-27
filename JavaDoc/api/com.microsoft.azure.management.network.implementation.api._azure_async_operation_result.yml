@@ -1,0 +1,148 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+  id: _azure_async_operation_result
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1af7a2bb59ea151a2f9d080e83959b2611
+  - com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1a97baaef29336218127fb61a7bbe1bbfe
+  - com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1a5b0195c5d04449fb0796b5d6772aebf1
+  - com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1a3d29b71422a310edb9a48e15d197b785
+  href: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result.yml
+  langs:
+  - java
+  name: AzureAsyncOperationResult
+  fullName: com.microsoft.azure.management.network.implementation.api.AzureAsyncOperationResult
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AzureAsyncOperationResult.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AzureAsyncOperationResult.java
+    startLine: 19
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>The response body contains the status of the specified asynchronous operation, indicating whether it has succeeded, is inprogress, or has failed. Note that this status is distinct from the HTTP status code returned for the Get Operation Status operation itself. If the asynchronous operation succeeded, the response body includes the HTTP status code for the successful request. If the asynchronous operation failed, the response body includes the HTTP status code for the failed request and error information regarding the failure. </p>
+  syntax: &o1
+    content: public class AzureAsyncOperationResult
+- uid: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1af7a2bb59ea151a2f9d080e83959b2611
+  id: _azure_async_operation_result_1af7a2bb59ea151a2f9d080e83959b2611
+  parent: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+  href: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result.yml
+  langs:
+  - java
+  name: error()
+  fullName: Error com.microsoft.azure.management.network.implementation.api.AzureAsyncOperationResult.error()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AzureAsyncOperationResult.java
+    startLine: 56
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the error value.</p>
+
+    <p></p>
+  syntax:
+    content: public Error error()
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._error
+      description: <p>the error value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1a97baaef29336218127fb61a7bbe1bbfe
+  id: _azure_async_operation_result_1a97baaef29336218127fb61a7bbe1bbfe
+  parent: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+  href: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result.yml
+  langs:
+  - java
+  name: status()
+  fullName: String com.microsoft.azure.management.network.implementation.api.AzureAsyncOperationResult.status()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AzureAsyncOperationResult.java
+    startLine: 36
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the status value.</p>
+
+    <p></p>
+  syntax:
+    content: public String status()
+    return:
+      type: "26831127"
+      description: <p>the status value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1a5b0195c5d04449fb0796b5d6772aebf1
+  id: _azure_async_operation_result_1a5b0195c5d04449fb0796b5d6772aebf1
+  parent: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+  href: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result.yml
+  langs:
+  - java
+  name: withError(Error error)
+  fullName: AzureAsyncOperationResult com.microsoft.azure.management.network.implementation.api.AzureAsyncOperationResult.withError(Error error)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AzureAsyncOperationResult.java
+    startLine: 66
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the error value.</p>
+
+    <p></p>
+  syntax:
+    content: public AzureAsyncOperationResult withError(Error error)
+    parameters:
+    - id: error
+      type: com.microsoft.azure.management.network.implementation.api._error
+      description: <p>the error value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._azure_async_operation_result" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result_1a3d29b71422a310edb9a48e15d197b785
+  id: _azure_async_operation_result_1a3d29b71422a310edb9a48e15d197b785
+  parent: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+  href: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result.yml
+  langs:
+  - java
+  name: withStatus(String status)
+  fullName: AzureAsyncOperationResult com.microsoft.azure.management.network.implementation.api.AzureAsyncOperationResult.withStatus(String status)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AzureAsyncOperationResult.java
+    startLine: 46
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the status value.</p>
+
+    <p></p>
+  syntax:
+    content: public AzureAsyncOperationResult withStatus(String status)
+    parameters:
+    - id: status
+      type: "26831127"
+      description: <p>the status value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._azure_async_operation_result" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.network.implementation.api._error
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._error.yml
+  name: Error
+  fullName: com.microsoft.azure.management.network.implementation.api.Error
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure.management.network.implementation.api._error" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class Error
+- uid: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._azure_async_operation_result.yml
+  name: AzureAsyncOperationResult
+  fullName: com.microsoft.azure.management.network.implementation.api.AzureAsyncOperationResult
+  type: Class
+  summary: <p>The response body contains the status of the specified asynchronous operation, indicating whether it has succeeded, is inprogress, or has failed. Note that this status is distinct from the HTTP status code returned for the Get Operation Status operation itself. If the asynchronous operation succeeded, the response body includes the HTTP status code for the successful request. If the asynchronous operation failed, the response body includes the HTTP status code for the failed request and error information regarding the failure. </p>
+  syntax: *o1

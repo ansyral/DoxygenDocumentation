@@ -1,0 +1,153 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._http_logs_config
+  id: _http_logs_config
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._http_logs_config_1a130da5208fb970dc2115d98bd58849e9
+  - com.microsoft.azure.management.website.implementation.api._http_logs_config_1a201718c846ee7c93b7481e10660c3ca2
+  - com.microsoft.azure.management.website.implementation.api._http_logs_config_1a31718e6142e0f92954dc9065943aee05
+  - com.microsoft.azure.management.website.implementation.api._http_logs_config_1ae81fb324f2125e5b3da67b533bed6132
+  href: com.microsoft.azure.management.website.implementation.api._http_logs_config.yml
+  langs:
+  - java
+  name: HttpLogsConfig
+  fullName: com.microsoft.azure.management.website.implementation.api.HttpLogsConfig
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HttpLogsConfig.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HttpLogsConfig.java
+    startLine: 12
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Http logs configuration. </p>
+  syntax: &o1
+    content: public class HttpLogsConfig
+- uid: com.microsoft.azure.management.website.implementation.api._http_logs_config_1a130da5208fb970dc2115d98bd58849e9
+  id: _http_logs_config_1a130da5208fb970dc2115d98bd58849e9
+  parent: com.microsoft.azure.management.website.implementation.api._http_logs_config
+  href: com.microsoft.azure.management.website.implementation.api._http_logs_config.yml
+  langs:
+  - java
+  name: azureBlobStorage()
+  fullName: AzureBlobStorageHttpLogsConfig com.microsoft.azure.management.website.implementation.api.HttpLogsConfig.azureBlobStorage()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HttpLogsConfig.java
+    startLine: 48
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the azureBlobStorage value.</p>
+
+    <p></p>
+  syntax:
+    content: public AzureBlobStorageHttpLogsConfig azureBlobStorage()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._azure_blob_storage_http_logs_config
+      description: <p>the azureBlobStorage value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._http_logs_config_1a201718c846ee7c93b7481e10660c3ca2
+  id: _http_logs_config_1a201718c846ee7c93b7481e10660c3ca2
+  parent: com.microsoft.azure.management.website.implementation.api._http_logs_config
+  href: com.microsoft.azure.management.website.implementation.api._http_logs_config.yml
+  langs:
+  - java
+  name: fileSystem()
+  fullName: FileSystemHttpLogsConfig com.microsoft.azure.management.website.implementation.api.HttpLogsConfig.fileSystem()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HttpLogsConfig.java
+    startLine: 28
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the fileSystem value.</p>
+
+    <p></p>
+  syntax:
+    content: public FileSystemHttpLogsConfig fileSystem()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._file_system_http_logs_config
+      description: <p>the fileSystem value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._http_logs_config_1a31718e6142e0f92954dc9065943aee05
+  id: _http_logs_config_1a31718e6142e0f92954dc9065943aee05
+  parent: com.microsoft.azure.management.website.implementation.api._http_logs_config
+  href: com.microsoft.azure.management.website.implementation.api._http_logs_config.yml
+  langs:
+  - java
+  name: withAzureBlobStorage(AzureBlobStorageHttpLogsConfig azureBlobStorage)
+  fullName: HttpLogsConfig com.microsoft.azure.management.website.implementation.api.HttpLogsConfig.withAzureBlobStorage(AzureBlobStorageHttpLogsConfig azureBlobStorage)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HttpLogsConfig.java
+    startLine: 58
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the azureBlobStorage value.</p>
+
+    <p></p>
+  syntax:
+    content: public HttpLogsConfig withAzureBlobStorage(AzureBlobStorageHttpLogsConfig azureBlobStorage)
+    parameters:
+    - id: azureBlobStorage
+      type: com.microsoft.azure.management.website.implementation.api._azure_blob_storage_http_logs_config
+      description: <p>the azureBlobStorage value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._http_logs_config
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._http_logs_config" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._http_logs_config_1ae81fb324f2125e5b3da67b533bed6132
+  id: _http_logs_config_1ae81fb324f2125e5b3da67b533bed6132
+  parent: com.microsoft.azure.management.website.implementation.api._http_logs_config
+  href: com.microsoft.azure.management.website.implementation.api._http_logs_config.yml
+  langs:
+  - java
+  name: withFileSystem(FileSystemHttpLogsConfig fileSystem)
+  fullName: HttpLogsConfig com.microsoft.azure.management.website.implementation.api.HttpLogsConfig.withFileSystem(FileSystemHttpLogsConfig fileSystem)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HttpLogsConfig.java
+    startLine: 38
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the fileSystem value.</p>
+
+    <p></p>
+  syntax:
+    content: public HttpLogsConfig withFileSystem(FileSystemHttpLogsConfig fileSystem)
+    parameters:
+    - id: fileSystem
+      type: com.microsoft.azure.management.website.implementation.api._file_system_http_logs_config
+      description: <p>the fileSystem value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._http_logs_config
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._http_logs_config" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: com.microsoft.azure.management.website.implementation.api._file_system_http_logs_config
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._file_system_http_logs_config.yml
+  name: FileSystemHttpLogsConfig
+  fullName: com.microsoft.azure.management.website.implementation.api.FileSystemHttpLogsConfig
+  type: Class
+  summary: <p>Http logs to file system configuration. </p>
+  syntax:
+    content: public class FileSystemHttpLogsConfig
+- uid: com.microsoft.azure.management.website.implementation.api._azure_blob_storage_http_logs_config
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._azure_blob_storage_http_logs_config.yml
+  name: AzureBlobStorageHttpLogsConfig
+  fullName: com.microsoft.azure.management.website.implementation.api.AzureBlobStorageHttpLogsConfig
+  type: Class
+  summary: <p>Http logs to azure blob storage configuration. </p>
+  syntax:
+    content: public class AzureBlobStorageHttpLogsConfig
+- uid: com.microsoft.azure.management.website.implementation.api._http_logs_config
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._http_logs_config.yml
+  name: HttpLogsConfig
+  fullName: com.microsoft.azure.management.website.implementation.api.HttpLogsConfig
+  type: Class
+  summary: <p>Http logs configuration. </p>
+  syntax: *o1

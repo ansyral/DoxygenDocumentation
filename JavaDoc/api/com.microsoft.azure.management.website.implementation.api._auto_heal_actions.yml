@@ -1,0 +1,218 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  id: _auto_heal_actions
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1a5484ef9629a6b73b887b038010a0b6ba
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1acf77dde85d6a4b33a3c54c9f27b96404
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1ad8301a6170cb000a4d47951e63432d52
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1ab328dc7e31f05beb49439b74f54750ec
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1a22b9b5aba09f989c8399e5fedb770b9c
+  - com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1a2643c89f32efa1ea2b17c01ac43bf619
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: AutoHealActions
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealActions
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_actions" data-throw-if-not-resolved="false"></xref> - Describes the actions which can be taken by the auto-heal module when a rule is triggered. </p>
+  syntax: &o1
+    content: public class AutoHealActions
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1a5484ef9629a6b73b887b038010a0b6ba
+  id: _auto_heal_actions_1a5484ef9629a6b73b887b038010a0b6ba
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: actionType()
+  fullName: AutoHealActionType com.microsoft.azure.management.website.implementation.api.AutoHealActions.actionType()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 38
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the actionType value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealActionType actionType()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_action_type
+      description: <p>the actionType value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1acf77dde85d6a4b33a3c54c9f27b96404
+  id: _auto_heal_actions_1acf77dde85d6a4b33a3c54c9f27b96404
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: customAction()
+  fullName: AutoHealCustomAction com.microsoft.azure.management.website.implementation.api.AutoHealActions.customAction()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 58
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the customAction value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealCustomAction customAction()
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_custom_action
+      description: <p>the customAction value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1ad8301a6170cb000a4d47951e63432d52
+  id: _auto_heal_actions_1ad8301a6170cb000a4d47951e63432d52
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: minProcessExecutionTime()
+  fullName: String com.microsoft.azure.management.website.implementation.api.AutoHealActions.minProcessExecutionTime()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 78
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the minProcessExecutionTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public String minProcessExecutionTime()
+    return:
+      type: "26831127"
+      description: <p>the minProcessExecutionTime value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1ab328dc7e31f05beb49439b74f54750ec
+  id: _auto_heal_actions_1ab328dc7e31f05beb49439b74f54750ec
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: withActionType(AutoHealActionType actionType)
+  fullName: AutoHealActions com.microsoft.azure.management.website.implementation.api.AutoHealActions.withActionType(AutoHealActionType actionType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 48
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the actionType value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealActions withActionType(AutoHealActionType actionType)
+    parameters:
+    - id: actionType
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_action_type
+      description: <p>the actionType value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_actions" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1a22b9b5aba09f989c8399e5fedb770b9c
+  id: _auto_heal_actions_1a22b9b5aba09f989c8399e5fedb770b9c
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: withCustomAction(AutoHealCustomAction customAction)
+  fullName: AutoHealActions com.microsoft.azure.management.website.implementation.api.AutoHealActions.withCustomAction(AutoHealCustomAction customAction)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 68
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the customAction value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealActions withCustomAction(AutoHealCustomAction customAction)
+    parameters:
+    - id: customAction
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_custom_action
+      description: <p>the customAction value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_actions" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions_1a2643c89f32efa1ea2b17c01ac43bf619
+  id: _auto_heal_actions_1a2643c89f32efa1ea2b17c01ac43bf619
+  parent: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  langs:
+  - java
+  name: withMinProcessExecutionTime(String minProcessExecutionTime)
+  fullName: AutoHealActions com.microsoft.azure.management.website.implementation.api.AutoHealActions.withMinProcessExecutionTime(String minProcessExecutionTime)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AutoHealActions.java
+    startLine: 88
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the minProcessExecutionTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public AutoHealActions withMinProcessExecutionTime(String minProcessExecutionTime)
+    parameters:
+    - id: minProcessExecutionTime
+      type: "26831127"
+      description: <p>the minProcessExecutionTime value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_actions" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_action_type
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_action_type.yml
+  name: AutoHealActionType
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealActionType
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_action_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum AutoHealActionType
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_custom_action
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_custom_action.yml
+  name: AutoHealCustomAction
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealCustomAction
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_custom_action" data-throw-if-not-resolved="false"></xref> - Describes the custom action to be executed when an auto heal rule is triggered. </p>
+  syntax:
+    content: public class AutoHealCustomAction
+- uid: com.microsoft.azure.management.website.implementation.api._auto_heal_actions
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._auto_heal_actions.yml
+  name: AutoHealActions
+  fullName: com.microsoft.azure.management.website.implementation.api.AutoHealActions
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._auto_heal_actions" data-throw-if-not-resolved="false"></xref> - Describes the actions which can be taken by the auto-heal module when a rule is triggered. </p>
+  syntax: *o1

@@ -1,0 +1,1268 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine._definitions
+  id: _definitions
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definitions.yml
+  langs:
+  - java
+  name: VirtualMachine.Definitions
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.Definitions
+  type: Interface
+  source:
+    remote:
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 846
+  package: com.microsoft.azure.management.compute
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+  inheritance:
+  - GroupableResource.DefinitionWithRegion< DefinitionWithGroup >
+  - com.microsoft.azure.management.compute._virtual_machine._definition_blank
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1acd354ca769b27d99bca4b9487d8ffeff
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1ab7ae09064f86a6a73e321258b786e40a
+  - com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a60cbaf987430daf23f8420e388cb2752
+  - com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a50aab71101ac79abc9efab88c435c9e8
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name_1a383d31f33b3736ffbbc9f9960547f411
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1adfe906d03c71e37250d5c586979cf012
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1a1358cdd03690ed8a5a15cd04f67927c6
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1aa2cd7f0875a986f703a4a775003c55fe
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1af2fe3d9f9ac26ba7ab8366fa409304fe
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_network_1ac7a011465fb3d4c60b75d91d77f357a5
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface_1abb5ac79c1f468b90082b446456e15755
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1a7f3efdd8d94181fa65084415ef397c16
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
+  - com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a35e427e5635c0818b9968128d54a7421
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1ab7d26d816c3ce59775ab4dd9f6f10247
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a4f07f3cf0e1342af2437bbdd3b9ece50
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1a130ef19f50e39784d07a6c86aa43426e
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1a8ced5e8d3e43146cc9d30eb99f90cf5c
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1a2daacae6fdf21431da67b72a972c2f3b
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1a940470471980209cf2c63a810820a006
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1ad3203a722568ad6e506e1f16dce80737
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1a0989fd428c05a5f969016cf45efb84bd
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_network_1a674a1920d9efe9a2da5855a2d05bc79f
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_network_1a239fa5b83d27f701ebc5ff0d2ac59351
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface_1adca339edc0a00537b69757979cdb1fcf
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1acc62b413cf1e0195ec8e3ee07921d07c
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1a7c32464e0b2150db77bc34701d743ade
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1ac0491dca9d5e98beb962fcfdf37c324b
+  - com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a1c8735e3edb21fd1a780565c20ad5bcf
+  - com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a8e38a6fa931deeb416640498a1060cc7
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1ab9f7bfe964452629cca959e5881f49bd
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a6a6aa9bd205ddf33ff193d3de7b6020c
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a7740349b7a711ac8f5050ca8d70e1ce7
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a8d1d7088bed3d1d15d60bb2773a1aed1
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1ad60c45fc75c0f9f7e00c12c60a513434
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a4c33b81147f9f522000079de33748cf5
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1a673798df87c8cabb5a32dbccbe90a33f
+  - com.microsoft.azure.management.compute._virtual_machine._definition_password_1a64ef79099d3cc6f5cc531af81f8d07c8
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1abb27c3f8d00766d4a57ee1a9f3b2e0ed
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1acf097de2da7a3c8017b3e64c6e543391
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip_1aa9a541e6074617c0e8b2804065f78a9e
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip_1a5d337fe5d5ac85cd311b53b49df0fca8
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name_1ab0277b1bf31e6e787aaab59fe8c646e3
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size_1ae3f3d2f34bb4d2759f9059f3eefe66ae
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size_1a3b19f133bd12196f6939b70c5c7caedc
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a7449c80ecb218f78e5a1365b07fbd191
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a5633a907334de1036245a424542a77a1
+  - com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable_1a71faada9e114c8afed89a2c5785cfac7
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1aca87368493de8b4ebf50ab7264ec66f7
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a319051c2e39ebec3230a361708343705
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet_1a732dd767a31a918225db9cd75c433620
+  - com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a39165af582bf80312fe74ea3c730db37
+  - com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a44f951c243b9b8a4d0a344109c865084
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
+  parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  name: create()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Creatable< T >.create()
+  type: Method
+  summary: >-
+    <p>Execute the create request.</p>
+
+    <p></p>
+  syntax:
+    content: public T create()
+    return:
+      type: 8ce1ecb9
+      description: <p>the create resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
+  parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  name: createAsync(ServiceCallback< T > callback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.fluentcore.model.Creatable< T >.createAsync(ServiceCallback< T > callback)
+  type: Method
+  summary: >-
+    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createAsync(ServiceCallback< T > callback)
+    parameters:
+    - id: callback
+      type: com.microsoft.rest._service_callback34132889
+      description: <p>the callback to handle success and failure </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>a handle to cancel the request </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1acd354ca769b27d99bca4b9487d8ffeff
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk.yml
+  name: defineExistingDataDisk(String name)
+  fullName: DataDisk.DefinitionAttachExistingDataDisk<T> com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithDataDisk< T extends DefinitionCreatable >.defineExistingDataDisk(String name)
+  type: Method
+  summary: >-
+    <p>Specifies an existing VHD that needs to be attached to the virtual machine as data disk along with it's configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DataDisk.DefinitionAttachExistingDataDisk< T > defineExistingDataDisk(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name for the data disk </p>
+    return:
+      type: 68d763ec
+      description: <p>the stage representing configuration for the data disk </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1ab7ae09064f86a6a73e321258b786e40a
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk.yml
+  name: defineNewDataDisk(String name)
+  fullName: DataDisk.DefinitionAttachNewDataDisk<T> com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithDataDisk< T extends DefinitionCreatable >.defineNewDataDisk(String name)
+  type: Method
+  summary: >-
+    <p>Specifies a new blank data disk to be attached to the virtual machine along with it's configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DataDisk.DefinitionAttachNewDataDisk< T > defineNewDataDisk(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name for the data disk </p>
+    return:
+      type: 20673fb0
+      description: <p>the stage representing configuration for the data disk </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a60cbaf987430daf23f8420e388cb2752
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable.yml
+  name: disableAutoUpdate()
+  fullName: DefinitionWindowsCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWindowsCreatable.disableAutoUpdate()
+  type: Method
+  summary: >-
+    <p>Specifies that automatic updates should be disabled.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWindowsCreatable disableAutoUpdate()
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+      description: <p>the stage representing creatable Windows VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a50aab71101ac79abc9efab88c435c9e8
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable.yml
+  name: disableVmAgent()
+  fullName: DefinitionWindowsCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWindowsCreatable.disableVmAgent()
+  type: Method
+  summary: >-
+    <p>Specifies that VM Agent should not be provisioned.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWindowsCreatable disableVmAgent()
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+      description: <p>the stage representing creatable Windows VM definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  name: key()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name_1a383d31f33b3736ffbbc9f9960547f411
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name.yml
+  name: withAdminUserName(String adminUserName)
+  fullName: DefinitionWindowsCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithAdminUserName.withAdminUserName(String adminUserName)
+  type: Method
+  summary: >-
+    <p>Specifies the administrator user name for the Windows virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWindowsCreatable withAdminUserName(String adminUserName)
+    parameters:
+    - id: adminUserName
+      type: "26831127"
+      description: <p>the Windows administrator user name. This must follow the required naming convention for Windows user name. </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+      description: <p>the stage representing creatable Linux VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1adfe906d03c71e37250d5c586979cf012
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set.yml
+  name: withExistingAvailabilitySet(AvailabilitySet availabilitySet)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithAvailabilitySet< T extends DefinitionCreatable >.withExistingAvailabilitySet(AvailabilitySet availabilitySet)
+  type: Method
+  summary: >-
+    <p>Specifies an existing <xref href="com.microsoft.azure.management.compute._availability_set" data-throw-if-not-resolved="false"></xref> availability set to to associate the virtual machine with. </p>
+
+    <p>Adding virtual machines running your application to an availability set ensures that during maintenance event at least one virtual machine will be available.</p>
+
+    <p></p>
+  syntax:
+    content: public T withExistingAvailabilitySet(AvailabilitySet availabilitySet)
+    parameters:
+    - id: availabilitySet
+      type: com.microsoft.azure.management.compute._availability_set
+      description: <p>an existing availability set </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1a1358cdd03690ed8a5a15cd04f67927c6
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk.yml
+  name: withExistingDataDisk(String storageAccountName, String containerName, String vhdName)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithDataDisk< T extends DefinitionCreatable >.withExistingDataDisk(String storageAccountName, String containerName, String vhdName)
+  type: Method
+  summary: >-
+    <p>Specifies an existing VHD that needs to be attached to the virtual machine as data disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withExistingDataDisk(String storageAccountName, String containerName, String vhdName)
+    parameters:
+    - id: storageAccountName
+      type: "26831127"
+      description: <p>the storage account name </p>
+    - id: containerName
+      type: "26831127"
+      description: <p>the name of the container holding the VHD file </p>
+    - id: vhdName
+      type: "26831127"
+      description: <p>the name for the VHD file </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1aa2cd7f0875a986f703a4a775003c55fe
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
+  name: withExistingGroup(String groupName)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup< T >.withExistingGroup(String groupName)
+  type: Method
+  summary: <p>Associates the resources with an existing resource group. </p>
+  syntax:
+    content: public T withExistingGroup(String groupName)
+    parameters:
+    - id: groupName
+      type: "26831127"
+      description: <p>the name of an existing resource group to put this resource in. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1af2fe3d9f9ac26ba7ab8366fa409304fe
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
+  name: withExistingGroup(ResourceGroup group)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup< T >.withExistingGroup(ResourceGroup group)
+  type: Method
+  summary: <p>Associates the resources with an existing resource group. </p>
+  syntax:
+    content: public T withExistingGroup(ResourceGroup group)
+    parameters:
+    - id: group
+      type: com.microsoft.azure.management.resources._resource_group
+      description: <p>an existing resource group to put the resource in </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_network_1ac7a011465fb3d4c60b75d91d77f357a5
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_network
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_network.yml
+  name: withExistingPrimaryNetwork(Network network)
+  fullName: DefinitionWithSubnet com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithNetwork.withExistingPrimaryNetwork(Network network)
+  type: Method
+  summary: >-
+    <p>Associate an existing virtual network with the the virtual machine's primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithSubnet withExistingPrimaryNetwork(Network network)
+    parameters:
+    - id: network
+      type: com.microsoft.azure.management.network._network
+      description: <p>an existing virtual network </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface_1abb5ac79c1f468b90082b446456e15755
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface.yml
+  name: withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
+  fullName: DefinitionWithOS com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrimaryNetworkInterface.withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
+  type: Method
+  summary: >-
+    <p>Associate an existing network interface as the virtual machine with as it's primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithOS withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
+    parameters:
+    - id: networkInterface
+      type: com.microsoft.azure.management.network._network_interface
+      description: <p>an existing network interface </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+      description: <p>The next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1a7f3efdd8d94181fa65084415ef397c16
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address.yml
+  name: withExistingPrimaryPublicIpAddress(PublicIpAddress publicIpAddress)
+  fullName: DefinitionWithOS com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPublicIpAddress.withExistingPrimaryPublicIpAddress(PublicIpAddress publicIpAddress)
+  type: Method
+  summary: >-
+    <p>Associates an existing public IP address with the virtual machine's primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithOS withExistingPrimaryPublicIpAddress(PublicIpAddress publicIpAddress)
+    parameters:
+    - id: publicIpAddress
+      type: com.microsoft.azure.management.network._public_ip_address
+      description: <p>an existing public IP address </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface.yml
+  name: withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSecondaryNetworkInterface< T extends DefinitionCreatable >.withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+  type: Method
+  summary: >-
+    <p>Associate an existing network interface with the virtual machine.</p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public T withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
+    parameters:
+    - id: networkInterface
+      type: com.microsoft.azure.management.network._network_interface
+      description: <p>an existing network interface </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a35e427e5635c0818b9968128d54a7421
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account.yml
+  name: withExistingStorageAccount(StorageAccount storageAccount)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionStorageAccount< T extends DefinitionCreatable >.withExistingStorageAccount(StorageAccount storageAccount)
+  type: Method
+  summary: >-
+    <p>Specifies an existing <ref refid="" kindref="compound">StorageAccount</ref> storage account to put the VM's OS and data disk VHD in. </p>
+
+    <p>An OS disk based on marketplace or user image (generalized image) will be stored in this storage account.</p>
+
+    <p></p>
+  syntax:
+    content: public T withExistingStorageAccount(StorageAccount storageAccount)
+    parameters:
+    - id: storageAccount
+      type: com.microsoft.azure.management.storage._storage_account
+      description: <p>an existing storage account </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1ab7d26d816c3ce59775ab4dd9f6f10247
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withLatestLinuxImage(String publisher, String offer, String sku)
+  fullName: DefinitionWithRootUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withLatestLinuxImage(String publisher, String offer, String sku)
+  type: Method
+  summary: >-
+    <p>Specifies that the latest version of a marketplace Linux image needs to be used.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithRootUserName withLatestLinuxImage(String publisher, String offer, String sku)
+    parameters:
+    - id: publisher
+      type: "26831127"
+      description: <p>specifies the publisher of the image </p>
+    - id: offer
+      type: "26831127"
+      description: <p>specifies the offer of the image </p>
+    - id: sku
+      type: "26831127"
+      description: <p>specifies the SKU of the image </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a4f07f3cf0e1342af2437bbdd3b9ece50
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withLatestWindowsImage(String publisher, String offer, String sku)
+  fullName: DefinitionWithAdminUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withLatestWindowsImage(String publisher, String offer, String sku)
+  type: Method
+  summary: >-
+    <p>Specifies that the latest version of a marketplace Windows image needs to be used.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithAdminUserName withLatestWindowsImage(String publisher, String offer, String sku)
+    parameters:
+    - id: publisher
+      type: "26831127"
+      description: <p>specifies the publisher of the image </p>
+    - id: offer
+      type: "26831127"
+      description: <p>specifies the offer of the image </p>
+    - id: sku
+      type: "26831127"
+      description: <p>specifies the SKU of the image </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1a130ef19f50e39784d07a6c86aa43426e
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set.yml
+  name: withNewAvailabilitySet(String name)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithAvailabilitySet< T extends DefinitionCreatable >.withNewAvailabilitySet(String name)
+  type: Method
+  summary: >-
+    <p>Specifies the name of a new availability set to associate the virtual machine with. </p>
+
+    <p>Adding virtual machines running your application to an availability set ensures that during maintenance event at least one virtual machine will be available.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewAvailabilitySet(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the availability set </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1a8ced5e8d3e43146cc9d30eb99f90cf5c
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set.yml
+  name: withNewAvailabilitySet(AvailabilitySet.DefinitionCreatable creatable)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithAvailabilitySet< T extends DefinitionCreatable >.withNewAvailabilitySet(AvailabilitySet.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Specifies definition of a not-yet-created <xref href="com.microsoft.azure.management.compute._availability_set._definition_creatable" data-throw-if-not-resolved="false"></xref> availability set to associate the virtual machine with. </p>
+
+    <p>Adding virtual machines running your application to an availability set ensures that during maintenance event at least one virtual machine will be available.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewAvailabilitySet(AvailabilitySet.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 98b4da50
+      description: <p>the availability set in creatable stage </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk_1a2daacae6fdf21431da67b72a972c2f3b
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk.yml
+  name: withNewDataDisk(Integer sizeInGB)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithDataDisk< T extends DefinitionCreatable >.withNewDataDisk(Integer sizeInGB)
+  type: Method
+  summary: >-
+    <p>Specifies that a new blank data disk needs to be attached to virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewDataDisk(Integer sizeInGB)
+    parameters:
+    - id: sizeInGB
+      type: 08effaa0
+      description: <p>the disk size in GB </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1a940470471980209cf2c63a810820a006
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
+  name: withNewGroup(String name)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup< T >.withNewGroup(String name)
+  type: Method
+  summary: >-
+    <p>Creates a new resource group to put the resource in. </p>
+
+    <p>The group will be created in the same location as the resource. </p>
+  syntax:
+    content: public T withNewGroup(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the new group </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1ad3203a722568ad6e506e1f16dce80737
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
+  name: withNewGroup()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup< T >.withNewGroup()
+  type: Method
+  summary: >-
+    <p>Creates a new resource group to put the resource in. </p>
+
+    <p>The group will be created in the same location as the resource. The group's name is automatically derived from the resource's name. </p>
+  syntax:
+    content: public T withNewGroup()
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f_1a0989fd428c05a5f969016cf45efb84bd
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
+  name: withNewGroup(ResourceGroup.DefinitionCreatable groupDefinition)
+  fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup< T >.withNewGroup(ResourceGroup.DefinitionCreatable groupDefinition)
+  type: Method
+  summary: <p>Creates a new resource group to put the resource in, based on the definition specified. </p>
+  syntax:
+    content: public T withNewGroup(ResourceGroup.DefinitionCreatable groupDefinition)
+    parameters:
+    - id: groupDefinition
+      type: 701eb166
+      description: <p>a creatable definition for a new resource group </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_network_1a674a1920d9efe9a2da5855a2d05bc79f
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_network
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_network.yml
+  name: withNewPrimaryNetwork(Network.DefinitionCreatable creatable)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithNetwork.withNewPrimaryNetwork(Network.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Create a new virtual network to associate with the virtual machine's primary network interface, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withNewPrimaryNetwork(Network.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 37fc5788
+      description: <p>a creatable definition for a new virtual network </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_network_1a239fa5b83d27f701ebc5ff0d2ac59351
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_network
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_network.yml
+  name: withNewPrimaryNetwork(String addressSpace)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithNetwork.withNewPrimaryNetwork(String addressSpace)
+  type: Method
+  summary: >-
+    <p>Creates a new virtual network to associate with the virtual machine's primary network interface. </p>
+
+    <p>the virtual network will be created in the same resource group and region as of virtual machine, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withNewPrimaryNetwork(String addressSpace)
+    parameters:
+    - id: addressSpace
+      type: "26831127"
+      description: <p>the address space for the virtual network </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface_1adca339edc0a00537b69757979cdb1fcf
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface.yml
+  name: withNewPrimaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  fullName: DefinitionWithOS com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrimaryNetworkInterface.withNewPrimaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Create a new network interface to associate the virtual machine with as it's primary network interface, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithOS withNewPrimaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: fb7da1e0
+      description: <p>a creatable definition for a new network interface </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+      description: <p>The next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1acc62b413cf1e0195ec8e3ee07921d07c
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address.yml
+  name: withNewPrimaryPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  fullName: DefinitionWithOS com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPublicIpAddress.withNewPrimaryPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Create a new public IP address to associate with virtual machine primary network interface, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithOS withNewPrimaryPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 0d27d50c
+      description: <p>a creatable definition for a new public IP </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1a7c32464e0b2150db77bc34701d743ade
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address.yml
+  name: withNewPrimaryPublicIpAddress(String leafDnsLabel)
+  fullName: DefinitionWithOS com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPublicIpAddress.withNewPrimaryPublicIpAddress(String leafDnsLabel)
+  type: Method
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the virtual machine's primary network interface. </p>
+
+    <p>the internal name for the public IP address will be derived from the DNS label</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithOS withNewPrimaryPublicIpAddress(String leafDnsLabel)
+    parameters:
+    - id: leafDnsLabel
+      type: "26831127"
+      description: <p>the leaf domain label </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1ac0491dca9d5e98beb962fcfdf37c324b
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface.yml
+  name: withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSecondaryNetworkInterface< T extends DefinitionCreatable >.withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Create a new network interface to associate with the virtual machine, based on the provided definition.</p>
+
+    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewSecondaryNetworkInterface(NetworkInterface.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: fb7da1e0
+      description: <p>a creatable definition for a new network interface </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a1c8735e3edb21fd1a780565c20ad5bcf
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account.yml
+  name: withNewStorageAccount(String name)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionStorageAccount< T extends DefinitionCreatable >.withNewStorageAccount(String name)
+  type: Method
+  summary: >-
+    <p>Specifies the name of a new storage account to put the VM's OS and data disk VHD in. </p>
+
+    <p>Only the OS disk based on marketplace image will be stored in the new storage account, an OS disk based on user image will be stored in the same storage account as user image.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewStorageAccount(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the storage account </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a8e38a6fa931deeb416640498a1060cc7
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account.yml
+  name: withNewStorageAccount(StorageAccount.DefinitionCreatable creatable)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionStorageAccount< T extends DefinitionCreatable >.withNewStorageAccount(StorageAccount.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Specifies definition of a not-yet-created <ref refid="" kindref="compound">StorageAccount.DefinitionCreatable</ref> storage account to put the VM's OS and data disk VHD in. </p>
+
+    <p>Only the OS disk based on marketplace image will be stored in the new storage account, an OS disk based on user image will be stored in the same storage account as user image.</p>
+
+    <p></p>
+  syntax:
+    content: public T withNewStorageAccount(StorageAccount.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: ca3c7f08
+      description: <p>the storage account in creatable stage </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1ab9f7bfe964452629cca959e5881f49bd
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withOsDisk(String osDiskUrl, OperatingSystemTypes osType)
+  fullName: DefinitionCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withOsDisk(String osDiskUrl, OperatingSystemTypes osType)
+  type: Method
+  summary: >-
+    <p>Specifies the specialized operating system disk to be attached to the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withOsDisk(String osDiskUrl, OperatingSystemTypes osType)
+    parameters:
+    - id: osDiskUrl
+      type: "26831127"
+      description: <p>the url to the OS disk in the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Storage account </p>
+    - id: osType
+      type: com.microsoft.azure.management.compute.implementation.api._operating_system_types
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
+      description: <p>the next stage of the Windows virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a6a6aa9bd205ddf33ff193d3de7b6020c
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  name: withOsDiskCaching(CachingTypes cachingType)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskCaching(CachingTypes cachingType)
+  type: Method
+  summary: >-
+    <p>Specifies the caching type for the Operating System disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskCaching(CachingTypes cachingType)
+    parameters:
+    - id: cachingType
+      type: com.microsoft.azure.management.compute.implementation.api._caching_types
+      description: <p>the caching type. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a7740349b7a711ac8f5050ca8d70e1ce7
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  name: withOsDiskEncryptionSettings(DiskEncryptionSettings settings)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskEncryptionSettings(DiskEncryptionSettings settings)
+  type: Method
+  summary: >-
+    <p>Specifies the encryption settings for the OS Disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskEncryptionSettings(DiskEncryptionSettings settings)
+    parameters:
+    - id: settings
+      type: com.microsoft.azure.management.compute.implementation.api._disk_encryption_settings
+      description: <p>the encryption settings. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a8d1d7088bed3d1d15d60bb2773a1aed1
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  name: withOsDiskName(String name)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskName(String name)
+  type: Method
+  summary: >-
+    <p>Specifies the name for the OS Disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the OS Disk name. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1ad60c45fc75c0f9f7e00c12c60a513434
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  name: withOsDiskSizeInGb(Integer size)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskSizeInGb(Integer size)
+  type: Method
+  summary: >-
+    <p>Specifies the size of the OSDisk in GB.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskSizeInGb(Integer size)
+    parameters:
+    - id: size
+      type: 08effaa0
+      description: <p>the VHD size. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a4c33b81147f9f522000079de33748cf5
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  name: withOsDiskVhdLocation(String containerName, String vhdName)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskVhdLocation(String containerName, String vhdName)
+  type: Method
+  summary: >-
+    <p>Specifies the name of the OS Disk Vhd file and it's parent container.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskVhdLocation(String containerName, String vhdName)
+    parameters:
+    - id: containerName
+      type: "26831127"
+      description: <p>the name of the container in the selected storage account. </p>
+    - id: vhdName
+      type: "26831127"
+      description: <p>the name for the OS Disk vhd. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address_1a673798df87c8cabb5a32dbccbe90a33f
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address.yml
+  name: withoutPrimaryPublicIpAddress()
+  fullName: DefinitionWithOS com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPublicIpAddress.withoutPrimaryPublicIpAddress()
+  type: Method
+  summary: >-
+    <p>Specifies that no public Ip needs to be associated with virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithOS withoutPrimaryPublicIpAddress()
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_password_1a64ef79099d3cc6f5cc531af81f8d07c8
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_password
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_password.yml
+  name: withPassword(String password)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionPassword< T extends DefinitionCreatable >.withPassword(String password)
+  type: Method
+  summary: >-
+    <p>Specifies the password for the virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public T withPassword(String password)
+    parameters:
+    - id: password
+      type: "26831127"
+      description: <p>the password. This must follow the criteria for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> VM password. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1abb27c3f8d00766d4a57ee1a9f3b2e0ed
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
+  fullName: DefinitionWithRootUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
+  type: Method
+  summary: >-
+    <p>Specifies the known marketplace Linux image used for the virtual machine's OS.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithRootUserName withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
+    parameters:
+    - id: knownImage
+      type: com.microsoft.azure.management.compute._known_linux_virtual_machine_image
+      description: <p>enum value indicating known market-place image </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1acf097de2da7a3c8017b3e64c6e543391
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
+  fullName: DefinitionWithAdminUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
+  type: Method
+  summary: >-
+    <p>Specifies the known marketplace Windows image used for the virtual machine's OS.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithAdminUserName withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
+    parameters:
+    - id: knownImage
+      type: com.microsoft.azure.management.compute._known_windows_virtual_machine_image
+      description: <p>enum value indicating known market-place image </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip_1aa9a541e6074617c0e8b2804065f78a9e
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip.yml
+  name: withPrimaryPrivateIpAddressDynamic()
+  fullName: DefinitionWithPublicIpAddress com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrivateIp.withPrimaryPrivateIpAddressDynamic()
+  type: Method
+  summary: >-
+    <p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for virtual machine's primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPublicIpAddress withPrimaryPrivateIpAddressDynamic()
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip_1a5d337fe5d5ac85cd311b53b49df0fca8
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip.yml
+  name: withPrimaryPrivateIpAddressStatic(String staticPrivateIpAddress)
+  fullName: DefinitionWithPublicIpAddress com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrivateIp.withPrimaryPrivateIpAddressStatic(String staticPrivateIpAddress)
+  type: Method
+  summary: >-
+    <p>Assigns the specified static private IP address within the specified existing virtual network subnet to the virtual machine's primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPublicIpAddress withPrimaryPrivateIpAddressStatic(String staticPrivateIpAddress)
+    parameters:
+    - id: staticPrivateIpAddress
+      type: "26831127"
+      description: <p>the static IP address within the specified subnet to assign to the network interface </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name_1ab0277b1bf31e6e787aaab59fe8c646e3
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name.yml
+  name: withRootUserName(String rootUserName)
+  fullName: DefinitionLinuxCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithRootUserName.withRootUserName(String rootUserName)
+  type: Method
+  summary: >-
+    <p>Specifies the root user name for the Linux virtual machine.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionLinuxCreatable withRootUserName(String rootUserName)
+    parameters:
+    - id: rootUserName
+      type: "26831127"
+      description: <p>the Linux root user name. This must follow the required naming convention for Linux user name </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable
+      description: <p>the next stage of the Linux virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size_1ae3f3d2f34bb4d2759f9059f3eefe66ae
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size.yml
+  name: withSize(String sizeName)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithVMSize< T extends DefinitionCreatable >.withSize(String sizeName)
+  type: Method
+  summary: >-
+    <p>Specifies the virtual machine size.</p>
+
+    <p></p>
+  syntax:
+    content: public T withSize(String sizeName)
+    parameters:
+    - id: sizeName
+      type: "26831127"
+      description: <p>the name of the size for the virtual machine as text </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size_1a3b19f133bd12196f6939b70c5c7caedc
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size.yml
+  name: withSize(VirtualMachineSizeTypes size)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithVMSize< T extends DefinitionCreatable >.withSize(VirtualMachineSizeTypes size)
+  type: Method
+  summary: >-
+    <p>Specifies the virtual machine size.</p>
+
+    <p></p>
+  syntax:
+    content: public T withSize(VirtualMachineSizeTypes size)
+    parameters:
+    - id: size
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_types
+      description: <p>a size from the list of available sizes for the virtual machine </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a7449c80ecb218f78e5a1365b07fbd191
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withSpecificLinuxImageVersion(ImageReference imageReference)
+  fullName: DefinitionWithRootUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withSpecificLinuxImageVersion(ImageReference imageReference)
+  type: Method
+  summary: >-
+    <p>Specifies the version of a market-place Linux image needs to be used.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithRootUserName withSpecificLinuxImageVersion(ImageReference imageReference)
+    parameters:
+    - id: imageReference
+      type: com.microsoft.azure.management.compute.implementation.api._image_reference
+      description: <p>describes publisher, offer, sku and version of the market-place image </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a5633a907334de1036245a424542a77a1
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withSpecificWindowsImageVersion(ImageReference imageReference)
+  fullName: DefinitionWithAdminUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withSpecificWindowsImageVersion(ImageReference imageReference)
+  type: Method
+  summary: >-
+    <p>Specifies the version of a marketplace Windows image needs to be used.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithAdminUserName withSpecificWindowsImageVersion(ImageReference imageReference)
+    parameters:
+    - id: imageReference
+      type: com.microsoft.azure.management.compute.implementation.api._image_reference
+      description: <p>describes publisher, offer, sku and version of the market-place image </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable_1a71faada9e114c8afed89a2c5785cfac7
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable.yml
+  name: withSsh(String publicKey)
+  fullName: DefinitionLinuxCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionLinuxCreatable.withSsh(String publicKey)
+  type: Method
+  summary: >-
+    <p>Specifies the SSH public key. </p>
+
+    <p>each call to this method adds the given public key to the list of VM's public keys.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionLinuxCreatable withSsh(String publicKey)
+    parameters:
+    - id: publicKey
+      type: "26831127"
+      description: <p>the SSH public key in PEM format. </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable
+      description: <p>the stage representing creatable Linux VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1aca87368493de8b4ebf50ab7264ec66f7
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withStoredLinuxImage(String imageUrl)
+  fullName: DefinitionWithRootUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withStoredLinuxImage(String imageUrl)
+  type: Method
+  summary: >-
+    <p>Specifies the user (generalized) Linux image used for the virtual machine's OS.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithRootUserName withStoredLinuxImage(String imageUrl)
+    parameters:
+    - id: imageUrl
+      type: "26831127"
+      description: <p>the url the the VHD </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s_1a319051c2e39ebec3230a361708343705
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: withStoredWindowsImage(String imageUrl)
+  fullName: DefinitionWithAdminUserName com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS.withStoredWindowsImage(String imageUrl)
+  type: Method
+  summary: >-
+    <p>Specifies the user (generalized) Windows image used for the virtual machine's OS.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithAdminUserName withStoredWindowsImage(String imageUrl)
+    parameters:
+    - id: imageUrl
+      type: "26831127"
+      description: <p>the url the the VHD </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet_1a732dd767a31a918225db9cd75c433620
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet.yml
+  name: withSubnet(String name)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSubnet.withSubnet(String name)
+  type: Method
+  summary: >-
+    <p>Associate a subnet with the virtual machine primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withSubnet(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the subnet name </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+      description: <p>the next stage of the virtual machine definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a39165af582bf80312fe74ea3c730db37
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable.yml
+  name: withTimeZone(String timeZone)
+  fullName: DefinitionWindowsCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWindowsCreatable.withTimeZone(String timeZone)
+  type: Method
+  summary: >-
+    <p>Specifies the time-zone.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWindowsCreatable withTimeZone(String timeZone)
+    parameters:
+    - id: timeZone
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+      description: <p>the stage representing creatable Windows VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable_1a44f951c243b9b8a4d0a344109c865084
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable.yml
+  name: withWinRm(WinRMListener listener)
+  fullName: DefinitionWindowsCreatable com.microsoft.azure.management.compute.VirtualMachine.DefinitionWindowsCreatable.withWinRm(WinRMListener listener)
+  type: Method
+  summary: >-
+    <p>Specifies the WINRM listener. </p>
+
+    <p>Each call to this method adds the given listener to the list of VM's WinRM listeners.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWindowsCreatable withWinRm(WinRMListener listener)
+    parameters:
+    - id: listener
+      type: com.microsoft.azure.management.compute.implementation.api._win_r_m_listener
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+      description: <p>the stage representing creatable Windows VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_blank
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_blank.yml
+  name: VirtualMachine.DefinitionBlank
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of a virtual machine definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_group
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_group.yml
+  name: VirtualMachine.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_network
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_network.yml
+  name: VirtualMachine.DefinitionWithNetwork
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithNetwork
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify virtual network for the new primary network interface or to use a creatable or existing network interface. </p>
+  syntax:
+    content: public interface DefinitionWithNetwork
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet.yml
+  name: VirtualMachine.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSubnet
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify virtual network subnet for the new primary network interface. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip.yml
+  name: VirtualMachine.DefinitionWithPrivateIp
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrivateIp
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify private IP address within a virtual network subnet. </p>
+  syntax:
+    content: public interface DefinitionWithPrivateIp
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_public_ip_address.yml
+  name: VirtualMachine.DefinitionWithPublicIpAddress
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPublicIpAddress
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to associate public IP address with it's primary network interface. </p>
+  syntax:
+    content: public interface DefinitionWithPublicIpAddress
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface.yml
+  name: VirtualMachine.DefinitionWithPrimaryNetworkInterface
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrimaryNetworkInterface
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify the primary network interface. </p>
+  syntax:
+    content: public interface DefinitionWithPrimaryNetworkInterface
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
+  name: VirtualMachine.DefinitionWithOS
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithOS
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify the Operation System image. </p>
+  syntax:
+    content: public interface DefinitionWithOS
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_root_user_name.yml
+  name: VirtualMachine.DefinitionWithRootUserName
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithRootUserName
+  type: Interface
+  summary: <p>The stage of the Linux virtual machine definition allowing to specify root user name. </p>
+  syntax:
+    content: public interface DefinitionWithRootUserName
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_admin_user_name.yml
+  name: VirtualMachine.DefinitionWithAdminUserName
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithAdminUserName
+  type: Interface
+  summary: <p>The stage of the Windows virtual machine definition allowing to specify administrator user name. </p>
+  syntax:
+    content: public interface DefinitionWithAdminUserName
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable.yml
+  name: VirtualMachine.DefinitionLinuxCreatable
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionLinuxCreatable
+  type: Interface
+  summary: <p>The stage of the Linux virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionLinuxCreatable
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable.yml
+  name: VirtualMachine.DefinitionWindowsCreatable
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWindowsCreatable
+  type: Interface
+  summary: <p>The stage of the Windows virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>, but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionWindowsCreatable
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_creatable.yml
+  name: VirtualMachine.DefinitionCreatable
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_impl

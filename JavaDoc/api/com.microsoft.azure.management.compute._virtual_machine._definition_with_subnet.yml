@@ -1,0 +1,73 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet
+  id: _definition_with_subnet
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet_1a732dd767a31a918225db9cd75c433620
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet.yml
+  langs:
+  - java
+  name: VirtualMachine.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSubnet
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 330
+  package: com.microsoft.azure.management.compute
+  summary: <p>The stage of the virtual machine definition allowing to specify virtual network subnet for the new primary network interface. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet_1a732dd767a31a918225db9cd75c433620
+  id: _definition_with_subnet_1a732dd767a31a918225db9cd75c433620
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet.yml
+  langs:
+  - java
+  name: withSubnet(String name)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithSubnet.withSubnet(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 337
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Associate a subnet with the virtual machine primary network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withSubnet(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the subnet name </p>
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+      description: <p>the next stage of the virtual machine definition </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute._virtual_machine._definitions
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definitions.yml
+  name: VirtualMachine.Definitions
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip.yml
+  name: VirtualMachine.DefinitionWithPrivateIp
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionWithPrivateIp
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify private IP address within a virtual network subnet. </p>
+  syntax:
+    content: public interface DefinitionWithPrivateIp

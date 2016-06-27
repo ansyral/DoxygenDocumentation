@@ -1,0 +1,160 @@
+items:
+- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+  id: _update_with_custom_domain
+  parent: com.microsoft.azure.management.storage
+  children:
+  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1ada45d24f4121ed20a1f4a64216d70ddc
+  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a023e7b521600e41c28f127228c0e2987
+  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a022e6930ce7a4bf8473e856962f07c99
+  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a0de10a1de742bf030f232d81e8e20f8f
+  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+  langs:
+  - java
+  name: StorageAccount.UpdateWithCustomDomain
+  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
+    startLine: 276
+  package: com.microsoft.azure.management.storage
+  summary: <p>A storageaccount update allowing to change the parameters. </p>
+  syntax:
+    content: public interface UpdateWithCustomDomain
+- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1ada45d24f4121ed20a1f4a64216d70ddc
+  id: _update_with_custom_domain_1ada45d24f4121ed20a1f4a64216d70ddc
+  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+  langs:
+  - java
+  name: withCustomDomain(CustomDomain customDomain)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withCustomDomain(CustomDomain customDomain)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
+    startLine: 286
+  package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Specifies the user domain assigned to the storage account. Name is the CNAME source. Only one custom domain is supported per storage account at this time. To clear the existing custom domain, use an empty string for the custom domain name property.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withCustomDomain(CustomDomain customDomain)
+    parameters:
+    - id: customDomain
+      type: com.microsoft.azure.management.storage.implementation.api._custom_domain
+      description: <p>the user domain assigned to the storage account </p>
+    return:
+      type: com.microsoft.azure.management.storage._storage_account._update
+      description: <p>the next stage of storage account update </p>
+- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a023e7b521600e41c28f127228c0e2987
+  id: _update_with_custom_domain_1a023e7b521600e41c28f127228c0e2987
+  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+  langs:
+  - java
+  name: withCustomDomain(String name)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withCustomDomain(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
+    startLine: 297
+  package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Specifies the user domain assigned to the storage account. Name is the CNAME source. Only one custom domain is supported per storage account at this time. To clear the existing custom domain, use an empty string for the custom domain name property.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withCustomDomain(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the custom domain name, which is the CNAME source </p>
+    return:
+      type: com.microsoft.azure.management.storage._storage_account._update
+      description: <p>the next stage of storage account update </p>
+- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a022e6930ce7a4bf8473e856962f07c99
+  id: _update_with_custom_domain_1a022e6930ce7a4bf8473e856962f07c99
+  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+  langs:
+  - java
+  name: withCustomDomain(String name, boolean useSubDomain)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
+    startLine: 309
+  package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Specifies the user domain assigned to the storage account. Name is the CNAME source. Only one custom domain is supported per storage account at this time. To clear the existing custom domain, use an empty string for the custom domain name property.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withCustomDomain(String name, boolean useSubDomain)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the custom domain name, which is the CNAME source </p>
+    - id: useSubDomain
+      type: 4fc6e284
+      description: <p>whether indirect CName validation is enabled </p>
+    return:
+      type: com.microsoft.azure.management.storage._storage_account._update
+      description: <p>the next stage of storage account update </p>
+- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a0de10a1de742bf030f232d81e8e20f8f
+  id: _update_with_custom_domain_1a0de10a1de742bf030f232d81e8e20f8f
+  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+  langs:
+  - java
+  name: withoutCustomDomain()
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withoutCustomDomain()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
+    startLine: 316
+  package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Clears the existing user domain assigned to the storage account.</p>
+
+    <p></p>
+  syntax:
+    content: public Update withoutCustomDomain()
+    return:
+      type: com.microsoft.azure.management.storage._storage_account._update
+      description: <p>the next stage of storage account update </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
+- uid: com.microsoft.azure.management.storage._storage_account._update
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._storage_account._update.yml
+  name: StorageAccount.Update
+  fullName: com.microsoft.azure.management.storage.StorageAccount.Update
+  type: Interface
+  summary: <p>The template for a storage account update operation, containing all the settings that can be modified. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  name: CustomDomain
+  fullName: com.microsoft.azure.management.storage.implementation.api.CustomDomain
+  type: Class
+  summary: <p>The custom domain assigned to this storage account. This can be set via Update. </p>
+  syntax:
+    content: public class CustomDomain

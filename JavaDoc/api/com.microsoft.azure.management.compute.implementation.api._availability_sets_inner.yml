@@ -1,0 +1,591 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  id: _availability_sets_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a2cfe5020911bfb47edc1c3444b42fd93
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a8537f23a958fac3d8f15019b99b374bf
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1abc5e7e77f0646ad58d150a55587a5519
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a97a0d6184a1aa69c31d27692f41aeed6
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a535cb95e4ed6c98e6ddd6d7590eb5ff8
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a51638f14bc75155e71dea091f7cfe129
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a4aaa82936aed785825bf505bd745d758
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a7a3f8facc39fbaaa14ea0089be6dca1c
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a73978a1879efdaf7b483b72bbf5deee6
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1ac40cf32aee61595ba45d0a64228b8444
+  - com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a43133d37590f0e0cc1650ae0755b5cc4
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: AvailabilitySetsInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 35
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.compute._availability_sets" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class AvailabilitySetsInner
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a2cfe5020911bfb47edc1c3444b42fd93
+  id: _availability_sets_inner_1a2cfe5020911bfb47edc1c3444b42fd93
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: AvailabilitySetsInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.AvailabilitySetsInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 47
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.compute.implementation.api._availability_sets_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public AvailabilitySetsInner(Retrofit retrofit, ComputeManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a8537f23a958fac3d8f15019b99b374bf
+  id: _availability_sets_inner_1a8537f23a958fac3d8f15019b99b374bf
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String name, AvailabilitySetInner parameters)
+  fullName: ServiceResponse<AvailabilitySetInner> com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.createOrUpdate(String resourceGroupName, String name, AvailabilitySetInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 90
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to create or update the availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< AvailabilitySetInner > createOrUpdate(String resourceGroupName, String name, AvailabilitySetInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: name
+      type: "26831127"
+      description: <p>Parameters supplied to the Create Availability Set operation. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+      description: <p>Parameters supplied to the Create Availability Set operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._availability_set_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1abc5e7e77f0646ad58d150a55587a5519
+  id: _availability_sets_inner_1abc5e7e77f0646ad58d150a55587a5519
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String name, AvailabilitySetInner parameters, final ServiceCallback< AvailabilitySetInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.createOrUpdateAsync(String resourceGroupName, String name, AvailabilitySetInner parameters, final ServiceCallback< AvailabilitySetInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 121
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to create or update the availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String name, AvailabilitySetInner parameters, final ServiceCallback< AvailabilitySetInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: name
+      type: "26831127"
+      description: <p>Parameters supplied to the Create Availability Set operation. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+      description: <p>Parameters supplied to the Create Availability Set operation. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a97a0d6184a1aa69c31d27692f41aeed6
+  id: _availability_sets_inner_1a97a0d6184a1aa69c31d27692f41aeed6
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String availabilitySetName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.delete(String resourceGroupName, String availabilitySetName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 178
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to delete the availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String availabilitySetName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: availabilitySetName
+      type: "26831127"
+      description: <p>The name of the availability set. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a535cb95e4ed6c98e6ddd6d7590eb5ff8
+  id: _availability_sets_inner_1a535cb95e4ed6c98e6ddd6d7590eb5ff8
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.deleteAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 204
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to delete the availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: availabilitySetName
+      type: "26831127"
+      description: <p>The name of the availability set. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a51638f14bc75155e71dea091f7cfe129
+  id: _availability_sets_inner_1a51638f14bc75155e71dea091f7cfe129
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String availabilitySetName)
+  fullName: ServiceResponse<AvailabilitySetInner> com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.get(String resourceGroupName, String availabilitySetName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 256
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to get the availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< AvailabilitySetInner > get(String resourceGroupName, String availabilitySetName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: availabilitySetName
+      type: "26831127"
+      description: <p>The name of the availability set. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._availability_set_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a4aaa82936aed785825bf505bd745d758
+  id: _availability_sets_inner_1a4aaa82936aed785825bf505bd745d758
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< AvailabilitySetInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.getAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< AvailabilitySetInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 282
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to get the availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< AvailabilitySetInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: availabilitySetName
+      type: "26831127"
+      description: <p>The name of the availability set. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a7a3f8facc39fbaaa14ea0089be6dca1c
+  id: _availability_sets_inner_1a7a3f8facc39fbaaa14ea0089be6dca1c
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: list(String resourceGroupName)
+  fullName: ServiceResponse<List<AvailabilitySetInner> > com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.list(String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 333
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to list the availability sets.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< AvailabilitySetInner > > list(String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._availability_set_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._availability_set_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a73978a1879efdaf7b483b72bbf5deee6
+  id: _availability_sets_inner_1a73978a1879efdaf7b483b72bbf5deee6
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: listAsync(String resourceGroupName, final ServiceCallback< List< AvailabilitySetInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.listAsync(String resourceGroupName, final ServiceCallback< List< AvailabilitySetInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 357
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to list the availability sets.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(String resourceGroupName, final ServiceCallback< List< AvailabilitySetInner >> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._availability_set_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1ac40cf32aee61595ba45d0a64228b8444
+  id: _availability_sets_inner_1ac40cf32aee61595ba45d0a64228b8444
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: listAvailableSizes(String resourceGroupName, String availabilitySetName)
+  fullName: ServiceResponse<List<VirtualMachineSizeInner> > com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.listAvailableSizes(String resourceGroupName, String availabilitySetName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 406
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Lists all available virtual machine sizes that can be used to create a new virtual machine in an existing availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< VirtualMachineSizeInner > > listAvailableSizes(String resourceGroupName, String availabilitySetName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: availabilitySetName
+      type: "26831127"
+      description: <p>The name of the availability set. </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a43133d37590f0e0cc1650ae0755b5cc4
+  id: _availability_sets_inner_1a43133d37590f0e0cc1650ae0755b5cc4
+  parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  langs:
+  - java
+  name: listAvailableSizesAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< List< VirtualMachineSizeInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.listAvailableSizesAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< List< VirtualMachineSizeInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
+    startLine: 434
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Lists all available virtual machine sizes that can be used to create a new virtual machine in an existing availability set.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAvailableSizesAsync(String resourceGroupName, String availabilitySetName, final ServiceCallback< List< VirtualMachineSizeInner >> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: availabilitySetName
+      type: "26831127"
+      description: <p>The name of the availability set. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+    name: AvailabilitySetInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetInner
+    href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+    name: AvailabilitySetInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetInner
+    href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._availability_set_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+    name: AvailabilitySetInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetInner
+    href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._availability_set_innerc8b8729b
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+    name: AvailabilitySetInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetInner
+    href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
+  - name: ' >>'
+    fullName: ' >>'
+- uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner
+    name: VirtualMachineSizeInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineSizeInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerc8b8729b
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner
+    name: VirtualMachineSizeInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineSizeInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
+  - name: ' >>'
+    fullName: ' >>'
+- uid: com.microsoft.azure.management.compute.implementation.api._availab24410eef2bf8814e345f09c312d30fd4
+- uid: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl.yml
+  name: ComputeManagementClientImpl
+  fullName: com.microsoft.azure.management.compute.implementation.api.ComputeManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class ComputeManagementClientImpl
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
+  name: AvailabilitySetsInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.compute._availability_sets" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
+  name: AvailabilitySetInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetInner
+  type: Class
+  summary: <p>Create or update Availability Set parameters. </p>
+  syntax:
+    content: public class AvailabilitySetInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
+  name: VirtualMachineSizeInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineSizeInner
+  type: Class
+  summary: <p>Describes the properties of a VM size. </p>
+  syntax:
+    content: public class VirtualMachineSizeInner
+- uid: com.microsoft.azure.management.compute.implementation.api._page_impl
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.compute._availability_sets
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._availability_sets.yml
+  name: AvailabilitySets
+  fullName: com.microsoft.azure.management.compute.AvailabilitySets
+  type: Interface
+  summary: <p>Entry point to availability set management API. </p>
+  syntax:
+    content: public interface AvailabilitySets

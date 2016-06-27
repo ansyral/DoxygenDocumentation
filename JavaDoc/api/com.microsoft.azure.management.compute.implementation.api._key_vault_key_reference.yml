@@ -1,0 +1,148 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+  id: _key_vault_key_reference
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a286c5ad290ac6e2af718cd1b70c9dc66
+  - com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a4ed563cabf71c159bab53884b70f94a1
+  - com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a5ad136896a23f95d34ff387bd84c1ec4
+  - com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a15e5e1fa165d87cb8e6399ab238e1c2a
+  href: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference.yml
+  langs:
+  - java
+  name: KeyVaultKeyReference
+  fullName: com.microsoft.azure.management.compute.implementation.api.KeyVaultKeyReference
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/KeyVaultKeyReference.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/KeyVaultKeyReference.java
+    startLine: 14
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Describes a reference to Key Vault Key. </p>
+  syntax: &o1
+    content: public class KeyVaultKeyReference
+- uid: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a286c5ad290ac6e2af718cd1b70c9dc66
+  id: _key_vault_key_reference_1a286c5ad290ac6e2af718cd1b70c9dc66
+  parent: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+  href: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference.yml
+  langs:
+  - java
+  name: keyUrl()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.KeyVaultKeyReference.keyUrl()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/KeyVaultKeyReference.java
+    startLine: 32
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the keyUrl value.</p>
+
+    <p></p>
+  syntax:
+    content: public String keyUrl()
+    return:
+      type: "26831127"
+      description: <p>the keyUrl value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a4ed563cabf71c159bab53884b70f94a1
+  id: _key_vault_key_reference_1a4ed563cabf71c159bab53884b70f94a1
+  parent: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+  href: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference.yml
+  langs:
+  - java
+  name: sourceVault()
+  fullName: SubResource com.microsoft.azure.management.compute.implementation.api.KeyVaultKeyReference.sourceVault()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/KeyVaultKeyReference.java
+    startLine: 52
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the sourceVault value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubResource sourceVault()
+    return:
+      type: com.microsoft.azure._sub_resource
+      description: <p>the sourceVault value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a5ad136896a23f95d34ff387bd84c1ec4
+  id: _key_vault_key_reference_1a5ad136896a23f95d34ff387bd84c1ec4
+  parent: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+  href: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference.yml
+  langs:
+  - java
+  name: withKeyUrl(String keyUrl)
+  fullName: KeyVaultKeyReference com.microsoft.azure.management.compute.implementation.api.KeyVaultKeyReference.withKeyUrl(String keyUrl)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/KeyVaultKeyReference.java
+    startLine: 42
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the keyUrl value.</p>
+
+    <p></p>
+  syntax:
+    content: public KeyVaultKeyReference withKeyUrl(String keyUrl)
+    parameters:
+    - id: keyUrl
+      type: "26831127"
+      description: <p>the keyUrl value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference_1a15e5e1fa165d87cb8e6399ab238e1c2a
+  id: _key_vault_key_reference_1a15e5e1fa165d87cb8e6399ab238e1c2a
+  parent: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+  href: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference.yml
+  langs:
+  - java
+  name: withSourceVault(SubResource sourceVault)
+  fullName: KeyVaultKeyReference com.microsoft.azure.management.compute.implementation.api.KeyVaultKeyReference.withSourceVault(SubResource sourceVault)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/KeyVaultKeyReference.java
+    startLine: 62
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the sourceVault value.</p>
+
+    <p></p>
+  syntax:
+    content: public KeyVaultKeyReference withSourceVault(SubResource sourceVault)
+    parameters:
+    - id: sourceVault
+      type: com.microsoft.azure._sub_resource
+      description: <p>the sourceVault value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure._sub_resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._sub_resource.yml
+  name: SubResource
+  fullName: com.microsoft.azure.SubResource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._sub_resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class SubResource
+- uid: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._key_vault_key_reference.yml
+  name: KeyVaultKeyReference
+  fullName: com.microsoft.azure.management.compute.implementation.api.KeyVaultKeyReference
+  type: Class
+  summary: <p>Describes a reference to Key Vault Key. </p>
+  syntax: *o1

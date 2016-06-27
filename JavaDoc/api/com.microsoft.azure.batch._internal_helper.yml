@@ -1,0 +1,70 @@
+items:
+- uid: com.microsoft.azure.batch._internal_helper
+  id: _internal_helper
+  parent: com.microsoft.azure.batch
+  children:
+  - com.microsoft.azure.batch._internal_helper_1adab77016e3fd3c3022de6d8339501c45
+  href: com.microsoft.azure.batch._internal_helper.yml
+  langs:
+  - java
+  name: InternalHelper
+  fullName: com.microsoft.azure.batch.InternalHelper
+  type: Class
+  source:
+    remote: &o0
+      path: azure-batch/src/main/java/com/microsoft/azure/batch/InternalHelper.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/InternalHelper.java
+    startLine: 11
+  package: com.microsoft.azure.batch
+  syntax:
+    content: class InternalHelper
+- uid: com.microsoft.azure.batch._internal_helper_1adab77016e3fd3c3022de6d8339501c45
+  id: _internal_helper_1adab77016e3fd3c3022de6d8339501c45
+  parent: com.microsoft.azure.batch._internal_helper
+  href: com.microsoft.azure.batch._internal_helper.yml
+  langs:
+  - java
+  name: InheritClientBehaviorsAndSetPublicProperty(IInheritedBehaviors inheritingObject, Iterable< BatchClientBehavior > baseBehaviors)
+  fullName: static void com.microsoft.azure.batch.InternalHelper.InheritClientBehaviorsAndSetPublicProperty(IInheritedBehaviors inheritingObject, Iterable< BatchClientBehavior > baseBehaviors)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/InternalHelper.java
+    startLine: 12
+  package: com.microsoft.azure.batch
+  syntax:
+    content: public static void InheritClientBehaviorsAndSetPublicProperty(IInheritedBehaviors inheritingObject, Iterable< BatchClientBehavior > baseBehaviors)
+    parameters:
+    - id: inheritingObject
+      type: com.microsoft.azure.batch._i_inherited_behaviors
+    - id: baseBehaviors
+      type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
+references:
+- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
+  spec.java:
+  - name: 'Iterable< '
+    fullName: 'Iterable< '
+  - uid: com.microsoft.azure.batch._batch_client_behavior
+    name: BatchClientBehavior
+    fullName: com.microsoft.azure.batch.BatchClientBehavior
+    href: com.microsoft.azure.batch._batch_client_behavior.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.batch._i_inherited_behaviors
+  parent: com.microsoft.azure.batch
+  href: com.microsoft.azure.batch._i_inherited_behaviors.yml
+  name: IInheritedBehaviors
+  fullName: com.microsoft.azure.batch.IInheritedBehaviors
+  type: Interface
+  syntax:
+    content: public interface IInheritedBehaviors
+- uid: com.microsoft.azure.batch._batch_client_behavior
+  parent: com.microsoft.azure.batch
+  href: com.microsoft.azure.batch._batch_client_behavior.yml
+  name: BatchClientBehavior
+  fullName: com.microsoft.azure.batch.BatchClientBehavior
+  type: Class
+  syntax:
+    content: public class BatchClientBehavior

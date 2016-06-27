@@ -1,0 +1,260 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+  id: _virtual779e3ca22d80f87af5e535e85f55c1bd
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a7239eb80422acfa07fa2d712480bbc99
+  - com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a7f36666394ed163604af87f5456975a9
+  - com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a5a11aadfcaf6ca88f6212c1a80bb8def
+  - com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a8aa4897f143acdf5f3c52d0a0f212b44
+  - com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a111fa51de97ef49dbc9aa75f9e4ea65d
+  href: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd.yml
+  langs:
+  - java
+  name: VirtualMachineImagesInner.VirtualMachineImagesService
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: 'The interface defining all the services for VirtualMachineImages to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface VirtualMachineImagesInner.VirtualMachineImagesService
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a7239eb80422acfa07fa2d712480bbc99
+  id: _virtual779e3ca22d80f87af5e535e85f55c1bd_1a7239eb80422acfa07fa2d712480bbc99
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+  href: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd.yml
+  langs:
+  - java
+  name: get(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("skus") String skus,@Path("version") String version,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesService.get(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("skus") String skus,@Path("version") String version,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 55
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("skus") String skus,@Path("version") String version,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: location
+      type: b06d41a0
+    - id: publisherName
+      type: 43c4b450
+    - id: offer
+      type: 697dd6cf
+    - id: skus
+      type: 43a30879
+    - id: version
+      type: f5e07e42
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a7f36666394ed163604af87f5456975a9
+  id: _virtual779e3ca22d80f87af5e535e85f55c1bd_1a7f36666394ed163604af87f5456975a9
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+  href: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd.yml
+  langs:
+  - java
+  name: list(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("skus") String skus,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("$orderby") String orderby,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesService.list(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("skus") String skus,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("$orderby") String orderby,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("skus") String skus,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("$orderby") String orderby,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: location
+      type: b06d41a0
+    - id: publisherName
+      type: 43c4b450
+    - id: offer
+      type: 697dd6cf
+    - id: skus
+      type: 43a30879
+    - id: subscriptionId
+      type: a014476f
+    - id: filter
+      type: 32841eb2
+    - id: top
+      type: 757afc4a
+    - id: orderby
+      type: 009e3963
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a5a11aadfcaf6ca88f6212c1a80bb8def
+  id: _virtual779e3ca22d80f87af5e535e85f55c1bd_1a5a11aadfcaf6ca88f6212c1a80bb8def
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+  href: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd.yml
+  langs:
+  - java
+  name: listOffers(@Path("location") String location,@Path("publisherName") String publisherName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesService.listOffers(@Path("location") String location,@Path("publisherName") String publisherName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 63
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listOffers(@Path("location") String location,@Path("publisherName") String publisherName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: location
+      type: b06d41a0
+    - id: publisherName
+      type: 43c4b450
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a8aa4897f143acdf5f3c52d0a0f212b44
+  id: _virtual779e3ca22d80f87af5e535e85f55c1bd_1a8aa4897f143acdf5f3c52d0a0f212b44
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+  href: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd.yml
+  langs:
+  - java
+  name: listPublishers(@Path("location") String location,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesService.listPublishers(@Path("location") String location,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 67
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listPublishers(@Path("location") String location,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: location
+      type: b06d41a0
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd_1a111fa51de97ef49dbc9aa75f9e4ea65d
+  id: _virtual779e3ca22d80f87af5e535e85f55c1bd_1a111fa51de97ef49dbc9aa75f9e4ea65d
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+  href: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd.yml
+  langs:
+  - java
+  name: listSkus(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesService.listSkus(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 71
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listSkus(@Path("location") String location,@Path("publisherName") String publisherName,@Path("offer") String offer,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: location
+      type: b06d41a0
+    - id: publisherName
+      type: 43c4b450
+    - id: offer
+      type: 697dd6cf
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: b06d41a0
+  spec.java:
+  - name: '@Path("location") String'
+    fullName: '@Path("location") String'
+- uid: 43c4b450
+  spec.java:
+  - name: '@Path("publisherName") String'
+    fullName: '@Path("publisherName") String'
+- uid: 697dd6cf
+  spec.java:
+  - name: '@Path("offer") String'
+    fullName: '@Path("offer") String'
+- uid: 43a30879
+  spec.java:
+  - name: '@Path("skus") String'
+    fullName: '@Path("skus") String'
+- uid: f5e07e42
+  spec.java:
+  - name: '@Path("version") String'
+    fullName: '@Path("version") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: 757afc4a
+  spec.java:
+  - name: '@Query("$top") Integer'
+    fullName: '@Query("$top") Integer'
+- uid: 009e3963
+  spec.java:
+  - name: '@Query("$orderby") String'
+    fullName: '@Query("$orderby") String'
+- uid: com.microsoft.azure.management.compute._virtual_machine_images
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_images.yml
+  name: VirtualMachineImages
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImages
+  type: Interface
+  summary: 'Entry point to virtual machine image management API. '
+  syntax:
+    content: public interface VirtualMachineImages

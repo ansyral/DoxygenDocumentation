@@ -1,0 +1,560 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  id: _subscriptions_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a5de5f3f813e297a8f23d98a4bdabee50
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a1cc0fd6e202f8e0593336e18ae7092aa
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a72e4582d445be736a5748221532d0018
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1ac1d2a4e602c07161b91dbccbda4edac6
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a51698cb65ad458cb504b8dd0b9540cf7
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a7cdfe0aa682da7c802e7fdfa20a86dcf
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a6857e1af0f1c1706e421acf8b6ce5f97
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1ad79c7a84f81dfde314fca0d2b3803388
+  - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a3666942a3680c906996c2da5c1d1a00b
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: SubscriptionsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 35
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.resources._subscriptions" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class SubscriptionsInner
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a5de5f3f813e297a8f23d98a4bdabee50
+  id: _subscriptions_inner_1a5de5f3f813e297a8f23d98a4bdabee50
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: get(String subscriptionId)
+  fullName: ServiceResponse<SubscriptionInner> com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.get(String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 149
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets details about particular subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< SubscriptionInner > get(String subscriptionId)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>Id of the subscription. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._subscription_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a1cc0fd6e202f8e0593336e18ae7092aa
+  id: _subscriptions_inner_1a1cc0fd6e202f8e0593336e18ae7092aa
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: getAsync(String subscriptionId, final ServiceCallback< SubscriptionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.getAsync(String subscriptionId, final ServiceCallback< SubscriptionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 168
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets details about particular subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String subscriptionId, final ServiceCallback< SubscriptionInner > serviceCallback)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>Id of the subscription. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a72e4582d445be736a5748221532d0018
+  id: _subscriptions_inner_1a72e4582d445be736a5748221532d0018
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: list()
+  fullName: ServiceResponse<PagedList<SubscriptionInner> > com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 210
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets a list of the subscriptionIds.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< SubscriptionInner > > list()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._subscription_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1ac1d2a4e602c07161b91dbccbda4edac6
+  id: _subscriptions_inner_1ac1d2a4e602c07161b91dbccbda4edac6
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: listAsync(final ListOperationCallback< SubscriptionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.listAsync(final ListOperationCallback< SubscriptionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 232
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets a list of the subscriptionIds.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final ListOperationCallback< SubscriptionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a51698cb65ad458cb504b8dd0b9540cf7
+  id: _subscriptions_inner_1a51698cb65ad458cb504b8dd0b9540cf7
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: listLocations(String subscriptionId)
+  fullName: ServiceResponse<List<LocationInner> > com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.listLocations(String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets a list of the subscription locations.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< LocationInner > > listLocations(String subscriptionId)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>Id of the subscription </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.resources.implementation.api._location_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._location_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a7cdfe0aa682da7c802e7fdfa20a86dcf
+  id: _subscriptions_inner_1a7cdfe0aa682da7c802e7fdfa20a86dcf
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: listLocationsAsync(String subscriptionId, final ServiceCallback< List< LocationInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.listLocationsAsync(String subscriptionId, final ServiceCallback< List< LocationInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 105
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets a list of the subscription locations.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listLocationsAsync(String subscriptionId, final ServiceCallback< List< LocationInner >> serviceCallback)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>Id of the subscription </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.resources.implementation.api._location_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a6857e1af0f1c1706e421acf8b6ce5f97
+  id: _subscriptions_inner_1a6857e1af0f1c1706e421acf8b6ce5f97
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl1<SubscriptionInner> > com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 278
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets a list of the subscriptionIds.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl1< SubscriptionInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl1151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._subscription_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1ad79c7a84f81dfde314fca0d2b3803388
+  id: _subscriptions_inner_1ad79c7a84f81dfde314fca0d2b3803388
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< SubscriptionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< SubscriptionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 295
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Gets a list of the subscriptionIds.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< SubscriptionInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner_1a3666942a3680c906996c2da5c1d1a00b
+  id: _subscriptions_inner_1a3666942a3680c906996c2da5c1d1a00b
+  parent: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  langs:
+  - java
+  name: SubscriptionsInner(Retrofit retrofit, SubscriptionClientImpl client)
+  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner.SubscriptionsInner(Retrofit retrofit, SubscriptionClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionsInner.java
+    startLine: 47
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.resources.implementation.api._subscriptions_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public SubscriptionsInner(Retrofit retrofit, SubscriptionClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.resources.implementation.api._location_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._location_inner
+    name: LocationInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.LocationInner
+    href: com.microsoft.azure.management.resources.implementation.api._location_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.resources.implementation.api._location_innerc8b8729b
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._location_inner
+    name: LocationInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.LocationInner
+    href: com.microsoft.azure.management.resources.implementation.api._location_inner.yml
+  - name: ' >>'
+    fullName: ' >>'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._subscription_inner
+    name: SubscriptionInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionInner
+    href: com.microsoft.azure.management.resources.implementation.api._subscription_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._subscription_inner
+    name: SubscriptionInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionInner
+    href: com.microsoft.azure.management.resources.implementation.api._subscription_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._subscription_inner
+    name: SubscriptionInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionInner
+    href: com.microsoft.azure.management.resources.implementation.api._subscription_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._subscription_inner
+    name: SubscriptionInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionInner
+    href: com.microsoft.azure.management.resources.implementation.api._subscription_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl1151dc42ccom.microsoft.azure.management.resources.implementation.api._subscription_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._page_impl1
+    name: PageImpl1
+    fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl1
+    href: com.microsoft.azure.management.resources.implementation.api._page_impl1.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._subscription_inner
+    name: SubscriptionInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionInner
+    href: com.microsoft.azure.management.resources.implementation.api._subscription_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.resources.implementation.api._subsc6cc89746d22391044b562539ccb97ec2
+- uid: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl.yml
+  name: SubscriptionClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._subscription_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class SubscriptionClientImpl
+- uid: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._subscriptions_inner.yml
+  name: SubscriptionsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.resources._subscriptions" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.resources.implementation.api._location_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._location_inner.yml
+  name: LocationInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.LocationInner
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.resources._location" data-throw-if-not-resolved="false"></xref> information. </p>
+  syntax:
+    content: public class LocationInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.resources.implementation.api._subscription_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._subscription_inner.yml
+  name: SubscriptionInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionInner
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.resources._subscription" data-throw-if-not-resolved="false"></xref> information. </p>
+  syntax:
+    content: public class SubscriptionInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl1
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl1.yml
+  name: PageImpl1
+  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl1
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl1
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl
+- uid: com.microsoft.azure.management.resources._subscriptions
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._subscriptions.yml
+  name: Subscriptions
+  fullName: com.microsoft.azure.management.resources.Subscriptions
+  type: Interface
+  summary: <p>Entry point to subscription management API. </p>
+  syntax:
+    content: public interface Subscriptions

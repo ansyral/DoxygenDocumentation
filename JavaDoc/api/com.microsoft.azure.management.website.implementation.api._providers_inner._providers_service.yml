@@ -1,0 +1,215 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service
+  id: _providers_service
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1a09e616ca1a6bc60dd2680e5c68134ab7
+  - com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1add9b53e3dc4f6f8a1f64a9cb900b1c8f
+  - com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1a1f2337855aff47719b05f515327f6c14
+  - com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1a1029ee46bdb12358192902c8b41767a0
+  - com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1af70cd2d7497acb84d768324f6ff186c6
+  href: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service.yml
+  langs:
+  - java
+  name: ProvidersInner.ProvidersService
+  fullName: com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+    startLine: 54
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: 'The interface defining all the services for Providers to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface ProvidersInner.ProvidersService
+- uid: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1a09e616ca1a6bc60dd2680e5c68134ab7
+  id: _providers_service_1a09e616ca1a6bc60dd2680e5c68134ab7
+  parent: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service
+  href: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service.yml
+  langs:
+  - java
+  name: getSourceControls(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersService.getSourceControls(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+    startLine: 57
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getSourceControls(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1add9b53e3dc4f6f8a1f64a9cb900b1c8f
+  id: _providers_service_1add9b53e3dc4f6f8a1f64a9cb900b1c8f
+  parent: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service
+  href: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service.yml
+  langs:
+  - java
+  name: getSourceControl(@Path("sourceControlType") String sourceControlType,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersService.getSourceControl(@Path("sourceControlType") String sourceControlType,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getSourceControl(@Path("sourceControlType") String sourceControlType,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: sourceControlType
+      type: 948d14f3
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1a1f2337855aff47719b05f515327f6c14
+  id: _providers_service_1a1f2337855aff47719b05f515327f6c14
+  parent: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service
+  href: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service.yml
+  langs:
+  - java
+  name: updateSourceControl(@Path("sourceControlType") String sourceControlType,@Body SourceControlInner requestMessage,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersService.updateSourceControl(@Path("sourceControlType") String sourceControlType,@Body SourceControlInner requestMessage,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+    startLine: 65
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > updateSourceControl(@Path("sourceControlType") String sourceControlType,@Body SourceControlInner requestMessage,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: sourceControlType
+      type: 948d14f3
+    - id: requestMessage
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._source_control_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1a1029ee46bdb12358192902c8b41767a0
+  id: _providers_service_1a1029ee46bdb12358192902c8b41767a0
+  parent: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service
+  href: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service.yml
+  langs:
+  - java
+  name: getPublishingUser(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersService.getPublishingUser(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+    startLine: 69
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getPublishingUser(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service_1af70cd2d7497acb84d768324f6ff186c6
+  id: _providers_service_1af70cd2d7497acb84d768324f6ff186c6
+  parent: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service
+  href: com.microsoft.azure.management.website.implementation.api._providers_inner._providers_service.yml
+  langs:
+  - java
+  name: updatePublishingUser(@Body UserInner requestMessage,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersService.updatePublishingUser(@Body UserInner requestMessage,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
+    startLine: 73
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > updatePublishingUser(@Body UserInner requestMessage,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: requestMessage
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._user_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 948d14f3
+  spec.java:
+  - name: '@Path("sourceControlType") String'
+    fullName: '@Path("sourceControlType") String'
+- uid: 96b6cf22com.microsoft.azure.management.website.implementation.api._source_control_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.website.implementation.api._source_control_inner
+    name: SourceControlInner
+    fullName: com.microsoft.azure.management.website.implementation.api.SourceControlInner
+    href: com.microsoft.azure.management.website.implementation.api._source_control_inner.yml
+- uid: 96b6cf22com.microsoft.azure.management.website.implementation.api._user_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.website.implementation.api._user_inner
+    name: UserInner
+    fullName: com.microsoft.azure.management.website.implementation.api.UserInner
+    href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
+- uid: com.microsoft.azure.management.website.implementation.api._source_control_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._source_control_inner.yml
+  name: SourceControlInner
+  fullName: com.microsoft.azure.management.website.implementation.api.SourceControlInner
+  type: Class
+  summary: 'Describes the Source Control OAuth Token. '
+  syntax:
+    content: public class SourceControlInner
+- uid: com.microsoft.azure.management.website.implementation.api._user_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
+  name: UserInner
+  fullName: com.microsoft.azure.management.website.implementation.api.UserInner
+  type: Class
+  summary: 'Represents user crendentials used for publishing activity. '
+  syntax:
+    content: public class UserInner

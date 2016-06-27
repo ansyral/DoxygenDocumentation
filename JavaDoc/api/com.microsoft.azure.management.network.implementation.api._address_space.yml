@@ -1,0 +1,93 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._address_space
+  id: _address_space
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._address_space_1a6f3c36d53e86b10217334d3acfdb2a3c
+  - com.microsoft.azure.management.network.implementation.api._address_space_1a24785b8ed7fb7d3bc7832b8f0ed931aa
+  href: com.microsoft.azure.management.network.implementation.api._address_space.yml
+  langs:
+  - java
+  name: AddressSpace
+  fullName: com.microsoft.azure.management.network.implementation.api.AddressSpace
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AddressSpace.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AddressSpace.java
+    startLine: 14
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network.implementation.api._address_space" data-throw-if-not-resolved="false"></xref> contains an array of IP address ranges that can be used by subnets. </p>
+  syntax: &o1
+    content: public class AddressSpace
+- uid: com.microsoft.azure.management.network.implementation.api._address_space_1a6f3c36d53e86b10217334d3acfdb2a3c
+  id: _address_space_1a6f3c36d53e86b10217334d3acfdb2a3c
+  parent: com.microsoft.azure.management.network.implementation.api._address_space
+  href: com.microsoft.azure.management.network.implementation.api._address_space.yml
+  langs:
+  - java
+  name: addressPrefixes()
+  fullName: List<String> com.microsoft.azure.management.network.implementation.api.AddressSpace.addressPrefixes()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AddressSpace.java
+    startLine: 26
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the addressPrefixes value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< String > addressPrefixes()
+    return:
+      type: f35af49b
+      description: <p>the addressPrefixes value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._address_space_1a24785b8ed7fb7d3bc7832b8f0ed931aa
+  id: _address_space_1a24785b8ed7fb7d3bc7832b8f0ed931aa
+  parent: com.microsoft.azure.management.network.implementation.api._address_space
+  href: com.microsoft.azure.management.network.implementation.api._address_space.yml
+  langs:
+  - java
+  name: withAddressPrefixes(List< String > addressPrefixes)
+  fullName: AddressSpace com.microsoft.azure.management.network.implementation.api.AddressSpace.withAddressPrefixes(List< String > addressPrefixes)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/AddressSpace.java
+    startLine: 36
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the addressPrefixes value.</p>
+
+    <p></p>
+  syntax:
+    content: public AddressSpace withAddressPrefixes(List< String > addressPrefixes)
+    parameters:
+    - id: addressPrefixes
+      type: f35af49b
+      description: <p>the addressPrefixes value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._address_space
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._address_space" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f35af49b
+  spec.java:
+  - name: List< String >
+    fullName: List< String >
+- uid: com.microsoft.azure.management.network.implementation.api._address_space
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._address_space.yml
+  name: AddressSpace
+  fullName: com.microsoft.azure.management.network.implementation.api.AddressSpace
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network.implementation.api._address_space" data-throw-if-not-resolved="false"></xref> contains an array of IP address ranges that can be used by subnets. </p>
+  syntax: *o1

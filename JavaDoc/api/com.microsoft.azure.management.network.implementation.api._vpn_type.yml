@@ -1,0 +1,75 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._vpn_type
+  id: _vpn_type
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._vpn_type_1a9e741b1d7ab648e863befa42c13c8d5b
+  - com.microsoft.azure.management.network.implementation.api._vpn_type_1a6e0ad640990e42438a6d48e446e9ecad
+  href: com.microsoft.azure.management.network.implementation.api._vpn_type.yml
+  langs:
+  - java
+  name: VpnType
+  fullName: com.microsoft.azure.management.network.implementation.api.VpnType
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VpnType.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VpnType.java
+    startLine: 11
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.network.implementation.api._vpn_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class VpnType
+- uid: com.microsoft.azure.management.network.implementation.api._vpn_type_1a9e741b1d7ab648e863befa42c13c8d5b
+  id: _vpn_type_1a9e741b1d7ab648e863befa42c13c8d5b
+  parent: com.microsoft.azure.management.network.implementation.api._vpn_type
+  href: com.microsoft.azure.management.network.implementation.api._vpn_type.yml
+  langs:
+  - java
+  name: POLICY_BASED
+  fullName: final String com.microsoft.azure.management.network.implementation.api.VpnType.POLICY_BASED
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VpnType.java
+    startLine: 13
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>Static value PolicyBased for <xref href="com.microsoft.azure.management.network.implementation.api._vpn_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public static final String POLICY_BASED= "PolicyBased"
+    return:
+      type: 3d93591e
+- uid: com.microsoft.azure.management.network.implementation.api._vpn_type_1a6e0ad640990e42438a6d48e446e9ecad
+  id: _vpn_type_1a6e0ad640990e42438a6d48e446e9ecad
+  parent: com.microsoft.azure.management.network.implementation.api._vpn_type
+  href: com.microsoft.azure.management.network.implementation.api._vpn_type.yml
+  langs:
+  - java
+  name: ROUTE_BASED
+  fullName: final String com.microsoft.azure.management.network.implementation.api.VpnType.ROUTE_BASED
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VpnType.java
+    startLine: 16
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>Static value RouteBased for <xref href="com.microsoft.azure.management.network.implementation.api._vpn_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public static final String ROUTE_BASED= "RouteBased"
+    return:
+      type: 3d93591e
+references:
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.azure.management.network.implementation.api._vpn_type
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._vpn_type.yml
+  name: VpnType
+  fullName: com.microsoft.azure.management.network.implementation.api.VpnType
+  type: Class
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.network.implementation.api._vpn_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

@@ -1,0 +1,186 @@
+items:
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network
+  id: _definition_with_network
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_1a73280115d13a750f9932860f12c8ad17
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_1a0083b8c32c3fb9246602408eb4ee6b52
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_1a8faa26ae4ec2031fe9bc60cd8af55858
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_1ae7ea01555d8a61b085f9b3723f1c0007
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
+  langs:
+  - java
+  name: NetworkInterface.DefinitionWithNetwork
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 158
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the network interface definition allowing to specify the virtual network for primary Ip configuration. </p>
+  syntax:
+    content: public interface DefinitionWithNetwork
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_1a73280115d13a750f9932860f12c8ad17
+  id: _definition_with_network_1a73280115d13a750f9932860f12c8ad17
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
+  langs:
+  - java
+  name: withExistingPrimaryNetwork(Network network)
+  fullName: DefinitionWithSubnet com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork.withExistingPrimaryNetwork(Network network)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 199
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Associate an existing virtual network with the network interface's primary Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithSubnet withExistingPrimaryNetwork(Network network)
+    parameters:
+    - id: network
+      type: com.microsoft.azure.management.network._network
+      description: <p>an existing virtual network </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_with_subnet
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_1a0083b8c32c3fb9246602408eb4ee6b52
+  id: _definition_with_network_1a0083b8c32c3fb9246602408eb4ee6b52
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
+  langs:
+  - java
+  name: withNewPrimaryNetwork(Network.DefinitionCreatable creatable)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork.withNewPrimaryNetwork(Network.DefinitionCreatable creatable)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 166
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Create a new virtual network to associate with the network interface's primary Ip configuration, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withNewPrimaryNetwork(Network.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 37fc5788
+      description: <p>a creatable definition for a new virtual network </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_1a8faa26ae4ec2031fe9bc60cd8af55858
+  id: _definition_with_network_1a8faa26ae4ec2031fe9bc60cd8af55858
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
+  langs:
+  - java
+  name: withNewPrimaryNetwork(String addressSpace)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork.withNewPrimaryNetwork(String addressSpace)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 191
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Creates a new virtual network to associate with the network interface's primary Ip configuration. </p>
+
+    <p>the virtual network will be created in the same resource group and region as of network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withNewPrimaryNetwork(String addressSpace)
+    parameters:
+    - id: addressSpace
+      type: "26831127"
+      description: <p>the address space for the virtual network </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+      description: <p>the next stage of the network interface definition </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_1ae7ea01555d8a61b085f9b3723f1c0007
+  id: _definition_with_network_1ae7ea01555d8a61b085f9b3723f1c0007
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
+  langs:
+  - java
+  name: withNewPrimaryNetwork(String name, String addressSpace)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork.withNewPrimaryNetwork(String name, String addressSpace)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 179
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Creates a new virtual network to associate with the network interface's primary Ip configuration. </p>
+
+    <p>the virtual network will be created in the same resource group and region as of network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withNewPrimaryNetwork(String name, String addressSpace)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name of the new virtual network </p>
+    - id: addressSpace
+      type: "26831127"
+      description: <p>the address space for rhe virtual network </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+      description: <p>the next stage of the network interface definition </p>
+references:
+- uid: 37fc5788
+  spec.java:
+  - name: Network.DefinitionCreatable
+    fullName: Network.DefinitionCreatable
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.network._network_interface._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitions.yml
+  name: NetworkInterface.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_private_ip.yml
+  name: NetworkInterface.DefinitionWithPrivateIp
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPrivateIp
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
+  syntax:
+    content: public interface DefinitionWithPrivateIp
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_subnet.yml
+  name: NetworkInterface.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithSubnet
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify subnet. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.network._network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network.yml
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Network

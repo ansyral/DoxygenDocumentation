@@ -1,0 +1,192 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._log_level
+  id: _log_level
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._log_level_1aa27a9c037f34839fad52f742687d2cff
+  - com.microsoft.azure.management.website.implementation.api._log_level_1aca651296eef1c87019aa7e7212da183c
+  - com.microsoft.azure.management.website.implementation.api._log_level_1ab7a97f272c33ed04a2605e806c7ab378
+  - com.microsoft.azure.management.website.implementation.api._log_level_1a37735bd19eb0e7ace058c185779f1810
+  - com.microsoft.azure.management.website.implementation.api._log_level_1a9f18b03b28f6e1f515f4d818e14a963e
+  - com.microsoft.azure.management.website.implementation.api._log_level_1a1b34ab6244886aebd7b0ea180729ab42
+  - com.microsoft.azure.management.website.implementation.api._log_level_1afb0d3101d6eaaaf1c274539d91614b3b
+  - com.microsoft.azure.management.website.implementation.api._log_level_1a27297a8e082f85aba8941e7e4ddb8434
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: LogLevel
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._log_level" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum LogLevel
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1aa27a9c037f34839fad52f742687d2cff
+  id: _log_level_1aa27a9c037f34839fad52f742687d2cff
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: ERROR
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.ERROR
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 28
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Error. </p>
+  syntax:
+    content: public ERROR=("Error")
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1aca651296eef1c87019aa7e7212da183c
+  id: _log_level_1aca651296eef1c87019aa7e7212da183c
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static LogLevel com.microsoft.azure.management.website.implementation.api.LogLevel.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 44
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.website.implementation.api._log_level" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static LogLevel fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._log_level
+      description: <p>the parsed <xref href="com.microsoft.azure.management.website.implementation.api._log_level" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1ab7a97f272c33ed04a2605e806c7ab378
+  id: _log_level_1ab7a97f272c33ed04a2605e806c7ab378
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: INFORMATION
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.INFORMATION
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 22
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Information. </p>
+  syntax:
+    content: public INFORMATION=("Information")
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1a37735bd19eb0e7ace058c185779f1810
+  id: _log_level_1a37735bd19eb0e7ace058c185779f1810
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: LogLevel(String value)
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.LogLevel(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 33
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public LogLevel(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1a9f18b03b28f6e1f515f4d818e14a963e
+  id: _log_level_1a9f18b03b28f6e1f515f4d818e14a963e
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: OFF
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.OFF
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 16
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Off. </p>
+  syntax:
+    content: public OFF=("Off")
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1a1b34ab6244886aebd7b0ea180729ab42
+  id: _log_level_1a1b34ab6244886aebd7b0ea180729ab42
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.website.implementation.api.LogLevel.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 56
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1afb0d3101d6eaaaf1c274539d91614b3b
+  id: _log_level_1afb0d3101d6eaaaf1c274539d91614b3b
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: VERBOSE
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.VERBOSE
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 19
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Verbose. </p>
+  syntax:
+    content: public VERBOSE=("Verbose")
+- uid: com.microsoft.azure.management.website.implementation.api._log_level_1a27297a8e082f85aba8941e7e4ddb8434
+  id: _log_level_1a27297a8e082f85aba8941e7e4ddb8434
+  parent: com.microsoft.azure.management.website.implementation.api._log_level
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  langs:
+  - java
+  name: WARNING
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.WARNING
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
+    startLine: 25
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Warning. </p>
+  syntax:
+    content: public WARNING=("Warning")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._log_level
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._log_level.yml
+  name: LogLevel
+  fullName: com.microsoft.azure.management.website.implementation.api.LogLevel
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._log_level" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

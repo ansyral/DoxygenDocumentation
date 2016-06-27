@@ -1,0 +1,811 @@
+items:
+- uid: com.microsoft.azure.management.network
+  id: network
+  children:
+  - com.microsoft.azure.management.network._network
+  - com.microsoft.azure.management.network._network_interface
+  - com.microsoft.azure.management.network._network_interfaces
+  - com.microsoft.azure.management.network._networks
+  - com.microsoft.azure.management.network._network_security_group
+  - com.microsoft.azure.management.network._network_security_groups
+  - com.microsoft.azure.management.network._network_security_rule
+  - com.microsoft.azure.management.network._nic_ip_configuration
+  - com.microsoft.azure.management.network._public_ip_address
+  - com.microsoft.azure.management.network._public_ip_addresses
+  - com.microsoft.azure.management.network._subnet
+  - com.microsoft.azure.management.network._network_security_rule._access
+  - com.microsoft.azure.management.network._subnet._definition
+  - com.microsoft.azure.management.network._network_security_rule._definition_attachable
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable
+  - com.microsoft.azure.management.network._subnet._definition_attachable
+  - com.microsoft.azure.management.network._network._definition_blank
+  - com.microsoft.azure.management.network._network_interface._definition_blank
+  - com.microsoft.azure.management.network._network_security_group._definition_blank
+  - com.microsoft.azure.management.network._network_security_rule._definition_blank
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_blank
+  - com.microsoft.azure.management.network._public_ip_address._definition_blank
+  - com.microsoft.azure.management.network._subnet._definition_blank
+  - com.microsoft.azure.management.network._network._definition_creatable
+  - com.microsoft.azure.management.network._network_interface._definition_creatable
+  - com.microsoft.azure.management.network._network_security_group._definition_creatable
+  - com.microsoft.azure.management.network._public_ip_address._definition_creatable
+  - com.microsoft.azure.management.network._network._definition_creatable_with_subnet
+  - com.microsoft.azure.management.network._network._definitions
+  - com.microsoft.azure.management.network._network_interface._definitions
+  - com.microsoft.azure.management.network._network_security_group._definitions
+  - com.microsoft.azure.management.network._network_security_rule._definitions
+  - com.microsoft.azure.management.network._nic_ip_configuration._definitions
+  - com.microsoft.azure.management.network._public_ip_address._definitions
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_group
+  - com.microsoft.azure.management.network._network._definition_with_group
+  - com.microsoft.azure.management.network._network_interface._definition_with_group
+  - com.microsoft.azure.management.network._network_security_group._definition_with_group
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label
+  - com.microsoft.azure.management.network._network_interface._definition_with_network
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network
+  - com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
+  - com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  - com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
+  - com.microsoft.azure.management.network._network_security_group._definition_with_rule
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  - com.microsoft.azure.management.network._network._definition_with_subnet
+  - com.microsoft.azure.management.network._network_interface._definition_with_subnet
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet
+  - com.microsoft.azure.management.network._network_security_rule._direction
+  - com.microsoft.azure.management.network._network_security_rule._protocol
+  - com.microsoft.azure.management.network._network._update
+  - com.microsoft.azure.management.network._network_interface._update
+  - com.microsoft.azure.management.network._nic_ip_configuration._update
+  - com.microsoft.azure.management.network._network_security_group._update
+  - com.microsoft.azure.management.network._public_ip_address._update
+  - com.microsoft.azure.management.network._public_ip_address._update_with_ip_address
+  - com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label
+  - com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n
+  - com.microsoft.azure.management.network._network_security_group._update_with_rule
+  - com.microsoft.azure.management.network._network._update_with_subnet
+  href: com.microsoft.azure.management.network.yml
+  langs:
+  - java
+  name: com.microsoft.azure.management.network
+  fullName: com.microsoft.azure.management.network
+  type: Namespace
+  source:
+    remote:
+      path: '[generated]'
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: '[generated]'
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for NetworkManagementClient. The Microsoft <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API provides a RESTful set of web services that interact with Microsoft <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.network._networks" data-throw-if-not-resolved="false"></xref> service to manage your network resrources. The API has entities that capture the relationship between an end user and the Microsoft <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.network._networks" data-throw-if-not-resolved="false"></xref> service. </p>
+  syntax:
+    content: namespace network
+references:
+- uid: com.microsoft.azure.management.network._network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network.yml
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Network
+- uid: com.microsoft.azure.management.network._network_interface
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface.yml
+  name: NetworkInterface
+  fullName: com.microsoft.azure.management.network.NetworkInterface
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
+  syntax:
+    content: public interface NetworkInterface
+- uid: com.microsoft.azure.management.network._network_interfaces
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interfaces.yml
+  name: NetworkInterfaces
+  fullName: com.microsoft.azure.management.network.NetworkInterfaces
+  type: Interface
+  summary: <p>Entry point to network interface management. </p>
+  syntax:
+    content: public interface NetworkInterfaces
+- uid: com.microsoft.azure.management.network._networks
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._networks.yml
+  name: Networks
+  fullName: com.microsoft.azure.management.network.Networks
+  type: Interface
+  summary: <p>Entry point to virtual network management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Networks
+- uid: com.microsoft.azure.management.network._network_security_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group.yml
+  name: NetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
+  syntax:
+    content: public interface NetworkSecurityGroup
+- uid: com.microsoft.azure.management.network._network_security_groups
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_groups.yml
+  name: NetworkSecurityGroups
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroups
+  type: Interface
+  summary: <p>Entry point to network security group management. </p>
+  syntax:
+    content: public interface NetworkSecurityGroups
+- uid: com.microsoft.azure.management.network._network_security_rule
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule.yml
+  name: NetworkSecurityRule
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule
+  type: Interface
+  summary: <p>A network security rule in a network security group. </p>
+  syntax:
+    content: public interface NetworkSecurityRule
+- uid: com.microsoft.azure.management.network._nic_ip_configuration
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration.yml
+  name: NicIpConfiguration
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration
+  type: Interface
+  summary: <p>An Ip configuration in a network interface. </p>
+  syntax:
+    content: public interface NicIpConfiguration
+- uid: com.microsoft.azure.management.network._public_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  name: PublicIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress
+  type: Interface
+  summary: <p>Public IP address. </p>
+  syntax:
+    content: public interface PublicIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_addresses
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_addresses.yml
+  name: PublicIpAddresses
+  fullName: com.microsoft.azure.management.network.PublicIpAddresses
+  type: Interface
+  summary: <p>Entry point to public IP address management. </p>
+  syntax:
+    content: public interface PublicIpAddresses
+- uid: com.microsoft.azure.management.network._subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet.yml
+  name: Subnet
+  fullName: com.microsoft.azure.management.network.Subnet
+  type: Interface
+  summary: <p>An immutable client-side representation of a subnet of a virtual network. </p>
+  syntax:
+    content: public interface Subnet
+- uid: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation.yml
+  name: com.microsoft.azure.management.network.implementation
+  fullName: com.microsoft.azure.management.network.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the implementation classes for NetworkManagementClient. The Microsoft <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API provides a RESTful set of web services that interact with Microsoft <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.network._networks" data-throw-if-not-resolved="false"></xref> service to manage your network resrources. The API has entities that capture the relationship between an end user and the Microsoft <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.network._networks" data-throw-if-not-resolved="false"></xref> service. </p>
+  syntax:
+    content: namespace implementation
+- uid: com.microsoft.azure.management.network.samples
+  href: com.microsoft.azure.management.network.samples.yml
+  name: com.microsoft.azure.management.network.samples
+  fullName: com.microsoft.azure.management.network.samples
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for compute samples. </p>
+  syntax:
+    content: namespace samples
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
+- uid: com.microsoft.azure.management.network._network_security_rule._access
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._access.yml
+  name: NetworkSecurityRule.Access
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Access
+  type: Enum
+  summary: <p>The possible access types supported by a network security rule. </p>
+  syntax:
+    content: public enum Access
+- uid: com.microsoft.azure.management.network._subnet._definition
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition.yml
+  name: Subnet.Definition
+  fullName: com.microsoft.azure.management.network.Subnet.Definition
+  type: Interface
+  summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
+  syntax:
+    content: public interface Definition
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
+  name: NetworkSecurityRule.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the security rule definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable.yml
+  name: NicIpConfiguration.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>Attaches the Ip configuration to the parent network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.network._subnet._definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition_attachable.yml
+  name: Subnet.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the subnet definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.network._network._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_blank.yml
+  name: Network.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.Network.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of a virtual network definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._network_interface._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_blank.yml
+  name: NetworkInterface.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of the network interface. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._network_security_group._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_blank.yml
+  name: NetworkSecurityGroup.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of the definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_blank.yml
+  name: NetworkSecurityRule.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of the subnet definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_blank.yml
+  name: NicIpConfiguration.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionBlank
+  type: Interface
+  summary: >-
+    <p>The first stage of Ip configuration definition.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_blank.yml
+  name: PublicIpAddress.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of a public IP address definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._subnet._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition_blank.yml
+  name: Subnet.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of the subnet definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._network._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_creatable.yml
+  name: Network.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatable
+  type: Interface
+  summary: >-
+    <p>The stage of the virtual network definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, except for adding subnets. </p>
+
+    <p>Subnets can be added only right after the address space is explicitly specified (see <ref refid="" kindref="compound">DefinitionWithAddressSpace#withAddressSpace(String)).</ref></p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network_interface._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
+  name: NetworkInterface.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network_security_group._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_creatable.yml
+  name: NetworkSecurityGroup.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_creatable.yml
+  name: PublicIpAddress.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._network._definition_creatable_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_creatable_with_subnet.yml
+  name: Network.DefinitionCreatableWithSubnet
+  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatableWithSubnet
+  type: Interface
+  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, including adding subnets. </p>
+  syntax:
+    content: public interface DefinitionCreatableWithSubnet
+- uid: com.microsoft.azure.management.network._network._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definitions.yml
+  name: Network.Definitions
+  fullName: com.microsoft.azure.management.network.Network.Definitions
+  type: Interface
+  summary: <p>The entirety of the virtual network definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_interface._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitions.yml
+  name: NetworkInterface.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_security_group._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definitions.yml
+  name: NetworkSecurityGroup.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.Definitions
+  type: Interface
+  summary: <p>The entirety of the network security group definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_security_rule._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
+  name: NetworkSecurityRule.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  type: Interface
+  summary: <p>The entirety of a network security rule definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
+  name: NicIpConfiguration.Definitions
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Definitions
+  type: Interface
+  summary: >-
+    <p>Container interface for all the definitions.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._public_ip_address._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definitions.yml
+  name: PublicIpAddress.Definitions
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  name: NetworkSecurityRule.DefinitionWithDestinationAddress
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationAddress
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
+  name: NetworkSecurityRule.DefinitionWithDestinationPort
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationPort
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
+  name: NetworkSecurityRule.DefinitionWithDirectionAccess
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the direction and the access type to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDirectionAccess
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_group.yml
+  name: PublicIpAddress.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the public IP address definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.network._network._definition_with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_with_group.yml
+  name: Network.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.network.Network.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the virtual network definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_group.yml
+  name: NetworkInterface.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.network._network_security_group._definition_with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_with_group.yml
+  name: NetworkSecurityGroup.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
+  name: PublicIpAddress.DefinitionWithIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithIpAddress
+  type: Interface
+  summary: <p>A public IP address definition allowing to set the IP allocation method (static or dynamic). </p>
+  syntax:
+    content: public interface DefinitionWithIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label.yml
+  name: PublicIpAddress.DefinitionWithLeafDomainLabel
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithLeafDomainLabel
+  type: Interface
+  summary: <p>A public IP address definition allowing to specify the leaf domain label, if any. </p>
+  syntax:
+    content: public interface DefinitionWithLeafDomainLabel
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
+  name: NetworkInterface.DefinitionWithNetwork
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify the virtual network for primary Ip configuration. </p>
+  syntax:
+    content: public interface DefinitionWithNetwork
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network.yml
+  name: NicIpConfiguration.DefinitionWithNetwork
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithNetwork
+  type: Interface
+  summary: >-
+    <p>The stage of the Ip configuration definition allowing to specify the virtual network.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithNetwork
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group.yml
+  name: NetworkInterface.DefinitionWithNetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetworkSecurityGroup
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to associate a network security group. </p>
+  syntax:
+    content: public interface DefinitionWithNetworkSecurityGroup
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_private_ip.yml
+  name: NetworkInterface.DefinitionWithPrivateIp
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPrivateIp
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
+  syntax:
+    content: public interface DefinitionWithPrivateIp
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip.yml
+  name: NicIpConfiguration.DefinitionWithPrivateIp
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPrivateIp
+  type: Interface
+  summary: >-
+    <p>The stage of the Ip configuration definition allowing to specify private IP address within a virtual network subnet.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithPrivateIp
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  name: NetworkSecurityRule.DefinitionWithProtocol
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol
+  type: Interface
+  summary: <p>The stage of the security rule definition allowing the protocol that the rule applies to to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithProtocol
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
+  name: NetworkInterface.DefinitionWithPublicIpAddress
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary Ip configuration. </p>
+  syntax:
+    content: public interface DefinitionWithPublicIpAddress
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
+  name: NicIpConfiguration.DefinitionWithPublicIpAddress
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPublicIpAddress
+  type: Interface
+  summary: >-
+    <p>The stage of the Ip configuration definition allowing to associate it with a public IP address.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithPublicIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
+  name: PublicIpAddress.DefinitionWithReverseFQDN
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithReverseFQDN
+  type: Interface
+  summary: >-
+    <p>A public IP address definition allowing the reverse FQDN to be specified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithReverseFQDN
+- uid: com.microsoft.azure.management.network._network_security_group._definition_with_rule
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_with_rule.yml
+  name: NetworkSecurityGroup.DefinitionWithRule
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionWithRule
+  type: Interface
+  summary: >-
+    <p>The stage of the definition allowing to define a new security rule. </p>
+
+    <p>When the security rule definition is complete enough, use <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref> to attach it to this network security group. </p>
+  syntax:
+    content: public interface DefinitionWithRule
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
+  name: NetworkSecurityRule.DefinitionWithSourceAddress
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithSourceAddress
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  name: NetworkSecurityRule.DefinitionWithSourcePort
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the source port(s) to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithSourcePort
+- uid: com.microsoft.azure.management.network._network._definition_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_with_subnet.yml
+  name: Network.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.network.Network.DefinitionWithSubnet
+  type: Interface
+  summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_subnet.yml
+  name: NetworkInterface.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithSubnet
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify subnet. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet.yml
+  name: NicIpConfiguration.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithSubnet
+  type: Interface
+  summary: >-
+    <p>The stage of the Ip configuration definition allowing to specify subnet.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.network._network_security_rule._direction
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._direction.yml
+  name: NetworkSecurityRule.Direction
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Direction
+  type: Enum
+  summary: <p>The possible directions of the network traffic supported by a network security rule. </p>
+  syntax:
+    content: public enum Direction
+- uid: com.microsoft.azure.management.network._network_security_rule._protocol
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._protocol.yml
+  name: NetworkSecurityRule.Protocol
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Protocol
+  type: Enum
+  summary: <p>The possible <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network protocols supported by a network security rule. </p>
+  syntax:
+    content: public enum Protocol
+- uid: com.microsoft.azure.management.network._network._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._update.yml
+  name: Network.Update
+  fullName: com.microsoft.azure.management.network.Network.Update
+  type: Interface
+  summary: >-
+    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._network_interface._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._update.yml
+  name: NetworkInterface.Update
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Update
+  type: Interface
+  summary: >-
+    <p>The template for a network interface update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  name: NicIpConfiguration.Update
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
+  type: Interface
+  summary: >-
+    <p>The template for a ip configuration update operation, containing all the settings that can be modified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._network_security_group._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._update.yml
+  name: NetworkSecurityGroup.Update
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.Update
+  type: Interface
+  summary: >-
+    <p>The template for an update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._public_ip_address._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update.yml
+  name: PublicIpAddress.Update
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.Update
+  type: Interface
+  summary: >-
+    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address.yml
+  name: PublicIpAddress.UpdateWithIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithIpAddress
+  type: Interface
+  summary: <p>A public IP address update allowing to change the IP allocation method (static or dynamic). </p>
+  syntax:
+    content: public interface UpdateWithIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label.yml
+  name: PublicIpAddress.UpdateWithLeafDomainLabel
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithLeafDomainLabel
+  type: Interface
+  summary: <p>A public IP address update allowing to change the leaf domain label, if any. </p>
+  syntax:
+    content: public interface UpdateWithLeafDomainLabel
+- uid: com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n.yml
+  name: PublicIpAddress.UpdateWithReverseFQDN
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithReverseFQDN
+  type: Interface
+  summary: <p>A public IP address update allowing the reverse FQDN to be specified. </p>
+  syntax:
+    content: public interface UpdateWithReverseFQDN
+- uid: com.microsoft.azure.management.network._network_security_group._update_with_rule
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._update_with_rule.yml
+  name: NetworkSecurityGroup.UpdateWithRule
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateWithRule
+  type: Interface
+  summary: <p>The stage of the resource definition allowing to add or remove security rules. </p>
+  syntax:
+    content: public interface UpdateWithRule
+- uid: com.microsoft.azure.management.network._network._update_with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._update_with_subnet.yml
+  name: Network.UpdateWithSubnet
+  fullName: com.microsoft.azure.management.network.Network.UpdateWithSubnet
+  type: Interface
+  summary: <p>The stage of the virtual network update allowing to add or remove subnets. </p>
+  syntax:
+    content: public interface UpdateWithSubnet

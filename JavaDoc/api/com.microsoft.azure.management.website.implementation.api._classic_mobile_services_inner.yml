@@ -1,0 +1,404 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  id: _classic_mobile_services_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1af720adf8d4377df9b9be46c879c7fee1
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1a8f4c4133c8acd7ce65a06646223df29d
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1aa156c5dff2f97f08763ea9142ca68fba
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1ad4ee6c0154070da2441fa57e4d25791d
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1af88e7d5961a8a0788dc56004c1106cad
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1a8d8dcfce584707db1b7e963cbe1da611
+  - com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1a5c22e4d55c47dea7b4be2ae9c7251195
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: ClassicMobileServicesInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 31
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in ClassicMobileServices. </p>
+  syntax: &o1
+    content: public class ClassicMobileServicesInner
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1af720adf8d4377df9b9be46c879c7fee1
+  id: _classic_mobile_services_inner_1af720adf8d4377df9b9be46c879c7fee1
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: ClassicMobileServicesInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.ClassicMobileServicesInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 43
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public ClassicMobileServicesInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1a8f4c4133c8acd7ce65a06646223df29d
+  id: _classic_mobile_services_inner_1a8f4c4133c8acd7ce65a06646223df29d
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: deleteClassicMobileService(String resourceGroupName, String name)
+  fullName: ServiceResponse<Object> com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.deleteClassicMobileService(String resourceGroupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 224
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Delete a mobile service.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Object > deleteClassicMobileService(String resourceGroupName, String name)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: name
+      type: "26831127"
+      description: <p>Name of mobile service </p>
+    return:
+      type: com.microsoft.rest._service_response9aef07c3
+      description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1aa156c5dff2f97f08763ea9142ca68fba
+  id: _classic_mobile_services_inner_1aa156c5dff2f97f08763ea9142ca68fba
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: deleteClassicMobileServiceAsync(String resourceGroupName, String name, final ServiceCallback< Object > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.deleteClassicMobileServiceAsync(String resourceGroupName, String name, final ServiceCallback< Object > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 250
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Delete a mobile service.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteClassicMobileServiceAsync(String resourceGroupName, String name, final ServiceCallback< Object > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: name
+      type: "26831127"
+      description: <p>Name of mobile service </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1ad4ee6c0154070da2441fa57e4d25791d
+  id: _classic_mobile_services_inner_1ad4ee6c0154070da2441fa57e4d25791d
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: getClassicMobileService(String resourceGroupName, String name)
+  fullName: ServiceResponse<ClassicMobileServiceInner> com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.getClassicMobileService(String resourceGroupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 146
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get a mobile service.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ClassicMobileServiceInner > getClassicMobileService(String resourceGroupName, String name)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: name
+      type: "26831127"
+      description: <p>Name of mobile service </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1af88e7d5961a8a0788dc56004c1106cad
+  id: _classic_mobile_services_inner_1af88e7d5961a8a0788dc56004c1106cad
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: getClassicMobileServiceAsync(String resourceGroupName, String name, final ServiceCallback< ClassicMobileServiceInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.getClassicMobileServiceAsync(String resourceGroupName, String name, final ServiceCallback< ClassicMobileServiceInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 172
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get a mobile service.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getClassicMobileServiceAsync(String resourceGroupName, String name, final ServiceCallback< ClassicMobileServiceInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: name
+      type: "26831127"
+      description: <p>Name of mobile service </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1a8d8dcfce584707db1b7e963cbe1da611
+  id: _classic_mobile_services_inner_1a8d8dcfce584707db1b7e963cbe1da611
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: getClassicMobileServices(String resourceGroupName)
+  fullName: ServiceResponse<ClassicMobileServiceCollectionInner> com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.getClassicMobileServices(String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get all mobile services in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ClassicMobileServiceCollectionInner > getClassicMobileServices(String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner_1a5c22e4d55c47dea7b4be2ae9c7251195
+  id: _classic_mobile_services_inner_1a5c22e4d55c47dea7b4be2ae9c7251195
+  parent: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  langs:
+  - java
+  name: getClassicMobileServicesAsync(String resourceGroupName, final ServiceCallback< ClassicMobileServiceCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.getClassicMobileServicesAsync(String resourceGroupName, final ServiceCallback< ClassicMobileServiceCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 98
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get all mobile services in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getClassicMobileServicesAsync(String resourceGroupName, final ServiceCallback< ClassicMobileServiceCollectionInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of resource group </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner
+    name: ClassicMobileServiceCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner
+    name: ClassicMobileServiceCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner
+    name: ClassicMobileServiceInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceInner
+    href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner
+    name: ClassicMobileServiceInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceInner
+    href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response9aef07c3
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544
+- uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
+  name: WebSiteManagementClientImpl
+  fullName: com.microsoft.azure.management.website.implementation.api.WebSiteManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class WebSiteManagementClientImpl
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
+  name: ClassicMobileServicesInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in ClassicMobileServices. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner.yml
+  name: ClassicMobileServiceCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceCollectionInner
+  type: Class
+  summary: <p>Collection of Classic Mobile Services. </p>
+  syntax:
+    content: public class ClassicMobileServiceCollectionInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_inner.yml
+  name: ClassicMobileServiceInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceInner
+  type: Class
+  summary: <p>A mobile service. </p>
+  syntax:
+    content: public class ClassicMobileServiceInner

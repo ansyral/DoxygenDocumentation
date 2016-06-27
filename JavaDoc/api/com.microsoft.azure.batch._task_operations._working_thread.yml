@@ -1,0 +1,173 @@
+items:
+- uid: com.microsoft.azure.batch._task_operations._working_thread
+  id: _working_thread
+  parent: com.microsoft.azure.batch
+  children:
+  - com.microsoft.azure.batch._task_operations._working_thread_1aa047a8397ee8fa17407d8a5e002f5891
+  - com.microsoft.azure.batch._task_operations._working_thread_1a6cf0a464e7f6a0e41304bfe84a5d503e
+  - com.microsoft.azure.batch._task_operations._working_thread_1a8c1836193ea4c71fa8b33b350ea07c04
+  - com.microsoft.azure.batch._task_operations._working_thread_1a78cd93f1f026eac57799bd5de811d7ec
+  href: com.microsoft.azure.batch._task_operations._working_thread.yml
+  langs:
+  - java
+  name: TaskOperations.WorkingThread
+  fullName: com.microsoft.azure.batch.TaskOperations.WorkingThread
+  type: Class
+  source:
+    remote: &o0
+      path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
+    startLine: 56
+  package: com.microsoft.azure.batch
+  syntax:
+    content: private class WorkingThread
+- uid: com.microsoft.azure.batch._task_operations._working_thread_1aa047a8397ee8fa17407d8a5e002f5891
+  id: _working_thread_1aa047a8397ee8fa17407d8a5e002f5891
+  parent: com.microsoft.azure.batch._task_operations._working_thread
+  href: com.microsoft.azure.batch._task_operations._working_thread.yml
+  langs:
+  - java
+  name: getException()
+  fullName: Exception com.microsoft.azure.batch.TaskOperations.WorkingThread.getException()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
+    startLine: 78
+  package: com.microsoft.azure.batch
+  syntax:
+    content: public Exception getException()
+    return:
+      type: 8a99d4b0
+- uid: com.microsoft.azure.batch._task_operations._working_thread_1a6cf0a464e7f6a0e41304bfe84a5d503e
+  id: _working_thread_1a6cf0a464e7f6a0e41304bfe84a5d503e
+  parent: com.microsoft.azure.batch._task_operations._working_thread
+  href: com.microsoft.azure.batch._task_operations._working_thread.yml
+  langs:
+  - java
+  name: MAX_TASKS_PER_REQUEST
+  fullName: final int com.microsoft.azure.batch.TaskOperations.WorkingThread.MAX_TASKS_PER_REQUEST
+  type: Field
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
+    startLine: 58
+  package: com.microsoft.azure.batch
+  syntax:
+    content: final int MAX_TASKS_PER_REQUEST= 100
+    return:
+      type: cd225469
+- uid: com.microsoft.azure.batch._task_operations._working_thread_1a8c1836193ea4c71fa8b33b350ea07c04
+  id: _working_thread_1a8c1836193ea4c71fa8b33b350ea07c04
+  parent: com.microsoft.azure.batch._task_operations._working_thread
+  href: com.microsoft.azure.batch._task_operations._working_thread.yml
+  langs:
+  - java
+  name: run()
+  fullName: void com.microsoft.azure.batch.TaskOperations.WorkingThread.run()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
+    startLine: 83
+  package: com.microsoft.azure.batch
+  syntax:
+    content: public void run()
+- uid: com.microsoft.azure.batch._task_operations._working_thread_1a78cd93f1f026eac57799bd5de811d7ec
+  id: _working_thread_1a78cd93f1f026eac57799bd5de811d7ec
+  parent: com.microsoft.azure.batch._task_operations._working_thread
+  href: com.microsoft.azure.batch._task_operations._working_thread.yml
+  langs:
+  - java
+  name: WorkingThread(BatchClient client, BehaviorManager bhMgr, String jobId, Queue< TaskAddParameter > pendingList, List< TaskAddResult > failures, Object lock)
+  fullName: com.microsoft.azure.batch.TaskOperations.WorkingThread.WorkingThread(BatchClient client, BehaviorManager bhMgr, String jobId, Queue< TaskAddParameter > pendingList, List< TaskAddResult > failures, Object lock)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
+    startLine: 68
+  package: com.microsoft.azure.batch
+  syntax:
+    content: WorkingThread(BatchClient client, BehaviorManager bhMgr, String jobId, Queue< TaskAddParameter > pendingList, List< TaskAddResult > failures, Object lock)
+    parameters:
+    - id: client
+      type: com.microsoft.azure.batch._batch_client
+    - id: bhMgr
+      type: 57c7c372
+    - id: jobId
+      type: "26831127"
+    - id: pendingList
+      type: 9d521726com.microsoft.azure.batch.protocol.models._task_add_parameter9ec3e006
+    - id: failures
+      type: f6a6204dcom.microsoft.azure.batch.protocol.models._task_add_result9ec3e006
+    - id: lock
+      type: "79317049"
+references:
+- uid: cd225469
+  spec.java:
+  - name: final int
+    fullName: final int
+- uid: 57c7c372
+  spec.java:
+  - name: BehaviorManager
+    fullName: BehaviorManager
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 9d521726com.microsoft.azure.batch.protocol.models._task_add_parameter9ec3e006
+  spec.java:
+  - name: 'Queue< '
+    fullName: 'Queue< '
+  - uid: com.microsoft.azure.batch.protocol.models._task_add_parameter
+    name: TaskAddParameter
+    fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
+    href: com.microsoft.azure.batch.protocol.models._task_add_parameter.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: f6a6204dcom.microsoft.azure.batch.protocol.models._task_add_result9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.batch.protocol.models._task_add_result
+    name: TaskAddResult
+    fullName: com.microsoft.azure.batch.protocol.models.TaskAddResult
+    href: com.microsoft.azure.batch.protocol.models._task_add_result.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "79317049"
+  spec.java:
+  - name: Object
+    fullName: Object
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
+- uid: com.microsoft.azure.batch._batch_client
+  parent: com.microsoft.azure.batch
+  href: com.microsoft.azure.batch._batch_client.yml
+  name: BatchClient
+  fullName: com.microsoft.azure.batch.BatchClient
+  type: Class
+  syntax:
+    content: public class BatchClient
+- uid: com.microsoft.azure.batch.protocol.models._task_add_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._task_add_parameter.yml
+  name: TaskAddParameter
+  fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
+  type: Class
+  summary: <p>An <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Batch task to add. </p>
+  syntax:
+    content: public class TaskAddParameter
+- uid: com.microsoft.azure.batch.protocol.models._task_add_result
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._task_add_result.yml
+  name: TaskAddResult
+  fullName: com.microsoft.azure.batch.protocol.models.TaskAddResult
+  type: Class
+  summary: <p>Result for a single task added as part of an add task collection operation. </p>
+  syntax:
+    content: public class TaskAddResult

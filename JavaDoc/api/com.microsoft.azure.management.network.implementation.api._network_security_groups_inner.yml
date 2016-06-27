@@ -1,0 +1,956 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  id: _network_security_groups_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a235b61023f9d45ea59103771275cc0c5
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a26a9b41d3bf8e9c1c7cae33f663737ef
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ae748400e5c853cae8d73a24f2bdd7d8a
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a1896787b03dfb57266c76a683ed60016
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a82f28c9603874dc69f60315b4b63e8c0
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a55ba8e86b1a23069176b0fb5c3054ee0
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ad5e35a829236f56e01b184687d4d8f90
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ae5f49587a789259883e2f579ce5e7779
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a6ce1cf29bdd1d43972a8aed76ad3e52c
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1af30afeedb2e8b7a34267776713b060dc
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ac0d9b32d1ecc81df9338a4ed5364950f
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a524d3f04dabfad3cdf00e1b813cb8d4a
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a760c012af76dab99c1abec8d33637019
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a531ed297bd67258c09b51e5af6590d20
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a1e81909d58c6a5397accb296f4aaa7d9
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a3ad3435db80603e2ed4b77066e34d9c4
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a52f20ea2bf488109dcc9da016674e744
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a6c0ca08477d95464a331dde7d533d930
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a2e0db3cd0e18ec2b60619bf7a82c51cf
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ab6ece67da4f5e30ac68e5c1e98cc7e05
+  - com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a45810fc4ac39542d8c556c845967dc47
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: NetworkSecurityGroupsInner
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 40
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class NetworkSecurityGroupsInner
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a235b61023f9d45ea59103771275cc0c5
+  id: _network_security_groups_inner_1a235b61023f9d45ea59103771275cc0c5
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters)
+  fullName: ServiceResponse<NetworkSecurityGroupInner> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.beginCreateOrUpdate(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 489
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation creates/updates a network security groupin the specified resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< NetworkSecurityGroupInner > beginCreateOrUpdate(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+      description: <p>Parameters supplied to the create/update <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Security Group operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a26a9b41d3bf8e9c1c7cae33f663737ef
+  id: _network_security_groups_inner_1a26a9b41d3bf8e9c1c7cae33f663737ef
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.beginCreateOrUpdateAsync(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 520
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation creates/updates a network security groupin the specified resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+      description: <p>Parameters supplied to the create/update <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Security Group operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ae748400e5c853cae8d73a24f2bdd7d8a
+  id: _network_security_groups_inner_1ae748400e5c853cae8d73a24f2bdd7d8a
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String networkSecurityGroupName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.beginDelete(String resourceGroupName, String networkSecurityGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 178
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation deletes the specifed network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String networkSecurityGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a1896787b03dfb57266c76a683ed60016
+  id: _network_security_groups_inner_1a1896787b03dfb57266c76a683ed60016
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.beginDeleteAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 204
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation deletes the specifed network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a82f28c9603874dc69f60315b4b63e8c0
+  id: _network_security_groups_inner_1a82f28c9603874dc69f60315b4b63e8c0
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters)
+  fullName: ServiceResponse<NetworkSecurityGroupInner> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.createOrUpdate(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 412
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation creates/updates a network security groupin the specified resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< NetworkSecurityGroupInner > createOrUpdate(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+      description: <p>Parameters supplied to the create/update <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Security Group operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a55ba8e86b1a23069176b0fb5c3054ee0
+  id: _network_security_groups_inner_1a55ba8e86b1a23069176b0fb5c3054ee0
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.createOrUpdateAsync(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 443
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation creates/updates a network security groupin the specified resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String networkSecurityGroupName, NetworkSecurityGroupInner parameters, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+      description: <p>Parameters supplied to the create/update <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Security Group operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ad5e35a829236f56e01b184687d4d8f90
+  id: _network_security_groups_inner_1ad5e35a829236f56e01b184687d4d8f90
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String networkSecurityGroupName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.delete(String resourceGroupName, String networkSecurityGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 111
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation deletes the specifed network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String networkSecurityGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ae5f49587a789259883e2f579ce5e7779
+  id: _network_security_groups_inner_1ae5f49587a789259883e2f579ce5e7779
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.deleteAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 137
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Delete <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> operation deletes the specifed network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a6ce1cf29bdd1d43972a8aed76ad3e52c
+  id: _network_security_groups_inner_1a6ce1cf29bdd1d43972a8aed76ad3e52c
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String networkSecurityGroupName)
+  fullName: ServiceResponse<NetworkSecurityGroupInner> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.get(String resourceGroupName, String networkSecurityGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 257
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> operation retrieves information about the specified network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< NetworkSecurityGroupInner > get(String resourceGroupName, String networkSecurityGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1af30afeedb2e8b7a34267776713b060dc
+  id: _network_security_groups_inner_1af30afeedb2e8b7a34267776713b060dc
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String networkSecurityGroupName, String expand)
+  fullName: ServiceResponse<NetworkSecurityGroupInner> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.get(String resourceGroupName, String networkSecurityGroupName, String expand)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 331
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> operation retrieves information about the specified network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< NetworkSecurityGroupInner > get(String resourceGroupName, String networkSecurityGroupName, String expand)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>expand references resources. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ac0d9b32d1ecc81df9338a4ed5364950f
+  id: _network_security_groups_inner_1ac0d9b32d1ecc81df9338a4ed5364950f
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.getAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 284
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> operation retrieves information about the specified network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String networkSecurityGroupName, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a524d3f04dabfad3cdf00e1b813cb8d4a
+  id: _network_security_groups_inner_1a524d3f04dabfad3cdf00e1b813cb8d4a
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String networkSecurityGroupName, String expand, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.getAsync(String resourceGroupName, String networkSecurityGroupName, String expand, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 358
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> operation retrieves information about the specified network security group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String networkSecurityGroupName, String expand, final ServiceCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: networkSecurityGroupName
+      type: "26831127"
+      description: <p>The name of the network security group. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>expand references resources. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a760c012af76dab99c1abec8d33637019
+  id: _network_security_groups_inner_1a760c012af76dab99c1abec8d33637019
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: list(final String resourceGroupName)
+  fullName: ServiceResponse<PagedList<NetworkSecurityGroupInner> > com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.list(final String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 651
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< NetworkSecurityGroupInner > > list(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a531ed297bd67258c09b51e5af6590d20
+  id: _network_security_groups_inner_1a531ed297bd67258c09b51e5af6590d20
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listAll()
+  fullName: ServiceResponse<PagedList<NetworkSecurityGroupInner> > com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listAll()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 576
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< NetworkSecurityGroupInner > > listAll()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a1e81909d58c6a5397accb296f4aaa7d9
+  id: _network_security_groups_inner_1a1e81909d58c6a5397accb296f4aaa7d9
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listAllAsync(final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listAllAsync(final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 601
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllAsync(final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a3ad3435db80603e2ed4b77066e34d9c4
+  id: _network_security_groups_inner_1a3ad3435db80603e2ed4b77066e34d9c4
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listAllNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<NetworkSecurityGroupInner> > com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listAllNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 734
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< NetworkSecurityGroupInner > > listAllNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a52f20ea2bf488109dcc9da016674e744
+  id: _network_security_groups_inner_1a52f20ea2bf488109dcc9da016674e744
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 751
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a6c0ca08477d95464a331dde7d533d930
+  id: _network_security_groups_inner_1a6c0ca08477d95464a331dde7d533d930
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listAsync(final String resourceGroupName, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listAsync(final String resourceGroupName, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 680
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String resourceGroupName, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a2e0db3cd0e18ec2b60619bf7a82c51cf
+  id: _network_security_groups_inner_1a2e0db3cd0e18ec2b60619bf7a82c51cf
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<NetworkSecurityGroupInner> > com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 797
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< NetworkSecurityGroupInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._network_security_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1ab6ece67da4f5e30ac68e5c1e98cc7e05
+  id: _network_security_groups_inner_1ab6ece67da4f5e30ac68e5c1e98cc7e05
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 814
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The list <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref> returns all network security groups in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< NetworkSecurityGroupInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner_1a45810fc4ac39542d8c556c845967dc47
+  id: _network_security_groups_inner_1a45810fc4ac39542d8c556c845967dc47
+  parent: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  langs:
+  - java
+  name: NetworkSecurityGroupsInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.network.implementation.api._network_security_groups_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public NetworkSecurityGroupsInner(Retrofit retrofit, NetworkManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    name: NetworkSecurityGroupInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    name: NetworkSecurityGroupInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    name: NetworkSecurityGroupInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    name: NetworkSecurityGroupInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._network_security_group_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    name: NetworkSecurityGroupInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+  name: NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class NetworkManagementClientImpl
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
+  name: NetworkSecurityGroupsInner
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.network._network_security_groups" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.azure.management.network._network_security_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group.yml
+  name: NetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
+  type: Interface
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
+  syntax:
+    content: public interface NetworkSecurityGroup
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  name: NetworkSecurityGroupInner
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> resource. </p>
+  syntax:
+    content: public class NetworkSecurityGroupInner
+- uid: com.microsoft.azure.management.network._network_security_groups
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_groups.yml
+  name: NetworkSecurityGroups
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroups
+  type: Interface
+  summary: <p>Entry point to network security group management. </p>
+  syntax:
+    content: public interface NetworkSecurityGroups
+- uid: com.microsoft.azure.management.network._network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network.yml
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Network
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

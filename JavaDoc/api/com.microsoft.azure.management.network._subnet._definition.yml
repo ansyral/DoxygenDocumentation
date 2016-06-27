@@ -1,0 +1,82 @@
+items:
+- uid: com.microsoft.azure.management.network._subnet._definition
+  id: _definition
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition.yml
+  langs:
+  - java
+  name: Subnet.Definition
+  fullName: com.microsoft.azure.management.network.Subnet.Definition
+  type: Interface
+  source:
+    remote:
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Subnet.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Subnet.java
+    startLine: 29
+  package: com.microsoft.azure.management.network
+  summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
+  syntax:
+    content: public interface Definition
+  inheritance:
+  - com.microsoft.azure.management.network._subnet._definition_blank
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  - com.microsoft.azure.management.network._subnet._definition_blank_1ab3dd9d98880d7bbfe5e3a04fea75e316
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>
+- uid: com.microsoft.azure.management.network._subnet._definition_blank_1ab3dd9d98880d7bbfe5e3a04fea75e316
+  parent: com.microsoft.azure.management.network._subnet._definition_blank
+  href: com.microsoft.azure.management.network._subnet._definition_blank.yml
+  name: withAddressPrefix(String cidr)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.Subnet.DefinitionBlank< ParentT >.withAddressPrefix(String cidr)
+  type: Method
+  syntax:
+    content: public DefinitionAttachable< ParentT > withAddressPrefix(String cidr)
+    parameters:
+    - id: cidr
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.network._subnet._definition_attachablea6da57ba
+- uid: com.microsoft.azure.management.network._subnet._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition_blank.yml
+  name: Subnet.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of the subnet definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._subnet._definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition_attachable.yml
+  name: Subnet.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the subnet definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.network._subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet.yml
+  name: Subnet
+  fullName: com.microsoft.azure.management.network.Subnet
+  type: Interface
+  summary: <p>An immutable client-side representation of a subnet of a virtual network. </p>
+  syntax:
+    content: public interface Subnet

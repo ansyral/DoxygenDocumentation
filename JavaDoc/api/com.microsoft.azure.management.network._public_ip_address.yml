@@ -1,0 +1,437 @@
+items:
+- uid: com.microsoft.azure.management.network._public_ip_address
+  id: _public_ip_address
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._public_ip_address_1acab38dd5a063dfd3f11ba6e21ebd7da0
+  - com.microsoft.azure.management.network._public_ip_address_1a9631df6daa72f0fc2e5dba1801bae075
+  - com.microsoft.azure.management.network._public_ip_address_1a3725d2f28423f7b1760053415b68c37d
+  - com.microsoft.azure.management.network._public_ip_address_1aaa1db3790ae07db3346c8e42f9400883
+  - com.microsoft.azure.management.network._public_ip_address_1a1142f1622effc7beddb8295341762168
+  - com.microsoft.azure.management.network._public_ip_address_1ab274fc7f296afe070acdca6269f55d1a
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: PublicIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 19
+  package: com.microsoft.azure.management.network
+  summary: <p>Public IP address. </p>
+  syntax:
+    content: public interface PublicIpAddress
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
+  - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
+  - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
+  - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
+  - com.microsoft.azure.management.resources.fluentcore.model._updatable_1ad0b8439cb1d8039e01301ab5d374749c
+- uid: com.microsoft.azure.management.network._public_ip_address_1acab38dd5a063dfd3f11ba6e21ebd7da0
+  id: _public_ip_address_1acab38dd5a063dfd3f11ba6e21ebd7da0
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: fqdn()
+  fullName: String com.microsoft.azure.management.network.PublicIpAddress.fqdn()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 42
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public String fqdn()
+    return:
+      type: "26831127"
+      description: <p>the assigned FQDN (fully qualified domain name) </p>
+- uid: com.microsoft.azure.management.network._public_ip_address_1a9631df6daa72f0fc2e5dba1801bae075
+  id: _public_ip_address_1a9631df6daa72f0fc2e5dba1801bae075
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: idleTimeoutInMinutes()
+  fullName: int com.microsoft.azure.management.network.PublicIpAddress.idleTimeoutInMinutes()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 57
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public int idleTimeoutInMinutes()
+    return:
+      type: f75371fa
+      description: <p>the idle connection timeout setting (in minutes) </p>
+- uid: com.microsoft.azure.management.network._public_ip_address_1a3725d2f28423f7b1760053415b68c37d
+  id: _public_ip_address_1a3725d2f28423f7b1760053415b68c37d
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: ipAddress()
+  fullName: String com.microsoft.azure.management.network.PublicIpAddress.ipAddress()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 32
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public String ipAddress()
+    return:
+      type: "26831127"
+      description: <p>the assigned IP address </p>
+- uid: com.microsoft.azure.management.network._public_ip_address_1aaa1db3790ae07db3346c8e42f9400883
+  id: _public_ip_address_1aaa1db3790ae07db3346c8e42f9400883
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: ipAllocationMethod()
+  fullName: String com.microsoft.azure.management.network.PublicIpAddress.ipAllocationMethod()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 52
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public String ipAllocationMethod()
+    return:
+      type: "26831127"
+      description: <p>the IP address allocation method (Static/Dynamic) </p>
+- uid: com.microsoft.azure.management.network._public_ip_address_1a1142f1622effc7beddb8295341762168
+  id: _public_ip_address_1a1142f1622effc7beddb8295341762168
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: leafDomainLabel()
+  fullName: String com.microsoft.azure.management.network.PublicIpAddress.leafDomainLabel()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 37
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public String leafDomainLabel()
+    return:
+      type: "26831127"
+      description: <p>the assigned leaf domain label </p>
+- uid: com.microsoft.azure.management.network._public_ip_address_1ab274fc7f296afe070acdca6269f55d1a
+  id: _public_ip_address_1ab274fc7f296afe070acdca6269f55d1a
+  parent: com.microsoft.azure.management.network._public_ip_address
+  href: com.microsoft.azure.management.network._public_ip_address.yml
+  langs:
+  - java
+  name: reverseFqdn()
+  fullName: String com.microsoft.azure.management.network.PublicIpAddress.reverseFqdn()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 47
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public String reverseFqdn()
+    return:
+      type: "26831127"
+      description: <p>the assigned reverse FQDN, if any </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: id()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.id()
+  type: Method
+  syntax:
+    content: public String id()
+    return:
+      type: "26831127"
+      description: <p>the resource ID string </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
+  parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
+  name: inner()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Wrapper< T >.inner()
+  type: Method
+  syntax:
+    content: public T inner()
+    return:
+      type: 8ce1ecb9
+      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> REST API </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
+  parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  name: key()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: name()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.name()
+  type: Method
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name of the reosurce </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
+  parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
+  href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
+  name: refresh()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Refreshable< T >.refresh()
+  type: Method
+  summary: >-
+    <p>Refreshes the resource to sync with <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public T refresh()
+    return:
+      type: 8ce1ecb9
+      description: <p>the refreshed resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: region()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  type: Method
+  syntax:
+    content: public String region()
+    return:
+      type: "26831127"
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
+  name: resourceGroupName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.resourceGroupName()
+  type: Method
+  syntax:
+    content: public String resourceGroupName()
+    return:
+      type: "26831127"
+      description: <p>the name of the resource group </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: tags()
+  fullName: Map<String, String> com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.tags()
+  type: Method
+  syntax:
+    content: public Map< String, String > tags()
+    return:
+      type: 805937fc
+      description: <p>the tags for the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: type()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.type()
+  type: Method
+  syntax:
+    content: public String type()
+    return:
+      type: "26831127"
+      description: <p>the type of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._updatable_1ad0b8439cb1d8039e01301ab5d374749c
+  parent: com.microsoft.azure.management.resources.fluentcore.model._updatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
+  name: update()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Updatable< T >.update()
+  type: Method
+  summary: >-
+    <p>Begins an update for a new resource. </p>
+
+    <p>This is the beginning of the builder pattern used to update top level resources in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. The final method completing the definition and starting the actual resource creation process in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> is <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public T update()
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage of new resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
+  name: GroupableResource
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
+  type: Interface
+  summary: <p>Base interface for resources in resource groups. </p>
+  syntax:
+    content: public interface GroupableResource
+- uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
+  name: Refreshable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  type: Interface
+  summary: >-
+    <p>Base class for resources that can be refreshed to get the latest state.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Refreshable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
+  name: Wrapper
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Wrapper
+  type: Interface
+  summary: >-
+    <p>The wrapper around an inner object providing extended functionalities.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Wrapper
+- uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
+  name: Updatable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable
+  type: Interface
+  summary: >-
+    <p>Base class for resource that can be updated.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Updatable
+- uid: com.microsoft.azure.management.network.implementation._public_ip_address_impl
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_blank
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_blank.yml
+  name: PublicIpAddress.DefinitionBlank
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionBlank
+  type: Interface
+  summary: <p>The first stage of a public IP address definition. </p>
+  syntax:
+    content: public interface DefinitionBlank
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_creatable.yml
+  name: PublicIpAddress.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.network._public_ip_address._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definitions.yml
+  name: PublicIpAddress.Definitions
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_group.yml
+  name: PublicIpAddress.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithGroup
+  type: Interface
+  summary: <p>The stage of the public IP address definition allowing to specify the resource group. </p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
+  name: PublicIpAddress.DefinitionWithIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithIpAddress
+  type: Interface
+  summary: <p>A public IP address definition allowing to set the IP allocation method (static or dynamic). </p>
+  syntax:
+    content: public interface DefinitionWithIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label.yml
+  name: PublicIpAddress.DefinitionWithLeafDomainLabel
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithLeafDomainLabel
+  type: Interface
+  summary: <p>A public IP address definition allowing to specify the leaf domain label, if any. </p>
+  syntax:
+    content: public interface DefinitionWithLeafDomainLabel
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
+  name: PublicIpAddress.DefinitionWithReverseFQDN
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithReverseFQDN
+  type: Interface
+  summary: >-
+    <p>A public IP address definition allowing the reverse FQDN to be specified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithReverseFQDN
+- uid: com.microsoft.azure.management.network._public_ip_address._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update.yml
+  name: PublicIpAddress.Update
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.Update
+  type: Interface
+  summary: >-
+    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address.yml
+  name: PublicIpAddress.UpdateWithIpAddress
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithIpAddress
+  type: Interface
+  summary: <p>A public IP address update allowing to change the IP allocation method (static or dynamic). </p>
+  syntax:
+    content: public interface UpdateWithIpAddress
+- uid: com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label.yml
+  name: PublicIpAddress.UpdateWithLeafDomainLabel
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithLeafDomainLabel
+  type: Interface
+  summary: <p>A public IP address update allowing to change the leaf domain label, if any. </p>
+  syntax:
+    content: public interface UpdateWithLeafDomainLabel
+- uid: com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n.yml
+  name: PublicIpAddress.UpdateWithReverseFQDN
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithReverseFQDN
+  type: Interface
+  summary: <p>A public IP address update allowing the reverse FQDN to be specified. </p>
+  syntax:
+    content: public interface UpdateWithReverseFQDN

@@ -1,0 +1,117 @@
+items:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models
+  id: models
+  children:
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.yml
+  langs:
+  - java
+  name: com.microsoft.azure.management.resources.fluentcore.arm.models
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models
+  type: Namespace
+  source:
+    remote:
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/ChildResource.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/ChildResource.java
+    startLine: 5
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the base classes for resource models. </p>
+  syntax:
+    content: namespace models
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
+  name: ChildResource
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource
+  type: Interface
+  summary: <p>Base interface used by child resources. </p>
+  syntax:
+    content: public interface ChildResource
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
+  name: GroupableResource
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
+  type: Interface
+  summary: <p>Base interface for resources in resource groups. </p>
+  syntax:
+    content: public interface GroupableResource
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: Resource
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
+  type: Interface
+  summary: <p>Base interfaces for fluent resources. </p>
+  syntax:
+    content: public interface Resource
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.yml
+  name: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for ARM fluent core models implementation. </p>
+  syntax:
+    content: namespace implementation
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
+  name: GroupableResource.DefinitionWithGroup
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup
+  type: Interface
+  summary: >-
+    <p>A resource definition allowing a resource group to be selected.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithGroup
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f.yml
+  name: Resource.DefinitionWithRegion
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion
+  type: Interface
+  summary: >-
+    <p>A resource definition allowing a location be selected for the resource.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithRegion
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
+  name: Resource.DefinitionWithTags
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
+  type: Interface
+  summary: >-
+    <p>A resource definition allowing tags to be modified for the resource.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithTags
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
+  name: Resource.UpdateWithTags
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags
+  type: Interface
+  summary: >-
+    <p>An update allowing tags to be modified for the resource.</p>
+
+    <p></p>
+  syntax:
+    content: public interface UpdateWithTags

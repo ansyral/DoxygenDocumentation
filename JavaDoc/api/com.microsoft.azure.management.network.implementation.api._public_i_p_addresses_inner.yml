@@ -1,0 +1,923 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  id: _public_i_p_addresses_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a89def3cc37ae0570e75524597e9139a7
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a805ecf10263a0e4a7e36e613435b74b1
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a172998d047ffdd88f900cd649f6ab8e0
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a5fc8806a962b3ce72056fc75c44f7ea7
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a9485b055dc29e02ed3480298f86838d6
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1abf1f8c5ec0837344d988482b5c646ccb
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a3d15d16fe1eacdf7c528a66b56b4a7e8
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a9645753be2d90a69a34f11daa8afe1a8
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ac96e43d11e29eca82282a5fe89d54afa
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ab1ff2189d70a4c7c5fa1bb426aaff84f
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1aa9674299c412b96f74df1adfc67f790e
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ab844028e794144339f605f3f7c2e90db
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1af4e3d8584461b924f5f0e199234e7b9b
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a644d79bfa2e42748f2ee91a26d7cb82e
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a6d9c1f37e238b1d681b799d5580c9f6a
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a63aa1e15705e48a0585bceab3d7f844d
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a834adaa39cc03727585fe0ac23e7a12b
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a4b670d35ed015f54a37096f06cdbcf69
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a3b2644027bce984d9c8275c15c5d7221
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ab131e50e330680c75f13861e10aa68ce
+  - com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1aa3d57fd470a26e4ad68d1a5dce6f8693
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: PublicIPAddressesInner
+  fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 40
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in PublicIPAddresses. </p>
+  syntax: &o1
+    content: public class PublicIPAddressesInner
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a89def3cc37ae0570e75524597e9139a7
+  id: _public_i_p_addresses_inner_1a89def3cc37ae0570e75524597e9139a7
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters)
+  fullName: ServiceResponse<PublicIPAddressInner> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.beginCreateOrUpdate(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 489
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put PublicIPAddress operation creates/updates a stable/dynamic PublicIP address.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PublicIPAddressInner > beginCreateOrUpdate(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the publicIpAddress. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+      description: <p>Parameters supplied to the create/update PublicIPAddress operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a805ecf10263a0e4a7e36e613435b74b1
+  id: _public_i_p_addresses_inner_1a805ecf10263a0e4a7e36e613435b74b1
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.beginCreateOrUpdateAsync(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 520
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put PublicIPAddress operation creates/updates a stable/dynamic PublicIP address.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the publicIpAddress. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+      description: <p>Parameters supplied to the create/update PublicIPAddress operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a172998d047ffdd88f900cd649f6ab8e0
+  id: _public_i_p_addresses_inner_1a172998d047ffdd88f900cd649f6ab8e0
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String publicIpAddressName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.beginDelete(String resourceGroupName, String publicIpAddressName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 178
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete publicIpAddress operation deletes the specified publicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String publicIpAddressName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a5fc8806a962b3ce72056fc75c44f7ea7
+  id: _public_i_p_addresses_inner_1a5fc8806a962b3ce72056fc75c44f7ea7
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.beginDeleteAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 204
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete publicIpAddress operation deletes the specified publicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a9485b055dc29e02ed3480298f86838d6
+  id: _public_i_p_addresses_inner_1a9485b055dc29e02ed3480298f86838d6
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters)
+  fullName: ServiceResponse<PublicIPAddressInner> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.createOrUpdate(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 412
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put PublicIPAddress operation creates/updates a stable/dynamic PublicIP address.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PublicIPAddressInner > createOrUpdate(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the publicIpAddress. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+      description: <p>Parameters supplied to the create/update PublicIPAddress operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1abf1f8c5ec0837344d988482b5c646ccb
+  id: _public_i_p_addresses_inner_1abf1f8c5ec0837344d988482b5c646ccb
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.createOrUpdateAsync(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 443
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put PublicIPAddress operation creates/updates a stable/dynamic PublicIP address.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String publicIpAddressName, PublicIPAddressInner parameters, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the publicIpAddress. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+      description: <p>Parameters supplied to the create/update PublicIPAddress operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a3d15d16fe1eacdf7c528a66b56b4a7e8
+  id: _public_i_p_addresses_inner_1a3d15d16fe1eacdf7c528a66b56b4a7e8
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String publicIpAddressName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.delete(String resourceGroupName, String publicIpAddressName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 111
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete publicIpAddress operation deletes the specified publicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String publicIpAddressName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a9645753be2d90a69a34f11daa8afe1a8
+  id: _public_i_p_addresses_inner_1a9645753be2d90a69a34f11daa8afe1a8
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.deleteAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 137
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete publicIpAddress operation deletes the specified publicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ac96e43d11e29eca82282a5fe89d54afa
+  id: _public_i_p_addresses_inner_1ac96e43d11e29eca82282a5fe89d54afa
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String publicIpAddressName)
+  fullName: ServiceResponse<PublicIPAddressInner> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.get(String resourceGroupName, String publicIpAddressName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 257
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get publicIpAddress operation retreives information about the specified pubicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PublicIPAddressInner > get(String resourceGroupName, String publicIpAddressName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ab1ff2189d70a4c7c5fa1bb426aaff84f
+  id: _public_i_p_addresses_inner_1ab1ff2189d70a4c7c5fa1bb426aaff84f
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String publicIpAddressName, String expand)
+  fullName: ServiceResponse<PublicIPAddressInner> com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.get(String resourceGroupName, String publicIpAddressName, String expand)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 331
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get publicIpAddress operation retreives information about the specified pubicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PublicIPAddressInner > get(String resourceGroupName, String publicIpAddressName, String expand)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>expand references resources. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1aa9674299c412b96f74df1adfc67f790e
+  id: _public_i_p_addresses_inner_1aa9674299c412b96f74df1adfc67f790e
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.getAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 284
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get publicIpAddress operation retreives information about the specified pubicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String publicIpAddressName, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ab844028e794144339f605f3f7c2e90db
+  id: _public_i_p_addresses_inner_1ab844028e794144339f605f3f7c2e90db
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String publicIpAddressName, String expand, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.getAsync(String resourceGroupName, String publicIpAddressName, String expand, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 358
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get publicIpAddress operation retreives information about the specified pubicIpAddress.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String publicIpAddressName, String expand, final ServiceCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: publicIpAddressName
+      type: "26831127"
+      description: <p>The name of the subnet. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>expand references resources. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1af4e3d8584461b924f5f0e199234e7b9b
+  id: _public_i_p_addresses_inner_1af4e3d8584461b924f5f0e199234e7b9b
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: list(final String resourceGroupName)
+  fullName: ServiceResponse<PagedList<PublicIPAddressInner> > com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.list(final String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 651
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< PublicIPAddressInner > > list(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a644d79bfa2e42748f2ee91a26d7cb82e
+  id: _public_i_p_addresses_inner_1a644d79bfa2e42748f2ee91a26d7cb82e
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listAll()
+  fullName: ServiceResponse<PagedList<PublicIPAddressInner> > com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listAll()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 576
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< PublicIPAddressInner > > listAll()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a6d9c1f37e238b1d681b799d5580c9f6a
+  id: _public_i_p_addresses_inner_1a6d9c1f37e238b1d681b799d5580c9f6a
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listAllAsync(final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listAllAsync(final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 601
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllAsync(final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a63aa1e15705e48a0585bceab3d7f844d
+  id: _public_i_p_addresses_inner_1a63aa1e15705e48a0585bceab3d7f844d
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listAllNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<PublicIPAddressInner> > com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listAllNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 734
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< PublicIPAddressInner > > listAllNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a834adaa39cc03727585fe0ac23e7a12b
+  id: _public_i_p_addresses_inner_1a834adaa39cc03727585fe0ac23e7a12b
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 751
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a4b670d35ed015f54a37096f06cdbcf69
+  id: _public_i_p_addresses_inner_1a4b670d35ed015f54a37096f06cdbcf69
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listAsync(final String resourceGroupName, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listAsync(final String resourceGroupName, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 680
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String resourceGroupName, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1a3b2644027bce984d9c8275c15c5d7221
+  id: _public_i_p_addresses_inner_1a3b2644027bce984d9c8275c15c5d7221
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<PublicIPAddressInner> > com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 797
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< PublicIPAddressInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1ab131e50e330680c75f13861e10aa68ce
+  id: _public_i_p_addresses_inner_1ab131e50e330680c75f13861e10aa68ce
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 814
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List publicIpAddress opertion retrieves all the publicIpAddresses in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< PublicIPAddressInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner_1aa3d57fd470a26e4ad68d1a5dce6f8693
+  id: _public_i_p_addresses_inner_1aa3d57fd470a26e4ad68d1a5dce6f8693
+  parent: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  langs:
+  - java
+  name: PublicIPAddressesInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner.PublicIPAddressesInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/PublicIPAddressesInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public PublicIPAddressesInner(Retrofit retrofit, NetworkManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    name: PublicIPAddressInner
+    fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+    href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    name: PublicIPAddressInner
+    fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+    href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    name: PublicIPAddressInner
+    fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+    href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    name: PublicIPAddressInner
+    fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+    href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._public_i_p_address_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+    name: PublicIPAddressInner
+    fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+    href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.network.implementation.api._public_b68300d923308446ab6388bde578dfd4
+- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+  name: NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class NetworkManagementClientImpl
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_addresses_inner.yml
+  name: PublicIPAddressesInner
+  fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in PublicIPAddresses. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_inner.yml
+  name: PublicIPAddressInner
+  fullName: com.microsoft.azure.management.network.implementation.api.PublicIPAddressInner
+  type: Class
+  summary: <p>PublicIPAddress resource. </p>
+  syntax:
+    content: public class PublicIPAddressInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

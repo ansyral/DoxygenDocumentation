@@ -1,0 +1,274 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  id: _domains_service
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1aeb416af7e61fbf1701febacd8cf788c4
+  - com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1a90bdac2cb8edbd2b405165a2048f418f
+  - com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1a9f306aba86b06e639771783debc2aea5
+  - com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1af25c29b805b2f654c2d6964469d6cbb2
+  - com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1abaa5ec87cbe7da563d56b55e59d221f6
+  - com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1a6b7c50bc2667ab97725b8f7adeb22956
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: DomainsInner.DomainsService
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 56
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: 'The interface defining all the services for Domains to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface DomainsInner.DomainsService
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1aeb416af7e61fbf1701febacd8cf788c4
+  id: _domains_service_1aeb416af7e61fbf1701febacd8cf788c4
+  parent: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: getDomains(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService.getDomains(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getDomains(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1a90bdac2cb8edbd2b405165a2048f418f
+  id: _domains_service_1a90bdac2cb8edbd2b405165a2048f418f
+  parent: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: getDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService.getDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 63
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: domainName
+      type: f7035dcf
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1a9f306aba86b06e639771783debc2aea5
+  id: _domains_service_1a9f306aba86b06e639771783debc2aea5
+  parent: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: createOrUpdateDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Body DomainInner domain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService.createOrUpdateDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Body DomainInner domain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 67
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdateDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Body DomainInner domain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: domainName
+      type: f7035dcf
+    - id: subscriptionId
+      type: a014476f
+    - id: domain
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._domain_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1af25c29b805b2f654c2d6964469d6cbb2
+  id: _domains_service_1af25c29b805b2f654c2d6964469d6cbb2
+  parent: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: deleteDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Query("forceHardDeleteDomain") Boolean forceHardDeleteDomain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService.deleteDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Query("forceHardDeleteDomain") Boolean forceHardDeleteDomain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 71
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > deleteDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Query("forceHardDeleteDomain") Boolean forceHardDeleteDomain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: domainName
+      type: f7035dcf
+    - id: subscriptionId
+      type: a014476f
+    - id: forceHardDeleteDomain
+      type: ced06152
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1abaa5ec87cbe7da563d56b55e59d221f6
+  id: _domains_service_1abaa5ec87cbe7da563d56b55e59d221f6
+  parent: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: updateDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Body DomainInner domain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService.updateDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Body DomainInner domain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 75
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > updateDomain(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("subscriptionId") String subscriptionId,@Body DomainInner domain,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: domainName
+      type: f7035dcf
+    - id: subscriptionId
+      type: a014476f
+    - id: domain
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._domain_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service_1a6b7c50bc2667ab97725b8f7adeb22956
+  id: _domains_service_1a6b7c50bc2667ab97725b8f7adeb22956
+  parent: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service
+  href: com.microsoft.azure.management.website.implementation.api._domains_inner._domains_service.yml
+  langs:
+  - java
+  name: getDomainOperation(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("operationId") String operationId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.DomainsInner.DomainsService.getDomainOperation(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("operationId") String operationId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainsInner.java
+    startLine: 79
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getDomainOperation(@Path("resourceGroupName") String resourceGroupName,@Path("domainName") String domainName,@Path("operationId") String operationId,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: domainName
+      type: f7035dcf
+    - id: operationId
+      type: 2434b731
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: f7035dcf
+  spec.java:
+  - name: '@Path("domainName") String'
+    fullName: '@Path("domainName") String'
+- uid: 96b6cf22com.microsoft.azure.management.website.implementation.api._domain_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_inner
+    name: DomainInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_inner.yml
+- uid: ced06152
+  spec.java:
+  - name: '@Query("forceHardDeleteDomain") Boolean'
+    fullName: '@Query("forceHardDeleteDomain") Boolean'
+- uid: 2434b731
+  spec.java:
+  - name: '@Path("operationId") String'
+    fullName: '@Path("operationId") String'
+- uid: com.microsoft.azure.management.website.implementation.api._domain_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_inner.yml
+  name: DomainInner
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainInner
+  type: Class
+  summary: 'Represents a domain. '
+  syntax:
+    content: public class DomainInner

@@ -1,0 +1,108 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key
+  id: _storage_account_key
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._storage_account_key_1a38b7122bbdd5f33c38b60db040279a29
+  - com.microsoft.azure.management.storage.implementation.api._storage_account_key_1a703c896c39f697e58530226a6d68688c
+  - com.microsoft.azure.management.storage.implementation.api._storage_account_key_1a055104b6a21e0ae423964cafcc7ece91
+  href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+  langs:
+  - java
+  name: StorageAccountKey
+  fullName: com.microsoft.azure.management.storage.implementation.api.StorageAccountKey
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/StorageAccountKey.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/StorageAccountKey.java
+    startLine: 13
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>An access key for the storage account. </p>
+  syntax:
+    content: public class StorageAccountKey
+- uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key_1a38b7122bbdd5f33c38b60db040279a29
+  id: _storage_account_key_1a38b7122bbdd5f33c38b60db040279a29
+  parent: com.microsoft.azure.management.storage.implementation.api._storage_account_key
+  href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+  langs:
+  - java
+  name: keyName()
+  fullName: String com.microsoft.azure.management.storage.implementation.api.StorageAccountKey.keyName()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/StorageAccountKey.java
+    startLine: 37
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the keyName value.</p>
+
+    <p></p>
+  syntax:
+    content: public String keyName()
+    return:
+      type: "26831127"
+      description: <p>the keyName value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key_1a703c896c39f697e58530226a6d68688c
+  id: _storage_account_key_1a703c896c39f697e58530226a6d68688c
+  parent: com.microsoft.azure.management.storage.implementation.api._storage_account_key
+  href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+  langs:
+  - java
+  name: permissions()
+  fullName: KeyPermission com.microsoft.azure.management.storage.implementation.api.StorageAccountKey.permissions()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/StorageAccountKey.java
+    startLine: 55
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the permissions value.</p>
+
+    <p></p>
+  syntax:
+    content: public KeyPermission permissions()
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._key_permission
+      description: <p>the permissions value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key_1a055104b6a21e0ae423964cafcc7ece91
+  id: _storage_account_key_1a055104b6a21e0ae423964cafcc7ece91
+  parent: com.microsoft.azure.management.storage.implementation.api._storage_account_key
+  href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+  langs:
+  - java
+  name: value()
+  fullName: String com.microsoft.azure.management.storage.implementation.api.StorageAccountKey.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/StorageAccountKey.java
+    startLine: 46
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public String value()
+    return:
+      type: "26831127"
+      description: <p>the value value </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.storage.implementation.api._key_permission
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._key_permission.yml
+  name: KeyPermission
+  fullName: com.microsoft.azure.management.storage.implementation.api.KeyPermission
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._key_permission" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum KeyPermission

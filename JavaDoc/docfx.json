@@ -3,11 +3,13 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "api/**/*.yml",
+		  "toc.yml"
         ],
         "exclude": [
-          "**/obj/**",
-          "java/**"
+          "java/**",
+          "**/bin/**",
+          "**/obj/**"
         ]
       }
     ],
@@ -18,18 +20,18 @@
           "**/*.jpg"
         ],
         "exclude": [
+          "**/bin/**",
           "**/obj/**",
-          "java/**"
+		  "java/**"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
+	"globalMetadata": {
+	  "breadcrumb_path": "toc.json",
+    },
+    "dest": "java",
     "template": [
-      null
-    ],
-    "dest": "java"
+      "docs.html"
+    ]
   }
 }

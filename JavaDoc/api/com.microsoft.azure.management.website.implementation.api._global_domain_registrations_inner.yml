@@ -1,0 +1,644 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  id: _global_domain_registrations_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ac8d63a88fc0f002f47ecdb7276f74ae3
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ad903319fa00ca957663568744ecf5c7a
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1aa7b3728bdce5f9670a41cc2b14c3b4e3
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ac51312d7b045d194aeb34455519a31ab
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a312d5ef2774447a3691c6ed0e4f2313b
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a7008da05a85d5185d1aeee874dab2841
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a18d8657d6186533759b301fa5ed3aa70
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1af128296bdcb9d25a147e67477e6e53d0
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a90ddf8b8f04e1cdd9c74c5e10610ae59
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a206307754442fcf9c1b841e86585b637
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a79838aa06218b58f87405da11b48cd45
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1aa37e0627ec4f81b31178eef777f3edde
+  - com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a84e621056a556b1158de22a51cd7aca0
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: GlobalDomainRegistrationsInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 33
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in GlobalDomainRegistrations. </p>
+  syntax: &o1
+    content: public class GlobalDomainRegistrationsInner
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ac8d63a88fc0f002f47ecdb7276f74ae3
+  id: _global_domain_registrations_inner_1ac8d63a88fc0f002f47ecdb7276f74ae3
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: checkDomainAvailability()
+  fullName: ServiceResponse<DomainAvailablilityCheckResultInner> com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.checkDomainAvailability()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 276
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Checks if a domain is available for registration.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< DomainAvailablilityCheckResultInner > checkDomainAvailability()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ad903319fa00ca957663568744ecf5c7a
+  id: _global_domain_registrations_inner_1ad903319fa00ca957663568744ecf5c7a
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: checkDomainAvailability(String name)
+  fullName: ServiceResponse<DomainAvailablilityCheckResultInner> com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.checkDomainAvailability(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 336
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Checks if a domain is available for registration.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< DomainAvailablilityCheckResultInner > checkDomainAvailability(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>Name of the object </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1aa7b3728bdce5f9670a41cc2b14c3b4e3
+  id: _global_domain_registrations_inner_1aa7b3728bdce5f9670a41cc2b14c3b4e3
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: checkDomainAvailabilityAsync(final ServiceCallback< DomainAvailablilityCheckResultInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.checkDomainAvailabilityAsync(final ServiceCallback< DomainAvailablilityCheckResultInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 297
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Checks if a domain is available for registration.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall checkDomainAvailabilityAsync(final ServiceCallback< DomainAvailablilityCheckResultInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ac51312d7b045d194aeb34455519a31ab
+  id: _global_domain_registrations_inner_1ac51312d7b045d194aeb34455519a31ab
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: checkDomainAvailabilityAsync(String name, final ServiceCallback< DomainAvailablilityCheckResultInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.checkDomainAvailabilityAsync(String name, final ServiceCallback< DomainAvailablilityCheckResultInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 357
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Checks if a domain is available for registration.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall checkDomainAvailabilityAsync(String name, final ServiceCallback< DomainAvailablilityCheckResultInner > serviceCallback)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>Name of the object </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a312d5ef2774447a3691c6ed0e4f2313b
+  id: _global_domain_registrations_inner_1a312d5ef2774447a3691c6ed0e4f2313b
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: getAllDomains()
+  fullName: ServiceResponse<DomainCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.getAllDomains()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 85
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Lists all domains in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< DomainCollectionInner > getAllDomains()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a7008da05a85d5185d1aeee874dab2841
+  id: _global_domain_registrations_inner_1a7008da05a85d5185d1aeee874dab2841
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: getAllDomainsAsync(final ServiceCallback< DomainCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.getAllDomainsAsync(final ServiceCallback< DomainCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 103
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Lists all domains in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllDomainsAsync(final ServiceCallback< DomainCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a18d8657d6186533759b301fa5ed3aa70
+  id: _global_domain_registrations_inner_1a18d8657d6186533759b301fa5ed3aa70
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: getDomainControlCenterSsoRequest()
+  fullName: ServiceResponse<DomainControlCenterSsoRequestInner> com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.getDomainControlCenterSsoRequest()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 145
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Generates a single sign on request for domain management portal.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< DomainControlCenterSsoRequestInner > getDomainControlCenterSsoRequest()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1af128296bdcb9d25a147e67477e6e53d0
+  id: _global_domain_registrations_inner_1af128296bdcb9d25a147e67477e6e53d0
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: getDomainControlCenterSsoRequestAsync(final ServiceCallback< DomainControlCenterSsoRequestInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.getDomainControlCenterSsoRequestAsync(final ServiceCallback< DomainControlCenterSsoRequestInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 163
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Generates a single sign on request for domain management portal.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getDomainControlCenterSsoRequestAsync(final ServiceCallback< DomainControlCenterSsoRequestInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a90ddf8b8f04e1cdd9c74c5e10610ae59
+  id: _global_domain_registrations_inner_1a90ddf8b8f04e1cdd9c74c5e10610ae59
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: GlobalDomainRegistrationsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.GlobalDomainRegistrationsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 45
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public GlobalDomainRegistrationsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a206307754442fcf9c1b841e86585b637
+  id: _global_domain_registrations_inner_1a206307754442fcf9c1b841e86585b637
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: listDomainRecommendations(DomainRecommendationSearchParametersInner parameters)
+  fullName: ServiceResponse<NameIdentifierCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.listDomainRecommendations(DomainRecommendationSearchParametersInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 402
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Lists domain recommendations based on keywords.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< NameIdentifierCollectionInner > listDomainRecommendations(DomainRecommendationSearchParametersInner parameters)
+    parameters:
+    - id: parameters
+      type: com.microsoft.azure.management.website.implementation.api._domain_recoe0b168edc683df08e9edb9beff45825a
+      description: <p>Domain recommendation search parameters </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a79838aa06218b58f87405da11b48cd45
+  id: _global_domain_registrations_inner_1a79838aa06218b58f87405da11b48cd45
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: listDomainRecommendationsAsync(DomainRecommendationSearchParametersInner parameters, final ServiceCallback< NameIdentifierCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.listDomainRecommendationsAsync(DomainRecommendationSearchParametersInner parameters, final ServiceCallback< NameIdentifierCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 425
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Lists domain recommendations based on keywords.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listDomainRecommendationsAsync(DomainRecommendationSearchParametersInner parameters, final ServiceCallback< NameIdentifierCollectionInner > serviceCallback)
+    parameters:
+    - id: parameters
+      type: com.microsoft.azure.management.website.implementation.api._domain_recoe0b168edc683df08e9edb9beff45825a
+      description: <p>Domain recommendation search parameters </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1aa37e0627ec4f81b31178eef777f3edde
+  id: _global_domain_registrations_inner_1aa37e0627ec4f81b31178eef777f3edde
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: validateDomainPurchaseInformation(DomainRegistrationInputInner domainRegistrationInput)
+  fullName: ServiceResponse<Object> com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.validateDomainPurchaseInformation(DomainRegistrationInputInner domainRegistrationInput)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 206
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Validates domain registration information.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Object > validateDomainPurchaseInformation(DomainRegistrationInputInner domainRegistrationInput)
+    parameters:
+    - id: domainRegistrationInput
+      type: com.microsoft.azure.management.website.implementation.api._domain_registration_input_inner
+      description: <p>Domain registration information </p>
+    return:
+      type: com.microsoft.rest._service_response9aef07c3
+      description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1a84e621056a556b1158de22a51cd7aca0
+  id: _global_domain_registrations_inner_1a84e621056a556b1158de22a51cd7aca0
+  parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  langs:
+  - java
+  name: validateDomainPurchaseInformationAsync(DomainRegistrationInputInner domainRegistrationInput, final ServiceCallback< Object > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.validateDomainPurchaseInformationAsync(DomainRegistrationInputInner domainRegistrationInput, final ServiceCallback< Object > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
+    startLine: 229
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Validates domain registration information.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall validateDomainPurchaseInformationAsync(DomainRegistrationInputInner domainRegistrationInput, final ServiceCallback< Object > serviceCallback)
+    parameters:
+    - id: domainRegistrationInput
+      type: com.microsoft.azure.management.website.implementation.api._domain_registration_input_inner
+      description: <p>Domain registration information </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_collection_inner
+    name: DomainCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_collection_inner
+    name: DomainCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner
+    name: DomainControlCenterSsoRequestInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainControlCenterSsoRequestInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner
+    name: DomainControlCenterSsoRequestInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainControlCenterSsoRequestInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response9aef07c3
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner
+    name: DomainAvailablilityCheckResultInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainAvailablilityCheckResultInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner
+    name: DomainAvailablilityCheckResultInner
+    fullName: com.microsoft.azure.management.website.implementation.api.DomainAvailablilityCheckResultInner
+    href: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner
+    name: NameIdentifierCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.NameIdentifierCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner
+    name: NameIdentifierCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.NameIdentifierCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.website.implementation.api._global_28a1cfe037976ee85f9e0dc1ea235cbd
+- uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
+  name: WebSiteManagementClientImpl
+  fullName: com.microsoft.azure.management.website.implementation.api.WebSiteManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class WebSiteManagementClientImpl
+- uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner.yml
+  name: GlobalDomainRegistrationsInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in GlobalDomainRegistrations. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.website.implementation.api._domain_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_collection_inner.yml
+  name: DomainCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainCollectionInner
+  type: Class
+  summary: <p>Collection of domains. </p>
+  syntax:
+    content: public class DomainCollectionInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner.yml
+  name: DomainControlCenterSsoRequestInner
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainControlCenterSsoRequestInner
+  type: Class
+  summary: <p>Single sign on request information for domain management. </p>
+  syntax:
+    content: public class DomainControlCenterSsoRequestInner
+- uid: com.microsoft.azure.management.website.implementation.api._domain_registration_input_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_registration_input_inner.yml
+  name: DomainRegistrationInputInner
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainRegistrationInputInner
+  type: Class
+  summary: <p>Domain registration input for validation Api. </p>
+  syntax:
+    content: public class DomainRegistrationInputInner
+- uid: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner.yml
+  name: DomainAvailablilityCheckResultInner
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainAvailablilityCheckResultInner
+  type: Class
+  summary: <p>Domain availablility check result. </p>
+  syntax:
+    content: public class DomainAvailablilityCheckResultInner
+- uid: com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner.yml
+  name: NameIdentifierCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.NameIdentifierCollectionInner
+  type: Class
+  summary: <p>Collection of domain name identifiers. </p>
+  syntax:
+    content: public class NameIdentifierCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._domain_recoe0b168edc683df08e9edb9beff45825a
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_recoe0b168edc683df08e9edb9beff45825a.yml
+  name: DomainRecommendationSearchParametersInner
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainRecommendationSearchParametersInner
+  type: Class
+  summary: <p>Domain recommendation search parameters. </p>
+  syntax:
+    content: public class DomainRecommendationSearchParametersInner

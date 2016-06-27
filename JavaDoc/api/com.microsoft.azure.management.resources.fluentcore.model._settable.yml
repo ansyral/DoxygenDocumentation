@@ -1,0 +1,102 @@
+items:
+- uid: com.microsoft.azure.management.resources.fluentcore.model._settable
+  id: _settable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  children:
+  - com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066
+  href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
+  langs:
+  - java
+  name: Settable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Settable.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Settable.java
+    startLine: 8
+  package: com.microsoft.azure.management.resources.fluentcore.model
+  summary: >-
+    <p>The base interface for all template interfaces for child resources that support update operations.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Settable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066
+  id: _settable_1aff7fcac9e49ac1dc14afe615f7bec066
+  parent: com.microsoft.azure.management.resources.fluentcore.model._settable
+  href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
+  langs:
+  - java
+  name: set()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Settable< ParentT >.set()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Settable.java
+    startLine: 19
+  package: com.microsoft.azure.management.resources.fluentcore.model
+  summary: >-
+    <p>Begins an update for a child resource. </p>
+
+    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> is <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax: &o1
+    content: public ParentT set()
+    return:
+      type: 18a275b1
+      description: <p>the stage of parent resource update </p>
+references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
+- uid: com.microsoft.azure.management.compute._data_disk._update
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk._update.yml
+  name: DataDisk.Update
+  fullName: com.microsoft.azure.management.compute.DataDisk.Update
+  type: Interface
+  summary: >-
+    <p>The template for a data disk update operation, containing all the settings that can be modified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  name: NicIpConfiguration.Update
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
+  type: Interface
+  summary: >-
+    <p>The template for a ip configuration update operation, containing all the settings that can be modified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Update
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
+- uid: com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066
+  parent: com.microsoft.azure.management.resources.fluentcore.model._settable
+  href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
+  name: set()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Settable< ParentT >.set()
+  type: Method
+  summary: >-
+    <p>Begins an update for a child resource. </p>
+
+    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> is <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax: *o1

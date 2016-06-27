@@ -1,0 +1,87 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._enabled_config
+  id: _enabled_config
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._enabled_config_1a2622003d9b2e3957f70ecc9c92febf5c
+  - com.microsoft.azure.management.website.implementation.api._enabled_config_1a6c9fa57ed4b796189c790e66cecc1749
+  href: com.microsoft.azure.management.website.implementation.api._enabled_config.yml
+  langs:
+  - java
+  name: EnabledConfig
+  fullName: com.microsoft.azure.management.website.implementation.api.EnabledConfig
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/EnabledConfig.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/EnabledConfig.java
+    startLine: 12
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enabled configuration. </p>
+  syntax: &o1
+    content: public class EnabledConfig
+- uid: com.microsoft.azure.management.website.implementation.api._enabled_config_1a2622003d9b2e3957f70ecc9c92febf5c
+  id: _enabled_config_1a2622003d9b2e3957f70ecc9c92febf5c
+  parent: com.microsoft.azure.management.website.implementation.api._enabled_config
+  href: com.microsoft.azure.management.website.implementation.api._enabled_config.yml
+  langs:
+  - java
+  name: enabled()
+  fullName: Boolean com.microsoft.azure.management.website.implementation.api.EnabledConfig.enabled()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/EnabledConfig.java
+    startLine: 23
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the enabled value.</p>
+
+    <p></p>
+  syntax:
+    content: public Boolean enabled()
+    return:
+      type: 866c2227
+      description: <p>the enabled value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._enabled_config_1a6c9fa57ed4b796189c790e66cecc1749
+  id: _enabled_config_1a6c9fa57ed4b796189c790e66cecc1749
+  parent: com.microsoft.azure.management.website.implementation.api._enabled_config
+  href: com.microsoft.azure.management.website.implementation.api._enabled_config.yml
+  langs:
+  - java
+  name: withEnabled(Boolean enabled)
+  fullName: EnabledConfig com.microsoft.azure.management.website.implementation.api.EnabledConfig.withEnabled(Boolean enabled)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/EnabledConfig.java
+    startLine: 33
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the enabled value.</p>
+
+    <p></p>
+  syntax:
+    content: public EnabledConfig withEnabled(Boolean enabled)
+    parameters:
+    - id: enabled
+      type: 866c2227
+      description: <p>the enabled value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._enabled_config
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._enabled_config" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.azure.management.website.implementation.api._enabled_config
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._enabled_config.yml
+  name: EnabledConfig
+  fullName: com.microsoft.azure.management.website.implementation.api.EnabledConfig
+  type: Class
+  summary: <p>Enabled configuration. </p>
+  syntax: *o1

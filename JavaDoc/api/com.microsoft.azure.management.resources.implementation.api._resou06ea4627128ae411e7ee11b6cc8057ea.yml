@@ -1,0 +1,440 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a7dd621a6397a867b058a24d70e13ed05
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a3003f49375ce002e8c0f2c4d8f0109a1
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a99c546ebe109d09eeb305d2d5f77fcd0
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a5af94a0982c313851d8e3c776361f009
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a14289214872a8da8acaad4d549d36ad4
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1aa86cb55154ca8c0fc12ec355047e8c07
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a6d657edc9328632ebaa428de25269272
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a435399d202ceeae989ee293f0e2727f2
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a4512db36123cb8c83c9dffe641b43024
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a41a9d82305a32bef002ca59fc1b05a4c
+  - com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1aecbf121d1580506a8439e0ed4f9aa39b
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: ResourceGroupsInner.ResourceGroupsService
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 65
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: 'The interface defining all the services for ResourceGroups to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface ResourceGroupsInner.ResourceGroupsService
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a7dd621a6397a867b058a24d70e13ed05
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a7dd621a6397a867b058a24d70e13ed05
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: listResources(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.listResources(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listResources(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: filter
+      type: 32841eb2
+    - id: top
+      type: 757afc4a
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a3003f49375ce002e8c0f2c4d8f0109a1
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a3003f49375ce002e8c0f2c4d8f0109a1
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: checkExistence(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<Void> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.checkExistence(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< Void > checkExistence(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 4d6ffa07
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a99c546ebe109d09eeb305d2d5f77fcd0
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a99c546ebe109d09eeb305d2d5f77fcd0
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ResourceGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ResourceGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ResourceGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.resources.implementation.api._resource_group_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a5af94a0982c313851d8e3c776361f009
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a5af94a0982c313851d8e3c776361f009
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a14289214872a8da8acaad4d549d36ad4
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a14289214872a8da8acaad4d549d36ad4
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1aa86cb55154ca8c0fc12ec355047e8c07
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1aa86cb55154ca8c0fc12ec355047e8c07
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.get(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a6d657edc9328632ebaa428de25269272
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a6d657edc9328632ebaa428de25269272
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: patch(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ResourceGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.patch(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ResourceGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > patch(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ResourceGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.resources.implementation.api._resource_group_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a435399d202ceeae989ee293f0e2727f2
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a435399d202ceeae989ee293f0e2727f2
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: exportTemplate(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ExportTemplateRequestInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.exportTemplate(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ExportTemplateRequestInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > exportTemplate(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Body ExportTemplateRequestInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.resources.implementation.api._export_template_request_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a4512db36123cb8c83c9dffe641b43024
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a4512db36123cb8c83c9dffe641b43024
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: list(@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.list(@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 100
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: filter
+      type: 32841eb2
+    - id: top
+      type: 757afc4a
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1a41a9d82305a32bef002ca59fc1b05a4c
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1a41a9d82305a32bef002ca59fc1b05a4c
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: listResourcesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.listResourcesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 104
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listResourcesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea_1aecbf121d1580506a8439e0ed4f9aa39b
+  id: _resou06ea4627128ae411e7ee11b6cc8057ea_1aecbf121d1580506a8439e0ed4f9aa39b
+  parent: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea
+  href: com.microsoft.azure.management.resources.implementation.api._resou06ea4627128ae411e7ee11b6cc8057ea.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
+    startLine: 108
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: 757afc4a
+  spec.java:
+  - name: '@Query("$top") Integer'
+    fullName: '@Query("$top") Integer'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 4d6ffa07
+  spec.java:
+  - name: Call< Void >
+    fullName: Call< Void >
+- uid: 96b6cf22com.microsoft.azure.management.resources.implementation.api._resource_group_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.resources.implementation.api._resource_group_inner
+    name: ResourceGroupInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.ResourceGroupInner
+    href: com.microsoft.azure.management.resources.implementation.api._resource_group_inner.yml
+- uid: 96b6cf22com.microsoft.azure.management.resources.implementation.api._export_template_request_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.resources.implementation.api._export_template_request_inner
+    name: ExportTemplateRequestInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.ExportTemplateRequestInner
+    href: com.microsoft.azure.management.resources.implementation.api._export_template_request_inner.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.resources.implementation.api._resource_group_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._resource_group_inner.yml
+  name: ResourceGroupInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceGroupInner
+  type: Class
+  summary: 'Resource group information. '
+  syntax:
+    content: public class ResourceGroupInner
+- uid: com.microsoft.azure.management.resources.implementation.api._export_template_request_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._export_template_request_inner.yml
+  name: ExportTemplateRequestInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ExportTemplateRequestInner
+  type: Class
+  summary: 'Export resource group template request parameters. '
+  syntax:
+    content: public class ExportTemplateRequestInner
+- uid: com.microsoft.azure.management.resources._resource_groups
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_groups.yml
+  name: ResourceGroups
+  fullName: com.microsoft.azure.management.resources.ResourceGroups
+  type: Interface
+  summary: 'Entry point to resource group management API. '
+  syntax:
+    content: public interface ResourceGroups

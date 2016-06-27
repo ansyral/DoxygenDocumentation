@@ -1,0 +1,719 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  id: _load_balancing_rule
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a6d38455ace9e89523f6dd06dadd394ce
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a9dfbacc5d94774d99e3d221a7567c122
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a50e084484031045948d5ab56473b9b0e
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a8852570e2d233a66de53d6f7301adfc4
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a99d3670624a7264b660552fb3fa9790f
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a3c5eb07b270bb0d672adc15faafdeb7f
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a4d1ba6a3a685d74b174b2f0d3e53e312
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a2808c3708facdc17053209c978a19961
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1ae064458833b4746e8034fef5d1e5c1a0
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a778b998ad2155c36e92ea162d110db31
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a321aad1351f9e711b0526df545bb3fa9
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a8d490eac933f90e5327c779d3f9ab965
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1aed4362ca8cd3788d86d3b847468b4622
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a480ff32cc76f81556c57006f60b231fa
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1aea8959d2cd3370811f64fb81b340d23b
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a26d36bbf23dc5231e4773b29e774307f
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a4e6d4cec6cff67315b38bef14242028e
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a0418845b92ea1c63795c33c82ca5cf63
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1abf85bc7f41619a97537e439801c7843c
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a4de57de21c495a9e720e76968a7e55b4
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a2992f303852cb3b4ab2f5a7d1aed7522
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a9ced9b3b6b95313aae27dea464342014
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1af9b51b13716303afa30abf656f428f48
+  - com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a90764bb8c59fc74eb2197523e77f5187
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: LoadBalancingRule
+  fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancingRule
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 16
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>Rules of the load balancer. </p>
+  syntax: &o1
+    content: public class LoadBalancingRule
+  inheritance:
+  - com.microsoft.azure._sub_resource
+  inheritedMembers:
+  - com.microsoft.azure._sub_resource_1a92e02020e7fca6a3d2284bc1db599e52
+  - com.microsoft.azure._sub_resource_1a522b0146c9247308f3752dd123100d8a
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a6d38455ace9e89523f6dd06dadd394ce
+  id: _load_balancing_rule_1a6d38455ace9e89523f6dd06dadd394ce
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: backendAddressPool()
+  fullName: SubResource com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.backendAddressPool()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 133
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the backendAddressPool value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubResource backendAddressPool()
+    return:
+      type: com.microsoft.azure._sub_resource
+      description: <p>the backendAddressPool value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a9dfbacc5d94774d99e3d221a7567c122
+  id: _load_balancing_rule_1a9dfbacc5d94774d99e3d221a7567c122
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: backendPort()
+  fullName: Integer com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.backendPort()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 233
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the backendPort value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer backendPort()
+    return:
+      type: 08effaa0
+      description: <p>the backendPort value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a50e084484031045948d5ab56473b9b0e
+  id: _load_balancing_rule_1a50e084484031045948d5ab56473b9b0e
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: enableFloatingIP()
+  fullName: Boolean com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.enableFloatingIP()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 273
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the enableFloatingIP value.</p>
+
+    <p></p>
+  syntax:
+    content: public Boolean enableFloatingIP()
+    return:
+      type: 866c2227
+      description: <p>the enableFloatingIP value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a8852570e2d233a66de53d6f7301adfc4
+  id: _load_balancing_rule_1a8852570e2d233a66de53d6f7301adfc4
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: etag()
+  fullName: String com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.etag()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 333
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the etag value.</p>
+
+    <p></p>
+  syntax:
+    content: public String etag()
+    return:
+      type: "26831127"
+      description: <p>the etag value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a99d3670624a7264b660552fb3fa9790f
+  id: _load_balancing_rule_1a99d3670624a7264b660552fb3fa9790f
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: frontendIPConfiguration()
+  fullName: SubResource com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.frontendIPConfiguration()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 113
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the frontendIPConfiguration value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubResource frontendIPConfiguration()
+    return:
+      type: com.microsoft.azure._sub_resource
+      description: <p>the frontendIPConfiguration value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a3c5eb07b270bb0d672adc15faafdeb7f
+  id: _load_balancing_rule_1a3c5eb07b270bb0d672adc15faafdeb7f
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: frontendPort()
+  fullName: int com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.frontendPort()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 213
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the frontendPort value.</p>
+
+    <p></p>
+  syntax:
+    content: public int frontendPort()
+    return:
+      type: f75371fa
+      description: <p>the frontendPort value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a4d1ba6a3a685d74b174b2f0d3e53e312
+  id: _load_balancing_rule_1a4d1ba6a3a685d74b174b2f0d3e53e312
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: idleTimeoutInMinutes()
+  fullName: Integer com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.idleTimeoutInMinutes()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 253
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the idleTimeoutInMinutes value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer idleTimeoutInMinutes()
+    return:
+      type: 08effaa0
+      description: <p>the idleTimeoutInMinutes value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a2808c3708facdc17053209c978a19961
+  id: _load_balancing_rule_1a2808c3708facdc17053209c978a19961
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: loadDistribution()
+  fullName: String com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.loadDistribution()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 193
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the loadDistribution value.</p>
+
+    <p></p>
+  syntax:
+    content: public String loadDistribution()
+    return:
+      type: "26831127"
+      description: <p>the loadDistribution value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1ae064458833b4746e8034fef5d1e5c1a0
+  id: _load_balancing_rule_1ae064458833b4746e8034fef5d1e5c1a0
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: name()
+  fullName: String com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 313
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a778b998ad2155c36e92ea162d110db31
+  id: _load_balancing_rule_1a778b998ad2155c36e92ea162d110db31
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: probe()
+  fullName: SubResource com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.probe()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 153
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the probe value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubResource probe()
+    return:
+      type: com.microsoft.azure._sub_resource
+      description: <p>the probe value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a321aad1351f9e711b0526df545bb3fa9
+  id: _load_balancing_rule_1a321aad1351f9e711b0526df545bb3fa9
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: protocol()
+  fullName: String com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.protocol()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 173
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the protocol value.</p>
+
+    <p></p>
+  syntax:
+    content: public String protocol()
+    return:
+      type: "26831127"
+      description: <p>the protocol value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a8d490eac933f90e5327c779d3f9ab965
+  id: _load_balancing_rule_1a8d490eac933f90e5327c779d3f9ab965
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: provisioningState()
+  fullName: String com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.provisioningState()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 293
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the provisioningState value.</p>
+
+    <p></p>
+  syntax:
+    content: public String provisioningState()
+    return:
+      type: "26831127"
+      description: <p>the provisioningState value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1aed4362ca8cd3788d86d3b847468b4622
+  id: _load_balancing_rule_1aed4362ca8cd3788d86d3b847468b4622
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withBackendAddressPool(SubResource backendAddressPool)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withBackendAddressPool(SubResource backendAddressPool)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 143
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the backendAddressPool value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withBackendAddressPool(SubResource backendAddressPool)
+    parameters:
+    - id: backendAddressPool
+      type: com.microsoft.azure._sub_resource
+      description: <p>the backendAddressPool value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a480ff32cc76f81556c57006f60b231fa
+  id: _load_balancing_rule_1a480ff32cc76f81556c57006f60b231fa
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withBackendPort(Integer backendPort)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withBackendPort(Integer backendPort)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 243
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the backendPort value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withBackendPort(Integer backendPort)
+    parameters:
+    - id: backendPort
+      type: 08effaa0
+      description: <p>the backendPort value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1aea8959d2cd3370811f64fb81b340d23b
+  id: _load_balancing_rule_1aea8959d2cd3370811f64fb81b340d23b
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withEnableFloatingIP(Boolean enableFloatingIP)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withEnableFloatingIP(Boolean enableFloatingIP)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 283
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the enableFloatingIP value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withEnableFloatingIP(Boolean enableFloatingIP)
+    parameters:
+    - id: enableFloatingIP
+      type: 866c2227
+      description: <p>the enableFloatingIP value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a26d36bbf23dc5231e4773b29e774307f
+  id: _load_balancing_rule_1a26d36bbf23dc5231e4773b29e774307f
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withEtag(String etag)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withEtag(String etag)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 343
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the etag value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withEtag(String etag)
+    parameters:
+    - id: etag
+      type: "26831127"
+      description: <p>the etag value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a4e6d4cec6cff67315b38bef14242028e
+  id: _load_balancing_rule_1a4e6d4cec6cff67315b38bef14242028e
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withFrontendIPConfiguration(SubResource frontendIPConfiguration)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withFrontendIPConfiguration(SubResource frontendIPConfiguration)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 123
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the frontendIPConfiguration value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withFrontendIPConfiguration(SubResource frontendIPConfiguration)
+    parameters:
+    - id: frontendIPConfiguration
+      type: com.microsoft.azure._sub_resource
+      description: <p>the frontendIPConfiguration value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a0418845b92ea1c63795c33c82ca5cf63
+  id: _load_balancing_rule_1a0418845b92ea1c63795c33c82ca5cf63
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withFrontendPort(int frontendPort)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withFrontendPort(int frontendPort)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 223
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the frontendPort value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withFrontendPort(int frontendPort)
+    parameters:
+    - id: frontendPort
+      type: f75371fa
+      description: <p>the frontendPort value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1abf85bc7f41619a97537e439801c7843c
+  id: _load_balancing_rule_1abf85bc7f41619a97537e439801c7843c
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withIdleTimeoutInMinutes(Integer idleTimeoutInMinutes)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withIdleTimeoutInMinutes(Integer idleTimeoutInMinutes)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 263
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the idleTimeoutInMinutes value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withIdleTimeoutInMinutes(Integer idleTimeoutInMinutes)
+    parameters:
+    - id: idleTimeoutInMinutes
+      type: 08effaa0
+      description: <p>the idleTimeoutInMinutes value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a4de57de21c495a9e720e76968a7e55b4
+  id: _load_balancing_rule_1a4de57de21c495a9e720e76968a7e55b4
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withLoadDistribution(String loadDistribution)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withLoadDistribution(String loadDistribution)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 203
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the loadDistribution value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withLoadDistribution(String loadDistribution)
+    parameters:
+    - id: loadDistribution
+      type: "26831127"
+      description: <p>the loadDistribution value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a2992f303852cb3b4ab2f5a7d1aed7522
+  id: _load_balancing_rule_1a2992f303852cb3b4ab2f5a7d1aed7522
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withName(String name)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withName(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 323
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a9ced9b3b6b95313aae27dea464342014
+  id: _load_balancing_rule_1a9ced9b3b6b95313aae27dea464342014
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withProbe(SubResource probe)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withProbe(SubResource probe)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 163
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the probe value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withProbe(SubResource probe)
+    parameters:
+    - id: probe
+      type: com.microsoft.azure._sub_resource
+      description: <p>the probe value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1af9b51b13716303afa30abf656f428f48
+  id: _load_balancing_rule_1af9b51b13716303afa30abf656f428f48
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withProtocol(String protocol)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withProtocol(String protocol)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 183
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the protocol value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withProtocol(String protocol)
+    parameters:
+    - id: protocol
+      type: "26831127"
+      description: <p>the protocol value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule_1a90764bb8c59fc74eb2197523e77f5187
+  id: _load_balancing_rule_1a90764bb8c59fc74eb2197523e77f5187
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  langs:
+  - java
+  name: withProvisioningState(String provisioningState)
+  fullName: LoadBalancingRule com.microsoft.azure.management.network.implementation.api.LoadBalancingRule.withProvisioningState(String provisioningState)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancingRule.java
+    startLine: 303
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the provisioningState value.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancingRule withProvisioningState(String provisioningState)
+    parameters:
+    - id: provisioningState
+      type: "26831127"
+      description: <p>the provisioningState value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancing_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.azure._sub_resource_1a92e02020e7fca6a3d2284bc1db599e52
+  parent: com.microsoft.azure._sub_resource
+  href: com.microsoft.azure._sub_resource.yml
+  name: id()
+  fullName: String com.microsoft.azure.SubResource.id()
+  type: Method
+  summary: >-
+    <p>Get the id value.</p>
+
+    <p></p>
+  syntax:
+    content: public String id()
+    return:
+      type: "26831127"
+      description: <p>the id value </p>
+- uid: com.microsoft.azure._sub_resource_1a522b0146c9247308f3752dd123100d8a
+  parent: com.microsoft.azure._sub_resource
+  href: com.microsoft.azure._sub_resource.yml
+  name: withId(String id)
+  fullName: SubResource com.microsoft.azure.SubResource.withId(String id)
+  type: Method
+  summary: >-
+    <p>Set the id value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubResource withId(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+      description: <p>the id value to set </p>
+    return:
+      type: com.microsoft.azure._sub_resource
+      description: <p>the sub resource itself </p>
+- uid: com.microsoft.azure._sub_resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._sub_resource.yml
+  name: SubResource
+  fullName: com.microsoft.azure.SubResource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._sub_resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class SubResource
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
+  name: LoadBalancingRule
+  fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancingRule
+  type: Class
+  summary: <p>Rules of the load balancer. </p>
+  syntax: *o1

@@ -1,0 +1,804 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  id: _virtual_network_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a086623c2b431fd8750f43f93a0ba2f39
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a312c10283c8010678c10fb14cca39b1f
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a014cff66264e04ba18cf1d71c4036f2e
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1ae3ffed788ea917f637e91d85b1a46d33
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1afd4f6b80945185fdf0c960068df4c46f
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a566f26ea8bd39bf987f77e8eb3462acd
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a88eede39f2d900f2ac8243c61ad5a89c
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a64ee5dc7825b95c184f417b5fdb2107f
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1ac378020799e5dd0dbbd245f8fbf69836
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a99d4869953b2297ec06d8a7fbbcfeb45
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a512e2891b164e87ee783b16dc0a701bf
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1aaff6773bf6ec7df3f43fbc5eb135e591
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1aa5faa8139f3e392ffcb0618d4ddabb3b
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a52f4bcdd061c7c7766c9f2a26165b3af
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1aa6347b53bbdc53494cabf77d18c8eb6c
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a965c7786c31dd035a232aa7a3ee98f10
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1ad5d0611f0c97606b0c88443925297a8b
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a622860e0d231219dca4786572287e6c6
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a16bfd19b06bcd25ef829f062186b978e
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1acfe928feeede08ddc6a18500af9e6b38
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a33db9145a56924f12b5554731e3c0478
+  - com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a233cb7b4e77140f739eb64c279ba6872
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: VirtualNetworkGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 18
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>A common class for general resource information. </p>
+  syntax: &o1
+    content: public class VirtualNetworkGatewayInner
+  inheritance:
+  - com.microsoft.azure._resource
+  inheritedMembers:
+  - com.microsoft.azure._resource_1a2e102c3a5a80cabb644ef19ec31a9b9a
+  - com.microsoft.azure._resource_1a00cc4f65c2d841294380d99ba4fd8782
+  - com.microsoft.azure._resource_1ae54c7770e81b739bf0ecf42aa3881887
+  - com.microsoft.azure._resource_1a0acbe5481adee4c388e642dfdfeb18e6
+  - com.microsoft.azure._resource_1aff3f1f9fe4db6f84d424cd354369e1cd
+  - com.microsoft.azure._resource_1a6a1f31436a35ab46583c7e741601a2e8
+  - com.microsoft.azure._resource_1a832de9258cf4a03d822c4fe33db8768b
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a086623c2b431fd8750f43f93a0ba2f39
+  id: _virtual_network_gateway_inner_1a086623c2b431fd8750f43f93a0ba2f39
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: bgpSettings()
+  fullName: BgpSettings com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.bgpSettings()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 238
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the bgpSettings value.</p>
+
+    <p></p>
+  syntax:
+    content: public BgpSettings bgpSettings()
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._bgp_settings
+      description: <p>the bgpSettings value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a312c10283c8010678c10fb14cca39b1f
+  id: _virtual_network_gateway_inner_1a312c10283c8010678c10fb14cca39b1f
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: enableBgp()
+  fullName: Boolean com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.enableBgp()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 158
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the enableBgp value.</p>
+
+    <p></p>
+  syntax:
+    content: public Boolean enableBgp()
+    return:
+      type: 866c2227
+      description: <p>the enableBgp value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a014cff66264e04ba18cf1d71c4036f2e
+  id: _virtual_network_gateway_inner_1a014cff66264e04ba18cf1d71c4036f2e
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: etag()
+  fullName: String com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.etag()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 298
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the etag value.</p>
+
+    <p></p>
+  syntax:
+    content: public String etag()
+    return:
+      type: "26831127"
+      description: <p>the etag value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1ae3ffed788ea917f637e91d85b1a46d33
+  id: _virtual_network_gateway_inner_1ae3ffed788ea917f637e91d85b1a46d33
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: gatewayDefaultSite()
+  fullName: SubResource com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.gatewayDefaultSite()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 178
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the gatewayDefaultSite value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubResource gatewayDefaultSite()
+    return:
+      type: com.microsoft.azure._sub_resource
+      description: <p>the gatewayDefaultSite value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1afd4f6b80945185fdf0c960068df4c46f
+  id: _virtual_network_gateway_inner_1afd4f6b80945185fdf0c960068df4c46f
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: gatewayType()
+  fullName: String com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.gatewayType()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 118
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the gatewayType value.</p>
+
+    <p></p>
+  syntax:
+    content: public String gatewayType()
+    return:
+      type: "26831127"
+      description: <p>the gatewayType value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a566f26ea8bd39bf987f77e8eb3462acd
+  id: _virtual_network_gateway_inner_1a566f26ea8bd39bf987f77e8eb3462acd
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: ipConfigurations()
+  fullName: List<VirtualNetworkGatewayIPConfiguration> com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.ipConfigurations()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 98
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the ipConfigurations value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< VirtualNetworkGatewayIPConfiguration > ipConfigurations()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration9ec3e006
+      description: <p>the ipConfigurations value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a88eede39f2d900f2ac8243c61ad5a89c
+  id: _virtual_network_gateway_inner_1a88eede39f2d900f2ac8243c61ad5a89c
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: provisioningState()
+  fullName: String com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.provisioningState()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 278
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the provisioningState value.</p>
+
+    <p></p>
+  syntax:
+    content: public String provisioningState()
+    return:
+      type: "26831127"
+      description: <p>the provisioningState value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a64ee5dc7825b95c184f417b5fdb2107f
+  id: _virtual_network_gateway_inner_1a64ee5dc7825b95c184f417b5fdb2107f
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: resourceGuid()
+  fullName: String com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.resourceGuid()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 258
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the resourceGuid value.</p>
+
+    <p></p>
+  syntax:
+    content: public String resourceGuid()
+    return:
+      type: "26831127"
+      description: <p>the resourceGuid value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1ac378020799e5dd0dbbd245f8fbf69836
+  id: _virtual_network_gateway_inner_1ac378020799e5dd0dbbd245f8fbf69836
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: sku()
+  fullName: VirtualNetworkGatewaySku com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.sku()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 198
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the sku value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewaySku sku()
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_sku
+      description: <p>the sku value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a99d4869953b2297ec06d8a7fbbcfeb45
+  id: _virtual_network_gateway_inner_1a99d4869953b2297ec06d8a7fbbcfeb45
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: vpnClientConfiguration()
+  fullName: VpnClientConfiguration com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.vpnClientConfiguration()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 218
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the vpnClientConfiguration value.</p>
+
+    <p></p>
+  syntax:
+    content: public VpnClientConfiguration vpnClientConfiguration()
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._vpn_client_configuration
+      description: <p>the vpnClientConfiguration value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a512e2891b164e87ee783b16dc0a701bf
+  id: _virtual_network_gateway_inner_1a512e2891b164e87ee783b16dc0a701bf
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: vpnType()
+  fullName: String com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.vpnType()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 138
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the vpnType value.</p>
+
+    <p></p>
+  syntax:
+    content: public String vpnType()
+    return:
+      type: "26831127"
+      description: <p>the vpnType value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1aaff6773bf6ec7df3f43fbc5eb135e591
+  id: _virtual_network_gateway_inner_1aaff6773bf6ec7df3f43fbc5eb135e591
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withBgpSettings(BgpSettings bgpSettings)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withBgpSettings(BgpSettings bgpSettings)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 248
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the bgpSettings value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withBgpSettings(BgpSettings bgpSettings)
+    parameters:
+    - id: bgpSettings
+      type: com.microsoft.azure.management.network.implementation.api._bgp_settings
+      description: <p>the bgpSettings value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1aa5faa8139f3e392ffcb0618d4ddabb3b
+  id: _virtual_network_gateway_inner_1aa5faa8139f3e392ffcb0618d4ddabb3b
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withEnableBgp(Boolean enableBgp)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withEnableBgp(Boolean enableBgp)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 168
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the enableBgp value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withEnableBgp(Boolean enableBgp)
+    parameters:
+    - id: enableBgp
+      type: 866c2227
+      description: <p>the enableBgp value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a52f4bcdd061c7c7766c9f2a26165b3af
+  id: _virtual_network_gateway_inner_1a52f4bcdd061c7c7766c9f2a26165b3af
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withEtag(String etag)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withEtag(String etag)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 308
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the etag value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withEtag(String etag)
+    parameters:
+    - id: etag
+      type: "26831127"
+      description: <p>the etag value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1aa6347b53bbdc53494cabf77d18c8eb6c
+  id: _virtual_network_gateway_inner_1aa6347b53bbdc53494cabf77d18c8eb6c
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withGatewayDefaultSite(SubResource gatewayDefaultSite)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withGatewayDefaultSite(SubResource gatewayDefaultSite)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 188
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the gatewayDefaultSite value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withGatewayDefaultSite(SubResource gatewayDefaultSite)
+    parameters:
+    - id: gatewayDefaultSite
+      type: com.microsoft.azure._sub_resource
+      description: <p>the gatewayDefaultSite value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a965c7786c31dd035a232aa7a3ee98f10
+  id: _virtual_network_gateway_inner_1a965c7786c31dd035a232aa7a3ee98f10
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withGatewayType(String gatewayType)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withGatewayType(String gatewayType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 128
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the gatewayType value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withGatewayType(String gatewayType)
+    parameters:
+    - id: gatewayType
+      type: "26831127"
+      description: <p>the gatewayType value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1ad5d0611f0c97606b0c88443925297a8b
+  id: _virtual_network_gateway_inner_1ad5d0611f0c97606b0c88443925297a8b
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withIpConfigurations(List< VirtualNetworkGatewayIPConfiguration > ipConfigurations)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withIpConfigurations(List< VirtualNetworkGatewayIPConfiguration > ipConfigurations)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 108
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the ipConfigurations value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withIpConfigurations(List< VirtualNetworkGatewayIPConfiguration > ipConfigurations)
+    parameters:
+    - id: ipConfigurations
+      type: f6a6204dcom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration9ec3e006
+      description: <p>the ipConfigurations value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a622860e0d231219dca4786572287e6c6
+  id: _virtual_network_gateway_inner_1a622860e0d231219dca4786572287e6c6
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withProvisioningState(String provisioningState)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withProvisioningState(String provisioningState)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 288
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the provisioningState value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withProvisioningState(String provisioningState)
+    parameters:
+    - id: provisioningState
+      type: "26831127"
+      description: <p>the provisioningState value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a16bfd19b06bcd25ef829f062186b978e
+  id: _virtual_network_gateway_inner_1a16bfd19b06bcd25ef829f062186b978e
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withResourceGuid(String resourceGuid)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withResourceGuid(String resourceGuid)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 268
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the resourceGuid value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withResourceGuid(String resourceGuid)
+    parameters:
+    - id: resourceGuid
+      type: "26831127"
+      description: <p>the resourceGuid value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1acfe928feeede08ddc6a18500af9e6b38
+  id: _virtual_network_gateway_inner_1acfe928feeede08ddc6a18500af9e6b38
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withSku(VirtualNetworkGatewaySku sku)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withSku(VirtualNetworkGatewaySku sku)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 208
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the sku value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withSku(VirtualNetworkGatewaySku sku)
+    parameters:
+    - id: sku
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_sku
+      description: <p>the sku value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a33db9145a56924f12b5554731e3c0478
+  id: _virtual_network_gateway_inner_1a33db9145a56924f12b5554731e3c0478
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withVpnClientConfiguration(VpnClientConfiguration vpnClientConfiguration)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withVpnClientConfiguration(VpnClientConfiguration vpnClientConfiguration)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 228
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the vpnClientConfiguration value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withVpnClientConfiguration(VpnClientConfiguration vpnClientConfiguration)
+    parameters:
+    - id: vpnClientConfiguration
+      type: com.microsoft.azure.management.network.implementation.api._vpn_client_configuration
+      description: <p>the vpnClientConfiguration value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner_1a233cb7b4e77140f739eb64c279ba6872
+  id: _virtual_network_gateway_inner_1a233cb7b4e77140f739eb64c279ba6872
+  parent: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  langs:
+  - java
+  name: withVpnType(String vpnType)
+  fullName: VirtualNetworkGatewayInner com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner.withVpnType(String vpnType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworkGatewayInner.java
+    startLine: 148
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the vpnType value.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualNetworkGatewayInner withVpnType(String vpnType)
+    parameters:
+    - id: vpnType
+      type: "26831127"
+      description: <p>the vpnType value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration
+    name: VirtualNetworkGatewayIPConfiguration
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayIPConfiguration
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.azure._resource_1a2e102c3a5a80cabb644ef19ec31a9b9a
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: getTags()
+  fullName: Map<String, String> com.microsoft.azure.Resource.getTags()
+  type: Method
+  summary: >-
+    <p>Get the tags value.</p>
+
+    <p></p>
+  syntax:
+    content: public Map< String, String > getTags()
+    return:
+      type: 805937fc
+      description: <p>the tags value </p>
+- uid: com.microsoft.azure._resource_1a00cc4f65c2d841294380d99ba4fd8782
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: id()
+  fullName: String com.microsoft.azure.Resource.id()
+  type: Method
+  summary: >-
+    <p>Get the id value.</p>
+
+    <p></p>
+  syntax:
+    content: public String id()
+    return:
+      type: "26831127"
+      description: <p>the id value </p>
+- uid: com.microsoft.azure._resource_1ae54c7770e81b739bf0ecf42aa3881887
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: location()
+  fullName: String com.microsoft.azure.Resource.location()
+  type: Method
+  summary: >-
+    <p>Get the location value.</p>
+
+    <p></p>
+  syntax:
+    content: public String location()
+    return:
+      type: "26831127"
+      description: <p>the location value </p>
+- uid: com.microsoft.azure._resource_1a0acbe5481adee4c388e642dfdfeb18e6
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: name()
+  fullName: String com.microsoft.azure.Resource.name()
+  type: Method
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name value </p>
+- uid: com.microsoft.azure._resource_1aff3f1f9fe4db6f84d424cd354369e1cd
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: type()
+  fullName: String com.microsoft.azure.Resource.type()
+  type: Method
+  summary: >-
+    <p>Get the type value.</p>
+
+    <p></p>
+  syntax:
+    content: public String type()
+    return:
+      type: "26831127"
+      description: <p>the type value </p>
+- uid: com.microsoft.azure._resource_1a6a1f31436a35ab46583c7e741601a2e8
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: withLocation(String location)
+  fullName: Resource com.microsoft.azure.Resource.withLocation(String location)
+  type: Method
+  summary: >-
+    <p>Set the location value.</p>
+
+    <p></p>
+  syntax:
+    content: public Resource withLocation(String location)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the location value to set </p>
+    return:
+      type: com.microsoft.azure._resource
+      description: <p>the resource itself </p>
+- uid: com.microsoft.azure._resource_1a832de9258cf4a03d822c4fe33db8768b
+  parent: com.microsoft.azure._resource
+  href: com.microsoft.azure._resource.yml
+  name: withTags(Map< String, String > tags)
+  fullName: Resource com.microsoft.azure.Resource.withTags(Map< String, String > tags)
+  type: Method
+  summary: >-
+    <p>Set the tags value.</p>
+
+    <p></p>
+  syntax:
+    content: public Resource withTags(Map< String, String > tags)
+    parameters:
+    - id: tags
+      type: 805937fc
+      description: <p>the tags value to set </p>
+    return:
+      type: com.microsoft.azure._resource
+      description: <p>the resource itself </p>
+- uid: com.microsoft.azure._resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._resource.yml
+  name: Resource
+  fullName: com.microsoft.azure.Resource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class Resource
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration.yml
+  name: VirtualNetworkGatewayIPConfiguration
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayIPConfiguration
+  type: Class
+  summary: <p>IpConfiguration for Virtual network gateway. </p>
+  syntax:
+    content: public class VirtualNetworkGatewayIPConfiguration
+- uid: com.microsoft.azure._sub_resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._sub_resource.yml
+  name: SubResource
+  fullName: com.microsoft.azure.SubResource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._sub_resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class SubResource
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_sku
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_sku.yml
+  name: VirtualNetworkGatewaySku
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewaySku
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_sku" data-throw-if-not-resolved="false"></xref> details. </p>
+  syntax:
+    content: public class VirtualNetworkGatewaySku
+- uid: com.microsoft.azure.management.network.implementation.api._vpn_client_configuration
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._vpn_client_configuration.yml
+  name: VpnClientConfiguration
+  fullName: com.microsoft.azure.management.network.implementation.api.VpnClientConfiguration
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network.implementation.api._vpn_client_configuration" data-throw-if-not-resolved="false"></xref> for P2S client. </p>
+  syntax:
+    content: public class VpnClientConfiguration
+- uid: com.microsoft.azure.management.network.implementation.api._bgp_settings
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._bgp_settings.yml
+  name: BgpSettings
+  fullName: com.microsoft.azure.management.network.implementation.api.BgpSettings
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure.management.network.implementation.api._bgp_settings" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class BgpSettings
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_inner.yml
+  name: VirtualNetworkGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkGatewayInner
+  type: Class
+  summary: <p>A common class for general resource information. </p>
+  syntax: *o1

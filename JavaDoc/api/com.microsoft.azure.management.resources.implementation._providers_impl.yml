@@ -1,0 +1,199 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation._providers_impl
+  id: _providers_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  children:
+  - com.microsoft.azure.management.resources.implementation._providers_impl_1adbcf51cc0c683643338b8d23e528f8ad
+  - com.microsoft.azure.management.resources.implementation._providers_impl_1a5abd8a8d2f6c7d2e77ba3126f1f302ed
+  - com.microsoft.azure.management.resources.implementation._providers_impl_1a0318ff205ea9a76dcfe8f9c502c96148
+  - com.microsoft.azure.management.resources.implementation._providers_impl_1a29033aa2def37862c83f122fe4393d36
+  - com.microsoft.azure.management.resources.implementation._providers_impl_1a8dd45d2e70014c45f59498c727449718
+  href: com.microsoft.azure.management.resources.implementation._providers_impl.yml
+  langs:
+  - java
+  name: ProvidersImpl
+  fullName: com.microsoft.azure.management.resources.implementation.ProvidersImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+    startLine: 21
+  package: com.microsoft.azure.management.resources.implementation
+  summary: 'The implementation for Providers and its parent interfaces. '
+  syntax:
+    content: class ProvidersImpl
+- uid: com.microsoft.azure.management.resources.implementation._providers_impl_1adbcf51cc0c683643338b8d23e528f8ad
+  id: _providers_impl_1adbcf51cc0c683643338b8d23e528f8ad
+  parent: com.microsoft.azure.management.resources.implementation._providers_impl
+  href: com.microsoft.azure.management.resources.implementation._providers_impl.yml
+  langs:
+  - java
+  name: ProvidersImpl(final ProvidersInner client)
+  fullName: com.microsoft.azure.management.resources.implementation.ProvidersImpl.ProvidersImpl(final ProvidersInner client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+    startLine: 25
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: ProvidersImpl(final ProvidersInner client)
+    parameters:
+    - id: client
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation.api._providers_inner
+- uid: com.microsoft.azure.management.resources.implementation._providers_impl_1a5abd8a8d2f6c7d2e77ba3126f1f302ed
+  id: _providers_impl_1a5abd8a8d2f6c7d2e77ba3126f1f302ed
+  parent: com.microsoft.azure.management.resources.implementation._providers_impl
+  href: com.microsoft.azure.management.resources.implementation._providers_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<Provider> com.microsoft.azure.management.resources.implementation.ProvidersImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+    startLine: 30
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public PagedList< Provider > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._provider9ec3e006
+- uid: com.microsoft.azure.management.resources.implementation._providers_impl_1a0318ff205ea9a76dcfe8f9c502c96148
+  id: _providers_impl_1a0318ff205ea9a76dcfe8f9c502c96148
+  parent: com.microsoft.azure.management.resources.implementation._providers_impl
+  href: com.microsoft.azure.management.resources.implementation._providers_impl.yml
+  langs:
+  - java
+  name: unregister(String resourceProviderNamespace)
+  fullName: Provider com.microsoft.azure.management.resources.implementation.ProvidersImpl.unregister(String resourceProviderNamespace)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+    startLine: 41
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Provider unregister(String resourceProviderNamespace)
+    parameters:
+    - id: resourceProviderNamespace
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._provider
+- uid: com.microsoft.azure.management.resources.implementation._providers_impl_1a29033aa2def37862c83f122fe4393d36
+  id: _providers_impl_1a29033aa2def37862c83f122fe4393d36
+  parent: com.microsoft.azure.management.resources.implementation._providers_impl
+  href: com.microsoft.azure.management.resources.implementation._providers_impl.yml
+  langs:
+  - java
+  name: register(String resourceProviderNamespace)
+  fullName: Provider com.microsoft.azure.management.resources.implementation.ProvidersImpl.register(String resourceProviderNamespace)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+    startLine: 46
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Provider register(String resourceProviderNamespace)
+    parameters:
+    - id: resourceProviderNamespace
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._provider
+- uid: com.microsoft.azure.management.resources.implementation._providers_impl_1a8dd45d2e70014c45f59498c727449718
+  id: _providers_impl_1a8dd45d2e70014c45f59498c727449718
+  parent: com.microsoft.azure.management.resources.implementation._providers_impl
+  href: com.microsoft.azure.management.resources.implementation._providers_impl.yml
+  langs:
+  - java
+  name: getByName(String resourceProviderNamespace)
+  fullName: Provider com.microsoft.azure.management.resources.implementation.ProvidersImpl.getByName(String resourceProviderNamespace)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/ProvidersImpl.java
+    startLine: 51
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public Provider getByName(String resourceProviderNamespace)
+    parameters:
+    - id: resourceProviderNamespace
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._provider
+references:
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation.api._providers_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation.api._providers_inner
+    name: ProvidersInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.ProvidersInner
+    href: com.microsoft.azure.management.resources.implementation.api._providers_inner.yml
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._provider9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources._provider
+    name: Provider
+    fullName: com.microsoft.azure.management.resources.Provider
+    href: com.microsoft.azure.management.resources._provider.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources._providers
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._providers.yml
+  name: Providers
+  fullName: com.microsoft.azure.management.resources.Providers
+  type: Interface
+  summary: 'Entry point to providers management API. '
+  syntax:
+    content: public interface Providers
+- uid: com.microsoft.azure.management.resources.implementation.api._providers_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._providers_inner.yml
+  name: ProvidersInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ProvidersInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in Providers. '
+  syntax:
+    content: public class ProvidersInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.resources._provider
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._provider.yml
+  name: Provider
+  fullName: com.microsoft.azure.management.resources.Provider
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure resource provider. '
+  syntax:
+    content: public interface Provider
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException

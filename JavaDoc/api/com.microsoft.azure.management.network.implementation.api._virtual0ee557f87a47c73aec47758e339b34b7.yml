@@ -1,0 +1,352 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  id: _virtual0ee557f87a47c73aec47758e339b34b7
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1acf41ed09fd05dcd4d5a3a2c77db60acb
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a93e8004db7baa4ef36e5d9bf17de06e5
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a893c6a0ac641aba5b36692433045bb02
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a2b4301683cec3e21e9762aa1c220f9e5
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a84ec1c0ed35fa01b198f48ef58436927
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1ad064262c4cbaaf0c60a96950a6adf9fe
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1afce899c46a47b905f72a853aa99459fc
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a2317e67aabe8c590d032294492065e50
+  - com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a71d05d5a5c1b4bb50504db889b731fb7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: VirtualNetworksInner.VirtualNetworksService
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: 'The interface defining all the services for VirtualNetworks to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface VirtualNetworksInner.VirtualNetworksService
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1acf41ed09fd05dcd4d5a3a2c77db60acb
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1acf41ed09fd05dcd4d5a3a2c77db60acb
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualNetworkName
+      type: 40c621b2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a93e8004db7baa4ef36e5d9bf17de06e5
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1a93e8004db7baa4ef36e5d9bf17de06e5
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualNetworkName
+      type: 40c621b2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a893c6a0ac641aba5b36692433045bb02
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1a893c6a0ac641aba5b36692433045bb02
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.get(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualNetworkName
+      type: 40c621b2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: expand
+      type: 99e81acb
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a2b4301683cec3e21e9762aa1c220f9e5
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1a2b4301683cec3e21e9762aa1c220f9e5
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Body VirtualNetworkInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Body VirtualNetworkInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Body VirtualNetworkInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualNetworkName
+      type: 40c621b2
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a84ec1c0ed35fa01b198f48ef58436927
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1a84ec1c0ed35fa01b198f48ef58436927
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Body VirtualNetworkInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Body VirtualNetworkInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("virtualNetworkName") String virtualNetworkName,@Path("subscriptionId") String subscriptionId,@Body VirtualNetworkInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualNetworkName
+      type: 40c621b2
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1ad064262c4cbaaf0c60a96950a6adf9fe
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1ad064262c4cbaaf0c60a96950a6adf9fe
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1afce899c46a47b905f72a853aa99459fc
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1afce899c46a47b905f72a853aa99459fc
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a2317e67aabe8c590d032294492065e50
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1a2317e67aabe8c590d032294492065e50
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7_1a71d05d5a5c1b4bb50504db889b731fb7
+  id: _virtual0ee557f87a47c73aec47758e339b34b7_1a71d05d5a5c1b4bb50504db889b731fb7
+  parent: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7
+  href: com.microsoft.azure.management.network.implementation.api._virtual0ee557f87a47c73aec47758e339b34b7.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner.VirtualNetworksService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/VirtualNetworksInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: 40c621b2
+  spec.java:
+  - name: '@Path("virtualNetworkName") String'
+    fullName: '@Path("virtualNetworkName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: 96b6cf22com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+    name: VirtualNetworkInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_network_inner.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_inner.yml
+  name: VirtualNetworkInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkInner
+  type: Class
+  summary: 'Virtual Network resource. '
+  syntax:
+    content: public class VirtualNetworkInner

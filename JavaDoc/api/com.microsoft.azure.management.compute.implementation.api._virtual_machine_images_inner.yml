@@ -1,0 +1,660 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  id: _virtual_machine_images_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a0abee481102ab64fe3a54573c0da3534
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ada346b9cfda926f3aee0ce3f3a896241
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ad9c8f8e5e51133280f9739f7562dbfa7
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a3049b61420d34fd8fd9e19dabe4d0c9f
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a5833779b65f20d226a2cc8443cc095e1
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1aec49a04c4e534a0fb0b267d49454842e
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a5612b301f7baa0554d8b834a73b3d6db
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ad9b87b440664fcbc4ad647b053048902
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a6af43490ac5f8970fa51d512c6fcf135
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ad99ac7221762f7ca01fff57f3fb69486
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ae5268d5b052c3332238924109cae47bf
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ae8071535b160182cf6ac8d51c8b82190
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ae5f61b44ba472a336ac2bedc498c5217
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: VirtualMachineImagesInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 31
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.compute._virtual_machine_images" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class VirtualMachineImagesInner
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a0abee481102ab64fe3a54573c0da3534
+  id: _virtual_machine_images_inner_1a0abee481102ab64fe3a54573c0da3534
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: get(String location, String publisherName, String offer, String skus, String version)
+  fullName: ServiceResponse<VirtualMachineImageInner> com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.get(String location, String publisherName, String offer, String skus, String version)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a virtual machine image.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualMachineImageInner > get(String location, String publisherName, String offer, String skus, String version)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: skus
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: version
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ada346b9cfda926f3aee0ce3f3a896241
+  id: _virtual_machine_images_inner_1ada346b9cfda926f3aee0ce3f3a896241
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: getAsync(String location, String publisherName, String offer, String skus, String version, final ServiceCallback< VirtualMachineImageInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.getAsync(String location, String publisherName, String offer, String skus, String version, final ServiceCallback< VirtualMachineImageInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 126
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a virtual machine image.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String location, String publisherName, String offer, String skus, String version, final ServiceCallback< VirtualMachineImageInner > serviceCallback)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: skus
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: version
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ad9c8f8e5e51133280f9739f7562dbfa7
+  id: _virtual_machine_images_inner_1ad9c8f8e5e51133280f9739f7562dbfa7
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: list(String location, String publisherName, String offer, String skus)
+  fullName: ServiceResponse<List<VirtualMachineImageResourceInner> > com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.list(String location, String publisherName, String offer, String skus)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 192
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine images.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< VirtualMachineImageResourceInner > > list(String location, String publisherName, String offer, String skus)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: skus
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a3049b61420d34fd8fd9e19dabe4d0c9f
+  id: _virtual_machine_images_inner_1a3049b61420d34fd8fd9e19dabe4d0c9f
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: list(String location, String publisherName, String offer, String skus, String filter, Integer top, String orderby)
+  fullName: ServiceResponse<List<VirtualMachineImageResourceInner> > com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.list(String location, String publisherName, String offer, String skus, String filter, Integer top, String orderby)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 290
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine images.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< VirtualMachineImageResourceInner > > list(String location, String publisherName, String offer, String skus, String filter, Integer top, String orderby)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: skus
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: filter
+      type: "26831127"
+      description: <p>The filter to apply on the operation. </p>
+    - id: top
+      type: 08effaa0
+      description: <p>the Integer value </p>
+    - id: orderby
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a5833779b65f20d226a2cc8443cc095e1
+  id: _virtual_machine_images_inner_1a5833779b65f20d226a2cc8443cc095e1
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listAsync(String location, String publisherName, String offer, String skus, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listAsync(String location, String publisherName, String offer, String skus, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 229
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine images.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(String location, String publisherName, String offer, String skus, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: skus
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1aec49a04c4e534a0fb0b267d49454842e
+  id: _virtual_machine_images_inner_1aec49a04c4e534a0fb0b267d49454842e
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listAsync(String location, String publisherName, String offer, String skus, String filter, Integer top, String orderby, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listAsync(String location, String publisherName, String offer, String skus, String filter, Integer top, String orderby, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 327
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine images.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(String location, String publisherName, String offer, String skus, String filter, Integer top, String orderby, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: skus
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: filter
+      type: "26831127"
+      description: <p>The filter to apply on the operation. </p>
+    - id: top
+      type: 08effaa0
+      description: <p>the Integer value </p>
+    - id: orderby
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a5612b301f7baa0554d8b834a73b3d6db
+  id: _virtual_machine_images_inner_1a5612b301f7baa0554d8b834a73b3d6db
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listOffers(String location, String publisherName)
+  fullName: ServiceResponse<List<VirtualMachineImageResourceInner> > com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listOffers(String location, String publisherName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 387
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine image offers.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< VirtualMachineImageResourceInner > > listOffers(String location, String publisherName)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ad9b87b440664fcbc4ad647b053048902
+  id: _virtual_machine_images_inner_1ad9b87b440664fcbc4ad647b053048902
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listOffersAsync(String location, String publisherName, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listOffersAsync(String location, String publisherName, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 413
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine image offers.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listOffersAsync(String location, String publisherName, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1a6af43490ac5f8970fa51d512c6fcf135
+  id: _virtual_machine_images_inner_1a6af43490ac5f8970fa51d512c6fcf135
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listPublishers(String location)
+  fullName: ServiceResponse<List<VirtualMachineImageResourceInner> > com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listPublishers(String location)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 464
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine image publishers.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< VirtualMachineImageResourceInner > > listPublishers(String location)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ad99ac7221762f7ca01fff57f3fb69486
+  id: _virtual_machine_images_inner_1ad99ac7221762f7ca01fff57f3fb69486
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listPublishersAsync(String location, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listPublishersAsync(String location, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 486
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine image publishers.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listPublishersAsync(String location, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ae5268d5b052c3332238924109cae47bf
+  id: _virtual_machine_images_inner_1ae5268d5b052c3332238924109cae47bf
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listSkus(String location, String publisherName, String offer)
+  fullName: ServiceResponse<List<VirtualMachineImageResourceInner> > com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listSkus(String location, String publisherName, String offer)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 535
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine image skus.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< List< VirtualMachineImageResourceInner > > listSkus(String location, String publisherName, String offer)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ae8071535b160182cf6ac8d51c8b82190
+  id: _virtual_machine_images_inner_1ae8071535b160182cf6ac8d51c8b82190
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: listSkusAsync(String location, String publisherName, String offer, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.listSkusAsync(String location, String publisherName, String offer, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 565
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Gets a list of virtual machine image skus.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listSkusAsync(String location, String publisherName, String offer, final ServiceCallback< List< VirtualMachineImageResourceInner >> serviceCallback)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: publisherName
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: offer
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerc8b8729b
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner_1ae5f61b44ba472a336ac2bedc498c5217
+  id: _virtual_machine_images_inner_1ae5f61b44ba472a336ac2bedc498c5217
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  langs:
+  - java
+  name: VirtualMachineImagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner.VirtualMachineImagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineImagesInner.java
+    startLine: 43
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualMachineImagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner
+    name: VirtualMachineImageInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImageInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner
+    name: VirtualMachineImageInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImageInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner
+    name: VirtualMachineImageResourceInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImageResourceInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_innerc8b8729b
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< List< '
+    fullName: '< List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner
+    name: VirtualMachineImageResourceInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImageResourceInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner.yml
+  - name: ' >>'
+    fullName: ' >>'
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual779e3ca22d80f87af5e535e85f55c1bd
+- uid: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl.yml
+  name: ComputeManagementClientImpl
+  fullName: com.microsoft.azure.management.compute.implementation.api.ComputeManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class ComputeManagementClientImpl
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  name: VirtualMachineImagesInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.compute._virtual_machine_images" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_inner.yml
+  name: VirtualMachineImageInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImageInner
+  type: Class
+  summary: <p>Describes a Virtual Machine Image. </p>
+  syntax:
+    content: public class VirtualMachineImageInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner.yml
+  name: VirtualMachineImageResourceInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImageResourceInner
+  type: Class
+  summary: <p>Virtual machine image resource information. </p>
+  syntax:
+    content: public class VirtualMachineImageResourceInner
+- uid: com.microsoft.azure.management.compute._virtual_machine_images
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_images.yml
+  name: VirtualMachineImages
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImages
+  type: Interface
+  summary: <p>Entry point to virtual machine image management API. </p>
+  syntax:
+    content: public interface VirtualMachineImages

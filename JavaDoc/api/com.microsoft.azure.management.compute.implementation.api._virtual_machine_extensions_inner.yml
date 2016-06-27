@@ -1,0 +1,620 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  id: _virtual_machine_extensions_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a1150ab7d3f1f377700c4bb6334c940e5
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a0683a39fccb4bad8d248aec76b216489
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a0a83e1c13edb4e6d3c2a39ab4e0f672d
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1ab094dac5358ed578bc616bce5c6ef736
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a6772ad6ca28893846f5d942f2b79b85e
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1ae8f97de78cd5345386cdc0eb0f915771
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1aed75d95cc10b906c59cd544a2c0c8d89
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a9299a8997347831b5529c44a55410c2a
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1afa9e3ec65e97814b4af726e2f4876c6b
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1ad00ed5026079eaed6834206fe45f3080
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1af157b0391c604c7adf75deaeb4134706
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a20a77c0c970facf09e7f7c3956fe0469
+  - com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1aeade743411067a88b8ae50c16aeac2f0
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: VirtualMachineExtensionsInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 35
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in VirtualMachineExtensions. </p>
+  syntax: &o1
+    content: public class VirtualMachineExtensionsInner
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a1150ab7d3f1f377700c4bb6334c940e5
+  id: _virtual_machine_extensions_inner_1a1150ab7d3f1f377700c4bb6334c940e5
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters)
+  fullName: ServiceResponse<VirtualMachineExtensionInner> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.beginCreateOrUpdate(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 177
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to create or update the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualMachineExtensionInner > beginCreateOrUpdate(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be create or updated. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: extensionParameters
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+      description: <p>Parameters supplied to the Create Virtual Machine Extension operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a0683a39fccb4bad8d248aec76b216489
+  id: _virtual_machine_extensions_inner_1a0683a39fccb4bad8d248aec76b216489
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.beginCreateOrUpdateAsync(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 212
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to create or update the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be create or updated. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: extensionParameters
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+      description: <p>Parameters supplied to the Create Virtual Machine Extension operation. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a0a83e1c13edb4e6d3c2a39ab4e0f672d
+  id: _virtual_machine_extensions_inner_1a0a83e1c13edb4e6d3c2a39ab4e0f672d
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String vmName, String vmExtensionName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.beginDelete(String resourceGroupName, String vmName, String vmExtensionName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 351
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to delete the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String vmName, String vmExtensionName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be deleted. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1ab094dac5358ed578bc616bce5c6ef736
+  id: _virtual_machine_extensions_inner_1ab094dac5358ed578bc616bce5c6ef736
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.beginDeleteAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 381
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to delete the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be deleted. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a6772ad6ca28893846f5d942f2b79b85e
+  id: _virtual_machine_extensions_inner_1a6772ad6ca28893846f5d942f2b79b85e
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters)
+  fullName: ServiceResponse<VirtualMachineExtensionInner> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.createOrUpdate(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to create or update the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualMachineExtensionInner > createOrUpdate(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be create or updated. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: extensionParameters
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+      description: <p>Parameters supplied to the Create Virtual Machine Extension operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1ae8f97de78cd5345386cdc0eb0f915771
+  id: _virtual_machine_extensions_inner_1ae8f97de78cd5345386cdc0eb0f915771
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.createOrUpdateAsync(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 127
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to create or update the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String vmName, String vmExtensionName, VirtualMachineExtensionInner extensionParameters, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be create or updated. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: extensionParameters
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+      description: <p>Parameters supplied to the Create Virtual Machine Extension operation. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1aed75d95cc10b906c59cd544a2c0c8d89
+  id: _virtual_machine_extensions_inner_1aed75d95cc10b906c59cd544a2c0c8d89
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String vmName, String vmExtensionName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.delete(String resourceGroupName, String vmName, String vmExtensionName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 276
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to delete the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String vmName, String vmExtensionName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be deleted. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a9299a8997347831b5529c44a55410c2a
+  id: _virtual_machine_extensions_inner_1a9299a8997347831b5529c44a55410c2a
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.deleteAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 306
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to delete the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine where the extension should be deleted. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1afa9e3ec65e97814b4af726e2f4876c6b
+  id: _virtual_machine_extensions_inner_1afa9e3ec65e97814b4af726e2f4876c6b
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String vmName, String vmExtensionName)
+  fullName: ServiceResponse<VirtualMachineExtensionInner> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.get(String resourceGroupName, String vmName, String vmExtensionName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 438
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to get the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualMachineExtensionInner > get(String resourceGroupName, String vmName, String vmExtensionName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine containing the extension. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1ad00ed5026079eaed6834206fe45f3080
+  id: _virtual_machine_extensions_inner_1ad00ed5026079eaed6834206fe45f3080
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String vmName, String vmExtensionName, String expand)
+  fullName: ServiceResponse<VirtualMachineExtensionInner> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.get(String resourceGroupName, String vmName, String vmExtensionName, String expand)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 521
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to get the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< VirtualMachineExtensionInner > get(String resourceGroupName, String vmName, String vmExtensionName, String expand)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine containing the extension. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>The expand expression to apply on the operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1af157b0391c604c7adf75deaeb4134706
+  id: _virtual_machine_extensions_inner_1af157b0391c604c7adf75deaeb4134706
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.getAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 469
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to get the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String vmName, String vmExtensionName, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine containing the extension. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1a20a77c0c970facf09e7f7c3956fe0469
+  id: _virtual_machine_extensions_inner_1a20a77c0c970facf09e7f7c3956fe0469
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String vmName, String vmExtensionName, String expand, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.getAsync(String resourceGroupName, String vmName, String vmExtensionName, String expand, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 552
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>The operation to get the extension.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String vmName, String vmExtensionName, String expand, final ServiceCallback< VirtualMachineExtensionInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: vmName
+      type: "26831127"
+      description: <p>The name of the virtual machine containing the extension. </p>
+    - id: vmExtensionName
+      type: "26831127"
+      description: <p>The name of the virtual machine extension. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>The expand expression to apply on the operation. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner_1aeade743411067a88b8ae50c16aeac2f0
+  id: _virtual_machine_extensions_inner_1aeade743411067a88b8ae50c16aeac2f0
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  langs:
+  - java
+  name: VirtualMachineExtensionsInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsInner(Retrofit retrofit, ComputeManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 47
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public VirtualMachineExtensionsInner(Retrofit retrofit, ComputeManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+    name: VirtualMachineExtensionInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+    name: VirtualMachineExtensionInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+- uid: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl.yml
+  name: ComputeManagementClientImpl
+  fullName: com.microsoft.azure.management.compute.implementation.api.ComputeManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class ComputeManagementClientImpl
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extensions_inner.yml
+  name: VirtualMachineExtensionsInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in VirtualMachineExtensions. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+  name: VirtualMachineExtensionInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
+  type: Class
+  summary: <p>Describes a Virtual Machine Extension. </p>
+  syntax:
+    content: public class VirtualMachineExtensionInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback

@@ -1,0 +1,329 @@
+items:
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  id: _certificates_service
+  parent: com.microsoft.azure.batch.protocol.implementation
+  children:
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1a7a53eae7369b5325bdb71fea5bf90131
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1a4ff6829d78517b7fea81a7249d84a957
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1aa63d013ad7a561d020d2149dee5738c1
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1a0aa866989d9ece1f4410bee86476f576
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1addfd0e71c7575ce85b4178e7b15c2a7b
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1aa7e58a75baecc0b884b8c1eb509b0c9f
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: CertificatesImpl.CertificatesService
+  fullName: com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 77
+  package: com.microsoft.azure.batch.protocol.implementation
+  summary: 'The interface defining all the services for Certificates to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface CertificatesImpl.CertificatesService
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1a7a53eae7369b5325bdb71fea5bf90131
+  id: _certificates_service_1a7a53eae7369b5325bdb71fea5bf90131
+  parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: add(@Body CertificateAddParameter certificate,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService.add(@Body CertificateAddParameter certificate,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 80
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > add(@Body CertificateAddParameter certificate,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: certificate
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._certificate_add_parameter
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1a4ff6829d78517b7fea81a7249d84a957
+  id: _certificates_service_1a4ff6829d78517b7fea81a7249d84a957
+  parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: list(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService.list(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 84
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > list(@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: filter
+      type: 32841eb2
+    - id: select
+      type: 7da619bd
+    - id: maxResults
+      type: b86c3b3e
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1aa63d013ad7a561d020d2149dee5738c1
+  id: _certificates_service_1aa63d013ad7a561d020d2149dee5738c1
+  parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: cancelDeletion(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService.cancelDeletion(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 88
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > cancelDeletion(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: thumbprintAlgorithm
+      type: af28a7b6
+    - id: thumbprint
+      type: 427dbbf9
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1a0aa866989d9ece1f4410bee86476f576
+  id: _certificates_service_1a0aa866989d9ece1f4410bee86476f576
+  parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: delete(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService.delete(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 92
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: thumbprintAlgorithm
+      type: af28a7b6
+    - id: thumbprint
+      type: 427dbbf9
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1addfd0e71c7575ce85b4178e7b15c2a7b
+  id: _certificates_service_1addfd0e71c7575ce85b4178e7b15c2a7b
+  parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: get(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService.get(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 96
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > get(@Path("thumbprintAlgorithm") String thumbprintAlgorithm,@Path("thumbprint") String thumbprint,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: thumbprintAlgorithm
+      type: af28a7b6
+    - id: thumbprint
+      type: 427dbbf9
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: select
+      type: 7da619bd
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service_1aa7e58a75baecc0b884b8c1eb509b0c9f
+  id: _certificates_service_1aa7e58a75baecc0b884b8c1eb509b0c9f
+  parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service
+  href: com.microsoft.azure.batch.protocol.implementation._certificates_impl._certificates_service.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.CertificatesImpl.CertificatesService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/CertificatesImpl.java
+    startLine: 100
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._certificate_add_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._certificate_add_parameter
+    name: CertificateAddParameter
+    fullName: com.microsoft.azure.batch.protocol.models.CertificateAddParameter
+    href: com.microsoft.azure.batch.protocol.models._certificate_add_parameter.yml
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: e90f45ef
+  spec.java:
+  - name: '@Query("timeout") Integer'
+    fullName: '@Query("timeout") Integer'
+- uid: 74e7aeab
+  spec.java:
+  - name: '@Header("client-request-id") String'
+    fullName: '@Header("client-request-id") String'
+- uid: 08b12507
+  spec.java:
+  - name: '@Header("return-client-request-id") Boolean'
+    fullName: '@Header("return-client-request-id") Boolean'
+- uid: 5bec6339
+  spec.java:
+  - name: '@Header("ocp-date") DateTimeRfc1123'
+    fullName: '@Header("ocp-date") DateTimeRfc1123'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: 7da619bd
+  spec.java:
+  - name: '@Query("$select") String'
+    fullName: '@Query("$select") String'
+- uid: b86c3b3e
+  spec.java:
+  - name: '@Query("maxresults") Integer'
+    fullName: '@Query("maxresults") Integer'
+- uid: af28a7b6
+  spec.java:
+  - name: '@Path("thumbprintAlgorithm") String'
+    fullName: '@Path("thumbprintAlgorithm") String'
+- uid: 427dbbf9
+  spec.java:
+  - name: '@Path("thumbprint") String'
+    fullName: '@Path("thumbprint") String'
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.batch.protocol.models._certificate_add_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._certificate_add_parameter.yml
+  name: CertificateAddParameter
+  fullName: com.microsoft.azure.batch.protocol.models.CertificateAddParameter
+  type: Class
+  summary: 'A certificate that can be installed on compute nodes and can be used to authenticate operations on the machine. '
+  syntax:
+    content: public class CertificateAddParameter
+- uid: com.microsoft.azure.batch.protocol._certificates
+  parent: com.microsoft.azure.batch.protocol
+  href: com.microsoft.azure.batch.protocol._certificates.yml
+  name: Certificates
+  fullName: com.microsoft.azure.batch.protocol.Certificates
+  type: Interface
+  summary: 'An instance of this class provides access to all the operations defined in Certificates. '
+  syntax:
+    content: public interface Certificates

@@ -1,0 +1,163 @@
+items:
+- uid: com.microsoft.azure._azure._authenticated_impl
+  id: _authenticated_impl
+  parent: com.microsoft.azure
+  children:
+  - com.microsoft.azure._azure._authenticated_impl_1a9196957aa7e0e84ee50cb07e100881e1
+  - com.microsoft.azure._azure._authenticated_impl_1ac1932d591172f45c03d8c5b9258eae25
+  - com.microsoft.azure._azure._authenticated_impl_1a34592df6b3f8e164531631c598b75ee4
+  - com.microsoft.azure._azure._authenticated_impl_1aceb4fb4a300b2a2b60b9b8b6f48cecc0
+  href: com.microsoft.azure._azure._authenticated_impl.yml
+  langs:
+  - java
+  name: Azure.AuthenticatedImpl
+  fullName: com.microsoft.azure.Azure.AuthenticatedImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure/src/main/java/com/microsoft/azure/Azure.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure/src/main/java/com/microsoft/azure/Azure.java
+    startLine: 191
+  package: com.microsoft.azure
+  summary: <p>The implementation for <xref href="com.microsoft.azure._azure._authenticated" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: private class AuthenticatedImpl
+- uid: com.microsoft.azure._azure._authenticated_impl_1a9196957aa7e0e84ee50cb07e100881e1
+  id: _authenticated_impl_1a9196957aa7e0e84ee50cb07e100881e1
+  parent: com.microsoft.azure._azure._authenticated_impl
+  href: com.microsoft.azure._azure._authenticated_impl.yml
+  langs:
+  - java
+  name: subscriptions()
+  fullName: Subscriptions com.microsoft.azure.Azure.AuthenticatedImpl.subscriptions()
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/main/java/com/microsoft/azure/Azure.java
+    startLine: 207
+  package: com.microsoft.azure
+  syntax:
+    content: public Subscriptions subscriptions()
+    return:
+      type: com.microsoft.azure.management.resources._subscriptions
+- uid: com.microsoft.azure._azure._authenticated_impl_1ac1932d591172f45c03d8c5b9258eae25
+  id: _authenticated_impl_1ac1932d591172f45c03d8c5b9258eae25
+  parent: com.microsoft.azure._azure._authenticated_impl
+  href: com.microsoft.azure._azure._authenticated_impl.yml
+  langs:
+  - java
+  name: tenants()
+  fullName: Tenants com.microsoft.azure.Azure.AuthenticatedImpl.tenants()
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/main/java/com/microsoft/azure/Azure.java
+    startLine: 212
+  package: com.microsoft.azure
+  syntax:
+    content: public Tenants tenants()
+    return:
+      type: com.microsoft.azure.management.resources._tenants
+- uid: com.microsoft.azure._azure._authenticated_impl_1a34592df6b3f8e164531631c598b75ee4
+  id: _authenticated_impl_1a34592df6b3f8e164531631c598b75ee4
+  parent: com.microsoft.azure._azure._authenticated_impl
+  href: com.microsoft.azure._azure._authenticated_impl.yml
+  langs:
+  - java
+  name: withDefaultSubscription()
+  fullName: Azure com.microsoft.azure.Azure.AuthenticatedImpl.withDefaultSubscription()
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/main/java/com/microsoft/azure/Azure.java
+    startLine: 222
+  package: com.microsoft.azure
+  syntax:
+    content: public Azure withDefaultSubscription()
+    return:
+      type: com.microsoft.azure._azure
+- uid: com.microsoft.azure._azure._authenticated_impl_1aceb4fb4a300b2a2b60b9b8b6f48cecc0
+  id: _authenticated_impl_1aceb4fb4a300b2a2b60b9b8b6f48cecc0
+  parent: com.microsoft.azure._azure._authenticated_impl
+  href: com.microsoft.azure._azure._authenticated_impl.yml
+  langs:
+  - java
+  name: withSubscription(String subscriptionId)
+  fullName: Azure com.microsoft.azure.Azure.AuthenticatedImpl.withSubscription(String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/main/java/com/microsoft/azure/Azure.java
+    startLine: 217
+  package: com.microsoft.azure
+  syntax:
+    content: public Azure withSubscription(String subscriptionId)
+    parameters:
+    - id: subscriptionId
+      type: "26831127"
+    return:
+      type: com.microsoft.azure._azure
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure._azure._authenticated
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure._authenticated.yml
+  name: Azure.Authenticated
+  fullName: com.microsoft.azure.Azure.Authenticated
+  type: Interface
+  summary: >-
+    <p>Provides authenticated access to a subset of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> APIs that do not require a specific subscription. </p>
+
+    <p>To access the subscription-specific APIs, use <xref href="com.microsoft.azure._azure._authenticated_1a219cdf6c5311347cb886f40aea966fae" data-throw-if-not-resolved="false"></xref>, or <xref href="com.microsoft.azure._azure._authenticated_1a169d93673d857ff7e4470b07b4c247f2" data-throw-if-not-resolved="false"></xref> if a default subscription has already been previously specified (for example, in a previously specified authentication file). </p>
+  syntax:
+    content: public interface Authenticated
+- uid: com.microsoft.azure._rest_client
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._rest_client.yml
+  name: RestClient
+  fullName: com.microsoft.azure.RestClient
+  type: Class
+  summary: <p>An instance of this class stores the client information for making REST calls. </p>
+  syntax:
+    content: public class RestClient
+- uid: com.microsoft.azure.management.resources._subscriptions
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._subscriptions.yml
+  name: Subscriptions
+  fullName: com.microsoft.azure.management.resources.Subscriptions
+  type: Interface
+  summary: <p>Entry point to subscription management API. </p>
+  syntax:
+    content: public interface Subscriptions
+- uid: com.microsoft.azure.management.resources._tenants
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._tenants.yml
+  name: Tenants
+  fullName: com.microsoft.azure.management.resources.Tenants
+  type: Interface
+  summary: <p>Entry point to tenant management API. </p>
+  syntax:
+    content: public interface Tenants
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException

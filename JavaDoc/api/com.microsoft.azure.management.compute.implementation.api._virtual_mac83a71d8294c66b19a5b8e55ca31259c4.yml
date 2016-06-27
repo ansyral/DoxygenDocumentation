@@ -1,0 +1,66 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac83a71d8294c66b19a5b8e55ca31259c4
+  id: _virtual_mac83a71d8294c66b19a5b8e55ca31259c4
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual_mac83a71d8294c66b19a5b8e55ca31259c4_1af67c9f3a6331b144f9bf32dd4c68410c
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_mac83a71d8294c66b19a5b8e55ca31259c4.yml
+  langs:
+  - java
+  name: VirtualMachineScaleSetInstanceViewStatusesSummary
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetInstanceViewStatusesSummary
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetInstanceViewStatusesSummary.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetInstanceViewStatusesSummary.java
+    startLine: 15
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Instance view statuses summary for virtual machines of a virtual machine scale set. </p>
+  syntax:
+    content: public class VirtualMachineScaleSetInstanceViewStatusesSummary
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac83a71d8294c66b19a5b8e55ca31259c4_1af67c9f3a6331b144f9bf32dd4c68410c
+  id: _virtual_mac83a71d8294c66b19a5b8e55ca31259c4_1af67c9f3a6331b144f9bf32dd4c68410c
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual_mac83a71d8294c66b19a5b8e55ca31259c4
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_mac83a71d8294c66b19a5b8e55ca31259c4.yml
+  langs:
+  - java
+  name: statusesSummary()
+  fullName: List<VirtualMachineStatusCodeCount> com.microsoft.azure.management.compute.implementation.api.VirtualMachineScaleSetInstanceViewStatusesSummary.statusesSummary()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineScaleSetInstanceViewStatusesSummary.java
+    startLine: 27
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the statusesSummary value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< VirtualMachineStatusCodeCount > statusesSummary()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_status_code_count9ec3e006
+      description: <p>the statusesSummary value </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_status_code_count9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_status_code_count
+    name: VirtualMachineStatusCodeCount
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineStatusCodeCount
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_status_code_count.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_status_code_count
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_status_code_count.yml
+  name: VirtualMachineStatusCodeCount
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineStatusCodeCount
+  type: Class
+  summary: <p>The status code and count of the virtual machine scale set instance view status summary. </p>
+  syntax:
+    content: public class VirtualMachineStatusCodeCount

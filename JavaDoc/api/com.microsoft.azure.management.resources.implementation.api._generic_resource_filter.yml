@@ -1,0 +1,206 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  id: _generic_resource_filter
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1ae9e8031715559f7bb762ec843bded750
+  - com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1aa47dc85a93bfef3bc09215eeb891325e
+  - com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a2e9d43c9066ca7a0269a41b659949ffd
+  - com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a4e6459c6e8be36879588ea55d95250b0
+  - com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a782c9632b07afd7cbf127df82f699453
+  - com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a7c0a5a641e67a3d85d82d03e51939884
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: GenericResourceFilter
+  fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 12
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> filter. </p>
+  syntax: &o1
+    content: public class GenericResourceFilter
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1ae9e8031715559f7bb762ec843bded750
+  id: _generic_resource_filter_1ae9e8031715559f7bb762ec843bded750
+  parent: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: resourceType()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter.resourceType()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 33
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get the resourceType value.</p>
+
+    <p></p>
+  syntax:
+    content: public String resourceType()
+    return:
+      type: "26831127"
+      description: <p>the resourceType value </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1aa47dc85a93bfef3bc09215eeb891325e
+  id: _generic_resource_filter_1aa47dc85a93bfef3bc09215eeb891325e
+  parent: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: tagname()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter.tagname()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 53
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get the tagname value.</p>
+
+    <p></p>
+  syntax:
+    content: public String tagname()
+    return:
+      type: "26831127"
+      description: <p>the tagname value </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a2e9d43c9066ca7a0269a41b659949ffd
+  id: _generic_resource_filter_1a2e9d43c9066ca7a0269a41b659949ffd
+  parent: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: tagvalue()
+  fullName: String com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter.tagvalue()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 73
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get the tagvalue value.</p>
+
+    <p></p>
+  syntax:
+    content: public String tagvalue()
+    return:
+      type: "26831127"
+      description: <p>the tagvalue value </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a4e6459c6e8be36879588ea55d95250b0
+  id: _generic_resource_filter_1a4e6459c6e8be36879588ea55d95250b0
+  parent: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: withResourceType(String resourceType)
+  fullName: GenericResourceFilter com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter.withResourceType(String resourceType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 43
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Set the resourceType value.</p>
+
+    <p></p>
+  syntax:
+    content: public GenericResourceFilter withResourceType(String resourceType)
+    parameters:
+    - id: resourceType
+      type: "26831127"
+      description: <p>the resourceType value to set </p>
+    return:
+      type: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_filter" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a782c9632b07afd7cbf127df82f699453
+  id: _generic_resource_filter_1a782c9632b07afd7cbf127df82f699453
+  parent: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: withTagname(String tagname)
+  fullName: GenericResourceFilter com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter.withTagname(String tagname)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 63
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Set the tagname value.</p>
+
+    <p></p>
+  syntax:
+    content: public GenericResourceFilter withTagname(String tagname)
+    parameters:
+    - id: tagname
+      type: "26831127"
+      description: <p>the tagname value to set </p>
+    return:
+      type: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_filter" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter_1a7c0a5a641e67a3d85d82d03e51939884
+  id: _generic_resource_filter_1a7c0a5a641e67a3d85d82d03e51939884
+  parent: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  langs:
+  - java
+  name: withTagvalue(String tagvalue)
+  fullName: GenericResourceFilter com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter.withTagvalue(String tagvalue)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/GenericResourceFilter.java
+    startLine: 83
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Set the tagvalue value.</p>
+
+    <p></p>
+  syntax:
+    content: public GenericResourceFilter withTagvalue(String tagvalue)
+    parameters:
+    - id: tagvalue
+      type: "26831127"
+      description: <p>the tagvalue value to set </p>
+    return:
+      type: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_filter" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_filter.yml
+  name: GenericResourceFilter
+  fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceFilter
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> filter. </p>
+  syntax: *o1
+- uid: com.microsoft.azure._resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._resource.yml
+  name: Resource
+  fullName: com.microsoft.azure.Resource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class Resource

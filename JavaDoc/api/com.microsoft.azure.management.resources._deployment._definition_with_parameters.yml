@@ -1,0 +1,128 @@
+items:
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+  id: _definition_with_parameters
+  parent: com.microsoft.azure.management.resources
+  children:
+  - com.microsoft.azure.management.resources._deployment._definition_with_parameters_1a6c8bc55adf2b66895ff62708adcb4e25
+  - com.microsoft.azure.management.resources._deployment._definition_with_parameters_1a0253de355a2a6f6f2d1f8e1492b6b03b
+  - com.microsoft.azure.management.resources._deployment._definition_with_parameters_1aba51bdf7acf51d9afc11122a25b0b34f
+  href: com.microsoft.azure.management.resources._deployment._definition_with_parameters.yml
+  langs:
+  - java
+  name: Deployment.DefinitionWithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionWithParameters
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 176
+  package: com.microsoft.azure.management.resources
+  summary: <p>A deployment definition allowing parameters to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithParameters
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_parameters_1a6c8bc55adf2b66895ff62708adcb4e25
+  id: _definition_with_parameters_1a6c8bc55adf2b66895ff62708adcb4e25
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+  href: com.microsoft.azure.management.resources._deployment._definition_with_parameters.yml
+  langs:
+  - java
+  name: withParameters(Object parameters)
+  fullName: DefinitionWithMode com.microsoft.azure.management.resources.Deployment.DefinitionWithParameters.withParameters(Object parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 183
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the parameters as a Java object.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithMode withParameters(Object parameters)
+    parameters:
+    - id: parameters
+      type: "79317049"
+      description: <p>the Java object </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_with_mode
+      description: <p>the next stage of the deployment definition </p>
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_parameters_1a0253de355a2a6f6f2d1f8e1492b6b03b
+  id: _definition_with_parameters_1a0253de355a2a6f6f2d1f8e1492b6b03b
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+  href: com.microsoft.azure.management.resources._deployment._definition_with_parameters.yml
+  langs:
+  - java
+  name: withParameters(String parametersJson)
+  fullName: DefinitionWithMode com.microsoft.azure.management.resources.Deployment.DefinitionWithParameters.withParameters(String parametersJson)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 191
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the parameters as a JSON string.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithMode withParameters(String parametersJson)
+    parameters:
+    - id: parametersJson
+      type: "26831127"
+      description: <p>the JSON string </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_with_mode
+      description: <p>the next stage of the deployment definition </p>
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_parameters_1aba51bdf7acf51d9afc11122a25b0b34f
+  id: _definition_with_parameters_1aba51bdf7acf51d9afc11122a25b0b34f
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_parameters
+  href: com.microsoft.azure.management.resources._deployment._definition_with_parameters.yml
+  langs:
+  - java
+  name: withParametersLink(String uri, String contentVersion)
+  fullName: DefinitionWithMode com.microsoft.azure.management.resources.Deployment.DefinitionWithParameters.withParametersLink(String uri, String contentVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 200
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the parameters as a URL.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithMode withParametersLink(String uri, String contentVersion)
+    parameters:
+    - id: uri
+      type: "26831127"
+      description: <p>the location of the remote parameters file </p>
+    - id: contentVersion
+      type: "26831127"
+      description: <p>the version of the parameters file </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_with_mode
+      description: <p>the next stage of the deployment definition </p>
+references:
+- uid: "79317049"
+  spec.java:
+  - name: Object
+    fullName: Object
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources.implementation._deployment_impl
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_mode
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._definition_with_mode.yml
+  name: Deployment.DefinitionWithMode
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionWithMode
+  type: Interface
+  summary: <p>A deployment definition allowing deployment mode to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithMode

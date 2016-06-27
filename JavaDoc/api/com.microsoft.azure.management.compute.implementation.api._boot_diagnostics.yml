@@ -1,0 +1,143 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+  id: _boot_diagnostics
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1a364eacff13b003aa183ecc33f35060d1
+  - com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1a32d3be27eb802af701ecaa30998a0f45
+  - com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1a6ad21c1233b34400e276d5f08fb656cc
+  - com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1abc29583b871f319b5b258d04127a2eb1
+  href: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics.yml
+  langs:
+  - java
+  name: BootDiagnostics
+  fullName: com.microsoft.azure.management.compute.implementation.api.BootDiagnostics
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/BootDiagnostics.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/BootDiagnostics.java
+    startLine: 12
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Describes Boot Diagnostics. </p>
+  syntax: &o1
+    content: public class BootDiagnostics
+- uid: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1a364eacff13b003aa183ecc33f35060d1
+  id: _boot_diagnostics_1a364eacff13b003aa183ecc33f35060d1
+  parent: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+  href: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics.yml
+  langs:
+  - java
+  name: enabled()
+  fullName: Boolean com.microsoft.azure.management.compute.implementation.api.BootDiagnostics.enabled()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/BootDiagnostics.java
+    startLine: 29
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the enabled value.</p>
+
+    <p></p>
+  syntax:
+    content: public Boolean enabled()
+    return:
+      type: 866c2227
+      description: <p>the enabled value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1a32d3be27eb802af701ecaa30998a0f45
+  id: _boot_diagnostics_1a32d3be27eb802af701ecaa30998a0f45
+  parent: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+  href: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics.yml
+  langs:
+  - java
+  name: storageUri()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.BootDiagnostics.storageUri()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/BootDiagnostics.java
+    startLine: 49
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Get the storageUri value.</p>
+
+    <p></p>
+  syntax:
+    content: public String storageUri()
+    return:
+      type: "26831127"
+      description: <p>the storageUri value </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1a6ad21c1233b34400e276d5f08fb656cc
+  id: _boot_diagnostics_1a6ad21c1233b34400e276d5f08fb656cc
+  parent: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+  href: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics.yml
+  langs:
+  - java
+  name: withEnabled(Boolean enabled)
+  fullName: BootDiagnostics com.microsoft.azure.management.compute.implementation.api.BootDiagnostics.withEnabled(Boolean enabled)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/BootDiagnostics.java
+    startLine: 39
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the enabled value.</p>
+
+    <p></p>
+  syntax:
+    content: public BootDiagnostics withEnabled(Boolean enabled)
+    parameters:
+    - id: enabled
+      type: 866c2227
+      description: <p>the enabled value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._boot_diagnostics" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics_1abc29583b871f319b5b258d04127a2eb1
+  id: _boot_diagnostics_1abc29583b871f319b5b258d04127a2eb1
+  parent: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+  href: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics.yml
+  langs:
+  - java
+  name: withStorageUri(String storageUri)
+  fullName: BootDiagnostics com.microsoft.azure.management.compute.implementation.api.BootDiagnostics.withStorageUri(String storageUri)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/BootDiagnostics.java
+    startLine: 59
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Set the storageUri value.</p>
+
+    <p></p>
+  syntax:
+    content: public BootDiagnostics withStorageUri(String storageUri)
+    parameters:
+    - id: storageUri
+      type: "26831127"
+      description: <p>the storageUri value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+      description: <p>the <xref href="com.microsoft.azure.management.compute.implementation.api._boot_diagnostics" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._boot_diagnostics.yml
+  name: BootDiagnostics
+  fullName: com.microsoft.azure.management.compute.implementation.api.BootDiagnostics
+  type: Class
+  summary: <p>Describes Boot Diagnostics. </p>
+  syntax: *o1

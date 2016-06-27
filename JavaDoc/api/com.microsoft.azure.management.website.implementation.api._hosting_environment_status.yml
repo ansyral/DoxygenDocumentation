@@ -1,0 +1,174 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  id: _hosting_environment_status
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a76725dcfd582d9026c78df3bf46d832c
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a3170f06d1d68c4023e68ece9335b20be
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a61401b28def4ab822525f8afe4d1ddf3
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1ad470ed5a01baaaff88e6300f5db93482
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a8729b954956651d8448c7f84423d920d
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1aa841b0a627e65b123209d427797e5511
+  - com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1aae044197c06ff6e217b2f4af18986506
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: HostingEnvironmentStatus
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._hosting_environment_status" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum HostingEnvironmentStatus
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a76725dcfd582d9026c78df3bf46d832c
+  id: _hosting_environment_status_1a76725dcfd582d9026c78df3bf46d832c
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: DELETING
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.DELETING
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 25
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Deleting. </p>
+  syntax:
+    content: public DELETING=("Deleting")
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a3170f06d1d68c4023e68ece9335b20be
+  id: _hosting_environment_status_1a3170f06d1d68c4023e68ece9335b20be
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static HostingEnvironmentStatus com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 41
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.website.implementation.api._hosting_environment_status" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static HostingEnvironmentStatus fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+      description: <p>the parsed <xref href="com.microsoft.azure.management.website.implementation.api._hosting_environment_status" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a61401b28def4ab822525f8afe4d1ddf3
+  id: _hosting_environment_status_1a61401b28def4ab822525f8afe4d1ddf3
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: HostingEnvironmentStatus(String value)
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.HostingEnvironmentStatus(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 30
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public HostingEnvironmentStatus(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1ad470ed5a01baaaff88e6300f5db93482
+  id: _hosting_environment_status_1ad470ed5a01baaaff88e6300f5db93482
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: PREPARING
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.PREPARING
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 16
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Preparing. </p>
+  syntax:
+    content: public PREPARING=("Preparing")
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a8729b954956651d8448c7f84423d920d
+  id: _hosting_environment_status_1a8729b954956651d8448c7f84423d920d
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: READY
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.READY
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 19
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Ready. </p>
+  syntax:
+    content: public READY=("Ready")
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1aa841b0a627e65b123209d427797e5511
+  id: _hosting_environment_status_1aa841b0a627e65b123209d427797e5511
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: SCALING
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.SCALING
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 22
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Scaling. </p>
+  syntax:
+    content: public SCALING=("Scaling")
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1aae044197c06ff6e217b2f4af18986506
+  id: _hosting_environment_status_1aae044197c06ff6e217b2f4af18986506
+  parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
+    startLine: 53
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_status.yml
+  name: HostingEnvironmentStatus
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._hosting_environment_status" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

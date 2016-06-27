@@ -1,0 +1,1326 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner
+  id: _globals_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1ac057a16a5874876a087f75d08ec0b078
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1abeed38a124938a62a749ef4b4e8711fd
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a54a94afad24fd626923ebd134d14fcb9
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a026edf2375603cc74921d832b8478bdf
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a1cc029cbde3a59bc41e176fd5976b6b8
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1ae506db8824b099985f1c9671e856d385
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1acfca663bc2ed3956461d687dcf30bcad
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a254df7cf7ea929ed2c23d19bb58e336d
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a93262d57fb412790375e8ca87fc77acc
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a4347e10127f4665721ccbf27c29ab6da
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1ab41d403a104b304fb43ed29ad2251cbb
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1ac225956f947ae946eeea62d10fb61917
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1ab1fbcd2ff194aa4d17ec6df0b0c9a33e
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1abc4fecfd4c14ec5a1b8706adad823e04
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a815604e2f15a9bd06cd83ec8d59f6026
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a48de84b9251da4524049ae59108ced00
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a6f6b24128b62f2d73c2f2f73d1ef2763
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1ab733428177b3eccd1e1fe2f44a93dfed
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a3facbfc0dc6ff533a8be1fdfb41cb802
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a95113a5078bacb32b56577c8407138de
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a0168e212ca1a20d99564bb27c2df3717
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a22d47d47aeab077d0e1a69530688cbaa
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a67f686e74bc5d449b2ca364108b1e696
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a0be33ea0b8d627cad1efe543fef30939
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a26c77676f04cf5fe7b9e9556457ae24e
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a5d6018ec9202238d4d2b49496fd429e6
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1af106ac0cfa3b8a8d585fd80c10e3f31c
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1afba17444c7c212b7c94e66737fa53518
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a08257cc2841589f1792f801698a794ef
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1add471e0087d9de7f003070f86e9b2420
+  - com.microsoft.azure.management.website.implementation.api._globals_inner_1a086d98e13be2abeaf44159779bf5dffa
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: GlobalsInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 34
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in Globals. </p>
+  syntax: &o1
+    content: public class GlobalsInner
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ac057a16a5874876a087f75d08ec0b078
+  id: _globals_inner_1ac057a16a5874876a087f75d08ec0b078
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: checkNameAvailability(ResourceNameAvailabilityRequestInner request)
+  fullName: ServiceResponse<ResourceNameAvailabilityInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.checkNameAvailability(ResourceNameAvailabilityRequestInner request)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 984
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Check if resource name is available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ResourceNameAvailabilityInner > checkNameAvailability(ResourceNameAvailabilityRequestInner request)
+    parameters:
+    - id: request
+      type: com.microsoft.azure.management.website.implementation.api._resource_name_availability_request_inner
+      description: <p>Name availability request </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._resource_name_availability_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1abeed38a124938a62a749ef4b4e8711fd
+  id: _globals_inner_1abeed38a124938a62a749ef4b4e8711fd
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: checkNameAvailabilityAsync(ResourceNameAvailabilityRequestInner request, final ServiceCallback< ResourceNameAvailabilityInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.checkNameAvailabilityAsync(ResourceNameAvailabilityRequestInner request, final ServiceCallback< ResourceNameAvailabilityInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 1007
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Check if resource name is available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall checkNameAvailabilityAsync(ResourceNameAvailabilityRequestInner request, final ServiceCallback< ResourceNameAvailabilityInner > serviceCallback)
+    parameters:
+    - id: request
+      type: com.microsoft.azure.management.website.implementation.api._resource_name_availability_request_inner
+      description: <p>Name availability request </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._resource_name_availability_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a54a94afad24fd626923ebd134d14fcb9
+  id: _globals_inner_1a54a94afad24fd626923ebd134d14fcb9
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllCertificates()
+  fullName: ServiceResponse<CertificateCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllCertificates()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 366
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get all certificates for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< CertificateCollectionInner > getAllCertificates()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._certificate_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a026edf2375603cc74921d832b8478bdf
+  id: _globals_inner_1a026edf2375603cc74921d832b8478bdf
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllCertificatesAsync(final ServiceCallback< CertificateCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllCertificatesAsync(final ServiceCallback< CertificateCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 384
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get all certificates for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllCertificatesAsync(final ServiceCallback< CertificateCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a1cc029cbde3a59bc41e176fd5976b6b8
+  id: _globals_inner_1a1cc029cbde3a59bc41e176fd5976b6b8
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllClassicMobileServices()
+  fullName: ServiceResponse<ClassicMobileServiceCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllClassicMobileServices()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 725
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all mobile services for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ClassicMobileServiceCollectionInner > getAllClassicMobileServices()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ae506db8824b099985f1c9671e856d385
+  id: _globals_inner_1ae506db8824b099985f1c9671e856d385
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllClassicMobileServicesAsync(final ServiceCallback< ClassicMobileServiceCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllClassicMobileServicesAsync(final ServiceCallback< ClassicMobileServiceCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 743
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all mobile services for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllClassicMobileServicesAsync(final ServiceCallback< ClassicMobileServiceCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1acfca663bc2ed3956461d687dcf30bcad
+  id: _globals_inner_1acfca663bc2ed3956461d687dcf30bcad
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllHostingEnvironments()
+  fullName: ServiceResponse<HostingEnvironmentCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllHostingEnvironments()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 605
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all hostingEnvironments (App Service Environment) for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< HostingEnvironmentCollectionInner > getAllHostingEnvironments()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a254df7cf7ea929ed2c23d19bb58e336d
+  id: _globals_inner_1a254df7cf7ea929ed2c23d19bb58e336d
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllHostingEnvironmentsAsync(final ServiceCallback< HostingEnvironmentCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllHostingEnvironmentsAsync(final ServiceCallback< HostingEnvironmentCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 623
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all hostingEnvironments (App Service Environment) for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllHostingEnvironmentsAsync(final ServiceCallback< HostingEnvironmentCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a93262d57fb412790375e8ca87fc77acc
+  id: _globals_inner_1a93262d57fb412790375e8ca87fc77acc
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllManagedHostingEnvironments()
+  fullName: ServiceResponse<ManagedHostingEnvironmentCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllManagedHostingEnvironments()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 665
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all managed hosting environments for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ManagedHostingEnvironmentCollectionInner > getAllManagedHostingEnvironments()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce819109ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a4347e10127f4665721ccbf27c29ab6da
+  id: _globals_inner_1a4347e10127f4665721ccbf27c29ab6da
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllManagedHostingEnvironmentsAsync(final ServiceCallback< ManagedHostingEnvironmentCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllManagedHostingEnvironmentsAsync(final ServiceCallback< ManagedHostingEnvironmentCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 683
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all managed hosting environments for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllManagedHostingEnvironmentsAsync(final ServiceCallback< ManagedHostingEnvironmentCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce819109ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ab41d403a104b304fb43ed29ad2251cbb
+  id: _globals_inner_1ab41d403a104b304fb43ed29ad2251cbb
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllServerFarms()
+  fullName: ServiceResponse<ServerFarmCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllServerFarms()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 426
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all App Service Plans for a subcription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ServerFarmCollectionInner > getAllServerFarms()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ac225956f947ae946eeea62d10fb61917
+  id: _globals_inner_1ac225956f947ae946eeea62d10fb61917
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllServerFarms(Boolean detailed)
+  fullName: ServiceResponse<ServerFarmCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllServerFarms(Boolean detailed)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 483
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all App Service Plans for a subcription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ServerFarmCollectionInner > getAllServerFarms(Boolean detailed)
+    parameters:
+    - id: detailed
+      type: 866c2227
+      description: <p>False to return a subset of App Service Plan properties, true to return all of the properties. Retrieval of all properties may increase the API latency. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ab1fbcd2ff194aa4d17ec6df0b0c9a33e
+  id: _globals_inner_1ab1fbcd2ff194aa4d17ec6df0b0c9a33e
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllServerFarmsAsync(Boolean detailed, final ServiceCallback< ServerFarmCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllServerFarmsAsync(Boolean detailed, final ServiceCallback< ServerFarmCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 503
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all App Service Plans for a subcription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllServerFarmsAsync(Boolean detailed, final ServiceCallback< ServerFarmCollectionInner > serviceCallback)
+    parameters:
+    - id: detailed
+      type: 866c2227
+      description: <p>False to return a subset of App Service Plan properties, true to return all of the properties. Retrieval of all properties may increase the API latency. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1abc4fecfd4c14ec5a1b8706adad823e04
+  id: _globals_inner_1abc4fecfd4c14ec5a1b8706adad823e04
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllServerFarmsAsync(final ServiceCallback< ServerFarmCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllServerFarmsAsync(final ServiceCallback< ServerFarmCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 445
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all App Service Plans for a subcription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllServerFarmsAsync(final ServiceCallback< ServerFarmCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a815604e2f15a9bd06cd83ec8d59f6026
+  id: _globals_inner_1a815604e2f15a9bd06cd83ec8d59f6026
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllSites()
+  fullName: ServiceResponse<SiteCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllSites()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 545
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all Web Apps for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< SiteCollectionInner > getAllSites()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._site_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._site_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a48de84b9251da4524049ae59108ced00
+  id: _globals_inner_1a48de84b9251da4524049ae59108ced00
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getAllSitesAsync(final ServiceCallback< SiteCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getAllSitesAsync(final ServiceCallback< SiteCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 563
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets all Web Apps for a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAllSitesAsync(final ServiceCallback< SiteCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._site_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a6f6b24128b62f2d73c2f2f73d1ef2763
+  id: _globals_inner_1a6f6b24128b62f2d73c2f2f73d1ef2763
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getSubscriptionGeoRegions()
+  fullName: ServiceResponse<GeoRegionCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getSubscriptionGeoRegions()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 249
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets list of available geo regions.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< GeoRegionCollectionInner > getSubscriptionGeoRegions()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ab733428177b3eccd1e1fe2f44a93dfed
+  id: _globals_inner_1ab733428177b3eccd1e1fe2f44a93dfed
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getSubscriptionGeoRegions(String sku)
+  fullName: ServiceResponse<GeoRegionCollectionInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getSubscriptionGeoRegions(String sku)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 305
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets list of available geo regions.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< GeoRegionCollectionInner > getSubscriptionGeoRegions(String sku)
+    parameters:
+    - id: sku
+      type: "26831127"
+      description: <p>Filter only to regions that support this sku </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a3facbfc0dc6ff533a8be1fdfb41cb802
+  id: _globals_inner_1a3facbfc0dc6ff533a8be1fdfb41cb802
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getSubscriptionGeoRegionsAsync(final ServiceCallback< GeoRegionCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getSubscriptionGeoRegionsAsync(final ServiceCallback< GeoRegionCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 268
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets list of available geo regions.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getSubscriptionGeoRegionsAsync(final ServiceCallback< GeoRegionCollectionInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a95113a5078bacb32b56577c8407138de
+  id: _globals_inner_1a95113a5078bacb32b56577c8407138de
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getSubscriptionGeoRegionsAsync(String sku, final ServiceCallback< GeoRegionCollectionInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getSubscriptionGeoRegionsAsync(String sku, final ServiceCallback< GeoRegionCollectionInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 324
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets list of available geo regions.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getSubscriptionGeoRegionsAsync(String sku, final ServiceCallback< GeoRegionCollectionInner > serviceCallback)
+    parameters:
+    - id: sku
+      type: "26831127"
+      description: <p>Filter only to regions that support this sku </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a0168e212ca1a20d99564bb27c2df3717
+  id: _globals_inner_1a0168e212ca1a20d99564bb27c2df3717
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getSubscriptionPublishingCredentials()
+  fullName: ServiceResponse<UserInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.getSubscriptionPublishingCredentials()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 118
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets publishing credentials for the subscription owner.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< UserInner > getSubscriptionPublishingCredentials()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._user_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a22d47d47aeab077d0e1a69530688cbaa
+  id: _globals_inner_1a22d47d47aeab077d0e1a69530688cbaa
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: getSubscriptionPublishingCredentialsAsync(final ServiceCallback< UserInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.getSubscriptionPublishingCredentialsAsync(final ServiceCallback< UserInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 136
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Gets publishing credentials for the subscription owner.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getSubscriptionPublishingCredentialsAsync(final ServiceCallback< UserInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a67f686e74bc5d449b2ca364108b1e696
+  id: _globals_inner_1a67f686e74bc5d449b2ca364108b1e696
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: GlobalsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalsInner.GlobalsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 46
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.website.implementation.api._globals_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public GlobalsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a0be33ea0b8d627cad1efe543fef30939
+  id: _globals_inner_1a0be33ea0b8d627cad1efe543fef30939
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: isHostingEnvironmentNameAvailable(String name)
+  fullName: ServiceResponse<Object> com.microsoft.azure.management.website.implementation.api.GlobalsInner.isHostingEnvironmentNameAvailable(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 846
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Whether hosting environment name is available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Object > isHostingEnvironmentNameAvailable(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>Hosting environment name </p>
+    return:
+      type: com.microsoft.rest._service_response9aef07c3
+      description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a26c77676f04cf5fe7b9e9556457ae24e
+  id: _globals_inner_1a26c77676f04cf5fe7b9e9556457ae24e
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: isHostingEnvironmentNameAvailableAsync(String name, final ServiceCallback< Object > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.isHostingEnvironmentNameAvailableAsync(String name, final ServiceCallback< Object > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 868
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Whether hosting environment name is available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall isHostingEnvironmentNameAvailableAsync(String name, final ServiceCallback< Object > serviceCallback)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>Hosting environment name </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a5d6018ec9202238d4d2b49496fd429e6
+  id: _globals_inner_1a5d6018ec9202238d4d2b49496fd429e6
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: isHostingEnvironmentWithLegacyNameAvailable(String name)
+  fullName: ServiceResponse<Object> com.microsoft.azure.management.website.implementation.api.GlobalsInner.isHostingEnvironmentWithLegacyNameAvailable(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 915
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Whether hosting environment name is available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Object > isHostingEnvironmentWithLegacyNameAvailable(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>Hosting environment name </p>
+    return:
+      type: com.microsoft.rest._service_response9aef07c3
+      description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1af106ac0cfa3b8a8d585fd80c10e3f31c
+  id: _globals_inner_1af106ac0cfa3b8a8d585fd80c10e3f31c
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: isHostingEnvironmentWithLegacyNameAvailableAsync(String name, final ServiceCallback< Object > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.isHostingEnvironmentWithLegacyNameAvailableAsync(String name, final ServiceCallback< Object > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 937
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Whether hosting environment name is available.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall isHostingEnvironmentWithLegacyNameAvailableAsync(String name, final ServiceCallback< Object > serviceCallback)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>Hosting environment name </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1afba17444c7c212b7c94e66737fa53518
+  id: _globals_inner_1afba17444c7c212b7c94e66737fa53518
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: listPremierAddOnOffers()
+  fullName: ServiceResponse<Object> com.microsoft.azure.management.website.implementation.api.GlobalsInner.listPremierAddOnOffers()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 785
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>List premier add on offers.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Object > listPremierAddOnOffers()
+    return:
+      type: com.microsoft.rest._service_response9aef07c3
+      description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a08257cc2841589f1792f801698a794ef
+  id: _globals_inner_1a08257cc2841589f1792f801698a794ef
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: listPremierAddOnOffersAsync(final ServiceCallback< Object > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.listPremierAddOnOffersAsync(final ServiceCallback< Object > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 803
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>List premier add on offers.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listPremierAddOnOffersAsync(final ServiceCallback< Object > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1add471e0087d9de7f003070f86e9b2420
+  id: _globals_inner_1add471e0087d9de7f003070f86e9b2420
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: updateSubscriptionPublishingCredentials(UserInner requestMessage)
+  fullName: ServiceResponse<UserInner> com.microsoft.azure.management.website.implementation.api.GlobalsInner.updateSubscriptionPublishingCredentials(UserInner requestMessage)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 179
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Updates publishing credentials for the subscription owner.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< UserInner > updateSubscriptionPublishingCredentials(UserInner requestMessage)
+    parameters:
+    - id: requestMessage
+      type: com.microsoft.azure.management.website.implementation.api._user_inner
+      description: <p>requestMessage with new publishing credentials </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._user_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1a086d98e13be2abeaf44159779bf5dffa
+  id: _globals_inner_1a086d98e13be2abeaf44159779bf5dffa
+  parent: com.microsoft.azure.management.website.implementation.api._globals_inner
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  langs:
+  - java
+  name: updateSubscriptionPublishingCredentialsAsync(UserInner requestMessage, final ServiceCallback< UserInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.website.implementation.api.GlobalsInner.updateSubscriptionPublishingCredentialsAsync(UserInner requestMessage, final ServiceCallback< UserInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
+    startLine: 202
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Updates publishing credentials for the subscription owner.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall updateSubscriptionPublishingCredentialsAsync(UserInner requestMessage, final ServiceCallback< UserInner > serviceCallback)
+    parameters:
+    - id: requestMessage
+      type: com.microsoft.azure.management.website.implementation.api._user_inner
+      description: <p>requestMessage with new publishing credentials </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._user_inner
+    name: UserInner
+    fullName: com.microsoft.azure.management.website.implementation.api.UserInner
+    href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._user_inner
+    name: UserInner
+    fullName: com.microsoft.azure.management.website.implementation.api.UserInner
+    href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner
+    name: GeoRegionCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.GeoRegionCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner
+    name: GeoRegionCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.GeoRegionCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._certificate_collection_inner
+    name: CertificateCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.CertificateCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._certificate_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._certificate_collection_inner
+    name: CertificateCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.CertificateCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._certificate_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+    name: ServerFarmCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+    name: ServerFarmCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._site_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+    name: SiteCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.SiteCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._site_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+    name: SiteCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.SiteCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner
+    name: HostingEnvironmentCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner
+    name: HostingEnvironmentCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce819109ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910
+    name: ManagedHostingEnvironmentCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce819109ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910
+    name: ManagedHostingEnvironmentCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner
+    name: ClassicMobileServiceCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner
+    name: ClassicMobileServiceCollectionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceCollectionInner
+    href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response9aef07c3
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: 93de0ef9com.microsoft.rest._service_callback9aef07c3
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Object >
+    fullName: < Object >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._resource_name_availability_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner
+    name: ResourceNameAvailabilityInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ResourceNameAvailabilityInner
+    href: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._resource_name_availability_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner
+    name: ResourceNameAvailabilityInner
+    fullName: com.microsoft.azure.management.website.implementation.api.ResourceNameAvailabilityInner
+    href: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner._globals_service
+- uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
+  name: WebSiteManagementClientImpl
+  fullName: com.microsoft.azure.management.website.implementation.api.WebSiteManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class WebSiteManagementClientImpl
+- uid: com.microsoft.azure.management.website.implementation.api._globals_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._globals_inner.yml
+  name: GlobalsInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GlobalsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Globals. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.website.implementation.api._user_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
+  name: UserInner
+  fullName: com.microsoft.azure.management.website.implementation.api.UserInner
+  type: Class
+  summary: <p>Represents user crendentials used for publishing activity. </p>
+  syntax:
+    content: public class UserInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner.yml
+  name: GeoRegionCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.GeoRegionCollectionInner
+  type: Class
+  summary: <p>Collection of geo regions. </p>
+  syntax:
+    content: public class GeoRegionCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._certificate_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._certificate_collection_inner.yml
+  name: CertificateCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.CertificateCollectionInner
+  type: Class
+  summary: <p>Collection of certificates. </p>
+  syntax:
+    content: public class CertificateCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._server_farm_collection_inner.yml
+  name: ServerFarmCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ServerFarmCollectionInner
+  type: Class
+  summary: <p>Collection of serverfarms. </p>
+  syntax:
+    content: public class ServerFarmCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  name: SiteCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.SiteCollectionInner
+  type: Class
+  summary: <p>Collection of sites. </p>
+  syntax:
+    content: public class SiteCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner.yml
+  name: HostingEnvironmentCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentCollectionInner
+  type: Class
+  summary: <p>Collection of hosting environments (App Service Environments). </p>
+  syntax:
+    content: public class HostingEnvironmentCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce81910.yml
+  name: ManagedHostingEnvironmentCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentCollectionInner
+  type: Class
+  summary: <p>Collection of managed hosting environments. </p>
+  syntax:
+    content: public class ManagedHostingEnvironmentCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner.yml
+  name: ClassicMobileServiceCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServiceCollectionInner
+  type: Class
+  summary: <p>Collection of Classic Mobile Services. </p>
+  syntax:
+    content: public class ClassicMobileServiceCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner.yml
+  name: ResourceNameAvailabilityInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ResourceNameAvailabilityInner
+  type: Class
+  summary: <p>Describes if a resource name is available. </p>
+  syntax:
+    content: public class ResourceNameAvailabilityInner
+- uid: com.microsoft.azure.management.website.implementation.api._resource_name_availability_request_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._resource_name_availability_request_inner.yml
+  name: ResourceNameAvailabilityRequestInner
+  fullName: com.microsoft.azure.management.website.implementation.api.ResourceNameAvailabilityRequestInner
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> name availability request content. </p>
+  syntax:
+    content: public class ResourceNameAvailabilityRequestInner

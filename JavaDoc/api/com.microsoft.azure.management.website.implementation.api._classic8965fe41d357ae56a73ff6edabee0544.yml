@@ -1,0 +1,145 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544
+  id: _classic8965fe41d357ae56a73ff6edabee0544
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544_1a097c22043a6763e3b4d5fd28e23f8298
+  - com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544_1a92f772115d9c6555d4499c4d91c18079
+  - com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544_1ac7630dde26772865388227b87dc8fcb4
+  href: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544.yml
+  langs:
+  - java
+  name: ClassicMobileServicesInner.ClassicMobileServicesService
+  fullName: com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.ClassicMobileServicesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: 'The interface defining all the services for ClassicMobileServices to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface ClassicMobileServicesInner.ClassicMobileServicesService
+- uid: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544_1a097c22043a6763e3b4d5fd28e23f8298
+  id: _classic8965fe41d357ae56a73ff6edabee0544_1a097c22043a6763e3b4d5fd28e23f8298
+  parent: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544
+  href: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544.yml
+  langs:
+  - java
+  name: getClassicMobileServices(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.ClassicMobileServicesService.getClassicMobileServices(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 55
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getClassicMobileServices(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544_1a92f772115d9c6555d4499c4d91c18079
+  id: _classic8965fe41d357ae56a73ff6edabee0544_1a92f772115d9c6555d4499c4d91c18079
+  parent: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544
+  href: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544.yml
+  langs:
+  - java
+  name: getClassicMobileService(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.ClassicMobileServicesService.getClassicMobileService(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getClassicMobileService(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544_1ac7630dde26772865388227b87dc8fcb4
+  id: _classic8965fe41d357ae56a73ff6edabee0544_1ac7630dde26772865388227b87dc8fcb4
+  parent: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544
+  href: com.microsoft.azure.management.website.implementation.api._classic8965fe41d357ae56a73ff6edabee0544.yml
+  langs:
+  - java
+  name: deleteClassicMobileService(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.ClassicMobileServicesInner.ClassicMobileServicesService.deleteClassicMobileService(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ClassicMobileServicesInner.java
+    startLine: 63
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > deleteClassicMobileService(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: ad8e2c25
+  spec.java:
+  - name: '@Path("name") String'
+    fullName: '@Path("name") String'

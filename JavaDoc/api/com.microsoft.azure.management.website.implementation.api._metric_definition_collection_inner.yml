@@ -1,0 +1,158 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+  id: _metric_definition_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1a822f5adc54e7820664a9456aa58771fd
+  - com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1a217cf34dfe24990ed575721450599a5c
+  - com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1aba11a935b4b0f3ee05b8b6b3acc27cfa
+  - com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1ad00ee6afe1e02d6b11599f864b87217a
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner.yml
+  langs:
+  - java
+  name: MetricDefinitionCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.MetricDefinitionCollectionInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/MetricDefinitionCollectionInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/MetricDefinitionCollectionInner.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Collection of metric defintions. </p>
+  syntax: &o1
+    content: public class MetricDefinitionCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1a822f5adc54e7820664a9456aa58771fd
+  id: _metric_definition_collection_inner_1a822f5adc54e7820664a9456aa58771fd
+  parent: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner.yml
+  langs:
+  - java
+  name: nextLink()
+  fullName: String com.microsoft.azure.management.website.implementation.api.MetricDefinitionCollectionInner.nextLink()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/MetricDefinitionCollectionInner.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public String nextLink()
+    return:
+      type: "26831127"
+      description: <p>the nextLink value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1a217cf34dfe24990ed575721450599a5c
+  id: _metric_definition_collection_inner_1a217cf34dfe24990ed575721450599a5c
+  parent: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: List<MetricDefinitionInner> com.microsoft.azure.management.website.implementation.api.MetricDefinitionCollectionInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/MetricDefinitionCollectionInner.java
+    startLine: 29
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< MetricDefinitionInner > value()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._metric_definition_inner9ec3e006
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1aba11a935b4b0f3ee05b8b6b3acc27cfa
+  id: _metric_definition_collection_inner_1aba11a935b4b0f3ee05b8b6b3acc27cfa
+  parent: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner.yml
+  langs:
+  - java
+  name: withNextLink(String nextLink)
+  fullName: MetricDefinitionCollectionInner com.microsoft.azure.management.website.implementation.api.MetricDefinitionCollectionInner.withNextLink(String nextLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/MetricDefinitionCollectionInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public MetricDefinitionCollectionInner withNextLink(String nextLink)
+    parameters:
+    - id: nextLink
+      type: "26831127"
+      description: <p>the nextLink value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner_1ad00ee6afe1e02d6b11599f864b87217a
+  id: _metric_definition_collection_inner_1ad00ee6afe1e02d6b11599f864b87217a
+  parent: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner.yml
+  langs:
+  - java
+  name: withValue(List< MetricDefinitionInner > value)
+  fullName: MetricDefinitionCollectionInner com.microsoft.azure.management.website.implementation.api.MetricDefinitionCollectionInner.withValue(List< MetricDefinitionInner > value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/MetricDefinitionCollectionInner.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public MetricDefinitionCollectionInner withValue(List< MetricDefinitionInner > value)
+    parameters:
+    - id: value
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._metric_definition_inner9ec3e006
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.website.implementation.api._metric_definition_inner9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.website.implementation.api._metric_definition_inner
+    name: MetricDefinitionInner
+    fullName: com.microsoft.azure.management.website.implementation.api.MetricDefinitionInner
+    href: com.microsoft.azure.management.website.implementation.api._metric_definition_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_inner.yml
+  name: MetricDefinitionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.MetricDefinitionInner
+  type: Class
+  summary: <p>Class repesenting metadata for the metrics. </p>
+  syntax:
+    content: public class MetricDefinitionInner
+- uid: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._metric_definition_collection_inner.yml
+  name: MetricDefinitionCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.MetricDefinitionCollectionInner
+  type: Class
+  summary: <p>Collection of metric defintions. </p>
+  syntax: *o1

@@ -1,0 +1,156 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  id: _status_level_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._status_level_types_1a98adc4edd0920803c8c3d5a16fe8c3b1
+  - com.microsoft.azure.management.compute.implementation.api._status_level_types_1ae0b361d6b9c96f16604feb673ec4c165
+  - com.microsoft.azure.management.compute.implementation.api._status_level_types_1a1906eeb625d81039e33e17e9555421ae
+  - com.microsoft.azure.management.compute.implementation.api._status_level_types_1a1213055318b90d555a641d55e364949b
+  - com.microsoft.azure.management.compute.implementation.api._status_level_types_1a90a35a5f08e98930dc6405a7a701cbf6
+  - com.microsoft.azure.management.compute.implementation.api._status_level_types_1a3872fcd448d3de9386fe25c744d570c7
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: StatusLevelTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 14
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._status_level_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum StatusLevelTypes
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types_1a98adc4edd0920803c8c3d5a16fe8c3b1
+  id: _status_level_types_1a98adc4edd0920803c8c3d5a16fe8c3b1
+  parent: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: ERROR
+  fullName: com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes.ERROR
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 22
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Enum value Error. </p>
+  syntax:
+    content: public ERROR=("Error")
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types_1ae0b361d6b9c96f16604feb673ec4c165
+  id: _status_level_types_1ae0b361d6b9c96f16604feb673ec4c165
+  parent: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static StatusLevelTypes com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 38
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.compute.implementation.api._status_level_types" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static StatusLevelTypes fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.compute.implementation.api._status_level_types
+      description: <p>the parsed <xref href="com.microsoft.azure.management.compute.implementation.api._status_level_types" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types_1a1906eeb625d81039e33e17e9555421ae
+  id: _status_level_types_1a1906eeb625d81039e33e17e9555421ae
+  parent: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: INFO
+  fullName: com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes.INFO
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 16
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Enum value Info. </p>
+  syntax:
+    content: public INFO=("Info")
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types_1a1213055318b90d555a641d55e364949b
+  id: _status_level_types_1a1213055318b90d555a641d55e364949b
+  parent: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: StatusLevelTypes(String value)
+  fullName: com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes.StatusLevelTypes(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 27
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public StatusLevelTypes(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types_1a90a35a5f08e98930dc6405a7a701cbf6
+  id: _status_level_types_1a90a35a5f08e98930dc6405a7a701cbf6
+  parent: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 50
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types_1a3872fcd448d3de9386fe25c744d570c7
+  id: _status_level_types_1a3872fcd448d3de9386fe25c744d570c7
+  parent: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  langs:
+  - java
+  name: WARNING
+  fullName: com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes.WARNING
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/StatusLevelTypes.java
+    startLine: 19
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: <p>Enum value Warning. </p>
+  syntax:
+    content: public WARNING=("Warning")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation.api._status_level_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._status_level_types.yml
+  name: StatusLevelTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.StatusLevelTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._status_level_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

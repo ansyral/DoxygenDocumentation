@@ -1,0 +1,157 @@
+items:
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable
+  id: _definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable.yml
+  langs:
+  - java
+  name: NicIpConfiguration.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionAttachable
+  type: Interface
+  source:
+    remote:
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 228
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Attaches the Ip configuration to the parent network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionAttachable
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a6c5600a5264ddd26a33afe0dbb4e54de
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1ac82e9bdb4875a24155655cf8bb7a194f
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a00f6fd0bf958f47d1ccd092a647d3f48
+  - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a819fa299e329da889a76ebc1b22ad92d
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a6c5600a5264ddd26a33afe0dbb4e54de
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
+  name: withExistingPublicIpAddress(PublicIpAddress publicIpAddress)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPublicIpAddress< ParentT >.withExistingPublicIpAddress(PublicIpAddress publicIpAddress)
+  type: Method
+  summary: >-
+    <p>Associates an existing public IP address with the Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withExistingPublicIpAddress(PublicIpAddress publicIpAddress)
+    parameters:
+    - id: publicIpAddress
+      type: com.microsoft.azure.management.network._public_ip_address
+      description: <p>an existing public IP address </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachablea6da57ba
+      description: <p>the next stage of the Ip configuration definition </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1ac82e9bdb4875a24155655cf8bb7a194f
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
+  name: withNewPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPublicIpAddress< ParentT >.withNewPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  type: Method
+  summary: >-
+    <p>Create a new public IP address to associate with the Ip configuration, based on the provided definition.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withNewPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 0d27d50c
+      description: <p>a creatable definition for a new public IP </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachablea6da57ba
+      description: <p>the next stage of the Ip configuration definition </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a00f6fd0bf958f47d1ccd092a647d3f48
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
+  name: withNewPublicIpAddress()
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPublicIpAddress< ParentT >.withNewPublicIpAddress()
+  type: Method
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource and associate it with with the Ip configuration. </p>
+
+    <p>the internal name and DNS label for the public IP address will be derived from the network interface name</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withNewPublicIpAddress()
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachablea6da57ba
+      description: <p>the next stage of the Ip configuration definition </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a819fa299e329da889a76ebc1b22ad92d
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
+  name: withNewPublicIpAddress(String leafDnsLabel)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPublicIpAddress< ParentT >.withNewPublicIpAddress(String leafDnsLabel)
+  type: Method
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the Ip configuration. </p>
+
+    <p>the internal name for the public IP address will be derived from the DNS label</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withNewPublicIpAddress(String leafDnsLabel)
+    parameters:
+    - id: leafDnsLabel
+      type: "26831127"
+      description: <p>the leaf domain label </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachablea6da57ba
+      description: <p>tthe next stage of the Ip configuration definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: Attachable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the child object definition, at which it can be attached to the parent, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Attachable
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
+  name: NicIpConfiguration.DefinitionWithPublicIpAddress
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPublicIpAddress
+  type: Interface
+  summary: >-
+    <p>The stage of the Ip configuration definition allowing to associate it with a public IP address.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithPublicIpAddress
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
+  name: NicIpConfiguration.Definitions
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Definitions
+  type: Interface
+  summary: >-
+    <p>Container interface for all the definitions.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Definitions

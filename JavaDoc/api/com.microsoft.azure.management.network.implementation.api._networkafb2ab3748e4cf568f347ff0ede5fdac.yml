@@ -1,0 +1,361 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1ac41c7c744e6bd16ecae3c4b6d0cf5157
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1aea252c15d90b59a3db9442955bc15e70
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1aa91e135a065e0a91e6ab3391f0f30c4b
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a6b8be344a3c079aaa0b128d9cd47b41d
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1acd9934d4598c95123266ca39e5c4b8b3
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a1b2c75247e9b73aa51383981630a5847
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a213f982ecb70878b98e3a2972781b9e1
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a0599e0b9ccae3e93ba0a90b1a8b2e31f
+  - com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a38355ec7dcc63b7183ecf09850cf076c
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: NetworkSecurityGroupsInner.NetworkSecurityGroupsService
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: 'The interface defining all the services for NetworkSecurityGroups to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface NetworkSecurityGroupsInner.NetworkSecurityGroupsService
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1ac41c7c744e6bd16ecae3c4b6d0cf5157
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1ac41c7c744e6bd16ecae3c4b6d0cf5157
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1aea252c15d90b59a3db9442955bc15e70
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1aea252c15d90b59a3db9442955bc15e70
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1aa91e135a065e0a91e6ab3391f0f30c4b
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1aa91e135a065e0a91e6ab3391f0f30c4b
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.get(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: expand
+      type: 99e81acb
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a6b8be344a3c079aaa0b128d9cd47b41d
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1a6b8be344a3c079aaa0b128d9cd47b41d
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Body NetworkSecurityGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Body NetworkSecurityGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Body NetworkSecurityGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1acd9934d4598c95123266ca39e5c4b8b3
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1acd9934d4598c95123266ca39e5c4b8b3
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Body NetworkSecurityGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Body NetworkSecurityGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkSecurityGroupName") String networkSecurityGroupName,@Path("subscriptionId") String subscriptionId,@Body NetworkSecurityGroupInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkSecurityGroupName
+      type: 6a8664c0
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a1b2c75247e9b73aa51383981630a5847
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1a1b2c75247e9b73aa51383981630a5847
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a213f982ecb70878b98e3a2972781b9e1
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1a213f982ecb70878b98e3a2972781b9e1
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a0599e0b9ccae3e93ba0a90b1a8b2e31f
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1a0599e0b9ccae3e93ba0a90b1a8b2e31f
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac_1a38355ec7dcc63b7183ecf09850cf076c
+  id: _networkafb2ab3748e4cf568f347ff0ede5fdac_1a38355ec7dcc63b7183ecf09850cf076c
+  parent: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac
+  href: com.microsoft.azure.management.network.implementation.api._networkafb2ab3748e4cf568f347ff0ede5fdac.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupsInner.NetworkSecurityGroupsService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkSecurityGroupsInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: 6a8664c0
+  spec.java:
+  - name: '@Path("networkSecurityGroupName") String'
+    fullName: '@Path("networkSecurityGroupName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: 96b6cf22com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+    name: NetworkSecurityGroupInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.network.implementation.api._network_security_group_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_security_group_inner.yml
+  name: NetworkSecurityGroupInner
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkSecurityGroupInner
+  type: Class
+  summary: 'NetworkSecurityGroup resource. '
+  syntax:
+    content: public class NetworkSecurityGroupInner
+- uid: com.microsoft.azure.management.network._network_security_groups
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_groups.yml
+  name: NetworkSecurityGroups
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroups
+  type: Interface
+  summary: 'Entry point to network security group management. '
+  syntax:
+    content: public interface NetworkSecurityGroups

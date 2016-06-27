@@ -1,0 +1,73 @@
+items:
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_subnet
+  id: _definition_with_subnet
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_interface._definition_with_subnet_1aff2be147a310992e17fbc80b6b14bf8d
+  href: com.microsoft.azure.management.network._network_interface._definition_with_subnet.yml
+  langs:
+  - java
+  name: NetworkInterface.DefinitionWithSubnet
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithSubnet
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 205
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the network interface definition allowing to specify subnet. </p>
+  syntax:
+    content: public interface DefinitionWithSubnet
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_subnet_1aff2be147a310992e17fbc80b6b14bf8d
+  id: _definition_with_subnet_1aff2be147a310992e17fbc80b6b14bf8d
+  parent: com.microsoft.azure.management.network._network_interface._definition_with_subnet
+  href: com.microsoft.azure.management.network._network_interface._definition_with_subnet.yml
+  langs:
+  - java
+  name: withSubnet(String name)
+  fullName: DefinitionWithPrivateIp com.microsoft.azure.management.network.NetworkInterface.DefinitionWithSubnet.withSubnet(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
+    startLine: 212
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Associate a subnet with the network interface's primary Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionWithPrivateIp withSubnet(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the subnet name </p>
+    return:
+      type: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+      description: <p>the next stage of the network interface definition </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.network._network_interface._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitions.yml
+  name: NetworkInterface.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
+  type: Interface
+  summary: <p>Container interface for all the definitions. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_with_private_ip.yml
+  name: NetworkInterface.DefinitionWithPrivateIp
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPrivateIp
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
+  syntax:
+    content: public interface DefinitionWithPrivateIp

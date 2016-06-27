@@ -1,0 +1,459 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  id: _ramp_up_rule
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a9510ed90d4d393892678871125ba09b5
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a20f14867b8735bba29f42c481f342bd6
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a41b4df1182fbe69cbd66bf8fdef5d6a8
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a6f7c826e027a9fa2e22e35eedd74a344
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a73da6c8f700ad5c81edba54c7fabd9d1
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1acd1bd90281256c5d81944b5483de630f
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1abada1a9675b473d1751caa077a9d3fdc
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a165ec48506a97713c5cb1f1b3e785012
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a98301802916c76fb78c2b60303ad4514
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a0460553b507006e17154418cc5ffda24
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a1b8c739a791ede9fc18f2e488e215609
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a68b12d6784942e35711c084536077632
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a72a0cf2bf84e87ac5662b584f8cae812
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a78ed798fc4ca01f279643c20228f7fdc
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a6c5b62701ba9d4caa1394c2059aa3392
+  - com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a083d0be840b17a3ac0c428eaa399d95a
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: RampUpRule
+  fullName: com.microsoft.azure.management.website.implementation.api.RampUpRule
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Routing rules for ramp up testing. This rule allows to redirect static traffic % to a slot or to gradually change routing % based on performance. </p>
+  syntax: &o1
+    content: public class RampUpRule
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a9510ed90d4d393892678871125ba09b5
+  id: _ramp_up_rule_1a9510ed90d4d393892678871125ba09b5
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: actionHostName()
+  fullName: String com.microsoft.azure.management.website.implementation.api.RampUpRule.actionHostName()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 79
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the actionHostName value.</p>
+
+    <p></p>
+  syntax:
+    content: public String actionHostName()
+    return:
+      type: "26831127"
+      description: <p>the actionHostName value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a20f14867b8735bba29f42c481f342bd6
+  id: _ramp_up_rule_1a20f14867b8735bba29f42c481f342bd6
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: changeDecisionCallbackUrl()
+  fullName: String com.microsoft.azure.management.website.implementation.api.RampUpRule.changeDecisionCallbackUrl()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 199
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the changeDecisionCallbackUrl value.</p>
+
+    <p></p>
+  syntax:
+    content: public String changeDecisionCallbackUrl()
+    return:
+      type: "26831127"
+      description: <p>the changeDecisionCallbackUrl value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a41b4df1182fbe69cbd66bf8fdef5d6a8
+  id: _ramp_up_rule_1a41b4df1182fbe69cbd66bf8fdef5d6a8
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: changeIntervalInMinutes()
+  fullName: Integer com.microsoft.azure.management.website.implementation.api.RampUpRule.changeIntervalInMinutes()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 139
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the changeIntervalInMinutes value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer changeIntervalInMinutes()
+    return:
+      type: 08effaa0
+      description: <p>the changeIntervalInMinutes value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a6f7c826e027a9fa2e22e35eedd74a344
+  id: _ramp_up_rule_1a6f7c826e027a9fa2e22e35eedd74a344
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: changeStep()
+  fullName: Double com.microsoft.azure.management.website.implementation.api.RampUpRule.changeStep()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 119
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the changeStep value.</p>
+
+    <p></p>
+  syntax:
+    content: public Double changeStep()
+    return:
+      type: 8dd309d9
+      description: <p>the changeStep value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a73da6c8f700ad5c81edba54c7fabd9d1
+  id: _ramp_up_rule_1a73da6c8f700ad5c81edba54c7fabd9d1
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: maxReroutePercentage()
+  fullName: Double com.microsoft.azure.management.website.implementation.api.RampUpRule.maxReroutePercentage()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 179
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the maxReroutePercentage value.</p>
+
+    <p></p>
+  syntax:
+    content: public Double maxReroutePercentage()
+    return:
+      type: 8dd309d9
+      description: <p>the maxReroutePercentage value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1acd1bd90281256c5d81944b5483de630f
+  id: _ramp_up_rule_1acd1bd90281256c5d81944b5483de630f
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: minReroutePercentage()
+  fullName: Double com.microsoft.azure.management.website.implementation.api.RampUpRule.minReroutePercentage()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 159
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the minReroutePercentage value.</p>
+
+    <p></p>
+  syntax:
+    content: public Double minReroutePercentage()
+    return:
+      type: 8dd309d9
+      description: <p>the minReroutePercentage value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1abada1a9675b473d1751caa077a9d3fdc
+  id: _ramp_up_rule_1abada1a9675b473d1751caa077a9d3fdc
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: name()
+  fullName: String com.microsoft.azure.management.website.implementation.api.RampUpRule.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 219
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a165ec48506a97713c5cb1f1b3e785012
+  id: _ramp_up_rule_1a165ec48506a97713c5cb1f1b3e785012
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: reroutePercentage()
+  fullName: Double com.microsoft.azure.management.website.implementation.api.RampUpRule.reroutePercentage()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 99
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the reroutePercentage value.</p>
+
+    <p></p>
+  syntax:
+    content: public Double reroutePercentage()
+    return:
+      type: 8dd309d9
+      description: <p>the reroutePercentage value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a98301802916c76fb78c2b60303ad4514
+  id: _ramp_up_rule_1a98301802916c76fb78c2b60303ad4514
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withActionHostName(String actionHostName)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withActionHostName(String actionHostName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 89
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the actionHostName value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withActionHostName(String actionHostName)
+    parameters:
+    - id: actionHostName
+      type: "26831127"
+      description: <p>the actionHostName value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a0460553b507006e17154418cc5ffda24
+  id: _ramp_up_rule_1a0460553b507006e17154418cc5ffda24
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withChangeDecisionCallbackUrl(String changeDecisionCallbackUrl)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withChangeDecisionCallbackUrl(String changeDecisionCallbackUrl)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 209
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the changeDecisionCallbackUrl value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withChangeDecisionCallbackUrl(String changeDecisionCallbackUrl)
+    parameters:
+    - id: changeDecisionCallbackUrl
+      type: "26831127"
+      description: <p>the changeDecisionCallbackUrl value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a1b8c739a791ede9fc18f2e488e215609
+  id: _ramp_up_rule_1a1b8c739a791ede9fc18f2e488e215609
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withChangeIntervalInMinutes(Integer changeIntervalInMinutes)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withChangeIntervalInMinutes(Integer changeIntervalInMinutes)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 149
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the changeIntervalInMinutes value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withChangeIntervalInMinutes(Integer changeIntervalInMinutes)
+    parameters:
+    - id: changeIntervalInMinutes
+      type: 08effaa0
+      description: <p>the changeIntervalInMinutes value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a68b12d6784942e35711c084536077632
+  id: _ramp_up_rule_1a68b12d6784942e35711c084536077632
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withChangeStep(Double changeStep)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withChangeStep(Double changeStep)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 129
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the changeStep value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withChangeStep(Double changeStep)
+    parameters:
+    - id: changeStep
+      type: 8dd309d9
+      description: <p>the changeStep value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a72a0cf2bf84e87ac5662b584f8cae812
+  id: _ramp_up_rule_1a72a0cf2bf84e87ac5662b584f8cae812
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withMaxReroutePercentage(Double maxReroutePercentage)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withMaxReroutePercentage(Double maxReroutePercentage)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 189
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the maxReroutePercentage value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withMaxReroutePercentage(Double maxReroutePercentage)
+    parameters:
+    - id: maxReroutePercentage
+      type: 8dd309d9
+      description: <p>the maxReroutePercentage value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a78ed798fc4ca01f279643c20228f7fdc
+  id: _ramp_up_rule_1a78ed798fc4ca01f279643c20228f7fdc
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withMinReroutePercentage(Double minReroutePercentage)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withMinReroutePercentage(Double minReroutePercentage)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 169
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the minReroutePercentage value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withMinReroutePercentage(Double minReroutePercentage)
+    parameters:
+    - id: minReroutePercentage
+      type: 8dd309d9
+      description: <p>the minReroutePercentage value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a6c5b62701ba9d4caa1394c2059aa3392
+  id: _ramp_up_rule_1a6c5b62701ba9d4caa1394c2059aa3392
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withName(String name)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withName(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 229
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a083d0be840b17a3ac0c428eaa399d95a
+  id: _ramp_up_rule_1a083d0be840b17a3ac0c428eaa399d95a
+  parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  langs:
+  - java
+  name: withReroutePercentage(Double reroutePercentage)
+  fullName: RampUpRule com.microsoft.azure.management.website.implementation.api.RampUpRule.withReroutePercentage(Double reroutePercentage)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RampUpRule.java
+    startLine: 109
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the reroutePercentage value.</p>
+
+    <p></p>
+  syntax:
+    content: public RampUpRule withReroutePercentage(Double reroutePercentage)
+    parameters:
+    - id: reroutePercentage
+      type: 8dd309d9
+      description: <p>the reroutePercentage value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._ramp_up_rule" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 8dd309d9
+  spec.java:
+  - name: Double
+    fullName: Double
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._ramp_up_rule.yml
+  name: RampUpRule
+  fullName: com.microsoft.azure.management.website.implementation.api.RampUpRule
+  type: Class
+  summary: <p>Routing rules for ramp up testing. This rule allows to redirect static traffic % to a slot or to gradually change routing % based on performance. </p>
+  syntax: *o1

@@ -1,0 +1,474 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1adfbaff905e48c728b45c86114e15dd53
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1af1122d4aff359a261e1b5e71a20c22fe
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a4bc04cd91e0f440817be9d6daf946a3c
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a71d419cbc6e86a3b27bfa28c2f0eca43
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1ad5896436529be1ac349f6c498bc09811
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a6a06ac2fccc5f786e429d8171b1cc9bd
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a052f2bf52544c77bc3464977b69c3313
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1ae2fe4dc305680541355621b8a19afb52
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1aead9c863ae6b519d1cc03dbb5baf8318
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a7c0e87873395ab244f79d9c0f0b2727e
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a5a53c512f8a0348da53ab0fe01ca9d84
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a2b7907706ef336a66defc9311aeb23cf
+  - com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a4fa0081f2abcfe1b05fd55492d9019d8
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: ApplicationGatewaysInner.ApplicationGatewaysService
+  fullName: com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 62
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: 'The interface defining all the services for ApplicationGateways to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface ApplicationGatewaysInner.ApplicationGatewaysService
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1adfbaff905e48c728b45c86114e15dd53
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1adfbaff905e48c728b45c86114e15dd53
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 65
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1af1122d4aff359a261e1b5e71a20c22fe
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1af1122d4aff359a261e1b5e71a20c22fe
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 69
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a4bc04cd91e0f440817be9d6daf946a3c
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a4bc04cd91e0f440817be9d6daf946a3c
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.get(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 73
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a71d419cbc6e86a3b27bfa28c2f0eca43
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a71d419cbc6e86a3b27bfa28c2f0eca43
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Body ApplicationGatewayInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Body ApplicationGatewayInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 77
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Body ApplicationGatewayInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._application_gateway_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1ad5896436529be1ac349f6c498bc09811
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1ad5896436529be1ac349f6c498bc09811
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Body ApplicationGatewayInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Body ApplicationGatewayInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 81
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Body ApplicationGatewayInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._application_gateway_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a6a06ac2fccc5f786e429d8171b1cc9bd
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a6a06ac2fccc5f786e429d8171b1cc9bd
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 85
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a052f2bf52544c77bc3464977b69c3313
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a052f2bf52544c77bc3464977b69c3313
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 89
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1ae2fe4dc305680541355621b8a19afb52
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1ae2fe4dc305680541355621b8a19afb52
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: start(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.start(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 93
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > start(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1aead9c863ae6b519d1cc03dbb5baf8318
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1aead9c863ae6b519d1cc03dbb5baf8318
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: beginStart(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.beginStart(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 97
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginStart(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a7c0e87873395ab244f79d9c0f0b2727e
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a7c0e87873395ab244f79d9c0f0b2727e
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: stop(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.stop(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 101
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > stop(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a5a53c512f8a0348da53ab0fe01ca9d84
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a5a53c512f8a0348da53ab0fe01ca9d84
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: beginStop(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.beginStop(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 105
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginStop(@Path("resourceGroupName") String resourceGroupName,@Path("applicationGatewayName") String applicationGatewayName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: applicationGatewayName
+      type: 9053418c
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a2b7907706ef336a66defc9311aeb23cf
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a2b7907706ef336a66defc9311aeb23cf
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 109
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a4fa0081f2abcfe1b05fd55492d9019d8
+  id: _applicaaad1df59e6dc7e53cbdb07e8ea5f145a_1a4fa0081f2abcfe1b05fd55492d9019d8
+  parent: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a
+  href: com.microsoft.azure.management.network.implementation.api._applicaaad1df59e6dc7e53cbdb07e8ea5f145a.yml
+  langs:
+  - java
+  name: listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.ApplicationGatewaysInner.ApplicationGatewaysService.listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ApplicationGatewaysInner.java
+    startLine: 113
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: 9053418c
+  spec.java:
+  - name: '@Path("applicationGatewayName") String'
+    fullName: '@Path("applicationGatewayName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 96b6cf22com.microsoft.azure.management.network.implementation.api._application_gateway_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_inner
+    name: ApplicationGatewayInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ApplicationGatewayInner
+    href: com.microsoft.azure.management.network.implementation.api._application_gateway_inner.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.network.implementation.api._application_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._application_gateway_inner.yml
+  name: ApplicationGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ApplicationGatewayInner
+  type: Class
+  summary: 'ApplicationGateways resource. '
+  syntax:
+    content: public class ApplicationGatewayInner

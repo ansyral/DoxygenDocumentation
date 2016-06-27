@@ -1,0 +1,432 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation._networks_impl
+  id: _networks_impl
+  parent: com.microsoft.azure.management.network.implementation
+  children:
+  - com.microsoft.azure.management.network.implementation._networks_impl_1a95efb02737650d703d46583dcee23f0b
+  - com.microsoft.azure.management.network.implementation._networks_impl_1a10c72da400c0f78e6b2d22564d7ce1c0
+  - com.microsoft.azure.management.network.implementation._networks_impl_1aacaa72b68acb35667cc1b170a4ca0bc1
+  - com.microsoft.azure.management.network.implementation._networks_impl_1aa03793e4d57c1e40044b768f039593d7
+  - com.microsoft.azure.management.network.implementation._networks_impl_1a3e254e91f1bd309fbbe1a978b1d73bc4
+  - com.microsoft.azure.management.network.implementation._networks_impl_1a2acef60d597fc767603117c1b561b867
+  - com.microsoft.azure.management.network.implementation._networks_impl_1ae62d238410c575e0d579ae14a379c4e7
+  - com.microsoft.azure.management.network.implementation._networks_impl_1ac3b9dd420886504bcd941cc2fe8241bd
+  - com.microsoft.azure.management.network.implementation._networks_impl_1ad8f0530e9f3fcd2b2c4157634ef01dca
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: NetworksImpl
+  fullName: com.microsoft.azure.management.network.implementation.NetworksImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 27
+  package: com.microsoft.azure.management.network.implementation
+  summary: 'Implementation of the Networks interface. (Internal use only) '
+  syntax:
+    content: class NetworksImpl
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1a95efb02737650d703d46583dcee23f0b
+  id: _networks_impl_1a95efb02737650d703d46583dcee23f0b
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: NetworksImpl(final VirtualNetworksInner client, final ResourceManager resourceManager)
+  fullName: com.microsoft.azure.management.network.implementation.NetworksImpl.NetworksImpl(final VirtualNetworksInner client, final ResourceManager resourceManager)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 31
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: NetworksImpl(final VirtualNetworksInner client, final ResourceManager resourceManager)
+    parameters:
+    - id: client
+      type: 93de0ef9com.microsoft.azure.management.network.implementation.api._virtual_networks_inner
+    - id: resourceManager
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1a10c72da400c0f78e6b2d22564d7ce1c0
+  id: _networks_impl_1a10c72da400c0f78e6b2d22564d7ce1c0
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<Network> com.microsoft.azure.management.network.implementation.NetworksImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 36
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: public PagedList< Network > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network._network9ec3e006
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1aacaa72b68acb35667cc1b170a4ca0bc1
+  id: _networks_impl_1aacaa72b68acb35667cc1b170a4ca0bc1
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: listByGroup(String groupName)
+  fullName: PagedList<Network> com.microsoft.azure.management.network.implementation.NetworksImpl.listByGroup(String groupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 41
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: public PagedList< Network > listByGroup(String groupName)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network._network9ec3e006
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1aa03793e4d57c1e40044b768f039593d7
+  id: _networks_impl_1aa03793e4d57c1e40044b768f039593d7
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: getByGroup(String groupName, String name)
+  fullName: NetworkImpl com.microsoft.azure.management.network.implementation.NetworksImpl.getByGroup(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 46
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: public NetworkImpl getByGroup(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+    return:
+      type: 25d2bc3e
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1a3e254e91f1bd309fbbe1a978b1d73bc4
+  id: _networks_impl_1a3e254e91f1bd309fbbe1a978b1d73bc4
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: delete(String id)
+  fullName: void com.microsoft.azure.management.network.implementation.NetworksImpl.delete(String id)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 51
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: public void delete(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1a2acef60d597fc767603117c1b561b867
+  id: _networks_impl_1a2acef60d597fc767603117c1b561b867
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: delete(String groupName, String name)
+  fullName: void com.microsoft.azure.management.network.implementation.NetworksImpl.delete(String groupName, String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 56
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: public void delete(String groupName, String name)
+    parameters:
+    - id: groupName
+      type: "26831127"
+    - id: name
+      type: "26831127"
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1ae62d238410c575e0d579ae14a379c4e7
+  id: _networks_impl_1ae62d238410c575e0d579ae14a379c4e7
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: define(String name)
+  fullName: NetworkImpl com.microsoft.azure.management.network.implementation.NetworksImpl.define(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 61
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: public NetworkImpl define(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: 25d2bc3e
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1ac3b9dd420886504bcd941cc2fe8241bd
+  id: _networks_impl_1ac3b9dd420886504bcd941cc2fe8241bd
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: wrapModel(String name)
+  fullName: NetworkImpl com.microsoft.azure.management.network.implementation.NetworksImpl.wrapModel(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 68
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: protected NetworkImpl wrapModel(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+    return:
+      type: 25d2bc3e
+- uid: com.microsoft.azure.management.network.implementation._networks_impl_1ad8f0530e9f3fcd2b2c4157634ef01dca
+  id: _networks_impl_1ad8f0530e9f3fcd2b2c4157634ef01dca
+  parent: com.microsoft.azure.management.network.implementation._networks_impl
+  href: com.microsoft.azure.management.network.implementation._networks_impl.yml
+  langs:
+  - java
+  name: wrapModel(VirtualNetworkInner inner)
+  fullName: NetworkImpl com.microsoft.azure.management.network.implementation.NetworksImpl.wrapModel(VirtualNetworkInner inner)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworksImpl.java
+    startLine: 102
+  package: com.microsoft.azure.management.network.implementation
+  syntax:
+    content: protected NetworkImpl wrapModel(VirtualNetworkInner inner)
+    parameters:
+    - id: inner
+      type: com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+    return:
+      type: 25d2bc3e
+references:
+- uid: 93de0ef9com.microsoft.azure.management.network.implementation.api._virtual_networks_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.network.implementation.api._virtual_networks_inner
+    name: VirtualNetworksInner
+    fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner
+    href: com.microsoft.azure.management.network.implementation.api._virtual_networks_inner.yml
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation._resource_manager
+    name: ResourceManager
+    fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+    href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network._network9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network._network
+    name: Network
+    fullName: com.microsoft.azure.management.network.Network
+    href: com.microsoft.azure.management.network._network.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 25d2bc3e
+  spec.java:
+  - name: NetworkImpl
+    fullName: NetworkImpl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: getById(String id)
+  fullName: final T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.getById(String id)
+  type: Method
+  summary: Gets the information about a resource from Azure based on the resource id.
+  syntax:
+    content: public final T getById(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+      description: 'the id of the resource. '
+    return:
+      type: 8cbc54f7
+      description: 'an immutable representation of the resource '
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  type: Method
+  syntax:
+    content: protected GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+    parameters:
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    - id: innerCollection
+      type: 891f7fcf
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: innerCollection
+  fullName: final InnerCollectionT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.innerCollection
+  type: Field
+  syntax:
+    content: protected final InnerCollectionT innerCollection
+    return:
+      type: 5cd01b93
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: resourceManager
+  fullName: final ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.resourceManager
+  type: Field
+  syntax:
+    content: protected final ResourceManager resourceManager
+    return:
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapList(PagedList< InnerT > pagedList)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(PagedList< InnerT > pagedList)
+  type: Method
+  syntax:
+    content: protected PagedList< T > wrapList(PagedList< InnerT > pagedList)
+    parameters:
+    - id: pagedList
+      type: com.microsoft.azure._paged_list5b074597
+    return:
+      type: com.microsoft.azure._paged_list34132889
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapList(List< InnerT > list)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(List< InnerT > list)
+  type: Method
+  syntax:
+    content: protected PagedList< T > wrapList(List< InnerT > list)
+    parameters:
+    - id: list
+      type: c2cb7003
+    return:
+      type: com.microsoft.azure._paged_list34132889
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: wrapModel(InnerT inner)
+  fullName: abstract ImplT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapModel(InnerT inner)
+  type: Method
+  syntax:
+    content: protected abstract ImplT wrapModel(InnerT inner)
+    parameters:
+    - id: inner
+      type: 52cf8095
+    return:
+      type: afe49e45
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+  name: WrappersImpl()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.WrappersImpl()
+  type: Method
+  syntax:
+    content: protected WrappersImpl()
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
+  name: GroupableResourcesImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl
+  type: Class
+  syntax:
+    content: public class GroupableResourcesImpl
+- uid: com.microsoft.azure.management.network._networks
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._networks.yml
+  name: Networks
+  fullName: com.microsoft.azure.management.network.Networks
+  type: Interface
+  summary: 'Entry point to virtual network management API in Azure. '
+  syntax:
+    content: public interface Networks
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_networks_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_networks_inner.yml
+  name: VirtualNetworksInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworksInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in VirtualNetworks. '
+  syntax:
+    content: public class VirtualNetworksInner
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: 'Entry point to Azure resource management. '
+  syntax:
+    content: public class ResourceManager
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.network._network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network.yml
+  name: Network
+  fullName: com.microsoft.azure.management.network.Network
+  type: Interface
+  summary: 'Entry point for Virtual Network management API in Azure. '
+  syntax:
+    content: public interface Network
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.azure.management.network.implementation.api._virtual_network_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._virtual_network_inner.yml
+  name: VirtualNetworkInner
+  fullName: com.microsoft.azure.management.network.implementation.api.VirtualNetworkInner
+  type: Class
+  summary: 'Virtual Network resource. '
+  syntax:
+    content: public class VirtualNetworkInner

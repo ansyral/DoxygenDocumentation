@@ -1,0 +1,149 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  id: _requests_based_trigger
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a98828b6103739e8ef49cc39b6e05a4f4
+  - com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a182a31a00941925dde2b85e307a9a745
+  - com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a17bc6a509a7e617276c32974a7a0c08b
+  - com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a976e9c8af07ac3b6f7103012a18217fa
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  langs:
+  - java
+  name: RequestsBasedTrigger
+  fullName: com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RequestsBasedTrigger.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RequestsBasedTrigger.java
+    startLine: 12
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._requests_based_trigger" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class RequestsBasedTrigger
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a98828b6103739e8ef49cc39b6e05a4f4
+  id: _requests_based_trigger_1a98828b6103739e8ef49cc39b6e05a4f4
+  parent: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  langs:
+  - java
+  name: count()
+  fullName: Integer com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger.count()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RequestsBasedTrigger.java
+    startLine: 28
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the count value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer count()
+    return:
+      type: 08effaa0
+      description: <p>the count value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a182a31a00941925dde2b85e307a9a745
+  id: _requests_based_trigger_1a182a31a00941925dde2b85e307a9a745
+  parent: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  langs:
+  - java
+  name: timeInterval()
+  fullName: String com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger.timeInterval()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RequestsBasedTrigger.java
+    startLine: 48
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the timeInterval value.</p>
+
+    <p></p>
+  syntax:
+    content: public String timeInterval()
+    return:
+      type: "26831127"
+      description: <p>the timeInterval value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a17bc6a509a7e617276c32974a7a0c08b
+  id: _requests_based_trigger_1a17bc6a509a7e617276c32974a7a0c08b
+  parent: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  langs:
+  - java
+  name: withCount(Integer count)
+  fullName: RequestsBasedTrigger com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger.withCount(Integer count)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RequestsBasedTrigger.java
+    startLine: 38
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the count value.</p>
+
+    <p></p>
+  syntax:
+    content: public RequestsBasedTrigger withCount(Integer count)
+    parameters:
+    - id: count
+      type: 08effaa0
+      description: <p>the count value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._requests_based_trigger" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger_1a976e9c8af07ac3b6f7103012a18217fa
+  id: _requests_based_trigger_1a976e9c8af07ac3b6f7103012a18217fa
+  parent: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  langs:
+  - java
+  name: withTimeInterval(String timeInterval)
+  fullName: RequestsBasedTrigger com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger.withTimeInterval(String timeInterval)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/RequestsBasedTrigger.java
+    startLine: 58
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the timeInterval value.</p>
+
+    <p></p>
+  syntax:
+    content: public RequestsBasedTrigger withTimeInterval(String timeInterval)
+    parameters:
+    - id: timeInterval
+      type: "26831127"
+      description: <p>the timeInterval value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._requests_based_trigger" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
+  name: RequestsBasedTrigger
+  fullName: com.microsoft.azure.management.website.implementation.api.RequestsBasedTrigger
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.website.implementation.api._requests_based_trigger" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

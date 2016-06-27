@@ -1,0 +1,119 @@
+items:
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  id: _definition_with_protocol
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a4e4bff2ea3e968999e0a77aa791fad97
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a7bee3eed2c97349ab85045fb00134316
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  langs:
+  - java
+  name: NetworkSecurityRule.DefinitionWithProtocol
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 311
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the security rule definition allowing the protocol that the rule applies to to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithProtocol
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a4e4bff2ea3e968999e0a77aa791fad97
+  id: _definition_with_protocol_1a4e4bff2ea3e968999e0a77aa791fad97
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  langs:
+  - java
+  name: withAnyProtocol()
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol< ParentT >.withAnyProtocol()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 323
+  package: com.microsoft.azure.management.network
+  summary: <p>Makes this rule apply to any supported protocol. </p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withAnyProtocol()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol_1a7bee3eed2c97349ab85045fb00134316
+  id: _definition_with_protocol_1a7bee3eed2c97349ab85045fb00134316
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
+  langs:
+  - java
+  name: withProtocol(Protocol protocol)
+  fullName: DefinitionAttachable<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol< ParentT >.withProtocol(Protocol protocol)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 317
+  package: com.microsoft.azure.management.network
+  summary: <p>Specifies the protocol that this rule applies to. </p>
+  syntax:
+    content: public DefinitionAttachable< ParentT > withProtocol(Protocol protocol)
+    parameters:
+    - id: protocol
+      type: com.microsoft.azure.management.network._network_security_rule._protocol
+      description: <p>one of the supported protocols </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
+      description: <p>the next stage of the security rule definition </p>
+references:
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
+  spec.java:
+  - uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
+    name: NetworkSecurityRule.DefinitionAttachable
+    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
+    href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
+  - name: < ParentT >
+    fullName: < ParentT >
+- uid: com.microsoft.azure.management.network._network_security_rule._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
+  name: NetworkSecurityRule.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  type: Interface
+  summary: <p>The entirety of a network security rule definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
+  name: NetworkSecurityRule.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the security rule definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface DefinitionAttachable
+- uid: com.microsoft.azure.management.network._network_security_rule._protocol
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._protocol.yml
+  name: NetworkSecurityRule.Protocol
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Protocol
+  type: Enum
+  summary: <p>The possible <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network protocols supported by a network security rule. </p>
+  syntax:
+    content: public enum Protocol
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>

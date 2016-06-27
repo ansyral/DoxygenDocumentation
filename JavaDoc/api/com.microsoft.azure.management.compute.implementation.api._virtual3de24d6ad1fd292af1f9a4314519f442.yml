@@ -1,0 +1,252 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+  id: _virtual3de24d6ad1fd292af1f9a4314519f442
+  parent: com.microsoft.azure.management.compute.implementation.api
+  children:
+  - com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1a540aebc7294e9b38adbd9c6e12a4521b
+  - com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1ae5fe45f2b02ca4077812fb1db0f4bda5
+  - com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1a7034a2bfb90c082986dbb5d9d49202b4
+  - com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1a878baeadc609c785aac175b81f58ca55
+  - com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1aff22662d6cc8d415bba5a88ae2f01cc3
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442.yml
+  langs:
+  - java
+  name: VirtualMachineExtensionsInner.VirtualMachineExtensionsService
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 56
+  package: com.microsoft.azure.management.compute.implementation.api
+  summary: 'The interface defining all the services for VirtualMachineExtensions to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface VirtualMachineExtensionsInner.VirtualMachineExtensionsService
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1a540aebc7294e9b38adbd9c6e12a4521b
+  id: _virtual3de24d6ad1fd292af1f9a4314519f442_1a540aebc7294e9b38adbd9c6e12a4521b
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Body VirtualMachineExtensionInner extensionParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Body VirtualMachineExtensionInner extensionParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Body VirtualMachineExtensionInner extensionParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmName
+      type: ac0227a0
+    - id: vmExtensionName
+      type: d5d58a5f
+    - id: subscriptionId
+      type: a014476f
+    - id: extensionParameters
+      type: 96b6cf22com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1ae5fe45f2b02ca4077812fb1db0f4bda5
+  id: _virtual3de24d6ad1fd292af1f9a4314519f442_1ae5fe45f2b02ca4077812fb1db0f4bda5
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Body VirtualMachineExtensionInner extensionParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Body VirtualMachineExtensionInner extensionParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 63
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Body VirtualMachineExtensionInner extensionParameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmName
+      type: ac0227a0
+    - id: vmExtensionName
+      type: d5d58a5f
+    - id: subscriptionId
+      type: a014476f
+    - id: extensionParameters
+      type: 96b6cf22com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1a7034a2bfb90c082986dbb5d9d49202b4
+  id: _virtual3de24d6ad1fd292af1f9a4314519f442_1a7034a2bfb90c082986dbb5d9d49202b4
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 67
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmName
+      type: ac0227a0
+    - id: vmExtensionName
+      type: d5d58a5f
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1a878baeadc609c785aac175b81f58ca55
+  id: _virtual3de24d6ad1fd292af1f9a4314519f442_1a878baeadc609c785aac175b81f58ca55
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 71
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmName
+      type: ac0227a0
+    - id: vmExtensionName
+      type: d5d58a5f
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442_1aff22662d6cc8d415bba5a88ae2f01cc3
+  id: _virtual3de24d6ad1fd292af1f9a4314519f442_1aff22662d6cc8d415bba5a88ae2f01cc3
+  parent: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442
+  href: com.microsoft.azure.management.compute.implementation.api._virtual3de24d6ad1fd292af1f9a4314519f442.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("$expand") String expand,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionsInner.VirtualMachineExtensionsService.get(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("$expand") String expand,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionsInner.java
+    startLine: 75
+  package: com.microsoft.azure.management.compute.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("vmName") String vmName,@Path("vmExtensionName") String vmExtensionName,@Path("subscriptionId") String subscriptionId,@Query("$expand") String expand,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: vmName
+      type: ac0227a0
+    - id: vmExtensionName
+      type: d5d58a5f
+    - id: subscriptionId
+      type: a014476f
+    - id: expand
+      type: 99e81acb
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: ac0227a0
+  spec.java:
+  - name: '@Path("vmName") String'
+    fullName: '@Path("vmName") String'
+- uid: d5d58a5f
+  spec.java:
+  - name: '@Path("vmExtensionName") String'
+    fullName: '@Path("vmExtensionName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: 96b6cf22com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+    name: VirtualMachineExtensionInner
+    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
+    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+  name: VirtualMachineExtensionInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
+  type: Class
+  summary: 'Describes a Virtual Machine Extension. '
+  syntax:
+    content: public class VirtualMachineExtensionInner

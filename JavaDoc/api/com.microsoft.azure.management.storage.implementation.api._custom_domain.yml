@@ -1,0 +1,143 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  id: _custom_domain
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._custom_domain_1ab2fbfe71d504f8741e7bb93c61be6315
+  - com.microsoft.azure.management.storage.implementation.api._custom_domain_1a9601812b00cbb422de467abe064e035e
+  - com.microsoft.azure.management.storage.implementation.api._custom_domain_1a7a352954d338a422213a135099dbc686
+  - com.microsoft.azure.management.storage.implementation.api._custom_domain_1ae7465c6c01d7895d54c66820e1f7c55c
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  langs:
+  - java
+  name: CustomDomain
+  fullName: com.microsoft.azure.management.storage.implementation.api.CustomDomain
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/CustomDomain.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/CustomDomain.java
+    startLine: 14
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>The custom domain assigned to this storage account. This can be set via Update. </p>
+  syntax: &o1
+    content: public class CustomDomain
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain_1ab2fbfe71d504f8741e7bb93c61be6315
+  id: _custom_domain_1ab2fbfe71d504f8741e7bb93c61be6315
+  parent: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  langs:
+  - java
+  name: name()
+  fullName: String com.microsoft.azure.management.storage.implementation.api.CustomDomain.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/CustomDomain.java
+    startLine: 32
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain_1a9601812b00cbb422de467abe064e035e
+  id: _custom_domain_1a9601812b00cbb422de467abe064e035e
+  parent: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  langs:
+  - java
+  name: useSubDomain()
+  fullName: Boolean com.microsoft.azure.management.storage.implementation.api.CustomDomain.useSubDomain()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/CustomDomain.java
+    startLine: 52
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the useSubDomain value.</p>
+
+    <p></p>
+  syntax:
+    content: public Boolean useSubDomain()
+    return:
+      type: 866c2227
+      description: <p>the useSubDomain value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain_1a7a352954d338a422213a135099dbc686
+  id: _custom_domain_1a7a352954d338a422213a135099dbc686
+  parent: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  langs:
+  - java
+  name: withName(String name)
+  fullName: CustomDomain com.microsoft.azure.management.storage.implementation.api.CustomDomain.withName(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/CustomDomain.java
+    startLine: 42
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the name value.</p>
+
+    <p></p>
+  syntax:
+    content: public CustomDomain withName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._custom_domain
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._custom_domain" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain_1ae7465c6c01d7895d54c66820e1f7c55c
+  id: _custom_domain_1ae7465c6c01d7895d54c66820e1f7c55c
+  parent: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  langs:
+  - java
+  name: withUseSubDomain(Boolean useSubDomain)
+  fullName: CustomDomain com.microsoft.azure.management.storage.implementation.api.CustomDomain.withUseSubDomain(Boolean useSubDomain)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/CustomDomain.java
+    startLine: 62
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the useSubDomain value.</p>
+
+    <p></p>
+  syntax:
+    content: public CustomDomain withUseSubDomain(Boolean useSubDomain)
+    parameters:
+    - id: useSubDomain
+      type: 866c2227
+      description: <p>the useSubDomain value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._custom_domain
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._custom_domain" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 866c2227
+  spec.java:
+  - name: Boolean
+    fullName: Boolean
+- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+  name: CustomDomain
+  fullName: com.microsoft.azure.management.storage.implementation.api.CustomDomain
+  type: Class
+  summary: <p>The custom domain assigned to this storage account. This can be set via Update. </p>
+  syntax: *o1

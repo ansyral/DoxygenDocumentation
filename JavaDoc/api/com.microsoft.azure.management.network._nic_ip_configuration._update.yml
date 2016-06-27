@@ -1,0 +1,277 @@
+items:
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update
+  id: _update
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1a74eb3663314ddde6fd385e894335b5ee
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1a13c9bde023edfafb4fe4a4a24fd1df4a
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1a6f2e529cddf98bcb2b856f77a35dbda4
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1ad1fb05b4e8a991bfc8104721dc53b2b6
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1a2ade1d0f5bd4187b7fbd2c98214a5553
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1aca8a2f91bd7e4985876f5a7e3c28b7e7
+  - com.microsoft.azure.management.network._nic_ip_configuration._update_1ae70a35b6614eae728bd77116fe69dc92
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: NicIpConfiguration.Update
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 237
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>The template for a ip configuration update operation, containing all the settings that can be modified.</p>
+
+    <p></p>
+  syntax: &o1
+    content: public interface Update
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._settable
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1a74eb3663314ddde6fd385e894335b5ee
+  id: _update_1a74eb3663314ddde6fd385e894335b5ee
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withNewPublicIpAddress()
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withNewPublicIpAddress()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 286
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource and associate it with the Ip configuration. </p>
+
+    <p>the internal name and DNS label for the public IP address will be derived from the network interface name, if there is an existing public IP association then that will be removed in favour of this</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withNewPublicIpAddress()
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1a13c9bde023edfafb4fe4a4a24fd1df4a
+  id: _update_1a13c9bde023edfafb4fe4a4a24fd1df4a
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withNewPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withNewPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 275
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Create a new public IP address to associate the Ip configuration with, based on the provided definition.</p>
+
+    <p>if there is public IP associated with the primary Ip configuration then that will be removed in favour of this</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withNewPublicIpAddress(PublicIpAddress.DefinitionCreatable creatable)
+    parameters:
+    - id: creatable
+      type: 0d27d50c
+      description: <p>a creatable definition for a new public IP </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1a6f2e529cddf98bcb2b856f77a35dbda4
+  id: _update_1a6f2e529cddf98bcb2b856f77a35dbda4
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withNewPublicIpAddress(String leafDnsLabel)
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withNewPublicIpAddress(String leafDnsLabel)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 298
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the Ip configuration. </p>
+
+    <p>the internal name for the public IP address will be derived from the DNS label, if there is an existing public IP association then that will be removed in favour of this</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withNewPublicIpAddress(String leafDnsLabel)
+    parameters:
+    - id: leafDnsLabel
+      type: "26831127"
+      description: <p>the leaf domain label </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1ad1fb05b4e8a991bfc8104721dc53b2b6
+  id: _update_1ad1fb05b4e8a991bfc8104721dc53b2b6
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withoutPublicIpAddress()
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withoutPublicIpAddress()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 305
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Specifies that remove any public IP associated with the Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withoutPublicIpAddress()
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1a2ade1d0f5bd4187b7fbd2c98214a5553
+  id: _update_1a2ade1d0f5bd4187b7fbd2c98214a5553
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withPrivateIpAddressDynamic()
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withPrivateIpAddressDynamic()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 253
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withPrivateIpAddressDynamic()
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1aca8a2f91bd7e4985876f5a7e3c28b7e7
+  id: _update_1aca8a2f91bd7e4985876f5a7e3c28b7e7
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withPrivateIpAddressStatic(String staticPrivateIpAddress)
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withPrivateIpAddressStatic(String staticPrivateIpAddress)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 263
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Assigns the specified static private IP address within the specified existing virtual network subnet to Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withPrivateIpAddressStatic(String staticPrivateIpAddress)
+    parameters:
+    - id: staticPrivateIpAddress
+      type: "26831127"
+      description: <p>the static IP address within the specified subnet to assign to the Ip configuration </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_1ae70a35b6614eae728bd77116fe69dc92
+  id: _update_1ae70a35b6614eae728bd77116fe69dc92
+  parent: com.microsoft.azure.management.network._nic_ip_configuration._update
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  langs:
+  - java
+  name: withSubnet(String name)
+  fullName: Update<ParentT> com.microsoft.azure.management.network.NicIpConfiguration.Update< ParentT >.withSubnet(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NicIpConfiguration.java
+    startLine: 245
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Associate a subnet with the Ip configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public Update< ParentT > withSubnet(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the subnet name </p>
+    return:
+      type: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+      description: <p>the next stage of the Ip configuration update </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._updatea6da57ba
+  spec.java:
+  - uid: com.microsoft.azure.management.network._nic_ip_configuration._update
+    name: NicIpConfiguration.Update
+    fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
+    href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  - name: < ParentT >
+    fullName: < ParentT >
+- uid: 0d27d50c
+  spec.java:
+  - name: PublicIpAddress.DefinitionCreatable
+    fullName: PublicIpAddress.DefinitionCreatable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066
+  parent: com.microsoft.azure.management.resources.fluentcore.model._settable
+  href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
+  name: set()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Settable< ParentT >.set()
+  type: Method
+  summary: >-
+    <p>Begins an update for a child resource. </p>
+
+    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> is <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public ParentT set()
+    return:
+      type: 18a275b1
+      description: <p>the stage of parent resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._settable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
+  name: Settable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable
+  type: Interface
+  summary: >-
+    <p>The base interface for all template interfaces for child resources that support update operations.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Settable
+- uid: com.microsoft.azure.management.network.implementation._nic_ip_configuration_impl
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  name: NicIpConfiguration.Update
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
+  type: Interface
+  summary: >-
+    <p>The template for a ip configuration update operation, containing all the settings that can be modified.</p>
+
+    <p></p>
+  syntax: *o1

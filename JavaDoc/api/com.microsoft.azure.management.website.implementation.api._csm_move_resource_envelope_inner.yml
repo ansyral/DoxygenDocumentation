@@ -1,0 +1,143 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  id: _csm_move_resource_envelope_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1ad3d027365a7f1c0d3540570368731472
+  - com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1a507c30611a4ba45b63b8691129992688
+  - com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1adc87470df40befa0475bab8bf6fd658e
+  - com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1a27c535e4c7c9dc7f1fe39351e203a1dc
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  langs:
+  - java
+  name: CsmMoveResourceEnvelopeInner
+  fullName: com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmMoveResourceEnvelopeInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmMoveResourceEnvelopeInner.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Class containing a list of the resources that need to be moved and the resource group they should be moved to. </p>
+  syntax: &o1
+    content: public class CsmMoveResourceEnvelopeInner
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1ad3d027365a7f1c0d3540570368731472
+  id: _csm_move_resource_envelope_inner_1ad3d027365a7f1c0d3540570368731472
+  parent: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  langs:
+  - java
+  name: resources()
+  fullName: List<String> com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner.resources()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmMoveResourceEnvelopeInner.java
+    startLine: 50
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the resources value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< String > resources()
+    return:
+      type: f35af49b
+      description: <p>the resources value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1a507c30611a4ba45b63b8691129992688
+  id: _csm_move_resource_envelope_inner_1a507c30611a4ba45b63b8691129992688
+  parent: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  langs:
+  - java
+  name: targetResourceGroup()
+  fullName: String com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner.targetResourceGroup()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmMoveResourceEnvelopeInner.java
+    startLine: 30
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the targetResourceGroup value.</p>
+
+    <p></p>
+  syntax:
+    content: public String targetResourceGroup()
+    return:
+      type: "26831127"
+      description: <p>the targetResourceGroup value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1adc87470df40befa0475bab8bf6fd658e
+  id: _csm_move_resource_envelope_inner_1adc87470df40befa0475bab8bf6fd658e
+  parent: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  langs:
+  - java
+  name: withResources(List< String > resources)
+  fullName: CsmMoveResourceEnvelopeInner com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner.withResources(List< String > resources)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmMoveResourceEnvelopeInner.java
+    startLine: 60
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the resources value.</p>
+
+    <p></p>
+  syntax:
+    content: public CsmMoveResourceEnvelopeInner withResources(List< String > resources)
+    parameters:
+    - id: resources
+      type: f35af49b
+      description: <p>the resources value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner_1a27c535e4c7c9dc7f1fe39351e203a1dc
+  id: _csm_move_resource_envelope_inner_1a27c535e4c7c9dc7f1fe39351e203a1dc
+  parent: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  langs:
+  - java
+  name: withTargetResourceGroup(String targetResourceGroup)
+  fullName: CsmMoveResourceEnvelopeInner com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner.withTargetResourceGroup(String targetResourceGroup)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CsmMoveResourceEnvelopeInner.java
+    startLine: 40
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the targetResourceGroup value.</p>
+
+    <p></p>
+  syntax:
+    content: public CsmMoveResourceEnvelopeInner withTargetResourceGroup(String targetResourceGroup)
+    parameters:
+    - id: targetResourceGroup
+      type: "26831127"
+      description: <p>the targetResourceGroup value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f35af49b
+  spec.java:
+  - name: List< String >
+    fullName: List< String >
+- uid: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._csm_move_resource_envelope_inner.yml
+  name: CsmMoveResourceEnvelopeInner
+  fullName: com.microsoft.azure.management.website.implementation.api.CsmMoveResourceEnvelopeInner
+  type: Class
+  summary: <p>Class containing a list of the resources that need to be moved and the resource group they should be moved to. </p>
+  syntax: *o1

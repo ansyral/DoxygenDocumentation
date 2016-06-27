@@ -1,0 +1,774 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner
+  id: _routes_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1ad21856ceaff5c38d693d8af9e390327e
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a68c456294d8c92178071d68728463706
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1ab05e6333179b0e21833a3ae777cda3cc
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a32eb038ede68bdfdb17b2d75448792c9
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1aa9da2ee6753fa58059900641f8b12f5a
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a6efb9d4ece0d025bc0ba2f6183db7534
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a4ab1f6682c525ecf4581003a163735e2
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a67cad59968deb76cc1ccd66abbcd4f50
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a93e68a89754cd48676f66d101a7bb031
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1ae17a7f48182d98a265327c2d51789758
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a110deff8badf55613b1d4cc549779ef3
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a5dd15d540c036498336587082fc68457
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a03284056ad45f2149b8ec10bd2c6b994
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a642d5eb8fe03e8bb02d33d0d38c41d04
+  - com.microsoft.azure.management.network.implementation.api._routes_inner_1a4a472d7bfec616bc679cc695ec2074e6
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: RoutesInner
+  fullName: com.microsoft.azure.management.network.implementation.api.RoutesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 40
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in Routes. </p>
+  syntax: &o1
+    content: public class RoutesInner
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1ad21856ceaff5c38d693d8af9e390327e
+  id: _routes_inner_1ad21856ceaff5c38d693d8af9e390327e
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters)
+  fullName: ServiceResponse<RouteInner> com.microsoft.azure.management.network.implementation.api.RoutesInner.beginCreateOrUpdate(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 441
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put route operation creates/updates a route in the specified route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< RouteInner > beginCreateOrUpdate(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: routeParameters
+      type: com.microsoft.azure.management.network.implementation.api._route_inner
+      description: <p>Parameters supplied to the create/update routeoperation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._route_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a68c456294d8c92178071d68728463706
+  id: _routes_inner_1a68c456294d8c92178071d68728463706
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters, final ServiceCallback< RouteInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.beginCreateOrUpdateAsync(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters, final ServiceCallback< RouteInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 476
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put route operation creates/updates a route in the specified route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters, final ServiceCallback< RouteInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: routeParameters
+      type: com.microsoft.azure.management.network.implementation.api._route_inner
+      description: <p>Parameters supplied to the create/update routeoperation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1ab05e6333179b0e21833a3ae777cda3cc
+  id: _routes_inner_1ab05e6333179b0e21833a3ae777cda3cc
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String routeTableName, String routeName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.RoutesInner.beginDelete(String resourceGroupName, String routeTableName, String routeName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 179
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete route operation deletes the specified route from a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String routeTableName, String routeName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a32eb038ede68bdfdb17b2d75448792c9
+  id: _routes_inner_1a32eb038ede68bdfdb17b2d75448792c9
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.beginDeleteAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 209
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete route operation deletes the specified route from a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1aa9da2ee6753fa58059900641f8b12f5a
+  id: _routes_inner_1aa9da2ee6753fa58059900641f8b12f5a
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters)
+  fullName: ServiceResponse<RouteInner> com.microsoft.azure.management.network.implementation.api.RoutesInner.createOrUpdate(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 356
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put route operation creates/updates a route in the specified route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< RouteInner > createOrUpdate(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: routeParameters
+      type: com.microsoft.azure.management.network.implementation.api._route_inner
+      description: <p>Parameters supplied to the create/update routeoperation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._route_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a6efb9d4ece0d025bc0ba2f6183db7534
+  id: _routes_inner_1a6efb9d4ece0d025bc0ba2f6183db7534
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters, final ServiceCallback< RouteInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.createOrUpdateAsync(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters, final ServiceCallback< RouteInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 391
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put route operation creates/updates a route in the specified route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String routeTableName, String routeName, RouteInner routeParameters, final ServiceCallback< RouteInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: routeParameters
+      type: com.microsoft.azure.management.network.implementation.api._route_inner
+      description: <p>Parameters supplied to the create/update routeoperation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a4ab1f6682c525ecf4581003a163735e2
+  id: _routes_inner_1a4ab1f6682c525ecf4581003a163735e2
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String routeTableName, String routeName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.RoutesInner.delete(String resourceGroupName, String routeTableName, String routeName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 104
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete route operation deletes the specified route from a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String routeTableName, String routeName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a67cad59968deb76cc1ccd66abbcd4f50
+  id: _routes_inner_1a67cad59968deb76cc1ccd66abbcd4f50
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.deleteAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 134
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete route operation deletes the specified route from a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a93e68a89754cd48676f66d101a7bb031
+  id: _routes_inner_1a93e68a89754cd48676f66d101a7bb031
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String routeTableName, String routeName)
+  fullName: ServiceResponse<RouteInner> com.microsoft.azure.management.network.implementation.api.RoutesInner.get(String resourceGroupName, String routeTableName, String routeName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 267
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get route operation retreives information about the specified route from the route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< RouteInner > get(String resourceGroupName, String routeTableName, String routeName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._route_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1ae17a7f48182d98a265327c2d51789758
+  id: _routes_inner_1ae17a7f48182d98a265327c2d51789758
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< RouteInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.getAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< RouteInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 297
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get route operation retreives information about the specified route from the route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String routeTableName, String routeName, final ServiceCallback< RouteInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: "26831127"
+      description: <p>The name of the route table. </p>
+    - id: routeName
+      type: "26831127"
+      description: <p>The name of the route. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a110deff8badf55613b1d4cc549779ef3
+  id: _routes_inner_1a110deff8badf55613b1d4cc549779ef3
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: list(final String resourceGroupName, final String routeTableName)
+  fullName: ServiceResponse<PagedList<RouteInner> > com.microsoft.azure.management.network.implementation.api.RoutesInner.list(final String resourceGroupName, final String routeTableName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 538
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List network security rule opertion retrieves all the routes in a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< RouteInner > > list(final String resourceGroupName, final String routeTableName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: 3d93591e
+      description: <p>The name of the route table. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._route_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._route_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a5dd15d540c036498336587082fc68457
+  id: _routes_inner_1a5dd15d540c036498336587082fc68457
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: listAsync(final String resourceGroupName, final String routeTableName, final ListOperationCallback< RouteInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.listAsync(final String resourceGroupName, final String routeTableName, final ListOperationCallback< RouteInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 571
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List network security rule opertion retrieves all the routes in a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String resourceGroupName, final String routeTableName, final ListOperationCallback< RouteInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: routeTableName
+      type: 3d93591e
+      description: <p>The name of the route table. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a03284056ad45f2149b8ec10bd2c6b994
+  id: _routes_inner_1a03284056ad45f2149b8ec10bd2c6b994
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<RouteInner> > com.microsoft.azure.management.network.implementation.api.RoutesInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 629
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List network security rule opertion retrieves all the routes in a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< RouteInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._route_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._route_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a642d5eb8fe03e8bb02d33d0d38c41d04
+  id: _routes_inner_1a642d5eb8fe03e8bb02d33d0d38c41d04
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< RouteInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.RoutesInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< RouteInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 646
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List network security rule opertion retrieves all the routes in a route table.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< RouteInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner_1a4a472d7bfec616bc679cc695ec2074e6
+  id: _routes_inner_1a4a472d7bfec616bc679cc695ec2074e6
+  parent: com.microsoft.azure.management.network.implementation.api._routes_inner
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  langs:
+  - java
+  name: RoutesInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  fullName: com.microsoft.azure.management.network.implementation.api.RoutesInner.RoutesInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/RoutesInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.network.implementation.api._routes_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public RoutesInner(Retrofit retrofit, NetworkManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._route_inner
+    name: RouteInner
+    fullName: com.microsoft.azure.management.network.implementation.api.RouteInner
+    href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._route_inner
+    name: RouteInner
+    fullName: com.microsoft.azure.management.network.implementation.api.RouteInner
+    href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._route_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._route_inner
+    name: RouteInner
+    fullName: com.microsoft.azure.management.network.implementation.api.RouteInner
+    href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._route_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._route_inner
+    name: RouteInner
+    fullName: com.microsoft.azure.management.network.implementation.api.RouteInner
+    href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._route_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._route_inner
+    name: RouteInner
+    fullName: com.microsoft.azure.management.network.implementation.api.RouteInner
+    href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner._routes_service
+- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+  name: NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class NetworkManagementClientImpl
+- uid: com.microsoft.azure.management.network.implementation.api._routes_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._routes_inner.yml
+  name: RoutesInner
+  fullName: com.microsoft.azure.management.network.implementation.api.RoutesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Routes. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.network.implementation.api._route_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
+  name: RouteInner
+  fullName: com.microsoft.azure.management.network.implementation.api.RouteInner
+  type: Class
+  summary: <p>Route resource. </p>
+  syntax:
+    content: public class RouteInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

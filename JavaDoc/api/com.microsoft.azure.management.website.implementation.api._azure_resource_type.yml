@@ -1,0 +1,138 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  id: _azure_resource_type
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._azure_resource_type_1abfec5d01363a32c34bfbd1042137ec03
+  - com.microsoft.azure.management.website.implementation.api._azure_resource_type_1aca2e5373554461145bf8beab0ce634c0
+  - com.microsoft.azure.management.website.implementation.api._azure_resource_type_1a67e5db5682abcc79aa608ca9341682bf
+  - com.microsoft.azure.management.website.implementation.api._azure_resource_type_1a2c1e6d4d5b7b49e3cd451b4150853851
+  - com.microsoft.azure.management.website.implementation.api._azure_resource_type_1adb4097922876939dfdeaeb779bde1426
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  langs:
+  - java
+  name: AzureResourceType
+  fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._azure_resource_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum AzureResourceType
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type_1abfec5d01363a32c34bfbd1042137ec03
+  id: _azure_resource_type_1abfec5d01363a32c34bfbd1042137ec03
+  parent: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  langs:
+  - java
+  name: AzureResourceType(String value)
+  fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType.AzureResourceType(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+    startLine: 24
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public AzureResourceType(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type_1aca2e5373554461145bf8beab0ce634c0
+  id: _azure_resource_type_1aca2e5373554461145bf8beab0ce634c0
+  parent: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static AzureResourceType com.microsoft.azure.management.website.implementation.api.AzureResourceType.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+    startLine: 35
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.website.implementation.api._azure_resource_type" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static AzureResourceType fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+      description: <p>the parsed <xref href="com.microsoft.azure.management.website.implementation.api._azure_resource_type" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type_1a67e5db5682abcc79aa608ca9341682bf
+  id: _azure_resource_type_1a67e5db5682abcc79aa608ca9341682bf
+  parent: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.website.implementation.api.AzureResourceType.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+    startLine: 47
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type_1a2c1e6d4d5b7b49e3cd451b4150853851
+  id: _azure_resource_type_1a2c1e6d4d5b7b49e3cd451b4150853851
+  parent: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  langs:
+  - java
+  name: TRAFFIC_MANAGER
+  fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType.TRAFFIC_MANAGER
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+    startLine: 19
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value TrafficManager. </p>
+  syntax:
+    content: public TRAFFIC_MANAGER=("TrafficManager")
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type_1adb4097922876939dfdeaeb779bde1426
+  id: _azure_resource_type_1adb4097922876939dfdeaeb779bde1426
+  parent: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  langs:
+  - java
+  name: WEBSITE
+  fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType.WEBSITE
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
+    startLine: 16
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Website. </p>
+  syntax:
+    content: public WEBSITE=("Website")
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._azure_resource_type.yml
+  name: AzureResourceType
+  fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._azure_resource_type" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

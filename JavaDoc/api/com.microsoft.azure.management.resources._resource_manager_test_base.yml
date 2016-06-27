@@ -1,0 +1,92 @@
+items:
+- uid: com.microsoft.azure.management.resources._resource_manager_test_base
+  id: _resource_manager_test_base
+  parent: com.microsoft.azure.management.resources
+  children:
+  - com.microsoft.azure.management.resources._resource_manager_test_base_1a0c823f2e723a584a02723e49e13bb940
+  - com.microsoft.azure.management.resources._resource_manager_test_base_1a6dd4b2af09f8fa1082c3d1735cafb24d
+  href: com.microsoft.azure.management.resources._resource_manager_test_base.yml
+  langs:
+  - java
+  name: ResourceManagerTestBase
+  fullName: com.microsoft.azure.management.resources.ResourceManagerTestBase
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/ResourceManagerTestBase.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/ResourceManagerTestBase.java
+    startLine: 9
+  package: com.microsoft.azure.management.resources
+  summary: 'The base for resource manager tests. '
+  syntax:
+    content: class ResourceManagerTestBase
+- uid: com.microsoft.azure.management.resources._resource_manager_test_base_1a0c823f2e723a584a02723e49e13bb940
+  id: _resource_manager_test_base_1a0c823f2e723a584a02723e49e13bb940
+  parent: com.microsoft.azure.management.resources._resource_manager_test_base
+  href: com.microsoft.azure.management.resources._resource_manager_test_base.yml
+  langs:
+  - java
+  name: resourceClient
+  fullName: ResourceManager com.microsoft.azure.management.resources.ResourceManagerTestBase.resourceClient
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/ResourceManagerTestBase.java
+    startLine: 10
+  package: com.microsoft.azure.management.resources
+  syntax:
+    content: protected static ResourceManager resourceClient
+    return:
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: com.microsoft.azure.management.resources._resource_manager_test_base_1a6dd4b2af09f8fa1082c3d1735cafb24d
+  id: _resource_manager_test_base_1a6dd4b2af09f8fa1082c3d1735cafb24d
+  parent: com.microsoft.azure.management.resources._resource_manager_test_base
+  href: com.microsoft.azure.management.resources._resource_manager_test_base.yml
+  langs:
+  - java
+  name: createClient()
+  fullName: static void com.microsoft.azure.management.resources.ResourceManagerTestBase.createClient()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/ResourceManagerTestBase.java
+    startLine: 12
+  package: com.microsoft.azure.management.resources
+  syntax:
+    content: static void createClient()
+references:
+- uid: com.microsoft.azure.management.resources._deployments_tests
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployments_tests.yml
+  name: DeploymentsTests
+  fullName: com.microsoft.azure.management.resources.DeploymentsTests
+  type: Class
+  syntax:
+    content: public class DeploymentsTests
+- uid: com.microsoft.azure.management.resources._generic_resources_tests
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._generic_resources_tests.yml
+  name: GenericResourcesTests
+  fullName: com.microsoft.azure.management.resources.GenericResourcesTests
+  type: Class
+  syntax:
+    content: public class GenericResourcesTests
+- uid: com.microsoft.azure.management.resources._resource_groups_tests
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_groups_tests.yml
+  name: ResourceGroupsTests
+  fullName: com.microsoft.azure.management.resources.ResourceGroupsTests
+  type: Class
+  syntax:
+    content: public class ResourceGroupsTests
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: 'Entry point to Azure resource management. '
+  syntax:
+    content: public class ResourceManager

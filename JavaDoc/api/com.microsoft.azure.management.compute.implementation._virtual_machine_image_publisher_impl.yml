@@ -1,0 +1,148 @@
+items:
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl
+  id: _virtual_machine_image_publisher_impl
+  parent: com.microsoft.azure.management.compute.implementation
+  children:
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a40b79d9167a12643e5ccc03c23085f68
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a5dbdd522b1b2c8d4b5525d344c07c9bc
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a066c075298fec58bb76d7440c6a1c5ec
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a9e52c77925097418874c21d45d2bc2ee
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl.yml
+  langs:
+  - java
+  name: VirtualMachineImagePublisherImpl
+  fullName: com.microsoft.azure.management.compute.implementation.VirtualMachineImagePublisherImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImagePublisherImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImagePublisherImpl.java
+    startLine: 15
+  package: com.microsoft.azure.management.compute.implementation
+  summary: 'The implementation for VirtualMachineImage.Publisher. '
+  syntax:
+    content: class VirtualMachineImagePublisherImpl
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a40b79d9167a12643e5ccc03c23085f68
+  id: _virtual_machine_image_publisher_impl_1a40b79d9167a12643e5ccc03c23085f68
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl.yml
+  langs:
+  - java
+  name: VirtualMachineImagePublisherImpl(Region location, String publisher, VirtualMachineImagesInner client)
+  fullName: com.microsoft.azure.management.compute.implementation.VirtualMachineImagePublisherImpl.VirtualMachineImagePublisherImpl(Region location, String publisher, VirtualMachineImagesInner client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImagePublisherImpl.java
+    startLine: 21
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: VirtualMachineImagePublisherImpl(Region location, String publisher, VirtualMachineImagesInner client)
+    parameters:
+    - id: location
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+    - id: publisher
+      type: "26831127"
+    - id: client
+      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a5dbdd522b1b2c8d4b5525d344c07c9bc
+  id: _virtual_machine_image_publisher_impl_1a5dbdd522b1b2c8d4b5525d344c07c9bc
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl.yml
+  langs:
+  - java
+  name: region()
+  fullName: Region com.microsoft.azure.management.compute.implementation.VirtualMachineImagePublisherImpl.region()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImagePublisherImpl.java
+    startLine: 28
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a066c075298fec58bb76d7440c6a1c5ec
+  id: _virtual_machine_image_publisher_impl_1a066c075298fec58bb76d7440c6a1c5ec
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl.yml
+  langs:
+  - java
+  name: publisher()
+  fullName: String com.microsoft.azure.management.compute.implementation.VirtualMachineImagePublisherImpl.publisher()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImagePublisherImpl.java
+    startLine: 33
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public String publisher()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl_1a9e52c77925097418874c21d45d2bc2ee
+  id: _virtual_machine_image_publisher_impl_1a9e52c77925097418874c21d45d2bc2ee
+  parent: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl.yml
+  langs:
+  - java
+  name: listOffers()
+  fullName: List<VirtualMachineImage.Offer> com.microsoft.azure.management.compute.implementation.VirtualMachineImagePublisherImpl.listOffers()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImagePublisherImpl.java
+    startLine: 38
+  package: com.microsoft.azure.management.compute.implementation
+  syntax:
+    content: public List< VirtualMachineImage.Offer > listOffers()
+    return:
+      type: 937ee0e5
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 937ee0e5
+  spec.java:
+  - name: List< VirtualMachineImage.Offer >
+    fullName: List< VirtualMachineImage.Offer >
+- uid: com.microsoft.azure.management.compute._virtual_machine_image._publisher
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_image._publisher.yml
+  name: VirtualMachineImage.Publisher
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImage.Publisher
+  type: Interface
+  summary: 'Represents a virtual image image publisher. '
+  syntax:
+    content: public interface VirtualMachineImage.Publisher
+- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
+  name: VirtualMachineImagesInner
+  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineImagesInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in VirtualMachineImages. '
+  syntax:
+    content: public class VirtualMachineImagesInner
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: Enumeration of the Azure datacenter regions. See https://azure.microsoft.com/regions/
+  syntax:
+    content: public enum Region
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException

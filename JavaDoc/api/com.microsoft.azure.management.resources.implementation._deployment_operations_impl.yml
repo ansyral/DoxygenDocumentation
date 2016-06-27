@@ -1,0 +1,192 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation._deployment_operations_impl
+  id: _deployment_operations_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  children:
+  - com.microsoft.azure.management.resources.implementation._deployment_operations_impl_1a513427af08ff54409ef53b0f5df589ab
+  - com.microsoft.azure.management.resources.implementation._deployment_operations_impl_1a4c5c97c279e29320049a4370ed7114d2
+  - com.microsoft.azure.management.resources.implementation._deployment_operations_impl_1a2665e67c03bbbfc2756af7c0e88fb165
+  href: com.microsoft.azure.management.resources.implementation._deployment_operations_impl.yml
+  langs:
+  - java
+  name: DeploymentOperationsImpl
+  fullName: com.microsoft.azure.management.resources.implementation.DeploymentOperationsImpl
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentOperationsImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentOperationsImpl.java
+    startLine: 22
+  package: com.microsoft.azure.management.resources.implementation
+  summary: 'The implementation of DeploymentOperations and its parent interfaces. '
+  syntax:
+    content: class DeploymentOperationsImpl
+- uid: com.microsoft.azure.management.resources.implementation._deployment_operations_impl_1a513427af08ff54409ef53b0f5df589ab
+  id: _deployment_operations_impl_1a513427af08ff54409ef53b0f5df589ab
+  parent: com.microsoft.azure.management.resources.implementation._deployment_operations_impl
+  href: com.microsoft.azure.management.resources.implementation._deployment_operations_impl.yml
+  langs:
+  - java
+  name: DeploymentOperationsImpl(final DeploymentOperationsInner client, final Deployment deployment)
+  fullName: com.microsoft.azure.management.resources.implementation.DeploymentOperationsImpl.DeploymentOperationsImpl(final DeploymentOperationsInner client, final Deployment deployment)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentOperationsImpl.java
+    startLine: 28
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: DeploymentOperationsImpl(final DeploymentOperationsInner client, final Deployment deployment)
+    parameters:
+    - id: client
+      type: 93de0ef9com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+    - id: deployment
+      type: 93de0ef9com.microsoft.azure.management.resources._deployment
+- uid: com.microsoft.azure.management.resources.implementation._deployment_operations_impl_1a4c5c97c279e29320049a4370ed7114d2
+  id: _deployment_operations_impl_1a4c5c97c279e29320049a4370ed7114d2
+  parent: com.microsoft.azure.management.resources.implementation._deployment_operations_impl
+  href: com.microsoft.azure.management.resources.implementation._deployment_operations_impl.yml
+  langs:
+  - java
+  name: list()
+  fullName: PagedList<DeploymentOperation> com.microsoft.azure.management.resources.implementation.DeploymentOperationsImpl.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentOperationsImpl.java
+    startLine: 41
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public PagedList< DeploymentOperation > list()
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._deployment_operation9ec3e006
+- uid: com.microsoft.azure.management.resources.implementation._deployment_operations_impl_1a2665e67c03bbbfc2756af7c0e88fb165
+  id: _deployment_operations_impl_1a2665e67c03bbbfc2756af7c0e88fb165
+  parent: com.microsoft.azure.management.resources.implementation._deployment_operations_impl
+  href: com.microsoft.azure.management.resources.implementation._deployment_operations_impl.yml
+  langs:
+  - java
+  name: getById(String operationId)
+  fullName: DeploymentOperation com.microsoft.azure.management.resources.implementation.DeploymentOperationsImpl.getById(String operationId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/DeploymentOperationsImpl.java
+    startLine: 46
+  package: com.microsoft.azure.management.resources.implementation
+  syntax:
+    content: public DeploymentOperation getById(String operationId)
+    parameters:
+    - id: operationId
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.management.resources._deployment_operation
+references:
+- uid: 93de0ef9com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+    name: DeploymentOperationsInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentOperationsInner
+    href: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner.yml
+- uid: 93de0ef9com.microsoft.azure.management.resources._deployment
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure.management.resources._deployment
+    name: Deployment
+    fullName: com.microsoft.azure.management.resources.Deployment
+    href: com.microsoft.azure.management.resources._deployment.yml
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources._deployment_operation9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources._deployment_operation
+    name: DeploymentOperation
+    fullName: com.microsoft.azure.management.resources.DeploymentOperation
+    href: com.microsoft.azure.management.resources._deployment_operation.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.resources._deployment_operations
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment_operations.yml
+  name: DeploymentOperations
+  fullName: com.microsoft.azure.management.resources.DeploymentOperations
+  type: Interface
+  summary: 'Entry point to deployment operation management API. '
+  syntax:
+    content: public interface DeploymentOperations
+- uid: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner.yml
+  name: DeploymentOperationsInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentOperationsInner
+  type: Class
+  summary: 'An instance of this class provides access to all the operations defined in DeploymentOperations. '
+  syntax:
+    content: public class DeploymentOperationsInner
+- uid: com.microsoft.azure.management.resources._deployment
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment.yml
+  name: Deployment
+  fullName: com.microsoft.azure.management.resources.Deployment
+  type: Interface
+  summary: 'An immutable client-side representation of an Azure deployment. '
+  syntax:
+    content: public interface Deployment
+- uid: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter
+  parent: com.microsoft.azure.management.resources.fluentcore.utils
+  href: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter.yml
+  name: PagedListConverter
+  fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter
+  type: Class
+  summary: The base class for converting PagedList of one type of resource to another, without polling down all the items in a list. This converter is useful in converting inner top level resources into fluent top level resources.
+  syntax:
+    content: public class PagedListConverter
+- uid: com.microsoft.azure.management.resources.implementation.api._deployment_operation_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployment_operation_inner.yml
+  name: DeploymentOperationInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentOperationInner
+  type: Class
+  summary: 'Deployment operation information. '
+  syntax:
+    content: public class DeploymentOperationInner
+- uid: com.microsoft.azure.management.resources._deployment_operation
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment_operation.yml
+  name: DeploymentOperation
+  fullName: com.microsoft.azure.management.resources.DeploymentOperation
+  type: Interface
+  summary: 'An immutable client-side representation of a deployment operation. '
+  syntax:
+    content: public interface DeploymentOperation
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: 'Exception thrown for an invalid response with custom error information. '
+  syntax:
+    content: public class CloudException

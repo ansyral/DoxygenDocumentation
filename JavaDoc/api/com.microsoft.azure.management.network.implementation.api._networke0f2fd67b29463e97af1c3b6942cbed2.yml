@@ -1,0 +1,525 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a06f06224ee6190175dd388eb7a5985c2
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1af4e7b57d5ffb36be66a4fce281b8c235
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a499fa1e93474af11c192e1fbb4c284b4
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a3b774a3ca94aaf20f26d5a5cb3562294
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a41eb6fa38a365b15ba1643e6f20d2145
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a9c40244742f5221dc9ad744546e7320f
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a414a1b7453a19f05bda22eb5359e8e98
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a9150bdaf1b46bfd4e5423abe1939a2ac
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a51a881bd48fc10e0d7df76aa9ad323b1
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1afa7a9e395ef5dc92f06ca1e62c153044
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a0a375c2147744563b901c884096b21a4
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1ab9febbd0ad76289cbb07ca48d9aff6aa
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1ab93afcd90f124c70f827fd3f15a7fd4d
+  - com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1ada452075a4dfca78c80825e1f5df73a6
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: NetworkInterfacesInner.NetworkInterfacesService
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 61
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: 'The interface defining all the services for NetworkInterfaces to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface NetworkInterfacesInner.NetworkInterfacesService
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a06f06224ee6190175dd388eb7a5985c2
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a06f06224ee6190175dd388eb7a5985c2
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkInterfaceName
+      type: daf79df2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1af4e7b57d5ffb36be66a4fce281b8c235
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1af4e7b57d5ffb36be66a4fce281b8c235
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkInterfaceName
+      type: daf79df2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a499fa1e93474af11c192e1fbb4c284b4
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a499fa1e93474af11c192e1fbb4c284b4
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.get(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkInterfaceName
+      type: daf79df2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: expand
+      type: 99e81acb
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a3b774a3ca94aaf20f26d5a5cb3562294
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a3b774a3ca94aaf20f26d5a5cb3562294
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Body NetworkInterfaceInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Body NetworkInterfaceInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Body NetworkInterfaceInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkInterfaceName
+      type: daf79df2
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._network_interface_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a41eb6fa38a365b15ba1643e6f20d2145
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a41eb6fa38a365b15ba1643e6f20d2145
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Body NetworkInterfaceInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Body NetworkInterfaceInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Body NetworkInterfaceInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: networkInterfaceName
+      type: daf79df2
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.network.implementation.api._network_interface_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a9c40244742f5221dc9ad744546e7320f
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a9c40244742f5221dc9ad744546e7320f
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listVirtualMachineScaleSetVMNetworkInterfaces(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("virtualmachineIndex") String virtualmachineIndex,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listVirtualMachineScaleSetVMNetworkInterfaces(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("virtualmachineIndex") String virtualmachineIndex,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listVirtualMachineScaleSetVMNetworkInterfaces(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("virtualmachineIndex") String virtualmachineIndex,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualMachineScaleSetName
+      type: f70ecc49
+    - id: virtualmachineIndex
+      type: 7e769a21
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a414a1b7453a19f05bda22eb5359e8e98
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a414a1b7453a19f05bda22eb5359e8e98
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listVirtualMachineScaleSetNetworkInterfaces(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listVirtualMachineScaleSetNetworkInterfaces(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listVirtualMachineScaleSetNetworkInterfaces(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualMachineScaleSetName
+      type: f70ecc49
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a9150bdaf1b46bfd4e5423abe1939a2ac
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a9150bdaf1b46bfd4e5423abe1939a2ac
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: getVirtualMachineScaleSetNetworkInterface(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("virtualmachineIndex") String virtualmachineIndex,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.getVirtualMachineScaleSetNetworkInterface(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("virtualmachineIndex") String virtualmachineIndex,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getVirtualMachineScaleSetNetworkInterface(@Path("resourceGroupName") String resourceGroupName,@Path("virtualMachineScaleSetName") String virtualMachineScaleSetName,@Path("virtualmachineIndex") String virtualmachineIndex,@Path("networkInterfaceName") String networkInterfaceName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Query("$expand") String expand,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: virtualMachineScaleSetName
+      type: f70ecc49
+    - id: virtualmachineIndex
+      type: 7e769a21
+    - id: networkInterfaceName
+      type: daf79df2
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: expand
+      type: 99e81acb
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a51a881bd48fc10e0d7df76aa9ad323b1
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a51a881bd48fc10e0d7df76aa9ad323b1
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAll(@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1afa7a9e395ef5dc92f06ca1e62c153044
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1afa7a9e395ef5dc92f06ca1e62c153044
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 100
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1a0a375c2147744563b901c884096b21a4
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1a0a375c2147744563b901c884096b21a4
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listVirtualMachineScaleSetVMNetworkInterfacesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listVirtualMachineScaleSetVMNetworkInterfacesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 104
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listVirtualMachineScaleSetVMNetworkInterfacesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1ab9febbd0ad76289cbb07ca48d9aff6aa
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1ab9febbd0ad76289cbb07ca48d9aff6aa
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listVirtualMachineScaleSetNetworkInterfacesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listVirtualMachineScaleSetNetworkInterfacesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 108
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listVirtualMachineScaleSetNetworkInterfacesNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1ab93afcd90f124c70f827fd3f15a7fd4d
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1ab93afcd90f124c70f827fd3f15a7fd4d
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 112
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listAllNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2_1ada452075a4dfca78c80825e1f5df73a6
+  id: _networke0f2fd67b29463e97af1c3b6942cbed2_1ada452075a4dfca78c80825e1f5df73a6
+  parent: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2
+  href: com.microsoft.azure.management.network.implementation.api._networke0f2fd67b29463e97af1c3b6942cbed2.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.network.implementation.api.NetworkInterfacesInner.NetworkInterfacesService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkInterfacesInner.java
+    startLine: 116
+  package: com.microsoft.azure.management.network.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: daf79df2
+  spec.java:
+  - name: '@Path("networkInterfaceName") String'
+    fullName: '@Path("networkInterfaceName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: 96b6cf22com.microsoft.azure.management.network.implementation.api._network_interface_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.network.implementation.api._network_interface_inner
+    name: NetworkInterfaceInner
+    fullName: com.microsoft.azure.management.network.implementation.api.NetworkInterfaceInner
+    href: com.microsoft.azure.management.network.implementation.api._network_interface_inner.yml
+- uid: f70ecc49
+  spec.java:
+  - name: '@Path("virtualMachineScaleSetName") String'
+    fullName: '@Path("virtualMachineScaleSetName") String'
+- uid: 7e769a21
+  spec.java:
+  - name: '@Path("virtualmachineIndex") String'
+    fullName: '@Path("virtualmachineIndex") String'
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.network.implementation.api._network_interface_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_interface_inner.yml
+  name: NetworkInterfaceInner
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkInterfaceInner
+  type: Class
+  summary: 'A NetworkInterface in a resource group. '
+  syntax:
+    content: public class NetworkInterfaceInner
+- uid: com.microsoft.azure.management.network._network_interfaces
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interfaces.yml
+  name: NetworkInterfaces
+  fullName: com.microsoft.azure.management.network.NetworkInterfaces
+  type: Interface
+  summary: 'Entry point to network interface management. '
+  syntax:
+    content: public interface NetworkInterfaces

@@ -1,0 +1,923 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  id: _load_balancers_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a20bef4fc9a28ffe11c1139bea3ad9877
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ab6bfd79a98fd7ac9edcb10e0de4b034f
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a32abe8ece368e98a64263109325dc2f2
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ad6829e122eda95e2fbb83b40045e1e85
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a133a2aebfd1ee9e75a149c0370d5f5d2
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a33c5b519b04d79d727e227669ed317b0
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aaaebd0e76210bfea773aa154c1bd88c2
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1af1db443212d9e29a41e79ce190015883
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a908d4b5df9e94787f9d7f94b492d977e
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a25b78893b5b073a9ff7e38b3e8f15e41
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aaf962fe9495fed20826eea3f733aa367
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ad164affebdd0e7375888aca812515f62
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a87e6a99a70930ea3f941a0d1c894e8bc
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a2dd5ccc7b7eff540d6951030eb2891ae
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aff293fc6b70bebbe347d1d33abb56e09
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a5ea7bacc676e9134c92478dd229e631e
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ac576c6cddef8acda8bfe7aa0eecc021c
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ae5316fa21e948c7b1e9aeeb8db0b8893
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a3785d9a0dd9785effadad13c5979c313
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a2ae640c316ea80202c17b4c8e13fa0be
+  - com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aaaf6389fbcaea483a87c833fb3d188f2
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: LoadBalancersInner
+  fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancersInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 40
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in LoadBalancers. </p>
+  syntax: &o1
+    content: public class LoadBalancersInner
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a20bef4fc9a28ffe11c1139bea3ad9877
+  id: _load_balancers_inner_1a20bef4fc9a28ffe11c1139bea3ad9877
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters)
+  fullName: ServiceResponse<LoadBalancerInner> com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.beginCreateOrUpdate(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 489
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put LoadBalancer operation creates/updates a LoadBalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< LoadBalancerInner > beginCreateOrUpdate(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+      description: <p>Parameters supplied to the create/delete LoadBalancer operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ab6bfd79a98fd7ac9edcb10e0de4b034f
+  id: _load_balancers_inner_1ab6bfd79a98fd7ac9edcb10e0de4b034f
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.beginCreateOrUpdateAsync(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 520
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put LoadBalancer operation creates/updates a LoadBalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters, final ServiceCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+      description: <p>Parameters supplied to the create/delete LoadBalancer operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a32abe8ece368e98a64263109325dc2f2
+  id: _load_balancers_inner_1a32abe8ece368e98a64263109325dc2f2
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String loadBalancerName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.beginDelete(String resourceGroupName, String loadBalancerName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 178
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete loadbalancer operation deletes the specified loadbalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String loadBalancerName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ad6829e122eda95e2fbb83b40045e1e85
+  id: _load_balancers_inner_1ad6829e122eda95e2fbb83b40045e1e85
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.beginDeleteAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 204
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete loadbalancer operation deletes the specified loadbalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a133a2aebfd1ee9e75a149c0370d5f5d2
+  id: _load_balancers_inner_1a133a2aebfd1ee9e75a149c0370d5f5d2
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters)
+  fullName: ServiceResponse<LoadBalancerInner> com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.createOrUpdate(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 412
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put LoadBalancer operation creates/updates a LoadBalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< LoadBalancerInner > createOrUpdate(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+      description: <p>Parameters supplied to the create/delete LoadBalancer operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a33c5b519b04d79d727e227669ed317b0
+  id: _load_balancers_inner_1a33c5b519b04d79d727e227669ed317b0
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.createOrUpdateAsync(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 443
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put LoadBalancer operation creates/updates a LoadBalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String loadBalancerName, LoadBalancerInner parameters, final ServiceCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+      description: <p>Parameters supplied to the create/delete LoadBalancer operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aaaebd0e76210bfea773aa154c1bd88c2
+  id: _load_balancers_inner_1aaaebd0e76210bfea773aa154c1bd88c2
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String loadBalancerName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.delete(String resourceGroupName, String loadBalancerName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 111
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete loadbalancer operation deletes the specified loadbalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String loadBalancerName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1af1db443212d9e29a41e79ce190015883
+  id: _load_balancers_inner_1af1db443212d9e29a41e79ce190015883
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.deleteAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 137
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete loadbalancer operation deletes the specified loadbalancer.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a908d4b5df9e94787f9d7f94b492d977e
+  id: _load_balancers_inner_1a908d4b5df9e94787f9d7f94b492d977e
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String loadBalancerName)
+  fullName: ServiceResponse<LoadBalancerInner> com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.get(String resourceGroupName, String loadBalancerName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 257
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get ntework interface operation retreives information about the specified network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< LoadBalancerInner > get(String resourceGroupName, String loadBalancerName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a25b78893b5b073a9ff7e38b3e8f15e41
+  id: _load_balancers_inner_1a25b78893b5b073a9ff7e38b3e8f15e41
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String loadBalancerName, String expand)
+  fullName: ServiceResponse<LoadBalancerInner> com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.get(String resourceGroupName, String loadBalancerName, String expand)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 331
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get ntework interface operation retreives information about the specified network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< LoadBalancerInner > get(String resourceGroupName, String loadBalancerName, String expand)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>expand references resources. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aaf962fe9495fed20826eea3f733aa367
+  id: _load_balancers_inner_1aaf962fe9495fed20826eea3f733aa367
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.getAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 284
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get ntework interface operation retreives information about the specified network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String loadBalancerName, final ServiceCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ad164affebdd0e7375888aca812515f62
+  id: _load_balancers_inner_1ad164affebdd0e7375888aca812515f62
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String loadBalancerName, String expand, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.getAsync(String resourceGroupName, String loadBalancerName, String expand, final ServiceCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 358
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get ntework interface operation retreives information about the specified network interface.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String loadBalancerName, String expand, final ServiceCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: loadBalancerName
+      type: "26831127"
+      description: <p>The name of the loadBalancer. </p>
+    - id: expand
+      type: "26831127"
+      description: <p>expand references resources. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a87e6a99a70930ea3f941a0d1c894e8bc
+  id: _load_balancers_inner_1a87e6a99a70930ea3f941a0d1c894e8bc
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: list(final String resourceGroupName)
+  fullName: ServiceResponse<PagedList<LoadBalancerInner> > com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.list(final String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 651
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< LoadBalancerInner > > list(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a2dd5ccc7b7eff540d6951030eb2891ae
+  id: _load_balancers_inner_1a2dd5ccc7b7eff540d6951030eb2891ae
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listAll()
+  fullName: ServiceResponse<PagedList<LoadBalancerInner> > com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listAll()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 576
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< LoadBalancerInner > > listAll()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aff293fc6b70bebbe347d1d33abb56e09
+  id: _load_balancers_inner_1aff293fc6b70bebbe347d1d33abb56e09
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listAllAsync(final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listAllAsync(final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 601
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllAsync(final ListOperationCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a5ea7bacc676e9134c92478dd229e631e
+  id: _load_balancers_inner_1a5ea7bacc676e9134c92478dd229e631e
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listAllNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<LoadBalancerInner> > com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listAllNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 734
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< LoadBalancerInner > > listAllNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ac576c6cddef8acda8bfe7aa0eecc021c
+  id: _load_balancers_inner_1ac576c6cddef8acda8bfe7aa0eecc021c
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 751
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1ae5316fa21e948c7b1e9aeeb8db0b8893
+  id: _load_balancers_inner_1ae5316fa21e948c7b1e9aeeb8db0b8893
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listAsync(final String resourceGroupName, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listAsync(final String resourceGroupName, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 680
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String resourceGroupName, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a3785d9a0dd9785effadad13c5979c313
+  id: _load_balancers_inner_1a3785d9a0dd9785effadad13c5979c313
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<LoadBalancerInner> > com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 797
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< LoadBalancerInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._load_balancer_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1a2ae640c316ea80202c17b4c8e13fa0be
+  id: _load_balancers_inner_1a2ae640c316ea80202c17b4c8e13fa0be
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 814
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List loadBalancer opertion retrieves all the loadbalancers in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< LoadBalancerInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner_1aaaf6389fbcaea483a87c833fb3d188f2
+  id: _load_balancers_inner_1aaaf6389fbcaea483a87c833fb3d188f2
+  parent: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  langs:
+  - java
+  name: LoadBalancersInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancersInner.LoadBalancersInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/LoadBalancersInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.network.implementation.api._load_balancers_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public LoadBalancersInner(Retrofit retrofit, NetworkManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+    name: LoadBalancerInner
+    fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancerInner
+    href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+    name: LoadBalancerInner
+    fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancerInner
+    href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+    name: LoadBalancerInner
+    fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancerInner
+    href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+    name: LoadBalancerInner
+    fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancerInner
+    href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._load_balancer_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+    name: LoadBalancerInner
+    fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancerInner
+    href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.network.implementation.api._load_ba8c64af95bbfc76e7e01afb5501172d5b
+- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+  name: NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class NetworkManagementClientImpl
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
+  name: LoadBalancersInner
+  fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancersInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in LoadBalancers. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
+  name: LoadBalancerInner
+  fullName: com.microsoft.azure.management.network.implementation.api.LoadBalancerInner
+  type: Class
+  summary: <p>LoadBalancer resource. </p>
+  syntax:
+    content: public class LoadBalancerInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

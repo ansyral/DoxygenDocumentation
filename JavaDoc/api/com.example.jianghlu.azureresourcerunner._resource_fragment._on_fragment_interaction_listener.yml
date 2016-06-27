@@ -1,0 +1,69 @@
+items:
+- uid: com.example.jianghlu.azureresourcerunner._resource_fragment._on_fragment_interaction_listener
+  id: _on_fragment_interaction_listener
+  parent: com.example.jianghlu.azureresourcerunner
+  children:
+  - com.example.jianghlu.azureresourcerunner._resource_fragment._on_fragment_interaction_listener_1ade0233599691dc91deeade6c4369e8ef
+  href: com.example.jianghlu.azureresourcerunner._resource_fragment._on_fragment_interaction_listener.yml
+  langs:
+  - java
+  name: ResourceFragment.OnFragmentInteractionListener
+  fullName: com.example.jianghlu.azureresourcerunner.ResourceFragment.OnFragmentInteractionListener
+  type: Interface
+  source:
+    remote: &o0
+      path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/ResourceFragment.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/ResourceFragment.java
+    startLine: 252
+  package: com.example.jianghlu.azureresourcerunner
+  summary: >-
+    <p>This interface must be implemented by activities that contain this fragment to allow an interaction in this fragment to be communicated to the activity and potentially other fragments contained in that activity. </p>
+
+    <p>See the Android Training lesson <ulink url="http://developer.android.com/training/basics/fragments/communicating.html">Communicating with Other Fragments</ulink> for more information. </p>
+  syntax:
+    content: public interface OnFragmentInteractionListener
+- uid: com.example.jianghlu.azureresourcerunner._resource_fragment._on_fragment_interaction_listener_1ade0233599691dc91deeade6c4369e8ef
+  id: _on_fragment_interaction_listener_1ade0233599691dc91deeade6c4369e8ef
+  parent: com.example.jianghlu.azureresourcerunner._resource_fragment._on_fragment_interaction_listener
+  href: com.example.jianghlu.azureresourcerunner._resource_fragment._on_fragment_interaction_listener.yml
+  langs:
+  - java
+  name: onFragmentInteraction(Uri uri)
+  fullName: void com.example.jianghlu.azureresourcerunner.ResourceFragment.OnFragmentInteractionListener.onFragmentInteraction(Uri uri)
+  type: Method
+  source:
+    remote: *o0
+    path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/ResourceFragment.java
+    startLine: 254
+  package: com.example.jianghlu.azureresourcerunner
+  syntax:
+    content: public void onFragmentInteraction(Uri uri)
+    parameters:
+    - id: uri
+      type: 8fcd4038
+references:
+- uid: 8fcd4038
+  spec.java:
+  - name: Uri
+    fullName: Uri
+- uid: com.example.jianghlu.azureresourcerunner._resource_operator
+  parent: com.example.jianghlu.azureresourcerunner
+  href: com.example.jianghlu.azureresourcerunner._resource_operator.yml
+  name: ResourceOperator
+  fullName: com.example.jianghlu.azureresourcerunner.ResourceOperator
+  type: Class
+  syntax:
+    content: public class ResourceOperator
+- uid: com.example.jianghlu.azureresourcerunner._resource_operator_1aa09c52a266e3914143b165c9598f15c1
+  parent: com.example.jianghlu.azureresourcerunner._resource_operator
+  href: com.example.jianghlu.azureresourcerunner._resource_operator.yml
+  name: onFragmentInteraction(Uri uri)
+  fullName: void com.example.jianghlu.azureresourcerunner.ResourceOperator.onFragmentInteraction(Uri uri)
+  type: Method
+  syntax:
+    content: public void onFragmentInteraction(Uri uri)
+    parameters:
+    - id: uri
+      type: 8fcd4038

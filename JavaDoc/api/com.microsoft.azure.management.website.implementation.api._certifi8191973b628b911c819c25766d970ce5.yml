@@ -1,0 +1,409 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  id: _certifi8191973b628b911c819c25766d970ce5
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a2377d36da8633237edb2d58bbd291bdf
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a9d4ddb0a8c7de5a6f2b2723baef37504
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a31b4c08314dbd109d547fb50e2c89a37
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a66cfe16e7b838a0c411685a0a6fa7a64
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1abd2db43c83020e51b4d74fab68e606e3
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1ac220c0fc6247495fc3c9620e75b41a86
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a1cf8b60a55fcdca584ee201396fbdbdf
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a251c3f4f9d2a0468177b7c00c74adee6
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1af0a0bd6f74e954a990a2c503b86d95b4
+  - com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a68d67838e3f5e8fd7c8e7d53506691b6
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: CertificatesInner.CertificatesService
+  fullName: com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 57
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: 'The interface defining all the services for Certificates to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface CertificatesInner.CertificatesService
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a2377d36da8633237edb2d58bbd291bdf
+  id: _certifi8191973b628b911c819c25766d970ce5_1a2377d36da8633237edb2d58bbd291bdf
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: getCertificates(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.getCertificates(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 60
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getCertificates(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a9d4ddb0a8c7de5a6f2b2723baef37504
+  id: _certifi8191973b628b911c819c25766d970ce5_1a9d4ddb0a8c7de5a6f2b2723baef37504
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: getCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.getCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a31b4c08314dbd109d547fb50e2c89a37
+  id: _certifi8191973b628b911c819c25766d970ce5_1a31b4c08314dbd109d547fb50e2c89a37
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: createOrUpdateCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CertificateInner certificateEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.createOrUpdateCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CertificateInner certificateEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 68
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdateCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CertificateInner certificateEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: certificateEnvelope
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._certificate_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a66cfe16e7b838a0c411685a0a6fa7a64
+  id: _certifi8191973b628b911c819c25766d970ce5_1a66cfe16e7b838a0c411685a0a6fa7a64
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: deleteCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.deleteCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 72
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > deleteCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1abd2db43c83020e51b4d74fab68e606e3
+  id: _certifi8191973b628b911c819c25766d970ce5_1abd2db43c83020e51b4d74fab68e606e3
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: updateCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CertificateInner certificateEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.updateCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CertificateInner certificateEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > updateCertificate(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CertificateInner certificateEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: certificateEnvelope
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._certificate_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1ac220c0fc6247495fc3c9620e75b41a86
+  id: _certifi8191973b628b911c819c25766d970ce5_1ac220c0fc6247495fc3c9620e75b41a86
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: getCsrs(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.getCsrs(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 80
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getCsrs(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a1cf8b60a55fcdca584ee201396fbdbdf
+  id: _certifi8191973b628b911c819c25766d970ce5_1a1cf8b60a55fcdca584ee201396fbdbdf
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: getCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.getCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 84
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > getCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a251c3f4f9d2a0468177b7c00c74adee6
+  id: _certifi8191973b628b911c819c25766d970ce5_1a251c3f4f9d2a0468177b7c00c74adee6
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: createOrUpdateCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CsrInner csrEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.createOrUpdateCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CsrInner csrEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 88
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdateCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CsrInner csrEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: csrEnvelope
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._csr_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1af0a0bd6f74e954a990a2c503b86d95b4
+  id: _certifi8191973b628b911c819c25766d970ce5_1af0a0bd6f74e954a990a2c503b86d95b4
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: deleteCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.deleteCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 92
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > deleteCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5_1a68d67838e3f5e8fd7c8e7d53506691b6
+  id: _certifi8191973b628b911c819c25766d970ce5_1a68d67838e3f5e8fd7c8e7d53506691b6
+  parent: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5
+  href: com.microsoft.azure.management.website.implementation.api._certifi8191973b628b911c819c25766d970ce5.yml
+  langs:
+  - java
+  name: updateCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CsrInner csrEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.website.implementation.api.CertificatesInner.CertificatesService.updateCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CsrInner csrEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/CertificatesInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public Call< ResponseBody > updateCsr(@Path("resourceGroupName") String resourceGroupName,@Path("name") String name,@Path("subscriptionId") String subscriptionId,@Body CsrInner csrEnvelope,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: name
+      type: ad8e2c25
+    - id: subscriptionId
+      type: a014476f
+    - id: csrEnvelope
+      type: 96b6cf22com.microsoft.azure.management.website.implementation.api._csr_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: ad8e2c25
+  spec.java:
+  - name: '@Path("name") String'
+    fullName: '@Path("name") String'
+- uid: 96b6cf22com.microsoft.azure.management.website.implementation.api._certificate_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.website.implementation.api._certificate_inner
+    name: CertificateInner
+    fullName: com.microsoft.azure.management.website.implementation.api.CertificateInner
+    href: com.microsoft.azure.management.website.implementation.api._certificate_inner.yml
+- uid: 96b6cf22com.microsoft.azure.management.website.implementation.api._csr_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.website.implementation.api._csr_inner
+    name: CsrInner
+    fullName: com.microsoft.azure.management.website.implementation.api.CsrInner
+    href: com.microsoft.azure.management.website.implementation.api._csr_inner.yml
+- uid: com.microsoft.azure.management.website.implementation.api._certificate_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._certificate_inner.yml
+  name: CertificateInner
+  fullName: com.microsoft.azure.management.website.implementation.api.CertificateInner
+  type: Class
+  summary: 'App certificate. '
+  syntax:
+    content: public class CertificateInner
+- uid: com.microsoft.azure.management.website.implementation.api._csr_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._csr_inner.yml
+  name: CsrInner
+  fullName: com.microsoft.azure.management.website.implementation.api.CsrInner
+  type: Class
+  summary: 'Certificate signing request object. '
+  syntax:
+    content: public class CsrInner

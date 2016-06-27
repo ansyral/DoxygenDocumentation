@@ -1,0 +1,62 @@
+items:
+- uid: com.microsoft.azure.management.network._subnet._definition_attachable
+  id: _definition_attachable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition_attachable.yml
+  langs:
+  - java
+  name: Subnet.DefinitionAttachable
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable
+  type: Interface
+  source:
+    remote:
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Subnet.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Subnet.java
+    startLine: 48
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>The final stage of the subnet definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface DefinitionAttachable
+  inheritance:
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: Attachable
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable
+  type: Interface
+  summary: >-
+    <p>The final stage of the child object definition, at which it can be attached to the parent, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Attachable
+- uid: com.microsoft.azure.management.network._subnet._definition
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._definition.yml
+  name: Subnet.Definition
+  fullName: com.microsoft.azure.management.network.Subnet.Definition
+  type: Interface
+  summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
+  syntax:
+    content: public interface Definition

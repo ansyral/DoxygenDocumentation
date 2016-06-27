@@ -1,0 +1,138 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._status_options
+  id: _status_options
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._status_options_1a8c6299363556c94bfd5e4dd81055a136
+  - com.microsoft.azure.management.website.implementation.api._status_options_1ad2c27ce136edef3944bc978407f36d1c
+  - com.microsoft.azure.management.website.implementation.api._status_options_1ab2005d6f8f27c5118ce540bd43ad9dbd
+  - com.microsoft.azure.management.website.implementation.api._status_options_1a3d7bb462bb1f1c1459d3afeafcbeefb7
+  - com.microsoft.azure.management.website.implementation.api._status_options_1aea1be01e8878cf4e1950f6484ee8902e
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  langs:
+  - java
+  name: StatusOptions
+  fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions
+  type: Enum
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+    startLine: 14
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._status_options" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public enum StatusOptions
+- uid: com.microsoft.azure.management.website.implementation.api._status_options_1a8c6299363556c94bfd5e4dd81055a136
+  id: _status_options_1a8c6299363556c94bfd5e4dd81055a136
+  parent: com.microsoft.azure.management.website.implementation.api._status_options
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  langs:
+  - java
+  name: fromString(String value)
+  fullName: static StatusOptions com.microsoft.azure.management.website.implementation.api.StatusOptions.fromString(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+    startLine: 35
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Parses a serialized value to a <xref href="com.microsoft.azure.management.website.implementation.api._status_options" data-throw-if-not-resolved="false"></xref> instance.</p>
+
+    <p></p>
+  syntax:
+    content: public static StatusOptions fromString(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the serialized value to parse. </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._status_options
+      description: <p>the parsed <xref href="com.microsoft.azure.management.website.implementation.api._status_options" data-throw-if-not-resolved="false"></xref> object, or null if unable to parse. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._status_options_1ad2c27ce136edef3944bc978407f36d1c
+  id: _status_options_1ad2c27ce136edef3944bc978407f36d1c
+  parent: com.microsoft.azure.management.website.implementation.api._status_options
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  langs:
+  - java
+  name: PENDING
+  fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions.PENDING
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+    startLine: 19
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Pending. </p>
+  syntax:
+    content: public PENDING=("Pending")
+- uid: com.microsoft.azure.management.website.implementation.api._status_options_1ab2005d6f8f27c5118ce540bd43ad9dbd
+  id: _status_options_1ab2005d6f8f27c5118ce540bd43ad9dbd
+  parent: com.microsoft.azure.management.website.implementation.api._status_options
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  langs:
+  - java
+  name: READY
+  fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions.READY
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+    startLine: 16
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Enum value Ready. </p>
+  syntax:
+    content: public READY=("Ready")
+- uid: com.microsoft.azure.management.website.implementation.api._status_options_1a3d7bb462bb1f1c1459d3afeafcbeefb7
+  id: _status_options_1a3d7bb462bb1f1c1459d3afeafcbeefb7
+  parent: com.microsoft.azure.management.website.implementation.api._status_options
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  langs:
+  - java
+  name: StatusOptions(String value)
+  fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions.StatusOptions(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+    startLine: 24
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public StatusOptions(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+- uid: com.microsoft.azure.management.website.implementation.api._status_options_1aea1be01e8878cf4e1950f6484ee8902e
+  id: _status_options_1aea1be01e8878cf4e1950f6484ee8902e
+  parent: com.microsoft.azure.management.website.implementation.api._status_options
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  langs:
+  - java
+  name: toString()
+  fullName: String com.microsoft.azure.management.website.implementation.api.StatusOptions.toString()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
+    startLine: 47
+  package: com.microsoft.azure.management.website.implementation.api
+  syntax:
+    content: public String toString()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._status_options
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._status_options.yml
+  name: StatusOptions
+  fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._status_options" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

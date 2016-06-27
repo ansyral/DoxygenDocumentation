@@ -1,0 +1,208 @@
+items:
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  id: _definition_o_s_disk_settings
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a6a6aa9bd205ddf33ff193d3de7b6020c
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a7740349b7a711ac8f5050ca8d70e1ce7
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a8d1d7088bed3d1d15d60bb2773a1aed1
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1ad60c45fc75c0f9f7e00c12c60a513434
+  - com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a4c33b81147f9f522000079de33748cf5
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  langs:
+  - java
+  name: VirtualMachine.DefinitionOSDiskSettings
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 606
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>The stage of the virtual machine definition allowing to specify OS disk configurations.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionOSDiskSettings
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a6a6aa9bd205ddf33ff193d3de7b6020c
+  id: _definition_o_s_disk_settings_1a6a6aa9bd205ddf33ff193d3de7b6020c
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  langs:
+  - java
+  name: withOsDiskCaching(CachingTypes cachingType)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskCaching(CachingTypes cachingType)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 613
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the caching type for the Operating System disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskCaching(CachingTypes cachingType)
+    parameters:
+    - id: cachingType
+      type: com.microsoft.azure.management.compute.implementation.api._caching_types
+      description: <p>the caching type. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a7740349b7a711ac8f5050ca8d70e1ce7
+  id: _definition_o_s_disk_settings_1a7740349b7a711ac8f5050ca8d70e1ce7
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  langs:
+  - java
+  name: withOsDiskEncryptionSettings(DiskEncryptionSettings settings)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskEncryptionSettings(DiskEncryptionSettings settings)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 630
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the encryption settings for the OS Disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskEncryptionSettings(DiskEncryptionSettings settings)
+    parameters:
+    - id: settings
+      type: com.microsoft.azure.management.compute.implementation.api._disk_encryption_settings
+      description: <p>the encryption settings. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a8d1d7088bed3d1d15d60bb2773a1aed1
+  id: _definition_o_s_disk_settings_1a8d1d7088bed3d1d15d60bb2773a1aed1
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  langs:
+  - java
+  name: withOsDiskName(String name)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskName(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 646
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the name for the OS Disk.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskName(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the OS Disk name. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1ad60c45fc75c0f9f7e00c12c60a513434
+  id: _definition_o_s_disk_settings_1ad60c45fc75c0f9f7e00c12c60a513434
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  langs:
+  - java
+  name: withOsDiskSizeInGb(Integer size)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskSizeInGb(Integer size)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 638
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the size of the OSDisk in GB.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskSizeInGb(Integer size)
+    parameters:
+    - id: size
+      type: 08effaa0
+      description: <p>the VHD size. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings_1a4c33b81147f9f522000079de33748cf5
+  id: _definition_o_s_disk_settings_1a4c33b81147f9f522000079de33748cf5
+  parent: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
+  langs:
+  - java
+  name: withOsDiskVhdLocation(String containerName, String vhdName)
+  fullName: T com.microsoft.azure.management.compute.VirtualMachine.DefinitionOSDiskSettings< T extends DefinitionCreatable >.withOsDiskVhdLocation(String containerName, String vhdName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 622
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Specifies the name of the OS Disk Vhd file and it's parent container.</p>
+
+    <p></p>
+  syntax:
+    content: public T withOsDiskVhdLocation(String containerName, String vhdName)
+    parameters:
+    - id: containerName
+      type: "26831127"
+      description: <p>the name of the container in the selected storage account. </p>
+    - id: vhdName
+      type: "26831127"
+      description: <p>the name for the OS Disk vhd. </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage representing creatable VM definition </p>
+references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_creatable.yml
+  name: VirtualMachine.DefinitionCreatable
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.compute.implementation.api._caching_types
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml
+  name: CachingTypes
+  fullName: com.microsoft.azure.management.compute.implementation.api.CachingTypes
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._caching_types" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum CachingTypes
+- uid: com.microsoft.azure.management.compute.implementation.api._disk_encryption_settings
+  parent: com.microsoft.azure.management.compute.implementation.api
+  href: com.microsoft.azure.management.compute.implementation.api._disk_encryption_settings.yml
+  name: DiskEncryptionSettings
+  fullName: com.microsoft.azure.management.compute.implementation.api.DiskEncryptionSettings
+  type: Class
+  summary: <p>Describes a Encryption Settings for a Disk. </p>
+  syntax:
+    content: public class DiskEncryptionSettings

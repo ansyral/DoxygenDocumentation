@@ -1,0 +1,83 @@
+items:
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
+  id: _definition_with_reverse_f_q_d_n
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n_1aebb7b4b197a2fc299497d37bb80f8bdb
+  - com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n_1aee6581ee5766a9b53476fdf0cefced55
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
+  langs:
+  - java
+  name: PublicIpAddress.DefinitionWithReverseFQDN
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithReverseFQDN
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 186
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>A public IP address definition allowing the reverse FQDN to be specified.</p>
+
+    <p></p>
+  syntax:
+    content: public interface DefinitionWithReverseFQDN
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n_1aebb7b4b197a2fc299497d37bb80f8bdb
+  id: _definition_with_reverse_f_q_d_n_1aebb7b4b197a2fc299497d37bb80f8bdb
+  parent: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
+  langs:
+  - java
+  name: withoutReverseFqdn()
+  fullName: T com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithReverseFQDN< T >.withoutReverseFqdn()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 200
+  package: com.microsoft.azure.management.network
+  summary: <p>Ensures that no reverse FQDN will be used. </p>
+  syntax:
+    content: public T withoutReverseFqdn()
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n_1aee6581ee5766a9b53476fdf0cefced55
+  id: _definition_with_reverse_f_q_d_n_1aee6581ee5766a9b53476fdf0cefced55
+  parent: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
+  href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
+  langs:
+  - java
+  name: withReverseFqdn(String reverseFQDN)
+  fullName: T com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithReverseFQDN< T >.withReverseFqdn(String reverseFQDN)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/PublicIpAddress.java
+    startLine: 194
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>Specifies the reverse FQDN to assign to this public IP address. </p>
+
+    <p></p>
+  syntax:
+    content: public T withReverseFqdn(String reverseFQDN)
+    parameters:
+    - id: reverseFQDN
+      type: "26831127"
+      description: <p>the reverse FQDN to assign </p>
+    return:
+      type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T

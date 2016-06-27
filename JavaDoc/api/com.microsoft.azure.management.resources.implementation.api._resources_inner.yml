@@ -1,0 +1,1090 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  id: _resources_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a7626f1d9db11460f84b00d1fcf08e5a7
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a8c3d2b0c78a685274da67d6983678229
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a64a9bbc2be1c5418dfea71af94f6241b
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1aa40d143d7f4f2e12a00b93e1063defb7
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a498ad87338a70bf6d4e1673aa4655d9a
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a727015de31dfea2cc0338f43b2d89474
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a252fe2d8a737b012c0c74d788cfae948
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1ace0c979ea826ca8ca5d5394dcaa2a376
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a51189949f27d217efad1a6b31dc596b3
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1ad03d848cce926a6f95a7c62b3ec98cb2
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1ae83abf6b35477ed23930e79e93ab9e0f
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a3c18201465034140a8d169caccb092cc
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a60d7ac7c065d8f90bc07fed509b2fef8
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a38bf5e11f0b71a58699933ce354ef676
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1ae117ad4925bc5972fe9b9e33cfc94459
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1ab5ab1d1849c4313c3ef276cfbdb8e547
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a48d698a06dba9d89c9200f518daeb9e5
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a8d4cb1b1f90a39cc775a7542df08e17a
+  - com.microsoft.azure.management.resources.implementation.api._resources_inner_1a651da8148da8be891cb936b1b70dea66
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: ResourcesInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourcesInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 43
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in Resources. </p>
+  syntax: &o1
+    content: public class ResourcesInner
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a7626f1d9db11460f84b00d1fcf08e5a7
+  id: _resources_inner_1a7626f1d9db11460f84b00d1fcf08e5a7
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: beginMoveResources(String sourceResourceGroupName, ResourcesMoveInfoInner parameters)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.resources.implementation.api.ResourcesInner.beginMoveResources(String sourceResourceGroupName, ResourcesMoveInfoInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 179
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Move resources from one resource group to another. The resources being moved should all be in the same resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginMoveResources(String sourceResourceGroupName, ResourcesMoveInfoInner parameters)
+    parameters:
+    - id: sourceResourceGroupName
+      type: "26831127"
+      description: <p>Source resource group name. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner
+      description: <p>move resources' parameters. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a8c3d2b0c78a685274da67d6983678229
+  id: _resources_inner_1a8c3d2b0c78a685274da67d6983678229
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: beginMoveResourcesAsync(String sourceResourceGroupName, ResourcesMoveInfoInner parameters, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.beginMoveResourcesAsync(String sourceResourceGroupName, ResourcesMoveInfoInner parameters, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 206
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Move resources from one resource group to another. The resources being moved should all be in the same resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginMoveResourcesAsync(String sourceResourceGroupName, ResourcesMoveInfoInner parameters, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: sourceResourceGroupName
+      type: "26831127"
+      description: <p>Source resource group name. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner
+      description: <p>move resources' parameters. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a64a9bbc2be1c5418dfea71af94f6241b
+  id: _resources_inner_1a64a9bbc2be1c5418dfea71af94f6241b
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: checkExistence(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  fullName: ServiceResponse<Boolean> com.microsoft.azure.management.resources.implementation.api.ResourcesInner.checkExistence(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 412
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Checks whether resource exists.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Boolean > checkExistence(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_response3b398340
+      description: <p>the boolean object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1aa40d143d7f4f2e12a00b93e1063defb7
+  id: _resources_inner_1aa40d143d7f4f2e12a00b93e1063defb7
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: checkExistenceAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< Boolean > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.checkExistenceAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< Boolean > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 451
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Checks whether resource exists.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall checkExistenceAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< Boolean > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback3b398340
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a498ad87338a70bf6d4e1673aa4655d9a
+  id: _resources_inner_1a498ad87338a70bf6d4e1673aa4655d9a
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, GenericResourceInner parameters)
+  fullName: ServiceResponse<GenericResourceInner> com.microsoft.azure.management.resources.implementation.api.ResourcesInner.createOrUpdate(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, GenericResourceInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 629
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Create a resource.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< GenericResourceInner > createOrUpdate(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, GenericResourceInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: parameters
+      type: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+      description: <p>Create or update resource parameters. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a727015de31dfea2cc0338f43b2d89474
+  id: _resources_inner_1a727015de31dfea2cc0338f43b2d89474
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, GenericResourceInner parameters, final ServiceCallback< GenericResourceInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.createOrUpdateAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, GenericResourceInner parameters, final ServiceCallback< GenericResourceInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 673
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Create a resource.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, GenericResourceInner parameters, final ServiceCallback< GenericResourceInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: parameters
+      type: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+      description: <p>Create or update resource parameters. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a252fe2d8a737b012c0c74d788cfae948
+  id: _resources_inner_1a252fe2d8a737b012c0c74d788cfae948
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.resources.implementation.api.ResourcesInner.delete(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 520
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Delete resource and all of its resources.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1ace0c979ea826ca8ca5d5394dcaa2a376
+  id: _resources_inner_1ace0c979ea826ca8ca5d5394dcaa2a376
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.deleteAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 559
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Delete resource and all of its resources.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a51189949f27d217efad1a6b31dc596b3
+  id: _resources_inner_1a51189949f27d217efad1a6b31dc596b3
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  fullName: ServiceResponse<GenericResourceInner> com.microsoft.azure.management.resources.implementation.api.ResourcesInner.get(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 747
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Returns a resource belonging to a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< GenericResourceInner > get(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1ad03d848cce926a6f95a7c62b3ec98cb2
+  id: _resources_inner_1ad03d848cce926a6f95a7c62b3ec98cb2
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< GenericResourceInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.getAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< GenericResourceInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 786
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Returns a resource belonging to a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String resourceProviderNamespace, String parentResourcePath, String resourceType, String resourceName, String apiVersion, final ServiceCallback< GenericResourceInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. The name is case insensitive. </p>
+    - id: resourceProviderNamespace
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: parentResourcePath
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceType
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: resourceName
+      type: "26831127"
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> identity. </p>
+    - id: apiVersion
+      type: "26831127"
+      description: <p>the String value </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1ae83abf6b35477ed23930e79e93ab9e0f
+  id: _resources_inner_1ae83abf6b35477ed23930e79e93ab9e0f
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: list()
+  fullName: ServiceResponse<PagedList<GenericResourceInner> > com.microsoft.azure.management.resources.implementation.api.ResourcesInner.list()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 257
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get all of the resources under a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< GenericResourceInner > > list()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a3c18201465034140a8d169caccb092cc
+  id: _resources_inner_1a3c18201465034140a8d169caccb092cc
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: list(final String filter, final Integer top)
+  fullName: ServiceResponse<PagedList<GenericResourceInner> > com.microsoft.azure.management.resources.implementation.api.ResourcesInner.list(final String filter, final Integer top)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 330
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get all of the resources under a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< GenericResourceInner > > list(final String filter, final Integer top)
+    parameters:
+    - id: filter
+      type: 3d93591e
+      description: <p>The filter to apply on the operation. </p>
+    - id: top
+      type: 3437983f
+      description: <p>Query parameters. If null is passed returns all resource groups. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a60d7ac7c065d8f90bc07fed509b2fef8
+  id: _resources_inner_1a60d7ac7c065d8f90bc07fed509b2fef8
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: listAsync(final ListOperationCallback< GenericResourceInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.listAsync(final ListOperationCallback< GenericResourceInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 284
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get all of the resources under a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final ListOperationCallback< GenericResourceInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a38bf5e11f0b71a58699933ce354ef676
+  id: _resources_inner_1a38bf5e11f0b71a58699933ce354ef676
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: listAsync(final String filter, final Integer top, final ListOperationCallback< GenericResourceInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.listAsync(final String filter, final Integer top, final ListOperationCallback< GenericResourceInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 357
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get all of the resources under a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String filter, final Integer top, final ListOperationCallback< GenericResourceInner > serviceCallback)
+    parameters:
+    - id: filter
+      type: 3d93591e
+      description: <p>The filter to apply on the operation. </p>
+    - id: top
+      type: 3437983f
+      description: <p>Query parameters. If null is passed returns all resource groups. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1ae117ad4925bc5972fe9b9e33cfc94459
+  id: _resources_inner_1ae117ad4925bc5972fe9b9e33cfc94459
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<GenericResourceInner> > com.microsoft.azure.management.resources.implementation.api.ResourcesInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 849
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get all of the resources under a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< GenericResourceInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1ab5ab1d1849c4313c3ef276cfbdb8e547
+  id: _resources_inner_1ab5ab1d1849c4313c3ef276cfbdb8e547
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< GenericResourceInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< GenericResourceInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 866
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Get all of the resources under a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< GenericResourceInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a48d698a06dba9d89c9200f518daeb9e5
+  id: _resources_inner_1a48d698a06dba9d89c9200f518daeb9e5
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: moveResources(String sourceResourceGroupName, ResourcesMoveInfoInner parameters)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.resources.implementation.api.ResourcesInner.moveResources(String sourceResourceGroupName, ResourcesMoveInfoInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 110
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Move resources from one resource group to another. The resources being moved should all be in the same resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > moveResources(String sourceResourceGroupName, ResourcesMoveInfoInner parameters)
+    parameters:
+    - id: sourceResourceGroupName
+      type: "26831127"
+      description: <p>Source resource group name. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner
+      description: <p>move resources' parameters. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a8d4cb1b1f90a39cc775a7542df08e17a
+  id: _resources_inner_1a8d4cb1b1f90a39cc775a7542df08e17a
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: moveResourcesAsync(String sourceResourceGroupName, ResourcesMoveInfoInner parameters, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.resources.implementation.api.ResourcesInner.moveResourcesAsync(String sourceResourceGroupName, ResourcesMoveInfoInner parameters, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 137
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Move resources from one resource group to another. The resources being moved should all be in the same resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall moveResourcesAsync(String sourceResourceGroupName, ResourcesMoveInfoInner parameters, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: sourceResourceGroupName
+      type: "26831127"
+      description: <p>Source resource group name. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner
+      description: <p>move resources' parameters. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner_1a651da8148da8be891cb936b1b70dea66
+  id: _resources_inner_1a651da8148da8be891cb936b1b70dea66
+  parent: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  langs:
+  - java
+  name: ResourcesInner(Retrofit retrofit, ResourceManagementClientImpl client)
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourcesInner.ResourcesInner(Retrofit retrofit, ResourceManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourcesInner.java
+    startLine: 55
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.resources.implementation.api._resources_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public ResourcesInner(Retrofit retrofit, ResourceManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+    name: GenericResourceInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+    href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+    name: GenericResourceInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+    href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: 3437983f
+  spec.java:
+  - name: final Integer
+    fullName: final Integer
+- uid: com.microsoft.rest._service_response3b398340
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Boolean >
+    fullName: < Boolean >
+- uid: 93de0ef9com.microsoft.rest._service_callback3b398340
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Boolean >
+    fullName: < Boolean >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+    name: GenericResourceInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+    href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+    name: GenericResourceInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+    href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+    href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+    name: GenericResourceInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+    href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.azure.management.resources.implementation.api._resou531aef0374b9e275d90c8044f361c7d4
+- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
+  name: ResourceManagementClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class ResourceManagementClientImpl
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._resources_inner.yml
+  name: ResourcesInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourcesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Resources. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner.yml
+  name: ResourcesMoveInfoInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ResourcesMoveInfoInner
+  type: Class
+  summary: <p>Parameters of move resources. </p>
+  syntax:
+    content: public class ResourcesMoveInfoInner
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
+  name: GenericResourceInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.GenericResourceInner
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> information. </p>
+  syntax:
+    content: public class GenericResourceInner
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure._resource
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._resource.yml
+  name: Resource
+  fullName: com.microsoft.azure.Resource
+  type: Class
+  summary: <p>The <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> model. </p>
+  syntax:
+    content: public class Resource
+- uid: com.microsoft.azure.management.resources.implementation.api._page_impl
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

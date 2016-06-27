@@ -1,0 +1,158 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  id: _site_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._site_collection_inner_1a305e264a68e5c7c547c15037d7ace956
+  - com.microsoft.azure.management.website.implementation.api._site_collection_inner_1ae10ff6e9b2133f9dee41858ea154231e
+  - com.microsoft.azure.management.website.implementation.api._site_collection_inner_1a68625d5c834fdc78180a027903256d3d
+  - com.microsoft.azure.management.website.implementation.api._site_collection_inner_1a29eb5e1567801c9421626735bbfb8dfe
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  langs:
+  - java
+  name: SiteCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.SiteCollectionInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteCollectionInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteCollectionInner.java
+    startLine: 13
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Collection of sites. </p>
+  syntax: &o1
+    content: public class SiteCollectionInner
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner_1a305e264a68e5c7c547c15037d7ace956
+  id: _site_collection_inner_1a305e264a68e5c7c547c15037d7ace956
+  parent: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  langs:
+  - java
+  name: nextLink()
+  fullName: String com.microsoft.azure.management.website.implementation.api.SiteCollectionInner.nextLink()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteCollectionInner.java
+    startLine: 49
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public String nextLink()
+    return:
+      type: "26831127"
+      description: <p>the nextLink value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner_1ae10ff6e9b2133f9dee41858ea154231e
+  id: _site_collection_inner_1ae10ff6e9b2133f9dee41858ea154231e
+  parent: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: List<SiteInner> com.microsoft.azure.management.website.implementation.api.SiteCollectionInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteCollectionInner.java
+    startLine: 29
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< SiteInner > value()
+    return:
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._site_inner9ec3e006
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner_1a68625d5c834fdc78180a027903256d3d
+  id: _site_collection_inner_1a68625d5c834fdc78180a027903256d3d
+  parent: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  langs:
+  - java
+  name: withNextLink(String nextLink)
+  fullName: SiteCollectionInner com.microsoft.azure.management.website.implementation.api.SiteCollectionInner.withNextLink(String nextLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteCollectionInner.java
+    startLine: 59
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the nextLink value.</p>
+
+    <p></p>
+  syntax:
+    content: public SiteCollectionInner withNextLink(String nextLink)
+    parameters:
+    - id: nextLink
+      type: "26831127"
+      description: <p>the nextLink value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._site_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner_1a29eb5e1567801c9421626735bbfb8dfe
+  id: _site_collection_inner_1a29eb5e1567801c9421626735bbfb8dfe
+  parent: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  langs:
+  - java
+  name: withValue(List< SiteInner > value)
+  fullName: SiteCollectionInner com.microsoft.azure.management.website.implementation.api.SiteCollectionInner.withValue(List< SiteInner > value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteCollectionInner.java
+    startLine: 39
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public SiteCollectionInner withValue(List< SiteInner > value)
+    parameters:
+    - id: value
+      type: f6a6204dcom.microsoft.azure.management.website.implementation.api._site_inner9ec3e006
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._site_collection_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f6a6204dcom.microsoft.azure.management.website.implementation.api._site_inner9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.website.implementation.api._site_inner
+    name: SiteInner
+    fullName: com.microsoft.azure.management.website.implementation.api.SiteInner
+    href: com.microsoft.azure.management.website.implementation.api._site_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.website.implementation.api._site_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._site_inner.yml
+  name: SiteInner
+  fullName: com.microsoft.azure.management.website.implementation.api.SiteInner
+  type: Class
+  summary: <p>Represents a web app. </p>
+  syntax:
+    content: public class SiteInner
+- uid: com.microsoft.azure.management.website.implementation.api._site_collection_inner
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._site_collection_inner.yml
+  name: SiteCollectionInner
+  fullName: com.microsoft.azure.management.website.implementation.api.SiteCollectionInner
+  type: Class
+  summary: <p>Collection of sites. </p>
+  syntax: *o1

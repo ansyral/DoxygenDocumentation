@@ -1,0 +1,1428 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  id: _express_route_circuits_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a550bef83c6a07123d9a63c376492a3e6
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a6f4a4e76cae438d8fa3cb51fbab4c022
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ab13b6ec852848a65de424d7d92ad6a97
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a098e6cbace18150c6950200f1342266c
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a0569dcc6711cf70221048b3ff6dd1530
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ad3ba5709d8c88479bb824c3a1256bb39
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a6622af29875fdd2b87b24ae2b3cdab45
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a7d16c0bc2d7eb48686a047d5434b60d9
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1acf9aca7c75af21738b96f35557895e9e
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a215af60bd480bea23bffe9c6b6f0e30f
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1af1d0b429b6dd1c407f3843d2682ddda4
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a1f6d3996cfc2fe52edcd17dcc4319aa6
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a55fc59f40d279d564ea3cb39876bea46
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ad207c6ba3773c02f0364ede2f595e90e
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ada050a4a9b98abd86995af90d74fca3e
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a1835a63bf7a7ca51e50195001258b3b2
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a585fcecf5732bea89e4e1c7e7e04a378
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a5c265971c5d88eb96eea5888dbb15309
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a29d67c1c2e0652a6f61dddd33b458263
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1af8428d6a126a25c5cff9dc93dfa0eafb
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ab6d55adf79af6bff1947fe01535f79fe
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ad21221a1af1a49682ff68926483ae510
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a9f4be7c9f27fb7ad30aafc51bad38f80
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a2ae20b5d34a25389fd2b226a993bdc0f
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ae96904242a8ee42b2fb482c2ad0b30b9
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a85aee8b3720850d96865181d53298540
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a027e4c0a4062528dc5cbd615433e1311
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a41ba5916237ce02ee7c4f22bca411143
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a60dbe798b2ae1b813093555b34ce1540
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a5bd6ea5d3da49d739305b2e43f153310
+  - com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1acb86429911ade141aa8cc9ae638cf23d
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: ExpressRouteCircuitsInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 40
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>An instance of this class provides access to all the operations defined in ExpressRouteCircuits. </p>
+  syntax: &o1
+    content: public class ExpressRouteCircuitsInner
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a550bef83c6a07123d9a63c376492a3e6
+  id: _express_route_circuits_inner_1a550bef83c6a07123d9a63c376492a3e6
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters)
+  fullName: ServiceResponse<ExpressRouteCircuitInner> com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.beginCreateOrUpdate(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 438
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put ExpressRouteCircuit operation creates/updates a ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ExpressRouteCircuitInner > beginCreateOrUpdate(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the circuit. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+      description: <p>Parameters supplied to the create/delete ExpressRouteCircuit operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a6f4a4e76cae438d8fa3cb51fbab4c022
+  id: _express_route_circuits_inner_1a6f4a4e76cae438d8fa3cb51fbab4c022
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: beginCreateOrUpdateAsync(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.beginCreateOrUpdateAsync(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 469
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put ExpressRouteCircuit operation creates/updates a ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginCreateOrUpdateAsync(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the circuit. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+      description: <p>Parameters supplied to the create/delete ExpressRouteCircuit operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ab13b6ec852848a65de424d7d92ad6a97
+  id: _express_route_circuits_inner_1ab13b6ec852848a65de424d7d92ad6a97
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: beginDelete(String resourceGroupName, String circuitName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.beginDelete(String resourceGroupName, String circuitName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 202
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete ExpressRouteCircuit operation deletes the specified ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > beginDelete(String resourceGroupName, String circuitName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the express route Circuit. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a098e6cbace18150c6950200f1342266c
+  id: _express_route_circuits_inner_1a098e6cbace18150c6950200f1342266c
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: beginDeleteAsync(String resourceGroupName, String circuitName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.beginDeleteAsync(String resourceGroupName, String circuitName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 228
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete ExpressRouteCircuit operation deletes the specified ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall beginDeleteAsync(String resourceGroupName, String circuitName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the express route Circuit. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a0569dcc6711cf70221048b3ff6dd1530
+  id: _express_route_circuits_inner_1a0569dcc6711cf70221048b3ff6dd1530
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: createOrUpdate(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters)
+  fullName: ServiceResponse<ExpressRouteCircuitInner> com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.createOrUpdate(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 361
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put ExpressRouteCircuit operation creates/updates a ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ExpressRouteCircuitInner > createOrUpdate(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the circuit. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+      description: <p>Parameters supplied to the create/delete ExpressRouteCircuit operation </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref> object wrapped in ServiceResponse if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ad3ba5709d8c88479bb824c3a1256bb39
+  id: _express_route_circuits_inner_1ad3ba5709d8c88479bb824c3a1256bb39
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: createOrUpdateAsync(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.createOrUpdateAsync(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 392
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Put ExpressRouteCircuit operation creates/updates a ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall createOrUpdateAsync(String resourceGroupName, String circuitName, ExpressRouteCircuitInner parameters, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the circuit. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+      description: <p>Parameters supplied to the create/delete ExpressRouteCircuit operation </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a6622af29875fdd2b87b24ae2b3cdab45
+  id: _express_route_circuits_inner_1a6622af29875fdd2b87b24ae2b3cdab45
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String circuitName)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.delete(String resourceGroupName, String circuitName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 135
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete ExpressRouteCircuit operation deletes the specified ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > delete(String resourceGroupName, String circuitName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the express route Circuit. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the ServiceResponse object if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a7d16c0bc2d7eb48686a047d5434b60d9
+  id: _express_route_circuits_inner_1a7d16c0bc2d7eb48686a047d5434b60d9
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String circuitName, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.deleteAsync(String resourceGroupName, String circuitName, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 161
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The delete ExpressRouteCircuit operation deletes the specified ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall deleteAsync(String resourceGroupName, String circuitName, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the express route Circuit. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1acf9aca7c75af21738b96f35557895e9e
+  id: _express_route_circuits_inner_1acf9aca7c75af21738b96f35557895e9e
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: ExpressRouteCircuitsInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.ExpressRouteCircuitsInner(Retrofit retrofit, NetworkManagementClientImpl client)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Initializes an instance of <xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public ExpressRouteCircuitsInner(Retrofit retrofit, NetworkManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a215af60bd480bea23bffe9c6b6f0e30f
+  id: _express_route_circuits_inner_1a215af60bd480bea23bffe9c6b6f0e30f
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: get(String resourceGroupName, String circuitName)
+  fullName: ServiceResponse<ExpressRouteCircuitInner> com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.get(String resourceGroupName, String circuitName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 281
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get ExpressRouteCircuit operation retreives information about the specified ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< ExpressRouteCircuitInner > get(String resourceGroupName, String circuitName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the circuit. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1af1d0b429b6dd1c407f3843d2682ddda4
+  id: _express_route_circuits_inner_1af1d0b429b6dd1c407f3843d2682ddda4
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: getAsync(String resourceGroupName, String circuitName, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.getAsync(String resourceGroupName, String circuitName, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 307
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Get ExpressRouteCircuit operation retreives information about the specified ExpressRouteCircuit.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall getAsync(String resourceGroupName, String circuitName, final ServiceCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: "26831127"
+      description: <p>The name of the circuit. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a1f6d3996cfc2fe52edcd17dcc4319aa6
+  id: _express_route_circuits_inner_1a1f6d3996cfc2fe52edcd17dcc4319aa6
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: list(final String resourceGroupName)
+  fullName: ServiceResponse<PagedList<ExpressRouteCircuitInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.list(final String resourceGroupName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 802
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< ExpressRouteCircuitInner > > list(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a55fc59f40d279d564ea3cb39876bea46
+  id: _express_route_circuits_inner_1a55fc59f40d279d564ea3cb39876bea46
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listAll()
+  fullName: ServiceResponse<PagedList<ExpressRouteCircuitInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listAll()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 884
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< ExpressRouteCircuitInner > > listAll()
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ad207c6ba3773c02f0364ede2f595e90e
+  id: _express_route_circuits_inner_1ad207c6ba3773c02f0364ede2f595e90e
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listAllAsync(final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listAllAsync(final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 909
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllAsync(final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ada050a4a9b98abd86995af90d74fca3e
+  id: _express_route_circuits_inner_1ada050a4a9b98abd86995af90d74fca3e
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listAllNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<ExpressRouteCircuitInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listAllNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1211
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< ExpressRouteCircuitInner > > listAllNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a1835a63bf7a7ca51e50195001258b3b2
+  id: _express_route_circuits_inner_1a1835a63bf7a7ca51e50195001258b3b2
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1228
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a subscription.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAllNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a585fcecf5732bea89e4e1c7e7e04a378
+  id: _express_route_circuits_inner_1a585fcecf5732bea89e4e1c7e7e04a378
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listArpTable(final String resourceGroupName, final String circuitName)
+  fullName: ServiceResponse<PagedList<ExpressRouteCircuitArpTableInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listArpTable(final String resourceGroupName, final String circuitName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 527
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListArpTable from ExpressRouteCircuit opertion retrieves the currently advertised arp table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< ExpressRouteCircuitArpTableInner > > listArpTable(final String resourceGroupName, final String circuitName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: 3d93591e
+      description: <p>The name of the circuit. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a5c265971c5d88eb96eea5888dbb15309
+  id: _express_route_circuits_inner_1a5c265971c5d88eb96eea5888dbb15309
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listArpTableAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitArpTableInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listArpTableAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitArpTableInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 560
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListArpTable from ExpressRouteCircuit opertion retrieves the currently advertised arp table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listArpTableAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitArpTableInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: 3d93591e
+      description: <p>The name of the circuit. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a29d67c1c2e0652a6f61dddd33b458263
+  id: _express_route_circuits_inner_1a29d67c1c2e0652a6f61dddd33b458263
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listArpTableNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<ExpressRouteCircuitArpTableInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listArpTableNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 959
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListArpTable from ExpressRouteCircuit opertion retrieves the currently advertised arp table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< ExpressRouteCircuitArpTableInner > > listArpTableNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1af8428d6a126a25c5cff9dc93dfa0eafb
+  id: _express_route_circuits_inner_1af8428d6a126a25c5cff9dc93dfa0eafb
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listArpTableNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitArpTableInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listArpTableNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitArpTableInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 976
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListArpTable from ExpressRouteCircuit opertion retrieves the currently advertised arp table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listArpTableNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitArpTableInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ab6d55adf79af6bff1947fe01535f79fe
+  id: _express_route_circuits_inner_1ab6d55adf79af6bff1947fe01535f79fe
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listAsync(final String resourceGroupName, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listAsync(final String resourceGroupName, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 831
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listAsync(final String resourceGroupName, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ad21221a1af1a49682ff68926483ae510
+  id: _express_route_circuits_inner_1ad21221a1af1a49682ff68926483ae510
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<ExpressRouteCircuitInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1148
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< ExpressRouteCircuitInner > > listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a9f4be7c9f27fb7ad30aafc51bad38f80
+  id: _express_route_circuits_inner_1a9f4be7c9f27fb7ad30aafc51bad38f80
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1165
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The List ExpressRouteCircuit opertion retrieves all the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a2ae20b5d34a25389fd2b226a993bdc0f
+  id: _express_route_circuits_inner_1a2ae20b5d34a25389fd2b226a993bdc0f
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listRoutesTable(final String resourceGroupName, final String circuitName)
+  fullName: ServiceResponse<PagedList<ExpressRouteCircuitRoutesTableInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listRoutesTable(final String resourceGroupName, final String circuitName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 619
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListRoutesTable from ExpressRouteCircuit opertion retrieves the currently advertised routes table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< ExpressRouteCircuitRoutesTableInner > > listRoutesTable(final String resourceGroupName, final String circuitName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: 3d93591e
+      description: <p>The name of the circuit. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1ae96904242a8ee42b2fb482c2ad0b30b9
+  id: _express_route_circuits_inner_1ae96904242a8ee42b2fb482c2ad0b30b9
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listRoutesTableAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitRoutesTableInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listRoutesTableAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitRoutesTableInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 652
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListRoutesTable from ExpressRouteCircuit opertion retrieves the currently advertised routes table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listRoutesTableAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitRoutesTableInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: 3d93591e
+      description: <p>The name of the circuit. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a85aee8b3720850d96865181d53298540
+  id: _express_route_circuits_inner_1a85aee8b3720850d96865181d53298540
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listRoutesTableNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<ExpressRouteCircuitRoutesTableInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listRoutesTableNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1022
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListRoutesTable from ExpressRouteCircuit opertion retrieves the currently advertised routes table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< ExpressRouteCircuitRoutesTableInner > > listRoutesTableNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a027e4c0a4062528dc5cbd615433e1311
+  id: _express_route_circuits_inner_1a027e4c0a4062528dc5cbd615433e1311
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listRoutesTableNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitRoutesTableInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listRoutesTableNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitRoutesTableInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1039
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The ListRoutesTable from ExpressRouteCircuit opertion retrieves the currently advertised routes table associated with the ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listRoutesTableNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitRoutesTableInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a41ba5916237ce02ee7c4f22bca411143
+  id: _express_route_circuits_inner_1a41ba5916237ce02ee7c4f22bca411143
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listStats(final String resourceGroupName, final String circuitName)
+  fullName: ServiceResponse<PagedList<ExpressRouteCircuitStatsInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listStats(final String resourceGroupName, final String circuitName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 711
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Liststats ExpressRouteCircuit opertion retrieves all the stats from a ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PagedList< ExpressRouteCircuitStatsInner > > listStats(final String resourceGroupName, final String circuitName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: 3d93591e
+      description: <p>The name of the loadBalancer. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a60dbe798b2ae1b813093555b34ce1540
+  id: _express_route_circuits_inner_1a60dbe798b2ae1b813093555b34ce1540
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listStatsAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitStatsInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listStatsAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitStatsInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 744
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Liststats ExpressRouteCircuit opertion retrieves all the stats from a ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listStatsAsync(final String resourceGroupName, final String circuitName, final ListOperationCallback< ExpressRouteCircuitStatsInner > serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group. </p>
+    - id: circuitName
+      type: 3d93591e
+      description: <p>The name of the loadBalancer. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1a5bd6ea5d3da49d739305b2e43f153310
+  id: _express_route_circuits_inner_1a5bd6ea5d3da49d739305b2e43f153310
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listStatsNext(final String nextPageLink)
+  fullName: ServiceResponse<PageImpl<ExpressRouteCircuitStatsInner> > com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listStatsNext(final String nextPageLink)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1085
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Liststats ExpressRouteCircuit opertion retrieves all the stats from a ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< PageImpl< ExpressRouteCircuitStatsInner > > listStatsNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_innerd4c4bc88
+      description: <p>the List&lt;<xref href="com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner_1acb86429911ade141aa8cc9ae638cf23d
+  id: _express_route_circuits_inner_1acb86429911ade141aa8cc9ae638cf23d
+  parent: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  langs:
+  - java
+  name: listStatsNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitStatsInner > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner.listStatsNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitStatsInner > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ExpressRouteCircuitsInner.java
+    startLine: 1102
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>The Liststats ExpressRouteCircuit opertion retrieves all the stats from a ExpressRouteCircuits in a resource group.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall listStatsNextAsync(final String nextPageLink, final ServiceCall serviceCall, final ListOperationCallback< ExpressRouteCircuitStatsInner > serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceCall
+      type: 93de0ef9com.microsoft.rest._service_call
+      description: <p>the ServiceCall object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner9ec3e006
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: < Void >
+    fullName: < Void >
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+    name: ExpressRouteCircuitInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_callback
+    name: ServiceCallback
+    fullName: com.microsoft.rest.ServiceCallback
+    href: com.microsoft.rest._service_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+    name: ExpressRouteCircuitInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner
+    name: ExpressRouteCircuitArpTableInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitArpTableInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner
+    name: ExpressRouteCircuitArpTableInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitArpTableInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner
+    name: ExpressRouteCircuitRoutesTableInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitRoutesTableInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner
+    name: ExpressRouteCircuitRoutesTableInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitRoutesTableInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner
+    name: ExpressRouteCircuitStatsInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitStatsInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner
+    name: ExpressRouteCircuitStatsInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitStatsInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList
+    fullName: com.microsoft.azure.PagedList
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+    name: ExpressRouteCircuitInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_inner9ec3e006
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.azure._list_operation_callback
+    name: ListOperationCallback
+    fullName: com.microsoft.azure.ListOperationCallback
+    href: com.microsoft.azure._list_operation_callback.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+    name: ExpressRouteCircuitInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner
+    name: ExpressRouteCircuitArpTableInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitArpTableInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: 93de0ef9com.microsoft.rest._service_call
+  spec.java:
+  - name: 'final '
+    fullName: 'final '
+  - uid: com.microsoft.rest._service_call
+    name: ServiceCall
+    fullName: com.microsoft.rest.ServiceCall
+    href: com.microsoft.rest._service_call.yml
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner
+    name: ExpressRouteCircuitRoutesTableInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitRoutesTableInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner
+    name: ExpressRouteCircuitStatsInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitStatsInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._page_impl151dc42ccom.microsoft.azure.management.network.implementation.api._express_route_circuit_innerd4c4bc88
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._page_impl
+    name: PageImpl
+    fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+    href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+    name: ExpressRouteCircuitInner
+    fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitInner
+    href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner.yml
+  - name: ' > >'
+    fullName: ' > >'
+- uid: com.microsoft.azure.management.network.implementation.api._express1380657e8b6c34ba0277aab5209349e0
+- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+  name: NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public class NetworkManagementClientImpl
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuits_inner.yml
+  name: ExpressRouteCircuitsInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in ExpressRouteCircuits. </p>
+  syntax: *o1
+- uid: com.microsoft.rest._service_response
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_response.yml
+  name: ServiceResponse
+  fullName: com.microsoft.rest.ServiceResponse
+  type: Class
+  summary: >-
+    <p>An instance of this class holds a response object and a raw REST response.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceResponse
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException
+- uid: com.microsoft.rest._service_call
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_call.yml
+  name: ServiceCall
+  fullName: com.microsoft.rest.ServiceCall
+  type: Class
+  summary: <p>An instance of this class provides access to the underlying REST call invocation. This class wraps around the Retrofit Call object and allows updates to it in the progress of a long running operation or a paging operation. </p>
+  syntax:
+    content: public class ServiceCall
+- uid: com.microsoft.rest._service_callback
+  parent: com.microsoft.rest
+  href: com.microsoft.rest._service_callback.yml
+  name: ServiceCallback
+  fullName: com.microsoft.rest.ServiceCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ServiceCallback
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_inner.yml
+  name: ExpressRouteCircuitInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitInner
+  type: Class
+  summary: <p>ExpressRouteCircuit resource. </p>
+  syntax:
+    content: public class ExpressRouteCircuitInner
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList
+  fullName: com.microsoft.azure.PagedList
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_arp_table_inner.yml
+  name: ExpressRouteCircuitArpTableInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitArpTableInner
+  type: Class
+  summary: <p>The arp table associated with the ExpressRouteCircuit. </p>
+  syntax:
+    content: public class ExpressRouteCircuitArpTableInner
+- uid: com.microsoft.azure._list_operation_callback
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback.yml
+  name: ListOperationCallback
+  fullName: com.microsoft.azure.ListOperationCallback
+  type: Class
+  summary: >-
+    <p>The callback used for client side asynchronous list operations.</p>
+
+    <p></p>
+  syntax:
+    content: public class ListOperationCallback
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_routes_table_inner.yml
+  name: ExpressRouteCircuitRoutesTableInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitRoutesTableInner
+  type: Class
+  summary: <p>The routes table associated with the ExpressRouteCircuit. </p>
+  syntax:
+    content: public class ExpressRouteCircuitRoutesTableInner
+- uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_stats_inner.yml
+  name: ExpressRouteCircuitStatsInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ExpressRouteCircuitStatsInner
+  type: Class
+  summary: <p>Contains Stats associated with the peering. </p>
+  syntax:
+    content: public class ExpressRouteCircuitStatsInner
+- uid: com.microsoft.azure.management.network.implementation.api._page_impl
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
+  name: PageImpl
+  fullName: com.microsoft.azure.management.network.implementation.api.PageImpl
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl

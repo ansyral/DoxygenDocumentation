@@ -1,0 +1,447 @@
+items:
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05
+  parent: com.microsoft.azure.management.resources.implementation.api
+  children:
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1adb28805a45bf7959cd389e2b132f4dc5
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1aa7d1a04da950a53dacfa2149462ce079
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1ab12fb547dd59cbf679c5d909cbbdb0f3
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a1fd7dcbee5328e6cb31787644fa3610b
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a81c546454ba40d46e86006da45de0bc1
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a8b543eef3cd4a5652618d39ec2ae6cbf
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a52f9a9de5de18761916939fe2e4bf820
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1aa5da58a830c3665f03230f8d75ba4bd4
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1afd218656b469218e2b85a50a8979d96e
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1ac40c2ab60e54f0003ec9655f2a469940
+  - com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1af4f6f3242f1be0df1d0af98dcd5b11a1
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: DeploymentsInner.DeploymentsService
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.resources.implementation.api
+  summary: 'The interface defining all the services for Deployments to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface DeploymentsInner.DeploymentsService
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1adb28805a45bf7959cd389e2b132f4dc5
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1adb28805a45bf7959cd389e2b132f4dc5
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: delete(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.delete(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 67
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1aa7d1a04da950a53dacfa2149462ce079
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1aa7d1a04da950a53dacfa2149462ce079
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 71
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginDelete(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1ab12fb547dd59cbf679c5d909cbbdb0f3
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1ab12fb547dd59cbf679c5d909cbbdb0f3
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: checkExistence(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<Void> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.checkExistence(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 75
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< Void > checkExistence(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 4d6ffa07
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a1fd7dcbee5328e6cb31787644fa3610b
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1a1fd7dcbee5328e6cb31787644fa3610b
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 79
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > createOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.resources.implementation.api._deployment_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a81c546454ba40d46e86006da45de0bc1
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1a81c546454ba40d46e86006da45de0bc1
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 83
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > beginCreateOrUpdate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.resources.implementation.api._deployment_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a8b543eef3cd4a5652618d39ec2ae6cbf
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1a8b543eef3cd4a5652618d39ec2ae6cbf
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: get(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.get(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 87
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > get(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1a52f9a9de5de18761916939fe2e4bf820
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1a52f9a9de5de18761916939fe2e4bf820
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: cancel(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.cancel(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 91
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > cancel(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1aa5da58a830c3665f03230f8d75ba4bd4
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1aa5da58a830c3665f03230f8d75ba4bd4
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: validate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.validate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 95
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > validate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Body DeploymentInner parameters,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: parameters
+      type: 96b6cf22com.microsoft.azure.management.resources.implementation.api._deployment_inner
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1afd218656b469218e2b85a50a8979d96e
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1afd218656b469218e2b85a50a8979d96e
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: exportTemplate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.exportTemplate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 99
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > exportTemplate(@Path("resourceGroupName") String resourceGroupName,@Path("deploymentName") String deploymentName,@Path("subscriptionId") String subscriptionId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: deploymentName
+      type: c6d1d5f1
+    - id: subscriptionId
+      type: a014476f
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1ac40c2ab60e54f0003ec9655f2a469940
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1ac40c2ab60e54f0003ec9655f2a469940
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 103
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > list(@Path("resourceGroupName") String resourceGroupName,@Path("subscriptionId") String subscriptionId,@Query("$filter") String filter,@Query("$top") Integer top,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: resourceGroupName
+      type: 093abad8
+    - id: subscriptionId
+      type: a014476f
+    - id: filter
+      type: 32841eb2
+    - id: top
+      type: 757afc4a
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05_1af4f6f3242f1be0df1d0af98dcd5b11a1
+  id: _deplocee43c4e657e5d10e9689e5a3406bb05_1af4f6f3242f1be0df1d0af98dcd5b11a1
+  parent: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05
+  href: com.microsoft.azure.management.resources.implementation.api._deplocee43c4e657e5d10e9689e5a3406bb05.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.management.resources.implementation.api.DeploymentsInner.DeploymentsService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentsInner.java
+    startLine: 107
+  package: com.microsoft.azure.management.resources.implementation.api
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 093abad8
+  spec.java:
+  - name: '@Path("resourceGroupName") String'
+    fullName: '@Path("resourceGroupName") String'
+- uid: c6d1d5f1
+  spec.java:
+  - name: '@Path("deploymentName") String'
+    fullName: '@Path("deploymentName") String'
+- uid: a014476f
+  spec.java:
+  - name: '@Path("subscriptionId") String'
+    fullName: '@Path("subscriptionId") String'
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 4d6ffa07
+  spec.java:
+  - name: Call< Void >
+    fullName: Call< Void >
+- uid: 96b6cf22com.microsoft.azure.management.resources.implementation.api._deployment_inner
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.management.resources.implementation.api._deployment_inner
+    name: DeploymentInner
+    fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentInner
+    href: com.microsoft.azure.management.resources.implementation.api._deployment_inner.yml
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: 757afc4a
+  spec.java:
+  - name: '@Query("$top") Integer'
+    fullName: '@Query("$top") Integer'
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.management.resources.implementation.api._deployment_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployment_inner.yml
+  name: DeploymentInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentInner
+  type: Class
+  summary: 'Deployment operation parameters. '
+  syntax:
+    content: public class DeploymentInner
+- uid: com.microsoft.azure.management.resources._deployments
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployments.yml
+  name: Deployments
+  fullName: com.microsoft.azure.management.resources.Deployments
+  type: Interface
+  summary: 'Entry point to template deployment in Azure. '
+  syntax:
+    content: public interface Deployments

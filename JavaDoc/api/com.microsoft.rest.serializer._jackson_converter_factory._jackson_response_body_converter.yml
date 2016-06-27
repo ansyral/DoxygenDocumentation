@@ -1,0 +1,77 @@
+items:
+- uid: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter
+  id: _jackson_response_body_converter
+  parent: com.microsoft.rest.serializer
+  children:
+  - com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter_1a28332ab27e48f4c8434344b9e3a89caa
+  - com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter_1ac0557ff2e7d31674a7fb49e2c4d82689
+  href: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter.yml
+  langs:
+  - java
+  name: JacksonConverterFactory.JacksonResponseBodyConverter
+  fullName: com.microsoft.rest.serializer.JacksonConverterFactory.JacksonResponseBodyConverter
+  type: Class
+  source:
+    remote: &o0
+      path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
+    startLine: 98
+  package: com.microsoft.rest.serializer
+  summary: An instance of this class converts a JSON payload into an object.
+  syntax:
+    content: class JacksonConverterFactory.JacksonResponseBodyConverter
+- uid: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter_1a28332ab27e48f4c8434344b9e3a89caa
+  id: _jackson_response_body_converter_1a28332ab27e48f4c8434344b9e3a89caa
+  parent: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter
+  href: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter.yml
+  langs:
+  - java
+  name: JacksonResponseBodyConverter(ObjectReader adapter)
+  fullName: com.microsoft.rest.serializer.JacksonConverterFactory.JacksonResponseBodyConverter< T >.JacksonResponseBodyConverter(ObjectReader adapter)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
+    startLine: 102
+  package: com.microsoft.rest.serializer
+  syntax:
+    content: JacksonResponseBodyConverter(ObjectReader adapter)
+    parameters:
+    - id: adapter
+      type: f4093c3d
+- uid: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter_1ac0557ff2e7d31674a7fb49e2c4d82689
+  id: _jackson_response_body_converter_1ac0557ff2e7d31674a7fb49e2c4d82689
+  parent: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter
+  href: com.microsoft.rest.serializer._jackson_converter_factory._jackson_response_body_converter.yml
+  langs:
+  - java
+  name: convert(ResponseBody value)
+  fullName: T com.microsoft.rest.serializer.JacksonConverterFactory.JacksonResponseBodyConverter< T >.convert(ResponseBody value)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
+    startLine: 106
+  package: com.microsoft.rest.serializer
+  syntax:
+    content: public T convert(ResponseBody value)
+    parameters:
+    - id: value
+      type: ea67c542
+    return:
+      type: 8ce1ecb9
+references:
+- uid: f4093c3d
+  spec.java:
+  - name: ObjectReader
+    fullName: ObjectReader
+- uid: ea67c542
+  spec.java:
+  - name: ResponseBody
+    fullName: ResponseBody
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T

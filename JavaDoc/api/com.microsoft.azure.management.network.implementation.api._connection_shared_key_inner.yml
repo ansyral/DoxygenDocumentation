@@ -1,0 +1,87 @@
+items:
+- uid: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner
+  id: _connection_shared_key_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  children:
+  - com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner_1ac96e58ebda01ded0595f649532b6df15
+  - com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner_1a3f882ac4638042bff16bbe42cad7bd0f
+  href: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner.yml
+  langs:
+  - java
+  name: ConnectionSharedKeyInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ConnectionSharedKeyInner
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ConnectionSharedKeyInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ConnectionSharedKeyInner.java
+    startLine: 12
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: <p>Response for GetConnectionSharedKey Api servive call. </p>
+  syntax: &o1
+    content: public class ConnectionSharedKeyInner
+- uid: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner_1ac96e58ebda01ded0595f649532b6df15
+  id: _connection_shared_key_inner_1ac96e58ebda01ded0595f649532b6df15
+  parent: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner
+  href: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner.yml
+  langs:
+  - java
+  name: value()
+  fullName: String com.microsoft.azure.management.network.implementation.api.ConnectionSharedKeyInner.value()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ConnectionSharedKeyInner.java
+    startLine: 23
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Get the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public String value()
+    return:
+      type: "26831127"
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner_1a3f882ac4638042bff16bbe42cad7bd0f
+  id: _connection_shared_key_inner_1a3f882ac4638042bff16bbe42cad7bd0f
+  parent: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner
+  href: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner.yml
+  langs:
+  - java
+  name: withValue(String value)
+  fullName: ConnectionSharedKeyInner com.microsoft.azure.management.network.implementation.api.ConnectionSharedKeyInner.withValue(String value)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/ConnectionSharedKeyInner.java
+    startLine: 33
+  package: com.microsoft.azure.management.network.implementation.api
+  summary: >-
+    <p>Set the value value.</p>
+
+    <p></p>
+  syntax:
+    content: public ConnectionSharedKeyInner withValue(String value)
+    parameters:
+    - id: value
+      type: "26831127"
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner
+      description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner
+  parent: com.microsoft.azure.management.network.implementation.api
+  href: com.microsoft.azure.management.network.implementation.api._connection_shared_key_inner.yml
+  name: ConnectionSharedKeyInner
+  fullName: com.microsoft.azure.management.network.implementation.api.ConnectionSharedKeyInner
+  type: Class
+  summary: <p>Response for GetConnectionSharedKey Api servive call. </p>
+  syntax: *o1

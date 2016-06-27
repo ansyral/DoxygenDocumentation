@@ -1,0 +1,122 @@
+items:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  id: _manager
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  children:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  langs:
+  - java
+  name: Manager
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
+    startLine: 15
+  package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  syntax:
+    content: public class Manager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
+  id: _manager_1ab93fd97ae43a64f3e11cfde051b8df45
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  langs:
+  - java
+  name: Manager(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.Manager(RestClient restClient, String subscriptionId)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
+    startLine: 19
+  package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  syntax:
+    content: protected Manager(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+    - id: subscriptionId
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  id: _manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  langs:
+  - java
+  name: resourceManager()
+  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.resourceManager()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
+    startLine: 23
+  package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  syntax:
+    content: protected ResourceManager resourceManager()
+    return:
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute.implementation._compute_manager
+  parent: com.microsoft.azure.management.compute.implementation
+  href: com.microsoft.azure.management.compute.implementation._compute_manager.yml
+  name: ComputeManager
+  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> compute resource management. </p>
+  syntax:
+    content: public class ComputeManager
+- uid: com.microsoft.azure.management.network.implementation._network_manager
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._network_manager.yml
+  name: NetworkManager
+  fullName: com.microsoft.azure.management.network.implementation.NetworkManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network management. </p>
+  syntax:
+    content: public class NetworkManager
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
+  name: StorageManager
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
+  syntax:
+    content: public class StorageManager
+- uid: com.microsoft.azure.management.resources.implementation._resource_manager
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  name: ResourceManager
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource management. </p>
+  syntax:
+    content: public class ResourceManager
+- uid: com.microsoft.azure._rest_client
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._rest_client.yml
+  name: RestClient
+  fullName: com.microsoft.azure.RestClient
+  type: Class
+  summary: <p>An instance of this class stores the client information for making REST calls. </p>
+  syntax:
+    content: public class RestClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

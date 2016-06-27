@@ -1,0 +1,199 @@
+items:
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  id: _domain_purchase_consent
+  parent: com.microsoft.azure.management.website.implementation.api
+  children:
+  - com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1a06c8ab36780efab6ee01530397377f12
+  - com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1af2179d19130453ff3700a7b23f5dfe79
+  - com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1a477d2731dc2741c97644463a90abe534
+  - com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1ae7ffe1b59882667890c7642dcad5100f
+  - com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1a6bfddae2bb4746237db9738248815292
+  - com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1ae4b3dace2ee72360a5a35cb400763aca
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: DomainPurchaseConsent
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 15
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: <p>Domain purchase consent object representing acceptance of applicable legal agreements. </p>
+  syntax: &o1
+    content: public class DomainPurchaseConsent
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1a06c8ab36780efab6ee01530397377f12
+  id: _domain_purchase_consent_1a06c8ab36780efab6ee01530397377f12
+  parent: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: agreedAt()
+  fullName: DateTime com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent.agreedAt()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 77
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the agreedAt value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime agreedAt()
+    return:
+      type: 230df18c
+      description: <p>the agreedAt value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1af2179d19130453ff3700a7b23f5dfe79
+  id: _domain_purchase_consent_1af2179d19130453ff3700a7b23f5dfe79
+  parent: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: agreedBy()
+  fullName: String com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent.agreedBy()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 57
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the agreedBy value.</p>
+
+    <p></p>
+  syntax:
+    content: public String agreedBy()
+    return:
+      type: "26831127"
+      description: <p>the agreedBy value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1a477d2731dc2741c97644463a90abe534
+  id: _domain_purchase_consent_1a477d2731dc2741c97644463a90abe534
+  parent: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: agreementKeys()
+  fullName: List<String> com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent.agreementKeys()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 37
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Get the agreementKeys value.</p>
+
+    <p></p>
+  syntax:
+    content: public List< String > agreementKeys()
+    return:
+      type: f35af49b
+      description: <p>the agreementKeys value </p>
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1ae7ffe1b59882667890c7642dcad5100f
+  id: _domain_purchase_consent_1ae7ffe1b59882667890c7642dcad5100f
+  parent: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: withAgreedAt(DateTime agreedAt)
+  fullName: DomainPurchaseConsent com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent.withAgreedAt(DateTime agreedAt)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 87
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the agreedAt value.</p>
+
+    <p></p>
+  syntax:
+    content: public DomainPurchaseConsent withAgreedAt(DateTime agreedAt)
+    parameters:
+    - id: agreedAt
+      type: 230df18c
+      description: <p>the agreedAt value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_purchase_consent" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1a6bfddae2bb4746237db9738248815292
+  id: _domain_purchase_consent_1a6bfddae2bb4746237db9738248815292
+  parent: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: withAgreedBy(String agreedBy)
+  fullName: DomainPurchaseConsent com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent.withAgreedBy(String agreedBy)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 67
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the agreedBy value.</p>
+
+    <p></p>
+  syntax:
+    content: public DomainPurchaseConsent withAgreedBy(String agreedBy)
+    parameters:
+    - id: agreedBy
+      type: "26831127"
+      description: <p>the agreedBy value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_purchase_consent" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent_1ae4b3dace2ee72360a5a35cb400763aca
+  id: _domain_purchase_consent_1ae4b3dace2ee72360a5a35cb400763aca
+  parent: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  langs:
+  - java
+  name: withAgreementKeys(List< String > agreementKeys)
+  fullName: DomainPurchaseConsent com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent.withAgreementKeys(List< String > agreementKeys)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainPurchaseConsent.java
+    startLine: 47
+  package: com.microsoft.azure.management.website.implementation.api
+  summary: >-
+    <p>Set the agreementKeys value.</p>
+
+    <p></p>
+  syntax:
+    content: public DomainPurchaseConsent withAgreementKeys(List< String > agreementKeys)
+    parameters:
+    - id: agreementKeys
+      type: f35af49b
+      description: <p>the agreementKeys value to set </p>
+    return:
+      type: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+      description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._domain_purchase_consent" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: f35af49b
+  spec.java:
+  - name: List< String >
+    fullName: List< String >
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
+  parent: com.microsoft.azure.management.website.implementation.api
+  href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
+  name: DomainPurchaseConsent
+  fullName: com.microsoft.azure.management.website.implementation.api.DomainPurchaseConsent
+  type: Class
+  summary: <p>Domain purchase consent object representing acceptance of applicable legal agreements. </p>
+  syntax: *o1

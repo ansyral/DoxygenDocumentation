@@ -1,0 +1,87 @@
+items:
+- uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
+  id: _multiple_segme1d24fab060563b51290725d8c0f15581
+  parent: com.microsoft.azure.management.datalake.store.uploader
+  children:
+  - com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581_1a431c7130a973ff942f5590a71dce3a3b
+  - com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581_1ac5f8d021fe97142b00f1b5b390aaae7c
+  - com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581_1a6298a123419b42b7eb5ce89317833879
+  href: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581.yml
+  langs:
+  - java
+  name: MultipleSegmentUploader.SegmentQueueItem
+  fullName: com.microsoft.azure.management.datalake.store.uploader.MultipleSegmentUploader.SegmentQueueItem
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/MultipleSegmentUploader.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/MultipleSegmentUploader.java
+    startLine: 212
+  package: com.microsoft.azure.management.datalake.store.uploader
+  summary: <p>Represents a tuple that pairs a segment number with the number of times it was attempted for upload. </p>
+  syntax:
+    content: private class SegmentQueueItem
+- uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581_1a431c7130a973ff942f5590a71dce3a3b
+  id: _multiple_segme1d24fab060563b51290725d8c0f15581_1a431c7130a973ff942f5590a71dce3a3b
+  parent: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
+  href: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581.yml
+  langs:
+  - java
+  name: getAttemptCount()
+  fullName: int com.microsoft.azure.management.datalake.store.uploader.MultipleSegmentUploader.SegmentQueueItem.getAttemptCount()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/MultipleSegmentUploader.java
+    startLine: 222
+  package: com.microsoft.azure.management.datalake.store.uploader
+  syntax:
+    content: public int getAttemptCount()
+    return:
+      type: f75371fa
+- uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581_1ac5f8d021fe97142b00f1b5b390aaae7c
+  id: _multiple_segme1d24fab060563b51290725d8c0f15581_1ac5f8d021fe97142b00f1b5b390aaae7c
+  parent: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
+  href: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581.yml
+  langs:
+  - java
+  name: getSegmentNumber()
+  fullName: int com.microsoft.azure.management.datalake.store.uploader.MultipleSegmentUploader.SegmentQueueItem.getSegmentNumber()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/MultipleSegmentUploader.java
+    startLine: 217
+  package: com.microsoft.azure.management.datalake.store.uploader
+  syntax:
+    content: public int getSegmentNumber()
+    return:
+      type: f75371fa
+- uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581_1a6298a123419b42b7eb5ce89317833879
+  id: _multiple_segme1d24fab060563b51290725d8c0f15581_1a6298a123419b42b7eb5ce89317833879
+  parent: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
+  href: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581.yml
+  langs:
+  - java
+  name: SegmentQueueItem(int segmentNumber, int attemptCount)
+  fullName: com.microsoft.azure.management.datalake.store.uploader.MultipleSegmentUploader.SegmentQueueItem.SegmentQueueItem(int segmentNumber, int attemptCount)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/MultipleSegmentUploader.java
+    startLine: 213
+  package: com.microsoft.azure.management.datalake.store.uploader
+  syntax:
+    content: SegmentQueueItem(int segmentNumber, int attemptCount)
+    parameters:
+    - id: segmentNumber
+      type: f75371fa
+    - id: attemptCount
+      type: f75371fa
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int

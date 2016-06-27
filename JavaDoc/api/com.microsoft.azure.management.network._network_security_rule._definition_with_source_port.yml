@@ -1,0 +1,139 @@
+items:
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  id: _definition_with_source_port
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a644966b33bcc629f67fcffc570422b8c
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a6182738e7a5139a13f16f37625312382
+  - com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1aeba7e9a37c5401415aff7ce1365f5a18
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  langs:
+  - java
+  name: NetworkSecurityRule.DefinitionWithSourcePort
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 238
+  package: com.microsoft.azure.management.network
+  summary: <p>The stage of the network rule definition allowing the source port(s) to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithSourcePort
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a644966b33bcc629f67fcffc570422b8c
+  id: _definition_with_source_port_1a644966b33bcc629f67fcffc570422b8c
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  langs:
+  - java
+  name: fromAnyPort()
+  fullName: DefinitionWithDestinationAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort< ParentT >.fromAnyPort()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 250
+  package: com.microsoft.azure.management.network
+  summary: <p>Makes this rule apply to any source port. </p>
+  syntax:
+    content: public DefinitionWithDestinationAddress< ParentT > fromAnyPort()
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1a6182738e7a5139a13f16f37625312382
+  id: _definition_with_source_port_1a6182738e7a5139a13f16f37625312382
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  langs:
+  - java
+  name: fromPort(int port)
+  fullName: DefinitionWithDestinationAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort< ParentT >.fromPort(int port)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 244
+  package: com.microsoft.azure.management.network
+  summary: <p>Specifies the source port to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithDestinationAddress< ParentT > fromPort(int port)
+    parameters:
+    - id: port
+      type: f75371fa
+      description: <p>the source port number </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port_1aeba7e9a37c5401415aff7ce1365f5a18
+  id: _definition_with_source_port_1aeba7e9a37c5401415aff7ce1365f5a18
+  parent: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
+  langs:
+  - java
+  name: fromPortRange(int from, int to)
+  fullName: DefinitionWithDestinationAddress<ParentT> com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort< ParentT >.fromPortRange(int from, int to)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 258
+  package: com.microsoft.azure.management.network
+  summary: <p>Specifies the source port range to which this rule applies. </p>
+  syntax:
+    content: public DefinitionWithDestinationAddress< ParentT > fromPortRange(int from, int to)
+    parameters:
+    - id: from
+      type: f75371fa
+      description: <p>the starting port number </p>
+    - id: to
+      type: f75371fa
+      description: <p>the ending port number </p>
+    return:
+      type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+      description: <p>the next stage of the security rule definition </p>
+references:
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_addressa6da57ba
+  spec.java:
+  - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+    name: NetworkSecurityRule.DefinitionWithDestinationAddress
+    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress
+    href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  - name: < ParentT >
+    fullName: < ParentT >
+- uid: com.microsoft.azure.management.network._network_security_rule._definitions
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
+  name: NetworkSecurityRule.Definitions
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  type: Interface
+  summary: <p>The entirety of a network security rule definition. </p>
+  syntax:
+    content: public interface Definitions
+- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
+  name: NetworkSecurityRule.DefinitionWithDestinationAddress
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithDestinationAddress
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>

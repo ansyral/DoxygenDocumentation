@@ -1,0 +1,86 @@
+items:
+- uid: com.microsoft.azure.management.network._network_security_group._definition_with_rule
+  id: _definition_with_rule
+  parent: com.microsoft.azure.management.network
+  children:
+  - com.microsoft.azure.management.network._network_security_group._definition_with_rule_1ac5355a2a2ee7e0efd63937d229de18fe
+  href: com.microsoft.azure.management.network._network_security_group._definition_with_rule.yml
+  langs:
+  - java
+  name: NetworkSecurityGroup.DefinitionWithRule
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionWithRule
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityGroup.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityGroup.java
+    startLine: 79
+  package: com.microsoft.azure.management.network
+  summary: >-
+    <p>The stage of the definition allowing to define a new security rule. </p>
+
+    <p>When the security rule definition is complete enough, use <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref> to attach it to this network security group. </p>
+  syntax:
+    content: public interface DefinitionWithRule
+- uid: com.microsoft.azure.management.network._network_security_group._definition_with_rule_1ac5355a2a2ee7e0efd63937d229de18fe
+  id: _definition_with_rule_1ac5355a2a2ee7e0efd63937d229de18fe
+  parent: com.microsoft.azure.management.network._network_security_group._definition_with_rule
+  href: com.microsoft.azure.management.network._network_security_group._definition_with_rule.yml
+  langs:
+  - java
+  name: defineRule(String name)
+  fullName: NetworkSecurityRule.DefinitionBlank<DefinitionCreatable> com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionWithRule.defineRule(String name)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityGroup.java
+    startLine: 85
+  package: com.microsoft.azure.management.network
+  summary: <p>Starts the definition of a new security rule. </p>
+  syntax:
+    content: public NetworkSecurityRule.DefinitionBlank< DefinitionCreatable > defineRule(String name)
+    parameters:
+    - id: name
+      type: "26831127"
+      description: <p>the name for the new security rule </p>
+    return:
+      type: cde34af4com.microsoft.azure.management.network._network_security_group._definition_creatable9ec3e006
+      description: <p>the first stage of the security rule definition </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: cde34af4com.microsoft.azure.management.network._network_security_group._definition_creatable9ec3e006
+  spec.java:
+  - name: 'NetworkSecurityRule.DefinitionBlank< '
+    fullName: 'NetworkSecurityRule.DefinitionBlank< '
+  - uid: com.microsoft.azure.management.network._network_security_group._definition_creatable
+    name: NetworkSecurityGroup.DefinitionCreatable
+    fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionCreatable
+    href: com.microsoft.azure.management.network._network_security_group._definition_creatable.yml
+  - name: ' >'
+    fullName: ' >'
+- uid: com.microsoft.azure.management.network._network_security_group._definition_creatable
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_creatable.yml
+  name: NetworkSecurityGroup.DefinitionCreatable
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionCreatable
+  type: Interface
+  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
+  parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  name: attach()
+  fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable< ParentT >.attach()
+  type: Method
+  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  syntax:
+    content: public ParentT attach()
+    return:
+      type: 18a275b1
+      description: <p>the next stage of the parent object's definition </p>

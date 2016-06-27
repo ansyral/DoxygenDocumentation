@@ -1,0 +1,541 @@
+items:
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  id: _tasks_service
+  parent: com.microsoft.azure.batch.protocol.implementation
+  children:
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1af84fbe41fe3eddff8a52b84c82e6f974
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a8a2523151d10f5c2a9404346b00ff227
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a0c1315dbc998b87a17bded7eeb672fc2
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1ac72f7005e991897647e907742d551afb
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a222f8ea713d7681fbebe76c7932d8c60
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a44d4687b8c37fea830eeefe7742e415d
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a96b6822605df36f880b203eef3b76721
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a61e50efd6cb2367884f317424f988056
+  - com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a5991b3035fbb71f2a918babe5e233012
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: TasksImpl.TasksService
+  fullName: com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 89
+  package: com.microsoft.azure.batch.protocol.implementation
+  summary: 'The interface defining all the services for Tasks to be used by Retrofit to perform actually REST calls. '
+  syntax:
+    content: interface TasksImpl.TasksService
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1af84fbe41fe3eddff8a52b84c82e6f974
+  id: _tasks_service_1af84fbe41fe3eddff8a52b84c82e6f974
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: add(@Path("jobId") String jobId,@Body TaskAddParameter task,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.add(@Path("jobId") String jobId,@Body TaskAddParameter task,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 92
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > add(@Path("jobId") String jobId,@Body TaskAddParameter task,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: task
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._task_add_parameter
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a8a2523151d10f5c2a9404346b00ff227
+  id: _tasks_service_1a8a2523151d10f5c2a9404346b00ff227
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: list(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.list(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 96
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > list(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$filter") String filter,@Query("$select") String select,@Query("$expand") String expand,@Query("maxresults") Integer maxResults,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: filter
+      type: 32841eb2
+    - id: select
+      type: 7da619bd
+    - id: expand
+      type: 99e81acb
+    - id: maxResults
+      type: b86c3b3e
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a0c1315dbc998b87a17bded7eeb672fc2
+  id: _tasks_service_1a0c1315dbc998b87a17bded7eeb672fc2
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: addCollection(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Body TaskAddCollectionParameter taskCollection,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.addCollection(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Body TaskAddCollectionParameter taskCollection,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 100
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > addCollection(@Path("jobId") String jobId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Body TaskAddCollectionParameter taskCollection,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: taskCollection
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._task_add_collection_parameter
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1ac72f7005e991897647e907742d551afb
+  id: _tasks_service_1ac72f7005e991897647e907742d551afb
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: delete(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.delete(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 104
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > delete(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: taskId
+      type: 33b37399
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a222f8ea713d7681fbebe76c7932d8c60
+  id: _tasks_service_1a222f8ea713d7681fbebe76c7932d8c60
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: get(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("$expand") String expand,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.get(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("$expand") String expand,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 108
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > get(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("$expand") String expand,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: taskId
+      type: 33b37399
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: select
+      type: 7da619bd
+    - id: expand
+      type: 99e81acb
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a44d4687b8c37fea830eeefe7742e415d
+  id: _tasks_service_1a44d4687b8c37fea830eeefe7742e415d
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: update(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body TaskUpdateParameter taskUpdateParameter,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.update(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body TaskUpdateParameter taskUpdateParameter,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 112
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > update(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Body TaskUpdateParameter taskUpdateParameter,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: taskId
+      type: 33b37399
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: taskUpdateParameter
+      type: 96b6cf22com.microsoft.azure.batch.protocol.models._task_update_parameter
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a96b6822605df36f880b203eef3b76721
+  id: _tasks_service_1a96b6822605df36f880b203eef3b76721
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: listSubtasks(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.listSubtasks(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 116
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listSubtasks(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("$select") String select,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: taskId
+      type: 33b37399
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: select
+      type: 7da619bd
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a61e50efd6cb2367884f317424f988056
+  id: _tasks_service_1a61e50efd6cb2367884f317424f988056
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: terminate(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.terminate(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 120
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > terminate(@Path("jobId") String jobId,@Path("taskId") String taskId,@Query("api-version") String apiVersion,@Header("accept-language") String acceptLanguage,@Query("timeout") Integer timeout,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("If-Match") String ifMatch,@Header("If-None-Match") String ifNoneMatch,@Header("If-Modified-Since") DateTimeRfc1123 ifModifiedSince,@Header("If-Unmodified-Since") DateTimeRfc1123 ifUnmodifiedSince,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: jobId
+      type: 6489af51
+    - id: taskId
+      type: 33b37399
+    - id: apiVersion
+      type: bc99c6f7
+    - id: acceptLanguage
+      type: 70efd141
+    - id: timeout
+      type: e90f45ef
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: ifMatch
+      type: e36a69fe
+    - id: ifNoneMatch
+      type: e6117989
+    - id: ifModifiedSince
+      type: 1e2c8ccc
+    - id: ifUnmodifiedSince
+      type: b64486d5
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service_1a5991b3035fbb71f2a918babe5e233012
+  id: _tasks_service_1a5991b3035fbb71f2a918babe5e233012
+  parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
+  href: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service.yml
+  langs:
+  - java
+  name: listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  fullName: Call<ResponseBody> com.microsoft.azure.batch.protocol.implementation.TasksImpl.TasksService.listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/TasksImpl.java
+    startLine: 124
+  package: com.microsoft.azure.batch.protocol.implementation
+  syntax:
+    content: public Call< ResponseBody > listNext(@Url String nextPageLink,@Header("accept-language") String acceptLanguage,@Header("client-request-id") String clientRequestId,@Header("return-client-request-id") Boolean returnClientRequestId,@Header("ocp-date") DateTimeRfc1123 ocpDate,@Header("User-Agent") String userAgent)
+    parameters:
+    - id: nextPageLink
+      type: 3cd827cc
+    - id: acceptLanguage
+      type: 70efd141
+    - id: clientRequestId
+      type: 74e7aeab
+    - id: returnClientRequestId
+      type: 08b12507
+    - id: ocpDate
+      type: 5bec6339
+    - id: userAgent
+      type: 63ee51da
+    return:
+      type: 827d4009
+references:
+- uid: 6489af51
+  spec.java:
+  - name: '@Path("jobId") String'
+    fullName: '@Path("jobId") String'
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._task_add_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._task_add_parameter
+    name: TaskAddParameter
+    fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
+    href: com.microsoft.azure.batch.protocol.models._task_add_parameter.yml
+- uid: bc99c6f7
+  spec.java:
+  - name: '@Query("api-version") String'
+    fullName: '@Query("api-version") String'
+- uid: 70efd141
+  spec.java:
+  - name: '@Header("accept-language") String'
+    fullName: '@Header("accept-language") String'
+- uid: e90f45ef
+  spec.java:
+  - name: '@Query("timeout") Integer'
+    fullName: '@Query("timeout") Integer'
+- uid: 74e7aeab
+  spec.java:
+  - name: '@Header("client-request-id") String'
+    fullName: '@Header("client-request-id") String'
+- uid: 08b12507
+  spec.java:
+  - name: '@Header("return-client-request-id") Boolean'
+    fullName: '@Header("return-client-request-id") Boolean'
+- uid: 5bec6339
+  spec.java:
+  - name: '@Header("ocp-date") DateTimeRfc1123'
+    fullName: '@Header("ocp-date") DateTimeRfc1123'
+- uid: 63ee51da
+  spec.java:
+  - name: '@Header("User-Agent") String'
+    fullName: '@Header("User-Agent") String'
+- uid: 827d4009
+  spec.java:
+  - name: Call< ResponseBody >
+    fullName: Call< ResponseBody >
+- uid: 32841eb2
+  spec.java:
+  - name: '@Query("$filter") String'
+    fullName: '@Query("$filter") String'
+- uid: 7da619bd
+  spec.java:
+  - name: '@Query("$select") String'
+    fullName: '@Query("$select") String'
+- uid: 99e81acb
+  spec.java:
+  - name: '@Query("$expand") String'
+    fullName: '@Query("$expand") String'
+- uid: b86c3b3e
+  spec.java:
+  - name: '@Query("maxresults") Integer'
+    fullName: '@Query("maxresults") Integer'
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._task_add_collection_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._task_add_collection_parameter
+    name: TaskAddCollectionParameter
+    fullName: com.microsoft.azure.batch.protocol.models.TaskAddCollectionParameter
+    href: com.microsoft.azure.batch.protocol.models._task_add_collection_parameter.yml
+- uid: 33b37399
+  spec.java:
+  - name: '@Path("taskId") String'
+    fullName: '@Path("taskId") String'
+- uid: e36a69fe
+  spec.java:
+  - name: '@Header("If-Match") String'
+    fullName: '@Header("If-Match") String'
+- uid: e6117989
+  spec.java:
+  - name: '@Header("If-None-Match") String'
+    fullName: '@Header("If-None-Match") String'
+- uid: 1e2c8ccc
+  spec.java:
+  - name: '@Header("If-Modified-Since") DateTimeRfc1123'
+    fullName: '@Header("If-Modified-Since") DateTimeRfc1123'
+- uid: b64486d5
+  spec.java:
+  - name: '@Header("If-Unmodified-Since") DateTimeRfc1123'
+    fullName: '@Header("If-Unmodified-Since") DateTimeRfc1123'
+- uid: 96b6cf22com.microsoft.azure.batch.protocol.models._task_update_parameter
+  spec.java:
+  - name: '@Body '
+    fullName: '@Body '
+  - uid: com.microsoft.azure.batch.protocol.models._task_update_parameter
+    name: TaskUpdateParameter
+    fullName: com.microsoft.azure.batch.protocol.models.TaskUpdateParameter
+    href: com.microsoft.azure.batch.protocol.models._task_update_parameter.yml
+- uid: 3cd827cc
+  spec.java:
+  - name: '@Url String'
+    fullName: '@Url String'
+- uid: com.microsoft.azure.batch.protocol.models._task_add_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._task_add_parameter.yml
+  name: TaskAddParameter
+  fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
+  type: Class
+  summary: 'An Azure Batch task to add. '
+  syntax:
+    content: public class TaskAddParameter
+- uid: com.microsoft.azure.batch.protocol.models._task_add_collection_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._task_add_collection_parameter.yml
+  name: TaskAddCollectionParameter
+  fullName: com.microsoft.azure.batch.protocol.models.TaskAddCollectionParameter
+  type: Class
+  summary: 'A collection of Azure Batch tasks to add. '
+  syntax:
+    content: public class TaskAddCollectionParameter
+- uid: com.microsoft.azure.batch.protocol.models._task_update_parameter
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._task_update_parameter.yml
+  name: TaskUpdateParameter
+  fullName: com.microsoft.azure.batch.protocol.models.TaskUpdateParameter
+  type: Class
+  summary: 'Parameters for a CloudTaskOperations.Update request. '
+  syntax:
+    content: public class TaskUpdateParameter
+- uid: com.microsoft.azure.batch.protocol._tasks
+  parent: com.microsoft.azure.batch.protocol
+  href: com.microsoft.azure.batch.protocol._tasks.yml
+  name: Tasks
+  fullName: com.microsoft.azure.batch.protocol.Tasks
+  type: Interface
+  summary: 'An instance of this class provides access to all the operations defined in Tasks. '
+  syntax:
+    content: public interface Tasks

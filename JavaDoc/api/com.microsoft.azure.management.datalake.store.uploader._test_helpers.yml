@@ -1,0 +1,96 @@
+items:
+- uid: com.microsoft.azure.management.datalake.store.uploader._test_helpers
+  id: _test_helpers
+  parent: com.microsoft.azure.management.datalake.store.uploader
+  children:
+  - com.microsoft.azure.management.datalake.store.uploader._test_helpers_1a48c900cafe5861f00e2090f2e11f4c6d
+  - com.microsoft.azure.management.datalake.store.uploader._test_helpers_1a80825cfc1f57f279a024914901f2776b
+  href: com.microsoft.azure.management.datalake.store.uploader._test_helpers.yml
+  langs:
+  - java
+  name: TestHelpers
+  fullName: com.microsoft.azure.management.datalake.store.uploader.TestHelpers
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/TestHelpers.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/TestHelpers.java
+    startLine: 12
+  package: com.microsoft.azure.management.datalake.store.uploader
+  syntax:
+    content: public class TestHelpers
+- uid: com.microsoft.azure.management.datalake.store.uploader._test_helpers_1a48c900cafe5861f00e2090f2e11f4c6d
+  id: _test_helpers_1a48c900cafe5861f00e2090f2e11f4c6d
+  parent: com.microsoft.azure.management.datalake.store.uploader._test_helpers
+  href: com.microsoft.azure.management.datalake.store.uploader._test_helpers.yml
+  langs:
+  - java
+  name: GenerateFileData(byte[] contents)
+  fullName: static String com.microsoft.azure.management.datalake.store.uploader.TestHelpers.GenerateFileData(byte[] contents)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/TestHelpers.java
+    startLine: 20
+  package: com.microsoft.azure.management.datalake.store.uploader
+  summary: >-
+    <p>Generates some random data and writes it out to a temp file and to an in-memory array</p>
+
+    <p></p>
+  syntax:
+    content: static String GenerateFileData(byte[] contents)
+    parameters:
+    - id: contents
+      type: bc819c2f
+      description: <p>The array to write random data to (the length of this array will be the size of the file). </p>
+    return:
+      type: "26831127"
+      description: <p>The path of the file that will be created. </p>
+- uid: com.microsoft.azure.management.datalake.store.uploader._test_helpers_1a80825cfc1f57f279a024914901f2776b
+  id: _test_helpers_1a80825cfc1f57f279a024914901f2776b
+  parent: com.microsoft.azure.management.datalake.store.uploader._test_helpers
+  href: com.microsoft.azure.management.datalake.store.uploader._test_helpers.yml
+  langs:
+  - java
+  name: GenerateTextFileData(byte[] contents, int minRecordLength, int maxRecordLength)
+  fullName: static String com.microsoft.azure.management.datalake.store.uploader.TestHelpers.GenerateTextFileData(byte[] contents, int minRecordLength, int maxRecordLength)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/TestHelpers.java
+    startLine: 46
+  package: com.microsoft.azure.management.datalake.store.uploader
+  summary: >-
+    <p>Generates some random data and writes it out to a temp file and to an in-memory array</p>
+
+    <p></p>
+  syntax:
+    content: static String GenerateTextFileData(byte[] contents, int minRecordLength, int maxRecordLength)
+    parameters:
+    - id: contents
+      type: bc819c2f
+      description: <p>The array to write random data to (the length of this array will be the size of the file). </p>
+    - id: minRecordLength
+      type: f75371fa
+      description: <p>The minimum amount of data to write (inclusive) </p>
+    - id: maxRecordLength
+      type: f75371fa
+      description: <p>The maximum amount of data to write (exclusive) </p>
+    return:
+      type: "26831127"
+      description: <p>The path of the file that will be created. </p>
+references:
+- uid: bc819c2f
+  spec.java:
+  - name: byte[]
+    fullName: byte[]
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int

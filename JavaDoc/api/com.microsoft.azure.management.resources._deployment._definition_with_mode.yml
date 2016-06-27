@@ -1,0 +1,70 @@
+items:
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_mode
+  id: _definition_with_mode
+  parent: com.microsoft.azure.management.resources
+  children:
+  - com.microsoft.azure.management.resources._deployment._definition_with_mode_1a7c728d8bdf83017b1626a731ea90697d
+  href: com.microsoft.azure.management.resources._deployment._definition_with_mode.yml
+  langs:
+  - java
+  name: Deployment.DefinitionWithMode
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionWithMode
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 206
+  package: com.microsoft.azure.management.resources
+  summary: <p>A deployment definition allowing deployment mode to be specified. </p>
+  syntax:
+    content: public interface DefinitionWithMode
+- uid: com.microsoft.azure.management.resources._deployment._definition_with_mode_1a7c728d8bdf83017b1626a731ea90697d
+  id: _definition_with_mode_1a7c728d8bdf83017b1626a731ea90697d
+  parent: com.microsoft.azure.management.resources._deployment._definition_with_mode
+  href: com.microsoft.azure.management.resources._deployment._definition_with_mode.yml
+  langs:
+  - java
+  name: withMode(DeploymentMode mode)
+  fullName: DefinitionCreatable com.microsoft.azure.management.resources.Deployment.DefinitionWithMode.withMode(DeploymentMode mode)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
+    startLine: 213
+  package: com.microsoft.azure.management.resources
+  summary: >-
+    <p>Specifies the deployment mode.</p>
+
+    <p></p>
+  syntax:
+    content: public DefinitionCreatable withMode(DeploymentMode mode)
+    parameters:
+    - id: mode
+      type: com.microsoft.azure.management.resources.implementation.api._deployment_mode
+      description: <p>the mode of the deployment </p>
+    return:
+      type: com.microsoft.azure.management.resources._deployment._definition_creatable
+      description: <p>the next stage of the deployment definition </p>
+references:
+- uid: com.microsoft.azure.management.resources.implementation._deployment_impl
+- uid: com.microsoft.azure.management.resources._deployment._definition_creatable
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._definition_creatable.yml
+  name: Deployment.DefinitionCreatable
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionCreatable
+  type: Interface
+  summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
+  syntax:
+    content: public interface DefinitionCreatable
+- uid: com.microsoft.azure.management.resources.implementation.api._deployment_mode
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._deployment_mode.yml
+  name: DeploymentMode
+  fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentMode
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.resources.implementation.api._deployment_mode" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum DeploymentMode

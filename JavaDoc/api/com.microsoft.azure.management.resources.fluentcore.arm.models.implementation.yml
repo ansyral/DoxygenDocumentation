@@ -1,0 +1,73 @@
+items:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  type: Namespace
+  source:
+    remote:
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ChildResourceImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ChildResourceImpl.java
+    startLine: 5
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for ARM fluent core models implementation. </p>
+  syntax:
+    content: namespace implementation
+references:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502.yml
+  name: ChildResourceImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ChildResourceImpl
+  type: Class
+  summary: <p>Child resource abstract implementation. (Internal use only) </p>
+  syntax:
+    content: public class ChildResourceImpl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
+  name: GroupableResourceImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl
+  type: Class
+  summary: >-
+    <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource" data-throw-if-not-resolved="false"></xref>. (Internal use only)</p>
+
+    <p></p>
+  syntax:
+    content: public class GroupableResourceImpl
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list.yml
+  name: GroupPagedList
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupPagedList
+  type: Class
+  summary: >-
+    <p>Defines a list of resources paginated across resource groups.</p>
+
+    <p></p>
+  syntax:
+    content: public class GroupPagedList
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
+  name: ResourceImpl
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl
+  type: Class
+  summary: >-
+    <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.arm.models._resource" data-throw-if-not-resolved="false"></xref> and base class for all resource model implementations. (Internal use only)</p>
+
+    <p></p>
+  syntax:
+    content: public class ResourceImpl

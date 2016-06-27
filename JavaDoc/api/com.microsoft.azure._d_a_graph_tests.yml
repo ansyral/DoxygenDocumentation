@@ -1,0 +1,82 @@
+items:
+- uid: com.microsoft.azure._d_a_graph_tests
+  id: _d_a_graph_tests
+  parent: com.microsoft.azure
+  children:
+  - com.microsoft.azure._d_a_graph_tests_1a5b7b32e43ecc952169eeb3e4ff41edbe
+  - com.microsoft.azure._d_a_graph_tests_1a820860df24eac048d0e2274ff549714c
+  href: com.microsoft.azure._d_a_graph_tests.yml
+  langs:
+  - java
+  name: DAGraphTests
+  fullName: com.microsoft.azure.DAGraphTests
+  type: Class
+  source:
+    remote: &o0
+      path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/DAGraphTests.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/DAGraphTests.java
+    startLine: 15
+  package: com.microsoft.azure
+  syntax:
+    content: public class DAGraphTests
+- uid: com.microsoft.azure._d_a_graph_tests_1a5b7b32e43ecc952169eeb3e4ff41edbe
+  id: _d_a_graph_tests_1a5b7b32e43ecc952169eeb3e4ff41edbe
+  parent: com.microsoft.azure._d_a_graph_tests
+  href: com.microsoft.azure._d_a_graph_tests.yml
+  langs:
+  - java
+  name: testDAGraphGetNext()
+  fullName: void com.microsoft.azure.DAGraphTests.testDAGraphGetNext()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/DAGraphTests.java
+    startLine: 17
+  package: com.microsoft.azure
+  syntax:
+    content: public void testDAGraphGetNext()
+- uid: com.microsoft.azure._d_a_graph_tests_1a820860df24eac048d0e2274ff549714c
+  id: _d_a_graph_tests_1a820860df24eac048d0e2274ff549714c
+  parent: com.microsoft.azure._d_a_graph_tests
+  href: com.microsoft.azure._d_a_graph_tests.yml
+  langs:
+  - java
+  name: testGraphMerge()
+  fullName: void com.microsoft.azure.DAGraphTests.testGraphMerge()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/DAGraphTests.java
+    startLine: 87
+  package: com.microsoft.azure
+  syntax:
+    content: public void testGraphMerge()
+references:
+- uid: com.microsoft.azure._d_a_graph
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._d_a_graph.yml
+  name: DAGraph
+  fullName: com.microsoft.azure.DAGraph
+  type: Class
+  summary: >-
+    <p>Type representing a DAG (directed acyclic graph). </p>
+
+    <p>each node in a DAG is represented by <xref href="com.microsoft.azure._d_a_g_node" data-throw-if-not-resolved="false"></xref></p>
+
+    <p></p>
+  syntax:
+    content: public class DAGraph
+- uid: com.microsoft.azure._d_a_g_node
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._d_a_g_node.yml
+  name: DAGNode
+  fullName: com.microsoft.azure.DAGNode
+  type: Class
+  summary: >-
+    <p>The type representing node in a <xref href="com.microsoft.azure._d_a_graph" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public class DAGNode

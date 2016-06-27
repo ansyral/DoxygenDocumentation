@@ -1,0 +1,166 @@
+items:
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption
+  id: _encryption
+  parent: com.microsoft.azure.management.storage.implementation.api
+  children:
+  - com.microsoft.azure.management.storage.implementation.api._encryption_1ab20fba5c844449eef90714fa401008bb
+  - com.microsoft.azure.management.storage.implementation.api._encryption_1a044980127f9e960dfd0b2a796b5f83a4
+  - com.microsoft.azure.management.storage.implementation.api._encryption_1a156fa6cec281c92b4c297c37581850b6
+  - com.microsoft.azure.management.storage.implementation.api._encryption_1a38d26d7d6c8ecd5bb8c32119265e2a8d
+  - com.microsoft.azure.management.storage.implementation.api._encryption_1aae6a83db235bc48c1a7652f06a64e4d4
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  langs:
+  - java
+  name: Encryption
+  fullName: com.microsoft.azure.management.storage.implementation.api.Encryption
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java.git
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+    startLine: 13
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>The encryption settings on the account. </p>
+  syntax: &o1
+    content: public class Encryption
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_1ab20fba5c844449eef90714fa401008bb
+  id: _encryption_1ab20fba5c844449eef90714fa401008bb
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  langs:
+  - java
+  name: Encryption()
+  fullName: com.microsoft.azure.management.storage.implementation.api.Encryption.Encryption()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+    startLine: 29
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: <p>Creates an instance of <xref href="com.microsoft.azure.management.storage.implementation.api._encryption" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public Encryption()
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_1a044980127f9e960dfd0b2a796b5f83a4
+  id: _encryption_1a044980127f9e960dfd0b2a796b5f83a4
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  langs:
+  - java
+  name: keySource()
+  fullName: String com.microsoft.azure.management.storage.implementation.api.Encryption.keySource()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+    startLine: 58
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the keySource value.</p>
+
+    <p></p>
+  syntax:
+    content: public String keySource()
+    return:
+      type: "26831127"
+      description: <p>the keySource value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_1a156fa6cec281c92b4c297c37581850b6
+  id: _encryption_1a156fa6cec281c92b4c297c37581850b6
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  langs:
+  - java
+  name: services()
+  fullName: EncryptionServices com.microsoft.azure.management.storage.implementation.api.Encryption.services()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+    startLine: 38
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Get the services value.</p>
+
+    <p></p>
+  syntax:
+    content: public EncryptionServices services()
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._encryption_services
+      description: <p>the services value </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_1a38d26d7d6c8ecd5bb8c32119265e2a8d
+  id: _encryption_1a38d26d7d6c8ecd5bb8c32119265e2a8d
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  langs:
+  - java
+  name: withKeySource(String keySource)
+  fullName: Encryption com.microsoft.azure.management.storage.implementation.api.Encryption.withKeySource(String keySource)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+    startLine: 68
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the keySource value.</p>
+
+    <p></p>
+  syntax:
+    content: public Encryption withKeySource(String keySource)
+    parameters:
+    - id: keySource
+      type: "26831127"
+      description: <p>the keySource value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._encryption
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._encryption" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_1aae6a83db235bc48c1a7652f06a64e4d4
+  id: _encryption_1aae6a83db235bc48c1a7652f06a64e4d4
+  parent: com.microsoft.azure.management.storage.implementation.api._encryption
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  langs:
+  - java
+  name: withServices(EncryptionServices services)
+  fullName: Encryption com.microsoft.azure.management.storage.implementation.api.Encryption.withServices(EncryptionServices services)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java
+    startLine: 48
+  package: com.microsoft.azure.management.storage.implementation.api
+  summary: >-
+    <p>Set the services value.</p>
+
+    <p></p>
+  syntax:
+    content: public Encryption withServices(EncryptionServices services)
+    parameters:
+    - id: services
+      type: com.microsoft.azure.management.storage.implementation.api._encryption_services
+      description: <p>the services value to set </p>
+    return:
+      type: com.microsoft.azure.management.storage.implementation.api._encryption
+      description: <p>the <xref href="com.microsoft.azure.management.storage.implementation.api._encryption" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption_services
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._encryption_services.yml
+  name: EncryptionServices
+  fullName: com.microsoft.azure.management.storage.implementation.api.EncryptionServices
+  type: Class
+  summary: <p>The encrypted services. </p>
+  syntax:
+    content: public class EncryptionServices
+- uid: com.microsoft.azure.management.storage.implementation.api._encryption
+  parent: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+  name: Encryption
+  fullName: com.microsoft.azure.management.storage.implementation.api.Encryption
+  type: Class
+  summary: <p>The encryption settings on the account. </p>
+  syntax: *o1
