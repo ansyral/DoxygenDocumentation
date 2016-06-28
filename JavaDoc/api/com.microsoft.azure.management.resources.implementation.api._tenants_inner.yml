@@ -48,6 +48,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._tenant_id_description_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._tenant_id_description_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._tenants_inner_1a7e051243e5559dd6dd8c29fe80a8d81a
   id: _tenants_inner_1a7e051243e5559dd6dd8c29fe80a8d81a
   parent: com.microsoft.azure.management.resources.implementation.api._tenants_inner
@@ -75,6 +82,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._tenants_inner_1a07c9ce9b2800d3a43c1607ee635e88c0
   id: _tenants_inner_1a07c9ce9b2800d3a43c1607ee635e88c0
   parent: com.microsoft.azure.management.resources.implementation.api._tenants_inner
@@ -102,6 +112,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl1151dc42ccom.microsoft.azure.management.resources.implementation.api._tenant_id_description_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._tenant_id_description_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._tenants_inner_1a37269dd9100c4ef69a26a6fd87d6c04c
   id: _tenants_inner_1a37269dd9100c4ef69a26a6fd87d6c04c
   parent: com.microsoft.azure.management.resources.implementation.api._tenants_inner
@@ -135,6 +152,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._tenants_inner_1afdac586966b058a3a16ae3d585e76fd3
   id: _tenants_inner_1afdac586966b058a3a16ae3d585e76fd3
   parent: com.microsoft.azure.management.resources.implementation.api._tenants_inner
@@ -187,6 +207,14 @@ references:
     href: com.microsoft.azure.management.resources.implementation.api._tenant_id_description_inner.yml
   - name: ' > >'
     fullName: ' > >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._tenant_id_description_inner9ec3e006
   spec.java:
   - name: 'final '

@@ -75,6 +75,9 @@ items:
     <p>the order of execution of tasks ensure that a task gets selected for execution only after the execution of all the tasks it depends on </p>
   syntax:
     content: public void execute()
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>the exception </p>
 - uid: com.microsoft.azure._task_group_1a617468190e15bdc0b3e72e7f6dfd6545
   id: _task_group_1a617468190e15bdc0b3e72e7f6dfd6545
   parent: com.microsoft.azure._task_group
@@ -123,7 +126,7 @@ items:
       description: >-
         <p>
 
-          <computeroutput>true</computeroutput> if this is a root (parent) task group composing other task groups. </p>
+          <code>true</code> if this is a root (parent) task group composing other task groups. </p>
 - uid: com.microsoft.azure._task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
   id: _task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
   parent: com.microsoft.azure._task_group
@@ -223,6 +226,10 @@ references:
     href: com.microsoft.azure._task_group.yml
   - name: < T, U >
     fullName: < T, U >
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback

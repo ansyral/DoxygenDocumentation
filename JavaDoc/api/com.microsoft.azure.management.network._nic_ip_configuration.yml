@@ -57,6 +57,11 @@ items:
     return:
       type: com.microsoft.azure.management.network._network
       description: <p>the virtual network associated with this this Ip configuration. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 - uid: com.microsoft.azure.management.network._nic_ip_configuration_1a48c47f493a4270b15c0d03712c32702c
   id: _nic_ip_configuration_1a48c47f493a4270b15c0d03712c32702c
   parent: com.microsoft.azure.management.network._nic_ip_configuration
@@ -126,6 +131,11 @@ items:
     return:
       type: com.microsoft.azure.management.network._public_ip_address
       description: <p>the public IP associated with this Ip configuration. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 - uid: com.microsoft.azure.management.network._nic_ip_configuration_1a0f55170ea4df62421b0235974ba1264d
   id: _nic_ip_configuration_1a0f55170ea4df62421b0235974ba1264d
   parent: com.microsoft.azure.management.network._nic_ip_configuration
@@ -175,6 +185,10 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
   parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml

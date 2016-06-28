@@ -53,11 +53,20 @@ items:
     return:
       type: com.microsoft.azure.management.resources._feature
       description: <p>the immutable client-side feature object created </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>exception from serialization/deserialization </p>
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref></p>
 references:
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_name_1a7da6277c7cde7fe1411e36bd5f6b7852
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_name
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_name.yml

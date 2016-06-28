@@ -126,6 +126,13 @@ items:
     return:
       type: beed6a5bcom.microsoft.rest._service_response34132889
       description: <p>the terminal response for the operation. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>REST exception </p>
+  - type: 8256ba40
+    description: <p>interrupted exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1a2e3844d53e2fb094cf6ca3787545db1f
   id: _azure_client_1a2e3844d53e2fb094cf6ca3787545db1f
   parent: com.microsoft.azure._azure_client
@@ -195,6 +202,13 @@ items:
     return:
       type: 22bb80bfcom.microsoft.rest._service_response_with_headers629a7163
       description: <p>the terminal response for the operation. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>REST exception </p>
+  - type: 8256ba40
+    description: <p>interrupted exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1a3e63463cc3bd6a8128d91288c21dfaf5
   id: _azure_client_1a3e63463cc3bd6a8128d91288c21dfaf5
   parent: com.microsoft.azure._azure_client
@@ -264,6 +278,13 @@ items:
     return:
       type: beed6a5bcom.microsoft.rest._service_response34132889
       description: <p>the terminal response for the operation. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>REST exception </p>
+  - type: 8256ba40
+    description: <p>interrupted exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1a1b7eb9e13269e55bffa89261d2bfc07b
   id: _azure_client_1a1b7eb9e13269e55bffa89261d2bfc07b
   parent: com.microsoft.azure._azure_client
@@ -333,6 +354,13 @@ items:
     return:
       type: 22bb80bfcom.microsoft.rest._service_response_with_headers629a7163
       description: <p>the terminal response for the operation. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>REST exception </p>
+  - type: 8256ba40
+    description: <p>interrupted exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1ad20133c033e59ab7594f1bc63772ef52
   id: _azure_client_1ad20133c033e59ab7594f1bc63772ef52
   parent: com.microsoft.azure._azure_client
@@ -398,6 +426,11 @@ items:
       description: <p>the polling state for the current operation. </p>
     return:
       type: f09ef1c9
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>service exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1af30660d915a4705a206fdd85d6bd9f06
   id: _azure_client_1af30660d915a4705a206fdd85d6bd9f06
   parent: com.microsoft.azure._azure_client
@@ -457,6 +490,11 @@ items:
       description: <p>the url to poll from </p>
     return:
       type: f09ef1c9
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>service exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
   id: _azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
   parent: com.microsoft.azure._azure_client
@@ -516,6 +554,11 @@ items:
       description: <p>the polling state for the current operation. </p>
     return:
       type: f09ef1c9
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>service exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1a046ade9ee4e0e935fedac41a014ceb75
   id: _azure_client_1a046ade9ee4e0e935fedac41a014ceb75
   parent: com.microsoft.azure._azure_client
@@ -572,6 +615,11 @@ items:
       description: <p>the polling state for the current operation. </p>
     return:
       type: f09ef1c9
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>REST exception </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
   id: _azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
   parent: com.microsoft.azure._azure_client
@@ -649,6 +697,14 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
+- uid: 8256ba40
+  spec.java:
+  - name: InterruptedException
+    fullName: InterruptedException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: c6b67eee
   spec.java:
   - name: Class< THeader >

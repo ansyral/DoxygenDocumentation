@@ -62,6 +62,11 @@ items:
     <p></p>
   syntax:
     content: public void cancel()
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
 - uid: com.microsoft.azure.management.resources._deployment_1a8c5d22b35721b2fa398d6c0c4d2950e0
   id: _deployment_1a8c5d22b35721b2fa398d6c0c4d2950e0
   parent: com.microsoft.azure.management.resources._deployment
@@ -142,6 +147,11 @@ items:
     return:
       type: com.microsoft.azure.management.resources._deployment_export_result
       description: <p>the export result </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
 - uid: com.microsoft.azure.management.resources._deployment_1a01cd54e901b1c875192cad4f698caff7
   id: _deployment_1a01cd54e901b1c875192cad4f698caff7
   parent: com.microsoft.azure.management.resources._deployment
@@ -384,6 +394,10 @@ references:
     href: com.microsoft.azure.management.resources.implementation.api._dependency.yml
   - name: ' >'
     fullName: ' >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
   parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml

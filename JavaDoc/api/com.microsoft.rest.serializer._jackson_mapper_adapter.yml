@@ -58,6 +58,9 @@ items:
     return:
       type: c1d86a32
       description: <p>the deserialized object. </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>exception in deserialization </p>
 - uid: com.microsoft.rest.serializer._jackson_mapper_adapter_1ad75475e24044c3dbf373f939249fcce7
   id: _jackson_mapper_adapter_1ad75475e24044c3dbf373f939249fcce7
   parent: com.microsoft.rest.serializer._jackson_mapper_adapter
@@ -178,6 +181,9 @@ items:
     return:
       type: "26831127"
       description: <p>the serialized string. Null if the object to serialize is null. </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>exception from serialization. </p>
 - uid: com.microsoft.rest.serializer._jackson_mapper_adapter_1abc999efbaccca55b66b70efed6793daa
   id: _jackson_mapper_adapter_1abc999efbaccca55b66b70efed6793daa
   parent: com.microsoft.rest.serializer._jackson_mapper_adapter
@@ -248,6 +254,10 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: 7ef4514d
   spec.java:
   - name: List<?>

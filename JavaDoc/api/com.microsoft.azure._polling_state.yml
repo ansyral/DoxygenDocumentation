@@ -231,6 +231,9 @@ items:
     - id: mapperAdapter
       type: com.microsoft.rest.serializer._jackson_mapper_adapter
       description: <p>the adapter for the Jackson object mapper </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._polling_state_1a8154c332c6e6c46d4876276c60f6ad17
   id: _polling_state_1a8154c332c6e6c46d4876276c60f6ad17
   parent: com.microsoft.azure._polling_state
@@ -327,6 +330,9 @@ items:
     - id: status
       type: "26831127"
       description: <p>the polling status. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if status is null. </p>
 - uid: com.microsoft.azure._polling_state_1a5664bd6386ce1aa8f60176cb73e2382a
   id: _polling_state_1a5664bd6386ce1aa8f60176cb73e2382a
   parent: com.microsoft.azure._polling_state
@@ -351,6 +357,9 @@ items:
     - id: response
       type: "1755e818"
       description: <p>the response from Retrofit REST call </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 - uid: com.microsoft.azure._polling_state_1aa93f9811a425f7c6fd044f46186c3c40
   id: _polling_state_1aa93f9811a425f7c6fd044f46186c3c40
   parent: com.microsoft.azure._polling_state
@@ -375,6 +384,11 @@ items:
     - id: response
       type: "1755e818"
       description: <p>the response from Retrofit REST call </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>thrown if the response is invalid </p>
+  - type: cbf33bbe
+    description: <p>thrown by deserialization </p>
 references:
 - uid: "1755e818"
   spec.java:
@@ -388,6 +402,10 @@ references:
   spec.java:
   - name: Type
     fullName: Type
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: f75371fa
   spec.java:
   - name: int
@@ -396,6 +414,10 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 8ce1ecb9
   spec.java:
   - name: T

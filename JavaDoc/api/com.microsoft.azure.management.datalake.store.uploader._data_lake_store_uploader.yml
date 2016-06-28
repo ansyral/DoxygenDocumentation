@@ -52,6 +52,9 @@ items:
     - id: frontEnd
       type: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
       description: <p>A pointer to the FrontEnd interface to use for the upload. </p>
+  exceptions:
+  - type: 7c6d07eb
+    description: <p>if the local file cannot be found or is inaccessible </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader_1ab62dc7b7e36b6bbcd1024014929d5325
   id: _data_lake_store_uploader_1ab62dc7b7e36b6bbcd1024014929d5325
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader
@@ -89,6 +92,9 @@ items:
     <p></p>
   syntax:
     content: public void execute()
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>if there is any failure that occurs during execution. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader_1a6804442606cdc8bf93ab98c11d122d4d
   id: _data_lake_store_uploader_1a6804442606cdc8bf93ab98c11d122d4d
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader
@@ -133,6 +139,14 @@ references:
   spec.java:
   - name: final int
     fullName: final int
+- uid: 7c6d07eb
+  spec.java:
+  - name: FileNotFoundException
+    fullName: FileNotFoundException
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter.yml

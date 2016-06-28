@@ -48,11 +48,18 @@ items:
     - id: id
       type: "26831127"
       description: <p>the resource ID of the resource to delete </p>
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>exceptions thrown from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref></p>
 references:
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml

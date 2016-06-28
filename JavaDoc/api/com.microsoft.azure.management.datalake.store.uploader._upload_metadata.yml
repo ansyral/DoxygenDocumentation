@@ -73,6 +73,9 @@ items:
     <p></p>
   syntax:
     content: public void deleteFile()
+  exceptions:
+  - type: 9a86a8cf
+    description: <p>Thrown if the metadata file path has not yet been set. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_1ada1ee9f548bd2426e9e10432cc9691aa
   id: _upload_metadata_1ada1ee9f548bd2426e9e10432cc9691aa
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_metadata
@@ -328,6 +331,11 @@ items:
     return:
       type: com.microsoft.azure.management.datalake.store.uploader._upload_metadata
       description: <p>A deserialized <xref href="com.microsoft.azure.management.datalake.store.uploader._upload_metadata" data-throw-if-not-resolved="false"></xref> object from the file specified. </p>
+  exceptions:
+  - type: 7c6d07eb
+    description: <p>Thrown if the filePath is inaccessible or does not exist </p>
+  - type: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception
+    description: <p>Thrown if the metadata is not in the expected format. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_1a05c8315152f1ddb875428a4960930b89
   id: _upload_metadata_1a05c8315152f1ddb875428a4960930b89
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_metadata
@@ -348,6 +356,11 @@ items:
     <p></p>
   syntax:
     content: public void save()
+  exceptions:
+  - type: cbf33bbe
+    description: <p>Thrown if the file cannot be saved due to accessibility or there is an error saving the stream to disk. </p>
+  - type: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception
+    description: <p>Thrown if the metadata is invalid. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_1a29324c7e9372b979dd689323609bbb46
   id: _upload_metadata_1a29324c7e9372b979dd689323609bbb46
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_metadata
@@ -675,6 +688,9 @@ items:
     <p></p>
   syntax:
     content: public void validateConsistency()
+  exceptions:
+  - type: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception
+    description: <p>Thrown if the metadata is invalid. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -700,10 +716,22 @@ references:
   spec.java:
   - name: boolean
     fullName: boolean
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 9a86a8cf
+  spec.java:
+  - name: InvalidObjectException
+    fullName: InvalidObjectException
 - uid: 30d59cf1
   spec.java:
   - name: String[]
     fullName: String[]
+- uid: 7c6d07eb
+  spec.java:
+  - name: FileNotFoundException
+    fullName: FileNotFoundException
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata.yml

@@ -99,6 +99,11 @@ items:
     return:
       type: com.microsoft.azure._azure
       description: <p>an authenticated <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> client configured to work with the default subscription </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref></p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
 - uid: com.microsoft.azure._azure._authenticated_1a219cdf6c5311347cb886f40aea966fae
   id: _authenticated_1a219cdf6c5311347cb886f40aea966fae
   parent: com.microsoft.azure._azure._authenticated
@@ -131,6 +136,10 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.resources._subscriptions
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._subscriptions.yml

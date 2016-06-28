@@ -49,6 +49,11 @@ items:
     return:
       type: com.microsoft.azure._paged_list34132889
       description: <p>list of resources </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 references:
 - uid: com.microsoft.azure._paged_list34132889
   spec.java:
@@ -58,6 +63,10 @@ references:
     href: com.microsoft.azure._paged_list.yml
   - name: < T >
     fullName: < T >
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml

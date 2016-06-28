@@ -159,6 +159,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl_1afe576a8b020c4cc23b6114ca571583b9
   id: _network_management_client_impl_1afe576a8b020c4cc23b6114ca571583b9
   parent: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
@@ -189,6 +196,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl_1ac6db5bc1a40666b9b5dc3417f676c33d
   id: _network_management_client_impl_1ac6db5bc1a40666b9b5dc3417f676c33d
   parent: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
@@ -219,6 +233,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl_1a433ee27a0ff6ec11a6b9f50925c1a435
   id: _network_management_client_impl_1a433ee27a0ff6ec11a6b9f50925c1a435
   parent: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
@@ -252,6 +269,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl_1aac559af934ef3f6188741e37054f8fc9
   id: _network_management_client_impl_1aac559af934ef3f6188741e37054f8fc9
   parent: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
@@ -930,6 +950,14 @@ references:
     href: com.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner.yml
   - name: ' >'
     fullName: ' >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner9ec3e006
   spec.java:
   - name: 'final '

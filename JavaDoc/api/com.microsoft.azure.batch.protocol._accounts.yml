@@ -51,6 +51,13 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
+  exceptions:
+  - type: c8683d81
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1a36b623833d543ebe0a99846e9de03206
   id: _accounts_1a36b623833d543ebe0a99846e9de03206
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -78,6 +85,13 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
+  exceptions:
+  - type: c8683d81
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1acf047602d3ba7669a603a820d07100a9
   id: _accounts_1acf047602d3ba7669a603a820d07100a9
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -108,6 +122,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1a2a6f9be71a738403749aa061eb72b706
   id: _accounts_1a2a6f9be71a738403749aa061eb72b706
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -135,6 +152,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1a13465e231fa2a3687793c4bcd7e9c361
   id: _accounts_1a13465e231fa2a3687793c4bcd7e9c361
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -162,6 +182,13 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
+  exceptions:
+  - type: c8683d81
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1a60d76ebc87f32bd0fe5963544ad64ea3
   id: _accounts_1a60d76ebc87f32bd0fe5963544ad64ea3
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -192,6 +219,13 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
+  exceptions:
+  - type: c8683d81
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1ab357f8160b3e275998d87541610f326d
   id: _accounts_1ab357f8160b3e275998d87541610f326d
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -228,6 +262,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.batch.protocol._accounts_1aaabcfd771e6acbd940ceba13223024e3
   id: _accounts_1aaabcfd771e6acbd940ceba13223024e3
   parent: com.microsoft.azure.batch.protocol._accounts
@@ -261,6 +298,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 references:
 - uid: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
   spec.java:
@@ -288,6 +328,18 @@ references:
     href: com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers.yml
   - name: ' >'
     fullName: ' >'
+- uid: c8683d81
+  spec.java:
+  - name: BatchErrorException
+    fullName: BatchErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku9ec3e006
   spec.java:
   - name: 'final '

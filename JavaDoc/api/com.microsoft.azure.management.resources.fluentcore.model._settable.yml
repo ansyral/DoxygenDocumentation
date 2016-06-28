@@ -49,11 +49,18 @@ items:
     return:
       type: 18a275b1
       description: <p>the stage of parent resource update </p>
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>exceptions thrown from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref></p>
 references:
 - uid: 18a275b1
   spec.java:
   - name: ParentT
     fullName: ParentT
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.azure.management.compute._data_disk._update
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._update.yml

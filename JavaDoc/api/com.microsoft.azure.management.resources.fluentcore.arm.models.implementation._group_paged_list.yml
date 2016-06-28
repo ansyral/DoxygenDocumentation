@@ -129,6 +129,11 @@ items:
     return:
       type: f25014e5
       description: <p>the list of resources in this group. </p>
+  exceptions:
+  - type: 0f262a9d
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list_1a5599c88db9de103f334c4e5d256c9575
   id: _group_paged_list_1a5599c88db9de103f334c4e5d256c9575
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list
@@ -185,6 +190,14 @@ references:
   spec.java:
   - name: abstract List< E >
     fullName: abstract List< E >
+- uid: 0f262a9d
+  spec.java:
+  - name: RestException
+    fullName: RestException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure._paged_list_1acc7efa30d22fe8a157b653ddf72e19a2
   parent: com.microsoft.azure._paged_list
   href: com.microsoft.azure._paged_list.yml

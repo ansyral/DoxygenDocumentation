@@ -56,6 +56,11 @@ items:
     return:
       type: 8ce1ecb9
       description: <p>an immutable representation of the resource </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -65,6 +70,10 @@ references:
   spec.java:
   - name: T
     fullName: T
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml

@@ -63,6 +63,11 @@ items:
       type: f75371fa
       description: <p>The number of bytes to append (starting at 0). </p>
   overridden: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1a9ce0415d0e74ce3d6fbb66a9b1f5327c
+  exceptions:
+  - type: cbf33bbe
+    description: <p>if the file does not exist or is inaccessible. </p>
+  - type: 0f262a9d
+    description: <p>if there is a failure communicating with the service. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end_1adc4ff10bd2d417c1ca4db9915acfb05c
   id: _ssu_mock_front_end_1adc4ff10bd2d417c1ca4db9915acfb05c
   parent: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end
@@ -91,6 +96,11 @@ items:
       type: 30d59cf1
       description: <p>An ordered array of paths to the input streams. </p>
   overridden: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1ad2468325cf658d071116d95c9faf8099
+  exceptions:
+  - type: cbf33bbe
+    description: <p>if the file does not exist or is inaccessible. </p>
+  - type: 0f262a9d
+    description: <p>if there is a failure communicating with the service. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end_1a9c32a27860142958fa0a5e159e7df143
   id: _ssu_mock_front_end_1a9c32a27860142958fa0a5e159e7df143
   parent: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end
@@ -125,6 +135,11 @@ items:
       type: f75371fa
       description: <p>The number of bytes from data to include (starting at 0). </p>
   overridden: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1ab8771533762c7df66172208a96efd9ed
+  exceptions:
+  - type: cbf33bbe
+    description: <p>if the file does not exist or is inaccessible. </p>
+  - type: 0f262a9d
+    description: <p>if there is a failure communicating with the service. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end_1a57387b2365e835f19a490eb6a7190e36
   id: _ssu_mock_front_end_1a57387b2365e835f19a490eb6a7190e36
   parent: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end
@@ -153,6 +168,11 @@ items:
       type: 4fc6e284
       description: <p>if set to true recursively delete. This is used for folder streams only. </p>
   overridden: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1ac0fb5d67c44b9ceba06f59625cffb38e
+  exceptions:
+  - type: cbf33bbe
+    description: <p>if the file does not exist or is inaccessible. </p>
+  - type: 0f262a9d
+    description: <p>if there is a failure communicating with the service. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end_1a1cf384c3b8e7d9606f4fe9abc80b4789
   id: _ssu_mock_front_end_1a1cf384c3b8e7d9606f4fe9abc80b4789
   parent: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end
@@ -181,6 +201,11 @@ items:
       type: 0364520f
       description: <p>The length of the stream, in bytes. </p>
   overridden: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1a31b19ae3b0c0f9c201d9694804c5cc51
+  exceptions:
+  - type: cbf33bbe
+    description: <p>if the file does not exist or is inaccessible. </p>
+  - type: 0f262a9d
+    description: <p>if there is a failure communicating with the service. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end_1aec3517189d01b53d835542f5d97b9aef
   id: _ssu_mock_front_end_1aec3517189d01b53d835542f5d97b9aef
   parent: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end
@@ -239,6 +264,11 @@ items:
       type: 4fc6e284
       description: <p>True if the stream exists, false otherwise. </p>
   overridden: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1ac8b696fea86daf2e098af72fdcda0121
+  exceptions:
+  - type: cbf33bbe
+    description: <p>if the file does not exist or is inaccessible. </p>
+  - type: 0f262a9d
+    description: <p>if there is a failure communicating with the service. </p>
 references:
 - uid: 4fc6e284
   spec.java:
@@ -256,6 +286,14 @@ references:
   spec.java:
   - name: byte[]
     fullName: byte[]
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 0f262a9d
+  spec.java:
+  - name: RestException
+    fullName: RestException
 - uid: 0364520f
   spec.java:
   - name: long

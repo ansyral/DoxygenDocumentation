@@ -170,6 +170,8 @@ items:
   summary: <p>Tests the availability set implementation </p>
   syntax:
     content: public void testAvailabilitySets()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1a9e0b3873814cc0945834014dcca4f142
   id: _azure_tests_1a9e0b3873814cc0945834014dcca4f142
   parent: com.microsoft.azure._azure_tests
@@ -187,6 +189,8 @@ items:
   summary: <p>Tests the network interface implementation </p>
   syntax:
     content: public void testNetworkInterfaces()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1ad72cab9308347f89c03f8f7fcbf1f110
   id: _azure_tests_1ad72cab9308347f89c03f8f7fcbf1f110
   parent: com.microsoft.azure._azure_tests
@@ -204,6 +208,8 @@ items:
   summary: <p>Tests the virtual network implementation </p>
   syntax:
     content: public void testNetworks()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1a486539072e5d52b56763ca7ac45330f4
   id: _azure_tests_1a486539072e5d52b56763ca7ac45330f4
   parent: com.microsoft.azure._azure_tests
@@ -221,6 +227,8 @@ items:
   summary: <p>Tests the network security group implementation </p>
   syntax:
     content: public void testNetworkSecurityGroups()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1a7b7e133c33f666922968edd12f3658a5
   id: _azure_tests_1a7b7e133c33f666922968edd12f3658a5
   parent: com.microsoft.azure._azure_tests
@@ -238,6 +246,8 @@ items:
   summary: <p>Tests the public IP address implementation </p>
   syntax:
     content: public void testPublicIpAddresses()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1a0327d58bae4caf2cf542008dd3d898f7
   id: _azure_tests_1a0327d58bae4caf2cf542008dd3d898f7
   parent: com.microsoft.azure._azure_tests
@@ -255,6 +265,8 @@ items:
   summary: <p>Tests the virtual machine data disk implementation </p>
   syntax:
     content: public void testVirtualMachineDataDisk()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1aec3ad1a755e06e3bcc316580247833d5
   id: _azure_tests_1aec3ad1a755e06e3bcc316580247833d5
   parent: com.microsoft.azure._azure_tests
@@ -272,6 +284,8 @@ items:
   summary: <p>Tests the virtual machine network interface implementation </p>
   syntax:
     content: public void testVirtualMachineNics()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1a204757178ce03729b748f543f7bf3e27
   id: _azure_tests_1a204757178ce03729b748f543f7bf3e27
   parent: com.microsoft.azure._azure_tests
@@ -325,6 +339,10 @@ references:
   spec.java:
   - name: String[]
     fullName: String[]
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.rest.credentials._service_client_credentials
   parent: com.microsoft.rest.credentials
   href: com.microsoft.rest.credentials._service_client_credentials.yml

@@ -46,6 +46,9 @@ items:
     - id: parameter
       type: "79317049"
       description: <p>the parameter to validate </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown when the <xref href="com.microsoft.rest._validator" data-throw-if-not-resolved="false"></xref> determines the argument is invalid </p>
 - uid: com.microsoft.rest._validator_1ab71d405305e8998f983cefe0b34952d5
   id: _validator_1ab71d405305e8998f983cefe0b34952d5
   parent: com.microsoft.rest._validator
@@ -78,6 +81,10 @@ references:
   spec.java:
   - name: Object
     fullName: Object
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: com.microsoft.rest._service_callback7e6ad1eb
   spec.java:
   - uid: com.microsoft.rest._service_callback

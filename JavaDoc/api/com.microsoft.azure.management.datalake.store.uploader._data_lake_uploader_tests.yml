@@ -48,6 +48,8 @@ items:
     <p></p>
   syntax:
     content: public void DataLakeUploader_FreshUpload()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests_1a37775ac9f561d4a02cb9300bd870f17d
   id: _data_lake_uploader_tests_1a37775ac9f561d4a02cb9300bd870f17d
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests
@@ -68,6 +70,8 @@ items:
     <p></p>
   syntax:
     content: public void DataLakeUploader_InvalidParameters()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests_1aa6218ad111dc795947587b1b456a71c5
   id: _data_lake_uploader_tests_1aa6218ad111dc795947587b1b456a71c5
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests
@@ -88,6 +92,8 @@ items:
     <p></p>
   syntax:
     content: public void DataLakeUploader_ResumePartialUpload()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests_1ac2d38c73aa73bc5ef18084c39790e618
   id: _data_lake_uploader_tests_1ac2d38c73aa73bc5ef18084c39790e618
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests
@@ -108,6 +114,8 @@ items:
     <p></p>
   syntax:
     content: public void DataLakeUploader_ResumeUploadWithAllMissingFiles()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests_1a1050801458d3e51db5f7d540a3b5237c
   id: _data_lake_uploader_tests_1a1050801458d3e51db5f7d540a3b5237c
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests
@@ -128,6 +136,8 @@ items:
     <p></p>
   syntax:
     content: public void DataLakeUploader_TargetExistsNoOverwrite()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests_1a6ee41bc2156498c0cf3b628a4ece6e3d
   id: _data_lake_uploader_tests_1a6ee41bc2156498c0cf3b628a4ece6e3d
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests
@@ -148,6 +158,8 @@ items:
     <p></p>
   syntax:
     content: public void DataLakeUploader_UploadSingleSegment()
+  exceptions:
+  - type: 8a99d4b0
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests_1ab3e0180225219f2f5ecdd2a65a4962f8
   id: _data_lake_uploader_tests_1ab3e0180225219f2f5ecdd2a65a4962f8
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_tests
@@ -181,6 +193,10 @@ items:
   syntax:
     content: public static void Teardown()
 references:
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_parameters
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._upload_parameters.yml

@@ -141,6 +141,11 @@ items:
     <p></p>
   syntax:
     content: public void upload()
+  exceptions:
+  - type: 8256ba40
+    description: <p>if there is some interruption sent during a wait. </p>
+  - type: com.microsoft.azure.management.datalake.store.uploader._aggregate_upload_exception
+    description: <p>if there are any failures in any of the threads running upload. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader_1aaee8a47953d075ca1ee8c3081e3f73ac
   id: _multiple_segment_uploader_1aaee8a47953d075ca1ee8c3081e3f73ac
   parent: com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader
@@ -173,6 +178,10 @@ references:
   spec.java:
   - name: boolean
     fullName: boolean
+- uid: 8256ba40
+  spec.java:
+  - name: InterruptedException
+    fullName: InterruptedException
 - uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581.yml

@@ -51,6 +51,13 @@ items:
     return:
       type: 8ce1ecb9
       description: <p>an immutable representation of the resource </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exceptions thrown when something is wrong with the input parameters </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -60,6 +67,14 @@ references:
   spec.java:
   - name: T
     fullName: T
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml

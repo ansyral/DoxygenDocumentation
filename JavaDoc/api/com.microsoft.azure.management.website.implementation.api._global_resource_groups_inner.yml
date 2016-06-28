@@ -76,6 +76,13 @@ items:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner_1af3ef0281a051c981fa7f539d0429b7ec
   id: _global_resource_groups_inner_1af3ef0281a051c981fa7f539d0429b7ec
   parent: com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner
@@ -105,6 +112,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 references:
 - uid: 964879b9
   spec.java:
@@ -122,6 +132,14 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '

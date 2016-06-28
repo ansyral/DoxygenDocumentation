@@ -121,6 +121,9 @@ items:
       description: <p>the root task in this group </p>
     return:
       type: 5beb11ad
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>the exception </p>
 - uid: com.microsoft.azure._task_group_base_1a565c67b76a30d31af590c22ce12d98ab
   id: _task_group_base_1a565c67b76a30d31af590c22ce12d98ab
   parent: com.microsoft.azure._task_group_base
@@ -329,6 +332,10 @@ references:
   spec.java:
   - name: abstract void
     fullName: abstract void
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback

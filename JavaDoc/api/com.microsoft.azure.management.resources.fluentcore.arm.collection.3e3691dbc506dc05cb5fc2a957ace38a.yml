@@ -64,6 +64,11 @@ items:
       type: 521c6d27
       description: <p>an immutable representation of the resource </p>
   overridden: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group_1a89ed42534b4970969dbc555a6f207dc7
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
   id: 3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
@@ -92,6 +97,13 @@ items:
       type: 8cbc54f7
       description: <p>an immutable representation of the resource </p>
   overridden: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id_1aa29af283908f5df0042793462b18b1f0
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exceptions thrown when something is wrong with the input parameters </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
   id: 3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
@@ -174,10 +186,18 @@ references:
   spec.java:
   - name: abstract T
     fullName: abstract T
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: 8cbc54f7
   spec.java:
   - name: final T
     fullName: final T
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml

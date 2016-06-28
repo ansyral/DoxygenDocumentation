@@ -74,6 +74,13 @@ items:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1aab3374f601b649c72611e663861bcc54
   id: _resource_groups_inner_1aab3374f601b649c72611e663861bcc54
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -104,6 +111,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1ae9df6eb0317d08f42156fff064c19ede
   id: _resource_groups_inner_1ae9df6eb0317d08f42156fff064c19ede
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -131,6 +141,13 @@ items:
     return:
       type: com.microsoft.rest._service_response3b398340
       description: <p>the boolean object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1ad22757957995725deb434e664995c7b8
   id: _resource_groups_inner_1ad22757957995725deb434e664995c7b8
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -161,6 +178,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a79e69f3e7afdb4a7bcfcfb71fba5dcdb
   id: _resource_groups_inner_1a79e69f3e7afdb4a7bcfcfb71fba5dcdb
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -191,6 +211,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a11ed4446b291699f8525e00421b36d9f
   id: _resource_groups_inner_1a11ed4446b291699f8525e00421b36d9f
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -224,6 +251,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a691c97da7a9dc06d94322aaa37987a35
   id: _resource_groups_inner_1a691c97da7a9dc06d94322aaa37987a35
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -251,6 +281,15 @@ items:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the ServiceResponse object if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
+  - type: 8256ba40
+    description: <p>exception thrown when long running operation is interrupted </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1abf5403d4039deb2c818f3e3c531f273a
   id: _resource_groups_inner_1abf5403d4039deb2c818f3e3c531f273a
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -281,6 +320,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1adbd74d45dd1aa6d43747d513681e50ac
   id: _resource_groups_inner_1adbd74d45dd1aa6d43747d513681e50ac
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -311,6 +353,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_export_result_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_export_result_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1aa3a858578ba59bff9e09174822f90904
   id: _resource_groups_inner_1aa3a858578ba59bff9e09174822f90904
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -344,6 +393,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a283c7cf09e6eda25deacd87492fe0d0b
   id: _resource_groups_inner_1a283c7cf09e6eda25deacd87492fe0d0b
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -371,6 +423,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a9e23e1d6f829ee164ecbf0cb3208170b
   id: _resource_groups_inner_1a9e23e1d6f829ee164ecbf0cb3208170b
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -401,6 +460,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a79d8556ffb0bca7af256aaea4655be2f
   id: _resource_groups_inner_1a79d8556ffb0bca7af256aaea4655be2f
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -424,6 +486,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1acd8474ef9fb747820f3eb0aa1af63d2a
   id: _resource_groups_inner_1acd8474ef9fb747820f3eb0aa1af63d2a
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -454,6 +523,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a365db9974d410fe870eb304a1540bcaf
   id: _resource_groups_inner_1a365db9974d410fe870eb304a1540bcaf
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -481,6 +557,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1abb56511b1e32de835c55137acba1f720
   id: _resource_groups_inner_1abb56511b1e32de835c55137acba1f720
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -514,6 +593,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a61e9c67bb3b5e60fa29e26ad21a4876c
   id: _resource_groups_inner_1a61e9c67bb3b5e60fa29e26ad21a4876c
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -541,6 +623,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1afec5b98c85a6ff2d600bdc36448b8a38
   id: _resource_groups_inner_1afec5b98c85a6ff2d600bdc36448b8a38
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -574,6 +663,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1ae426e5e2cdbf4270efac707b06e55988
   id: _resource_groups_inner_1ae426e5e2cdbf4270efac707b06e55988
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -601,6 +693,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a227503b9724ce88e07b0f28e0f1631da
   id: _resource_groups_inner_1a227503b9724ce88e07b0f28e0f1631da
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -634,6 +733,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a8d86d6083519a2c7eafe9c635feecd7a
   id: _resource_groups_inner_1a8d86d6083519a2c7eafe9c635feecd7a
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -664,6 +770,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a516e9e475a86233d95af4d2156e3830c
   id: _resource_groups_inner_1a516e9e475a86233d95af4d2156e3830c
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -700,6 +809,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a2c33642d959aa055cc9dec7a6f607492
   id: _resource_groups_inner_1a2c33642d959aa055cc9dec7a6f607492
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -727,6 +839,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
       description: <p>the List&lt;<xref href="com.microsoft.azure.management.resources.implementation.api._generic_resource_inner" data-throw-if-not-resolved="false"></xref>&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a54cc26a8e7c2a02bdc7909dede8d5296
   id: _resource_groups_inner_1a54cc26a8e7c2a02bdc7909dede8d5296
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -760,6 +879,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a3dcaa047ed3e96b27decd0a0b1b5bfc7
   id: _resource_groups_inner_1a3dcaa047ed3e96b27decd0a0b1b5bfc7
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -792,6 +914,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_group_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a54006b5d92ffb9324a98ff63021f785d
   id: _resource_groups_inner_1a54006b5d92ffb9324a98ff63021f785d
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -827,6 +956,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a1d13f28c169936540d541864e64d1695
   id: _resource_groups_inner_1a1d13f28c169936540d541864e64d1695
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -883,6 +1015,14 @@ references:
     href: com.microsoft.azure.management.resources.implementation.api._generic_resource_inner.yml
   - name: ' > >'
     fullName: ' > >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_inner9ec3e006
   spec.java:
   - name: 'final '
@@ -963,6 +1103,10 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
+- uid: 8256ba40
+  spec.java:
+  - name: InterruptedException
+    fullName: InterruptedException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '

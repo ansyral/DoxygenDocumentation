@@ -53,11 +53,20 @@ items:
     return:
       type: 18bbd974
       description: <p>list of resources </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 references:
 - uid: 18bbd974
   spec.java:
   - name: List< T >
     fullName: List< T >
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.compute._virtual_machine_images
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_images.yml

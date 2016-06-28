@@ -55,6 +55,9 @@ items:
     return:
       type: 521c6d27
       description: <p>created resource </p>
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>if anything goes wrong </p>
 - uid: com.microsoft.azure._test_template_1ad0692209779060ed14522787fd1f8460
   id: _test_template_1ad0692209779060ed14522787fd1f8460
   parent: com.microsoft.azure._test_template
@@ -105,6 +108,9 @@ items:
     - id: resourceGroups
       type: com.microsoft.azure.management.resources._resource_groups
       description: <p>the resource groups collection </p>
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>if anything goes wrong </p>
 - uid: com.microsoft.azure._test_template_1a166a78b0c84807111b68036dd2af10a6
   id: _test_template_1a166a78b0c84807111b68036dd2af10a6
   parent: com.microsoft.azure._test_template
@@ -150,6 +156,9 @@ items:
     return:
       type: 521c6d27
       description: <p>the updated resource </p>
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>if anything goes wrong </p>
 - uid: com.microsoft.azure._test_template_1a5d4b9939a4feb23308cae80bf0f247bc
   id: _test_template_1a5d4b9939a4feb23308cae80bf0f247bc
   parent: com.microsoft.azure._test_template
@@ -167,6 +176,9 @@ items:
   summary: <p>Tests the deletion logic. </p>
   syntax:
     content: public void verifyDeleting()
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>if anything goes wrong </p>
 - uid: com.microsoft.azure._test_template_1a8b2365cc7588e8a02ba2b68b3ace25e3
   id: _test_template_1a8b2365cc7588e8a02ba2b68b3ace25e3
   parent: com.microsoft.azure._test_template
@@ -187,6 +199,11 @@ items:
     return:
       type: 8ce1ecb9
       description: <p>the gotten resource </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>if anything goes wrong </p>
+  - type: cbf33bbe
+    description: <p>if anything goes wrong </p>
 - uid: com.microsoft.azure._test_template_1a1f5d1f8a4ebb4003b3827f963baf8103
   id: _test_template_1a1f5d1f8a4ebb4003b3827f963baf8103
   parent: com.microsoft.azure._test_template
@@ -207,6 +224,11 @@ items:
     return:
       type: f75371fa
       description: <p>number of resources in the list </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>if anything goes wrong </p>
+  - type: cbf33bbe
+    description: <p>if anything goes wrong </p>
 references:
 - uid: "26831127"
   spec.java:
@@ -220,6 +242,10 @@ references:
   spec.java:
   - name: abstract T
     fullName: abstract T
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: 8ce1ecb9
   spec.java:
   - name: T
@@ -228,6 +254,10 @@ references:
   spec.java:
   - name: int
     fullName: int
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: 5beb11ad
   spec.java:
   - name: abstract void

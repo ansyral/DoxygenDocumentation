@@ -63,6 +63,9 @@ items:
     return:
       type: com.microsoft.azure._azure._authenticated
       description: <p>authenticated <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> client </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>exception thrown from file access </p>
 - uid: com.microsoft.azure._azure_1a2815152be4fecc82d2797863cf9f46ef
   id: _azure_1a2815152be4fecc82d2797863cf9f46ef
   parent: com.microsoft.azure._azure
@@ -423,6 +426,10 @@ references:
   spec.java:
   - name: File
     fullName: File
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: "26831127"
   spec.java:
   - name: String

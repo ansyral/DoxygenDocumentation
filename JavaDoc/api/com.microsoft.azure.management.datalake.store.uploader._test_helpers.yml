@@ -48,6 +48,8 @@ items:
     return:
       type: "26831127"
       description: <p>The path of the file that will be created. </p>
+  exceptions:
+  - type: cbf33bbe
 - uid: com.microsoft.azure.management.datalake.store.uploader._test_helpers_1a80825cfc1f57f279a024914901f2776b
   id: _test_helpers_1a80825cfc1f57f279a024914901f2776b
   parent: com.microsoft.azure.management.datalake.store.uploader._test_helpers
@@ -81,6 +83,8 @@ items:
     return:
       type: "26831127"
       description: <p>The path of the file that will be created. </p>
+  exceptions:
+  - type: cbf33bbe
 references:
 - uid: bc819c2f
   spec.java:
@@ -90,6 +94,10 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: f75371fa
   spec.java:
   - name: int

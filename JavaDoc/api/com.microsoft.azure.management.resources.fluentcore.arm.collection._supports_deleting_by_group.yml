@@ -51,11 +51,18 @@ items:
     - id: name
       type: "26831127"
       description: <p>The name of the resource </p>
+  exceptions:
+  - type: 8a99d4b0
+    description: <p>error to throw </p>
 references:
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml

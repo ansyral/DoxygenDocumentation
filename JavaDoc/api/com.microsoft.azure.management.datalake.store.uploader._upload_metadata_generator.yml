@@ -51,6 +51,13 @@ items:
     return:
       type: com.microsoft.azure.management.datalake.store.uploader._upload_metadata
       description: <p>A new <xref href="com.microsoft.azure.management.datalake.store.uploader._upload_metadata" data-throw-if-not-resolved="false"></xref> object. </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>Thrown if there is an issue saving the metadata to disk. </p>
+  - type: com.microsoft.azure.management.datalake.store.uploader._upload_failed_exception
+    description: <p>Thrown if there is an issue aligning the segment record boundaries </p>
+  - type: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception
+    description: <p>Thrown if the metadata is invalid. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator_1a14ca37959b41e0e53f24e38faca3c24e
   id: _upload_metadata_generator_1a14ca37959b41e0e53f24e38faca3c24e
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator
@@ -78,6 +85,11 @@ items:
     return:
       type: com.microsoft.azure.management.datalake.store.uploader._upload_metadata
       description: <p>The deserialized <xref href="com.microsoft.azure.management.datalake.store.uploader._upload_metadata" data-throw-if-not-resolved="false"></xref> from the specified file path. </p>
+  exceptions:
+  - type: 7c6d07eb
+    description: <p>Thrown if the specified metadataFilePath is invalid. </p>
+  - type: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception
+    description: <p>Thrown if the metadata itself is invalid. </p>
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator_1a881c0ff77a5567b7e85dd75d01a9cdb0
   id: _upload_metadata_generator_1a881c0ff77a5567b7e85dd75d01a9cdb0
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator
@@ -138,6 +150,14 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: 7c6d07eb
+  spec.java:
+  - name: FileNotFoundException
+    fullName: FileNotFoundException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_parameters
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._upload_parameters.yml

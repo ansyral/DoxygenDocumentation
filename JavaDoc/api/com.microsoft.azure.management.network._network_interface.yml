@@ -155,7 +155,7 @@ items:
       description: >-
         <p>
 
-          <computeroutput>true</computeroutput> if IP forwarding is enabled in this network interface </p>
+          <code>true</code> if IP forwarding is enabled in this network interface </p>
 - uid: com.microsoft.azure.management.network._network_interface_1a32e1e1729a11b966611277f353172e5d
   id: _network_interface_1a32e1e1729a11b966611277f353172e5d
   parent: com.microsoft.azure.management.network._network_interface
@@ -177,7 +177,7 @@ items:
       description: >-
         <p>
 
-          <computeroutput>true</computeroutput> if this is primary network interface in a virtual machine </p>
+          <code>true</code> if this is primary network interface in a virtual machine </p>
 - uid: com.microsoft.azure.management.network._network_interface_1a117017b07abca9bb694b0c03cbad8512
   id: _network_interface_1a117017b07abca9bb694b0c03cbad8512
   parent: com.microsoft.azure.management.network._network_interface
@@ -222,6 +222,11 @@ items:
     return:
       type: com.microsoft.azure.management.network._network_security_group
       description: <p>the network security group associated with this network interface. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 - uid: com.microsoft.azure.management.network._network_interface_1af7598f2b014e1188f67668f1d23c7f0e
   id: _network_interface_1af7598f2b014e1188f67668f1d23c7f0e
   parent: com.microsoft.azure.management.network._network_interface
@@ -266,6 +271,11 @@ items:
     return:
       type: com.microsoft.azure.management.network._network
       description: <p>the virtual network associated with this network interface. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 - uid: com.microsoft.azure.management.network._network_interface_1a412a50fa9d8862d2580684c584793fbe
   id: _network_interface_1a412a50fa9d8862d2580684c584793fbe
   parent: com.microsoft.azure.management.network._network_interface
@@ -335,6 +345,11 @@ items:
     return:
       type: com.microsoft.azure.management.network._public_ip_address
       description: <p>the public IP associated with this network interface </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud. </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization. </p>
 - uid: com.microsoft.azure.management.network._network_interface_1a1aa3f952622de20145debf10fa810f16
   id: _network_interface_1a1aa3f952622de20145debf10fa810f16
   parent: com.microsoft.azure.management.network._network_interface
@@ -367,6 +382,10 @@ references:
   spec.java:
   - name: List< String >
     fullName: List< String >
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: f6a6204dcom.microsoft.azure.management.network._nic_ip_configuration9ec3e006
   spec.java:
   - name: 'List< '

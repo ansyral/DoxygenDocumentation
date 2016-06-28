@@ -65,6 +65,11 @@ items:
     return:
       type: com.microsoft.rest._service_response34132889
       description: <p>a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
+  exceptions:
+  - type: 0ca03e3a
+    description: <p>exceptions from the REST call </p>
+  - type: cbf33bbe
+    description: <p>exceptions from deserialization </p>
 - uid: com.microsoft.rest._service_response_builder_1abb2a56df03577e2612f53664ec74a024
   id: _service_response_builder_1abb2a56df03577e2612f53664ec74a024
   parent: com.microsoft.rest._service_response_builder
@@ -95,6 +100,9 @@ items:
     return:
       type: "79317049"
       description: <p>the response body, deserialized </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>thrown for any deserialization errors </p>
 - uid: com.microsoft.rest._service_response_builder_1a67aef5567ab717a471b73feb66d98d86
   id: _service_response_builder_1a67aef5567ab717a471b73feb66d98d86
   parent: com.microsoft.rest._service_response_builder
@@ -124,6 +132,11 @@ items:
     return:
       type: com.microsoft.rest._service_response34132889
       description: <p>a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
+  exceptions:
+  - type: 0ca03e3a
+    description: <p>exceptions from the REST call </p>
+  - type: cbf33bbe
+    description: <p>exceptions from deserialization </p>
 - uid: com.microsoft.rest._service_response_builder_1a882143c63c6db9b97c1c3a8881f9503d
   id: _service_response_builder_1a882143c63c6db9b97c1c3a8881f9503d
   parent: com.microsoft.rest._service_response_builder
@@ -156,6 +169,11 @@ items:
     return:
       type: f5665ddecom.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
+  exceptions:
+  - type: 0ca03e3a
+    description: <p>exceptions from the REST call </p>
+  - type: cbf33bbe
+    description: <p>exceptions from deserialization </p>
 - uid: com.microsoft.rest._service_response_builder_1ad92bf9b7be14dc1b29b3f2949c84b8af
   id: _service_response_builder_1ad92bf9b7be14dc1b29b3f2949c84b8af
   parent: com.microsoft.rest._service_response_builder
@@ -188,6 +206,11 @@ items:
     return:
       type: f5665ddecom.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
+  exceptions:
+  - type: 0ca03e3a
+    description: <p>exceptions from the REST call </p>
+  - type: cbf33bbe
+    description: <p>exceptions from deserialization </p>
 - uid: com.microsoft.rest._service_response_builder_1a9f0d6ec601ca30598eb6f46c9f965b85
   id: _service_response_builder_1a9f0d6ec601ca30598eb6f46c9f965b85
   parent: com.microsoft.rest._service_response_builder
@@ -433,6 +456,14 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
+- uid: 0ca03e3a
+  spec.java:
+  - name: E
+    fullName: E
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: 1f34a690
   spec.java:
   - name: Response< Void >

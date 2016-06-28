@@ -48,6 +48,13 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_order_collection_inner9ec3e006
       description: <p>the <xref href="com.microsoft.azure.management.website.implementation.api._certificate_order_collection_inner" data-throw-if-not-resolved="false"></xref> object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.website.implementation.api._global_certificate_orders_inner_1a998cf1460a251327201b628dabf6789c
   id: _global_certificate_orders_inner_1a998cf1460a251327201b628dabf6789c
   parent: com.microsoft.azure.management.website.implementation.api._global_certificate_orders_inner
@@ -75,6 +82,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.website.implementation.api._global_certificate_orders_inner_1a604fd468bc4c29ab2348bb0f0373943e
   id: _global_certificate_orders_inner_1a604fd468bc4c29ab2348bb0f0373943e
   parent: com.microsoft.azure.management.website.implementation.api._global_certificate_orders_inner
@@ -129,6 +139,13 @@ items:
     return:
       type: com.microsoft.rest._service_response9aef07c3
       description: <p>the Object object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.website.implementation.api._global_certificate_orders_inner_1a000f16ea9cdcac87e599012a37034eab
   id: _global_certificate_orders_inner_1a000f16ea9cdcac87e599012a37034eab
   parent: com.microsoft.azure.management.website.implementation.api._global_certificate_orders_inner
@@ -159,6 +176,9 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 references:
 - uid: 964879b9
   spec.java:
@@ -178,6 +198,14 @@ references:
     href: com.microsoft.azure.management.website.implementation.api._certificate_order_collection_inner.yml
   - name: ' >'
     fullName: ' >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_order_collection_inner9ec3e006
   spec.java:
   - name: 'final '

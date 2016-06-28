@@ -47,6 +47,11 @@ items:
     return:
       type: f6a6204dcom.microsoft.azure.management.compute._virtual_machine_image._sku9ec3e006
       description: <p>the virtual machine image SKUs </p>
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>thrown for an invalid response from the service </p>
+  - type: cbf33bbe
+    description: <p>thrown for IO exception </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_image._offer_1a768dcd52d9464c7fdf47cd13cb191cff
   id: _offer_1a768dcd52d9464c7fdf47cd13cb191cff
   parent: com.microsoft.azure.management.compute._virtual_machine_image._offer
@@ -119,6 +124,10 @@ references:
     href: com.microsoft.azure.management.compute._virtual_machine_image._sku.yml
   - name: ' >'
     fullName: ' >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
 - uid: com.microsoft.azure.management.resources.fluentcore.arm._region
   parent: com.microsoft.azure.management.resources.fluentcore.arm
