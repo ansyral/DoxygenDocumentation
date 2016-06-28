@@ -23,7 +23,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface Wrapper
+    content: public interface Wrapper<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
   id: _wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
   parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
@@ -200,7 +202,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableWrapperImpl
+    content: public class IndexableRefreshableWrapperImpl<FluentModelT, InnerModelT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
@@ -212,7 +217,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableWrapperImpl
+    content: public class IndexableWrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
@@ -224,7 +231,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class WrapperImpl
+    content: public class WrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095
 - uid: com.microsoft.azure.management.resources._generic_resource
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource.yml

@@ -28,7 +28,9 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.rest._service_response_1ab16b3668387ed766982f05ab74151300
   id: _service_response_1ab16b3668387ed766982f05ab74151300
   parent: com.microsoft.rest._service_response
@@ -194,7 +196,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureResponse
+    content: public class AzureResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml

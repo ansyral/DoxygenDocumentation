@@ -25,7 +25,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionStorageAccount
+    content: public interface DefinitionStorageAccount<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account_1a35e427e5635c0818b9968128d54a7421
   id: _definition_storage_account_1a35e427e5635c0818b9968128d54a7421
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account
@@ -114,14 +116,14 @@ items:
       type: 8ce1ecb9
       description: <p>the stage representing creatable VM definition </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: ca3c7f08
   spec.java:
   - name: StorageAccount.DefinitionCreatable

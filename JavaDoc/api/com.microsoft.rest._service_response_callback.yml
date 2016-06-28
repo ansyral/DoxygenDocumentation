@@ -24,7 +24,9 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class ServiceResponseCallback
+    content: public class ServiceResponseCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
   inheritance:
   - retrofit2.Callback< ResponseBody >
 - uid: com.microsoft.rest._service_response_callback_1a35c94d38cb5def1b6a51ad3308c022f2
@@ -73,6 +75,10 @@ items:
       type: com.microsoft.rest._service_callback34132889
       description: <p>the client callback to call on a terminal state. </p>
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
 - uid: com.microsoft.rest._service_callback34132889
   spec.java:
   - uid: com.microsoft.rest._service_callback
@@ -100,7 +106,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.rest._service_response_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_callback.yml

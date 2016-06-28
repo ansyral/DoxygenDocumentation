@@ -25,7 +25,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithAvailabilitySet
+    content: public interface DefinitionWithAvailabilitySet<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set_1adfe906d03c71e37250d5c586979cf012
   id: _definition_with_availability_set_1adfe906d03c71e37250d5c586979cf012
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set
@@ -114,14 +116,14 @@ items:
       type: 8ce1ecb9
       description: <p>the stage representing creatable VM definition </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: 98b4da50
   spec.java:
   - name: AvailabilitySet.DefinitionCreatable

@@ -248,7 +248,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureConfigurableImpl
+    content: public class AzureConfigurableImpl<T extends AzureConfigurable< T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.implementation._resource_manager._configurable
   parent: com.microsoft.azure.management.resources.implementation
   href: com.microsoft.azure.management.resources.implementation._resource_manager._configurable.yml

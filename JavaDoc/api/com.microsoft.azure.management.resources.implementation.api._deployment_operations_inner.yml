@@ -505,7 +505,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.implementation.api._deployment_operation_inner
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._deployment_operation_inner.yml
@@ -547,7 +549,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -559,7 +563,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
@@ -571,7 +577,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.management.resources.implementation.api._page_impl
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
@@ -583,7 +591,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources._deployment_operations
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment_operations.yml

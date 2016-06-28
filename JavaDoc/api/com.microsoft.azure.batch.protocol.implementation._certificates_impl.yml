@@ -1210,7 +1210,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._certificate_add_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._certificate_add_headers.yml
@@ -1299,7 +1302,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._certificates_1ad9dfaf1af1cd0f619787c2f7a59aa21f
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
@@ -1367,7 +1372,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._certificate
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._certificate.yml
@@ -1431,7 +1438,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol._certificates_1a0242f7fc0eb95d8c94b8d70ba13a0539
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
@@ -1847,7 +1856,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._certificates_1aea2f627a3097c5dd764c2fb56b7896f5
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml

@@ -203,7 +203,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -233,4 +235,6 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9

@@ -33,7 +33,11 @@ items:
 
     <p></p>
   syntax:
-    content: public class CreatableImpl
+    content: public class CreatableImpl<FluentModelT, InnerModelT, FluentModelImplT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
+    - type: 664a96a9
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533
   - com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa
@@ -289,14 +293,22 @@ items:
     return:
       type: com.microsoft.rest._service_call
 references:
-- uid: "26831127"
+- uid: 2f67777b
   spec.java:
-  - name: String
-    fullName: String
+  - name: FluentModelT
+    fullName: FluentModelT
 - uid: 23ab9e11
   spec.java:
   - name: InnerModelT
     fullName: InnerModelT
+- uid: 664a96a9
+  spec.java:
+  - name: FluentModelImplT
+    fullName: FluentModelImplT
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: 8a99d4b0
   spec.java:
   - name: Exception
@@ -329,10 +341,6 @@ references:
     name: ServiceCall
     fullName: com.microsoft.rest.ServiceCall
     href: com.microsoft.rest._service_call.yml
-- uid: 664a96a9
-  spec.java:
-  - name: FluentModelImplT
-    fullName: FluentModelImplT
 - uid: com.microsoft.rest._service_callbackc11fe87d
   spec.java:
   - uid: com.microsoft.rest._service_callback
@@ -418,7 +426,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableWrapperImpl
+    content: public class IndexableRefreshableWrapperImpl<FluentModelT, InnerModelT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl.yml
@@ -430,7 +441,11 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableUpdatableImpl
+    content: public class CreatableUpdatableImpl<FluentModelT, InnerModelT, FluentModelImplT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
+    - type: 664a96a9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_group
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_group.yml
@@ -460,7 +475,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -472,7 +489,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Creatable
+    content: public interface Creatable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml

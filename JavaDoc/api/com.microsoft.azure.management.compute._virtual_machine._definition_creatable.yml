@@ -507,7 +507,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionPassword
+    content: public interface DefinitionPassword<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_o_s_disk_settings.yml
@@ -519,7 +521,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionOSDiskSettings
+    content: public interface DefinitionOSDiskSettings<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size.yml
@@ -531,7 +535,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithVMSize
+    content: public interface DefinitionWithVMSize<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account.yml
@@ -543,7 +549,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionStorageAccount
+    content: public interface DefinitionStorageAccount<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk.yml
@@ -555,7 +563,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithDataDisk
+    content: public interface DefinitionWithDataDisk<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_availability_set.yml
@@ -567,7 +577,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithAvailabilitySet
+    content: public interface DefinitionWithAvailabilitySet<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface.yml
@@ -579,7 +591,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithSecondaryNetworkInterface
+    content: public interface DefinitionWithSecondaryNetworkInterface<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -591,7 +605,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Creatable
+    content: public interface Creatable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable.yml

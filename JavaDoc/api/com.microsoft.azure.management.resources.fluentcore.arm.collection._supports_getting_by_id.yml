@@ -23,7 +23,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface SupportsGettingById
+    content: public interface SupportsGettingById<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id_1aa29af283908f5df0042793462b18b1f0
   id: _supports_getting_by_id_1aa29af283908f5df0042793462b18b1f0
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
@@ -59,14 +61,14 @@ items:
   - type: 3c87bd19
     description: <p>exceptions thrown when something is wrong with the input parameters </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: cbf33bbe
   spec.java:
   - name: IOException
@@ -155,7 +157,12 @@ references:
   type: Class
   summary: <p>Base class for resource collection classes. (Internal use only) </p>
   syntax:
-    content: public class GroupableResourcesImpl
+    content: public class GroupableResourcesImpl<T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 17328f74
+    - type: 52cf8095
+    - type: 891f7fcf
 - uid: com.microsoft.azure.management.resources._generic_resources
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resources.yml

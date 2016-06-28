@@ -577,7 +577,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute.implementation.api._availability_set_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._availability_set_inner.yml
@@ -616,7 +618,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
@@ -637,7 +641,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml

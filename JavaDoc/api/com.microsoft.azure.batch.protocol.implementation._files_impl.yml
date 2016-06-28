@@ -2069,7 +2069,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._file_delete_from_task_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._file_delete_from_task_headers.yml
@@ -2161,7 +2164,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._files_1aec57a679fc653f16abd5faf62f5b3844
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -2903,7 +2908,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._node_file
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._node_file.yml
@@ -2980,7 +2987,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol._files_1a25d33007182632c6162d83614d2a9ba9
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -3184,7 +3193,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._files_1a055bb057336c1b9c4c33456b599271df
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml

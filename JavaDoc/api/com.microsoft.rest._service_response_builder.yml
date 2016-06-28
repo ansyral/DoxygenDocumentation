@@ -35,7 +35,10 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class ServiceResponseBuilder
+    content: public class ServiceResponseBuilder<T, E extends RestException>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 0ca03e3a
 - uid: com.microsoft.rest._service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
   id: _service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
   parent: com.microsoft.rest._service_response_builder
@@ -404,6 +407,14 @@ items:
       type: b91d9c77
       description: <p>a mapping of response status codes and response destination types </p>
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: 0ca03e3a
+  spec.java:
+  - name: E
+    fullName: E
 - uid: b91d9c77
   spec.java:
   - name: Map< Integer, Type >
@@ -456,10 +467,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
-- uid: 0ca03e3a
-  spec.java:
-  - name: E
-    fullName: E
 - uid: cbf33bbe
   spec.java:
   - name: IOException
@@ -501,7 +508,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureServiceResponseBuilder
+    content: public class AzureServiceResponseBuilder<T, E extends RestException>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 0ca03e3a
 - uid: com.microsoft.rest._rest_exception
   parent: com.microsoft.rest
   href: com.microsoft.rest._rest_exception.yml
@@ -542,7 +552,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.rest._service_response_with_headers
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_with_headers.yml
@@ -554,4 +566,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"

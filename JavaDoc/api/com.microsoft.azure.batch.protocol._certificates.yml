@@ -1134,7 +1134,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._certificate_add_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._certificate_add_headers.yml
@@ -1223,7 +1226,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl_1afd3567e4c88605b4321e0e0f7ce6af68
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -1291,7 +1296,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._certificate
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._certificate.yml
@@ -1355,7 +1362,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl_1a35d2063303d787065df0eaecba80e778
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -1771,7 +1780,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl_1af8e1d20b68d04e563bc4f19d49ab077a
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml

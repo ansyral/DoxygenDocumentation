@@ -26,7 +26,9 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
   inheritance:
   - com.microsoft.azure._page
 - uid: com.microsoft.azure.management.storage.implementation.api._page_impl_1a599131efb9ebad6733521b39dd21843f
@@ -132,6 +134,10 @@ items:
       type: com.microsoft.azure.management.storage.implementation.api._page_impl34132889
       description: <p>this <xref href="com.microsoft.azure._page" data-throw-if-not-resolved="false"></xref> object itself. </p>
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
 - uid: "26831127"
   spec.java:
   - name: String
@@ -159,7 +165,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Page
+    content: public interface Page<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure._page_1ad7782f2970ee6d6b4f1df557521219db
   parent: com.microsoft.azure._page
   href: com.microsoft.azure._page.yml

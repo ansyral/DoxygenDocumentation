@@ -25,7 +25,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface UpdateWithTags
+    content: public interface UpdateWithTags<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1af307b0910a16e1a10cd53688d90964ab
   id: _update_with_tags_1af307b0910a16e1a10cd53688d90964ab
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
@@ -102,14 +104,14 @@ items:
       type: 8ce1ecb9
       description: <p>the next stage of the resource update </p>
 references:
-- uid: 805937fc
-  spec.java:
-  - name: Map< String, String >
-    fullName: Map< String, String >
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: 805937fc
+  spec.java:
+  - name: Map< String, String >
+    fullName: Map< String, String >
 - uid: "26831127"
   spec.java:
   - name: String

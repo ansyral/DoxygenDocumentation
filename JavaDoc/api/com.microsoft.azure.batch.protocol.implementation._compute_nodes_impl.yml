@@ -2377,7 +2377,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers.yml
@@ -2478,7 +2481,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._compute_nodes_1a5ab7cf773345f150a8767e65c7342a23
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
@@ -3728,7 +3733,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_list_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._compute_node_list_headers.yml
@@ -3790,7 +3797,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol._compute_nodes_1af83c3d0121c42c07b3c4c7acdf463a0c
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
@@ -3858,7 +3867,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._compute_nodes_1a2d97ff020f8442d8a4e2fb6cf2e10ea9
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml

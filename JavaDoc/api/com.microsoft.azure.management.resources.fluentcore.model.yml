@@ -41,7 +41,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Appliable
+    content: public interface Appliable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
@@ -53,7 +55,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Attachable
+    content: public interface Attachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -65,7 +69,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Creatable
+    content: public interface Creatable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._indexable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
@@ -86,7 +92,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Refreshable
+    content: public interface Refreshable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._settable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
@@ -98,7 +106,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Settable
+    content: public interface Settable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -110,7 +120,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Updatable
+    content: public interface Updatable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -122,7 +134,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Wrapper
+    content: public interface Wrapper<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation.yml
   name: com.microsoft.azure.management.resources.fluentcore.model.implementation

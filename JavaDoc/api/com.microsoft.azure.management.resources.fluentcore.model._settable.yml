@@ -23,7 +23,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface Settable
+    content: public interface Settable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066
   id: _settable_1aff7fcac9e49ac1dc14afe615f7bec066
   parent: com.microsoft.azure.management.resources.fluentcore.model._settable
@@ -72,7 +74,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update
+    content: public interface Update<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
@@ -84,7 +88,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update
+    content: public interface Update<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

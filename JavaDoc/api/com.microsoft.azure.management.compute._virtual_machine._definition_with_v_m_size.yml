@@ -24,7 +24,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithVMSize
+    content: public interface DefinitionWithVMSize<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size_1ae3f3d2f34bb4d2759f9059f3eefe66ae
   id: _definition_with_v_m_size_1ae3f3d2f34bb4d2759f9059f3eefe66ae
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_v_m_size
@@ -80,14 +82,14 @@ items:
       type: 8ce1ecb9
       description: <p>the stage representing creatable VM definition </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_creatable.yml

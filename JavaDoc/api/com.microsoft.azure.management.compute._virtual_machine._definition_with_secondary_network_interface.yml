@@ -24,7 +24,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithSecondaryNetworkInterface
+    content: public interface DefinitionWithSecondaryNetworkInterface<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
   id: _definition_with_secondary_network_interface_1a4f982c67a7105949a9febf959b28fa6e
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_with_secondary_network_interface
@@ -84,14 +86,14 @@ items:
       type: 8ce1ecb9
       description: <p>the stage representing creatable VM definition </p>
 references:
-- uid: fb7da1e0
-  spec.java:
-  - name: NetworkInterface.DefinitionCreatable
-    fullName: NetworkInterface.DefinitionCreatable
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: fb7da1e0
+  spec.java:
+  - name: NetworkInterface.DefinitionCreatable
+    fullName: NetworkInterface.DefinitionCreatable
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_creatable.yml

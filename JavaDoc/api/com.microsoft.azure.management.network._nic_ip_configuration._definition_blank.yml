@@ -21,7 +21,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionBlank
+    content: public interface DefinitionBlank<ParentT>
+    typeParameters:
+    - type: 18a275b1
   inheritance:
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network
   inheritedMembers:
@@ -30,6 +32,10 @@ items:
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network_1a5c6c038d7567687b420e75aab88408fc
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network_1a1c1a9220d3a16b271b2eabdb94538ec2
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network_1a246a1d0cc31a63f8d1e07842d8150cbe
   parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network.yml
@@ -124,7 +130,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithNetwork
+    content: public interface DefinitionWithNetwork<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
@@ -136,7 +144,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml

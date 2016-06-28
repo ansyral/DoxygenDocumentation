@@ -24,7 +24,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithOptionalConfiguration
+    content: public interface DefinitionWithOptionalConfiguration<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration_1a450202d1000980db8498f97374b686c9
   id: _definition_with_optional_configuration_1a450202d1000980db8498f97374b686c9
   parent: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
@@ -80,6 +82,10 @@ items:
       type: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
       description: <p>the next stage of data disk configuration </p>
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: 08effaa0
   spec.java:
   - name: Integer
@@ -103,7 +109,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definitions
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definitions.yml
@@ -115,7 +123,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute.implementation.api._caching_types
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml

@@ -23,7 +23,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithSubnet
+    content: public interface DefinitionWithSubnet<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet_1adfe5cdc34179e1f479901424ab596db6
   id: _definition_with_subnet_1adfe5cdc34179e1f479901424ab596db6
   parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet
@@ -52,6 +54,10 @@ items:
       type: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ipa6da57ba
       description: <p>the next stage of the Ip configuration definition </p>
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: "26831127"
   spec.java:
   - name: String
@@ -75,7 +81,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip.yml
@@ -87,4 +95,6 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPrivateIp
+    content: public interface DefinitionWithPrivateIp<ParentT>
+    typeParameters:
+    - type: 18a275b1

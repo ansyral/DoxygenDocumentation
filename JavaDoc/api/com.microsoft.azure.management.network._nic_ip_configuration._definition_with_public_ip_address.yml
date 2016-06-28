@@ -26,7 +26,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPublicIpAddress
+    content: public interface DefinitionWithPublicIpAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a6c5600a5264ddd26a33afe0dbb4e54de
   id: _definition_with_public_ip_address_1a6c5600a5264ddd26a33afe0dbb4e54de
   parent: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
@@ -136,6 +138,10 @@ items:
       type: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachablea6da57ba
       description: <p>tthe next stage of the Ip configuration definition </p>
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: 0d27d50c
   spec.java:
   - name: PublicIpAddress.DefinitionCreatable
@@ -163,7 +169,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
@@ -175,7 +183,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address.yml

@@ -225,7 +225,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk.yml
@@ -237,7 +239,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachExistingDataDisk
+    content: public interface DefinitionAttachExistingDataDisk<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk.yml
@@ -249,7 +253,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachNewDataDisk
+    content: public interface DefinitionAttachNewDataDisk<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._availability_set._definition_blank
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_set._definition_blank.yml
@@ -306,7 +312,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionOSDiskSettings
+    content: public interface DefinitionOSDiskSettings<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_password
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_password.yml
@@ -318,7 +326,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionPassword
+    content: public interface DefinitionPassword<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definitions
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definitions.yml
@@ -348,7 +358,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_storage_account.yml
@@ -360,7 +372,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionStorageAccount
+    content: public interface DefinitionStorageAccount<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_windows_creatable.yml
@@ -390,7 +404,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithAvailabilitySet
+    content: public interface DefinitionWithAvailabilitySet<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_data_disk.yml
@@ -402,7 +418,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithDataDisk
+    content: public interface DefinitionWithDataDisk<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._availability_set._definition_with_group
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_set._definition_with_group.yml
@@ -441,7 +459,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithOptionalConfiguration
+    content: public interface DefinitionWithOptionalConfiguration<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_o_s.yml
@@ -498,7 +518,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithSecondaryNetworkInterface
+    content: public interface DefinitionWithSecondaryNetworkInterface<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._data_disk._definition_with_store_at
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_with_store_at.yml
@@ -510,7 +532,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithStoreAt
+    content: public interface DefinitionWithStoreAt<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_subnet.yml
@@ -531,7 +555,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithVMSize
+    content: public interface DefinitionWithVMSize<T extends DefinitionCreatable>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute._virtual_machine_image._offer
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_image._offer.yml
@@ -582,7 +608,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update
+    content: public interface Update<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._virtual_machine._update
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._update.yml

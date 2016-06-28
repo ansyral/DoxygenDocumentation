@@ -217,7 +217,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Wrapper
+    content: public interface Wrapper<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
@@ -239,7 +241,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk.yml
@@ -251,7 +255,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachExistingDataDisk
+    content: public interface DefinitionAttachExistingDataDisk<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk.yml
@@ -263,7 +269,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachNewDataDisk
+    content: public interface DefinitionAttachNewDataDisk<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definitions
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definitions.yml
@@ -275,7 +283,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
@@ -287,7 +297,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithOptionalConfiguration
+    content: public interface DefinitionWithOptionalConfiguration<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_with_store_at
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_with_store_at.yml
@@ -299,7 +311,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithStoreAt
+    content: public interface DefinitionWithStoreAt<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._update
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._update.yml
@@ -311,7 +325,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update
+    content: public interface Update<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute.implementation.api._caching_types
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml

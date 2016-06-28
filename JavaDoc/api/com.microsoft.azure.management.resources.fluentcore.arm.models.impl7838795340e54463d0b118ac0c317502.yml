@@ -22,7 +22,10 @@ items:
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Child resource abstract implementation. (Internal use only) </p>
   syntax:
-    content: public class ChildResourceImpl
+    content: public class ChildResourceImpl<InnerT, ParentImplT>
+    typeParameters:
+    - type: 52cf8095
+    - type: a6c7119d
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl
@@ -97,10 +100,6 @@ items:
     return:
       type: a6c7119d
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 52cf8095
   spec.java:
   - name: InnerT
@@ -109,6 +108,10 @@ references:
   spec.java:
   - name: ParentImplT
     fullName: ParentImplT
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: 9065866d
   spec.java:
   - name: abstract String
@@ -206,7 +209,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableWrapperImpl
+    content: public class IndexableWrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml

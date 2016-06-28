@@ -430,7 +430,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -442,7 +445,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._node_agent_sku
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._node_agent_sku.yml
@@ -533,7 +538,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl_1ad86b8dfd2ae442d57056ea32f934366d
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -595,7 +602,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl_1a871328e20e2caa8401324135b0188a49
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml

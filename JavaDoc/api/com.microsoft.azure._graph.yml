@@ -28,7 +28,10 @@ items:
 
     <p></p>
   syntax:
-    content: public class Graph
+    content: public class Graph<T, U extends Node< T>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 6043614c
 - uid: com.microsoft.azure._graph_1a86314d0d81f14a3ffb13c531f94cf54e
   id: _graph_1a86314d0d81f14a3ffb13c531f94cf54e
   parent: com.microsoft.azure._graph
@@ -115,14 +118,18 @@ items:
       type: bb01fbc9
       description: <p>the graph visitor </p>
 references:
-- uid: 76b2693b
+- uid: 8ce1ecb9
   spec.java:
-  - name: Map< String, U >
-    fullName: Map< String, U >
+  - name: T
+    fullName: T
 - uid: 6043614c
   spec.java:
   - name: U
     fullName: U
+- uid: 76b2693b
+  spec.java:
+  - name: Map< String, U >
+    fullName: Map< String, U >
 - uid: bb01fbc9
   spec.java:
   - name: Visitor
@@ -139,4 +146,6 @@ references:
 
     <p></p>
   syntax:
-    content: public class Node
+    content: public class Node<T>
+    typeParameters:
+    - type: 8ce1ecb9

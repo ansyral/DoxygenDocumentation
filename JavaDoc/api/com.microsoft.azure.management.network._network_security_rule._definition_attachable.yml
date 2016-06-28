@@ -23,7 +23,9 @@ items:
 
     <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._attachable
   inheritedMembers:
@@ -56,6 +58,10 @@ items:
       type: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
       description: <p>the next stage of the update </p>
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: f75371fa
   spec.java:
   - name: int
@@ -91,7 +97,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Attachable
+    content: public interface Attachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
@@ -100,7 +108,9 @@ references:
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml

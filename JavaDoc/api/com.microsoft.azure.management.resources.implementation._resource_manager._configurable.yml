@@ -233,7 +233,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface AzureConfigurable
+    content: public interface AzureConfigurable<T extends AzureConfigurable< T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.rest.credentials._service_client_credentials
   parent: com.microsoft.rest.credentials
   href: com.microsoft.rest.credentials._service_client_credentials.yml

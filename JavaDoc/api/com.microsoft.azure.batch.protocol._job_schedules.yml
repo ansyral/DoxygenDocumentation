@@ -1922,7 +1922,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._job_schedule_exists_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._job_schedule_exists_headers.yml
@@ -2002,7 +2005,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl_1ac5682bd3b8cfd5d452d279bb550b0e76
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
@@ -2978,7 +2983,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._job_schedule_list_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._job_schedule_list_headers.yml
@@ -3033,7 +3040,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl_1a2695e5ce32741c89d24fee35f37c6f02
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
@@ -3095,7 +3104,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl_1a07ea86c0f416660650cfe04682f8cdcd
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml

@@ -24,7 +24,12 @@ items:
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   summary: <p>Base class for resource collection classes. (Internal use only) </p>
   syntax:
-    content: public class GroupableResourcesImpl
+    content: public class GroupableResourcesImpl<T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 17328f74
+    - type: 52cf8095
+    - type: 891f7fcf
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
   inheritedMembers:
@@ -162,6 +167,22 @@ items:
     return:
       type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: 17328f74
+  spec.java:
+  - name: ImplT
+    fullName: ImplT
+- uid: 52cf8095
+  spec.java:
+  - name: InnerT
+    fullName: InnerT
+- uid: 891f7fcf
+  spec.java:
+  - name: InnerCollectionT
+    fullName: InnerCollectionT
 - uid: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
   spec.java:
   - name: 'final '
@@ -174,10 +195,6 @@ references:
   spec.java:
   - name: final InnerCollectionT
     fullName: final InnerCollectionT
-- uid: 891f7fcf
-  spec.java:
-  - name: InnerCollectionT
-    fullName: InnerCollectionT
 - uid: "26831127"
   spec.java:
   - name: String
@@ -266,7 +283,11 @@ references:
   type: Class
   summary: <p>Base class for wrapper collections. (Internal use only) </p>
   syntax:
-    content: public class WrappersImpl
+    content: public class WrappersImpl<T, ImplT extends T, InnerT>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 17328f74
+    - type: 52cf8095
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id.yml
@@ -278,7 +299,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface SupportsGettingById
+    content: public interface SupportsGettingById<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group.yml
@@ -292,7 +315,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface SupportsGettingByGroup
+    content: public interface SupportsGettingByGroup<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machines_impl
 - uid: com.microsoft.azure.management.network.implementation._network_interfaces_impl

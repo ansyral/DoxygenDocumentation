@@ -23,7 +23,9 @@ items:
   package: com.microsoft.azure.management.network
   summary: <p>The stage of the network rule definition allowing the direction and the access type to be specified. </p>
   syntax:
-    content: public interface DefinitionWithDirectionAccess
+    content: public interface DefinitionWithDirectionAccess<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access_1a668ca373405e51a9510947abaed11b0f
   id: _definition_with_direction_access_1a668ca373405e51a9510947abaed11b0f
   parent: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
@@ -105,6 +107,10 @@ items:
       type: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
       description: <p>the next stage of the security rule definition </p>
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
@@ -121,7 +127,9 @@ references:
   type: Interface
   summary: <p>The first stage of the subnet definition. </p>
   syntax:
-    content: public interface DefinitionBlank
+    content: public interface DefinitionBlank<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
@@ -130,7 +138,9 @@ references:
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
@@ -139,7 +149,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
   syntax:
-    content: public interface DefinitionWithSourceAddress
+    content: public interface DefinitionWithSourceAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml

@@ -33,7 +33,10 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class DAGraph
+    content: public class DAGraph<T, U extends DAGNode< T>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 6043614c
   inheritance:
   - com.microsoft.azure._graph
   inheritedMembers:
@@ -257,6 +260,10 @@ items:
       type: 6043614c
       description: <p>the node ready to be consumed </p>
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
 - uid: 6043614c
   spec.java:
   - name: U
@@ -277,10 +284,6 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: 8ce1ecb9
-  spec.java:
-  - name: T
-    fullName: T
 - uid: com.microsoft.azure._graph_1a86314d0d81f14a3ffb13c531f94cf54e
   parent: com.microsoft.azure._graph
   href: com.microsoft.azure._graph.yml
@@ -347,7 +350,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class Graph
+    content: public class Graph<T, U extends Node< T>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 6043614c
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
@@ -359,7 +365,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGNode
+    content: public class DAGNode<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml

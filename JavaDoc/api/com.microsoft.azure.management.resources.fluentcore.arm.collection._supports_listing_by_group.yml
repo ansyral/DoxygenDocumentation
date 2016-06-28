@@ -25,7 +25,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface SupportsListingByGroup
+    content: public interface SupportsListingByGroup<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group_1aa411d59008350a5c3e77cafd58f67f93
   id: _supports_listing_by_group_1aa411d59008350a5c3e77cafd58f67f93
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group
@@ -59,6 +61,10 @@ items:
   - type: cbf33bbe
     description: <p>exception thrown from serialization/deserialization </p>
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
 - uid: "26831127"
   spec.java:
   - name: String
@@ -167,7 +173,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml

@@ -1729,7 +1729,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._task_add_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._task_add_headers.yml
@@ -1824,7 +1827,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl_1a448fed2a1e840e373d3b1ce7cfbed7a2
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
@@ -1898,7 +1903,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._cloud_task
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._cloud_task.yml
@@ -1969,7 +1976,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl_1a9a215c292ce73b89b6d1a25327135d0f
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
@@ -2778,7 +2787,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl_1ae65126f53f2a1315bc599df0b5914d23
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml

@@ -36,7 +36,9 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class PollingState
+    content: public class PollingState<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._polling_state_1a0a38daea037189c15d5d78fccb770c9e
   id: _polling_state_1a0a38daea037189c15d5d78fccb770c9e
   parent: com.microsoft.azure._polling_state
@@ -390,6 +392,10 @@ items:
   - type: cbf33bbe
     description: <p>thrown by deserialization </p>
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
 - uid: "1755e818"
   spec.java:
   - name: Response< ResponseBody >
@@ -418,10 +424,6 @@ references:
   spec.java:
   - name: IllegalArgumentException
     fullName: IllegalArgumentException
-- uid: 8ce1ecb9
-  spec.java:
-  - name: T
-    fullName: T
 - uid: com.microsoft.azure._polling_state._polling_resource
 - uid: com.microsoft.azure._cloud_error
   parent: com.microsoft.azure

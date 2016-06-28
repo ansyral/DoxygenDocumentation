@@ -241,7 +241,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Wrapper
+    content: public interface Wrapper<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_impl
 - uid: com.microsoft.azure.management.compute._virtual_machine_image._offer
   parent: com.microsoft.azure.management.compute

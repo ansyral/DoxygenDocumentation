@@ -25,7 +25,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithTags
+    content: public interface DefinitionWithTags<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1ab2f7fad2cbb4cb3fdcffcc1cf6b8d5f8
   id: 720b3efb4062edecc50de4ad58dc1c09_1ab2f7fad2cbb4cb3fdcffcc1cf6b8d5f8
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
@@ -102,14 +104,14 @@ items:
       type: 8ce1ecb9
       description: <p>the next stage of the resource definition </p>
 references:
-- uid: 805937fc
-  spec.java:
-  - name: Map< String, String >
-    fullName: Map< String, String >
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: 805937fc
+  spec.java:
+  - name: Map< String, String >
+    fullName: Map< String, String >
 - uid: "26831127"
   spec.java:
   - name: String

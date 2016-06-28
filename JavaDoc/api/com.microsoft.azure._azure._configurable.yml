@@ -273,7 +273,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface AzureConfigurable
+    content: public interface AzureConfigurable<T extends AzureConfigurable< T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._azure._authenticated
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure._authenticated.yml

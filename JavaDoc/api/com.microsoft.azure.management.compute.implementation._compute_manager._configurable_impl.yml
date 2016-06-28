@@ -250,7 +250,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureConfigurableImpl
+    content: public class AzureConfigurableImpl<T extends AzureConfigurable< T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable
   parent: com.microsoft.azure.management.compute.implementation
   href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable.yml

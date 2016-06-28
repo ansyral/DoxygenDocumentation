@@ -21,12 +21,18 @@ items:
 
     <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._attachable
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
@@ -50,7 +56,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Attachable
+    content: public interface Attachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._subnet._definition
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._definition.yml
@@ -59,4 +67,6 @@ references:
   type: Interface
   summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
   syntax:
-    content: public interface Definition
+    content: public interface Definition<ParentT>
+    typeParameters:
+    - type: 18a275b1

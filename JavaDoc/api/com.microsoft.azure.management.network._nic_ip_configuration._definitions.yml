@@ -21,7 +21,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
   inheritance:
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_blank
@@ -39,6 +41,10 @@ items:
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip_1a3bd097f5b67c593c900427d7ed593af5
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet_1adfe5cdc34179e1f479901424ab596db6
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
@@ -274,7 +280,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionBlank
+    content: public interface DefinitionBlank<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network.yml
@@ -286,7 +294,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithNetwork
+    content: public interface DefinitionWithNetwork<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip.yml
@@ -298,7 +308,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPrivateIp
+    content: public interface DefinitionWithPrivateIp<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet.yml
@@ -310,7 +322,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithSubnet
+    content: public interface DefinitionWithSubnet<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
@@ -322,7 +336,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPublicIpAddress
+    content: public interface DefinitionWithPublicIpAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable.yml
@@ -334,5 +350,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network.implementation._nic_ip_configuration_impl

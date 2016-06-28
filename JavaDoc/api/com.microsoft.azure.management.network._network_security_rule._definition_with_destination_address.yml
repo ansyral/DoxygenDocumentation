@@ -21,7 +21,9 @@ items:
   package: com.microsoft.azure.management.network
   summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
   syntax:
-    content: public interface DefinitionWithDestinationAddress
+    content: public interface DefinitionWithDestinationAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
   id: _definition_with_destination_address_1a3936e80b592e771b7aada3d9e211c007
   parent: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
@@ -67,6 +69,10 @@ items:
       type: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_porta6da57ba
       description: <p>the next stage of the security rule definition </p>
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: "26831127"
   spec.java:
   - name: String
@@ -87,7 +93,9 @@ references:
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
@@ -96,7 +104,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
   syntax:
-    content: public interface DefinitionWithDestinationPort
+    content: public interface DefinitionWithDestinationPort<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml

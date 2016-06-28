@@ -25,7 +25,9 @@ items:
 
     <p></p>
   syntax:
-    content: public class AzureResponse
+    content: public class AzureResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9
   inheritance:
   - com.microsoft.rest._service_response
   inheritedMembers:
@@ -226,4 +228,6 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9

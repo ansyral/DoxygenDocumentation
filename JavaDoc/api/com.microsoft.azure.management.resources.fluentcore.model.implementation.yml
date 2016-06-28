@@ -42,7 +42,11 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableImpl
+    content: public class CreatableImpl<FluentModelT, InnerModelT, FluentModelImplT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
+    - type: 664a96a9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_group
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_group.yml
@@ -72,7 +76,11 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableUpdatableImpl
+    content: public class CreatableUpdatableImpl<FluentModelT, InnerModelT, FluentModelImplT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
+    - type: 664a96a9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl.yml
@@ -93,7 +101,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableImpl
+    content: public class IndexableRefreshableImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa.yml
@@ -105,7 +115,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableWrapperImpl
+    content: public class IndexableRefreshableWrapperImpl<FluentModelT, InnerModelT>
+    typeParameters:
+    - type: 2f67777b
+    - type: 23ab9e11
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
@@ -117,7 +130,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableWrapperImpl
+    content: public class IndexableWrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
@@ -129,4 +144,6 @@ references:
 
     <p></p>
   syntax:
-    content: public class WrapperImpl
+    content: public class WrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095

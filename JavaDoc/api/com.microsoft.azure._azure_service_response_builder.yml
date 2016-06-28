@@ -25,7 +25,10 @@ items:
 
     <p></p>
   syntax:
-    content: public class AzureServiceResponseBuilder
+    content: public class AzureServiceResponseBuilder<T, E extends RestException>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 0ca03e3a
   inheritance:
   - com.microsoft.rest._service_response_builder
   inheritedMembers:
@@ -114,6 +117,14 @@ items:
     return:
       type: com.microsoft.rest._service_response34132889
 references:
+- uid: 8ce1ecb9
+  spec.java:
+  - name: T
+    fullName: T
+- uid: 0ca03e3a
+  spec.java:
+  - name: E
+    fullName: E
 - uid: b91d9c77
   spec.java:
   - name: Map< Integer, Type >
@@ -360,7 +371,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseBuilder
+    content: public class ServiceResponseBuilder<T, E extends RestException>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 0ca03e3a
 - uid: com.microsoft.rest._rest_exception
   parent: com.microsoft.rest
   href: com.microsoft.rest._rest_exception.yml
@@ -390,4 +404,6 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponse
+    content: public class ServiceResponse<T>
+    typeParameters:
+    - type: 8ce1ecb9

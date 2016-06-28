@@ -614,7 +614,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -626,7 +629,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._application_summary
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._application_summary.yml
@@ -708,7 +713,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.implementation._applications_impl_1a9216ab0b3764efb6667e6098d82459d4
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -820,7 +827,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._applications_impl_1aa3e1d6c82ed8a7a35559ef866dacb42e
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -888,7 +897,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._applications_impl_1ae7bda855e57392d99ad6e6d25ad93028
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml

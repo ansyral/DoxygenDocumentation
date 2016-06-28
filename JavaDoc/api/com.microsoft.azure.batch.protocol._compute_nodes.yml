@@ -2277,7 +2277,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers.yml
@@ -2378,7 +2381,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl_1a563420301c5f090c503476060abe3da8
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -3628,7 +3633,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_list_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._compute_node_list_headers.yml
@@ -3690,7 +3697,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl_1aaea5ac10e59e54410e0333abb5c4cea4
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -3758,7 +3767,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl_1a7c074dbe903aa43cdcc31c0781b359eb
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml

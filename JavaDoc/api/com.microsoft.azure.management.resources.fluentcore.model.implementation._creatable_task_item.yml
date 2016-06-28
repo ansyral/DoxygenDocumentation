@@ -299,7 +299,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface TaskItem
+    content: public interface TaskItem<U>
+    typeParameters:
+    - type: 6043614c
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -311,7 +313,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Creatable
+    content: public interface Creatable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
@@ -332,7 +336,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGNode
+    content: public class DAGNode<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_item
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_item.yml
@@ -365,7 +371,10 @@ references:
 
     <p></p>
   syntax:
-    content: public interface TaskGroup
+    content: public interface TaskGroup<T, U extends TaskItem< T>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 6043614c
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -386,4 +395,6 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9

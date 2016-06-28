@@ -151,7 +151,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableImpl
+    content: public class IndexableRefreshableImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
@@ -163,7 +165,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableWrapperImpl
+    content: public class IndexableWrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095
 - uid: com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   parent: com.microsoft.azure.management.resources.fluentcore.model._indexable
   href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml

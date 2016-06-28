@@ -278,7 +278,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Appliable
+    content: public interface Appliable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.storage._storage_account._update_with_sku
   parent: com.microsoft.azure.management.storage
   href: com.microsoft.azure.management.storage._storage_account._update_with_sku.yml
@@ -326,5 +328,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface UpdateWithTags
+    content: public interface UpdateWithTags<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.storage.implementation._storage_account_impl

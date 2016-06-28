@@ -2791,7 +2791,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders
+    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    typeParameters:
+    - type: 0063fec6
+    - type: "77199363"
 - uid: com.microsoft.azure.batch.protocol.models._job_statistics
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._job_statistics.yml
@@ -2876,7 +2879,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._jobs_1a3336cd26e11a7b9ad5ca0da88901823d
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
@@ -3873,7 +3878,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol.models._job_list_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._job_list_headers.yml
@@ -3928,7 +3935,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure.batch.protocol._jobs_1afa33f0635a486ea1c9cee5d8365d9fed
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
@@ -4211,7 +4220,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl
+    content: public class PageImpl<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.batch.protocol._jobs_1a4a865bf0cb799ed1de1889f81ba70127
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml

@@ -21,7 +21,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._attachable
   inheritedMembers:
@@ -31,6 +33,10 @@ items:
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a00f6fd0bf958f47d1ccd092a647d3f48
   - com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address_1a819fa299e329da889a76ebc1b22ad92d
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
@@ -130,7 +136,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Attachable
+    content: public interface Attachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
@@ -142,7 +150,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPublicIpAddress
+    content: public interface DefinitionWithPublicIpAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
@@ -154,4 +164,6 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1

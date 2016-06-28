@@ -21,7 +21,9 @@ items:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
   inheritance:
   - com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk
   inheritedMembers:
@@ -32,6 +34,10 @@ items:
   - com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration_1a39d985bc660c9a00f8161a8c344b8e55
   - com.microsoft.azure.management.compute._data_disk._definition_attach_new_data_disk_1a196c6496d50a17a758c5c5aba4a5ad78
 references:
+- uid: 18a275b1
+  spec.java:
+  - name: ParentT
+    fullName: ParentT
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d
   parent: com.microsoft.azure.management.resources.fluentcore.model._attachable
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
@@ -162,7 +168,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachNewDataDisk
+    content: public interface DefinitionAttachNewDataDisk<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attach_existing_data_disk.yml
@@ -174,7 +182,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachExistingDataDisk
+    content: public interface DefinitionAttachExistingDataDisk<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_with_store_at
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_with_store_at.yml
@@ -186,7 +196,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithStoreAt
+    content: public interface DefinitionWithStoreAt<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
@@ -198,7 +210,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithOptionalConfiguration
+    content: public interface DefinitionWithOptionalConfiguration<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
@@ -210,5 +224,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.compute.implementation._data_disk_impl

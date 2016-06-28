@@ -330,7 +330,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Builder
+    content: public interface Builder<T extends ResourceConnector>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources._resource_group._definition_blank
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group._definition_blank.yml

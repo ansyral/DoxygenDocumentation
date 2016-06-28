@@ -27,7 +27,9 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class ListOperationCallback
+    content: public class ListOperationCallback<E>
+    typeParameters:
+    - type: 0ca03e3a
   inheritance:
   - com.microsoft.rest._service_callback
   inheritedMembers:
@@ -148,6 +150,10 @@ items:
       type: com.microsoft.azure._list_operation_callback._paging_bahavior
       description: <p>CONTINUE if you want to go on loading, STOP otherwise. </p>
 references:
+- uid: 0ca03e3a
+  spec.java:
+  - name: E
+    fullName: E
 - uid: aeed54a4
   spec.java:
   - name: List< E >
@@ -203,7 +209,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceCallback
+    content: public class ServiceCallback<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._list_operation_callback._paging_bahavior
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback._paging_bahavior.yml

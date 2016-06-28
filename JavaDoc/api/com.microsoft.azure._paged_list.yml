@@ -53,7 +53,9 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class PagedList
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
   inheritance:
   - java.util.List< E >
 - uid: com.microsoft.azure._paged_list_1acc7efa30d22fe8a157b653ddf72e19a2
@@ -702,6 +704,10 @@ items:
     return:
       type: d597ed91
 references:
+- uid: 0ca03e3a
+  spec.java:
+  - name: E
+    fullName: E
 - uid: com.microsoft.azure._pageffc72ba0
   spec.java:
   - uid: com.microsoft.azure._page
@@ -752,10 +758,6 @@ references:
   spec.java:
   - name: Object[]
     fullName: Object[]
-- uid: 0ca03e3a
-  spec.java:
-  - name: E
-    fullName: E
 - uid: d09133b7
   spec.java:
   - name: Collection<?>
@@ -791,7 +793,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class GroupPagedList
+    content: public class GroupPagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure._paged_list._list_itr
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list._list_itr.yml
@@ -812,7 +816,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Page
+    content: public interface Page<E>
+    typeParameters:
+    - type: 0ca03e3a
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml

@@ -279,7 +279,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Appliable
+    content: public interface Appliable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address.yml
@@ -318,7 +320,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface UpdateWithTags
+    content: public interface UpdateWithTags<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.network.implementation._public_ip_address_impl
 - uid: com.microsoft.azure.management.network._public_ip_address._update
   parent: com.microsoft.azure.management.network

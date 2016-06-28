@@ -28,7 +28,9 @@ items:
 
     <p></p>
   syntax:
-    content: public class Node
+    content: public class Node<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._node_1a9952d1370c995944aa92f5a3e3af2038
   id: _node_1a9952d1370c995944aa92f5a3e3af2038
   parent: com.microsoft.azure._node
@@ -156,14 +158,14 @@ items:
       type: 8ce1ecb9
       description: <p>data to be stored in the node </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: 4fc6e284
   spec.java:
   - name: boolean
@@ -183,7 +185,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGNode
+    content: public class DAGNode<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._graph.yml
@@ -197,4 +201,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class Graph
+    content: public class Graph<T, U extends Node< T>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 6043614c

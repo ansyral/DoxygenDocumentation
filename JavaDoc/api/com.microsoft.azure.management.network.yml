@@ -244,7 +244,9 @@ references:
   type: Interface
   summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
   syntax:
-    content: public interface Definition
+    content: public interface Definition<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
@@ -256,7 +258,9 @@ references:
 
     <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_attachable.yml
@@ -268,7 +272,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._subnet._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._definition_attachable.yml
@@ -280,7 +286,9 @@ references:
 
     <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface DefinitionAttachable
+    content: public interface DefinitionAttachable<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network._definition_blank
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_blank.yml
@@ -316,7 +324,9 @@ references:
   type: Interface
   summary: <p>The first stage of the subnet definition. </p>
   syntax:
-    content: public interface DefinitionBlank
+    content: public interface DefinitionBlank<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_blank
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_blank.yml
@@ -328,7 +338,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionBlank
+    content: public interface DefinitionBlank<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._public_ip_address._definition_blank
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definition_blank.yml
@@ -346,7 +358,9 @@ references:
   type: Interface
   summary: <p>The first stage of the subnet definition. </p>
   syntax:
-    content: public interface DefinitionBlank
+    content: public interface DefinitionBlank<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network._definition_creatable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_creatable.yml
@@ -430,7 +444,9 @@ references:
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
@@ -442,7 +458,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._public_ip_address._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definitions.yml
@@ -460,7 +478,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
   syntax:
-    content: public interface DefinitionWithDestinationAddress
+    content: public interface DefinitionWithDestinationAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
@@ -469,7 +489,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
   syntax:
-    content: public interface DefinitionWithDestinationPort
+    content: public interface DefinitionWithDestinationPort<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
@@ -478,7 +500,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the direction and the access type to be specified. </p>
   syntax:
-    content: public interface DefinitionWithDirectionAccess
+    content: public interface DefinitionWithDirectionAccess<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._public_ip_address._definition_with_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definition_with_group.yml
@@ -553,7 +577,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithNetwork
+    content: public interface DefinitionWithNetwork<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group.yml
@@ -583,7 +609,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPrivateIp
+    content: public interface DefinitionWithPrivateIp<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
@@ -592,7 +620,9 @@ references:
   type: Interface
   summary: <p>The stage of the security rule definition allowing the protocol that the rule applies to to be specified. </p>
   syntax:
-    content: public interface DefinitionWithProtocol
+    content: public interface DefinitionWithProtocol<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
@@ -613,7 +643,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithPublicIpAddress
+    content: public interface DefinitionWithPublicIpAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
@@ -625,7 +657,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithReverseFQDN
+    content: public interface DefinitionWithReverseFQDN<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.network._network_security_group._definition_with_rule
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._definition_with_rule.yml
@@ -646,7 +680,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
   syntax:
-    content: public interface DefinitionWithSourceAddress
+    content: public interface DefinitionWithSourceAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
@@ -655,7 +691,9 @@ references:
   type: Interface
   summary: <p>The stage of the network rule definition allowing the source port(s) to be specified. </p>
   syntax:
-    content: public interface DefinitionWithSourcePort
+    content: public interface DefinitionWithSourcePort<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network._definition_with_subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_with_subnet.yml
@@ -685,7 +723,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithSubnet
+    content: public interface DefinitionWithSubnet<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._direction
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._direction.yml
@@ -739,7 +779,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update
+    content: public interface Update<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_group._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._update.yml

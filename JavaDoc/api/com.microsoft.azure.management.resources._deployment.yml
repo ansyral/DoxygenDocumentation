@@ -452,7 +452,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Refreshable
+    content: public interface Refreshable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -464,7 +466,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Updatable
+    content: public interface Updatable<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -476,7 +480,9 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Wrapper
+    content: public interface Wrapper<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.implementation._deployment_impl
 - uid: com.microsoft.azure.management.resources._deployment._definition_blank
   parent: com.microsoft.azure.management.resources

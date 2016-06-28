@@ -31,7 +31,9 @@ items:
 
     <p></p>
   syntax:
-    content: public class DAGNode
+    content: public class DAGNode<T>
+    typeParameters:
+    - type: 8ce1ecb9
   inheritance:
   - com.microsoft.azure._node
   inheritedMembers:
@@ -240,14 +242,14 @@ items:
       type: "26831127"
       description: <p>the id of the dependency node </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: f35af49b
   spec.java:
   - name: List< String >
@@ -345,7 +347,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class Node
+    content: public class Node<T>
+    typeParameters:
+    - type: 8ce1ecb9
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
@@ -359,4 +363,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph
+    content: public class DAGraph<T, U extends DAGNode< T>
+    typeParameters:
+    - type: 8ce1ecb9
+    - type: 6043614c
