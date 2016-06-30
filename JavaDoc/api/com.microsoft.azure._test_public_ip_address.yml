@@ -219,10 +219,12 @@ references:
   type: Class
   summary: <p>Base class for CRUD test cases for top level <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource models. </p>
   syntax:
-    content: public class TestTemplate<T extends GroupableResource, C extends SupportsListing< T, &SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+    content: public class TestTemplate<T extends GroupableResource,C extends SupportsListing< T,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>Top level resource type </p>
     - type: 37f8610d
+      description: <p>Type representing the collection of the top level resources </p>
     - type: 7804ff6ccom.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group6d8ef525com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting76390d34com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id34132889
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network

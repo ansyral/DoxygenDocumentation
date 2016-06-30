@@ -30,6 +30,17 @@ items:
   syntax:
     content: namespace model
 references:
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation.yml
+  name: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the base implementation classes for resource models, and their variants for creating and updating scenarios. </p>
+  syntax:
+    content: namespace implementation
 - uid: com.microsoft.azure.management.resources.fluentcore.model._appliable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._appliable.yml
@@ -44,6 +55,7 @@ references:
     content: public interface Appliable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource returned from the update. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._attachable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
@@ -58,6 +70,7 @@ references:
     content: public interface Attachable<ParentT>
     typeParameters:
     - type: 18a275b1
+      description: <p>the parent definition <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref> returns to </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -72,6 +85,7 @@ references:
     content: public interface Creatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource to be created </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._indexable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
@@ -95,6 +109,7 @@ references:
     content: public interface Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._settable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
@@ -109,6 +124,7 @@ references:
     content: public interface Settable<ParentT>
     typeParameters:
     - type: 18a275b1
+      description: <p>the parent definition <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref> returns to </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -123,6 +139,7 @@ references:
     content: public interface Updatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -137,14 +154,4 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation
-  href: com.microsoft.azure.management.resources.fluentcore.model.implementation.yml
-  name: com.microsoft.azure.management.resources.fluentcore.model.implementation
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the base implementation classes for resource models, and their variants for creating and updating scenarios. </p>
-  syntax:
-    content: namespace implementation
+      description: <p>the type of the inner object. </p>

@@ -1025,6 +1025,14 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
@@ -1039,14 +1047,6 @@ references:
     href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
   - name: ' >'
     fullName: ' >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
   spec.java:
   - name: 'final '
@@ -1329,7 +1329,6 @@ references:
     href: com.microsoft.azure.management.website.implementation.api._resource_name_availability_inner.yml
   - name: ' >'
     fullName: ' >'
-- uid: com.microsoft.azure.management.website.implementation.api._globals_inner._globals_service
 - uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
@@ -1361,6 +1360,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.website.implementation.api._user_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._user_inner.yml
@@ -1402,6 +1402,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner.yml

@@ -679,6 +679,14 @@ references:
   spec.java:
   - name: Integer
     fullName: Integer
+- uid: 8256ba40
+  spec.java:
+  - name: InterruptedException
+    fullName: InterruptedException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: "1755e818"
   spec.java:
   - name: Response< ResponseBody >
@@ -697,14 +705,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
-- uid: 8256ba40
-  spec.java:
-  - name: InterruptedException
-    fullName: InterruptedException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
 - uid: c6b67eee
   spec.java:
   - name: Class< THeader >
@@ -882,18 +882,6 @@ references:
   summary: <p>ServiceClient is the abstraction for accessing REST operations and their payload data types. </p>
   syntax:
     content: public class AzureServiceClient
-- uid: com.microsoft.azure._azure_client._async_polling_task
-- uid: com.microsoft.azure._azure_client._async_service
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure_client._async_service.yml
-  name: AzureClient.AsyncService
-  fullName: com.microsoft.azure.AzureClient.AsyncService
-  type: Interface
-  summary: <p>The Retrofit service used for polling. </p>
-  syntax:
-    content: private interface AsyncService
-- uid: com.microsoft.azure._azure_client._post_delete_polling_task
-- uid: com.microsoft.azure._azure_client._put_patch_polling_task
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml
@@ -917,6 +905,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -937,10 +926,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -964,6 +955,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._polling_state
   parent: com.microsoft.azure
   href: com.microsoft.azure._polling_state.yml
@@ -978,3 +970,4 @@ references:
     content: public class PollingState<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource the operation returns. </p>

@@ -26,6 +26,17 @@ items:
   syntax:
     content: namespace collection
 references:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.yml
+  name: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains shared implementation classes for resource collections. </p>
+  syntax:
+    content: namespace implementation
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_deleting_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_deleting_by_group.yml
@@ -54,6 +65,7 @@ references:
     content: public interface SupportsGettingByGroup<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource to get. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id.yml
@@ -68,6 +80,7 @@ references:
     content: public interface SupportsGettingById<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource collection </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_name
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_name.yml
@@ -82,6 +95,7 @@ references:
     content: public interface SupportsGettingByName<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource collection </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group.yml
@@ -98,14 +112,4 @@ references:
     content: public interface SupportsListingByGroup<T>
     typeParameters:
     - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.yml
-  name: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains shared implementation classes for resource collections. </p>
-  syntax:
-    content: namespace implementation
+      description: <p>the type of the resources listed. </p>

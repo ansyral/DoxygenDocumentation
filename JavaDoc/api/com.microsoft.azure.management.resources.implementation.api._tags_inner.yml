@@ -475,6 +475,14 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -487,14 +495,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -633,7 +633,6 @@ references:
     name: ServiceCall
     fullName: com.microsoft.rest.ServiceCall
     href: com.microsoft.rest._service_call.yml
-- uid: com.microsoft.azure.management.resources.implementation.api._tags_inner._tags_service
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
@@ -665,6 +664,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -697,6 +697,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._tag_value_inner
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._tag_value_inner.yml
@@ -729,6 +730,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
@@ -743,6 +745,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._page_impl
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
@@ -757,3 +760,4 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

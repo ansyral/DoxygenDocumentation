@@ -67,10 +67,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T, U extends DAGNode< T>
+    content: public class DAGraph<T,U extends DAGNode< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
@@ -85,3 +87,4 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>

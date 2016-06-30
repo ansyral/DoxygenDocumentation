@@ -140,6 +140,14 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -156,14 +164,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < Object >
     fullName: < Object >
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback9aef07c3
   spec.java:
   - name: 'final '
@@ -174,7 +174,6 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < Object >
     fullName: < Object >
-- uid: com.microsoft.azure.management.website.implementation.api._usages_inner._usages_service
 - uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
@@ -206,6 +205,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -238,3 +238,4 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>

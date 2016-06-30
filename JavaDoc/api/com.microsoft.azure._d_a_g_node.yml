@@ -34,6 +34,7 @@ items:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
   inheritance:
   - com.microsoft.azure._node
   inheritedMembers:
@@ -350,6 +351,7 @@ references:
     content: public class Node<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
@@ -363,7 +365,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T, U extends DAGNode< T>
+    content: public class DAGraph<T,U extends DAGNode< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>

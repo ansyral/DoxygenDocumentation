@@ -7,7 +7,6 @@ items:
   - com.microsoft.azure.management.storage.implementation._public_endpoints
   - com.microsoft.azure.management.storage.implementation._storage_manager
   - com.microsoft.azure.management.storage.implementation._storage_manager._configurable
-  - com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl
   href: com.microsoft.azure.management.storage.implementation.yml
   langs:
   - java
@@ -28,6 +27,17 @@ items:
   syntax:
     content: namespace implementation
 references:
+- uid: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api.yml
+  name: com.microsoft.azure.management.storage.implementation.api
+  fullName: com.microsoft.azure.management.storage.implementation.api
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the <xref href="com.microsoft.azure.management.storage.implementation.api" data-throw-if-not-resolved="false"></xref> classes for StorageManagementClient. The Storage Management Client. </p>
+  syntax:
+    content: namespace api
 - uid: com.microsoft.azure.management.storage.implementation._account_statuses
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._account_statuses.yml
@@ -55,8 +65,6 @@ references:
   summary: <p>An instance of this class stores the The URIs associated with a storage account that are used to perform a retrieval of a public blob, queue or table object. </p>
   syntax:
     content: public class PublicEndpoints
-- uid: com.microsoft.azure.management.storage.implementation._storage_account_impl
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_impl
 - uid: com.microsoft.azure.management.storage.implementation._storage_manager
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
@@ -66,19 +74,6 @@ references:
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
   syntax:
     content: public class StorageManager
-- uid: com.microsoft.azure.management.storage.implementation._usage_impl
-- uid: com.microsoft.azure.management.storage.implementation._usages_impl
-- uid: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api.yml
-  name: com.microsoft.azure.management.storage.implementation.api
-  fullName: com.microsoft.azure.management.storage.implementation.api
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the <xref href="com.microsoft.azure.management.storage.implementation.api" data-throw-if-not-resolved="false"></xref> classes for StorageManagementClient. The Storage Management Client. </p>
-  syntax:
-    content: namespace api
 - uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable.yml
@@ -88,12 +83,3 @@ references:
   summary: <p>The interface allowing configurations to be set. </p>
   syntax:
     content: public interface Configurable
-- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl
-  parent: com.microsoft.azure.management.storage.implementation
-  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl.yml
-  name: StorageManager.ConfigurableImpl
-  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure.management.storage.implementation._storage_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
-  syntax:
-    content: private class ConfigurableImpl

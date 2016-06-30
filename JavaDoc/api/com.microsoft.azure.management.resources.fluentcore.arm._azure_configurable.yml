@@ -30,9 +30,10 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public interface AzureConfigurable<T extends AzureConfigurable< T>
+    content: public interface AzureConfigurable<T extends AzureConfigurable< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the actual type of the interface extending this interface </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable_1a688b59f0b61bdb7483ce300a4e68d336
   id: _azure_configurable_1a688b59f0b61bdb7483ce300a4e68d336
   parent: com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable
@@ -330,9 +331,10 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureConfigurableImpl<T extends AzureConfigurable< T>
+    content: public class AzureConfigurableImpl<T extends AzureConfigurable< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the configurable interface </p>
 - uid: com.microsoft.azure.management.resources.implementation._resource_manager._configurable
   parent: com.microsoft.azure.management.resources.implementation
   href: com.microsoft.azure.management.resources.implementation._resource_manager._configurable.yml

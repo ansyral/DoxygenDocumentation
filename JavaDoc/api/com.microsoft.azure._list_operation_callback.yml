@@ -30,6 +30,7 @@ items:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
   inheritance:
   - com.microsoft.rest._service_callback
   inheritedMembers:
@@ -212,15 +213,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
-- uid: com.microsoft.azure._list_operation_callback._paging_bahavior
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._list_operation_callback._paging_bahavior.yml
-  name: ListOperationCallback.PagingBahavior
-  fullName: com.microsoft.azure.ListOperationCallback.PagingBahavior
-  type: Enum
-  summary: <p>An enum to indicate whether the client should continue loading or stop. </p>
-  syntax:
-    content: public enum PagingBahavior
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
@@ -232,3 +225,12 @@ references:
 
     <p></p>
   syntax: *o1
+- uid: com.microsoft.azure._list_operation_callback._paging_bahavior
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._list_operation_callback._paging_bahavior.yml
+  name: ListOperationCallback.PagingBahavior
+  fullName: com.microsoft.azure.ListOperationCallback.PagingBahavior
+  type: Enum
+  summary: <p>An enum to indicate whether the client should continue loading or stop. </p>
+  syntax:
+    content: public enum PagingBahavior

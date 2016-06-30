@@ -15,8 +15,8 @@ items:
   - com.microsoft.azure.management.resources.implementation.api._deployment_operations_inner
   - com.microsoft.azure.management.resources.implementation.api._deployment_properties
   - com.microsoft.azure.management.resources.implementation.api._deployment_properties_extended
-  - com.microsoft.azure.management.resources.implementation.api._deployments_inner
   - com.microsoft.azure.management.resources.implementation.api._deployment_validate_result_inner
+  - com.microsoft.azure.management.resources.implementation.api._deployments_inner
   - com.microsoft.azure.management.resources.implementation.api._export_template_request_inner
   - com.microsoft.azure.management.resources.implementation.api._feature_client_impl
   - com.microsoft.azure.management.resources.implementation.api._feature_properties
@@ -33,6 +33,7 @@ items:
   - com.microsoft.azure.management.resources.implementation.api._provider_inner
   - com.microsoft.azure.management.resources.implementation.api._provider_resource_type
   - com.microsoft.azure.management.resources.implementation.api._providers_inner
+  - com.microsoft.azure.management.resources.implementation.api._resource_d676b1c33f9726900d24fa55ea2bf16b
   - com.microsoft.azure.management.resources.implementation.api._resource_group_export_result_inner
   - com.microsoft.azure.management.resources.implementation.api._resource_group_filter
   - com.microsoft.azure.management.resources.implementation.api._resource_group_inner
@@ -40,7 +41,6 @@ items:
   - com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
   - com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
   - com.microsoft.azure.management.resources.implementation.api._resource_management_error_with_details
-  - com.microsoft.azure.management.resources.implementation.api._resource_d676b1c33f9726900d24fa55ea2bf16b
   - com.microsoft.azure.management.resources.implementation.api._resources_inner
   - com.microsoft.azure.management.resources.implementation.api._resources_move_info_inner
   - com.microsoft.azure.management.resources.implementation.api._subscription_client_impl
@@ -49,8 +49,8 @@ items:
   - com.microsoft.azure.management.resources.implementation.api._subscriptions_inner
   - com.microsoft.azure.management.resources.implementation.api._tag_count
   - com.microsoft.azure.management.resources.implementation.api._tag_details_inner
-  - com.microsoft.azure.management.resources.implementation.api._tags_inner
   - com.microsoft.azure.management.resources.implementation.api._tag_value_inner
+  - com.microsoft.azure.management.resources.implementation.api._tags_inner
   - com.microsoft.azure.management.resources.implementation.api._target_resource
   - com.microsoft.azure.management.resources.implementation.api._template_link
   - com.microsoft.azure.management.resources.implementation.api._tenant_id_description_inner
@@ -75,6 +75,24 @@ items:
   syntax: &o0
     content: namespace api
 references:
+- uid: com.microsoft.azure.management.resources.implementation.api._provider_inner
+  parent: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api._provider_inner.yml
+  name: ProviderInner
+  fullName: com.microsoft.azure.management.resources.implementation.api.ProviderInner
+  type: Class
+  syntax:
+    content: namespace ProviderInner
+- uid: com.microsoft.azure.management.resources.implementation.api
+  href: com.microsoft.azure.management.resources.implementation.api.yml
+  name: com.microsoft.azure.management.resources.implementation.api
+  fullName: com.microsoft.azure.management.resources.implementation.api
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the <xref href="com.microsoft.azure.management.resources.implementation.api" data-throw-if-not-resolved="false"></xref> classes for ResourceManagementClient. </p>
+  syntax: *o0
 - uid: com.microsoft.azure.management.resources.implementation.api._basic_dependency
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._basic_dependency.yml
@@ -341,6 +359,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._page_impl1
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._page_impl1.yml
@@ -355,6 +374,7 @@ references:
     content: public class PageImpl1<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.management.resources.implementation.api._parameters_link
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._parameters_link.yml
@@ -376,14 +396,6 @@ references:
       <xref href="com.microsoft.azure.management.resources.implementation.api._plan" data-throw-if-not-resolved="false"></xref> for the resource. </p>
   syntax:
     content: public class Plan
-- uid: com.microsoft.azure.management.resources.implementation.api._provider_inner
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._provider_inner.yml
-  name: ProviderInner
-  fullName: com.microsoft.azure.management.resources.implementation.api.ProviderInner
-  type: Class
-  syntax:
-    content: namespace ProviderInner
 - uid: com.microsoft.azure.management.resources.implementation.api._provider_resource_type
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._provider_resource_type.yml
@@ -621,13 +633,3 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.resources._tenants" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public class TenantsInner
-- uid: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api.yml
-  name: com.microsoft.azure.management.resources.implementation.api
-  fullName: com.microsoft.azure.management.resources.implementation.api
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the <xref href="com.microsoft.azure.management.resources.implementation.api" data-throw-if-not-resolved="false"></xref> classes for ResourceManagementClient. </p>
-  syntax: *o0

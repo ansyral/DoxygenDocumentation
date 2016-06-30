@@ -327,6 +327,10 @@ references:
   spec.java:
   - name: DateTime
     fullName: DateTime
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
   spec.java:
   - name: 'List< '
@@ -337,10 +341,6 @@ references:
     href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
   - name: ' >'
     fullName: ' >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -488,6 +488,7 @@ references:
     content: public interface Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -502,6 +503,7 @@ references:
     content: public interface Updatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -516,97 +518,8 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.storage.implementation._storage_account_impl
-- uid: com.microsoft.azure.management.storage._storage_account._definition_blank
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_blank.yml
-  name: StorageAccount.DefinitionBlank
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionBlank
-  type: Interface
-  summary: <p>A storage account definition allowing location to be set. </p>
-  syntax:
-    content: public interface DefinitionBlank
-- uid: com.microsoft.azure.management.storage._storage_account._definition_creatable
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_creatable.yml
-  name: StorageAccount.DefinitionCreatable
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionCreatable
-  type: Interface
-  summary: <p>A storage account definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>
-  syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.storage._storage_account._definition_creatable_with_access_tier
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_creatable_with_access_tier.yml
-  name: StorageAccount.DefinitionCreatableWithAccessTier
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionCreatableWithAccessTier
-  type: Interface
-  summary: <p>A storage account definition allowing access tier to be set. </p>
-  syntax:
-    content: public interface DefinitionCreatableWithAccessTier
-- uid: com.microsoft.azure.management.storage._storage_account._definitions
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definitions.yml
-  name: StorageAccount.Definitions
-  fullName: com.microsoft.azure.management.storage.StorageAccount.Definitions
-  type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
-  syntax:
-    content: public interface Definitions
-- uid: com.microsoft.azure.management.storage._storage_account._definition_with_group
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_with_group.yml
-  name: StorageAccount.DefinitionWithGroup
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionWithGroup
-  type: Interface
-  summary: <p>A storage account definition allowing resource group to be set. </p>
-  syntax:
-    content: public interface DefinitionWithGroup
-- uid: com.microsoft.azure.management.storage._storage_account._update
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update.yml
-  name: StorageAccount.Update
-  fullName: com.microsoft.azure.management.storage.StorageAccount.Update
-  type: Interface
-  summary: <p>The template for a storage account update operation, containing all the settings that can be modified. </p>
-  syntax:
-    content: public interface Update
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_access_tier
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_access_tier.yml
-  name: StorageAccount.UpdateWithAccessTier
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithAccessTier
-  type: Interface
-  summary: <p>A blob storage account update allowing access tier to be specified. </p>
-  syntax:
-    content: public interface UpdateWithAccessTier
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
-  name: StorageAccount.UpdateWithCustomDomain
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain
-  type: Interface
-  summary: <p>A storageaccount update allowing to change the parameters. </p>
-  syntax:
-    content: public interface UpdateWithCustomDomain
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_encryption
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_encryption.yml
-  name: StorageAccount.UpdateWithEncryption
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithEncryption
-  type: Interface
-  summary: <p>A storage account update allowing encryption to be specified. </p>
-  syntax:
-    content: public interface UpdateWithEncryption
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_sku
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_sku.yml
-  name: StorageAccount.UpdateWithSku
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithSku
-  type: Interface
-  summary: <p>A storage account update allowing to change the parameters. </p>
-  syntax:
-    content: public interface UpdateWithSku
 - uid: com.microsoft.azure.management.storage.implementation._account_statuses
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._account_statuses.yml

@@ -2265,6 +2265,18 @@ items:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
 references:
+- uid: "24876076"
+  spec.java:
+  - name: AdlsErrorException
+    fullName: AdlsErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -2281,18 +2293,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
-- uid: "24876076"
-  spec.java:
-  - name: AdlsErrorException
-    fullName: AdlsErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -2510,6 +2510,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a87816d62a06c34c2d5b771b2cda1547f
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -2604,6 +2605,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a04f0744306017f10000713e42c63f80b
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml

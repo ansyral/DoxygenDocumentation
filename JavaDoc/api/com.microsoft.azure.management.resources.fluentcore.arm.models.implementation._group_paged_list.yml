@@ -29,6 +29,7 @@ items:
     content: public class GroupPagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
   inheritance:
   - java.util.List< E >
   - com.microsoft.azure._paged_list
@@ -192,10 +193,6 @@ references:
     href: com.microsoft.azure._page.yml
   - name: < E >
     fullName: < E >
-- uid: f25014e5
-  spec.java:
-  - name: abstract List< E >
-    fullName: abstract List< E >
 - uid: 0f262a9d
   spec.java:
   - name: RestException
@@ -204,6 +201,10 @@ references:
   spec.java:
   - name: IOException
     fullName: IOException
+- uid: f25014e5
+  spec.java:
+  - name: abstract List< E >
+    fullName: abstract List< E >
 - uid: com.microsoft.azure._paged_list_1acc7efa30d22fe8a157b653ddf72e19a2
   parent: com.microsoft.azure._paged_list
   href: com.microsoft.azure._paged_list.yml
@@ -576,6 +577,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.management.resources._resource_group
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group.yml
@@ -599,6 +601,7 @@ references:
     content: public interface Page<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.rest._rest_exception
   parent: com.microsoft.rest
   href: com.microsoft.rest._rest_exception.yml

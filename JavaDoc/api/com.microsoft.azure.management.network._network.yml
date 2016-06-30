@@ -253,6 +253,7 @@ references:
     content: public interface Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -267,6 +268,7 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -281,85 +283,8 @@ references:
     content: public interface Updatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.network.implementation._network_impl
-- uid: com.microsoft.azure.management.network._network._definition_blank
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_blank.yml
-  name: Network.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.Network.DefinitionBlank
-  type: Interface
-  summary: <p>The first stage of a virtual network definition. </p>
-  syntax:
-    content: public interface DefinitionBlank
-- uid: com.microsoft.azure.management.network._network._definition_creatable
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_creatable.yml
-  name: Network.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatable
-  type: Interface
-  summary: >-
-    <p>The stage of the virtual network definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, except for adding subnets. </p>
-
-    <p>Subnets can be added only right after the address space is explicitly specified (see <ref refid="" kindref="compound">DefinitionWithAddressSpace#withAddressSpace(String)).</ref></p>
-  syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._network._definition_creatable_with_subnet
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_creatable_with_subnet.yml
-  name: Network.DefinitionCreatableWithSubnet
-  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatableWithSubnet
-  type: Interface
-  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, including adding subnets. </p>
-  syntax:
-    content: public interface DefinitionCreatableWithSubnet
-- uid: com.microsoft.azure.management.network._network._definitions
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definitions.yml
-  name: Network.Definitions
-  fullName: com.microsoft.azure.management.network.Network.Definitions
-  type: Interface
-  summary: <p>The entirety of the virtual network definition. </p>
-  syntax:
-    content: public interface Definitions
-- uid: com.microsoft.azure.management.network._network._definition_with_group
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_with_group.yml
-  name: Network.DefinitionWithGroup
-  fullName: com.microsoft.azure.management.network.Network.DefinitionWithGroup
-  type: Interface
-  summary: <p>The stage of the virtual network definition allowing to specify the resource group. </p>
-  syntax:
-    content: public interface DefinitionWithGroup
-- uid: com.microsoft.azure.management.network._network._definition_with_subnet
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_with_subnet.yml
-  name: Network.DefinitionWithSubnet
-  fullName: com.microsoft.azure.management.network.Network.DefinitionWithSubnet
-  type: Interface
-  summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
-  syntax:
-    content: public interface DefinitionWithSubnet
-- uid: com.microsoft.azure.management.network._network._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._update.yml
-  name: Network.Update
-  fullName: com.microsoft.azure.management.network.Network.Update
-  type: Interface
-  summary: >-
-    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface Update
-- uid: com.microsoft.azure.management.network._network._update_with_subnet
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._update_with_subnet.yml
-  name: Network.UpdateWithSubnet
-  fullName: com.microsoft.azure.management.network.Network.UpdateWithSubnet
-  type: Interface
-  summary: <p>The stage of the virtual network update allowing to add or remove subnets. </p>
-  syntax:
-    content: public interface UpdateWithSubnet
 - uid: com.microsoft.azure.management.network._subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet.yml

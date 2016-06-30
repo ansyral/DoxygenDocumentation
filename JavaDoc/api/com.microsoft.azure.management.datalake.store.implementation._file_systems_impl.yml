@@ -2355,6 +2355,18 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: "24876076"
+  spec.java:
+  - name: AdlsErrorException
+    fullName: AdlsErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -2371,18 +2383,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
-- uid: "24876076"
-  spec.java:
-  - name: AdlsErrorException
-    fullName: AdlsErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -2586,7 +2586,6 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._file_systems" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface FileSystems
-- uid: com.microsoft.azure.management.datalake.store.implementation._filec997f8cc9f2c3c753163ce52af27694d
 - uid: com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c
   parent: com.microsoft.azure.management.datalake.store.implementation
   href: com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c.yml
@@ -2618,6 +2617,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.store._file_systems_1ac60768717a0b39706c206a2b4c59f0e2
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
@@ -2712,6 +2712,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.store._file_systems_1a499d0de67c392b5221735e4755987904
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml

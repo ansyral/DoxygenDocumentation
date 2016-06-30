@@ -56,6 +56,7 @@ items:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
   inheritance:
   - java.util.List< E >
 - uid: com.microsoft.azure._paged_list_1acc7efa30d22fe8a157b653ddf72e19a2
@@ -716,6 +717,14 @@ references:
     href: com.microsoft.azure._page.yml
   - name: < E >
     fullName: < E >
+- uid: 0f262a9d
+  spec.java:
+  - name: RestException
+    fullName: RestException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -730,14 +739,6 @@ references:
     href: com.microsoft.azure._page.yml
   - name: < E >
     fullName: < E >
-- uid: 0f262a9d
-  spec.java:
-  - name: RestException
-    fullName: RestException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
 - uid: 4fc6e284
   spec.java:
   - name: boolean
@@ -796,15 +797,7 @@ references:
     content: public class GroupPagedList<E>
     typeParameters:
     - type: 0ca03e3a
-- uid: com.microsoft.azure._paged_list._list_itr
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._paged_list._list_itr.yml
-  name: PagedList.ListItr
-  fullName: com.microsoft.azure.PagedList.ListItr
-  type: Class
-  summary: <p>The implementation of <ref refid="" kindref="compound">ListIterator</ref> for <xref href="com.microsoft.azure._paged_list" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: private class ListItr
+      description: <p>the item type </p>
 - uid: com.microsoft.azure._page
   parent: com.microsoft.azure
   href: com.microsoft.azure._page.yml
@@ -819,6 +812,7 @@ references:
     content: public interface Page<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml

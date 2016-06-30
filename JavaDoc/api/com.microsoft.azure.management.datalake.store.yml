@@ -29,66 +29,6 @@ items:
   syntax:
     content: namespace store
 references:
-- uid: com.microsoft.azure.management.datalake.store._accounts
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._accounts.yml
-  name: Accounts
-  fullName: com.microsoft.azure.management.datalake.store.Accounts
-  type: Interface
-  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._accounts" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface Accounts
-- uid: com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client.yml
-  name: DataLakeStoreAccountManagementClient
-  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountManagementClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface DataLakeStoreAccountManagementClient
-- uid: com.microsoft.azure.management.datalake.store._data_lake_store_account_operations_tests
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._data_lake_store_account_operations_tests.yml
-  name: DataLakeStoreAccountOperationsTests
-  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
-  type: Class
-  syntax:
-    content: public class DataLakeStoreAccountOperationsTests
-- uid: com.microsoft.azure.management.datalake.store._data_lake_store_file_system_management_client
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._data_lake_store_file_system_management_client.yml
-  name: DataLakeStoreFileSystemManagementClient
-  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreFileSystemManagementClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.store._data_lake_store_file_system_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface DataLakeStoreFileSystemManagementClient
-- uid: com.microsoft.azure.management.datalake.store._data_lake_store_filesystem_operations_tests
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._data_lake_store_filesystem_operations_tests.yml
-  name: DataLakeStoreFilesystemOperationsTests
-  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
-  type: Class
-  syntax:
-    content: public class DataLakeStoreFilesystemOperationsTests
-- uid: com.microsoft.azure.management.datalake.store._data_lake_store_management_test_base
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._data_lake_store_management_test_base.yml
-  name: DataLakeStoreManagementTestBase
-  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
-  type: Class
-  syntax:
-    content: public class DataLakeStoreManagementTestBase
-- uid: com.microsoft.azure.management.datalake.store._file_systems
-  parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._file_systems.yml
-  name: FileSystems
-  fullName: com.microsoft.azure.management.datalake.store.FileSystems
-  type: Interface
-  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._file_systems" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface FileSystems
 - uid: com.microsoft.azure.management.datalake.store.implementation
   href: com.microsoft.azure.management.datalake.store.implementation.yml
   name: com.microsoft.azure.management.datalake.store.implementation
@@ -122,6 +62,15 @@ references:
     <p>This package contains the classes for <xref href="com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader" data-throw-if-not-resolved="false"></xref>. The client used to efficiently and rapidly upload files into an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Store account. </p>
   syntax:
     content: namespace uploader
+- uid: com.microsoft.azure.management.datalake.store._data_lake_store_file_system_management_client
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._data_lake_store_file_system_management_client.yml
+  name: DataLakeStoreFileSystemManagementClient
+  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreFileSystemManagementClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.store._data_lake_store_file_system_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface DataLakeStoreFileSystemManagementClient
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml
@@ -131,3 +80,54 @@ references:
   summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public class Azure
+- uid: com.microsoft.azure.management.datalake.store._accounts
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._accounts.yml
+  name: Accounts
+  fullName: com.microsoft.azure.management.datalake.store.Accounts
+  type: Interface
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._accounts" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Accounts
+- uid: com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client.yml
+  name: DataLakeStoreAccountManagementClient
+  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountManagementClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface DataLakeStoreAccountManagementClient
+- uid: com.microsoft.azure.management.datalake.store._data_lake_store_account_operations_tests
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._data_lake_store_account_operations_tests.yml
+  name: DataLakeStoreAccountOperationsTests
+  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+  type: Class
+  syntax:
+    content: public class DataLakeStoreAccountOperationsTests
+- uid: com.microsoft.azure.management.datalake.store._data_lake_store_filesystem_operations_tests
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._data_lake_store_filesystem_operations_tests.yml
+  name: DataLakeStoreFilesystemOperationsTests
+  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+  type: Class
+  syntax:
+    content: public class DataLakeStoreFilesystemOperationsTests
+- uid: com.microsoft.azure.management.datalake.store._data_lake_store_management_test_base
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._data_lake_store_management_test_base.yml
+  name: DataLakeStoreManagementTestBase
+  fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+  type: Class
+  syntax:
+    content: public class DataLakeStoreManagementTestBase
+- uid: com.microsoft.azure.management.datalake.store._file_systems
+  parent: com.microsoft.azure.management.datalake.store
+  href: com.microsoft.azure.management.datalake.store._file_systems.yml
+  name: FileSystems
+  fullName: com.microsoft.azure.management.datalake.store.FileSystems
+  type: Interface
+  summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._file_systems" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface FileSystems

@@ -4,9 +4,9 @@ items:
   children:
   - com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   - com.microsoft.azure.management.datalake.analytics.implementation._catalogs_impl
+  - com.microsoft.azure.management.datalake.analytics.implementation._data1e182d99db7720babacb832862cb4c49
   - com.microsoft.azure.management.datalake.analytics.implementation._data743104178860afce26cc488547487622
   - com.microsoft.azure.management.datalake.analytics.implementation._data853ef330d8582f71e286965226edec1a
-  - com.microsoft.azure.management.datalake.analytics.implementation._data1e182d99db7720babacb832862cb4c49
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation.yml
   langs:
@@ -28,6 +28,24 @@ items:
   syntax:
     content: namespace implementation
 references:
+- uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client
+  parent: com.microsoft.azure.management.datalake.analytics
+  href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client.yml
+  name: DataLakeAnalyticsCatalogManagementClient
+  fullName: com.microsoft.azure.management.datalake.analytics.DataLakeAnalyticsCatalogManagementClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface DataLakeAnalyticsCatalogManagementClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   parent: com.microsoft.azure.management.datalake.analytics.implementation
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
@@ -82,21 +100,3 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.analytics._jobs" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public class JobsImpl
-- uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client
-  parent: com.microsoft.azure.management.datalake.analytics
-  href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client.yml
-  name: DataLakeAnalyticsCatalogManagementClient
-  fullName: com.microsoft.azure.management.datalake.analytics.DataLakeAnalyticsCatalogManagementClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface DataLakeAnalyticsCatalogManagementClient
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure

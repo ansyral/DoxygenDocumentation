@@ -5,10 +5,10 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.yml
   langs:
   - java
@@ -29,6 +29,17 @@ items:
   syntax:
     content: namespace models
 references:
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.yml
+  name: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for ARM fluent core models implementation. </p>
+  syntax:
+    content: namespace implementation
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
@@ -56,17 +67,6 @@ references:
   summary: <p>Base interfaces for fluent resources. </p>
   syntax:
     content: public interface Resource
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.yml
-  name: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the classes for ARM fluent core models implementation. </p>
-  syntax:
-    content: namespace implementation
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
@@ -81,6 +81,7 @@ references:
     content: public interface DefinitionWithGroup<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the next stage resource definition </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f.yml
@@ -95,6 +96,7 @@ references:
     content: public interface DefinitionWithRegion<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the next stage resource definition </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
@@ -109,6 +111,7 @@ references:
     content: public interface DefinitionWithTags<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the next stage resource definition </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
@@ -123,3 +126,4 @@ references:
     content: public interface UpdateWithTags<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the next stage resource update </p>

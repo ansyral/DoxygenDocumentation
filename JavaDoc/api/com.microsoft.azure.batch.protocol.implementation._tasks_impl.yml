@@ -1483,6 +1483,18 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: c8683d81
+  spec.java:
+  - name: BatchErrorException
+    fullName: BatchErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -1501,18 +1513,6 @@ references:
     href: com.microsoft.azure.batch.protocol.models._task_add_headers.yml
   - name: ' >'
     fullName: ' >'
-- uid: c8683d81
-  spec.java:
-  - name: BatchErrorException
-    fullName: BatchErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -1788,7 +1788,6 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._tasks" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Tasks
-- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl._tasks_service
 - uid: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl.yml
@@ -1817,10 +1816,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>
 - uid: com.microsoft.azure.batch.protocol.models._task_add_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._task_add_headers.yml
@@ -1918,6 +1919,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.batch.protocol._tasks_1a0a4b9b7e856fe10700154fcc75bcfd3a
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1994,6 +1996,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.batch.protocol.models._cloud_task
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._cloud_task.yml
@@ -2067,6 +2070,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.batch.protocol._tasks_1a4153e3ac7f5b2d702d0e9fcdc2b31705
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -2878,6 +2882,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.batch.protocol._tasks_1ae600510cd94606993f6395d3d5d9b0e9
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml

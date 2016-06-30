@@ -64,14 +64,14 @@ items:
   - type: cbf33bbe
     description: <p>exception thrown from serialization/deserialization </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: cbf33bbe
   spec.java:
   - name: IOException
     fullName: IOException
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_creating_1acb4b91b4df30a078fe433602c8ba2a57
   parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_creating
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_creating.yml
@@ -219,6 +219,7 @@ references:
     content: public interface SupportsListing<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_creating
   parent: com.microsoft.azure.management.resources.fluentcore.collection
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_creating.yml
@@ -233,6 +234,7 @@ references:
     content: public interface SupportsCreating<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the initial blank definition interface </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting
   parent: com.microsoft.azure.management.resources.fluentcore.collection
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting.yml
@@ -261,6 +263,7 @@ references:
     content: public interface SupportsListingByGroup<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resources listed. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group.yml
@@ -277,6 +280,7 @@ references:
     content: public interface SupportsGettingByGroup<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource to get. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id.yml
@@ -291,6 +295,7 @@ references:
     content: public interface SupportsGettingById<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource collection </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_deleting_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_deleting_by_group.yml

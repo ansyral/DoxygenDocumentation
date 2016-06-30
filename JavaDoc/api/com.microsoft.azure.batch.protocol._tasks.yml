@@ -1413,6 +1413,18 @@ items:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
 references:
+- uid: c8683d81
+  spec.java:
+  - name: BatchErrorException
+    fullName: BatchErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -1431,18 +1443,6 @@ references:
     href: com.microsoft.azure.batch.protocol.models._task_add_headers.yml
   - name: ' >'
     fullName: ' >'
-- uid: c8683d81
-  spec.java:
-  - name: BatchErrorException
-    fullName: BatchErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -1729,10 +1729,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>
 - uid: com.microsoft.azure.batch.protocol.models._task_add_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._task_add_headers.yml
@@ -1830,6 +1832,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl_1a448fed2a1e840e373d3b1ce7cfbed7a2
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
@@ -1906,6 +1909,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.batch.protocol.models._cloud_task
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._cloud_task.yml
@@ -1979,6 +1983,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl_1a9a215c292ce73b89b6d1a25327135d0f
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
@@ -2790,6 +2795,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl_1ae65126f53f2a1315bc599df0b5914d23
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml

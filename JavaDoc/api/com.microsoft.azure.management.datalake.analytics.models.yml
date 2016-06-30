@@ -89,6 +89,24 @@ items:
   syntax:
     content: namespace models
 references:
+- uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client
+  parent: com.microsoft.azure.management.datalake.analytics
+  href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client.yml
+  name: DataLakeAnalyticsCatalogManagementClient
+  fullName: com.microsoft.azure.management.datalake.analytics.DataLakeAnalyticsCatalogManagementClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface DataLakeAnalyticsCatalogManagementClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.management.datalake.analytics.models._add_data_lake_store_parameters
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._add_data_lake_store_parameters.yml
@@ -460,6 +478,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.management.datalake.analytics.models._sas_token_info
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._sas_token_info.yml
@@ -709,21 +728,3 @@ references:
   summary: <p>A Data Lake Analytics catalog U-SQL view item. </p>
   syntax:
     content: public class USqlView
-- uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client
-  parent: com.microsoft.azure.management.datalake.analytics
-  href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client.yml
-  name: DataLakeAnalyticsCatalogManagementClient
-  fullName: com.microsoft.azure.management.datalake.analytics.DataLakeAnalyticsCatalogManagementClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface DataLakeAnalyticsCatalogManagementClient
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure

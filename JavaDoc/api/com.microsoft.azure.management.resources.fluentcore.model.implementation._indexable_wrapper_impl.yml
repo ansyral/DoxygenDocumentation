@@ -27,6 +27,7 @@ items:
     content: public class IndexableWrapperImpl<InnerT>
     typeParameters:
     - type: 52cf8095
+      description: <p>wrapped type </p>
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl
@@ -167,6 +168,7 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_impl
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
@@ -176,10 +178,15 @@ references:
   type: Class
   summary: <p>Child resource abstract implementation. (Internal use only) </p>
   syntax:
-    content: public class ChildResourceImpl<InnerT, ParentImplT>
+    content: public class ChildResourceImpl<InnerT,ParentImplT>
     typeParameters:
     - type: 52cf8095
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> inner child class type </p>
     - type: a6c7119d
+      description: <p>Parent implementation </p>
 - uid: com.microsoft.azure.management.resources.implementation._feature_impl
 - uid: com.microsoft.azure.management.resources.implementation._location_impl
 - uid: com.microsoft.azure.management.resources.implementation._provider_impl

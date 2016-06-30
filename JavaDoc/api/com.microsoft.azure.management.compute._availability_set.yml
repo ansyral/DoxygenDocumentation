@@ -297,6 +297,7 @@ references:
     content: public interface Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -311,6 +312,7 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -325,55 +327,8 @@ references:
     content: public interface Updatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.compute.implementation._availability_set_impl
-- uid: com.microsoft.azure.management.compute._availability_set._definition_blank
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._availability_set._definition_blank.yml
-  name: AvailabilitySet.DefinitionBlank
-  fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionBlank
-  type: Interface
-  summary: <p>The first stage of an availability set definition. </p>
-  syntax:
-    content: public interface DefinitionBlank
-- uid: com.microsoft.azure.management.compute._availability_set._definition_creatable
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._availability_set._definition_creatable.yml
-  name: AvailabilitySet.DefinitionCreatable
-  fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionCreatable
-  type: Interface
-  summary: <p>The stage of an availability set definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
-  syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.compute._availability_set._definitions
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._availability_set._definitions.yml
-  name: AvailabilitySet.Definitions
-  fullName: com.microsoft.azure.management.compute.AvailabilitySet.Definitions
-  type: Interface
-  summary: <p>Container interface for all the definitions. </p>
-  syntax:
-    content: public interface Definitions
-- uid: com.microsoft.azure.management.compute._availability_set._definition_with_group
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._availability_set._definition_with_group.yml
-  name: AvailabilitySet.DefinitionWithGroup
-  fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionWithGroup
-  type: Interface
-  summary: <p>The stage of the availability set definition allowing to specify the resource group. </p>
-  syntax:
-    content: public interface DefinitionWithGroup
-- uid: com.microsoft.azure.management.compute._availability_set._update
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._availability_set._update.yml
-  name: AvailabilitySet.Update
-  fullName: com.microsoft.azure.management.compute.AvailabilitySet.Update
-  type: Interface
-  summary: >-
-    <p>The template for an availability set update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface Update
 - uid: com.microsoft.azure.management.compute.implementation.api._instance_view_status
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._instance_view_status.yml

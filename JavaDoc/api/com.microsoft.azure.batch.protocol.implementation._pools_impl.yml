@@ -2776,6 +2776,18 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: c8683d81
+  spec.java:
+  - name: BatchErrorException
+    fullName: BatchErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._pool_usage_metrics0506df69com.microsoft.azure.batch.protocol.models._pool_list_pool_usage_metrics_headers9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response_with_headers
@@ -2802,18 +2814,6 @@ references:
     href: com.microsoft.azure.batch.protocol.models._pool_list_pool_usage_metrics_headers.yml
   - name: ' >'
     fullName: ' >'
-- uid: c8683d81
-  spec.java:
-  - name: BatchErrorException
-    fullName: BatchErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.azure._list_operation_callback151dc42ccom.microsoft.azure.batch.protocol.models._pool_usage_metrics9ec3e006
   spec.java:
   - name: 'final '
@@ -3263,7 +3263,6 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._pools" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Pools
-- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl._pools_service
 - uid: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl.yml
@@ -3292,10 +3291,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -3310,6 +3311,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.batch.protocol.models._pool_usage_metrics
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._pool_usage_metrics.yml
@@ -3394,6 +3396,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.batch.protocol._pools_1a93cb93e3de430d7823f37ab586cf8fdc
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -3510,6 +3513,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.batch.protocol._pools_1a0b21ad905b19eb84798a072830febfbe
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -5210,6 +5214,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.batch.protocol._pools_1a4b8edad4d8bff082abe025e48a95cc56
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml

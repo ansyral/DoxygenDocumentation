@@ -31,6 +31,7 @@ items:
     content: public class Node<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._node_1a9952d1370c995944aa92f5a3e3af2038
   id: _node_1a9952d1370c995944aa92f5a3e3af2038
   parent: com.microsoft.azure._node
@@ -188,6 +189,7 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._graph.yml
@@ -201,7 +203,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class Graph<T, U extends Node< T>
+    content: public class Graph<T,U extends Node< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph's nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>

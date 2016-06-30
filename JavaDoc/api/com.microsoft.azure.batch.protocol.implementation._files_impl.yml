@@ -1739,6 +1739,18 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: c8683d81
+  spec.java:
+  - name: BatchErrorException
+    fullName: BatchErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -1757,18 +1769,6 @@ references:
     href: com.microsoft.azure.batch.protocol.models._file_delete_from_task_headers.yml
   - name: ' >'
     fullName: ' >'
-- uid: c8683d81
-  spec.java:
-  - name: BatchErrorException
-    fullName: BatchErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -2040,7 +2040,6 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._files" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Files
-- uid: com.microsoft.azure.batch.protocol.implementation._files_impl._files_service
 - uid: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl.yml
@@ -2069,10 +2068,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>
 - uid: com.microsoft.azure.batch.protocol.models._file_delete_from_task_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._file_delete_from_task_headers.yml
@@ -2167,6 +2168,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.batch.protocol._files_1aec57a679fc653f16abd5faf62f5b3844
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -2911,6 +2913,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.batch.protocol.models._node_file
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._node_file.yml
@@ -2990,6 +2993,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.batch.protocol._files_1a25d33007182632c6162d83614d2a9ba9
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -3196,6 +3200,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.batch.protocol._files_1a055bb057336c1b9c4c33456b599271df
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml

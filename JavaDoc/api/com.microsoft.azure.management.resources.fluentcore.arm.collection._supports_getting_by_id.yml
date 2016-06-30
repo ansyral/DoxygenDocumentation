@@ -26,6 +26,7 @@ items:
     content: public interface SupportsGettingById<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource collection </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id_1aa29af283908f5df0042793462b18b1f0
   id: _supports_getting_by_id_1aa29af283908f5df0042793462b18b1f0
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
@@ -65,10 +66,6 @@ references:
   spec.java:
   - name: T
     fullName: T
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: cbf33bbe
   spec.java:
   - name: IOException
@@ -77,6 +74,10 @@ references:
   spec.java:
   - name: IllegalArgumentException
     fullName: IllegalArgumentException
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml
@@ -157,12 +158,16 @@ references:
   type: Class
   summary: <p>Base class for resource collection classes. (Internal use only) </p>
   syntax:
-    content: public class GroupableResourcesImpl<T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT>
+    content: public class GroupableResourcesImpl<T extends GroupableResource,ImplT extends T,InnerT extends Resource,InnerCollectionT>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the individual resource type returned </p>
     - type: 17328f74
+      description: <p>the individual resource implementation </p>
     - type: 52cf8095
+      description: <p>the wrapper inner type </p>
     - type: 891f7fcf
+      description: <p>the inner type of the collection object </p>
 - uid: com.microsoft.azure.management.resources._generic_resources
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resources.yml

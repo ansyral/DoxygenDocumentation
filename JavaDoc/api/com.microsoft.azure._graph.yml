@@ -28,10 +28,12 @@ items:
 
     <p></p>
   syntax:
-    content: public class Graph<T, U extends Node< T>
+    content: public class Graph<T,U extends Node< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph's nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>
 - uid: com.microsoft.azure._graph_1a86314d0d81f14a3ffb13c531f94cf54e
   id: _graph_1a86314d0d81f14a3ffb13c531f94cf54e
   parent: com.microsoft.azure._graph
@@ -134,7 +136,6 @@ references:
   spec.java:
   - name: Visitor
     fullName: Visitor
-- uid: com.microsoft.azure._graph._visitor
 - uid: com.microsoft.azure._node
   parent: com.microsoft.azure
   href: com.microsoft.azure._node.yml
@@ -149,3 +150,4 @@ references:
     content: public class Node<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>

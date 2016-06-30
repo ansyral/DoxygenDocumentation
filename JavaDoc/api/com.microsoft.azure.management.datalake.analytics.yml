@@ -32,6 +32,46 @@ items:
   syntax:
     content: namespace analytics
 references:
+- uid: com.microsoft.azure.management.datalake.analytics.implementation
+  href: com.microsoft.azure.management.datalake.analytics.implementation.yml
+  name: com.microsoft.azure.management.datalake.analytics.implementation
+  fullName: com.microsoft.azure.management.datalake.analytics.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the implementation classes for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref>. Creates an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Analytics catalog client. </p>
+  syntax:
+    content: namespace implementation
+- uid: com.microsoft.azure.management.datalake.analytics.models
+  href: com.microsoft.azure.management.datalake.analytics.models.yml
+  name: com.microsoft.azure.management.datalake.analytics.models
+  fullName: com.microsoft.azure.management.datalake.analytics.models
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the models classes for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref>. Creates an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Analytics catalog client. </p>
+  syntax:
+    content: namespace models
+- uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client
+  parent: com.microsoft.azure.management.datalake.analytics
+  href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client.yml
+  name: DataLakeAnalyticsCatalogManagementClient
+  fullName: com.microsoft.azure.management.datalake.analytics.DataLakeAnalyticsCatalogManagementClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface DataLakeAnalyticsCatalogManagementClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.management.datalake.analytics._accounts
   parent: com.microsoft.azure.management.datalake.analytics
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -67,15 +107,6 @@ references:
   type: Class
   syntax:
     content: public class DataLakeAnalyticsAccountOperationsTests
-- uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client
-  parent: com.microsoft.azure.management.datalake.analytics
-  href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client.yml
-  name: DataLakeAnalyticsCatalogManagementClient
-  fullName: com.microsoft.azure.management.datalake.analytics.DataLakeAnalyticsCatalogManagementClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface DataLakeAnalyticsCatalogManagementClient
 - uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_operations_tests
   parent: com.microsoft.azure.management.datalake.analytics
   href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_operations_tests.yml
@@ -118,34 +149,3 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.analytics._jobs" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Jobs
-- uid: com.microsoft.azure.management.datalake.analytics.implementation
-  href: com.microsoft.azure.management.datalake.analytics.implementation.yml
-  name: com.microsoft.azure.management.datalake.analytics.implementation
-  fullName: com.microsoft.azure.management.datalake.analytics.implementation
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the implementation classes for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref>. Creates an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Analytics catalog client. </p>
-  syntax:
-    content: namespace implementation
-- uid: com.microsoft.azure.management.datalake.analytics.models
-  href: com.microsoft.azure.management.datalake.analytics.models.yml
-  name: com.microsoft.azure.management.datalake.analytics.models
-  fullName: com.microsoft.azure.management.datalake.analytics.models
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the models classes for <xref href="com.microsoft.azure.management.datalake.analytics._data_lake_analytics_catalog_management_client" data-throw-if-not-resolved="false"></xref>. Creates an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Analytics catalog client. </p>
-  syntax:
-    content: namespace models
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure

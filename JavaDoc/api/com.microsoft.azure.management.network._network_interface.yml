@@ -539,6 +539,7 @@ references:
     content: public interface Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -553,6 +554,7 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -567,100 +569,8 @@ references:
     content: public interface Updatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.network.implementation._network_interface_impl
-- uid: com.microsoft.azure.management.network._network_interface._definition_blank
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_blank.yml
-  name: NetworkInterface.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionBlank
-  type: Interface
-  summary: <p>The first stage of the network interface. </p>
-  syntax:
-    content: public interface DefinitionBlank
-- uid: com.microsoft.azure.management.network._network_interface._definition_creatable
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
-  name: NetworkInterface.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable
-  type: Interface
-  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
-  syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._network_interface._definitions
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definitions.yml
-  name: NetworkInterface.Definitions
-  fullName: com.microsoft.azure.management.network.NetworkInterface.Definitions
-  type: Interface
-  summary: <p>Container interface for all the definitions. </p>
-  syntax:
-    content: public interface Definitions
-- uid: com.microsoft.azure.management.network._network_interface._definition_with_group
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_with_group.yml
-  name: NetworkInterface.DefinitionWithGroup
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithGroup
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify the resource group. </p>
-  syntax:
-    content: public interface DefinitionWithGroup
-- uid: com.microsoft.azure.management.network._network_interface._definition_with_network
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_with_network.yml
-  name: NetworkInterface.DefinitionWithNetwork
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetwork
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify the virtual network for primary Ip configuration. </p>
-  syntax:
-    content: public interface DefinitionWithNetwork
-- uid: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_with_network_security_group.yml
-  name: NetworkInterface.DefinitionWithNetworkSecurityGroup
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithNetworkSecurityGroup
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to associate a network security group. </p>
-  syntax:
-    content: public interface DefinitionWithNetworkSecurityGroup
-- uid: com.microsoft.azure.management.network._network_interface._definition_with_private_ip
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_with_private_ip.yml
-  name: NetworkInterface.DefinitionWithPrivateIp
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPrivateIp
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
-  syntax:
-    content: public interface DefinitionWithPrivateIp
-- uid: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_with_public_ip_address.yml
-  name: NetworkInterface.DefinitionWithPublicIpAddress
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithPublicIpAddress
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary Ip configuration. </p>
-  syntax:
-    content: public interface DefinitionWithPublicIpAddress
-- uid: com.microsoft.azure.management.network._network_interface._definition_with_subnet
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_with_subnet.yml
-  name: NetworkInterface.DefinitionWithSubnet
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionWithSubnet
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify subnet. </p>
-  syntax:
-    content: public interface DefinitionWithSubnet
-- uid: com.microsoft.azure.management.network._network_interface._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._update.yml
-  name: NetworkInterface.Update
-  fullName: com.microsoft.azure.management.network.NetworkInterface.Update
-  type: Interface
-  summary: >-
-    <p>The template for a network interface update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface Update
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address.yml

@@ -4207,6 +4207,14 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -4225,14 +4233,6 @@ references:
     href: com.microsoft.azure.management.website.implementation.api._hosting_environment_inner.yml
   - name: ' >'
     fullName: ' >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.website.implementation.api._hosting_environment_inner9ec3e006
   spec.java:
   - name: 'final '
@@ -4725,7 +4725,6 @@ references:
     href: com.microsoft.azure.management.website.implementation.api._sku_info_collection_inner.yml
   - name: ' >'
     fullName: ' >'
-- uid: com.microsoft.azure.management.website.implementation.api._hosting038468d63bd750834493b99ccaefccbb
 - uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
@@ -4757,6 +4756,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._hosting_environment_inner.yml
@@ -4798,6 +4798,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_diagnostics_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._hosting_environment_diagnostics_inner.yml

@@ -307,6 +307,7 @@ references:
     content: public interface Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
@@ -321,6 +322,7 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -335,111 +337,5 @@ references:
     content: public interface Updatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.network.implementation._public_ip_address_impl
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_blank
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_blank.yml
-  name: PublicIpAddress.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionBlank
-  type: Interface
-  summary: <p>The first stage of a public IP address definition. </p>
-  syntax:
-    content: public interface DefinitionBlank
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_creatable
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_creatable.yml
-  name: PublicIpAddress.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionCreatable
-  type: Interface
-  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
-  syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._public_ip_address._definitions
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definitions.yml
-  name: PublicIpAddress.Definitions
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.Definitions
-  type: Interface
-  summary: <p>Container interface for all the definitions. </p>
-  syntax:
-    content: public interface Definitions
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_group
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_with_group.yml
-  name: PublicIpAddress.DefinitionWithGroup
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithGroup
-  type: Interface
-  summary: <p>The stage of the public IP address definition allowing to specify the resource group. </p>
-  syntax:
-    content: public interface DefinitionWithGroup
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
-  name: PublicIpAddress.DefinitionWithIpAddress
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithIpAddress
-  type: Interface
-  summary: <p>A public IP address definition allowing to set the IP allocation method (static or dynamic). </p>
-  syntax:
-    content: public interface DefinitionWithIpAddress
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_with_leaf_domain_label.yml
-  name: PublicIpAddress.DefinitionWithLeafDomainLabel
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithLeafDomainLabel
-  type: Interface
-  summary: <p>A public IP address definition allowing to specify the leaf domain label, if any. </p>
-  syntax:
-    content: public interface DefinitionWithLeafDomainLabel
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_with_reverse_f_q_d_n.yml
-  name: PublicIpAddress.DefinitionWithReverseFQDN
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionWithReverseFQDN
-  type: Interface
-  summary: >-
-    <p>A public IP address definition allowing the reverse FQDN to be specified.</p>
-
-    <p></p>
-  syntax:
-    content: public interface DefinitionWithReverseFQDN<T>
-    typeParameters:
-    - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.network._public_ip_address._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._update.yml
-  name: PublicIpAddress.Update
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.Update
-  type: Interface
-  summary: >-
-    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface Update
-- uid: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address.yml
-  name: PublicIpAddress.UpdateWithIpAddress
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithIpAddress
-  type: Interface
-  summary: <p>A public IP address update allowing to change the IP allocation method (static or dynamic). </p>
-  syntax:
-    content: public interface UpdateWithIpAddress
-- uid: com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._update_with_leaf_domain_label.yml
-  name: PublicIpAddress.UpdateWithLeafDomainLabel
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithLeafDomainLabel
-  type: Interface
-  summary: <p>A public IP address update allowing to change the leaf domain label, if any. </p>
-  syntax:
-    content: public interface UpdateWithLeafDomainLabel
-- uid: com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._update_with_reverse_f_q_d_n.yml
-  name: PublicIpAddress.UpdateWithReverseFQDN
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateWithReverseFQDN
-  type: Interface
-  summary: <p>A public IP address update allowing the reverse FQDN to be specified. </p>
-  syntax:
-    content: public interface UpdateWithReverseFQDN

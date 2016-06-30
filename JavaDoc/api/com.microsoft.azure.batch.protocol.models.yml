@@ -300,6 +300,24 @@ items:
   syntax:
     content: namespace models
 references:
+- uid: com.microsoft.azure.batch.protocol._batch_service_client
+  parent: com.microsoft.azure.batch.protocol
+  href: com.microsoft.azure.batch.protocol._batch_service_client.yml
+  name: BatchServiceClient
+  fullName: com.microsoft.azure.batch.protocol.BatchServiceClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.batch.protocol._batch_service_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface BatchServiceClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers.yml
@@ -1976,6 +1994,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.batch.protocol.models._pool_add_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._pool_add_headers.yml
@@ -2816,21 +2835,3 @@ references:
   summary: <p>Windows operating system settings to apply to the virtual machine. </p>
   syntax:
     content: public class WindowsConfiguration
-- uid: com.microsoft.azure.batch.protocol._batch_service_client
-  parent: com.microsoft.azure.batch.protocol
-  href: com.microsoft.azure.batch.protocol._batch_service_client.yml
-  name: BatchServiceClient
-  fullName: com.microsoft.azure.batch.protocol.BatchServiceClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.batch.protocol._batch_service_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface BatchServiceClient
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure

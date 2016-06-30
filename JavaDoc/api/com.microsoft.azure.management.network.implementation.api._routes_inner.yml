@@ -621,18 +621,6 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.rest._service_responsee35e5465
-  spec.java:
-  - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
-    href: com.microsoft.rest._service_response.yml
-  - name: < Void >
-    fullName: < Void >
 - uid: cbf33bbe
   spec.java:
   - name: IOException
@@ -645,6 +633,18 @@ references:
   spec.java:
   - name: InterruptedException
     fullName: InterruptedException
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.rest._service_responsee35e5465
+  spec.java:
+  - uid: com.microsoft.rest._service_response
+    name: ServiceResponse
+    fullName: com.microsoft.rest.ServiceResponse
+    href: com.microsoft.rest._service_response.yml
+  - name: < Void >
+    fullName: < Void >
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -753,7 +753,6 @@ references:
     name: ServiceCall
     fullName: com.microsoft.rest.ServiceCall
     href: com.microsoft.rest._service_call.yml
-- uid: com.microsoft.azure.management.network.implementation.api._routes_inner._routes_service
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
@@ -785,6 +784,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -817,6 +817,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.network.implementation.api._route_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
@@ -840,6 +841,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
@@ -854,6 +856,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.management.network.implementation.api._page_impl
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
@@ -868,3 +871,4 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

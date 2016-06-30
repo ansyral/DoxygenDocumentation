@@ -122,6 +122,14 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -140,14 +148,6 @@ references:
     href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
   - name: ' > >'
     fullName: ' > >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbackf93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerc8b8729b
   spec.java:
   - name: 'final '
@@ -164,7 +164,6 @@ references:
     href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
   - name: ' >>'
     fullName: ' >>'
-- uid: com.microsoft.azure.management.compute.implementation.api._virtuale36d02bd5ac2b335b623317b6158b88c
 - uid: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl.yml
@@ -196,6 +195,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_size_inner.yml
@@ -237,6 +237,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.compute.implementation.api._page_impl
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
@@ -251,3 +252,4 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

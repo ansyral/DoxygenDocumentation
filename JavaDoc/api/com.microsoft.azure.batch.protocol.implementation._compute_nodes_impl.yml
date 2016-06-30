@@ -2023,6 +2023,18 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: c8683d81
+  spec.java:
+  - name: BatchErrorException
+    fullName: BatchErrorException
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -2041,18 +2053,6 @@ references:
     href: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers.yml
   - name: ' >'
     fullName: ' >'
-- uid: c8683d81
-  spec.java:
-  - name: BatchErrorException
-    fullName: BatchErrorException
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - name: 'final '
@@ -2348,7 +2348,6 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._compute_nodes" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface ComputeNodes
-- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl._compute_nodes_service
 - uid: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl.yml
@@ -2377,10 +2376,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._compute_node_add_user_headers.yml
@@ -2484,6 +2485,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.batch.protocol._compute_nodes_1a5ab7cf773345f150a8767e65c7342a23
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
@@ -3736,6 +3738,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_list_headers
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._compute_node_list_headers.yml
@@ -3800,6 +3803,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.batch.protocol._compute_nodes_1af83c3d0121c42c07b3c4c7acdf463a0c
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
@@ -3870,6 +3874,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.batch.protocol._compute_nodes_1a2d97ff020f8442d8a4e2fb6cf2e10ea9
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml

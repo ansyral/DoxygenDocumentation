@@ -32,6 +32,24 @@ items:
   syntax:
     content: namespace implementation
 references:
+- uid: com.microsoft.azure.batch.protocol._batch_service_client
+  parent: com.microsoft.azure.batch.protocol
+  href: com.microsoft.azure.batch.protocol._batch_service_client.yml
+  name: BatchServiceClient
+  fullName: com.microsoft.azure.batch.protocol.BatchServiceClient
+  type: Interface
+  summary: <p>The interface for <xref href="com.microsoft.azure.batch.protocol._batch_service_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  syntax:
+    content: public interface BatchServiceClient
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -122,21 +140,3 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._tasks" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public class TasksImpl
-- uid: com.microsoft.azure.batch.protocol._batch_service_client
-  parent: com.microsoft.azure.batch.protocol
-  href: com.microsoft.azure.batch.protocol._batch_service_client.yml
-  name: BatchServiceClient
-  fullName: com.microsoft.azure.batch.protocol.BatchServiceClient
-  type: Interface
-  summary: <p>The interface for <xref href="com.microsoft.azure.batch.protocol._batch_service_client" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public interface BatchServiceClient
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure

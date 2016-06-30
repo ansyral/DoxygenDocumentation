@@ -741,6 +741,14 @@ items:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
 references:
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -763,14 +771,6 @@ references:
     href: com.microsoft.azure.management.datalake.analytics.models._job_statistics.yml
   - name: ' >'
     fullName: ' >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_statistics9ec3e006
   spec.java:
   - name: 'final '
@@ -964,6 +964,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.analytics.models._job_statistics
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._job_statistics.yml
@@ -1061,6 +1062,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.analytics.models._job_data_path
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._job_data_path.yml
@@ -1334,6 +1336,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl_1a14acfebc522ac2bafae3bdc6585fb788
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -1389,6 +1392,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl_1a71e7d8672daea245a826840acfb04889
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -1498,6 +1502,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl_1a23401f909f6cc832c0255faa101140e1
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml

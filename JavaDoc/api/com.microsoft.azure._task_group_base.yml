@@ -35,6 +35,7 @@ items:
     content: public class TaskGroupBase<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the result type of the tasks in the group </p>
   inheritance:
   - com.microsoft.azure._task_group
   inheritedMembers:
@@ -330,14 +331,14 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
-- uid: 5beb11ad
-  spec.java:
-  - name: abstract void
-    fullName: abstract void
 - uid: 8a99d4b0
   spec.java:
   - name: Exception
     fullName: Exception
+- uid: 5beb11ad
+  spec.java:
+  - name: abstract void
+    fullName: abstract void
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback
@@ -404,10 +405,12 @@ references:
 
     <p></p>
   syntax:
-    content: public interface TaskGroup<T, U extends TaskItem< T>
+    content: public interface TaskGroup<T,U extends TaskItem< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of result of tasks in the group </p>
     - type: 6043614c
+      description: <p>the task type </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_group
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_group.yml
@@ -430,10 +433,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T, U extends DAGNode< T>
+    content: public class DAGraph<T,U extends DAGNode< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>
 - uid: com.microsoft.azure._task_item
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_item.yml
@@ -448,6 +453,7 @@ references:
     content: public interface TaskItem<U>
     typeParameters:
     - type: 6043614c
+      description: <p>the task result type </p>
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
@@ -462,6 +468,7 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._task_group_base
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_group_base.yml
@@ -496,3 +503,4 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>

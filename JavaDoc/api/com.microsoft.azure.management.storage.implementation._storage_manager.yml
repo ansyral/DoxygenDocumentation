@@ -190,24 +190,7 @@ references:
     content: public class Manager<T>
     typeParameters:
     - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
-  parent: com.microsoft.azure.management.storage.implementation
-  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable.yml
-  name: StorageManager.Configurable
-  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.Configurable
-  type: Interface
-  summary: <p>The interface allowing configurations to be set. </p>
-  syntax:
-    content: public interface Configurable
-- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl
-  parent: com.microsoft.azure.management.storage.implementation
-  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable_impl.yml
-  name: StorageManager.ConfigurableImpl
-  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure.management.storage.implementation._storage_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
-  syntax:
-    content: private class ConfigurableImpl
+      description: <p>specific manager type </p>
 - uid: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
   parent: com.microsoft.azure.management.storage.implementation.api
   href: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl.yml
@@ -235,6 +218,15 @@ references:
   summary: <p>Entry point for storage resource usage management API. </p>
   syntax:
     content: public interface Usages
+- uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable.yml
+  name: StorageManager.Configurable
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
 - uid: com.microsoft.azure.management.storage.implementation._storage_manager
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._storage_manager.yml

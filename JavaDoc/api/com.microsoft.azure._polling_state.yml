@@ -39,6 +39,7 @@ items:
     content: public class PollingState<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource the operation returns. </p>
 - uid: com.microsoft.azure._polling_state_1a0a38daea037189c15d5d78fccb770c9e
   id: _polling_state_1a0a38daea037189c15d5d78fccb770c9e
   parent: com.microsoft.azure._polling_state
@@ -396,6 +397,10 @@ references:
   spec.java:
   - name: T
     fullName: T
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: "1755e818"
   spec.java:
   - name: Response< ResponseBody >
@@ -408,10 +413,6 @@ references:
   spec.java:
   - name: Type
     fullName: Type
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
 - uid: f75371fa
   spec.java:
   - name: int
@@ -424,7 +425,6 @@ references:
   spec.java:
   - name: IllegalArgumentException
     fullName: IllegalArgumentException
-- uid: com.microsoft.azure._polling_state._polling_resource
 - uid: com.microsoft.azure._cloud_error
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_error.yml

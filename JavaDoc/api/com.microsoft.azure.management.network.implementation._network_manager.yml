@@ -230,24 +230,7 @@ references:
     content: public class Manager<T>
     typeParameters:
     - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.network.implementation._network_manager._configurable
-  parent: com.microsoft.azure.management.network.implementation
-  href: com.microsoft.azure.management.network.implementation._network_manager._configurable.yml
-  name: NetworkManager.Configurable
-  fullName: com.microsoft.azure.management.network.implementation.NetworkManager.Configurable
-  type: Interface
-  summary: <p>The interface allowing configurations to be set. </p>
-  syntax:
-    content: public interface Configurable
-- uid: com.microsoft.azure.management.network.implementation._network_manager._configurable_impl
-  parent: com.microsoft.azure.management.network.implementation
-  href: com.microsoft.azure.management.network.implementation._network_manager._configurable_impl.yml
-  name: NetworkManager.ConfigurableImpl
-  fullName: com.microsoft.azure.management.network.implementation.NetworkManager.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure.management.network.implementation._network_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
-  syntax:
-    content: private class ConfigurableImpl
+      description: <p>specific manager type </p>
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
@@ -293,6 +276,15 @@ references:
   summary: <p>Entry point to network interface management. </p>
   syntax:
     content: public interface NetworkInterfaces
+- uid: com.microsoft.azure.management.network.implementation._network_manager._configurable
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._network_manager._configurable.yml
+  name: NetworkManager.Configurable
+  fullName: com.microsoft.azure.management.network.implementation.NetworkManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
 - uid: com.microsoft.azure.management.network.implementation._network_manager
   parent: com.microsoft.azure.management.network.implementation
   href: com.microsoft.azure.management.network.implementation._network_manager.yml

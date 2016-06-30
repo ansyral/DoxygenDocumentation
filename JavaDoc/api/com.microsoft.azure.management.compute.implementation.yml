@@ -4,7 +4,6 @@ items:
   children:
   - com.microsoft.azure.management.compute.implementation._compute_manager
   - com.microsoft.azure.management.compute.implementation._compute_manager._configurable
-  - com.microsoft.azure.management.compute.implementation._compute_manager._configurable_impl
   href: com.microsoft.azure.management.compute.implementation.yml
   langs:
   - java
@@ -24,26 +23,6 @@ items:
   syntax:
     content: namespace implementation
 references:
-- uid: com.microsoft.azure.management.compute.implementation._availability_set_impl
-- uid: com.microsoft.azure.management.compute.implementation._availability_sets_impl
-- uid: com.microsoft.azure.management.compute.implementation._compute_manager
-  parent: com.microsoft.azure.management.compute.implementation
-  href: com.microsoft.azure.management.compute.implementation._compute_manager.yml
-  name: ComputeManager
-  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager
-  type: Class
-  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> compute resource management. </p>
-  syntax:
-    content: public class ComputeManager
-- uid: com.microsoft.azure.management.compute.implementation._data_disk_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_offer_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_publisher_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_image_sku_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machines_impl
-- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_size_impl
 - uid: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api.yml
   name: com.microsoft.azure.management.compute.implementation.api
@@ -55,6 +34,15 @@ references:
     <p>This package contains the <xref href="com.microsoft.azure.management.compute.implementation.api" data-throw-if-not-resolved="false"></xref> classes for ComputeManagementClient. The Compute Management Client. </p>
   syntax:
     content: namespace api
+- uid: com.microsoft.azure.management.compute.implementation._compute_manager
+  parent: com.microsoft.azure.management.compute.implementation
+  href: com.microsoft.azure.management.compute.implementation._compute_manager.yml
+  name: ComputeManager
+  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> compute resource management. </p>
+  syntax:
+    content: public class ComputeManager
 - uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable
   parent: com.microsoft.azure.management.compute.implementation
   href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable.yml
@@ -64,12 +52,3 @@ references:
   summary: <p>The interface allowing configurations to be set. </p>
   syntax:
     content: public interface Configurable
-- uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable_impl
-  parent: com.microsoft.azure.management.compute.implementation
-  href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable_impl.yml
-  name: ComputeManager.ConfigurableImpl
-  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure.management.compute.implementation._compute_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
-  syntax:
-    content: private class ConfigurableImpl

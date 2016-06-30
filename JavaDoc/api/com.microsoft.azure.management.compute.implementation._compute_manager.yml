@@ -215,24 +215,7 @@ references:
     content: public class Manager<T>
     typeParameters:
     - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable
-  parent: com.microsoft.azure.management.compute.implementation
-  href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable.yml
-  name: ComputeManager.Configurable
-  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager.Configurable
-  type: Interface
-  summary: <p>The interface allowing configurations to be set. </p>
-  syntax:
-    content: public interface Configurable
-- uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable_impl
-  parent: com.microsoft.azure.management.compute.implementation
-  href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable_impl.yml
-  name: ComputeManager.ConfigurableImpl
-  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure.management.compute.implementation._compute_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
-  syntax:
-    content: private class ConfigurableImpl
+      description: <p>specific manager type </p>
 - uid: com.microsoft.azure.management.storage.implementation._storage_manager
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._storage_manager.yml
@@ -287,6 +270,15 @@ references:
   summary: <p>Entry point to virtual machine image management API. </p>
   syntax:
     content: public interface VirtualMachineImages
+- uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable
+  parent: com.microsoft.azure.management.compute.implementation
+  href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable.yml
+  name: ComputeManager.Configurable
+  fullName: com.microsoft.azure.management.compute.implementation.ComputeManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
 - uid: com.microsoft.azure.management.compute.implementation._compute_manager
   parent: com.microsoft.azure.management.compute.implementation
   href: com.microsoft.azure.management.compute.implementation._compute_manager.yml

@@ -24,14 +24,14 @@ items:
   - com.microsoft.azure.management.storage.implementation.api._storage_account_key
   - com.microsoft.azure.management.storage.implementation.api._storage_account_list_keys_result_inner
   - com.microsoft.azure.management.storage.implementation.api._storage_account_regenerate_key_parameters
-  - com.microsoft.azure.management.storage.implementation.api._storage_accounts_inner
   - com.microsoft.azure.management.storage.implementation.api._storage_account_update_parameters_inner
+  - com.microsoft.azure.management.storage.implementation.api._storage_accounts_inner
   - com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
   - com.microsoft.azure.management.storage.implementation.api._usage
   - com.microsoft.azure.management.storage.implementation.api._usage_list_result_inner
   - com.microsoft.azure.management.storage.implementation.api._usage_name
-  - com.microsoft.azure.management.storage.implementation.api._usages_inner
   - com.microsoft.azure.management.storage.implementation.api._usage_unit
+  - com.microsoft.azure.management.storage.implementation.api._usages_inner
   href: com.microsoft.azure.management.storage.implementation.api.yml
   langs:
   - java
@@ -52,6 +52,16 @@ items:
   syntax: &o0
     content: namespace api
 references:
+- uid: com.microsoft.azure.management.storage.implementation.api
+  href: com.microsoft.azure.management.storage.implementation.api.yml
+  name: com.microsoft.azure.management.storage.implementation.api
+  fullName: com.microsoft.azure.management.storage.implementation.api
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the <xref href="com.microsoft.azure.management.storage.implementation.api" data-throw-if-not-resolved="false"></xref> classes for StorageManagementClient. The Storage Management Client. </p>
+  syntax: *o0
 - uid: com.microsoft.azure.management.storage.implementation.api._access_tier
   parent: com.microsoft.azure.management.storage.implementation.api
   href: com.microsoft.azure.management.storage.implementation.api._access_tier.yml
@@ -156,6 +166,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.management.storage.implementation.api._provisioning_state
   parent: com.microsoft.azure.management.storage.implementation.api
   href: com.microsoft.azure.management.storage.implementation.api._provisioning_state.yml
@@ -327,13 +338,3 @@ references:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._usage_unit" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum UsageUnit
-- uid: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api.yml
-  name: com.microsoft.azure.management.storage.implementation.api
-  fullName: com.microsoft.azure.management.storage.implementation.api
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the <xref href="com.microsoft.azure.management.storage.implementation.api" data-throw-if-not-resolved="false"></xref> classes for StorageManagementClient. The Storage Management Client. </p>
-  syntax: *o0

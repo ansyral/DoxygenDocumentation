@@ -3,6 +3,8 @@ items:
   id: azure
   children:
   - com.microsoft.azure._azure
+  - com.microsoft.azure._azure._authenticated
+  - com.microsoft.azure._azure._configurable
   - com.microsoft.azure._azure_async_operation
   - com.microsoft.azure._azure_client
   - com.microsoft.azure._azure_environment
@@ -19,24 +21,28 @@ items:
   - com.microsoft.azure._d_a_graph_tests
   - com.microsoft.azure._graph
   - com.microsoft.azure._list_operation_callback
+  - com.microsoft.azure._list_operation_callback._paging_bahavior
   - com.microsoft.azure._node
   - com.microsoft.azure._page
   - com.microsoft.azure._paged_list
   - com.microsoft.azure._paged_list_tests
+  - com.microsoft.azure._paged_list_tests._test_page
   - com.microsoft.azure._polling_state
   - com.microsoft.azure._request_id_header_interceptor
   - com.microsoft.azure._request_id_header_interceptor_tests
   - com.microsoft.azure._resource
   - com.microsoft.azure._resource_get_exponential_backoff_retry_strategy
   - com.microsoft.azure._rest_client
+  - com.microsoft.azure._rest_client._builder
+  - com.microsoft.azure._rest_client._builder._buildable
   - com.microsoft.azure._sub_resource
   - com.microsoft.azure._task_group
   - com.microsoft.azure._task_group_base
   - com.microsoft.azure._task_item
   - com.microsoft.azure._test_availability_set
+  - com.microsoft.azure._test_n_s_g
   - com.microsoft.azure._test_network
   - com.microsoft.azure._test_network_interface
-  - com.microsoft.azure._test_n_s_g
   - com.microsoft.azure._test_public_ip_address
   - com.microsoft.azure._test_template
   - com.microsoft.azure._test_utils
@@ -45,16 +51,6 @@ items:
   - com.microsoft.azure._test_virtual_machine_nics
   - com.microsoft.azure._test_virtual_machine_sizes
   - com.microsoft.azure._test_virtual_machine_ssh
-  - com.microsoft.azure._azure_client._async_service
-  - com.microsoft.azure._azure._authenticated
-  - com.microsoft.azure._azure._authenticated_impl
-  - com.microsoft.azure._rest_client._builder._buildable
-  - com.microsoft.azure._rest_client._builder
-  - com.microsoft.azure._azure._configurable
-  - com.microsoft.azure._azure._configurable_impl
-  - com.microsoft.azure._paged_list._list_itr
-  - com.microsoft.azure._list_operation_callback._paging_bahavior
-  - com.microsoft.azure._paged_list_tests._test_page
   href: com.microsoft.azure.yml
   langs:
   - java
@@ -77,6 +73,40 @@ items:
   syntax:
     content: namespace azure
 references:
+- uid: com.microsoft.azure.batch
+  href: com.microsoft.azure.batch.yml
+  name: com.microsoft.azure.batch
+  fullName: com.microsoft.azure.batch
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for <xref href="com.microsoft.azure.batch._batch_client" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: namespace batch
+- uid: com.microsoft.azure.credentials
+  href: com.microsoft.azure.credentials.yml
+  name: com.microsoft.azure.credentials
+  fullName: com.microsoft.azure.credentials
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>The package provides 2 credential classes that work with AutoRest generated <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> clients for authentication purposes through <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: namespace credentials
+- uid: com.microsoft.azure.management
+- uid: com.microsoft.azure.serializer
+  href: com.microsoft.azure.serializer.yml
+  name: com.microsoft.azure.serializer
+  fullName: com.microsoft.azure.serializer
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>The package contains classes that handle serialization and deserialization for the REST call payloads in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: namespace serializer
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml
@@ -127,6 +157,7 @@ references:
     content: public class AzureResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response resource </p>
 - uid: com.microsoft.azure._azure_service_client
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure_service_client.yml
@@ -147,10 +178,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureServiceResponseBuilder<T, E extends RestException>
+    content: public class AzureServiceResponseBuilder<T,E extends RestException>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the return type from caller. </p>
     - type: 0ca03e3a
+      description: <p>the exception to throw in case of error. </p>
 - uid: com.microsoft.azure._azure_tests
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure_tests.yml
@@ -200,6 +233,7 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
@@ -213,10 +247,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T, U extends DAGNode< T>
+    content: public class DAGraph<T,U extends DAGNode< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>
 - uid: com.microsoft.azure._d_a_graph_test
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph_test.yml
@@ -246,10 +282,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class Graph<T, U extends Node< T>
+    content: public class Graph<T,U extends Node< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph's nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
@@ -264,6 +302,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure._node
   parent: com.microsoft.azure
   href: com.microsoft.azure._node.yml
@@ -278,6 +317,7 @@ references:
     content: public class Node<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._page
   parent: com.microsoft.azure
   href: com.microsoft.azure._page.yml
@@ -292,6 +332,7 @@ references:
     content: public interface Page<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -306,6 +347,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure._paged_list_tests
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list_tests.yml
@@ -328,6 +370,7 @@ references:
     content: public class PollingState<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the resource the operation returns. </p>
 - uid: com.microsoft.azure._request_id_header_interceptor
   parent: com.microsoft.azure
   href: com.microsoft.azure._request_id_header_interceptor.yml
@@ -394,10 +437,12 @@ references:
 
     <p></p>
   syntax:
-    content: public interface TaskGroup<T, U extends TaskItem< T>
+    content: public interface TaskGroup<T,U extends TaskItem< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of result of tasks in the group </p>
     - type: 6043614c
+      description: <p>the task type </p>
 - uid: com.microsoft.azure._task_group_base
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_group_base.yml
@@ -412,6 +457,7 @@ references:
     content: public class TaskGroupBase<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the result type of the tasks in the group </p>
 - uid: com.microsoft.azure._task_item
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_item.yml
@@ -426,6 +472,7 @@ references:
     content: public interface TaskItem<U>
     typeParameters:
     - type: 6043614c
+      description: <p>the task result type </p>
 - uid: com.microsoft.azure._test_availability_set
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_availability_set.yml
@@ -477,10 +524,12 @@ references:
   type: Class
   summary: <p>Base class for CRUD test cases for top level <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource models. </p>
   syntax:
-    content: public class TestTemplate<T extends GroupableResource, C extends SupportsListing< T, &SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+    content: public class TestTemplate<T extends GroupableResource,C extends SupportsListing< T,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>Top level resource type </p>
     - type: 37f8610d
+      description: <p>Type representing the collection of the top level resources </p>
     - type: 7804ff6ccom.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group6d8ef525com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting76390d34com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id34132889
 - uid: com.microsoft.azure._test_utils
   parent: com.microsoft.azure
@@ -531,49 +580,6 @@ references:
   type: Class
   syntax:
     content: public class TestVirtualMachineSsh
-- uid: com.microsoft.azure.batch
-  href: com.microsoft.azure.batch.yml
-  name: com.microsoft.azure.batch
-  fullName: com.microsoft.azure.batch
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the classes for <xref href="com.microsoft.azure.batch._batch_client" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: namespace batch
-- uid: com.microsoft.azure.credentials
-  href: com.microsoft.azure.credentials.yml
-  name: com.microsoft.azure.credentials
-  fullName: com.microsoft.azure.credentials
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>The package provides 2 credential classes that work with AutoRest generated <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> clients for authentication purposes through <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: namespace credentials
-- uid: com.microsoft.azure.management
-- uid: com.microsoft.azure.serializer
-  href: com.microsoft.azure.serializer.yml
-  name: com.microsoft.azure.serializer
-  fullName: com.microsoft.azure.serializer
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>The package contains classes that handle serialization and deserialization for the REST call payloads in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: namespace serializer
-- uid: com.microsoft.azure._azure_client._async_service
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure_client._async_service.yml
-  name: AzureClient.AsyncService
-  fullName: com.microsoft.azure.AzureClient.AsyncService
-  type: Interface
-  summary: <p>The Retrofit service used for polling. </p>
-  syntax:
-    content: private interface AsyncService
 - uid: com.microsoft.azure._azure._authenticated
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure._authenticated.yml
@@ -586,15 +592,6 @@ references:
     <p>To access the subscription-specific APIs, use <xref href="com.microsoft.azure._azure._authenticated_1a219cdf6c5311347cb886f40aea966fae" data-throw-if-not-resolved="false"></xref>, or <xref href="com.microsoft.azure._azure._authenticated_1a169d93673d857ff7e4470b07b4c247f2" data-throw-if-not-resolved="false"></xref> if a default subscription has already been previously specified (for example, in a previously specified authentication file). </p>
   syntax:
     content: public interface Authenticated
-- uid: com.microsoft.azure._azure._authenticated_impl
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure._authenticated_impl.yml
-  name: Azure.AuthenticatedImpl
-  fullName: com.microsoft.azure.Azure.AuthenticatedImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure._azure._authenticated" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: private class AuthenticatedImpl
 - uid: com.microsoft.azure._rest_client._builder._buildable
   parent: com.microsoft.azure
   href: com.microsoft.azure._rest_client._builder._buildable.yml
@@ -622,24 +619,6 @@ references:
   summary: <p>The interface allowing configurations to be made on the client. </p>
   syntax:
     content: public interface Configurable
-- uid: com.microsoft.azure._azure._configurable_impl
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure._configurable_impl.yml
-  name: Azure.ConfigurableImpl
-  fullName: com.microsoft.azure.Azure.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure._azure._configurable" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: private class ConfigurableImpl
-- uid: com.microsoft.azure._paged_list._list_itr
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._paged_list._list_itr.yml
-  name: PagedList.ListItr
-  fullName: com.microsoft.azure.PagedList.ListItr
-  type: Class
-  summary: <p>The implementation of <ref refid="" kindref="compound">ListIterator</ref> for <xref href="com.microsoft.azure._paged_list" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: private class ListItr
 - uid: com.microsoft.azure._list_operation_callback._paging_bahavior
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback._paging_bahavior.yml

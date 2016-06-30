@@ -173,13 +173,24 @@ references:
 
     <p></p>
   syntax:
-    content: public class ResourceImpl<FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT>
+    content: public class ResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends ResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>>
     typeParameters:
     - type: 2f67777b
+      description: <p>The fluent model type </p>
     - type: 23ab9e11
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> inner resource class type </p>
     - type: 664a96a9
+      description: <p>the implementation type of the fluent model type </p>
     - type: 23ab9e11
+      description: >-
+        <p>
+
+          <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> inner resource class type </p>
     - type: 664a96a9
+      description: <p>the implementation type of the fluent model type </p>
 - uid: com.microsoft.azure.management.resources._resource_group
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group.yml
@@ -189,48 +200,6 @@ references:
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource group. </p>
   syntax:
     content: public interface ResourceGroup
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f.yml
-  name: Resource.DefinitionWithRegion
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion
-  type: Interface
-  summary: >-
-    <p>A resource definition allowing a location be selected for the resource.</p>
-
-    <p></p>
-  syntax:
-    content: public interface DefinitionWithRegion<T>
-    typeParameters:
-    - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
-  name: Resource.DefinitionWithTags
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
-  type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
-  syntax:
-    content: public interface DefinitionWithTags<T>
-    typeParameters:
-    - type: 8ce1ecb9
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
-  name: Resource.UpdateWithTags
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags
-  type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
-  syntax:
-    content: public interface UpdateWithTags<T>
-    typeParameters:
-    - type: 8ce1ecb9
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1aaa75ce4ae3a8cbbc18fd8620f0f8986d
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml

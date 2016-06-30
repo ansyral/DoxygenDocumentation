@@ -22,7 +22,6 @@ items:
   - com.microsoft.azure.management.datalake.store.uploader._string_extensions
   - com.microsoft.azure.management.datalake.store.uploader._string_extensions_tests
   - com.microsoft.azure.management.datalake.store.uploader._test_helpers
-  - com.microsoft.azure.management.datalake.store.uploader._uploader_front_end_mock
   - com.microsoft.azure.management.datalake.store.uploader._upload_failed_exception
   - com.microsoft.azure.management.datalake.store.uploader._upload_metadata
   - com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator
@@ -30,8 +29,7 @@ items:
   - com.microsoft.azure.management.datalake.store.uploader._upload_parameters
   - com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata
   - com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata_tests
-  - com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
-  - com.microsoft.azure.management.datalake.store.uploader._in_memory_front_end._stream_data
+  - com.microsoft.azure.management.datalake.store.uploader._uploader_front_end_mock
   href: com.microsoft.azure.management.datalake.store.uploader.yml
   langs:
   - java
@@ -52,6 +50,24 @@ items:
   syntax:
     content: namespace uploader
 references:
+- uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader
+  parent: com.microsoft.azure.management.datalake.store.uploader
+  href: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader.yml
+  name: DataLakeStoreUploader
+  fullName: com.microsoft.azure.management.datalake.store.uploader.DataLakeStoreUploader
+  type: Class
+  summary: <p>Represents a general purpose file uploader into DataLake. Supports the efficient upload of large files. </p>
+  syntax:
+    content: public class DataLakeStoreUploader
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.management.datalake.store.uploader._aggregate_upload_exception
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._aggregate_upload_exception.yml
@@ -70,15 +86,6 @@ references:
   summary: <p>A front end adapter that communicates with the DataLake Store. This is a syncrhonous call adapter, which has certain efficiency limitations. In the future, new adapters that are created should consider implementing the methods asynchronously. </p>
   syntax:
     content: public class DataLakeStoreFrontEndAdapterImpl
-- uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader
-  parent: com.microsoft.azure.management.datalake.store.uploader
-  href: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader.yml
-  name: DataLakeStoreUploader
-  fullName: com.microsoft.azure.management.datalake.store.uploader.DataLakeStoreUploader
-  type: Class
-  summary: <p>Represents a general purpose file uploader into DataLake. Supports the efficient upload of large files. </p>
-  syntax:
-    content: public class DataLakeStoreUploader
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base.yml
@@ -299,30 +306,3 @@ references:
   summary: <p>Unit tests that target the <xref href="com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class UploadSegmentMetadataTests
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure
-- uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581
-  parent: com.microsoft.azure.management.datalake.store.uploader
-  href: com.microsoft.azure.management.datalake.store.uploader._multiple_segme1d24fab060563b51290725d8c0f15581.yml
-  name: MultipleSegmentUploader.SegmentQueueItem
-  fullName: com.microsoft.azure.management.datalake.store.uploader.MultipleSegmentUploader.SegmentQueueItem
-  type: Class
-  summary: <p>Represents a tuple that pairs a segment number with the number of times it was attempted for upload. </p>
-  syntax:
-    content: private class SegmentQueueItem
-- uid: com.microsoft.azure.management.datalake.store.uploader._in_memory_front_end._stream_data
-  parent: com.microsoft.azure.management.datalake.store.uploader
-  href: com.microsoft.azure.management.datalake.store.uploader._in_memory_front_end._stream_data.yml
-  name: InMemoryFrontEnd.StreamData
-  fullName: com.microsoft.azure.management.datalake.store.uploader.InMemoryFrontEnd.StreamData
-  type: Class
-  summary: <p>Represents stream data for unit testing purposes. </p>
-  syntax:
-    content: private class StreamData

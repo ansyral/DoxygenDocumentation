@@ -35,10 +35,12 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class ServiceResponseBuilder<T, E extends RestException>
+    content: public class ServiceResponseBuilder<T,E extends RestException>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>The return type the caller expects from the REST response. </p>
     - type: 0ca03e3a
+      description: <p>the exception to throw in case of error. </p>
 - uid: com.microsoft.rest._service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
   id: _service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
   parent: com.microsoft.rest._service_response_builder
@@ -455,6 +457,10 @@ references:
     href: com.microsoft.rest._rest_exception.yml
   - name: ' >'
     fullName: ' >'
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: "1755e818"
   spec.java:
   - name: Response< ResponseBody >
@@ -467,10 +473,6 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
 - uid: 1f34a690
   spec.java:
   - name: Response< Void >
@@ -508,10 +510,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureServiceResponseBuilder<T, E extends RestException>
+    content: public class AzureServiceResponseBuilder<T,E extends RestException>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the return type from caller. </p>
     - type: 0ca03e3a
+      description: <p>the exception to throw in case of error. </p>
 - uid: com.microsoft.rest._rest_exception
   parent: com.microsoft.rest
   href: com.microsoft.rest._rest_exception.yml
@@ -555,6 +559,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.rest._service_response_with_headers
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_with_headers.yml
@@ -566,7 +571,9 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody, THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader>
     typeParameters:
     - type: 0063fec6
+      description: <p>the type of the response </p>
     - type: "77199363"
+      description: <p>the type of the response header object </p>

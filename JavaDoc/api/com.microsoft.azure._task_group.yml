@@ -31,10 +31,12 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public interface TaskGroup<T, U extends TaskItem< T>
+    content: public interface TaskGroup<T,U extends TaskItem< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of result of tasks in the group </p>
     - type: 6043614c
+      description: <p>the task type </p>
 - uid: com.microsoft.azure._task_group_1ae48eb235ea38957de508d8fb44088920
   id: _task_group_1ae48eb235ea38957de508d8fb44088920
   parent: com.microsoft.azure._task_group
@@ -267,6 +269,7 @@ references:
     content: public interface TaskItem<U>
     typeParameters:
     - type: 6043614c
+      description: <p>the task result type </p>
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
@@ -280,10 +283,12 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T, U extends DAGNode< T>
+    content: public class DAGraph<T,U extends DAGNode< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the graph nodes </p>
     - type: 6043614c
+      description: <p>the type of the nodes in the graph </p>
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
@@ -298,6 +303,7 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure._task_group
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_group.yml
@@ -334,3 +340,4 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>

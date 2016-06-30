@@ -302,6 +302,7 @@ references:
     content: public interface TaskItem<U>
     typeParameters:
     - type: 6043614c
+      description: <p>the task result type </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -316,6 +317,7 @@ references:
     content: public interface Creatable<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the fluent type of the resource to be created </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
@@ -339,6 +341,7 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_item
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_item.yml
@@ -371,10 +374,12 @@ references:
 
     <p></p>
   syntax:
-    content: public interface TaskGroup<T, U extends TaskItem< T>
+    content: public interface TaskGroup<T,U extends TaskItem< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of result of tasks in the group </p>
     - type: 6043614c
+      description: <p>the task type </p>
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -398,3 +403,4 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>

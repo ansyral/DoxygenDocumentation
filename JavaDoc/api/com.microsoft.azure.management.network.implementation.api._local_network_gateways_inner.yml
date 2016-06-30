@@ -585,6 +585,18 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
+- uid: 8256ba40
+  spec.java:
+  - name: InterruptedException
+    fullName: InterruptedException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -603,18 +615,6 @@ references:
     href: com.microsoft.azure.management.network.implementation.api._local_network_gateway_inner.yml
   - name: ' >'
     fullName: ' >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
-- uid: 8256ba40
-  spec.java:
-  - name: InterruptedException
-    fullName: InterruptedException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.network.implementation.api._local_network_gateway_inner9ec3e006
   spec.java:
   - name: 'final '
@@ -717,7 +717,6 @@ references:
     name: ServiceCall
     fullName: com.microsoft.rest.ServiceCall
     href: com.microsoft.rest._service_call.yml
-- uid: com.microsoft.azure.management.network.implementation.api._local_n6b5752b4df75801ccc64f0013f8969fc
 - uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
@@ -749,6 +748,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.network.implementation.api._local_network_gateway_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._local_network_gateway_inner.yml
@@ -799,6 +799,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -813,6 +814,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
@@ -827,6 +829,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.management.network.implementation.api._page_impl
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
@@ -841,3 +844,4 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

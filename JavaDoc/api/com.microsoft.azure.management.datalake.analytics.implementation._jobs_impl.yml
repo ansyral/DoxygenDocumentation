@@ -793,6 +793,14 @@ references:
   spec.java:
   - name: Retrofit
     fullName: Retrofit
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
 - uid: "26831127"
   spec.java:
   - name: String
@@ -815,14 +823,6 @@ references:
     href: com.microsoft.azure.management.datalake.analytics.models._job_statistics.yml
   - name: ' >'
     fullName: ' >'
-- uid: cbf33bbe
-  spec.java:
-  - name: IOException
-    fullName: IOException
-- uid: 3c87bd19
-  spec.java:
-  - name: IllegalArgumentException
-    fullName: IllegalArgumentException
 - uid: 93de0ef9com.microsoft.rest._service_callback151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_statistics9ec3e006
   spec.java:
   - name: 'final '
@@ -1002,7 +1002,6 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.analytics._jobs" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Jobs
-- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl._jobs_service
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._data1e182d99db7720babacb832862cb4c49
   parent: com.microsoft.azure.management.datalake.analytics.implementation
   href: com.microsoft.azure.management.datalake.analytics.implementation._data1e182d99db7720babacb832862cb4c49.yml
@@ -1034,6 +1033,7 @@ references:
     content: public class ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.analytics.models._job_statistics
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._job_statistics.yml
@@ -1131,6 +1131,7 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>
 - uid: com.microsoft.azure.management.datalake.analytics.models._job_data_path
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._job_data_path.yml
@@ -1404,6 +1405,7 @@ references:
     content: public class PagedList<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the element type. </p>
 - uid: com.microsoft.azure.management.datalake.analytics._jobs_1a4e0765bc6c3f81d9ae7bb426c182b07f
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
@@ -1459,6 +1461,7 @@ references:
     content: public class ListOperationCallback<E>
     typeParameters:
     - type: 0ca03e3a
+      description: <p>the item type </p>
 - uid: com.microsoft.azure.management.datalake.analytics._jobs_1a0ac5cb7ffca7c64599f56cb3bdf55203
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
@@ -1568,6 +1571,7 @@ references:
     content: public class PageImpl<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
 - uid: com.microsoft.azure.management.datalake.analytics._jobs_1aa6f7c449b46e85890ebbfdcc8ea67637
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml

@@ -28,6 +28,7 @@ items:
     content: public interface TaskItem<U>
     typeParameters:
     - type: 6043614c
+      description: <p>the task result type </p>
 - uid: com.microsoft.azure._task_item_1a99cafd11b65aac5ac989bf39370fc532
   id: _task_item_1a99cafd11b65aac5ac989bf39370fc532
   parent: com.microsoft.azure._task_item
@@ -119,6 +120,10 @@ references:
   spec.java:
   - name: U
     fullName: U
+- uid: 8a99d4b0
+  spec.java:
+  - name: Exception
+    fullName: Exception
 - uid: com.microsoft.azure._task_groupaac6d167com.microsoft.azure._task_item20b17ce5
   spec.java:
   - uid: com.microsoft.azure._task_group
@@ -147,10 +152,6 @@ references:
     href: com.microsoft.azure._task_item.yml
   - name: < U >>
     fullName: < U >>
-- uid: 8a99d4b0
-  spec.java:
-  - name: Exception
-    fullName: Exception
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback
@@ -192,10 +193,12 @@ references:
 
     <p></p>
   syntax:
-    content: public interface TaskGroup<T, U extends TaskItem< T>
+    content: public interface TaskGroup<T,U extends TaskItem< T>>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of result of tasks in the group </p>
     - type: 6043614c
+      description: <p>the task type </p>
 - uid: com.microsoft.azure._task_item
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_item.yml
@@ -221,6 +224,7 @@ references:
     content: public class DAGNode<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the data stored in the node </p>
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -244,3 +248,4 @@ references:
     content: public class ServiceCallback<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the response </p>

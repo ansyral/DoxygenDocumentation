@@ -3,22 +3,22 @@ items:
   id: storage
   children:
   - com.microsoft.azure.management.storage._storage_account
+  - com.microsoft.azure.management.storage._storage_account._definition_blank
+  - com.microsoft.azure.management.storage._storage_account._definition_creatable
+  - com.microsoft.azure.management.storage._storage_account._definition_creatable_with_access_tier
+  - com.microsoft.azure.management.storage._storage_account._definition_with_group
+  - com.microsoft.azure.management.storage._storage_account._definitions
+  - com.microsoft.azure.management.storage._storage_account._update
+  - com.microsoft.azure.management.storage._storage_account._update_with_access_tier
+  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+  - com.microsoft.azure.management.storage._storage_account._update_with_encryption
+  - com.microsoft.azure.management.storage._storage_account._update_with_sku
   - com.microsoft.azure.management.storage._storage_account_operations_tests
   - com.microsoft.azure.management.storage._storage_accounts
   - com.microsoft.azure.management.storage._storage_management_test_base
   - com.microsoft.azure.management.storage._usage
   - com.microsoft.azure.management.storage._usage_operations_tests
   - com.microsoft.azure.management.storage._usages
-  - com.microsoft.azure.management.storage._storage_account._definition_blank
-  - com.microsoft.azure.management.storage._storage_account._definition_creatable
-  - com.microsoft.azure.management.storage._storage_account._definition_creatable_with_access_tier
-  - com.microsoft.azure.management.storage._storage_account._definitions
-  - com.microsoft.azure.management.storage._storage_account._definition_with_group
-  - com.microsoft.azure.management.storage._storage_account._update
-  - com.microsoft.azure.management.storage._storage_account._update_with_access_tier
-  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
-  - com.microsoft.azure.management.storage._storage_account._update_with_encryption
-  - com.microsoft.azure.management.storage._storage_account._update_with_sku
   href: com.microsoft.azure.management.storage.yml
   langs:
   - java
@@ -38,6 +38,28 @@ items:
   syntax:
     content: namespace storage
 references:
+- uid: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation.yml
+  name: com.microsoft.azure.management.storage.implementation
+  fullName: com.microsoft.azure.management.storage.implementation
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the implementation classes for StorageManagementClient. The Storage Management Client. </p>
+  syntax:
+    content: namespace implementation
+- uid: com.microsoft.azure.management.storage.samples
+  href: com.microsoft.azure.management.storage.samples.yml
+  name: com.microsoft.azure.management.storage.samples
+  fullName: com.microsoft.azure.management.storage.samples
+  type: Namespace
+  summary: >-
+    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
+
+    <p>This package contains the classes for compute samples. </p>
+  syntax:
+    content: namespace samples
 - uid: com.microsoft.azure.management.storage._storage_account
   parent: com.microsoft.azure.management.storage
   href: com.microsoft.azure.management.storage._storage_account.yml
@@ -99,28 +121,6 @@ references:
   summary: <p>Entry point for storage resource usage management API. </p>
   syntax:
     content: public interface Usages
-- uid: com.microsoft.azure.management.storage.implementation
-  href: com.microsoft.azure.management.storage.implementation.yml
-  name: com.microsoft.azure.management.storage.implementation
-  fullName: com.microsoft.azure.management.storage.implementation
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the implementation classes for StorageManagementClient. The Storage Management Client. </p>
-  syntax:
-    content: namespace implementation
-- uid: com.microsoft.azure.management.storage.samples
-  href: com.microsoft.azure.management.storage.samples.yml
-  name: com.microsoft.azure.management.storage.samples
-  fullName: com.microsoft.azure.management.storage.samples
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the classes for compute samples. </p>
-  syntax:
-    content: namespace samples
 - uid: com.microsoft.azure.management.storage._storage_account._definition_blank
   parent: com.microsoft.azure.management.storage
   href: com.microsoft.azure.management.storage._storage_account._definition_blank.yml

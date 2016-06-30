@@ -24,6 +24,15 @@ items:
   syntax:
     content: namespace serializer
 references:
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
 - uid: com.microsoft.azure.serializer._azure_jackson_mapper_adapter
   parent: com.microsoft.azure.serializer
   href: com.microsoft.azure.serializer._azure_jackson_mapper_adapter.yml
@@ -42,12 +51,3 @@ references:
   summary: <p>Custom serializer for serializing <xref href="com.microsoft.azure._cloud_error" data-throw-if-not-resolved="false"></xref> objects. </p>
   syntax:
     content: public class CloudErrorDeserializer
-- uid: com.microsoft.azure._azure
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public class Azure

@@ -4,7 +4,6 @@ items:
   children:
   - com.microsoft.azure.management.network.implementation._network_manager
   - com.microsoft.azure.management.network.implementation._network_manager._configurable
-  - com.microsoft.azure.management.network.implementation._network_manager._configurable_impl
   href: com.microsoft.azure.management.network.implementation.yml
   langs:
   - java
@@ -24,26 +23,6 @@ items:
   syntax:
     content: namespace implementation
 references:
-- uid: com.microsoft.azure.management.network.implementation._network_impl
-- uid: com.microsoft.azure.management.network.implementation._network_interface_impl
-- uid: com.microsoft.azure.management.network.implementation._network_interfaces_impl
-- uid: com.microsoft.azure.management.network.implementation._network_manager
-  parent: com.microsoft.azure.management.network.implementation
-  href: com.microsoft.azure.management.network.implementation._network_manager.yml
-  name: NetworkManager
-  fullName: com.microsoft.azure.management.network.implementation.NetworkManager
-  type: Class
-  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network management. </p>
-  syntax:
-    content: public class NetworkManager
-- uid: com.microsoft.azure.management.network.implementation._network_security_group_impl
-- uid: com.microsoft.azure.management.network.implementation._network_security_groups_impl
-- uid: com.microsoft.azure.management.network.implementation._network_security_rule_impl
-- uid: com.microsoft.azure.management.network.implementation._networks_impl
-- uid: com.microsoft.azure.management.network.implementation._nic_ip_configuration_impl
-- uid: com.microsoft.azure.management.network.implementation._public_ip_addresses_impl
-- uid: com.microsoft.azure.management.network.implementation._public_ip_address_impl
-- uid: com.microsoft.azure.management.network.implementation._subnet_impl
 - uid: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api.yml
   name: com.microsoft.azure.management.network.implementation.api
@@ -82,6 +61,15 @@ references:
   summary: <p>Entry point to virtual network management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Networks
+- uid: com.microsoft.azure.management.network.implementation._network_manager
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._network_manager.yml
+  name: NetworkManager
+  fullName: com.microsoft.azure.management.network.implementation.NetworkManager
+  type: Class
+  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network management. </p>
+  syntax:
+    content: public class NetworkManager
 - uid: com.microsoft.azure.management.network.implementation._network_manager._configurable
   parent: com.microsoft.azure.management.network.implementation
   href: com.microsoft.azure.management.network.implementation._network_manager._configurable.yml
@@ -91,12 +79,3 @@ references:
   summary: <p>The interface allowing configurations to be set. </p>
   syntax:
     content: public interface Configurable
-- uid: com.microsoft.azure.management.network.implementation._network_manager._configurable_impl
-  parent: com.microsoft.azure.management.network.implementation
-  href: com.microsoft.azure.management.network.implementation._network_manager._configurable_impl.yml
-  name: NetworkManager.ConfigurableImpl
-  fullName: com.microsoft.azure.management.network.implementation.NetworkManager.ConfigurableImpl
-  type: Class
-  summary: <p>The implementation for <xref href="com.microsoft.azure.management.network.implementation._network_manager._configurable" data-throw-if-not-resolved="false"></xref> interface. </p>
-  syntax:
-    content: private class ConfigurableImpl

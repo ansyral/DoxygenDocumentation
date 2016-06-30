@@ -242,6 +242,7 @@ references:
     content: public interface Wrapper<T>
     typeParameters:
     - type: 8ce1ecb9
+      description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
@@ -252,117 +253,6 @@ references:
   syntax:
     content: public interface ChildResource
 - uid: com.microsoft.azure.management.network.implementation._network_security_rule_impl
-- uid: com.microsoft.azure.management.network._network_security_rule._access
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._access.yml
-  name: NetworkSecurityRule.Access
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Access
-  type: Enum
-  summary: <p>The possible access types supported by a network security rule. </p>
-  syntax:
-    content: public enum Access
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
-  name: NetworkSecurityRule.DefinitionAttachable
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
-  type: Interface
-  summary: >-
-    <p>The final stage of the security rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface DefinitionAttachable<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_blank
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_blank.yml
-  name: NetworkSecurityRule.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionBlank
-  type: Interface
-  summary: <p>The first stage of the subnet definition. </p>
-  syntax:
-    content: public interface DefinitionBlank<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definitions
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
-  name: NetworkSecurityRule.Definitions
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
-  type: Interface
-  summary: <p>The entirety of a network security rule definition. </p>
-  syntax:
-    content: public interface Definitions<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
-  name: NetworkSecurityRule.DefinitionWithDestinationAddress
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationAddress
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
-  syntax:
-    content: public interface DefinitionWithDestinationAddress<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_port.yml
-  name: NetworkSecurityRule.DefinitionWithDestinationPort
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDestinationPort
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
-  syntax:
-    content: public interface DefinitionWithDestinationPort<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
-  name: NetworkSecurityRule.DefinitionWithDirectionAccess
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the direction and the access type to be specified. </p>
-  syntax:
-    content: public interface DefinitionWithDirectionAccess<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
-  name: NetworkSecurityRule.DefinitionWithProtocol
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol
-  type: Interface
-  summary: <p>The stage of the security rule definition allowing the protocol that the rule applies to to be specified. </p>
-  syntax:
-    content: public interface DefinitionWithProtocol<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
-  name: NetworkSecurityRule.DefinitionWithSourceAddress
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
-  syntax:
-    content: public interface DefinitionWithSourceAddress<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
-  name: NetworkSecurityRule.DefinitionWithSourcePort
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the source port(s) to be specified. </p>
-  syntax:
-    content: public interface DefinitionWithSourcePort<ParentT>
-    typeParameters:
-    - type: 18a275b1
 - uid: com.microsoft.azure.management.network._network_security_rule._direction
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._direction.yml
@@ -381,3 +271,12 @@ references:
   summary: <p>The possible <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network protocols supported by a network security rule. </p>
   syntax:
     content: public enum Protocol
+- uid: com.microsoft.azure.management.network._network_security_rule._access
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._access.yml
+  name: NetworkSecurityRule.Access
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Access
+  type: Enum
+  summary: <p>The possible access types supported by a network security rule. </p>
+  syntax:
+    content: public enum Access
