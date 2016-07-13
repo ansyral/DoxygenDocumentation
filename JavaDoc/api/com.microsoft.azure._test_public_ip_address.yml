@@ -22,7 +22,7 @@ items:
   package: com.microsoft.azure
   summary: <p>Tests public IPs. </p>
   syntax:
-    content: public class TestPublicIpAddress extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+    content: public class TestPublicIpAddress extends TestTemplate< PublicIpAddress, PublicIpAddresses >
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._test_template
@@ -235,7 +235,7 @@ references:
   type: Interface
   summary: <p>Public IP address. </p>
   syntax:
-    content: public interface PublicIpAddress extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface PublicIpAddress extends GroupableResource,Refreshable< PublicIpAddress >,Wrapper< PublicIPAddressInner >,Updatable< PublicIpAddress.Update >
 - uid: com.microsoft.azure.management.network._public_ip_addresses
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_addresses.yml
@@ -244,4 +244,4 @@ references:
   type: Interface
   summary: <p>Entry point to public IP address management. </p>
   syntax:
-    content: public interface PublicIpAddresses extends SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeletingByGroup
+    content: public interface PublicIpAddresses extends SupportsListing< PublicIpAddress >,SupportsCreating< PublicIpAddress.DefinitionBlank >,SupportsDeleting,SupportsListingByGroup< PublicIpAddress >,SupportsGettingByGroup< PublicIpAddress >,SupportsGettingById< PublicIpAddress >,SupportsDeletingByGroup

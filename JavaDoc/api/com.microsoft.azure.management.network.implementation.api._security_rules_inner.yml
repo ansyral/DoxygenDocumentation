@@ -840,7 +840,7 @@ references:
   type: Interface
   summary: <p>A network security rule in a network security group. </p>
   syntax:
-    content: public interface NetworkSecurityRule extends Wrapper<T>,ChildResource
+    content: public interface NetworkSecurityRule extends Wrapper< SecurityRuleInner >,ChildResource
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -867,7 +867,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E> extends ServiceCallback<T>
+    content: public class ListOperationCallback<E> extends ServiceCallback< List< E > >
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -882,7 +882,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T> implements Page<E>
+    content: public class PageImpl<T> implements Page< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

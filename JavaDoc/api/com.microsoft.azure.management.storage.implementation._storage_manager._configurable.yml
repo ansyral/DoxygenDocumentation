@@ -20,9 +20,7 @@ items:
   package: com.microsoft.azure.management.storage.implementation
   summary: <p>The interface allowing configurations to be set. </p>
   syntax:
-    content: public interface Configurable extends AzureConfigurable<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable
+    content: public interface Configurable extends AzureConfigurable< Configurable >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable_1a688b59f0b61bdb7483ce300a4e68d336
   - com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable_1a75723b8886afb9ffd6cda3b9727e129c

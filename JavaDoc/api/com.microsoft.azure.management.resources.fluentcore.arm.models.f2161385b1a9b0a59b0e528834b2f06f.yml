@@ -93,7 +93,7 @@ references:
   type: Interface
   summary: <p>A generic resource definition allowing region to be specified. </p>
   syntax:
-    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion<T>
+    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion< DefinitionWithGroup >
 - uid: com.microsoft.azure.management.resources._resource_group._definition_blank
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group._definition_blank.yml
@@ -102,7 +102,7 @@ references:
   type: Interface
   summary: <p>A resource group definition allowing location to be set. </p>
   syntax:
-    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion<T>
+    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion< DefinitionCreatable >
 - uid: com.microsoft.azure.management.resources.fluentcore.arm._region
   parent: com.microsoft.azure.management.resources.fluentcore.arm
   href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml

@@ -21,7 +21,7 @@ items:
     startLine: 13
   package: com.microsoft.azure
   syntax:
-    content: public class TestAvailabilitySet extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+    content: public class TestAvailabilitySet extends TestTemplate< AvailabilitySet, AvailabilitySets >
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._test_template
@@ -234,7 +234,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> availability set. </p>
   syntax:
-    content: public interface AvailabilitySet extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface AvailabilitySet extends GroupableResource,Refreshable< AvailabilitySet >,Wrapper< AvailabilitySetInner >,Updatable< AvailabilitySet.Update >
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml
@@ -243,4 +243,4 @@ references:
   type: Interface
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup

@@ -105,7 +105,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> deployment. </p>
   syntax:
-    content: public interface Deployment extends Refreshable<T>,Updatable<T>,Wrapper<T>
+    content: public interface Deployment extends Refreshable< Deployment >,Updatable< Deployment.Update >,Wrapper< DeploymentExtendedInner >
 - uid: com.microsoft.azure.management.resources._deployment_export_result
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment_export_result.yml
@@ -114,7 +114,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> deployment template export result. </p>
   syntax:
-    content: public interface DeploymentExportResult extends Wrapper<T>
+    content: public interface DeploymentExportResult extends Wrapper< DeploymentExportResultInner >
 - uid: com.microsoft.azure.management.resources._deployment_operation
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment_operation.yml
@@ -123,7 +123,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of a deployment operation. </p>
   syntax:
-    content: public interface DeploymentOperation extends Indexable,Refreshable<T>,Wrapper<T>
+    content: public interface DeploymentOperation extends Indexable,Refreshable< DeploymentOperation >,Wrapper< DeploymentOperationInner >
 - uid: com.microsoft.azure.management.resources._deployment_operations
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment_operations.yml
@@ -132,7 +132,7 @@ references:
   type: Interface
   summary: <p>Entry point to deployment operation management API. </p>
   syntax:
-    content: public interface DeploymentOperations extends SupportsListing<T>,SupportsGettingById<T>
+    content: public interface DeploymentOperations extends SupportsListing< DeploymentOperation >,SupportsGettingById< DeploymentOperation >
 - uid: com.microsoft.azure.management.resources._deployments
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployments.yml
@@ -141,7 +141,7 @@ references:
   type: Interface
   summary: <p>Entry point to template deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Deployments extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByName<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface Deployments extends SupportsCreating< Deployment.DefinitionBlank >,SupportsListing< Deployment >,SupportsListingByGroup< Deployment >,SupportsGettingByName< Deployment >,SupportsGettingByGroup< Deployment >,SupportsGettingById< Deployment >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.resources._deployments_tests
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployments_tests.yml
@@ -158,7 +158,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> feature. </p>
   syntax:
-    content: public interface Feature extends Indexable,Wrapper<T>
+    content: public interface Feature extends Indexable,Wrapper< FeatureResultInner >
 - uid: com.microsoft.azure.management.resources._features
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._features.yml
@@ -167,7 +167,7 @@ references:
   type: Interface
   summary: <p>Entry point to features management API. </p>
   syntax:
-    content: public interface Features extends SupportsListing<T>
+    content: public interface Features extends SupportsListing< Feature >
 - uid: com.microsoft.azure.management.resources._generic_resource
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource.yml
@@ -176,7 +176,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> generic resource. </p>
   syntax:
-    content: public interface GenericResource extends GroupableResource,Refreshable<T>,Updatable<T>,Wrapper<T>
+    content: public interface GenericResource extends GroupableResource,Refreshable< GenericResource >,Updatable< GenericResource.UpdateWithApiVersion >,Wrapper< GenericResourceInner >
 - uid: com.microsoft.azure.management.resources._generic_resources
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resources.yml
@@ -185,7 +185,7 @@ references:
   type: Interface
   summary: <p>Entry point to generic resources management API. </p>
   syntax:
-    content: public interface GenericResources extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsCreating<T>
+    content: public interface GenericResources extends SupportsListingByGroup< GenericResource >,SupportsGettingByGroup< GenericResource >,SupportsGettingById< GenericResource >,SupportsCreating< GenericResource.DefinitionBlank >
 - uid: com.microsoft.azure.management.resources._generic_resources_tests
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resources_tests.yml
@@ -210,7 +210,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> location. </p>
   syntax:
-    content: public interface Location extends Indexable,Wrapper<T>
+    content: public interface Location extends Indexable,Wrapper< LocationInner >
 - uid: com.microsoft.azure.management.resources._provider
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._provider.yml
@@ -219,7 +219,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource provider. </p>
   syntax:
-    content: public interface Provider extends Indexable,Wrapper<T>
+    content: public interface Provider extends Indexable,Wrapper< ProviderInner >
 - uid: com.microsoft.azure.management.resources._providers
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._providers.yml
@@ -228,7 +228,7 @@ references:
   type: Interface
   summary: <p>Entry point to providers management API. </p>
   syntax:
-    content: public interface Providers extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface Providers extends SupportsListing< Provider >,SupportsGettingByName< Provider >
 - uid: com.microsoft.azure.management.resources._resource_connector
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_connector.yml
@@ -246,7 +246,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource group. </p>
   syntax:
-    content: public interface ResourceGroup extends Indexable,Resource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface ResourceGroup extends Indexable,Resource,Refreshable< ResourceGroup >,Wrapper< ResourceGroupInner >,Updatable< ResourceGroup.Update >
 - uid: com.microsoft.azure.management.resources._resource_group_export_result
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group_export_result.yml
@@ -255,7 +255,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> deployment template export result. </p>
   syntax:
-    content: public interface ResourceGroupExportResult extends Wrapper<T>
+    content: public interface ResourceGroupExportResult extends Wrapper< ResourceGroupExportResultInner >
 - uid: com.microsoft.azure.management.resources._resource_group_export_template_options
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group_export_template_options.yml
@@ -273,7 +273,7 @@ references:
   type: Interface
   summary: <p>Entry point to resource group management API. </p>
   syntax:
-    content: public interface ResourceGroups extends SupportsListing<T>,SupportsGettingByName<T>,SupportsCreating<T>,SupportsDeleting
+    content: public interface ResourceGroups extends SupportsListing< ResourceGroup >,SupportsGettingByName< ResourceGroup >,SupportsCreating< ResourceGroup.DefinitionBlank >,SupportsDeleting
 - uid: com.microsoft.azure.management.resources._resource_groups_tests
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_groups_tests.yml
@@ -290,7 +290,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> subscription. </p>
   syntax:
-    content: public interface Subscription extends Indexable,Wrapper<T>
+    content: public interface Subscription extends Indexable,Wrapper< SubscriptionInner >
 - uid: com.microsoft.azure.management.resources._subscriptions
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._subscriptions.yml
@@ -299,7 +299,7 @@ references:
   type: Interface
   summary: <p>Entry point to subscription management API. </p>
   syntax:
-    content: public interface Subscriptions extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface Subscriptions extends SupportsListing< Subscription >,SupportsGettingByName< Subscription >
 - uid: com.microsoft.azure.management.resources._tenant
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._tenant.yml
@@ -308,7 +308,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> tenant. </p>
   syntax:
-    content: public interface Tenant extends Indexable,Wrapper<T>
+    content: public interface Tenant extends Indexable,Wrapper< TenantIdDescriptionInner >
 - uid: com.microsoft.azure.management.resources._tenants
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._tenants.yml
@@ -317,7 +317,7 @@ references:
   type: Interface
   summary: <p>Entry point to tenant management API. </p>
   syntax:
-    content: public interface Tenants extends SupportsListing<T>
+    content: public interface Tenants extends SupportsListing< Tenant >
 - uid: com.microsoft.azure.management.resources._resource_connector._builder
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_connector._builder.yml
@@ -341,7 +341,7 @@ references:
   type: Interface
   summary: <p>A resource group definition allowing location to be set. </p>
   syntax:
-    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion<T>
+    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion< DefinitionCreatable >
 - uid: com.microsoft.azure.management.resources._deployment._definition_blank
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_blank.yml
@@ -359,7 +359,7 @@ references:
   type: Interface
   summary: <p>A generic resource definition allowing region to be specified. </p>
   syntax:
-    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion<T>
+    content: public interface DefinitionBlank extends Resource.DefinitionWithRegion< DefinitionWithGroup >
 - uid: com.microsoft.azure.management.resources._resource_group._definition_creatable
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group._definition_creatable.yml
@@ -368,7 +368,7 @@ references:
   type: Interface
   summary: <p>A resource group definition with sufficient inputs to create a new resource group in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>
+    content: public interface DefinitionCreatable extends Creatable< ResourceGroup >,Resource.DefinitionWithTags< DefinitionCreatable >
 - uid: com.microsoft.azure.management.resources._deployment._definition_creatable
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_creatable.yml
@@ -377,7 +377,7 @@ references:
   type: Interface
   summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable extends Creatable<T>
+    content: public interface DefinitionCreatable extends Creatable< Deployment >
 - uid: com.microsoft.azure.management.resources._generic_resource._definition_creatable
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource._definition_creatable.yml
@@ -386,7 +386,7 @@ references:
   type: Interface
   summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>
+    content: public interface DefinitionCreatable extends Creatable< GenericResource >,Resource.DefinitionWithTags< DefinitionCreatable >
 - uid: com.microsoft.azure.management.resources._generic_resource._definition_with_api_version
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource._definition_with_api_version.yml
@@ -404,7 +404,7 @@ references:
   type: Interface
   summary: <p>A generic resource definition allowing resource group to be specified. </p>
   syntax:
-    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup< DefinitionWithResourceType >
 - uid: com.microsoft.azure.management.resources._deployment._definition_with_mode
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_with_mode.yml
@@ -476,7 +476,7 @@ references:
   type: Interface
   summary: <p>Entry point to features management API in a specific resource provider. </p>
   syntax:
-    content: public interface InResourceProvider extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface InResourceProvider extends SupportsListing< Feature >,SupportsGettingByName< Feature >
 - uid: com.microsoft.azure.management.resources._resource_group._update
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group._update.yml
@@ -485,7 +485,7 @@ references:
   type: Interface
   summary: <p>The template for a resource group update operation, containing all the settings that can be modified. </p>
   syntax:
-    content: public interface Update extends Appliable<T>,Resource.UpdateWithTags<T>
+    content: public interface Update extends Appliable< ResourceGroup >,Resource.UpdateWithTags< Update >
 - uid: com.microsoft.azure.management.resources._deployment._update
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._update.yml
@@ -497,7 +497,7 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update extends Appliable<T>,Deployment.UpdateWithTemplate,Deployment.UpdateWithParameters,Deployment.UpdateWithDeploymentMode
+    content: public interface Update extends Appliable< Deployment >,Deployment.UpdateWithTemplate,Deployment.UpdateWithParameters,Deployment.UpdateWithDeploymentMode
 - uid: com.microsoft.azure.management.resources._generic_resource._update
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource._update.yml
@@ -506,7 +506,7 @@ references:
   type: Interface
   summary: <p>The template for a generic resource update operation, containing all the settings that can be modified. </p>
   syntax:
-    content: public interface Update extends Appliable<T>,GenericResource.UpdateWithPlan,GenericResource.UpdateWithParentResource,GenericResource.UpdateWithProperties,Resource.UpdateWithTags<T>
+    content: public interface Update extends Appliable< GenericResource >,GenericResource.UpdateWithPlan,GenericResource.UpdateWithParentResource,GenericResource.UpdateWithProperties,Resource.UpdateWithTags< Update >
 - uid: com.microsoft.azure.management.resources._generic_resource._update_with_api_version
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource._update_with_api_version.yml

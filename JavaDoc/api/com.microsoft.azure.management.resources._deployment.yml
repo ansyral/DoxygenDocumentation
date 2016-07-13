@@ -35,9 +35,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> deployment. </p>
   syntax:
-    content: public interface Deployment extends Refreshable<T>,Updatable<T>,Wrapper<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.model._refreshable
+    content: public interface Deployment extends Refreshable< Deployment >,Updatable< Deployment.Update >,Wrapper< DeploymentExtendedInner >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31

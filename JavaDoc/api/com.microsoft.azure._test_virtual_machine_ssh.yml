@@ -22,7 +22,7 @@ items:
     startLine: 7
   package: com.microsoft.azure
   syntax:
-    content: public class TestVirtualMachineSsh extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+    content: public class TestVirtualMachineSsh extends TestTemplate< VirtualMachine, VirtualMachines >
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._test_template

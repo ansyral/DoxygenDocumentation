@@ -986,7 +986,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
   syntax:
-    content: public interface NetworkSecurityGroup extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface NetworkSecurityGroup extends GroupableResource,Refreshable< NetworkSecurityGroup >,Wrapper< NetworkSecurityGroupInner >,Updatable< NetworkSecurityGroup.Update >
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -1031,7 +1031,7 @@ references:
   type: Interface
   summary: <p>Entry point to network security group management. </p>
   syntax:
-    content: public interface NetworkSecurityGroups extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkSecurityGroups extends SupportsCreating< NetworkSecurityGroup.DefinitionBlank >,SupportsListing< NetworkSecurityGroup >,SupportsListingByGroup< NetworkSecurityGroup >,SupportsGettingByGroup< NetworkSecurityGroup >,SupportsGettingById< NetworkSecurityGroup >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._network
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network.yml
@@ -1040,7 +1040,7 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface Network extends GroupableResource,Refreshable< Network >,Wrapper< VirtualNetworkInner >,Updatable< Network.Update >
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -1067,7 +1067,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E> extends ServiceCallback<T>
+    content: public class ListOperationCallback<E> extends ServiceCallback< List< E > >
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>

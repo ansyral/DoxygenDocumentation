@@ -18,10 +18,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>The template for a generic resource update operation, containing all the settings that can be modified. </p>
   syntax:
-    content: public interface Update extends Appliable<T>,GenericResource.UpdateWithPlan,GenericResource.UpdateWithParentResource,GenericResource.UpdateWithProperties,Resource.UpdateWithTags<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.model._indexable
-  - com.microsoft.azure.management.resources.fluentcore.model._appliable
+    content: public interface Update extends Appliable< GenericResource >,GenericResource.UpdateWithPlan,GenericResource.UpdateWithParentResource,GenericResource.UpdateWithProperties,Resource.UpdateWithTags< Update >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a614b76a85ab8e27c82a680c826e7c293

@@ -82,7 +82,7 @@ references:
   type: Interface
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.compute._virtual_machines
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machines.yml
@@ -100,7 +100,7 @@ references:
   type: Interface
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionBlank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._networks
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._networks.yml
@@ -109,7 +109,7 @@ references:
   type: Interface
   summary: <p>Entry point to virtual network management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Networks extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface Networks extends SupportsCreating< Network.DefinitionBlank >,SupportsListing< Network >,SupportsListingByGroup< Network >,SupportsGettingByGroup< Network >,SupportsGettingById< Network >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._network_security_groups
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_groups.yml
@@ -118,7 +118,7 @@ references:
   type: Interface
   summary: <p>Entry point to network security group management. </p>
   syntax:
-    content: public interface NetworkSecurityGroups extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkSecurityGroups extends SupportsCreating< NetworkSecurityGroup.DefinitionBlank >,SupportsListing< NetworkSecurityGroup >,SupportsListingByGroup< NetworkSecurityGroup >,SupportsGettingByGroup< NetworkSecurityGroup >,SupportsGettingById< NetworkSecurityGroup >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._public_ip_addresses
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_addresses.yml
@@ -127,7 +127,7 @@ references:
   type: Interface
   summary: <p>Entry point to public IP address management. </p>
   syntax:
-    content: public interface PublicIpAddresses extends SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeletingByGroup
+    content: public interface PublicIpAddresses extends SupportsListing< PublicIpAddress >,SupportsCreating< PublicIpAddress.DefinitionBlank >,SupportsDeleting,SupportsListingByGroup< PublicIpAddress >,SupportsGettingByGroup< PublicIpAddress >,SupportsGettingById< PublicIpAddress >,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.resources._deployment_operations
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment_operations.yml
@@ -136,7 +136,7 @@ references:
   type: Interface
   summary: <p>Entry point to deployment operation management API. </p>
   syntax:
-    content: public interface DeploymentOperations extends SupportsListing<T>,SupportsGettingById<T>
+    content: public interface DeploymentOperations extends SupportsListing< DeploymentOperation >,SupportsGettingById< DeploymentOperation >
 - uid: com.microsoft.azure.management.resources._deployments
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployments.yml
@@ -145,7 +145,7 @@ references:
   type: Interface
   summary: <p>Entry point to template deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Deployments extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByName<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface Deployments extends SupportsCreating< Deployment.DefinitionBlank >,SupportsListing< Deployment >,SupportsListingByGroup< Deployment >,SupportsGettingByName< Deployment >,SupportsGettingByGroup< Deployment >,SupportsGettingById< Deployment >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.resources._features
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._features.yml
@@ -154,7 +154,7 @@ references:
   type: Interface
   summary: <p>Entry point to features management API. </p>
   syntax:
-    content: public interface Features extends SupportsListing<T>
+    content: public interface Features extends SupportsListing< Feature >
 - uid: com.microsoft.azure.management.resources._features._in_resource_provider
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._features._in_resource_provider.yml
@@ -163,7 +163,7 @@ references:
   type: Interface
   summary: <p>Entry point to features management API in a specific resource provider. </p>
   syntax:
-    content: public interface InResourceProvider extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface InResourceProvider extends SupportsListing< Feature >,SupportsGettingByName< Feature >
 - uid: com.microsoft.azure.management.resources._providers
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._providers.yml
@@ -172,7 +172,7 @@ references:
   type: Interface
   summary: <p>Entry point to providers management API. </p>
   syntax:
-    content: public interface Providers extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface Providers extends SupportsListing< Provider >,SupportsGettingByName< Provider >
 - uid: com.microsoft.azure.management.resources._resource_groups
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_groups.yml
@@ -181,7 +181,7 @@ references:
   type: Interface
   summary: <p>Entry point to resource group management API. </p>
   syntax:
-    content: public interface ResourceGroups extends SupportsListing<T>,SupportsGettingByName<T>,SupportsCreating<T>,SupportsDeleting
+    content: public interface ResourceGroups extends SupportsListing< ResourceGroup >,SupportsGettingByName< ResourceGroup >,SupportsCreating< ResourceGroup.DefinitionBlank >,SupportsDeleting
 - uid: com.microsoft.azure.management.resources._subscriptions
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._subscriptions.yml
@@ -190,7 +190,7 @@ references:
   type: Interface
   summary: <p>Entry point to subscription management API. </p>
   syntax:
-    content: public interface Subscriptions extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface Subscriptions extends SupportsListing< Subscription >,SupportsGettingByName< Subscription >
 - uid: com.microsoft.azure.management.resources._tenants
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._tenants.yml
@@ -208,7 +208,7 @@ references:
   type: Interface
   summary: <p>Entry point for storage accounts management API. </p>
   syntax:
-    content: public interface StorageAccounts extends SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeletingByGroup
+    content: public interface StorageAccounts extends SupportsListing< StorageAccount >,SupportsCreating< StorageAccount.DefinitionBlank >,SupportsDeleting,SupportsListingByGroup< StorageAccount >,SupportsGettingByGroup< StorageAccount >,SupportsGettingById< StorageAccount >,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.storage._usages
   parent: com.microsoft.azure.management.storage
   href: com.microsoft.azure.management.storage._usages.yml

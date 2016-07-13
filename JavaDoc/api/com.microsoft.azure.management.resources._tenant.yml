@@ -20,9 +20,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> tenant. </p>
   syntax:
-    content: public interface Tenant extends Indexable,Wrapper<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.model._indexable
+    content: public interface Tenant extends Indexable,Wrapper< TenantIdDescriptionInner >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde

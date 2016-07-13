@@ -18,9 +18,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>Entry point to tenant management API. </p>
   syntax:
-    content: public interface Tenants extends SupportsListing<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing
+    content: public interface Tenants extends SupportsListing< Tenant >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_1a6869e882cc0be87969bc296e5bbd0851
 references:

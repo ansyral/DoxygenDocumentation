@@ -2156,7 +2156,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E> extends ServiceCallback<T>
+    content: public class ListOperationCallback<E> extends ServiceCallback< List< E > >
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -2180,7 +2180,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl1<T> implements Page<E>
+    content: public class PageImpl1<T> implements Page< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -2195,7 +2195,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T> implements Page<E>
+    content: public class PageImpl<T> implements Page< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -2207,4 +2207,4 @@ references:
   type: Interface
   summary: <p>Entry point to virtual machine management API. </p>
   syntax:
-    content: public interface VirtualMachines extends SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface VirtualMachines extends SupportsListing< VirtualMachine >,SupportsListingByGroup< VirtualMachine >,SupportsGettingByGroup< VirtualMachine >,SupportsGettingById< VirtualMachine >,SupportsCreating< VirtualMachine.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup

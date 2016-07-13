@@ -99,7 +99,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> availability set. </p>
   syntax:
-    content: public interface AvailabilitySet extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface AvailabilitySet extends GroupableResource,Refreshable< AvailabilitySet >,Wrapper< AvailabilitySetInner >,Updatable< AvailabilitySet.Update >
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml
@@ -108,7 +108,7 @@ references:
   type: Interface
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.compute._compute_management_test_base
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._compute_management_test_base.yml
@@ -125,7 +125,7 @@ references:
   type: Interface
   summary: <p>A data disk of a virtual machine. </p>
   syntax:
-    content: public interface DataDisk extends Wrapper<T>,ChildResource
+    content: public interface DataDisk extends Wrapper< com.microsoft.azure.management.compute.implementation.api.DataDisk >,ChildResource
 - uid: com.microsoft.azure.management.compute._known_linux_virtual_machine_image
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._known_linux_virtual_machine_image.yml
@@ -161,7 +161,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine. </p>
   syntax:
-    content: public interface VirtualMachine extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface VirtualMachine extends GroupableResource,Refreshable< VirtualMachine >,Wrapper< VirtualMachineInner >,Updatable< VirtualMachine.Update >
 - uid: com.microsoft.azure.management.compute._virtual_machine_image
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_image.yml
@@ -170,7 +170,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine image. </p>
   syntax:
-    content: public interface VirtualMachineImage extends Wrapper<T>
+    content: public interface VirtualMachineImage extends Wrapper< VirtualMachineImageInner >
 - uid: com.microsoft.azure.management.compute._virtual_machine_image_operations_tests
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_image_operations_tests.yml
@@ -187,7 +187,7 @@ references:
   type: Interface
   summary: <p>Entry point to virtual machine image management API. </p>
   syntax:
-    content: public interface VirtualMachineImages extends SupportsListingByRegion<T>
+    content: public interface VirtualMachineImages extends SupportsListingByRegion< VirtualMachineImage >
 - uid: com.microsoft.azure.management.compute._virtual_machine_operations_tests
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_operations_tests.yml
@@ -204,7 +204,7 @@ references:
   type: Interface
   summary: <p>Entry point to virtual machine management API. </p>
   syntax:
-    content: public interface VirtualMachines extends SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface VirtualMachines extends SupportsListing< VirtualMachine >,SupportsListingByGroup< VirtualMachine >,SupportsGettingByGroup< VirtualMachine >,SupportsGettingById< VirtualMachine >,SupportsCreating< VirtualMachine.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.compute._virtual_machine_size
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_size.yml
@@ -225,7 +225,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable<ParentT> extends Attachable<ParentT>,DataDisk.DefinitionWithOptionalConfiguration<ParentT>
+    content: public interface DefinitionAttachable<ParentT> extends Attachable< ParentT >,DataDisk.DefinitionWithOptionalConfiguration< ParentT >
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -285,7 +285,7 @@ references:
   type: Interface
   summary: <p>The stage of the virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable extends VirtualMachine.DefinitionPassword<T>,VirtualMachine.DefinitionOSDiskSettings<T>,VirtualMachine.DefinitionWithVMSize<T>,VirtualMachine.DefinitionStorageAccount<T>,VirtualMachine.DefinitionWithDataDisk<T>,VirtualMachine.DefinitionWithAvailabilitySet<T>,VirtualMachine.DefinitionWithSecondaryNetworkInterface<T>,Creatable<T>
+    content: public interface DefinitionCreatable extends VirtualMachine.DefinitionPassword< DefinitionCreatable >,VirtualMachine.DefinitionOSDiskSettings< DefinitionCreatable >,VirtualMachine.DefinitionWithVMSize< DefinitionCreatable >,VirtualMachine.DefinitionStorageAccount< DefinitionCreatable >,VirtualMachine.DefinitionWithDataDisk< DefinitionCreatable >,VirtualMachine.DefinitionWithAvailabilitySet< DefinitionCreatable >,VirtualMachine.DefinitionWithSecondaryNetworkInterface< DefinitionCreatable >,Creatable< VirtualMachine >
 - uid: com.microsoft.azure.management.compute._availability_set._definition_creatable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_set._definition_creatable.yml
@@ -294,7 +294,7 @@ references:
   type: Interface
   summary: <p>The stage of an availability set definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>
+    content: public interface DefinitionCreatable extends Creatable< AvailabilitySet >,Resource.DefinitionWithTags< DefinitionCreatable >
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_linux_creatable.yml
@@ -363,7 +363,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions<ParentT> extends DataDisk.DefinitionAttachNewDataDisk<ParentT>,DataDisk.DefinitionAttachExistingDataDisk<ParentT>,DataDisk.DefinitionWithStoreAt<ParentT>,DataDisk.DefinitionWithOptionalConfiguration<ParentT>,DataDisk.DefinitionAttachable<ParentT>
+    content: public interface Definitions<ParentT> extends DataDisk.DefinitionAttachNewDataDisk< ParentT >,DataDisk.DefinitionAttachExistingDataDisk< ParentT >,DataDisk.DefinitionWithStoreAt< ParentT >,DataDisk.DefinitionWithOptionalConfiguration< ParentT >,DataDisk.DefinitionAttachable< ParentT >
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -438,7 +438,7 @@ references:
   type: Interface
   summary: <p>The stage of the availability set definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup< DefinitionCreatable >
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_group
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_group.yml
@@ -447,7 +447,7 @@ references:
   type: Interface
   summary: <p>The stage of the virtual machine definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup< DefinitionWithNetwork >
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_network
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_network.yml
@@ -543,7 +543,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionWithStoreAt<ParentT> extends DataDisk.DefinitionAttachable<ParentT>
+    content: public interface DefinitionWithStoreAt<ParentT> extends DataDisk.DefinitionAttachable< ParentT >
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -609,7 +609,7 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update extends Appliable<T>,Resource.UpdateWithTags<T>
+    content: public interface Update extends Appliable< AvailabilitySet >,Resource.UpdateWithTags< Update >
 - uid: com.microsoft.azure.management.compute._data_disk._update
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._update.yml
@@ -621,7 +621,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update<ParentT> extends Settable<ParentT>
+    content: public interface Update<ParentT> extends Settable< ParentT >
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref></p>
@@ -636,4 +636,4 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update extends Appliable<T>,Resource.UpdateWithTags<T>
+    content: public interface Update extends Appliable< VirtualMachine >,Resource.UpdateWithTags< Update >

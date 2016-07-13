@@ -20,9 +20,7 @@ items:
   package: com.microsoft.azure.management.storage
   summary: <p>Entry point for storage accounts management API. </p>
   syntax:
-    content: public interface StorageAccounts extends SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeletingByGroup
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing
+    content: public interface StorageAccounts extends SupportsListing< StorageAccount >,SupportsCreating< StorageAccount.DefinitionBlank >,SupportsDeleting,SupportsListingByGroup< StorageAccount >,SupportsGettingByGroup< StorageAccount >,SupportsGettingById< StorageAccount >,SupportsDeletingByGroup
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_creating_1acb4b91b4df30a078fe433602c8ba2a57
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting_1ad910b873cf428629967344590e65ad57

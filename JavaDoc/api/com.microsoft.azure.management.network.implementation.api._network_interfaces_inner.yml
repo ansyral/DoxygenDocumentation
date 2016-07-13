@@ -1499,7 +1499,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
   syntax:
-    content: public interface NetworkInterface extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
+    content: public interface NetworkInterface extends GroupableResource,Refreshable< NetworkInterface >,Wrapper< NetworkInterfaceInner >,Updatable< NetworkInterface.Update >
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -1526,7 +1526,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E> extends ServiceCallback<T>
+    content: public class ListOperationCallback<E> extends ServiceCallback< List< E > >
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -1553,4 +1553,4 @@ references:
   type: Interface
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionBlank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup

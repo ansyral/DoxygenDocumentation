@@ -69,7 +69,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T,U extends DAGNode< T>> extends Graph<T,U>
+    content: public class DAGraph<T,U extends DAGNode< T>> extends Graph< T, U >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the graph nodes </p>
@@ -86,7 +86,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGNode<T> extends Node<T>
+    content: public class DAGNode<T> extends Node< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the node </p>

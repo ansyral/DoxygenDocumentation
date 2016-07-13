@@ -24,7 +24,7 @@ items:
 
     <p></p>
   syntax:
-    content: public class IndexableWrapperImpl<InnerT> extends IndexableImpl implements Wrapper<T>
+    content: public class IndexableWrapperImpl<InnerT> extends IndexableImpl implements Wrapper< InnerT >
     typeParameters:
     - type: 52cf8095
       description: <p>wrapped type </p>
@@ -179,7 +179,7 @@ references:
   type: Class
   summary: <p>Child resource abstract implementation. (Internal use only) </p>
   syntax:
-    content: public class ChildResourceImpl<InnerT,ParentImplT> extends IndexableWrapperImpl<InnerT> implements ChildResource
+    content: public class ChildResourceImpl<InnerT,ParentImplT> extends IndexableWrapperImpl< InnerT > implements ChildResource
     typeParameters:
     - type: 52cf8095
       description: >-

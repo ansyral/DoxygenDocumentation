@@ -23,9 +23,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>Entry point to generic resources management API. </p>
   syntax:
-    content: public interface GenericResources extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsCreating<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group
+    content: public interface GenericResources extends SupportsListingByGroup< GenericResource >,SupportsGettingByGroup< GenericResource >,SupportsGettingById< GenericResource >,SupportsCreating< GenericResource.DefinitionBlank >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_creating_1acb4b91b4df30a078fe433602c8ba2a57
   - com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group_1a89ed42534b4970969dbc555a6f207dc7
@@ -423,7 +421,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> generic resource. </p>
   syntax:
-    content: public interface GenericResource extends GroupableResource,Refreshable<T>,Updatable<T>,Wrapper<T>
+    content: public interface GenericResource extends GroupableResource,Refreshable< GenericResource >,Updatable< GenericResource.UpdateWithApiVersion >,Wrapper< GenericResourceInner >
 - uid: com.microsoft.azure._resource
   parent: com.microsoft.azure
   href: com.microsoft.azure._resource.yml

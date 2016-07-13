@@ -21,7 +21,7 @@ items:
     startLine: 11
   package: com.microsoft.azure
   syntax:
-    content: public class TestVirtualMachineDataDisk extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+    content: public class TestVirtualMachineDataDisk extends TestTemplate< VirtualMachine, VirtualMachines >
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._test_template

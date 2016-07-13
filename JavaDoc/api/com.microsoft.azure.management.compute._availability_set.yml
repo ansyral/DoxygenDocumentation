@@ -23,11 +23,7 @@ items:
   package: com.microsoft.azure.management.compute
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> availability set. </p>
   syntax:
-    content: public interface AvailabilitySet extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.model._indexable
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
+    content: public interface AvailabilitySet extends GroupableResource,Refreshable< AvailabilitySet >,Wrapper< AvailabilitySetInner >,Updatable< AvailabilitySet.Update >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
   - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb

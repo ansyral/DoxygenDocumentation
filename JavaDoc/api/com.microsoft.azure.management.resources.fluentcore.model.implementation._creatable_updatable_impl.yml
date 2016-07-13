@@ -24,7 +24,7 @@ items:
 
     <p></p>
   syntax:
-    content: public class CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+    content: public class CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >
     typeParameters:
     - type: 2f67777b
       description: <p>the fluent model type representing the resource </p>
@@ -342,7 +342,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
+    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends IndexableRefreshableWrapperImpl< FluentModelT, InnerModelT >
     typeParameters:
     - type: 2f67777b
       description: <p>the fluent model type representing the creatable resource </p>

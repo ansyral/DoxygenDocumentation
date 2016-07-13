@@ -32,7 +32,7 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class TaskGroupBase<T> implements TaskGroup<T,U>
+    content: public class TaskGroupBase<T> implements TaskGroup< T, TaskItem< T > >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the result type of the tasks in the group </p>
@@ -420,7 +420,7 @@ references:
   type: Class
   summary: <p>Type representing a group of creatable tasks and the dependency between them. </p>
   syntax:
-    content: public class CreatableTaskGroup extends TaskGroupBase<T>
+    content: public class CreatableTaskGroup extends TaskGroupBase< Resource >
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
@@ -434,7 +434,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T,U extends DAGNode< T>> extends Graph<T,U>
+    content: public class DAGraph<T,U extends DAGNode< T>> extends Graph< T, U >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the graph nodes </p>
@@ -466,7 +466,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGNode<T> extends Node<T>
+    content: public class DAGNode<T> extends Node< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the node </p>

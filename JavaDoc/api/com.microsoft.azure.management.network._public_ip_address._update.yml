@@ -23,10 +23,7 @@ items:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
-    content: public interface Update extends Appliable<T>,PublicIpAddress.UpdateWithIpAddress,PublicIpAddress.UpdateWithLeafDomainLabel,PublicIpAddress.UpdateWithReverseFQDN,Resource.UpdateWithTags<T>
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.model._indexable
-  - com.microsoft.azure.management.resources.fluentcore.model._appliable
+    content: public interface Update extends Appliable< PublicIpAddress >,PublicIpAddress.UpdateWithIpAddress,PublicIpAddress.UpdateWithLeafDomainLabel,PublicIpAddress.UpdateWithReverseFQDN,Resource.UpdateWithTags< Update >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a614b76a85ab8e27c82a680c826e7c293

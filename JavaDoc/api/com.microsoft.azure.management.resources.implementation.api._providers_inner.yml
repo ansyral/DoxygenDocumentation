@@ -678,7 +678,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E> extends ServiceCallback<T>
+    content: public class ListOperationCallback<E> extends ServiceCallback< List< E > >
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -693,7 +693,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T> implements Page<E>
+    content: public class PageImpl<T> implements Page< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -705,4 +705,4 @@ references:
   type: Interface
   summary: <p>Entry point to providers management API. </p>
   syntax:
-    content: public interface Providers extends SupportsListing<T>,SupportsGettingByName<T>
+    content: public interface Providers extends SupportsListing< Provider >,SupportsGettingByName< Provider >

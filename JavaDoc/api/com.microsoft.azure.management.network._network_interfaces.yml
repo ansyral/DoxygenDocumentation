@@ -18,9 +18,7 @@ items:
   package: com.microsoft.azure.management.network
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
-  inheritance:
-  - com.microsoft.azure.management.resources.fluentcore.collection._supports_creating
+    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionBlank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_creating_1acb4b91b4df30a078fe433602c8ba2a57
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting_1ad910b873cf428629967344590e65ad57
