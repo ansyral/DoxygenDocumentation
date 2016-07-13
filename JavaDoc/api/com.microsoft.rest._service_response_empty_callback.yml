@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseEmptyCallback.java
     startLine: 18
+  assemblies:
+  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>Inner callback used to merge both successful and failed responses into one callback for customized response handling in a response handling delegate.</p>
@@ -44,6 +46,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseEmptyCallback.java
     startLine: 34
+  assemblies:
+  - com.microsoft.rest
   package: com.microsoft.rest
   syntax:
     content: public void onFailure(Call< Void > call, Throwable t)
@@ -65,6 +69,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseEmptyCallback.java
     startLine: 29
+  assemblies:
+  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.rest._service_response_callback" data-throw-if-not-resolved="false"></xref>.</p>

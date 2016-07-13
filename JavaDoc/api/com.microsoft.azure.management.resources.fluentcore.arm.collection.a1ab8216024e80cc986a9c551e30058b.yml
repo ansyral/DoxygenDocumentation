@@ -21,6 +21,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
     startLine: 23
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   summary: <p>Base class for wrapper collections. (Internal use only) </p>
   syntax:
@@ -47,6 +49,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
     startLine: 47
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected PagedList< T > wrapList(List< InnerT > list)
@@ -68,6 +72,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
     startLine: 43
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected PagedList< T > wrapList(PagedList< InnerT > pagedList)
@@ -89,6 +95,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
     startLine: 41
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected abstract ImplT wrapModel(InnerT inner)
@@ -110,6 +118,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
     startLine: 39
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected abstract ImplT wrapModel(String name)
@@ -131,6 +141,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
     startLine: 30
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected WrappersImpl()

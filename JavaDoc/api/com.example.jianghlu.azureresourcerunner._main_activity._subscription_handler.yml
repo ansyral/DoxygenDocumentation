@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
     startLine: 137
+  assemblies:
+  - com.example.jianghlu.azureresourcerunner
   package: com.example.jianghlu.azureresourcerunner
   syntax:
     content: public class SubscriptionHandler
@@ -36,6 +38,8 @@ items:
     remote: *o0
     path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
     startLine: 147
+  assemblies:
+  - com.example.jianghlu.azureresourcerunner
   package: com.example.jianghlu.azureresourcerunner
   syntax:
     content: public void handleMessage(Message input)
@@ -55,6 +59,8 @@ items:
     remote: *o0
     path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
     startLine: 142
+  assemblies:
+  - com.example.jianghlu.azureresourcerunner
   package: com.example.jianghlu.azureresourcerunner
   syntax:
     content: public SubscriptionHandler(WeakReference< MainActivity > activityRef)

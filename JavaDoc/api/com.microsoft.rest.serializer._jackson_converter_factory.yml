@@ -20,6 +20,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
     startLine: 27
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   summary: <p>A similar implementation of <ref refid="" kindref="compound">retrofit2.converter.jackson.JacksonConverterFactory</ref> which supports polymorphism. </p>
   syntax: &o1
@@ -40,6 +42,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
     startLine: 33
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   summary: >-
     <p>Create an instance using a default <ref refid="" kindref="compound">ObjectMapper</ref> instance for conversion.</p>
@@ -63,6 +67,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
     startLine: 44
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   summary: >-
     <p>Create an instance using<programlisting><codeline><highlight class="normal">mapper<sp></sp></highlight></codeline></programlisting> for conversion.</p>
@@ -90,6 +96,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
     startLine: 68
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   syntax:
     content: public Converter<?, RequestBody > requestBodyConverter(Type type, Annotation[] parameterAnnotations, Annotation[] methodAnnotations, Retrofit retrofit)
@@ -117,6 +125,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/JacksonConverterFactory.java
     startLine: 61
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   syntax:
     content: public Converter< ResponseBody,?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit)

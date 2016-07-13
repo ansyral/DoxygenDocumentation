@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
     startLine: 104
+  assemblies:
+  - com.example.jianghlu.azureresourcerunner
   package: com.example.jianghlu.azureresourcerunner
   syntax:
     content: public class TenantHandler
@@ -36,6 +38,8 @@ items:
     remote: *o0
     path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
     startLine: 112
+  assemblies:
+  - com.example.jianghlu.azureresourcerunner
   package: com.example.jianghlu.azureresourcerunner
   syntax:
     content: public void handleMessage(Message input)
@@ -55,6 +59,8 @@ items:
     remote: *o0
     path: examples/AzureResourceRunner/app/src/main/java/com/example/jianghlu/azureresourcerunner/MainActivity.java
     startLine: 107
+  assemblies:
+  - com.example.jianghlu.azureresourcerunner
   package: com.example.jianghlu.azureresourcerunner
   syntax:
     content: public TenantHandler(WeakReference< MainActivity > activityRef)

@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-storage/src/test/java/com/microsoft/azure/management/storage/UsageOperationsTests.java
     startLine: 14
+  assemblies:
+  - com.microsoft.azure.management.storage
   package: com.microsoft.azure.management.storage
   syntax:
     content: public class UsageOperationsTests extends StorageManagementTestBase
@@ -41,6 +43,8 @@ items:
     remote: *o0
     path: azure-mgmt-storage/src/test/java/com/microsoft/azure/management/storage/UsageOperationsTests.java
     startLine: 25
+  assemblies:
+  - com.microsoft.azure.management.storage
   package: com.microsoft.azure.management.storage
   syntax:
     content: public void canGetUsages()
@@ -57,6 +61,8 @@ items:
     remote: *o0
     path: azure-mgmt-storage/src/test/java/com/microsoft/azure/management/storage/UsageOperationsTests.java
     startLine: 20
+  assemblies:
+  - com.microsoft.azure.management.storage
   package: com.microsoft.azure.management.storage
   syntax:
     content: public static void setup()

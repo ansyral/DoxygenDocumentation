@@ -19,6 +19,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryHandler.java
     startLine: 18
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: <p>An instance of this interceptor placed in the request pipeline handles retriable errors. </p>
   syntax: &o1
@@ -39,6 +41,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryHandler.java
     startLine: 64
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   syntax:
     content: public Response intercept(Chain chain)
@@ -60,6 +64,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryHandler.java
     startLine: 46
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: <p>Initialized an instance of <xref href="com.microsoft.rest.retry._retry_handler" data-throw-if-not-resolved="false"></xref> class. Sets default retry strategy base on Exponential Backoff. </p>
   syntax:
@@ -77,6 +83,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryHandler.java
     startLine: 59
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: >-
     <p>Initialized an instance of <xref href="com.microsoft.rest.retry._retry_handler" data-throw-if-not-resolved="false"></xref> class.</p>

@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCallback.java
     startLine: 14
+  assemblies:
+  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -43,6 +45,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCallback.java
     startLine: 20
+  assemblies:
+  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>Override this method to handle REST call failures.</p>
@@ -69,6 +73,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCallback.java
     startLine: 27
+  assemblies:
+  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>Override this method to handle successful REST call results.</p>

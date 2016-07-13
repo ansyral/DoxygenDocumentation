@@ -22,6 +22,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 19
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public class AccountOperations implements IInheritedBehaviors
@@ -41,6 +43,8 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 21
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: AccountOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
@@ -62,6 +66,8 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 33
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public Collection< BatchClientBehavior > getCustomBehaviors()
@@ -81,6 +87,8 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 42
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeAgentSku > listNodeAgentSkus()
@@ -99,6 +107,8 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 46
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeAgentSku > listNodeAgentSkus(DetailLevel detailLevel)
@@ -120,6 +130,8 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 50
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeAgentSku > listNodeAgentSkus(DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -143,6 +155,8 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
     startLine: 38
+  assemblies:
+  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void setCustomBehaviors(Collection< BatchClientBehavior > behaviors)

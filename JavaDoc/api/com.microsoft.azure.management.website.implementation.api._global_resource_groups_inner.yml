@@ -19,6 +19,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
     startLine: 32
+  assemblies:
+  - com.microsoft.azure.management.website.implementation.api
   package: com.microsoft.azure.management.website.implementation.api
   summary: <p>An instance of this class provides access to all the operations defined in GlobalResourceGroups. </p>
   syntax: &o1
@@ -38,6 +40,8 @@ items:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
     startLine: 44
+  assemblies:
+  - com.microsoft.azure.management.website.implementation.api
   package: com.microsoft.azure.management.website.implementation.api
   summary: >-
     <p>Initializes an instance of <xref href="com.microsoft.azure.management.website.implementation.api._global_resource_groups_inner" data-throw-if-not-resolved="false"></xref>.</p>
@@ -65,6 +69,8 @@ items:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
     startLine: 69
+  assemblies:
+  - com.microsoft.azure.management.website.implementation.api
   package: com.microsoft.azure.management.website.implementation.api
   syntax:
     content: public ServiceResponse< Void > moveResources(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope)
@@ -98,6 +104,8 @@ items:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalResourceGroupsInner.java
     startLine: 95
+  assemblies:
+  - com.microsoft.azure.management.website.implementation.api
   package: com.microsoft.azure.management.website.implementation.api
   syntax:
     content: public ServiceCall moveResourcesAsync(String resourceGroupName, CsmMoveResourceEnvelopeInner moveResourceEnvelope, final ServiceCallback< Void > serviceCallback)

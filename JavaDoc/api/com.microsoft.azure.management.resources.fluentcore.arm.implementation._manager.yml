@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
     startLine: 15
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
   syntax:
@@ -40,6 +42,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
     startLine: 19
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   syntax:
     content: protected Manager(RestClient restClient, String subscriptionId)
@@ -61,6 +65,8 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
     startLine: 23
+  assemblies:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   syntax:
     content: protected ResourceManager resourceManager()

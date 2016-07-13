@@ -25,6 +25,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 21
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Type representing a DAG (directed acyclic graph). </p>
@@ -60,6 +62,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 31
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Creates a new DAG.</p>
@@ -84,6 +88,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 97
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Gets next node in the DAG which has no dependency or all of it's dependencies are resolved and ready to be consumed. </p>
@@ -109,6 +115,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 107
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Gets the data stored in a graph node with a given key.</p>
@@ -136,6 +144,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 40
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean hasParent()
@@ -158,6 +168,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 50
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Checks whether the given node is root node of this DAG.</p>
@@ -188,6 +200,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 62
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Merge this DAG with another DAG. </p>
@@ -214,6 +228,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 134
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>populate dependents of all nodes. </p>
@@ -234,6 +250,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 78
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Prepares this DAG for traversal using getNext method, each call to getNext returns next node in the DAG with no dependencies. </p>
   syntax:
@@ -251,6 +269,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGraph.java
     startLine: 116
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Reports that a node is resolved hence other nodes depends on it can consume it.</p>

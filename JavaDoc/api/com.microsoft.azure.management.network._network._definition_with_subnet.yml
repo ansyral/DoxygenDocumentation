@@ -19,6 +19,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 78
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
   syntax:
@@ -36,6 +38,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 99
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public Subnet.DefinitionBlank< DefinitionCreatableWithSubnet > defineSubnet(String name)
@@ -57,6 +61,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 90
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
     <p>Explicitly adds a subnet to the virtual network. </p>
@@ -89,6 +95,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 97
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: <p>Explicitly defines subnets in the virtual network based on the provided map. </p>
   syntax:

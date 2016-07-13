@@ -25,6 +25,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 17
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>The type representing node in a <xref href="com.microsoft.azure._d_a_graph" data-throw-if-not-resolved="false"></xref>.</p>
@@ -58,6 +60,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 60
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>mark the node identified by the given key as this node's dependency.</p>
@@ -82,6 +86,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 44
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>mark the node identified by the given key as dependent of this node.</p>
@@ -106,6 +112,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 27
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Creates a DAG node.</p>
@@ -133,6 +141,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 51
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public List< String > dependencyKeys()
@@ -152,6 +162,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 35
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: List< String > dependentKeys()
@@ -171,6 +183,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 81
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: boolean hasAllResolved()
@@ -193,6 +207,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 67
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean hasDependencies()
@@ -215,6 +231,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 74
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>prepare the node for traversal. </p>
   syntax:
@@ -232,6 +250,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
     startLine: 90
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Reports that one of this node's dependency has been resolved and ready to be consumed.</p>

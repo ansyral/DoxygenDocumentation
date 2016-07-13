@@ -23,6 +23,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 15
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: <p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>
   syntax: &o1
@@ -42,6 +44,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 19
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: <p>Represents the default number of retry attempts. </p>
   syntax:
@@ -61,6 +65,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 29
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: <p>Represents the default flag indicating whether the first retry attempt will be made immediately, whereas subsequent retries will remain subject to the retry interval. </p>
   syntax:
@@ -80,6 +86,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 24
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: <p>Represents the default interval between retries. </p>
   syntax:
@@ -99,6 +107,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 68
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: >-
     <p>Gets the name of the retry strategy.</p>
@@ -122,6 +132,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 78
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: >-
     <p>Gets whether the first retry attempt will be made immediately.</p>
@@ -145,6 +157,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 48
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: >-
     <p>Initializes a new instance of the <xref href="com.microsoft.rest.retry._retry_strategy" data-throw-if-not-resolved="false"></xref> class.</p>
@@ -172,6 +186,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java
     startLine: 61
+  assemblies:
+  - com.microsoft.rest.retry
   package: com.microsoft.rest.retry
   summary: >-
     <p>Returns if a request should be retried based on the retry count, current response, and the current strategy.</p>

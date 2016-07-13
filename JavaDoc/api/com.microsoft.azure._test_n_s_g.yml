@@ -19,6 +19,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
     startLine: 18
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Test for network security group CRUD. </p>
   syntax:
@@ -48,6 +50,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
     startLine: 21
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkSecurityGroup createResource(NetworkSecurityGroups nsgs)
@@ -69,6 +73,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
     startLine: 58
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void print(NetworkSecurityGroup resource)
@@ -88,6 +94,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
     startLine: 47
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkSecurityGroup updateResource(NetworkSecurityGroup resource)

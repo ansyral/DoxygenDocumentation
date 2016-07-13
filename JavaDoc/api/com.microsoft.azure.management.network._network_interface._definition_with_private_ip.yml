@@ -18,6 +18,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 219
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
   syntax:
@@ -35,6 +37,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 226
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
     <p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the network interface's primary Ip configuration.</p>
@@ -58,6 +62,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 236
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
     <p>Assigns the specified static private IP address within the specified existing virtual network subnet to the network interface's primary Ip configuration.</p>

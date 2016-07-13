@@ -21,6 +21,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
     startLine: 25
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: <p>The possible directions of the network traffic supported by a network security rule. </p>
   syntax: &o1
@@ -41,6 +43,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
     startLine: 30
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public Direction(String name)
@@ -60,6 +64,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
     startLine: 44
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: <p>Converts the string used by <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> into the corresponding constant, if any. </p>
   syntax:
@@ -84,6 +90,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
     startLine: 26
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public INBOUND=(SecurityRuleDirection.INBOUND)
@@ -100,6 +108,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
     startLine: 27
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public OUTBOUND=(SecurityRuleDirection.OUTBOUND)
@@ -116,6 +126,8 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
     startLine: 35
+  assemblies:
+  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public String toString()

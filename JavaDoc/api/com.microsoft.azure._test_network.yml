@@ -19,6 +19,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestNetwork.java
     startLine: 17
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Test of virtual network management. </p>
   syntax:
@@ -48,6 +50,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNetwork.java
     startLine: 20
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Network createResource(Networks networks)
@@ -69,6 +73,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNetwork.java
     startLine: 48
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void print(Network resource)
@@ -88,6 +94,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNetwork.java
     startLine: 34
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Network updateResource(Network resource)

@@ -17,6 +17,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/RequestIdHeaderInterceptor.java
     startLine: 20
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>An instance of this class puts an UUID in the request header. <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> uses the request id as the unique identifier for </p>
   syntax:
@@ -37,6 +39,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/RequestIdHeaderInterceptor.java
     startLine: 22
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Response intercept(Chain chain)

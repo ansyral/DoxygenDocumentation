@@ -20,6 +20,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/FlatteningDeserializer.java
     startLine: 33
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   summary: <p>Custom serializer for deserializing complex types with wrapped properties. For example, a property with annotation (value = "properties.name") will be mapped to a top level "name" property in the POJO model. </p>
   syntax: &o1
@@ -40,6 +42,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/FlatteningDeserializer.java
     startLine: 79
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   syntax:
     content: public Object deserialize(JsonParser jp, DeserializationContext ctxt)
@@ -63,6 +67,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/FlatteningDeserializer.java
     startLine: 50
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   summary: <p>Creates an instance of <xref href="com.microsoft.rest.serializer._flattening_deserializer" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
@@ -90,6 +96,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/FlatteningDeserializer.java
     startLine: 63
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   summary: >-
     <p>Gets a module wrapping this serializer as an adapter for the Jackson ObjectMapper.</p>
@@ -117,6 +125,8 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/FlatteningDeserializer.java
     startLine: 106
+  assemblies:
+  - com.microsoft.rest.serializer
   package: com.microsoft.rest.serializer
   syntax:
     content: public void resolve(DeserializationContext ctxt)

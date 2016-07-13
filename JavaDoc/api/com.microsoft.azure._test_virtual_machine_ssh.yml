@@ -20,6 +20,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineSsh.java
     startLine: 7
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public class TestVirtualMachineSsh extends TestTemplate< VirtualMachine, VirtualMachines >
@@ -48,6 +50,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineSsh.java
     startLine: 12
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachine createResource(VirtualMachines virtualMachines)
@@ -69,6 +73,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineSsh.java
     startLine: 37
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void print(VirtualMachine virtualMachine)
@@ -88,6 +94,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineSsh.java
     startLine: 8
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public TestVirtualMachineSsh()
@@ -104,6 +112,8 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineSsh.java
     startLine: 30
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachine updateResource(VirtualMachine virtualMachine)

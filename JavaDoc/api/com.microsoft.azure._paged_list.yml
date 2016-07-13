@@ -47,6 +47,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 27
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
@@ -73,6 +75,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 222
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean add(E e)
@@ -94,6 +98,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 280
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void add(int index, E element)
@@ -115,6 +121,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 242
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean addAll(Collection<?extends E > c)
@@ -136,6 +144,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 247
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean addAll(int index, Collection<?extends E > c)
@@ -159,6 +169,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 262
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void clear()
@@ -175,6 +187,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 200
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean contains(Object o)
@@ -196,6 +210,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 232
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean containsAll(Collection<?> c)
@@ -217,6 +233,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 104
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Gets the latest page fetched.</p>
@@ -240,6 +258,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 267
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public E get(int index)
@@ -261,6 +281,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 69
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>If there are more pages available.</p>
@@ -284,6 +306,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 290
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public int indexOf(Object o)
@@ -305,6 +329,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 195
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean isEmpty()
@@ -323,6 +349,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 205
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Iterator< E > iterator()
@@ -341,6 +369,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 311
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public int lastIndexOf(Object o)
@@ -362,6 +392,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 317
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public ListIterator< E > listIterator()
@@ -380,6 +412,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 322
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public ListIterator< E > listIterator(int index)
@@ -401,6 +435,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 93
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Keep loading the next page from the next page link until all items are loaded. </p>
   syntax:
@@ -418,6 +454,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 77
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Loads a page from next page link. The exceptions are wrapped into Java Runtime exceptions. </p>
   syntax:
@@ -435,6 +473,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 62
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Override this method to load the next page of items from a next page link.</p>
@@ -467,6 +507,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 113
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Gets the next page's link.</p>
@@ -490,6 +532,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 38
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Creates an instance of Pagedlist. </p>
   syntax:
@@ -507,6 +551,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 47
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.azure._paged_list" data-throw-if-not-resolved="false"></xref> from a <xref href="com.microsoft.azure._page" data-throw-if-not-resolved="false"></xref> response.</p>
@@ -531,6 +577,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 285
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public E remove(int index)
@@ -552,6 +600,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 227
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean remove(Object o)
@@ -573,6 +623,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 252
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean removeAll(Collection<?> c)
@@ -594,6 +646,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 257
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public boolean retainAll(Collection<?> c)
@@ -615,6 +669,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 275
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public E set(int index, E element)
@@ -638,6 +694,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 189
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public int size()
@@ -656,6 +714,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 330
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public List< E > subList(int fromIndex, int toIndex)
@@ -679,6 +739,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 210
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Object[] toArray()
@@ -697,6 +759,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PagedList.java
     startLine: 216
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public< T > T[] toArray(T[] a)

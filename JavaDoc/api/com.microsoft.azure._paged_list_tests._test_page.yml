@@ -19,6 +19,8 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/PagedListTests.java
     startLine: 102
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public class TestPage implements Page< Integer >
@@ -37,6 +39,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/PagedListTests.java
     startLine: 120
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public List< Integer > getItems()
@@ -55,6 +59,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/PagedListTests.java
     startLine: 112
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public String getNextPageLink()
@@ -73,6 +79,8 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/PagedListTests.java
     startLine: 106
+  assemblies:
+  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public TestPage(int page, int max)
