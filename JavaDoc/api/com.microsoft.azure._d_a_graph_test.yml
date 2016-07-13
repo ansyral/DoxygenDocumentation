@@ -21,6 +21,8 @@ items:
   package: com.microsoft.azure
   syntax:
     content: public class DAGraphTest
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._d_a_graph_test_1ae8357efd61ad83be14a44a75bb1eabac
   id: _d_a_graph_test_1ae8357efd61ad83be14a44a75bb1eabac
   parent: com.microsoft.azure._d_a_graph_test
@@ -57,8 +59,8 @@ references:
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
-  name: DAGraph
-  fullName: com.microsoft.azure.DAGraph
+  name: DAGraph<T,U>
+  fullName: com.microsoft.azure.DAGraph<T,U>
   type: Class
   summary: >-
     <p>Type representing a DAG (directed acyclic graph). </p>
@@ -76,8 +78,8 @@ references:
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
-  name: DAGNode
-  fullName: com.microsoft.azure.DAGNode
+  name: DAGNode<T>
+  fullName: com.microsoft.azure.DAGNode<T>
   type: Class
   summary: >-
     <p>The type representing node in a <xref href="com.microsoft.azure._d_a_graph" data-throw-if-not-resolved="false"></xref>.</p>

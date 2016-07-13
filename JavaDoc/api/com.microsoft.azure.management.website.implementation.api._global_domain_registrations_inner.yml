@@ -33,6 +33,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in GlobalDomainRegistrations. </p>
   syntax: &o1
     content: public class GlobalDomainRegistrationsInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner_1ac8d63a88fc0f002f47ecdb7276f74ae3
   id: _global_domain_registrations_inner_1ac8d63a88fc0f002f47ecdb7276f74ae3
   parent: com.microsoft.azure.management.website.implementation.api._global_domain_registrations_inner
@@ -288,7 +290,7 @@ items:
   - java
   name: GlobalDomainRegistrationsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
   fullName: com.microsoft.azure.management.website.implementation.api.GlobalDomainRegistrationsInner.GlobalDomainRegistrationsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalDomainRegistrationsInner.java
@@ -457,8 +459,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -473,8 +475,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -487,8 +489,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_control_center_sso_request_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -503,8 +505,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -517,8 +519,8 @@ references:
 - uid: com.microsoft.rest._service_response9aef07c3
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < Object >
     fullName: < Object >
@@ -527,16 +529,16 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Object >
     fullName: < Object >
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -551,8 +553,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -569,8 +571,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._name_identifier_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -585,8 +587,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -616,8 +618,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -658,8 +660,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

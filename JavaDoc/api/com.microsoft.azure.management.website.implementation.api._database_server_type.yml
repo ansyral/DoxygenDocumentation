@@ -27,6 +27,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._database_server_type" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum DatabaseServerType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<DatabaseServerType>
 - uid: com.microsoft.azure.management.website.implementation.api._database_server_type_1a375a5765c5d528bad2d507e2d7c3cb6d
   id: _database_server_type_1a375a5765c5d528bad2d507e2d7c3cb6d
   parent: com.microsoft.azure.management.website.implementation.api._database_server_type
@@ -35,7 +38,7 @@ items:
   - java
   name: CUSTOM
   fullName: com.microsoft.azure.management.website.implementation.api.DatabaseServerType.CUSTOM
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DatabaseServerType.java
@@ -52,7 +55,7 @@ items:
   - java
   name: DatabaseServerType(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.DatabaseServerType.DatabaseServerType(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DatabaseServerType.java
@@ -98,7 +101,7 @@ items:
   - java
   name: MY_SQL
   fullName: com.microsoft.azure.management.website.implementation.api.DatabaseServerType.MY_SQL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DatabaseServerType.java
@@ -115,7 +118,7 @@ items:
   - java
   name: SQLAZURE
   fullName: com.microsoft.azure.management.website.implementation.api.DatabaseServerType.SQLAZURE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DatabaseServerType.java
@@ -132,7 +135,7 @@ items:
   - java
   name: SQLSERVER
   fullName: com.microsoft.azure.management.website.implementation.api.DatabaseServerType.SQLSERVER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DatabaseServerType.java

@@ -33,6 +33,8 @@ items:
   summary: <p>The response body contains the status of the specified asynchronous operation, indicating whether it has succeeded, is in progress, or has failed. Note that this status is distinct from the HTTP status code returned for the Get Operation Status operation itself. If the asynchronous operation succeeded, the response body includes the HTTP status code for the successful request. If the asynchronous operation failed, the response body includes the HTTP status code for the failed request, and also includes error information regarding the failure. </p>
   syntax:
     content: public class AzureAsyncOperation
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
   id: _azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
   parent: com.microsoft.azure._azure_async_operation

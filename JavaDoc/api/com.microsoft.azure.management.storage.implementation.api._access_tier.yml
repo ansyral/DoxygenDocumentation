@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._access_tier" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum AccessTier
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<AccessTier>
 - uid: com.microsoft.azure.management.storage.implementation.api._access_tier_1a7952a42e3e6520c6f7fed23b124349c6
   id: _access_tier_1a7952a42e3e6520c6f7fed23b124349c6
   parent: com.microsoft.azure.management.storage.implementation.api._access_tier
@@ -33,7 +36,7 @@ items:
   - java
   name: AccessTier(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.AccessTier.AccessTier(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/AccessTier.java
@@ -52,7 +55,7 @@ items:
   - java
   name: COOL
   fullName: com.microsoft.azure.management.storage.implementation.api.AccessTier.COOL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/AccessTier.java
@@ -96,7 +99,7 @@ items:
   - java
   name: HOT
   fullName: com.microsoft.azure.management.storage.implementation.api.AccessTier.HOT
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/AccessTier.java

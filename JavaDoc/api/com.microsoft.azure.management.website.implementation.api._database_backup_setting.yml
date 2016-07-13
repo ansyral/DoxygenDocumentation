@@ -28,6 +28,8 @@ items:
   summary: '<p>Note: properties are serialized in JSON format and stored in DB. if new properties are added they might not be in the previous data rows so please handle nulls. </p>'
   syntax: &o1
     content: public class DatabaseBackupSetting
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._database_backup_setting_1ae7d3f9b355008c8bbc66972aea97f750
   id: _database_backup_setting_1ae7d3f9b355008c8bbc66972aea97f750
   parent: com.microsoft.azure.management.website.implementation.api._database_backup_setting

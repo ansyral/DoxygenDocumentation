@@ -31,6 +31,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.compute._availability_sets" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public class AvailabilitySetsInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner_1a2cfe5020911bfb47edc1c3444b42fd93
   id: _availability_sets_inner_1a2cfe5020911bfb47edc1c3444b42fd93
   parent: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
@@ -39,7 +41,7 @@ items:
   - java
   name: AvailabilitySetsInner(Retrofit retrofit, ComputeManagementClientImpl client)
   fullName: com.microsoft.azure.management.compute.implementation.api.AvailabilitySetsInner.AvailabilitySetsInner(Retrofit retrofit, ComputeManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/AvailabilitySetsInner.java
@@ -443,8 +445,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._availability_set_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -459,8 +461,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -473,8 +475,8 @@ references:
 - uid: com.microsoft.rest._service_responsee35e5465
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
@@ -483,16 +485,16 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
 - uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._availability_set_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< List< '
     fullName: '< List< '
@@ -507,8 +509,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< List< '
     fullName: '< List< '
@@ -521,8 +523,8 @@ references:
 - uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< List< '
     fullName: '< List< '
@@ -537,8 +539,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< List< '
     fullName: '< List< '
@@ -568,8 +570,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -610,8 +612,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -634,8 +636,8 @@ references:
 - uid: com.microsoft.azure.management.compute.implementation.api._page_impl
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
-  name: PageImpl
-  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl
+  name: PageImpl<T>
+  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl<T>
   type: Class
   summary: >-
     <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>

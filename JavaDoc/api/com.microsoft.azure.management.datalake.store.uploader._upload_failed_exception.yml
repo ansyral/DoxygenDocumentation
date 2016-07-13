@@ -22,6 +22,7 @@ items:
   syntax: &o1
     content: public class UploadFailedException
   inheritance:
+  - java.lang.Object
   - Exception
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_failed_exception_1a33e2c2f3b3173e9f709e3ef3075f11ed
   id: _upload_failed_exception_1a33e2c2f3b3173e9f709e3ef3075f11ed
@@ -31,7 +32,7 @@ items:
   - java
   name: UploadFailedException(String message)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadFailedException.UploadFailedException(String message)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadFailedException.java

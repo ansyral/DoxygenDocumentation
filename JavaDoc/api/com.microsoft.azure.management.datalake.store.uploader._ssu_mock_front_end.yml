@@ -28,6 +28,7 @@ items:
   syntax:
     content: public class SsuMockFrontEnd
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._ssu_mock_front_end_1a55241f67118f276007285a1bf22769a0
   id: _ssu_mock_front_end_1a55241f67118f276007285a1bf22769a0
@@ -214,7 +215,7 @@ items:
   - java
   name: SsuMockFrontEnd(FrontEndAdapter baseAdapter, boolean doNothing, boolean testRetry, int failCount)
   fullName: com.microsoft.azure.management.datalake.store.uploader.SsuMockFrontEnd.SsuMockFrontEnd(FrontEndAdapter baseAdapter, boolean doNothing, boolean testRetry, int failCount)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SsuMockFrontEnd.java

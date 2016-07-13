@@ -8,8 +8,8 @@ items:
   href: com.microsoft.azure.management.compute._data_disk._definition_with_optional_configuration.yml
   langs:
   - java
-  name: DataDisk.DefinitionWithOptionalConfiguration
-  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionWithOptionalConfiguration
+  name: DataDisk.DefinitionWithOptionalConfiguration<ParentT>
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionWithOptionalConfiguration<ParentT>
   type: Interface
   source:
     remote: &o0
@@ -94,16 +94,16 @@ references:
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attachablea6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
-    name: DataDisk.DefinitionAttachable
-    fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+    name: DataDisk.DefinitionAttachable<ParentT>
+    fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable<ParentT>
     href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
   - name: < ParentT >
     fullName: < ParentT >
 - uid: com.microsoft.azure.management.compute._data_disk._definition_attachable
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definition_attachable.yml
-  name: DataDisk.DefinitionAttachable
-  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable
+  name: DataDisk.DefinitionAttachable<ParentT>
+  fullName: com.microsoft.azure.management.compute.DataDisk.DefinitionAttachable<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the data disk definition which contains all the minimum required inputs for the resource to be attached (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified.</p>
@@ -117,8 +117,8 @@ references:
 - uid: com.microsoft.azure.management.compute._data_disk._definitions
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._data_disk._definitions.yml
-  name: DataDisk.Definitions
-  fullName: com.microsoft.azure.management.compute.DataDisk.Definitions
+  name: DataDisk.Definitions<ParentT>
+  fullName: com.microsoft.azure.management.compute.DataDisk.Definitions<ParentT>
   type: Interface
   summary: >-
     <p>Container interface for all the definitions.</p>

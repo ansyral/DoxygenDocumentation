@@ -24,6 +24,7 @@ items:
   syntax:
     content: public class TestVirtualMachine
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._test_template
   inheritedMembers:
   - com.microsoft.azure._test_template_1a684d4c90f454f54c9c2d28567b18da16
@@ -230,8 +231,8 @@ references:
 - uid: com.microsoft.azure._test_template
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_template.yml
-  name: TestTemplate
-  fullName: com.microsoft.azure.TestTemplate
+  name: TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+  fullName: com.microsoft.azure.TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
   type: Class
   summary: <p>Base class for CRUD test cases for top level <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource models. </p>
   syntax:

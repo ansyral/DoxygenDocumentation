@@ -27,6 +27,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._notification_level" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum NotificationLevel
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<NotificationLevel>
 - uid: com.microsoft.azure.management.website.implementation.api._notification_level_1a139f7989640ad596cdc94277ef9a4859
   id: _notification_level_1a139f7989640ad596cdc94277ef9a4859
   parent: com.microsoft.azure.management.website.implementation.api._notification_level
@@ -35,7 +38,7 @@ items:
   - java
   name: CRITICAL
   fullName: com.microsoft.azure.management.website.implementation.api.NotificationLevel.CRITICAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/NotificationLevel.java
@@ -79,7 +82,7 @@ items:
   - java
   name: INFORMATION
   fullName: com.microsoft.azure.management.website.implementation.api.NotificationLevel.INFORMATION
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/NotificationLevel.java
@@ -96,7 +99,7 @@ items:
   - java
   name: NON_URGENT_SUGGESTION
   fullName: com.microsoft.azure.management.website.implementation.api.NotificationLevel.NON_URGENT_SUGGESTION
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/NotificationLevel.java
@@ -113,7 +116,7 @@ items:
   - java
   name: NotificationLevel(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.NotificationLevel.NotificationLevel(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/NotificationLevel.java
@@ -150,7 +153,7 @@ items:
   - java
   name: WARNING
   fullName: com.microsoft.azure.management.website.implementation.api.NotificationLevel.WARNING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/NotificationLevel.java

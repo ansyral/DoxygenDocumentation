@@ -31,6 +31,9 @@ items:
   summary: <p>The popular <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Linux images. </p>
   syntax:
     content: public enum KnownLinuxVirtualMachineImage
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<KnownLinuxVirtualMachineImage>
 - uid: com.microsoft.azure.management.compute._known_linux_virtual_machine_image_1a612f3e94bcebea3bc9be30807f15bc61
   id: _known_linux_virtual_machine_image_1a612f3e94bcebea3bc9be30807f15bc61
   parent: com.microsoft.azure.management.compute._known_linux_virtual_machine_image
@@ -39,7 +42,7 @@ items:
   - java
   name: CENTOS_7_2
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.CENTOS_7_2
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
@@ -56,7 +59,7 @@ items:
   - java
   name: DEBIAN_8
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.DEBIAN_8
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
@@ -92,7 +95,7 @@ items:
   - java
   name: KnownLinuxVirtualMachineImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.KnownLinuxVirtualMachineImage(String publisher, String offer, String sku)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
@@ -134,7 +137,7 @@ items:
   - java
   name: OPENSUSE_LEAP_42_1
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.OPENSUSE_LEAP_42_1
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
@@ -189,7 +192,7 @@ items:
   - java
   name: SLES_12_SP1
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.SLES_12_SP1
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
@@ -206,7 +209,7 @@ items:
   - java
   name: UBUNTU_SERVER_14_04_LTS
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.UBUNTU_SERVER_14_04_LTS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
@@ -223,7 +226,7 @@ items:
   - java
   name: UBUNTU_SERVER_16_04_LTS
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage.UBUNTU_SERVER_16_04_LTS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java

@@ -11,8 +11,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
-  name: GroupableResourcesImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl
+  name: GroupableResourcesImpl<T,ImplT,InnerT,InnerCollectionT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl<T,ImplT,InnerT,InnerCollectionT>
   type: Class
   source:
     remote: &o0
@@ -35,6 +35,7 @@ items:
     - type: 891f7fcf
       description: <p>the inner type of the collection object </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
@@ -121,7 +122,7 @@ items:
   - java
   name: GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
@@ -276,14 +277,14 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
   name: WrappersImpl()
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.WrappersImpl()
-  type: Method
+  type: Constructor
   syntax:
     content: protected WrappersImpl()
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
-  name: WrappersImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl
+  name: WrappersImpl<T,ImplT,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl<T,ImplT,InnerT>
   type: Class
   summary: <p>Base class for wrapper collections. (Internal use only) </p>
   syntax:
@@ -298,8 +299,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id.yml
-  name: SupportsGettingById
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById
+  name: SupportsGettingById<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>
   type: Interface
   summary: >-
     <p>Provides access to getting a specific <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource based on its resource ID.</p>
@@ -313,8 +314,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group.yml
-  name: SupportsGettingByGroup
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByGroup
+  name: SupportsGettingByGroup<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByGroup<T>
   type: Interface
   summary: >-
     <p>Provides access to getting a specific <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource based on its name and resource group.</p>

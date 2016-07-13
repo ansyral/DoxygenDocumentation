@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._certificate_format" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum CertificateFormat
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<CertificateFormat>
 - uid: com.microsoft.azure.batch.protocol.models._certificate_format_1a819dc05008d679d4d49fa199ed231586
   id: _certificate_format_1a819dc05008d679d4d49fa199ed231586
   parent: com.microsoft.azure.batch.protocol.models._certificate_format
@@ -34,7 +37,7 @@ items:
   - java
   name: CER
   fullName: com.microsoft.azure.batch.protocol.models.CertificateFormat.CER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateFormat.java
@@ -51,7 +54,7 @@ items:
   - java
   name: CertificateFormat(String value)
   fullName: com.microsoft.azure.batch.protocol.models.CertificateFormat.CertificateFormat(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateFormat.java
@@ -97,7 +100,7 @@ items:
   - java
   name: PFX
   fullName: com.microsoft.azure.batch.protocol.models.CertificateFormat.PFX
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateFormat.java
@@ -132,7 +135,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.CertificateFormat.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateFormat.java

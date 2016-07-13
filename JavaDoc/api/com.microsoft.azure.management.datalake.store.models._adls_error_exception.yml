@@ -29,6 +29,7 @@ items:
   syntax: &o1
     content: public class AdlsErrorException
   inheritance:
+  - java.lang.Object
   - Exception
   - com.microsoft.rest._rest_exception
   inheritedMembers:
@@ -44,7 +45,7 @@ items:
   - java
   name: AdlsErrorException()
   fullName: com.microsoft.azure.management.datalake.store.models.AdlsErrorException.AdlsErrorException()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/models/AdlsErrorException.java
@@ -61,7 +62,7 @@ items:
   - java
   name: AdlsErrorException(final String message)
   fullName: com.microsoft.azure.management.datalake.store.models.AdlsErrorException.AdlsErrorException(final String message)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/models/AdlsErrorException.java
@@ -85,7 +86,7 @@ items:
   - java
   name: AdlsErrorException(final String message, final Throwable cause)
   fullName: com.microsoft.azure.management.datalake.store.models.AdlsErrorException.AdlsErrorException(final String message, final Throwable cause)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/models/AdlsErrorException.java
@@ -112,7 +113,7 @@ items:
   - java
   name: AdlsErrorException(final Throwable cause)
   fullName: com.microsoft.azure.management.datalake.store.models.AdlsErrorException.AdlsErrorException(final Throwable cause)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/models/AdlsErrorException.java
@@ -240,7 +241,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException()
   fullName: com.microsoft.rest.RestException.RestException()
-  type: Method
+  type: Constructor
   summary: <p>Initializes a new instance of the AutoRestException class. </p>
   syntax:
     content: public RestException()
@@ -249,7 +250,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message)
   fullName: com.microsoft.rest.RestException.RestException(String message)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -265,7 +266,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -281,7 +282,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message, Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(String message, Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 

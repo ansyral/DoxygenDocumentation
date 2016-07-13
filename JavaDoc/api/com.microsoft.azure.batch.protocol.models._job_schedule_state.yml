@@ -28,6 +28,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._job_schedule_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum JobScheduleState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<JobScheduleState>
 - uid: com.microsoft.azure.batch.protocol.models._job_schedule_state_1a4f97c847ebc126da31157ab8dc4c0d8b
   id: _job_schedule_state_1a4f97c847ebc126da31157ab8dc4c0d8b
   parent: com.microsoft.azure.batch.protocol.models._job_schedule_state
@@ -36,7 +39,7 @@ items:
   - java
   name: ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.JobScheduleState.ACTIVE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobScheduleState.java
@@ -53,7 +56,7 @@ items:
   - java
   name: COMPLETED
   fullName: com.microsoft.azure.batch.protocol.models.JobScheduleState.COMPLETED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobScheduleState.java
@@ -70,7 +73,7 @@ items:
   - java
   name: DELETING
   fullName: com.microsoft.azure.batch.protocol.models.JobScheduleState.DELETING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobScheduleState.java
@@ -87,7 +90,7 @@ items:
   - java
   name: DISABLED
   fullName: com.microsoft.azure.batch.protocol.models.JobScheduleState.DISABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobScheduleState.java
@@ -131,7 +134,7 @@ items:
   - java
   name: JobScheduleState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.JobScheduleState.JobScheduleState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobScheduleState.java
@@ -150,7 +153,7 @@ items:
   - java
   name: TERMINATING
   fullName: com.microsoft.azure.batch.protocol.models.JobScheduleState.TERMINATING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobScheduleState.java

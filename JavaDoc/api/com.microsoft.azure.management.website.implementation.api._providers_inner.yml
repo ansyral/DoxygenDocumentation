@@ -31,6 +31,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in Providers. </p>
   syntax: &o1
     content: public class ProvidersInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._providers_inner_1a12bdd7c926b1bd6f08532d8695a8b9a8
   id: _providers_inner_1a12bdd7c926b1bd6f08532d8695a8b9a8
   parent: com.microsoft.azure.management.website.implementation.api._providers_inner
@@ -226,7 +228,7 @@ items:
   - java
   name: ProvidersInner(Retrofit retrofit, WebSiteManagementClientImpl client)
   fullName: com.microsoft.azure.management.website.implementation.api.ProvidersInner.ProvidersInner(Retrofit retrofit, WebSiteManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ProvidersInner.java
@@ -401,8 +403,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._source_control_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -417,8 +419,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -435,8 +437,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._source_control_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -451,8 +453,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -465,8 +467,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -481,8 +483,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -512,8 +514,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -563,8 +565,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

@@ -25,6 +25,9 @@ items:
   summary: <p>The possible access types supported by a network security rule. </p>
   syntax: &o1
     content: public enum Access
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<NetworkSecurityRule.Access>
 - uid: com.microsoft.azure.management.network._network_security_rule._access_1aaf43aa343bd56e2c404ef87e2358b2ae
   id: _access_1aaf43aa343bd56e2c404ef87e2358b2ae
   parent: com.microsoft.azure.management.network._network_security_rule._access
@@ -33,7 +36,7 @@ items:
   - java
   name: Access(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Access.Access(String name)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -52,7 +55,7 @@ items:
   - java
   name: ALLOW
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Access.ALLOW
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -68,7 +71,7 @@ items:
   - java
   name: DENY
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Access.DENY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java

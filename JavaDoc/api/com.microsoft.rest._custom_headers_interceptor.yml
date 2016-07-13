@@ -30,6 +30,7 @@ items:
   syntax: &o1
     content: public class CustomHeadersInterceptor
   inheritance:
+  - java.lang.Object
   - Interceptor
 - uid: com.microsoft.rest._custom_headers_interceptor_1a8b10e48a60151abb5d0deb4226463222
   id: _custom_headers_interceptor_1a8b10e48a60151abb5d0deb4226463222
@@ -150,7 +151,7 @@ items:
   - java
   name: CustomHeadersInterceptor()
   fullName: com.microsoft.rest.CustomHeadersInterceptor.CustomHeadersInterceptor()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/CustomHeadersInterceptor.java
@@ -167,7 +168,7 @@ items:
   - java
   name: CustomHeadersInterceptor(String key, String value)
   fullName: com.microsoft.rest.CustomHeadersInterceptor.CustomHeadersInterceptor(String key, String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/CustomHeadersInterceptor.java

@@ -27,6 +27,9 @@ items:
   summary: <p>The possible <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network protocols supported by a network security rule. </p>
   syntax: &o1
     content: public enum Protocol
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<NetworkSecurityRule.Protocol>
 - uid: com.microsoft.azure.management.network._network_security_rule._protocol_1a438f9d322eefcd093ae46472249f320c
   id: _protocol_1a438f9d322eefcd093ae46472249f320c
   parent: com.microsoft.azure.management.network._network_security_rule._protocol
@@ -35,7 +38,7 @@ items:
   - java
   name: ANY
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Protocol.ANY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -93,7 +96,7 @@ items:
   - java
   name: Protocol(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Protocol.Protocol(String name)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -112,7 +115,7 @@ items:
   - java
   name: TCP
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Protocol.TCP
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -146,7 +149,7 @@ items:
   - java
   name: UDP
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Protocol.UDP
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java

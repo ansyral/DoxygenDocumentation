@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._status_options" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum StatusOptions
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<StatusOptions>
 - uid: com.microsoft.azure.management.website.implementation.api._status_options_1a8c6299363556c94bfd5e4dd81055a136
   id: _status_options_1a8c6299363556c94bfd5e4dd81055a136
   parent: com.microsoft.azure.management.website.implementation.api._status_options
@@ -60,7 +63,7 @@ items:
   - java
   name: PENDING
   fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions.PENDING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
@@ -77,7 +80,7 @@ items:
   - java
   name: READY
   fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions.READY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java
@@ -94,7 +97,7 @@ items:
   - java
   name: StatusOptions(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.StatusOptions.StatusOptions(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/StatusOptions.java

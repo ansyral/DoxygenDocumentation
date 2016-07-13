@@ -11,8 +11,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
   langs:
   - java
-  name: WrappersImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl
+  name: WrappersImpl<T,ImplT,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl<T,ImplT,InnerT>
   type: Class
   source:
     remote: &o0
@@ -32,6 +32,8 @@ items:
       description: <p>the individual resource implementation </p>
     - type: 52cf8095
       description: <p>the wrapper inner type </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
   id: a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
@@ -124,7 +126,7 @@ items:
   - java
   name: WrappersImpl()
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.WrappersImpl()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/WrappersImpl.java
@@ -156,16 +158,16 @@ references:
 - uid: com.microsoft.azure._paged_list5b074597
   spec.java:
   - uid: com.microsoft.azure._paged_list
-    name: PagedList
-    fullName: com.microsoft.azure.PagedList
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
     href: com.microsoft.azure._paged_list.yml
   - name: < InnerT >
     fullName: < InnerT >
 - uid: com.microsoft.azure._paged_list34132889
   spec.java:
   - uid: com.microsoft.azure._paged_list
-    name: PagedList
-    fullName: com.microsoft.azure.PagedList
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
     href: com.microsoft.azure._paged_list.yml
   - name: < T >
     fullName: < T >
@@ -176,8 +178,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter
   parent: com.microsoft.azure.management.resources.fluentcore.utils
   href: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter.yml
-  name: PagedListConverter
-  fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter
+  name: PagedListConverter<U,V>
+  fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter<U,V>
   type: Class
   summary: >-
     <p>The base class for converting <xref href="com.microsoft.azure._paged_list" data-throw-if-not-resolved="false"></xref> of one type of resource to another, without polling down all the items in a list. This converter is useful in converting inner top level resources into fluent top level resources.</p>
@@ -193,8 +195,8 @@ references:
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
-  name: PagedList
-  fullName: com.microsoft.azure.PagedList
+  name: PagedList<E>
+  fullName: com.microsoft.azure.PagedList<E>
   type: Class
   summary: >-
     <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>

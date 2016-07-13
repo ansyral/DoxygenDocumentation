@@ -26,6 +26,7 @@ items:
   syntax:
     content: public class IndexableImpl
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl_1acb31d2ab1eddabc8c107af35689d76d3
   id: _indexable_impl_1acb31d2ab1eddabc8c107af35689d76d3
@@ -35,7 +36,7 @@ items:
   - java
   name: IndexableImpl(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableImpl.IndexableImpl(String key)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/IndexableImpl.java
@@ -143,8 +144,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533.yml
-  name: IndexableRefreshableImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableImpl
+  name: IndexableRefreshableImpl<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableImpl<T>
   type: Class
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.model._indexable" data-throw-if-not-resolved="false"></xref> and <xref href="com.microsoft.azure.management.resources.fluentcore.model._refreshable" data-throw-if-not-resolved="false"></xref>.</p>
@@ -158,8 +159,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
-  name: IndexableWrapperImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl
+  name: IndexableWrapperImpl<InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl<InnerT>
   type: Class
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.model._indexable" data-throw-if-not-resolved="false"></xref> and <xref href="com.microsoft.azure.management.resources.fluentcore.model._wrapper" data-throw-if-not-resolved="false"></xref>.</p>

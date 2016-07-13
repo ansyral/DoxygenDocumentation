@@ -24,6 +24,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._pass_names" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum PassNames
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PassNames>
 - uid: com.microsoft.azure.management.compute.implementation.api._pass_names_1a31b6424fc2074ab30e8aaf2388b290b7
   id: _pass_names_1a31b6424fc2074ab30e8aaf2388b290b7
   parent: com.microsoft.azure.management.compute.implementation.api._pass_names
@@ -59,7 +62,7 @@ items:
   - java
   name: OOBE_SYSTEM
   fullName: com.microsoft.azure.management.compute.implementation.api.PassNames.OOBE_SYSTEM
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/PassNames.java
@@ -76,7 +79,7 @@ items:
   - java
   name: PassNames(String value)
   fullName: com.microsoft.azure.management.compute.implementation.api.PassNames.PassNames(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/PassNames.java

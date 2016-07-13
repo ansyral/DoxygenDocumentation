@@ -51,6 +51,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in Globals. </p>
   syntax: &o1
     content: public class GlobalsInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._globals_inner_1ac057a16a5874876a087f75d08ec0b078
   id: _globals_inner_1ac057a16a5874876a087f75d08ec0b078
   parent: com.microsoft.azure.management.website.implementation.api._globals_inner
@@ -740,7 +742,7 @@ items:
   - java
   name: GlobalsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
   fullName: com.microsoft.azure.management.website.implementation.api.GlobalsInner.GlobalsInner(Retrofit retrofit, WebSiteManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/GlobalsInner.java
@@ -1036,8 +1038,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._user_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1052,8 +1054,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1066,8 +1068,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._geo_region_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1082,8 +1084,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1100,8 +1102,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._certificate_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1116,8 +1118,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1130,8 +1132,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._server_farm_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1146,8 +1148,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1164,8 +1166,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._site_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1180,8 +1182,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1194,8 +1196,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1210,8 +1212,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1224,8 +1226,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._managed_hos9ac30a4f2b2db79cc767c8402ce819109ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1240,8 +1242,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1254,8 +1256,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._classic_mobile_service_collection_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1270,8 +1272,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1284,8 +1286,8 @@ references:
 - uid: com.microsoft.rest._service_response9aef07c3
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < Object >
     fullName: < Object >
@@ -1294,16 +1296,16 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Object >
     fullName: < Object >
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.website.implementation.api._resource_name_availability_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1318,8 +1320,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1349,8 +1351,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -1391,8 +1393,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

@@ -29,6 +29,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in VirtualMachineExtensionImages. </p>
   syntax: &o1
     content: public class VirtualMachineExtensionImagesInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_images_inner_1a697eb5bb5ffb1e47c10e39c9988ad3fa
   id: _virtual_machine_extension_images_inner_1a697eb5bb5ffb1e47c10e39c9988ad3fa
   parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_images_inner
@@ -371,7 +373,7 @@ items:
   - java
   name: VirtualMachineExtensionImagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
   fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionImagesInner.VirtualMachineExtensionImagesInner(Retrofit retrofit, ComputeManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineExtensionImagesInner.java
@@ -410,8 +412,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_image_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -426,8 +428,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -440,8 +442,8 @@ references:
 - uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_image_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< List< '
     fullName: '< List< '
@@ -456,8 +458,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< List< '
     fullName: '< List< '
@@ -491,8 +493,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -533,8 +535,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

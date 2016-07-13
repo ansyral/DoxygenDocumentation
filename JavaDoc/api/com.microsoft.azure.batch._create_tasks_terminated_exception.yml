@@ -23,6 +23,7 @@ items:
   syntax: &o1
     content: public class CreateTasksTerminatedException
   inheritance:
+  - java.lang.Object
   - Exception
   - com.microsoft.rest._rest_exception
   - com.microsoft.azure.batch.protocol.models._batch_error_exception
@@ -47,7 +48,7 @@ items:
   - java
   name: CreateTasksTerminatedException(final String message, List< TaskAddResult > failureTasks, List< TaskAddParameter > pendingList)
   fullName: com.microsoft.azure.batch.CreateTasksTerminatedException.CreateTasksTerminatedException(final String message, List< TaskAddResult > failureTasks, List< TaskAddParameter > pendingList)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/CreateTasksTerminatedException.java
@@ -133,7 +134,7 @@ references:
   href: com.microsoft.azure.batch.protocol.models._batch_error_exception.yml
   name: BatchErrorException()
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException.BatchErrorException()
-  type: Method
+  type: Constructor
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.models._batch_error_exception" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public BatchErrorException()
@@ -142,7 +143,7 @@ references:
   href: com.microsoft.azure.batch.protocol.models._batch_error_exception.yml
   name: BatchErrorException(final String message)
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException.BatchErrorException(final String message)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.models._batch_error_exception" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -158,7 +159,7 @@ references:
   href: com.microsoft.azure.batch.protocol.models._batch_error_exception.yml
   name: BatchErrorException(final String message, final Throwable cause)
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException.BatchErrorException(final String message, final Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.models._batch_error_exception" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -177,7 +178,7 @@ references:
   href: com.microsoft.azure.batch.protocol.models._batch_error_exception.yml
   name: BatchErrorException(final Throwable cause)
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException.BatchErrorException(final Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.models._batch_error_exception" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -223,7 +224,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException()
   fullName: com.microsoft.rest.RestException.RestException()
-  type: Method
+  type: Constructor
   summary: <p>Initializes a new instance of the AutoRestException class. </p>
   syntax:
     content: public RestException()
@@ -232,7 +233,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message)
   fullName: com.microsoft.rest.RestException.RestException(String message)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -248,7 +249,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -264,7 +265,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message, Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(String message, Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 

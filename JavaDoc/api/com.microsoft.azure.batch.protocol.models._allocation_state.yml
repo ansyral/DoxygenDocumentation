@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._allocation_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum AllocationState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<AllocationState>
 - uid: com.microsoft.azure.batch.protocol.models._allocation_state_1a14881399fccc01aa970e34122ebc79d7
   id: _allocation_state_1a14881399fccc01aa970e34122ebc79d7
   parent: com.microsoft.azure.batch.protocol.models._allocation_state
@@ -34,7 +37,7 @@ items:
   - java
   name: AllocationState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.AllocationState.AllocationState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/AllocationState.java
@@ -80,7 +83,7 @@ items:
   - java
   name: RESIZING
   fullName: com.microsoft.azure.batch.protocol.models.AllocationState.RESIZING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/AllocationState.java
@@ -97,7 +100,7 @@ items:
   - java
   name: STEADY
   fullName: com.microsoft.azure.batch.protocol.models.AllocationState.STEADY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/AllocationState.java
@@ -114,7 +117,7 @@ items:
   - java
   name: STOPPING
   fullName: com.microsoft.azure.batch.protocol.models.AllocationState.STOPPING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/AllocationState.java

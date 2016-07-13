@@ -44,6 +44,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._domain_status" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum DomainStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<DomainStatus>
 - uid: com.microsoft.azure.management.website.implementation.api._domain_status_1a178342f60fb175d1fd37bdf4fba8df08
   id: _domain_status_1a178342f60fb175d1fd37bdf4fba8df08
   parent: com.microsoft.azure.management.website.implementation.api._domain_status
@@ -52,7 +55,7 @@ items:
   - java
   name: ACTIVE
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.ACTIVE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -69,7 +72,7 @@ items:
   - java
   name: AWAITING
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.AWAITING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -86,7 +89,7 @@ items:
   - java
   name: CANCELLED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.CANCELLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -103,7 +106,7 @@ items:
   - java
   name: CONFISCATED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.CONFISCATED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -120,7 +123,7 @@ items:
   - java
   name: DISABLED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.DISABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -137,7 +140,7 @@ items:
   - java
   name: DomainStatus(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.DomainStatus(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -156,7 +159,7 @@ items:
   - java
   name: EXCLUDED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.EXCLUDED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -173,7 +176,7 @@ items:
   - java
   name: EXPIRED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.EXPIRED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -190,7 +193,7 @@ items:
   - java
   name: FAILED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.FAILED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -234,7 +237,7 @@ items:
   - java
   name: HELD
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.HELD
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -251,7 +254,7 @@ items:
   - java
   name: JSON_CONVERTER_FAILED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.JSON_CONVERTER_FAILED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -268,7 +271,7 @@ items:
   - java
   name: LOCKED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.LOCKED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -285,7 +288,7 @@ items:
   - java
   name: PARKED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.PARKED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -302,7 +305,7 @@ items:
   - java
   name: PENDING
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.PENDING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -319,7 +322,7 @@ items:
   - java
   name: RESERVED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.RESERVED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -336,7 +339,7 @@ items:
   - java
   name: REVERTED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.REVERTED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -353,7 +356,7 @@ items:
   - java
   name: SUSPENDED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.SUSPENDED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -388,7 +391,7 @@ items:
   - java
   name: TRANSFERRED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.TRANSFERRED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -405,7 +408,7 @@ items:
   - java
   name: UNKNOWN
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.UNKNOWN
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -422,7 +425,7 @@ items:
   - java
   name: UNLOCKED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.UNLOCKED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -439,7 +442,7 @@ items:
   - java
   name: UNPARKED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.UNPARKED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java
@@ -456,7 +459,7 @@ items:
   - java
   name: UPDATED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainStatus.UPDATED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainStatus.java

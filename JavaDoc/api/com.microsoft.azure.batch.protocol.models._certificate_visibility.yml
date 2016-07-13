@@ -27,6 +27,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._certificate_visibility" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum CertificateVisibility
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<CertificateVisibility>
 - uid: com.microsoft.azure.batch.protocol.models._certificate_visibility_1aa2f796907ef794de5205ecc69ce3f982
   id: _certificate_visibility_1aa2f796907ef794de5205ecc69ce3f982
   parent: com.microsoft.azure.batch.protocol.models._certificate_visibility
@@ -35,7 +38,7 @@ items:
   - java
   name: CertificateVisibility(String value)
   fullName: com.microsoft.azure.batch.protocol.models.CertificateVisibility.CertificateVisibility(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateVisibility.java
@@ -81,7 +84,7 @@ items:
   - java
   name: REMOTEUSER
   fullName: com.microsoft.azure.batch.protocol.models.CertificateVisibility.REMOTEUSER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateVisibility.java
@@ -98,7 +101,7 @@ items:
   - java
   name: STARTTASK
   fullName: com.microsoft.azure.batch.protocol.models.CertificateVisibility.STARTTASK
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateVisibility.java
@@ -115,7 +118,7 @@ items:
   - java
   name: TASK
   fullName: com.microsoft.azure.batch.protocol.models.CertificateVisibility.TASK
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateVisibility.java
@@ -150,7 +153,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.CertificateVisibility.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateVisibility.java

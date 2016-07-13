@@ -29,6 +29,8 @@ items:
   summary: <p>Represents an uploader for a single segment of a larger file. </p>
   syntax:
     content: public class SingleSegmentUploader
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.datalake.store.uploader._single_segment_uploader_1a74404f788f13ed5e063b24e9692ec674
   id: _single_segment_uploader_1a74404f788f13ed5e063b24e9692ec674
   parent: com.microsoft.azure.management.datalake.store.uploader._single_segment_uploader
@@ -133,7 +135,7 @@ items:
   - java
   name: SingleSegmentUploader(int segmentNumber, UploadMetadata uploadMetadata, FrontEndAdapter frontEnd)
   fullName: com.microsoft.azure.management.datalake.store.uploader.SingleSegmentUploader.SingleSegmentUploader(int segmentNumber, UploadMetadata uploadMetadata, FrontEndAdapter frontEnd)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java

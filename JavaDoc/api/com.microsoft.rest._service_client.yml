@@ -28,6 +28,8 @@ items:
       <xref href="com.microsoft.rest._service_client" data-throw-if-not-resolved="false"></xref> is the abstraction for accessing REST operations and their payload data types. </p>
   syntax: &o1
     content: public class ServiceClient
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.rest._service_client_1a0487c819ad04593bd5ef16d5fa1b3a62
   id: _service_client_1a0487c819ad04593bd5ef16d5fa1b3a62
   parent: com.microsoft.rest._service_client
@@ -93,7 +95,7 @@ items:
   - java
   name: ServiceClient(String baseUrl)
   fullName: com.microsoft.rest.ServiceClient.ServiceClient(String baseUrl)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
@@ -117,7 +119,7 @@ items:
   - java
   name: ServiceClient(String baseUrl, OkHttpClient.Builder clientBuilder, Retrofit.Builder restBuilder)
   fullName: com.microsoft.rest.ServiceClient.ServiceClient(String baseUrl, OkHttpClient.Builder clientBuilder, Retrofit.Builder restBuilder)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java

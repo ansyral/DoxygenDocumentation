@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._pool_lifetime_option" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum PoolLifetimeOption
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PoolLifetimeOption>
 - uid: com.microsoft.azure.batch.protocol.models._pool_lifetime_option_1a2e3d9816dfcc5f7c92b5205b54caad25
   id: _pool_lifetime_option_1a2e3d9816dfcc5f7c92b5205b54caad25
   parent: com.microsoft.azure.batch.protocol.models._pool_lifetime_option
@@ -61,7 +64,7 @@ items:
   - java
   name: JOB
   fullName: com.microsoft.azure.batch.protocol.models.PoolLifetimeOption.JOB
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolLifetimeOption.java
@@ -78,7 +81,7 @@ items:
   - java
   name: JOBSCHEDULE
   fullName: com.microsoft.azure.batch.protocol.models.PoolLifetimeOption.JOBSCHEDULE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolLifetimeOption.java
@@ -95,7 +98,7 @@ items:
   - java
   name: PoolLifetimeOption(String value)
   fullName: com.microsoft.azure.batch.protocol.models.PoolLifetimeOption.PoolLifetimeOption(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolLifetimeOption.java
@@ -132,7 +135,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.PoolLifetimeOption.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolLifetimeOption.java

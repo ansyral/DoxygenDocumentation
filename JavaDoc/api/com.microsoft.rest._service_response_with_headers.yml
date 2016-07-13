@@ -9,8 +9,8 @@ items:
   href: com.microsoft.rest._service_response_with_headers.yml
   langs:
   - java
-  name: ServiceResponseWithHeaders
-  fullName: com.microsoft.rest.ServiceResponseWithHeaders
+  name: ServiceResponseWithHeaders<TBody,THeader>
+  fullName: com.microsoft.rest.ServiceResponseWithHeaders<TBody,THeader>
   type: Class
   source:
     remote: &o0
@@ -32,6 +32,7 @@ items:
     - type: "77199363"
       description: <p>the type of the response header object </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.rest._service_response
   inheritedMembers:
   - com.microsoft.rest._service_response_1ab16b3668387ed766982f05ab74151300
@@ -68,7 +69,7 @@ items:
   - java
   name: ServiceResponseWithHeaders(TBody body, THeader headers, Response< ResponseBody > response)
   fullName: com.microsoft.rest.ServiceResponseWithHeaders< TBody, THeader >.ServiceResponseWithHeaders(TBody body, THeader headers, Response< ResponseBody > response)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseWithHeaders.java
@@ -98,7 +99,7 @@ items:
   - java
   name: ServiceResponseWithHeaders(THeader headers, Response< Void > response)
   fullName: com.microsoft.rest.ServiceResponseWithHeaders< TBody, THeader >.ServiceResponseWithHeaders(THeader headers, Response< Void > response)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseWithHeaders.java
@@ -181,7 +182,7 @@ references:
   href: com.microsoft.rest._service_response.yml
   name: ServiceResponse(T body, Response< ResponseBody > response)
   fullName: com.microsoft.rest.ServiceResponse< T >.ServiceResponse(T body, Response< ResponseBody > response)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Instantiate a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref> instance with a response object and a raw REST response.</p>
 
@@ -200,7 +201,7 @@ references:
   href: com.microsoft.rest._service_response.yml
   name: ServiceResponse(Response< Void > headResponse)
   fullName: com.microsoft.rest.ServiceResponse< T >.ServiceResponse(Response< Void > headResponse)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Instantiate a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref> instance with a response from a HEAD operation.</p>
 
@@ -230,8 +231,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>

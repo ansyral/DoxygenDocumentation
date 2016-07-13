@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._sku_tier" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SkuTier
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SkuTier>
 - uid: com.microsoft.azure.management.storage.implementation.api._sku_tier_1a5dfc7e14b4c6e9d5eac842351597abc1
   id: _sku_tier_1a5dfc7e14b4c6e9d5eac842351597abc1
   parent: com.microsoft.azure.management.storage.implementation.api._sku_tier
@@ -60,7 +63,7 @@ items:
   - java
   name: PREMIUM
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier.PREMIUM
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
@@ -77,7 +80,7 @@ items:
   - java
   name: SkuTier(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier.SkuTier(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java
@@ -96,7 +99,7 @@ items:
   - java
   name: STANDARD
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuTier.STANDARD
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuTier.java

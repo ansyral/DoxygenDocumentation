@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._key_permission" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum KeyPermission
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<KeyPermission>
 - uid: com.microsoft.azure.management.storage.implementation.api._key_permission_1aba17b38997170022a7db112210fa206f
   id: _key_permission_1aba17b38997170022a7db112210fa206f
   parent: com.microsoft.azure.management.storage.implementation.api._key_permission
@@ -60,7 +63,7 @@ items:
   - java
   name: FULL
   fullName: com.microsoft.azure.management.storage.implementation.api.KeyPermission.FULL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/KeyPermission.java
@@ -77,7 +80,7 @@ items:
   - java
   name: KeyPermission(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.KeyPermission.KeyPermission(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/KeyPermission.java
@@ -96,7 +99,7 @@ items:
   - java
   name: READ
   fullName: com.microsoft.azure.management.storage.implementation.api.KeyPermission.READ
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/KeyPermission.java

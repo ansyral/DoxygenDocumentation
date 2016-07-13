@@ -150,8 +150,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -194,8 +194,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -209,8 +209,8 @@ references:
 - uid: com.microsoft.rest._service_response_builder
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_builder.yml
-  name: ServiceResponseBuilder
-  fullName: com.microsoft.rest.ServiceResponseBuilder
+  name: ServiceResponseBuilder<T,E>
+  fullName: com.microsoft.rest.ServiceResponseBuilder<T,E>
   type: Class
   summary: >-
     <p>The builder for building a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref>.</p>
@@ -226,8 +226,8 @@ references:
 - uid: com.microsoft.rest._service_response_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_callback.yml
-  name: ServiceResponseCallback
-  fullName: com.microsoft.rest.ServiceResponseCallback
+  name: ServiceResponseCallback<T>
+  fullName: com.microsoft.rest.ServiceResponseCallback<T>
   type: Class
   summary: >-
     <p>Inner callback used to merge both successful and failed responses into one callback for customized response handling in a response handling delegate.</p>
@@ -241,8 +241,8 @@ references:
 - uid: com.microsoft.rest._service_response_empty_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_empty_callback.yml
-  name: ServiceResponseEmptyCallback
-  fullName: com.microsoft.rest.ServiceResponseEmptyCallback
+  name: ServiceResponseEmptyCallback<T>
+  fullName: com.microsoft.rest.ServiceResponseEmptyCallback<T>
   type: Class
   summary: >-
     <p>Inner callback used to merge both successful and failed responses into one callback for customized response handling in a response handling delegate.</p>
@@ -256,8 +256,8 @@ references:
 - uid: com.microsoft.rest._service_response_with_headers
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_with_headers.yml
-  name: ServiceResponseWithHeaders
-  fullName: com.microsoft.rest.ServiceResponseWithHeaders
+  name: ServiceResponseWithHeaders<TBody,THeader>
+  fullName: com.microsoft.rest.ServiceResponseWithHeaders<TBody,THeader>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>

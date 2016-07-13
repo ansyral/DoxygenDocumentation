@@ -43,6 +43,7 @@ items:
   syntax:
     content: public class FileOperations
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
 - uid: com.microsoft.azure.batch._file_operations_1a016b2ab2ac68f2999cf36a66fde32e4d
   id: _file_operations_1a016b2ab2ac68f2999cf36a66fde32e4d
@@ -202,7 +203,7 @@ items:
   - java
   name: FileOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
   fullName: com.microsoft.azure.batch.FileOperations.FileOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java

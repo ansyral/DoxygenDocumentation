@@ -27,6 +27,9 @@ items:
   summary: <p>Swagger collection format to use for joining <ref refid="" kindref="compound">java.util.List</ref> parameters in paths, queries, and headers. See <ulink url="https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md#fixed-fields-7">https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md#fixed-fields-7</ulink>. </p>
   syntax:
     content: public enum CollectionFormat
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<CollectionFormat>
 - uid: com.microsoft.rest.serializer._collection_format_1a9831a0955680c5336fc6a5e852eb7b74
   id: _collection_format_1a9831a0955680c5336fc6a5e852eb7b74
   parent: com.microsoft.rest.serializer._collection_format
@@ -35,7 +38,7 @@ items:
   - java
   name: CollectionFormat(String delimiter)
   fullName: com.microsoft.rest.serializer.CollectionFormat.CollectionFormat(String delimiter)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/CollectionFormat.java
@@ -56,7 +59,7 @@ items:
   - java
   name: CSV
   fullName: com.microsoft.rest.serializer.CollectionFormat.CSV
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/CollectionFormat.java
@@ -93,7 +96,7 @@ items:
   - java
   name: MULTI
   fullName: com.microsoft.rest.serializer.CollectionFormat.MULTI
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/CollectionFormat.java
@@ -110,7 +113,7 @@ items:
   - java
   name: PIPES
   fullName: com.microsoft.rest.serializer.CollectionFormat.PIPES
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/CollectionFormat.java
@@ -127,7 +130,7 @@ items:
   - java
   name: SSV
   fullName: com.microsoft.rest.serializer.CollectionFormat.SSV
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/CollectionFormat.java
@@ -144,7 +147,7 @@ items:
   - java
   name: TSV
   fullName: com.microsoft.rest.serializer.CollectionFormat.TSV
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/CollectionFormat.java

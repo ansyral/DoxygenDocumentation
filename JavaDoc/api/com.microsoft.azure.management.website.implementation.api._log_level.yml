@@ -28,6 +28,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._log_level" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum LogLevel
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<LogLevel>
 - uid: com.microsoft.azure.management.website.implementation.api._log_level_1aa27a9c037f34839fad52f742687d2cff
   id: _log_level_1aa27a9c037f34839fad52f742687d2cff
   parent: com.microsoft.azure.management.website.implementation.api._log_level
@@ -36,7 +39,7 @@ items:
   - java
   name: ERROR
   fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.ERROR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
@@ -80,7 +83,7 @@ items:
   - java
   name: INFORMATION
   fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.INFORMATION
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
@@ -97,7 +100,7 @@ items:
   - java
   name: LogLevel(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.LogLevel(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
@@ -116,7 +119,7 @@ items:
   - java
   name: OFF
   fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.OFF
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
@@ -151,7 +154,7 @@ items:
   - java
   name: VERBOSE
   fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.VERBOSE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java
@@ -168,7 +171,7 @@ items:
   - java
   name: WARNING
   fullName: com.microsoft.azure.management.website.implementation.api.LogLevel.WARNING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/LogLevel.java

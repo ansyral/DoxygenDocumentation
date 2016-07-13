@@ -36,6 +36,7 @@ items:
   syntax: &o1
     content: public class SubscriptionClientImpl
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._azure_service_client
   inheritedMembers:
   - com.microsoft.azure._azure_service_client_1ab88d970f32ab62431f4c525404f38580
@@ -180,7 +181,7 @@ items:
   - java
   name: SubscriptionClientImpl(RestClient restClient)
   fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionClientImpl.SubscriptionClientImpl(RestClient restClient)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionClientImpl.java
@@ -204,7 +205,7 @@ items:
   - java
   name: SubscriptionClientImpl(ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionClientImpl.SubscriptionClientImpl(ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionClientImpl.java
@@ -228,7 +229,7 @@ items:
   - java
   name: SubscriptionClientImpl(String baseUrl, ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionClientImpl.SubscriptionClientImpl(String baseUrl, ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/SubscriptionClientImpl.java
@@ -409,7 +410,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(String baseUrl)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(String baseUrl)
-  type: Method
+  type: Constructor
   syntax:
     content: protected AzureServiceClient(String baseUrl)
     parameters:
@@ -420,7 +421,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(RestClient restClient)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(RestClient restClient)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceClient class.</p>
 

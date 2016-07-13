@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._certificate_store_location" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum CertificateStoreLocation
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<CertificateStoreLocation>
 - uid: com.microsoft.azure.batch.protocol.models._certificate_store_location_1a0918b74ebe2a5d00a4821350be584aad
   id: _certificate_store_location_1a0918b74ebe2a5d00a4821350be584aad
   parent: com.microsoft.azure.batch.protocol.models._certificate_store_location
@@ -34,7 +37,7 @@ items:
   - java
   name: CertificateStoreLocation(String value)
   fullName: com.microsoft.azure.batch.protocol.models.CertificateStoreLocation.CertificateStoreLocation(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateStoreLocation.java
@@ -53,7 +56,7 @@ items:
   - java
   name: CURRENTUSER
   fullName: com.microsoft.azure.batch.protocol.models.CertificateStoreLocation.CURRENTUSER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateStoreLocation.java
@@ -97,7 +100,7 @@ items:
   - java
   name: LOCALMACHINE
   fullName: com.microsoft.azure.batch.protocol.models.CertificateStoreLocation.LOCALMACHINE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateStoreLocation.java
@@ -132,7 +135,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.CertificateStoreLocation.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateStoreLocation.java

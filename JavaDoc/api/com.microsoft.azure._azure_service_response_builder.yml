@@ -9,8 +9,8 @@ items:
   href: com.microsoft.azure._azure_service_response_builder.yml
   langs:
   - java
-  name: AzureServiceResponseBuilder
-  fullName: com.microsoft.azure.AzureServiceResponseBuilder
+  name: AzureServiceResponseBuilder<T,E>
+  fullName: com.microsoft.azure.AzureServiceResponseBuilder<T,E>
   type: Class
   source:
     remote: &o0
@@ -32,6 +32,7 @@ items:
     - type: 0ca03e3a
       description: <p>the exception to throw in case of error. </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.rest._service_response_builder
   inheritedMembers:
   - com.microsoft.rest._service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
@@ -54,7 +55,7 @@ items:
   - java
   name: AzureServiceResponseBuilder(JacksonMapperAdapter deserializer)
   fullName: com.microsoft.azure.AzureServiceResponseBuilder< T, E extends RestException >.AzureServiceResponseBuilder(JacksonMapperAdapter deserializer)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceResponseBuilder.java
@@ -78,7 +79,7 @@ items:
   - java
   name: AzureServiceResponseBuilder(JacksonMapperAdapter deserializer, Map< Integer, Type > responseTypes)
   fullName: com.microsoft.azure.AzureServiceResponseBuilder< T, E extends RestException >.AzureServiceResponseBuilder(JacksonMapperAdapter deserializer, Map< Integer, Type > responseTypes)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceResponseBuilder.java
@@ -138,8 +139,8 @@ references:
 - uid: com.microsoft.rest._service_response34132889
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
@@ -332,7 +333,7 @@ references:
   href: com.microsoft.rest._service_response_builder.yml
   name: ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter)
   fullName: com.microsoft.rest.ServiceResponseBuilder< T, E extends RestException >.ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Create a <xref href="com.microsoft.rest._service_response_builder" data-throw-if-not-resolved="false"></xref> instance.</p>
 
@@ -348,7 +349,7 @@ references:
   href: com.microsoft.rest._service_response_builder.yml
   name: ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter, Map< Integer, Type > responseTypes)
   fullName: com.microsoft.rest.ServiceResponseBuilder< T, E extends RestException >.ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter, Map< Integer, Type > responseTypes)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Create a <xref href="com.microsoft.rest._service_response_builder" data-throw-if-not-resolved="false"></xref> instance.</p>
 
@@ -365,8 +366,8 @@ references:
 - uid: com.microsoft.rest._service_response_builder
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_builder.yml
-  name: ServiceResponseBuilder
-  fullName: com.microsoft.rest.ServiceResponseBuilder
+  name: ServiceResponseBuilder<T,E>
+  fullName: com.microsoft.rest.ServiceResponseBuilder<T,E>
   type: Class
   summary: >-
     <p>The builder for building a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref>.</p>
@@ -400,8 +401,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>

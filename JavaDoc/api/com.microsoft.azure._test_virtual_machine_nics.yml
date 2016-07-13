@@ -24,6 +24,7 @@ items:
   syntax:
     content: public class TestVirtualMachineNics
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._test_template
   inheritedMembers:
   - com.microsoft.azure._test_template_1a684d4c90f454f54c9c2d28567b18da16
@@ -82,7 +83,7 @@ items:
   - java
   name: TestVirtualMachineNics(ResourceGroups resourceGroups, Networks networks, NetworkInterfaces networkInterfaces)
   fullName: com.microsoft.azure.TestVirtualMachineNics.TestVirtualMachineNics(ResourceGroups resourceGroups, Networks networks, NetworkInterfaces networkInterfaces)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineNics.java
@@ -237,8 +238,8 @@ references:
 - uid: com.microsoft.azure._test_template
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_template.yml
-  name: TestTemplate
-  fullName: com.microsoft.azure.TestTemplate
+  name: TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+  fullName: com.microsoft.azure.TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
   type: Class
   summary: <p>Base class for CRUD test cases for top level <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource models. </p>
   syntax:

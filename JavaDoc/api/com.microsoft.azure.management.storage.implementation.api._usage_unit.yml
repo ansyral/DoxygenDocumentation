@@ -29,6 +29,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._usage_unit" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum UsageUnit
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<UsageUnit>
 - uid: com.microsoft.azure.management.storage.implementation.api._usage_unit_1a40b9cc93fe9a6a25a3b06adce595e3a7
   id: _usage_unit_1a40b9cc93fe9a6a25a3b06adce595e3a7
   parent: com.microsoft.azure.management.storage.implementation.api._usage_unit
@@ -37,7 +40,7 @@ items:
   - java
   name: BYTES
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.BYTES
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java
@@ -54,7 +57,7 @@ items:
   - java
   name: BYTES_PER_SECOND
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.BYTES_PER_SECOND
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java
@@ -71,7 +74,7 @@ items:
   - java
   name: COUNT
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.COUNT
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java
@@ -88,7 +91,7 @@ items:
   - java
   name: COUNTS_PER_SECOND
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.COUNTS_PER_SECOND
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java
@@ -132,7 +135,7 @@ items:
   - java
   name: PERCENT
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.PERCENT
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java
@@ -149,7 +152,7 @@ items:
   - java
   name: SECONDS
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.SECONDS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java
@@ -184,7 +187,7 @@ items:
   - java
   name: UsageUnit(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit.UsageUnit(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/UsageUnit.java

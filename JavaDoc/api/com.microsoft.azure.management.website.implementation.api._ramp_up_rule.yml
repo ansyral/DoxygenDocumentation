@@ -36,6 +36,8 @@ items:
   summary: <p>Routing rules for ramp up testing. This rule allows to redirect static traffic % to a slot or to gradually change routing % based on performance. </p>
   syntax: &o1
     content: public class RampUpRule
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._ramp_up_rule_1a9510ed90d4d393892678871125ba09b5
   id: _ramp_up_rule_1a9510ed90d4d393892678871125ba09b5
   parent: com.microsoft.azure.management.website.implementation.api._ramp_up_rule

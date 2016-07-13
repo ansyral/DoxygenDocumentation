@@ -47,6 +47,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.resources._resource_groups" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public class ResourceGroupsInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner_1a69b25b8e9a44157463ff1464110413ec
   id: _resource_groups_inner_1a69b25b8e9a44157463ff1464110413ec
   parent: com.microsoft.azure.management.resources.implementation.api._resource_groups_inner
@@ -967,7 +969,7 @@ items:
   - java
   name: ResourceGroupsInner(Retrofit retrofit, ResourceManagementClientImpl client)
   fullName: com.microsoft.azure.management.resources.implementation.api.ResourceGroupsInner.ResourceGroupsInner(Retrofit retrofit, ResourceManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/ResourceGroupsInner.java
@@ -1006,14 +1008,14 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
   - uid: com.microsoft.azure._paged_list
-    name: PagedList
-    fullName: com.microsoft.azure.PagedList
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
     href: com.microsoft.azure._paged_list.yml
   - name: '< '
     fullName: '< '
@@ -1028,8 +1030,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.azure._list_operation_callback
-    name: ListOperationCallback
-    fullName: com.microsoft.azure.ListOperationCallback
+    name: ListOperationCallback<E>
+    fullName: com.microsoft.azure.ListOperationCallback<E>
     href: com.microsoft.azure._list_operation_callback.yml
   - name: '< '
     fullName: '< '
@@ -1050,8 +1052,8 @@ references:
 - uid: com.microsoft.rest._service_response3b398340
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < Boolean >
     fullName: < Boolean >
@@ -1060,16 +1062,16 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Boolean >
     fullName: < Boolean >
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1084,8 +1086,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1102,8 +1104,8 @@ references:
 - uid: com.microsoft.rest._service_responsee35e5465
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < Void >
     fullName: < Void >
@@ -1112,16 +1114,16 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_export_result_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -1136,8 +1138,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -1150,14 +1152,14 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
   - uid: com.microsoft.azure._paged_list
-    name: PagedList
-    fullName: com.microsoft.azure.PagedList
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
     href: com.microsoft.azure._paged_list.yml
   - name: '< '
     fullName: '< '
@@ -1172,8 +1174,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.azure._list_operation_callback
-    name: ListOperationCallback
-    fullName: com.microsoft.azure.ListOperationCallback
+    name: ListOperationCallback<E>
+    fullName: com.microsoft.azure.ListOperationCallback<E>
     href: com.microsoft.azure._list_operation_callback.yml
   - name: '< '
     fullName: '< '
@@ -1186,14 +1188,14 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl151dc42ccom.microsoft.azure.management.resources.implementation.api._generic_resource_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
   - uid: com.microsoft.azure.management.resources.implementation.api._page_impl
-    name: PageImpl
-    fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+    name: PageImpl<T>
+    fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl<T>
     href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
   - name: '< '
     fullName: '< '
@@ -1214,14 +1216,14 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.resources.implementation.api._page_impl151dc42ccom.microsoft.azure.management.resources.implementation.api._resource_group_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
   - uid: com.microsoft.azure.management.resources.implementation.api._page_impl
-    name: PageImpl
-    fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+    name: PageImpl<T>
+    fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl<T>
     href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
   - name: '< '
     fullName: '< '
@@ -1251,8 +1253,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -1266,8 +1268,8 @@ references:
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
-  name: PagedList
-  fullName: com.microsoft.azure.PagedList
+  name: PagedList<E>
+  fullName: com.microsoft.azure.PagedList<E>
   type: Class
   summary: >-
     <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
@@ -1311,8 +1313,8 @@ references:
 - uid: com.microsoft.azure._list_operation_callback
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback.yml
-  name: ListOperationCallback
-  fullName: com.microsoft.azure.ListOperationCallback
+  name: ListOperationCallback<E>
+  fullName: com.microsoft.azure.ListOperationCallback<E>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous list operations.</p>
@@ -1326,8 +1328,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -1380,8 +1382,8 @@ references:
 - uid: com.microsoft.azure.management.resources.implementation.api._page_impl
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._page_impl.yml
-  name: PageImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl
+  name: PageImpl<T>
+  fullName: com.microsoft.azure.management.resources.implementation.api.PageImpl<T>
   type: Class
   summary: >-
     <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>

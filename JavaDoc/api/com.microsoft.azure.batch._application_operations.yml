@@ -27,6 +27,7 @@ items:
   syntax:
     content: public class ApplicationOperations
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
 - uid: com.microsoft.azure.batch._application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
   id: _application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
@@ -36,7 +37,7 @@ items:
   - java
   name: ApplicationOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
   fullName: com.microsoft.azure.batch.ApplicationOperations.ApplicationOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java

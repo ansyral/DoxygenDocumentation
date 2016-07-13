@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._managed_pipeline_mode" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum ManagedPipelineMode
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ManagedPipelineMode>
 - uid: com.microsoft.azure.management.website.implementation.api._managed_pipeline_mode_1aacb7bfa07cd2ceb30023d72c28076c14
   id: _managed_pipeline_mode_1aacb7bfa07cd2ceb30023d72c28076c14
   parent: com.microsoft.azure.management.website.implementation.api._managed_pipeline_mode
@@ -33,7 +36,7 @@ items:
   - java
   name: CLASSIC
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedPipelineMode.CLASSIC
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedPipelineMode.java
@@ -77,7 +80,7 @@ items:
   - java
   name: INTEGRATED
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedPipelineMode.INTEGRATED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedPipelineMode.java
@@ -94,7 +97,7 @@ items:
   - java
   name: ManagedPipelineMode(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedPipelineMode.ManagedPipelineMode(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedPipelineMode.java

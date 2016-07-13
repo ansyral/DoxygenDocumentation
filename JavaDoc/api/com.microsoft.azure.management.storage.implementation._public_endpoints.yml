@@ -23,6 +23,8 @@ items:
   summary: <p>An instance of this class stores the The URIs associated with a storage account that are used to perform a retrieval of a public blob, queue or table object. </p>
   syntax: &o1
     content: public class PublicEndpoints
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.storage.implementation._public_endpoints_1a7c172550c15af2311f58cb617941cece
   id: _public_endpoints_1a7c172550c15af2311f58cb617941cece
   parent: com.microsoft.azure.management.storage.implementation._public_endpoints
@@ -50,7 +52,7 @@ items:
   - java
   name: PublicEndpoints(Endpoints primary, Endpoints secondary)
   fullName: com.microsoft.azure.management.storage.implementation.PublicEndpoints.PublicEndpoints(Endpoints primary, Endpoints secondary)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/PublicEndpoints.java

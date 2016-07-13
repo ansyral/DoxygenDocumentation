@@ -16,8 +16,8 @@ items:
   href: com.microsoft.azure._task_group_base.yml
   langs:
   - java
-  name: TaskGroupBase
-  fullName: com.microsoft.azure.TaskGroupBase
+  name: TaskGroupBase<T>
+  fullName: com.microsoft.azure.TaskGroupBase<T>
   type: Class
   source:
     remote: &o0
@@ -37,6 +37,7 @@ items:
     - type: 8ce1ecb9
       description: <p>the result type of the tasks in the group </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._task_group
   inheritedMembers:
   - com.microsoft.azure._task_group_1a617468190e15bdc0b3e72e7f6dfd6545
@@ -220,7 +221,7 @@ items:
   - java
   name: TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
   fullName: com.microsoft.azure.TaskGroupBase< T >.TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
@@ -272,34 +273,34 @@ references:
 - uid: com.microsoft.azure._task_item34132889
   spec.java:
   - uid: com.microsoft.azure._task_item
-    name: TaskItem
-    fullName: com.microsoft.azure.TaskItem
+    name: TaskItem<U>
+    fullName: com.microsoft.azure.TaskItem<U>
     href: com.microsoft.azure._task_item.yml
   - name: < T >
     fullName: < T >
 - uid: com.microsoft.azure._d_a_graph151dc42ccom.microsoft.azure._task_itemd9e5dffccom.microsoft.azure._d_a_g_node151dc42ccom.microsoft.azure._task_item058a8955
   spec.java:
   - uid: com.microsoft.azure._d_a_graph
-    name: DAGraph
-    fullName: com.microsoft.azure.DAGraph
+    name: DAGraph<T,U>
+    fullName: com.microsoft.azure.DAGraph<T,U>
     href: com.microsoft.azure._d_a_graph.yml
   - name: '< '
     fullName: '< '
   - uid: com.microsoft.azure._task_item
-    name: TaskItem
-    fullName: com.microsoft.azure.TaskItem
+    name: TaskItem<U>
+    fullName: com.microsoft.azure.TaskItem<U>
     href: com.microsoft.azure._task_item.yml
   - name: '< T >, '
     fullName: '< T >, '
   - uid: com.microsoft.azure._d_a_g_node
-    name: DAGNode
-    fullName: com.microsoft.azure.DAGNode
+    name: DAGNode<T>
+    fullName: com.microsoft.azure.DAGNode<T>
     href: com.microsoft.azure._d_a_g_node.yml
   - name: '< '
     fullName: '< '
   - uid: com.microsoft.azure._task_item
-    name: TaskItem
-    fullName: com.microsoft.azure.TaskItem
+    name: TaskItem<U>
+    fullName: com.microsoft.azure.TaskItem<U>
     href: com.microsoft.azure._task_item.yml
   - name: < T > > >
     fullName: < T > > >
@@ -310,14 +311,14 @@ references:
 - uid: com.microsoft.azure._task_group8c65604fcom.microsoft.azure._task_iteme9c5ed17
   spec.java:
   - uid: com.microsoft.azure._task_group
-    name: TaskGroup
-    fullName: com.microsoft.azure.TaskGroup
+    name: TaskGroup<T,U>
+    fullName: com.microsoft.azure.TaskGroup<T,U>
     href: com.microsoft.azure._task_group.yml
   - name: '< T, '
     fullName: '< T, '
   - uid: com.microsoft.azure._task_item
-    name: TaskItem
-    fullName: com.microsoft.azure.TaskItem
+    name: TaskItem<U>
+    fullName: com.microsoft.azure.TaskItem<U>
     href: com.microsoft.azure._task_item.yml
   - name: < T >>
     fullName: < T >>
@@ -326,8 +327,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
@@ -342,8 +343,8 @@ references:
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
@@ -395,8 +396,8 @@ references:
 - uid: com.microsoft.azure._task_group
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_group.yml
-  name: TaskGroup
-  fullName: com.microsoft.azure.TaskGroup
+  name: TaskGroup<T,U>
+  fullName: com.microsoft.azure.TaskGroup<T,U>
   type: Interface
   summary: >-
     <p>Represents a group of related tasks. </p>
@@ -423,8 +424,8 @@ references:
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
-  name: DAGraph
-  fullName: com.microsoft.azure.DAGraph
+  name: DAGraph<T,U>
+  fullName: com.microsoft.azure.DAGraph<T,U>
   type: Class
   summary: >-
     <p>Type representing a DAG (directed acyclic graph). </p>
@@ -442,8 +443,8 @@ references:
 - uid: com.microsoft.azure._task_item
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_item.yml
-  name: TaskItem
-  fullName: com.microsoft.azure.TaskItem
+  name: TaskItem<U>
+  fullName: com.microsoft.azure.TaskItem<U>
   type: Interface
   summary: >-
     <p>Type representing a task in a task group <xref href="com.microsoft.azure._task_group" data-throw-if-not-resolved="false"></xref>.</p>
@@ -457,8 +458,8 @@ references:
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
-  name: DAGNode
-  fullName: com.microsoft.azure.DAGNode
+  name: DAGNode<T>
+  fullName: com.microsoft.azure.DAGNode<T>
   type: Class
   summary: >-
     <p>The type representing node in a <xref href="com.microsoft.azure._d_a_graph" data-throw-if-not-resolved="false"></xref>.</p>
@@ -472,8 +473,8 @@ references:
 - uid: com.microsoft.azure._task_group_base
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_group_base.yml
-  name: TaskGroupBase
-  fullName: com.microsoft.azure.TaskGroupBase
+  name: TaskGroupBase<T>
+  fullName: com.microsoft.azure.TaskGroupBase<T>
   type: Class
   summary: >-
     <p>The base implementation of <xref href="com.microsoft.azure._task_group" data-throw-if-not-resolved="false"></xref> interface.</p>
@@ -492,8 +493,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

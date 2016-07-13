@@ -37,6 +37,7 @@ items:
   syntax: &o1
     content: public class DataLakeStoreAccountManagementClientImpl
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._azure_service_client
   inheritedMembers:
   - com.microsoft.azure._azure_service_client_1ab88d970f32ab62431f4c525404f38580
@@ -123,7 +124,7 @@ items:
   - java
   name: DataLakeStoreAccountManagementClientImpl(RestClient restClient)
   fullName: com.microsoft.azure.management.datalake.store.implementation.DataLakeStoreAccountManagementClientImpl.DataLakeStoreAccountManagementClientImpl(RestClient restClient)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/DataLakeStoreAccountManagementClientImpl.java
@@ -147,7 +148,7 @@ items:
   - java
   name: DataLakeStoreAccountManagementClientImpl(ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.management.datalake.store.implementation.DataLakeStoreAccountManagementClientImpl.DataLakeStoreAccountManagementClientImpl(ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/DataLakeStoreAccountManagementClientImpl.java
@@ -171,7 +172,7 @@ items:
   - java
   name: DataLakeStoreAccountManagementClientImpl(String baseUrl, ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.management.datalake.store.implementation.DataLakeStoreAccountManagementClientImpl.DataLakeStoreAccountManagementClientImpl(String baseUrl, ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/DataLakeStoreAccountManagementClientImpl.java
@@ -453,7 +454,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(String baseUrl)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(String baseUrl)
-  type: Method
+  type: Constructor
   syntax:
     content: protected AzureServiceClient(String baseUrl)
     parameters:
@@ -464,7 +465,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(RestClient restClient)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(RestClient restClient)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceClient class.</p>
 

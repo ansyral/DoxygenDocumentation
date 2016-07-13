@@ -25,6 +25,7 @@ items:
   syntax: &o1
     content: public class UserAgentInterceptor
   inheritance:
+  - java.lang.Object
   - Interceptor
 - uid: com.microsoft.rest._user_agent_interceptor_1a92b9abc7c52071807590445e460b89f3
   id: _user_agent_interceptor_1a92b9abc7c52071807590445e460b89f3
@@ -82,7 +83,7 @@ items:
   - java
   name: UserAgentInterceptor()
   fullName: com.microsoft.rest.UserAgentInterceptor.UserAgentInterceptor()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/UserAgentInterceptor.java

@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._protocol_types" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum ProtocolTypes
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ProtocolTypes>
 - uid: com.microsoft.azure.management.compute.implementation.api._protocol_types_1af196f95669ee8f485ed5acdad0e7d88d
   id: _protocol_types_1af196f95669ee8f485ed5acdad0e7d88d
   parent: com.microsoft.azure.management.compute.implementation.api._protocol_types
@@ -60,7 +63,7 @@ items:
   - java
   name: HTTP
   fullName: com.microsoft.azure.management.compute.implementation.api.ProtocolTypes.HTTP
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ProtocolTypes.java
@@ -77,7 +80,7 @@ items:
   - java
   name: HTTPS
   fullName: com.microsoft.azure.management.compute.implementation.api.ProtocolTypes.HTTPS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ProtocolTypes.java
@@ -94,7 +97,7 @@ items:
   - java
   name: ProtocolTypes(String value)
   fullName: com.microsoft.azure.management.compute.implementation.api.ProtocolTypes.ProtocolTypes(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ProtocolTypes.java

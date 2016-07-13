@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._scheduling_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SchedulingState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SchedulingState>
 - uid: com.microsoft.azure.batch.protocol.models._scheduling_state_1a523e51d8e970e465d02e078c4b429afc
   id: _scheduling_state_1a523e51d8e970e465d02e078c4b429afc
   parent: com.microsoft.azure.batch.protocol.models._scheduling_state
@@ -33,7 +36,7 @@ items:
   - java
   name: DISABLED
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingState.DISABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingState.java
@@ -50,7 +53,7 @@ items:
   - java
   name: ENABLED
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingState.ENABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingState.java
@@ -94,7 +97,7 @@ items:
   - java
   name: SchedulingState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingState.SchedulingState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingState.java

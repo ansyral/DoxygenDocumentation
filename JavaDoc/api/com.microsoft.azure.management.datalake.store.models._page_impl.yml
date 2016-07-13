@@ -10,8 +10,8 @@ items:
   href: com.microsoft.azure.management.datalake.store.models._page_impl.yml
   langs:
   - java
-  name: PageImpl
-  fullName: com.microsoft.azure.management.datalake.store.models.PageImpl
+  name: PageImpl<T>
+  fullName: com.microsoft.azure.management.datalake.store.models.PageImpl<T>
   type: Class
   source:
     remote: &o0
@@ -31,6 +31,7 @@ items:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._page
 - uid: com.microsoft.azure.management.datalake.store.models._page_impl_1a6aed570b29eab0d7d0d70a4e552a2c0a
   id: _page_impl_1a6aed570b29eab0d7d0d70a4e552a2c0a
@@ -150,16 +151,16 @@ references:
 - uid: com.microsoft.azure.management.datalake.store.models._page_impl34132889
   spec.java:
   - uid: com.microsoft.azure.management.datalake.store.models._page_impl
-    name: PageImpl
-    fullName: com.microsoft.azure.management.datalake.store.models.PageImpl
+    name: PageImpl<T>
+    fullName: com.microsoft.azure.management.datalake.store.models.PageImpl<T>
     href: com.microsoft.azure.management.datalake.store.models._page_impl.yml
   - name: < T >
     fullName: < T >
 - uid: com.microsoft.azure._page
   parent: com.microsoft.azure
   href: com.microsoft.azure._page.yml
-  name: Page
-  fullName: com.microsoft.azure.Page
+  name: Page<E>
+  fullName: com.microsoft.azure.Page<E>
   type: Interface
   summary: >-
     <p>Defines a page interface in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> responses.</p>
@@ -203,8 +204,8 @@ references:
 - uid: com.microsoft.azure.management.datalake.store.models._page_impl
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._page_impl.yml
-  name: PageImpl
-  fullName: com.microsoft.azure.management.datalake.store.models.PageImpl
+  name: PageImpl<T>
+  fullName: com.microsoft.azure.management.datalake.store.models.PageImpl<T>
   type: Class
   summary: >-
     <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>

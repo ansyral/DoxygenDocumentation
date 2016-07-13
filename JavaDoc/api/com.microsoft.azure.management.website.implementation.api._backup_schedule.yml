@@ -32,6 +32,8 @@ items:
   summary: <p>Description of a backup schedule. Describes how often should be the backup performed and what should be the retention policy. </p>
   syntax: &o1
     content: public class BackupSchedule
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._backup_schedule_1a0d32116f6195c3b0760eebfc817cb4c1
   id: _backup_schedule_1a0d32116f6195c3b0760eebfc817cb4c1
   parent: com.microsoft.azure.management.website.implementation.api._backup_schedule

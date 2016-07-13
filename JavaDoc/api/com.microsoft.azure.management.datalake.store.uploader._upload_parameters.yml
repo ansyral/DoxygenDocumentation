@@ -38,6 +38,8 @@ items:
   summary: <p>Represents parameters for the DataLake Uploader. </p>
   syntax:
     content: public class UploadParameters
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_parameters_1ab143b28be540752a4578ca3dbc91734d
   id: _upload_parameters_1ab143b28be540752a4578ca3dbc91734d
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_parameters
@@ -358,7 +360,7 @@ items:
   - java
   name: UploadParameters(String inputFilePath, String targetStreamPath, String accountName)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadParameters.UploadParameters(String inputFilePath, String targetStreamPath, String accountName)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadParameters.java
@@ -388,7 +390,7 @@ items:
   - java
   name: UploadParameters(String inputFilePath, String targetStreamPath, String accountName, boolean useSegmentBlockBackOffRetryStrategy, int threadCount, boolean isOverwrite, boolean isResume, boolean isBinary, long maxSegmentLength, String localMetadataLocation)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadParameters.UploadParameters(String inputFilePath, String targetStreamPath, String accountName, boolean useSegmentBlockBackOffRetryStrategy, int threadCount, boolean isOverwrite, boolean isResume, boolean isBinary, long maxSegmentLength, String localMetadataLocation)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadParameters.java
@@ -439,7 +441,7 @@ items:
   - java
   name: UploadParameters(String inputFilePath, String targetStreamPath, String accountName, int threadCount, boolean isOverwrite, boolean isResume)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadParameters.UploadParameters(String inputFilePath, String targetStreamPath, String accountName, int threadCount, boolean isOverwrite, boolean isResume)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadParameters.java
@@ -478,7 +480,7 @@ items:
   - java
   name: UploadParameters(String inputFilePath, String targetStreamPath, String accountName, int threadCount, boolean isOverwrite, boolean isResume, boolean isBinary, long maxSegmentLength, String localMetadataLocation)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadParameters.UploadParameters(String inputFilePath, String targetStreamPath, String accountName, int threadCount, boolean isOverwrite, boolean isResume, boolean isBinary, long maxSegmentLength, String localMetadataLocation)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadParameters.java
@@ -526,7 +528,7 @@ items:
   - java
   name: UploadParameters(String inputFilePath, String targetStreamPath, String accountName, int threadCount, boolean isOverwrite, boolean isResume, String localMetadataLocation)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadParameters.UploadParameters(String inputFilePath, String targetStreamPath, String accountName, int threadCount, boolean isOverwrite, boolean isResume, String localMetadataLocation)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadParameters.java

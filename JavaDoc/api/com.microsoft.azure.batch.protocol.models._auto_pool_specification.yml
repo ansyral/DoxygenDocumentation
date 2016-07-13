@@ -28,6 +28,8 @@ items:
   summary: <p>Specifies characteristics for a temporary 'auto pool'. The Batch service will create this auto pool, run all the tasks for the job on it, and will delete the pool once the job has completed. </p>
   syntax: &o1
     content: public class AutoPoolSpecification
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.batch.protocol.models._auto_pool_specification_1ae04a4559dcf99daa40981a48df02aa33
   id: _auto_pool_specification_1ae04a4559dcf99daa40981a48df02aa33
   parent: com.microsoft.azure.batch.protocol.models._auto_pool_specification

@@ -20,8 +20,8 @@ items:
   href: com.microsoft.azure._polling_state.yml
   langs:
   - java
-  name: PollingState
-  fullName: com.microsoft.azure.PollingState
+  name: PollingState<T>
+  fullName: com.microsoft.azure.PollingState<T>
   type: Class
   source:
     remote: &o0
@@ -40,6 +40,8 @@ items:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the resource the operation returns. </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._polling_state_1a0a38daea037189c15d5d78fccb770c9e
   id: _polling_state_1a0a38daea037189c15d5d78fccb770c9e
   parent: com.microsoft.azure._polling_state
@@ -209,7 +211,7 @@ items:
   - java
   name: PollingState(Response< ResponseBody > response, Integer retryTimeout, Type resourceType, JacksonMapperAdapter mapperAdapter)
   fullName: com.microsoft.azure.PollingState< T >.PollingState(Response< ResponseBody > response, Integer retryTimeout, Type resourceType, JacksonMapperAdapter mapperAdapter)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/PollingState.java
@@ -446,8 +448,8 @@ references:
 - uid: com.microsoft.azure._polling_state
   parent: com.microsoft.azure
   href: com.microsoft.azure._polling_state.yml
-  name: PollingState
-  fullName: com.microsoft.azure.PollingState
+  name: PollingState<T>
+  fullName: com.microsoft.azure.PollingState<T>
   type: Class
   summary: >-
     <p>An instance of this class defines the state of a long running operation.</p>

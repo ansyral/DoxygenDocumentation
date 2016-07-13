@@ -74,6 +74,7 @@ items:
   syntax:
     content: public class PoolOperations
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
 - uid: com.microsoft.azure.batch._pool_operations_1a74f41c5e4817962985354319f2249b0d
   id: _pool_operations_1a74f41c5e4817962985354319f2249b0d
@@ -943,7 +944,7 @@ items:
   - java
   name: PoolOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
   fullName: com.microsoft.azure.batch.PoolOperations.PoolOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/PoolOperations.java

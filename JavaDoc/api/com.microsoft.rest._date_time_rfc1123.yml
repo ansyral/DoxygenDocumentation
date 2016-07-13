@@ -26,6 +26,8 @@ items:
   summary: <p>Simple wrapper over joda.time.DateTime used for specifying RFC1123 format during serialization/deserialization. </p>
   syntax: &o1
     content: public class DateTimeRfc1123
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.rest._date_time_rfc1123_1adc57058ff2930fdbba6e5349a1a48cdd
   id: _date_time_rfc1123_1adc57058ff2930fdbba6e5349a1a48cdd
   parent: com.microsoft.rest._date_time_rfc1123
@@ -34,7 +36,7 @@ items:
   - java
   name: DateTimeRfc1123(DateTime dateTime)
   fullName: com.microsoft.rest.DateTimeRfc1123.DateTimeRfc1123(DateTime dateTime)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/DateTimeRfc1123.java
@@ -55,7 +57,7 @@ items:
   - java
   name: DateTimeRfc1123(String formattedString)
   fullName: com.microsoft.rest.DateTimeRfc1123.DateTimeRfc1123(String formattedString)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/DateTimeRfc1123.java

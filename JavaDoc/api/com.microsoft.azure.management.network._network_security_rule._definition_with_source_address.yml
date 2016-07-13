@@ -8,8 +8,8 @@ items:
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
   langs:
   - java
-  name: NetworkSecurityRule.DefinitionWithSourceAddress
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress
+  name: NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>
   type: Interface
   source:
     remote: &o0
@@ -81,16 +81,16 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_porta6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
-    name: NetworkSecurityRule.DefinitionWithSourcePort
-    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort
+    name: NetworkSecurityRule.DefinitionWithSourcePort<ParentT>
+    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort<ParentT>
     href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
   - name: < ParentT >
     fullName: < ParentT >
 - uid: com.microsoft.azure.management.network._network_security_rule._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
-  name: NetworkSecurityRule.Definitions
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  name: NetworkSecurityRule.Definitions<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions<ParentT>
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
@@ -101,8 +101,8 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_port.yml
-  name: NetworkSecurityRule.DefinitionWithSourcePort
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort
+  name: NetworkSecurityRule.DefinitionWithSourcePort<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourcePort<ParentT>
   type: Interface
   summary: <p>The stage of the network rule definition allowing the source port(s) to be specified. </p>
   syntax:

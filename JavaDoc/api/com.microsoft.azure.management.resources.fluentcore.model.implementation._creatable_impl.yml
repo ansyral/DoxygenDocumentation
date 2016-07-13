@@ -17,8 +17,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
   langs:
   - java
-  name: CreatableImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl
+  name: CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
   type: Class
   source:
     remote: &o0
@@ -42,6 +42,7 @@ items:
     - type: 664a96a9
       description: <p>the fluent model implementation type </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533
   - com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa
   inheritedMembers:
@@ -82,7 +83,7 @@ items:
   - java
   name: CreatableImpl(String name, InnerModelT innerObject)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.CreatableImpl(String name, InnerModelT innerObject)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatableImpl.java
@@ -319,16 +320,16 @@ references:
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable7e6ad1eb
   spec.java:
   - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
-    name: Creatable
-    fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable
+    name: Creatable<T>
+    fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
     href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
   - name: <?>
     fullName: <?>
@@ -347,8 +348,8 @@ references:
 - uid: com.microsoft.rest._service_callbackc11fe87d
   spec.java:
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < FluentModelT >
     fullName: < FluentModelT >
@@ -357,7 +358,7 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533.yml
   name: IndexableRefreshableImpl(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableImpl< T >.IndexableRefreshableImpl(String name)
-  type: Method
+  type: Constructor
   syntax:
     content: protected IndexableRefreshableImpl(String name)
     parameters:
@@ -368,7 +369,7 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa.yml
   name: IndexableRefreshableWrapperImpl(String name, InnerModelT innerObject)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableWrapperImpl< FluentModelT, InnerModelT >.IndexableRefreshableWrapperImpl(String name, InnerModelT innerObject)
-  type: Method
+  type: Constructor
   syntax:
     content: protected IndexableRefreshableWrapperImpl(String name, InnerModelT innerObject)
     parameters:
@@ -421,8 +422,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementatibf78e21cd3329b1b4ecec32d4a7438aa.yml
-  name: IndexableRefreshableWrapperImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableWrapperImpl
+  name: IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
   type: Class
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.model._indexable" data-throw-if-not-resolved="false"></xref>, <xref href="com.microsoft.azure.management.resources.fluentcore.model._refreshable" data-throw-if-not-resolved="false"></xref>, and <xref href="com.microsoft.azure.management.resources.fluentcore.model._wrapper" data-throw-if-not-resolved="false"></xref>.</p>
@@ -441,8 +442,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl.yml
-  name: CreatableUpdatableImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableUpdatableImpl
+  name: CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
   type: Class
   summary: >-
     <p>The base class for all updatable resource.</p>
@@ -478,8 +479,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -493,8 +494,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
-  name: Creatable
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable
+  name: Creatable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
   summary: >-
     <p>The final stage of the resource definition, at which it can be create, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>.</p>

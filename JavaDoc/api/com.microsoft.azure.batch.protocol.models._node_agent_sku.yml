@@ -26,6 +26,8 @@ items:
   summary: <p>A node agent SKU supported by the Batch service. The Batch node agent is a program that runs on each node in the pool, and provides the command-and-control interface between the node and the Batch service. There are different implementations of the node agent, known as SKUs, for different operating systems. </p>
   syntax: &o1
     content: public class NodeAgentSku
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.batch.protocol.models._node_agent_sku_1aa74e81c2f06f96c07c341e66e66f0e16
   id: _node_agent_sku_1aa74e81c2f06f96c07c341e66e66f0e16
   parent: com.microsoft.azure.batch.protocol.models._node_agent_sku

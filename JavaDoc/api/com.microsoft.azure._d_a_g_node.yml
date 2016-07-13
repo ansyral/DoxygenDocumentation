@@ -15,8 +15,8 @@ items:
   href: com.microsoft.azure._d_a_g_node.yml
   langs:
   - java
-  name: DAGNode
-  fullName: com.microsoft.azure.DAGNode
+  name: DAGNode<T>
+  fullName: com.microsoft.azure.DAGNode<T>
   type: Class
   source:
     remote: &o0
@@ -36,6 +36,7 @@ items:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the node </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._node
   inheritedMembers:
   - com.microsoft.azure._node_1a9952d1370c995944aa92f5a3e3af2038
@@ -100,7 +101,7 @@ items:
   - java
   name: DAGNode(String key, T data)
   fullName: com.microsoft.azure.DAGNode< T >.DAGNode(String key, T data)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
@@ -323,7 +324,7 @@ references:
   href: com.microsoft.azure._node.yml
   name: Node(String key, T data)
   fullName: com.microsoft.azure.Node< T >.Node(String key, T data)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Creates a graph node.</p>
 
@@ -340,8 +341,8 @@ references:
 - uid: com.microsoft.azure._node
   parent: com.microsoft.azure
   href: com.microsoft.azure._node.yml
-  name: Node
-  fullName: com.microsoft.azure.Node
+  name: Node<T>
+  fullName: com.microsoft.azure.Node<T>
   type: Class
   summary: >-
     <p>Type represents a node in a <xref href="com.microsoft.azure._graph" data-throw-if-not-resolved="false"></xref>.</p>
@@ -355,8 +356,8 @@ references:
 - uid: com.microsoft.azure._d_a_graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_graph.yml
-  name: DAGraph
-  fullName: com.microsoft.azure.DAGraph
+  name: DAGraph<T,U>
+  fullName: com.microsoft.azure.DAGraph<T,U>
   type: Class
   summary: >-
     <p>Type representing a DAG (directed acyclic graph). </p>

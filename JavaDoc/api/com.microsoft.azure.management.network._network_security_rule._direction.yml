@@ -25,6 +25,9 @@ items:
   summary: <p>The possible directions of the network traffic supported by a network security rule. </p>
   syntax: &o1
     content: public enum Direction
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<NetworkSecurityRule.Direction>
 - uid: com.microsoft.azure.management.network._network_security_rule._direction_1ac0fb7e8ca3436480c5e6b08f9f3a49ae
   id: _direction_1ac0fb7e8ca3436480c5e6b08f9f3a49ae
   parent: com.microsoft.azure.management.network._network_security_rule._direction
@@ -33,7 +36,7 @@ items:
   - java
   name: Direction(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Direction.Direction(String name)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -76,7 +79,7 @@ items:
   - java
   name: INBOUND
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Direction.INBOUND
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
@@ -92,7 +95,7 @@ items:
   - java
   name: OUTBOUND
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Direction.OUTBOUND
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java

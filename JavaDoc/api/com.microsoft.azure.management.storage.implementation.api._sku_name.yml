@@ -28,6 +28,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._sku_name" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SkuName
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SkuName>
 - uid: com.microsoft.azure.management.storage.implementation.api._sku_name_1a67600780c95108f076648f62328a10f8
   id: _sku_name_1a67600780c95108f076648f62328a10f8
   parent: com.microsoft.azure.management.storage.implementation.api._sku_name
@@ -63,7 +66,7 @@ items:
   - java
   name: PREMIUM_LRS
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuName.PREMIUM_LRS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuName.java
@@ -80,7 +83,7 @@ items:
   - java
   name: SkuName(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuName.SkuName(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuName.java
@@ -99,7 +102,7 @@ items:
   - java
   name: STANDARD_GRS
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuName.STANDARD_GRS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuName.java
@@ -116,7 +119,7 @@ items:
   - java
   name: STANDARD_LRS
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuName.STANDARD_LRS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuName.java
@@ -133,7 +136,7 @@ items:
   - java
   name: STANDARD_RAGRS
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuName.STANDARD_RAGRS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuName.java
@@ -150,7 +153,7 @@ items:
   - java
   name: STANDARD_ZRS
   fullName: com.microsoft.azure.management.storage.implementation.api.SkuName.STANDARD_ZRS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/SkuName.java

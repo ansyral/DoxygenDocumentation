@@ -42,6 +42,9 @@ items:
   summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
   syntax: &o1
     content: public enum Region
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<Region>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm._region_1a3c6dd7ed20d28eefd2a7a338257c82d0
   id: _region_1a3c6dd7ed20d28eefd2a7a338257c82d0
   parent: com.microsoft.azure.management.resources.fluentcore.arm._region
@@ -50,7 +53,7 @@ items:
   - java
   name: ASIA_EAST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.ASIA_EAST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -66,7 +69,7 @@ items:
   - java
   name: ASIA_SOUTHEAST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.ASIA_SOUTHEAST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -82,7 +85,7 @@ items:
   - java
   name: AUSTRALIA_EAST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.AUSTRALIA_EAST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -98,7 +101,7 @@ items:
   - java
   name: AUSTRALIA_SOUTHEAST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.AUSTRALIA_SOUTHEAST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -114,7 +117,7 @@ items:
   - java
   name: BRAZIL_SOUTH
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.BRAZIL_SOUTH
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -130,7 +133,7 @@ items:
   - java
   name: EUROPE_NORTH
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.EUROPE_NORTH
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -146,7 +149,7 @@ items:
   - java
   name: EUROPE_WEST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.EUROPE_WEST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -216,7 +219,7 @@ items:
   - java
   name: INDIA_CENTRAL
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.INDIA_CENTRAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -232,7 +235,7 @@ items:
   - java
   name: INDIA_SOUTH
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.INDIA_SOUTH
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -248,7 +251,7 @@ items:
   - java
   name: INDIA_WEST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.INDIA_WEST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -264,7 +267,7 @@ items:
   - java
   name: JAPAN_EAST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.JAPAN_EAST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -280,7 +283,7 @@ items:
   - java
   name: JAPAN_WEST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.JAPAN_WEST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -296,7 +299,7 @@ items:
   - java
   name: Region(String name, String label)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.Region(String name, String label)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -335,7 +338,7 @@ items:
   - java
   name: US_CENTRAL
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.US_CENTRAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -351,7 +354,7 @@ items:
   - java
   name: US_EAST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.US_EAST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -367,7 +370,7 @@ items:
   - java
   name: US_EAST2
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.US_EAST2
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -383,7 +386,7 @@ items:
   - java
   name: US_NORTH_CENTRAL
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.US_NORTH_CENTRAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -399,7 +402,7 @@ items:
   - java
   name: US_SOUTH_CENTRAL
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.US_SOUTH_CENTRAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java
@@ -415,7 +418,7 @@ items:
   - java
   name: US_WEST
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region.US_WEST
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/Region.java

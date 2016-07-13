@@ -24,6 +24,7 @@ items:
   syntax: &o1
     content: public class RetryHandler
   inheritance:
+  - java.lang.Object
   - Interceptor
 - uid: com.microsoft.rest.retry._retry_handler_1a7128dfd7b55196791c34651e7ec4eb68
   id: _retry_handler_1a7128dfd7b55196791c34651e7ec4eb68
@@ -54,7 +55,7 @@ items:
   - java
   name: RetryHandler()
   fullName: com.microsoft.rest.retry.RetryHandler.RetryHandler()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryHandler.java
@@ -71,7 +72,7 @@ items:
   - java
   name: RetryHandler(RetryStrategy retryStrategy)
   fullName: com.microsoft.rest.retry.RetryHandler.RetryHandler(RetryStrategy retryStrategy)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryHandler.java

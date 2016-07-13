@@ -29,6 +29,7 @@ items:
   syntax: &o1
     content: public class ServiceException
   inheritance:
+  - java.lang.Object
   - Exception
   - com.microsoft.rest._rest_exception
   inheritedMembers:
@@ -90,7 +91,7 @@ items:
   - java
   name: ServiceException()
   fullName: com.microsoft.rest.ServiceException.ServiceException()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceException.java
@@ -107,7 +108,7 @@ items:
   - java
   name: ServiceException(final String message)
   fullName: com.microsoft.rest.ServiceException.ServiceException(final String message)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceException.java
@@ -131,7 +132,7 @@ items:
   - java
   name: ServiceException(final String message, final Throwable cause)
   fullName: com.microsoft.rest.ServiceException.ServiceException(final String message, final Throwable cause)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceException.java
@@ -158,7 +159,7 @@ items:
   - java
   name: ServiceException(final Throwable cause)
   fullName: com.microsoft.rest.ServiceException.ServiceException(final Throwable cause)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceException.java
@@ -244,7 +245,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException()
   fullName: com.microsoft.rest.RestException.RestException()
-  type: Method
+  type: Constructor
   summary: <p>Initializes a new instance of the AutoRestException class. </p>
   syntax:
     content: public RestException()
@@ -253,7 +254,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message)
   fullName: com.microsoft.rest.RestException.RestException(String message)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -269,7 +270,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -285,7 +286,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message, Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(String message, Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 

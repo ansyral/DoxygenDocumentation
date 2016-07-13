@@ -22,6 +22,8 @@ items:
   package: com.microsoft.azure
   syntax:
     content: public class TestPage
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._paged_list_tests._test_page_1a6183ab9cbaed56e8533be0a0d79789f6
   id: _test_page_1a6183ab9cbaed56e8533be0a0d79789f6
   parent: com.microsoft.azure._paged_list_tests._test_page
@@ -66,7 +68,7 @@ items:
   - java
   name: TestPage(int page, int max)
   fullName: com.microsoft.azure.PagedListTests.TestPage.TestPage(int page, int max)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/PagedListTests.java
@@ -95,8 +97,8 @@ references:
 - uid: com.microsoft.azure._page
   parent: com.microsoft.azure
   href: com.microsoft.azure._page.yml
-  name: Page
-  fullName: com.microsoft.azure.Page
+  name: Page<E>
+  fullName: com.microsoft.azure.Page<E>
   type: Interface
   summary: >-
     <p>Defines a page interface in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> responses.</p>

@@ -25,6 +25,9 @@ items:
   summary: <p>The export template options. </p>
   syntax:
     content: public enum ResourceGroupExportTemplateOptions
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ResourceGroupExportTemplateOptions>
 - uid: com.microsoft.azure.management.resources._resource_group_export_template_options_1aa7f61cd5688a4a76988846c9e79a4c28
   id: _resource_group_export_template_options_1aa7f61cd5688a4a76988846c9e79a4c28
   parent: com.microsoft.azure.management.resources._resource_group_export_template_options
@@ -33,7 +36,7 @@ items:
   - java
   name: INCLUDE_BOTH
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportTemplateOptions.INCLUDE_BOTH
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportTemplateOptions.java
@@ -50,7 +53,7 @@ items:
   - java
   name: INCLUDE_COMMENTS
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportTemplateOptions.INCLUDE_COMMENTS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportTemplateOptions.java
@@ -67,7 +70,7 @@ items:
   - java
   name: INCLUDE_PARAMETER_DEFAULT_VALUE
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportTemplateOptions.INCLUDE_PARAMETER_DEFAULT_VALUE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportTemplateOptions.java
@@ -84,7 +87,7 @@ items:
   - java
   name: ResourceGroupExportTemplateOptions(String value)
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportTemplateOptions.ResourceGroupExportTemplateOptions(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportTemplateOptions.java

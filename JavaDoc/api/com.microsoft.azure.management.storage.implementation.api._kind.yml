@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._kind" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum Kind
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<Kind>
 - uid: com.microsoft.azure.management.storage.implementation.api._kind_1a0a7bb4e994a88fbbd3e25fb504aee2df
   id: _kind_1a0a7bb4e994a88fbbd3e25fb504aee2df
   parent: com.microsoft.azure.management.storage.implementation.api._kind
@@ -33,7 +36,7 @@ items:
   - java
   name: BLOB_STORAGE
   fullName: com.microsoft.azure.management.storage.implementation.api.Kind.BLOB_STORAGE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Kind.java
@@ -77,7 +80,7 @@ items:
   - java
   name: Kind(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.Kind.Kind(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Kind.java
@@ -96,7 +99,7 @@ items:
   - java
   name: STORAGE
   fullName: com.microsoft.azure.management.storage.implementation.api.Kind.STORAGE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Kind.java

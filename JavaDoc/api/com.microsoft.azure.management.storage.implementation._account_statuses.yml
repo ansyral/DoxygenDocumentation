@@ -23,6 +23,8 @@ items:
   summary: <p>An instance of this class stores the availability of a storage account. </p>
   syntax: &o1
     content: public class AccountStatuses
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.storage.implementation._account_statuses_1a31fddbe6cfaadb35f061c276c2015af5
   id: _account_statuses_1a31fddbe6cfaadb35f061c276c2015af5
   parent: com.microsoft.azure.management.storage.implementation._account_statuses
@@ -31,7 +33,7 @@ items:
   - java
   name: AccountStatuses(AccountStatus primary, AccountStatus secondary)
   fullName: com.microsoft.azure.management.storage.implementation.AccountStatuses.AccountStatuses(AccountStatus primary, AccountStatus secondary)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java

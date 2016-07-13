@@ -8,8 +8,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533.yml
   langs:
   - java
-  name: IndexableRefreshableImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableImpl
+  name: IndexableRefreshableImpl<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableImpl<T>
   type: Class
   source:
     remote: &o0
@@ -29,6 +29,7 @@ items:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl
   inheritedMembers:
@@ -45,7 +46,7 @@ items:
   - java
   name: IndexableRefreshableImpl(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableRefreshableImpl< T >.IndexableRefreshableImpl(String name)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/IndexableRefreshableImpl.java
@@ -105,7 +106,7 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl.yml
   name: IndexableImpl(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableImpl.IndexableImpl(String key)
-  type: Method
+  type: Constructor
   syntax:
     content: protected IndexableImpl(String key)
     parameters:
@@ -170,8 +171,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
-  name: Refreshable
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  name: Refreshable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
   summary: >-
     <p>Base class for resources that can be refreshed to get the latest state.</p>

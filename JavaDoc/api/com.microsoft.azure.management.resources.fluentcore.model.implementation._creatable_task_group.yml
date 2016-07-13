@@ -26,6 +26,7 @@ items:
   syntax: &o1
     content: public class CreatableTaskGroup
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._task_group
   - com.microsoft.azure._task_group_base
   inheritedMembers:
@@ -49,7 +50,7 @@ items:
   - java
   name: CreatableTaskGroup(String key, CreatableTaskItem rootTask, RootResourceCreator rootCreate)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableTaskGroup.CreatableTaskGroup(String key, CreatableTaskItem rootTask, RootResourceCreator rootCreate)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatableTaskGroup.java
@@ -82,7 +83,7 @@ items:
   - java
   name: CreatableTaskGroup(String rootCreatableId, Creatable<?extends Resource > rootCreatable, RootResourceCreator rootCreate)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableTaskGroup.CreatableTaskGroup(String rootCreatableId, Creatable<?extends Resource > rootCreatable, RootResourceCreator rootCreate)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatableTaskGroup.java
@@ -186,8 +187,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable0cf2b288com.microsoft.azure.management.resources.fluentcore.arm.models._resource9ec3e006
   spec.java:
   - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
-    name: Creatable
-    fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable
+    name: Creatable<T>
+    fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
     href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
   - name: '<?extends '
     fullName: '<?extends '
@@ -204,8 +205,8 @@ references:
 - uid: com.microsoft.azure._task_item151dc42ccom.microsoft.azure.management.resources.fluentcore.arm.models._resource9ec3e006
   spec.java:
   - uid: com.microsoft.azure._task_item
-    name: TaskItem
-    fullName: com.microsoft.azure.TaskItem
+    name: TaskItem<U>
+    fullName: com.microsoft.azure.TaskItem<U>
     href: com.microsoft.azure._task_item.yml
   - name: '< '
     fullName: '< '
@@ -218,8 +219,8 @@ references:
 - uid: com.microsoft.rest._service_callbacke35e5465
   spec.java:
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < Void >
     fullName: < Void >
@@ -369,7 +370,7 @@ references:
   href: com.microsoft.azure._task_group_base.yml
   name: TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
   fullName: com.microsoft.azure.TaskGroupBase< T >.TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Creates <xref href="com.microsoft.azure._task_group_base" data-throw-if-not-resolved="false"></xref>.</p>
 
@@ -399,8 +400,8 @@ references:
 - uid: com.microsoft.azure._task_group_base
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_group_base.yml
-  name: TaskGroupBase
-  fullName: com.microsoft.azure.TaskGroupBase
+  name: TaskGroupBase<T>
+  fullName: com.microsoft.azure.TaskGroupBase<T>
   type: Class
   summary: >-
     <p>The base implementation of <xref href="com.microsoft.azure._task_group" data-throw-if-not-resolved="false"></xref> interface.</p>
@@ -414,8 +415,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
-  name: Creatable
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable
+  name: Creatable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
   summary: >-
     <p>The final stage of the resource definition, at which it can be create, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>.</p>
@@ -455,8 +456,8 @@ references:
 - uid: com.microsoft.azure._task_item
   parent: com.microsoft.azure
   href: com.microsoft.azure._task_item.yml
-  name: TaskItem
-  fullName: com.microsoft.azure.TaskItem
+  name: TaskItem<U>
+  fullName: com.microsoft.azure.TaskItem<U>
   type: Interface
   summary: >-
     <p>Type representing a task in a task group <xref href="com.microsoft.azure._task_group" data-throw-if-not-resolved="false"></xref>.</p>
@@ -479,8 +480,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

@@ -28,6 +28,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._site_load_balancing" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SiteLoadBalancing
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SiteLoadBalancing>
 - uid: com.microsoft.azure.management.website.implementation.api._site_load_balancing_1ab276da8ec04868f522d1a8009547349e
   id: _site_load_balancing_1ab276da8ec04868f522d1a8009547349e
   parent: com.microsoft.azure.management.website.implementation.api._site_load_balancing
@@ -63,7 +66,7 @@ items:
   - java
   name: LEAST_REQUESTS
   fullName: com.microsoft.azure.management.website.implementation.api.SiteLoadBalancing.LEAST_REQUESTS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteLoadBalancing.java
@@ -80,7 +83,7 @@ items:
   - java
   name: LEAST_RESPONSE_TIME
   fullName: com.microsoft.azure.management.website.implementation.api.SiteLoadBalancing.LEAST_RESPONSE_TIME
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteLoadBalancing.java
@@ -97,7 +100,7 @@ items:
   - java
   name: REQUEST_HASH
   fullName: com.microsoft.azure.management.website.implementation.api.SiteLoadBalancing.REQUEST_HASH
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteLoadBalancing.java
@@ -114,7 +117,7 @@ items:
   - java
   name: SiteLoadBalancing(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.SiteLoadBalancing.SiteLoadBalancing(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteLoadBalancing.java
@@ -151,7 +154,7 @@ items:
   - java
   name: WEIGHTED_ROUND_ROBIN
   fullName: com.microsoft.azure.management.website.implementation.api.SiteLoadBalancing.WEIGHTED_ROUND_ROBIN
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteLoadBalancing.java
@@ -168,7 +171,7 @@ items:
   - java
   name: WEIGHTED_TOTAL_TRAFFIC
   fullName: com.microsoft.azure.management.website.implementation.api.SiteLoadBalancing.WEIGHTED_TOTAL_TRAFFIC
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteLoadBalancing.java

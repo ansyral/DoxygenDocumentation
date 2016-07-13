@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._access_control_entry_action" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum AccessControlEntryAction
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<AccessControlEntryAction>
 - uid: com.microsoft.azure.management.website.implementation.api._access_control_entry_action_1abdc4101c3a052e781e0261eb498f531f
   id: _access_control_entry_action_1abdc4101c3a052e781e0261eb498f531f
   parent: com.microsoft.azure.management.website.implementation.api._access_control_entry_action
@@ -33,7 +36,7 @@ items:
   - java
   name: AccessControlEntryAction(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.AccessControlEntryAction.AccessControlEntryAction(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AccessControlEntryAction.java
@@ -52,7 +55,7 @@ items:
   - java
   name: DENY
   fullName: com.microsoft.azure.management.website.implementation.api.AccessControlEntryAction.DENY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AccessControlEntryAction.java
@@ -96,7 +99,7 @@ items:
   - java
   name: PERMIT
   fullName: com.microsoft.azure.management.website.implementation.api.AccessControlEntryAction.PERMIT
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AccessControlEntryAction.java

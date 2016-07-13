@@ -27,6 +27,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._task_add_status" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum TaskAddStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<TaskAddStatus>
 - uid: com.microsoft.azure.batch.protocol.models._task_add_status_1ab66b88c630e97e326092dc8bfcdf4781
   id: _task_add_status_1ab66b88c630e97e326092dc8bfcdf4781
   parent: com.microsoft.azure.batch.protocol.models._task_add_status
@@ -35,7 +38,7 @@ items:
   - java
   name: CLIENTERROR
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddStatus.CLIENTERROR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskAddStatus.java
@@ -79,7 +82,7 @@ items:
   - java
   name: SERVERERROR
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddStatus.SERVERERROR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskAddStatus.java
@@ -96,7 +99,7 @@ items:
   - java
   name: SUCCESS
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddStatus.SUCCESS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskAddStatus.java
@@ -113,7 +116,7 @@ items:
   - java
   name: TaskAddStatus(String value)
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddStatus.TaskAddStatus(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskAddStatus.java
@@ -150,7 +153,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddStatus.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskAddStatus.java

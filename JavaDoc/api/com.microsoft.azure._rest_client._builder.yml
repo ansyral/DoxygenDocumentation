@@ -33,6 +33,8 @@ items:
   summary: <p>The builder class for building a REST client. </p>
   syntax:
     content: public class Builder
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._rest_client._builder_1a9999d0ac1e279013955c114bdda839ae
   id: _builder_1a9999d0ac1e279013955c114bdda839ae
   parent: com.microsoft.azure._rest_client._builder
@@ -98,7 +100,7 @@ items:
   - java
   name: Builder()
   fullName: com.microsoft.azure.RestClient.Builder.Builder()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/RestClient.java
@@ -115,7 +117,7 @@ items:
   - java
   name: Builder(OkHttpClient.Builder httpClientBuilder, Retrofit.Builder retrofitBuilder)
   fullName: com.microsoft.azure.RestClient.Builder.Builder(OkHttpClient.Builder httpClientBuilder, Retrofit.Builder retrofitBuilder)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/RestClient.java

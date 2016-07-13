@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._provisioning_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum ProvisioningState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ProvisioningState>
 - uid: com.microsoft.azure.management.storage.implementation.api._provisioning_state_1a366ab5f3f0ac943b871fa9f91bd26c85
   id: _provisioning_state_1a366ab5f3f0ac943b871fa9f91bd26c85
   parent: com.microsoft.azure.management.storage.implementation.api._provisioning_state
@@ -34,7 +37,7 @@ items:
   - java
   name: CREATING
   fullName: com.microsoft.azure.management.storage.implementation.api.ProvisioningState.CREATING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/ProvisioningState.java
@@ -78,7 +81,7 @@ items:
   - java
   name: ProvisioningState(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.ProvisioningState.ProvisioningState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/ProvisioningState.java
@@ -97,7 +100,7 @@ items:
   - java
   name: RESOLVING_DNS
   fullName: com.microsoft.azure.management.storage.implementation.api.ProvisioningState.RESOLVING_DNS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/ProvisioningState.java
@@ -114,7 +117,7 @@ items:
   - java
   name: SUCCEEDED
   fullName: com.microsoft.azure.management.storage.implementation.api.ProvisioningState.SUCCEEDED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/ProvisioningState.java

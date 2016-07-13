@@ -30,6 +30,7 @@ items:
   syntax: &o1
     content: public class CustomHeaderInterceptor
   inheritance:
+  - java.lang.Object
   - Interceptor
 - uid: com.microsoft.azure._custom_header_interceptor_1a4f389be404f611307c0356c415812bcf
   id: _custom_header_interceptor_1a4f389be404f611307c0356c415812bcf
@@ -150,7 +151,7 @@ items:
   - java
   name: CustomHeaderInterceptor()
   fullName: com.microsoft.azure.CustomHeaderInterceptor.CustomHeaderInterceptor()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/CustomHeaderInterceptor.java
@@ -167,7 +168,7 @@ items:
   - java
   name: CustomHeaderInterceptor(String key, String value)
   fullName: com.microsoft.azure.CustomHeaderInterceptor.CustomHeaderInterceptor(String key, String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/CustomHeaderInterceptor.java

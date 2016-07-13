@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._pool_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum PoolState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PoolState>
 - uid: com.microsoft.azure.batch.protocol.models._pool_state_1a6a555caa9b9a4a69a133215b28c810b8
   id: _pool_state_1a6a555caa9b9a4a69a133215b28c810b8
   parent: com.microsoft.azure.batch.protocol.models._pool_state
@@ -34,7 +37,7 @@ items:
   - java
   name: ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.PoolState.ACTIVE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolState.java
@@ -51,7 +54,7 @@ items:
   - java
   name: DELETING
   fullName: com.microsoft.azure.batch.protocol.models.PoolState.DELETING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolState.java
@@ -95,7 +98,7 @@ items:
   - java
   name: PoolState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.PoolState.PoolState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolState.java
@@ -132,7 +135,7 @@ items:
   - java
   name: UPGRADING
   fullName: com.microsoft.azure.batch.protocol.models.PoolState.UPGRADING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/PoolState.java

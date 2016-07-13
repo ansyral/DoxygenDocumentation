@@ -23,6 +23,8 @@ items:
   summary: <p>An instance of this class provides access to all the operations defined in VirtualMachineSizes. </p>
   syntax: &o1
     content: public class VirtualMachineSizesInner
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_sizes_inner_1a7ebc7bd7d27a6b46c49b85df87bce03d
   id: _virtual_machine_sizes_inner_1a7ebc7bd7d27a6b46c49b85df87bce03d
   parent: com.microsoft.azure.management.compute.implementation.api._virtual_machine_sizes_inner
@@ -98,7 +100,7 @@ items:
   - java
   name: VirtualMachineSizesInner(Retrofit retrofit, ComputeManagementClientImpl client)
   fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineSizesInner.VirtualMachineSizesInner(Retrofit retrofit, ComputeManagementClientImpl client)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/VirtualMachineSizesInner.java
@@ -137,8 +139,8 @@ references:
 - uid: com.microsoft.rest._service_responsef93d48dacom.microsoft.azure.management.compute.implementation.api._virtual_machine_size_innerd4c4bc88
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< List< '
     fullName: '< List< '
@@ -153,8 +155,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< List< '
     fullName: '< List< '
@@ -184,8 +186,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -226,8 +228,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -241,8 +243,8 @@ references:
 - uid: com.microsoft.azure.management.compute.implementation.api._page_impl
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._page_impl.yml
-  name: PageImpl
-  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl
+  name: PageImpl<T>
+  fullName: com.microsoft.azure.management.compute.implementation.api.PageImpl<T>
   type: Class
   summary: >-
     <p>An instance of this class defines a page of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources and a link to get the next page of resources, if any.</p>

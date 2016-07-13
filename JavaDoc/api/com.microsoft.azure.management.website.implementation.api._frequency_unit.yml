@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._frequency_unit" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum FrequencyUnit
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<FrequencyUnit>
 - uid: com.microsoft.azure.management.website.implementation.api._frequency_unit_1a9aaf0e2ebe28c607b5ae3602206686e4
   id: _frequency_unit_1a9aaf0e2ebe28c607b5ae3602206686e4
   parent: com.microsoft.azure.management.website.implementation.api._frequency_unit
@@ -33,7 +36,7 @@ items:
   - java
   name: DAY
   fullName: com.microsoft.azure.management.website.implementation.api.FrequencyUnit.DAY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/FrequencyUnit.java
@@ -50,7 +53,7 @@ items:
   - java
   name: FrequencyUnit(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.FrequencyUnit.FrequencyUnit(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/FrequencyUnit.java
@@ -96,7 +99,7 @@ items:
   - java
   name: HOUR
   fullName: com.microsoft.azure.management.website.implementation.api.FrequencyUnit.HOUR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/FrequencyUnit.java

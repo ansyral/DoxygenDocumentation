@@ -7,8 +7,8 @@ items:
   href: com.microsoft.azure.management.network._subnet._definition_blank.yml
   langs:
   - java
-  name: Subnet.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.Subnet.DefinitionBlank
+  name: Subnet.DefinitionBlank<ParentT>
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionBlank<ParentT>
   type: Interface
   source:
     remote: &o0
@@ -57,16 +57,16 @@ references:
 - uid: com.microsoft.azure.management.network._subnet._definition_attachablea6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._subnet._definition_attachable
-    name: Subnet.DefinitionAttachable
-    fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable
+    name: Subnet.DefinitionAttachable<ParentT>
+    fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable<ParentT>
     href: com.microsoft.azure.management.network._subnet._definition_attachable.yml
   - name: < ParentT >
     fullName: < ParentT >
 - uid: com.microsoft.azure.management.network._subnet._definition
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._definition.yml
-  name: Subnet.Definition
-  fullName: com.microsoft.azure.management.network.Subnet.Definition
+  name: Subnet.Definition<ParentT>
+  fullName: com.microsoft.azure.management.network.Subnet.Definition<ParentT>
   type: Interface
   summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
   syntax:
@@ -77,8 +77,8 @@ references:
 - uid: com.microsoft.azure.management.network._subnet._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._definition_attachable.yml
-  name: Subnet.DefinitionAttachable
-  fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable
+  name: Subnet.DefinitionAttachable<ParentT>
+  fullName: com.microsoft.azure.management.network.Subnet.DefinitionAttachable<ParentT>
   type: Interface
   summary: >-
     <p>The final stage of the subnet definition. </p>

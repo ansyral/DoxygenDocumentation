@@ -27,6 +27,8 @@ items:
   summary: <p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>
   syntax: &o1
     content: public class RetryStrategy
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.rest.retry._retry_strategy_1a3436b93be02faae8310e689b4d52bffc
   id: _retry_strategy_1a3436b93be02faae8310e689b4d52bffc
   parent: com.microsoft.rest.retry._retry_strategy
@@ -138,7 +140,7 @@ items:
   - java
   name: RetryStrategy(String name, boolean firstFastRetry)
   fullName: com.microsoft.rest.retry.RetryStrategy.RetryStrategy(String name, boolean firstFastRetry)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/retry/RetryStrategy.java

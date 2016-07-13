@@ -8,8 +8,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
   langs:
   - java
-  name: IndexableWrapperImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl
+  name: IndexableWrapperImpl<InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl<InnerT>
   type: Class
   source:
     remote: &o0
@@ -29,6 +29,7 @@ items:
     - type: 52cf8095
       description: <p>wrapped type </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl
   inheritedMembers:
@@ -45,7 +46,7 @@ items:
   - java
   name: IndexableWrapperImpl(String name, InnerT innerObject)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl< InnerT >.IndexableWrapperImpl(String name, InnerT innerObject)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/IndexableWrapperImpl.java
@@ -92,7 +93,7 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl.yml
   name: IndexableImpl(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableImpl.IndexableImpl(String key)
-  type: Method
+  type: Constructor
   syntax:
     content: protected IndexableImpl(String key)
     parameters:
@@ -157,8 +158,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
-  name: Wrapper
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.Wrapper
+  name: Wrapper<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Wrapper<T>
   type: Interface
   summary: >-
     <p>The wrapper around an inner object providing extended functionalities.</p>
@@ -173,8 +174,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502.yml
-  name: ChildResourceImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ChildResourceImpl
+  name: ChildResourceImpl<InnerT,ParentImplT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ChildResourceImpl<InnerT,ParentImplT>
   type: Class
   summary: <p>Child resource abstract implementation. (Internal use only) </p>
   syntax:

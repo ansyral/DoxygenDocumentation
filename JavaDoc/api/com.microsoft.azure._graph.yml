@@ -10,8 +10,8 @@ items:
   href: com.microsoft.azure._graph.yml
   langs:
   - java
-  name: Graph
-  fullName: com.microsoft.azure.Graph
+  name: Graph<T,U>
+  fullName: com.microsoft.azure.Graph<T,U>
   type: Class
   source:
     remote: &o0
@@ -34,6 +34,8 @@ items:
       description: <p>the type of the data stored in the graph's nodes </p>
     - type: 6043614c
       description: <p>the type of the nodes in the graph </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._graph_1a86314d0d81f14a3ffb13c531f94cf54e
   id: _graph_1a86314d0d81f14a3ffb13c531f94cf54e
   parent: com.microsoft.azure._graph
@@ -84,7 +86,7 @@ items:
   - java
   name: Graph()
   fullName: com.microsoft.azure.Graph< T, U extends Node< T >.Graph()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
@@ -139,8 +141,8 @@ references:
 - uid: com.microsoft.azure._node
   parent: com.microsoft.azure
   href: com.microsoft.azure._node.yml
-  name: Node
-  fullName: com.microsoft.azure.Node
+  name: Node<T>
+  fullName: com.microsoft.azure.Node<T>
   type: Class
   summary: >-
     <p>Type represents a node in a <xref href="com.microsoft.azure._graph" data-throw-if-not-resolved="false"></xref>.</p>

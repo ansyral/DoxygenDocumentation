@@ -27,6 +27,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._task_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum TaskState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<TaskState>
 - uid: com.microsoft.azure.batch.protocol.models._task_state_1afc859753a71210a5add4fc4a71b90d14
   id: _task_state_1afc859753a71210a5add4fc4a71b90d14
   parent: com.microsoft.azure.batch.protocol.models._task_state
@@ -35,7 +38,7 @@ items:
   - java
   name: ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.TaskState.ACTIVE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskState.java
@@ -52,7 +55,7 @@ items:
   - java
   name: COMPLETED
   fullName: com.microsoft.azure.batch.protocol.models.TaskState.COMPLETED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskState.java
@@ -96,7 +99,7 @@ items:
   - java
   name: PREPARING
   fullName: com.microsoft.azure.batch.protocol.models.TaskState.PREPARING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskState.java
@@ -113,7 +116,7 @@ items:
   - java
   name: RUNNING
   fullName: com.microsoft.azure.batch.protocol.models.TaskState.RUNNING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskState.java
@@ -130,7 +133,7 @@ items:
   - java
   name: TaskState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.TaskState.TaskState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/TaskState.java

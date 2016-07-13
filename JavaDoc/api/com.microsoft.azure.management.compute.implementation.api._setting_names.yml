@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._setting_names" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SettingNames
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SettingNames>
 - uid: com.microsoft.azure.management.compute.implementation.api._setting_names_1a6910a5df83838ee85e315b6c92037b6b
   id: _setting_names_1a6910a5df83838ee85e315b6c92037b6b
   parent: com.microsoft.azure.management.compute.implementation.api._setting_names
@@ -33,7 +36,7 @@ items:
   - java
   name: AUTO_LOGON
   fullName: com.microsoft.azure.management.compute.implementation.api.SettingNames.AUTO_LOGON
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/SettingNames.java
@@ -50,7 +53,7 @@ items:
   - java
   name: FIRST_LOGON_COMMANDS
   fullName: com.microsoft.azure.management.compute.implementation.api.SettingNames.FIRST_LOGON_COMMANDS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/SettingNames.java
@@ -94,7 +97,7 @@ items:
   - java
   name: SettingNames(String value)
   fullName: com.microsoft.azure.management.compute.implementation.api.SettingNames.SettingNames(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/SettingNames.java

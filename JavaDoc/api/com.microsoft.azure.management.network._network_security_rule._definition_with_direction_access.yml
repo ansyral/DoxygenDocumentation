@@ -10,8 +10,8 @@ items:
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_direction_access.yml
   langs:
   - java
-  name: NetworkSecurityRule.DefinitionWithDirectionAccess
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess
+  name: NetworkSecurityRule.DefinitionWithDirectionAccess<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithDirectionAccess<ParentT>
   type: Interface
   source:
     remote: &o0
@@ -115,16 +115,16 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_addressa6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
-    name: NetworkSecurityRule.DefinitionWithSourceAddress
-    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress
+    name: NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>
+    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>
     href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
   - name: < ParentT >
     fullName: < ParentT >
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_blank
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_blank.yml
-  name: NetworkSecurityRule.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionBlank
+  name: NetworkSecurityRule.DefinitionBlank<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionBlank<ParentT>
   type: Interface
   summary: <p>The first stage of the subnet definition. </p>
   syntax:
@@ -135,8 +135,8 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
-  name: NetworkSecurityRule.Definitions
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  name: NetworkSecurityRule.Definitions<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions<ParentT>
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
@@ -147,8 +147,8 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_source_address.yml
-  name: NetworkSecurityRule.DefinitionWithSourceAddress
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress
+  name: NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>
   type: Interface
   summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
   syntax:

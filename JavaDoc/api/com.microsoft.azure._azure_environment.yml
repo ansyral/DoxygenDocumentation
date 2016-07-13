@@ -30,6 +30,8 @@ items:
   summary: <p>An instance of this class describes an environment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public class AzureEnvironment
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._azure_environment_1a1673a5df55970e40e56fe06dd10b0e32
   id: _azure_environment_1a1673a5df55970e40e56fe06dd10b0e32
   parent: com.microsoft.azure._azure_environment
@@ -134,7 +136,7 @@ items:
   - java
   name: AzureEnvironment(String authenticationEndpoint, String tokenAudience, boolean validateAuthority, String baseUrl)
   fullName: com.microsoft.azure.AzureEnvironment.AzureEnvironment(String authenticationEndpoint, String tokenAudience, boolean validateAuthority, String baseUrl)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureEnvironment.java

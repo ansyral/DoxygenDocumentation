@@ -12,8 +12,8 @@ items:
   href: com.microsoft.azure._node.yml
   langs:
   - java
-  name: Node
-  fullName: com.microsoft.azure.Node
+  name: Node<T>
+  fullName: com.microsoft.azure.Node<T>
   type: Class
   source:
     remote: &o0
@@ -32,6 +32,8 @@ items:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the node </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._node_1a9952d1370c995944aa92f5a3e3af2038
   id: _node_1a9952d1370c995944aa92f5a3e3af2038
   parent: com.microsoft.azure._node
@@ -139,7 +141,7 @@ items:
   - java
   name: Node(String key, T data)
   fullName: com.microsoft.azure.Node< T >.Node(String key, T data)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Node.java
@@ -178,8 +180,8 @@ references:
 - uid: com.microsoft.azure._d_a_g_node
   parent: com.microsoft.azure
   href: com.microsoft.azure._d_a_g_node.yml
-  name: DAGNode
-  fullName: com.microsoft.azure.DAGNode
+  name: DAGNode<T>
+  fullName: com.microsoft.azure.DAGNode<T>
   type: Class
   summary: >-
     <p>The type representing node in a <xref href="com.microsoft.azure._d_a_graph" data-throw-if-not-resolved="false"></xref>.</p>
@@ -193,8 +195,8 @@ references:
 - uid: com.microsoft.azure._graph
   parent: com.microsoft.azure
   href: com.microsoft.azure._graph.yml
-  name: Graph
-  fullName: com.microsoft.azure.Graph
+  name: Graph<T,U>
+  fullName: com.microsoft.azure.Graph<T,U>
   type: Class
   summary: >-
     <p>Type representing a directed graph data structure. </p>

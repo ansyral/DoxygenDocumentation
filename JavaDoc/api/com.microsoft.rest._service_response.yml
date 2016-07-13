@@ -12,8 +12,8 @@ items:
   href: com.microsoft.rest._service_response.yml
   langs:
   - java
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   source:
     remote: &o0
@@ -32,6 +32,8 @@ items:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the response </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.rest._service_response_1ab16b3668387ed766982f05ab74151300
   id: _service_response_1ab16b3668387ed766982f05ab74151300
   parent: com.microsoft.rest._service_response
@@ -106,7 +108,7 @@ items:
   - java
   name: ServiceResponse(Response< Void > headResponse)
   fullName: com.microsoft.rest.ServiceResponse< T >.ServiceResponse(Response< Void > headResponse)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponse.java
@@ -130,7 +132,7 @@ items:
   - java
   name: ServiceResponse(T body, Response< ResponseBody > response)
   fullName: com.microsoft.rest.ServiceResponse< T >.ServiceResponse(T body, Response< ResponseBody > response)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponse.java
@@ -189,8 +191,8 @@ references:
 - uid: com.microsoft.azure._azure_response
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure_response.yml
-  name: AzureResponse
-  fullName: com.microsoft.azure.AzureResponse
+  name: AzureResponse<T>
+  fullName: com.microsoft.azure.AzureResponse<T>
   type: Class
   summary: >-
     <p>A standard service response including request ID.</p>
@@ -204,8 +206,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>

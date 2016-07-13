@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._upgrade_mode" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum UpgradeMode
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<UpgradeMode>
 - uid: com.microsoft.azure.management.compute.implementation.api._upgrade_mode_1a842421a9d9dccc69b14b38d8c84b5038
   id: _upgrade_mode_1a842421a9d9dccc69b14b38d8c84b5038
   parent: com.microsoft.azure.management.compute.implementation.api._upgrade_mode
@@ -33,7 +36,7 @@ items:
   - java
   name: AUTOMATIC
   fullName: com.microsoft.azure.management.compute.implementation.api.UpgradeMode.AUTOMATIC
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UpgradeMode.java
@@ -77,7 +80,7 @@ items:
   - java
   name: MANUAL
   fullName: com.microsoft.azure.management.compute.implementation.api.UpgradeMode.MANUAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UpgradeMode.java
@@ -112,7 +115,7 @@ items:
   - java
   name: UpgradeMode(String value)
   fullName: com.microsoft.azure.management.compute.implementation.api.UpgradeMode.UpgradeMode(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/UpgradeMode.java

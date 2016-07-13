@@ -8,8 +8,8 @@ items:
   href: com.microsoft.rest._service_response_callback.yml
   langs:
   - java
-  name: ServiceResponseCallback
-  fullName: com.microsoft.rest.ServiceResponseCallback
+  name: ServiceResponseCallback<T>
+  fullName: com.microsoft.rest.ServiceResponseCallback<T>
   type: Class
   source:
     remote: &o0
@@ -29,6 +29,7 @@ items:
     - type: 8ce1ecb9
       description: <p>the response body type </p>
   inheritance:
+  - java.lang.Object
   - retrofit2.Callback< ResponseBody >
 - uid: com.microsoft.rest._service_response_callback_1a35c94d38cb5def1b6a51ad3308c022f2
   id: _service_response_callback_1a35c94d38cb5def1b6a51ad3308c022f2
@@ -59,7 +60,7 @@ items:
   - java
   name: ServiceResponseCallback(ServiceCallback< T > serviceCallback)
   fullName: com.microsoft.rest.ServiceResponseCallback< T >.ServiceResponseCallback(ServiceCallback< T > serviceCallback)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseCallback.java
@@ -83,8 +84,8 @@ references:
 - uid: com.microsoft.rest._service_callback34132889
   spec.java:
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: < T >
     fullName: < T >
@@ -99,8 +100,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>
@@ -114,8 +115,8 @@ references:
 - uid: com.microsoft.rest._service_response_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_callback.yml
-  name: ServiceResponseCallback
-  fullName: com.microsoft.rest.ServiceResponseCallback
+  name: ServiceResponseCallback<T>
+  fullName: com.microsoft.rest.ServiceResponseCallback<T>
   type: Class
   summary: >-
     <p>Inner callback used to merge both successful and failed responses into one callback for customized response handling in a response handling delegate.</p>

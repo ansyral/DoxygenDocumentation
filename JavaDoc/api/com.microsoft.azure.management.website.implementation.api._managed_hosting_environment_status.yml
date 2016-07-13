@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._managed_hosting_environment_status" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum ManagedHostingEnvironmentStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ManagedHostingEnvironmentStatus>
 - uid: com.microsoft.azure.management.website.implementation.api._managed_hosting_environment_status_1a0cc91eaaa3d6a712b52f223c1cfa258e
   id: _managed_hosting_environment_status_1a0cc91eaaa3d6a712b52f223c1cfa258e
   parent: com.microsoft.azure.management.website.implementation.api._managed_hosting_environment_status
@@ -34,7 +37,7 @@ items:
   - java
   name: DELETING
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentStatus.DELETING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedHostingEnvironmentStatus.java
@@ -78,7 +81,7 @@ items:
   - java
   name: ManagedHostingEnvironmentStatus(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentStatus.ManagedHostingEnvironmentStatus(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedHostingEnvironmentStatus.java
@@ -97,7 +100,7 @@ items:
   - java
   name: PREPARING
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentStatus.PREPARING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedHostingEnvironmentStatus.java
@@ -114,7 +117,7 @@ items:
   - java
   name: READY
   fullName: com.microsoft.azure.management.website.implementation.api.ManagedHostingEnvironmentStatus.READY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/ManagedHostingEnvironmentStatus.java

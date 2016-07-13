@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._ssl_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SslState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SslState>
 - uid: com.microsoft.azure.management.website.implementation.api._ssl_state_1ae3df33c35ba77cb163ac786f707f75a6
   id: _ssl_state_1ae3df33c35ba77cb163ac786f707f75a6
   parent: com.microsoft.azure.management.website.implementation.api._ssl_state
@@ -34,7 +37,7 @@ items:
   - java
   name: DISABLED
   fullName: com.microsoft.azure.management.website.implementation.api.SslState.DISABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SslState.java
@@ -78,7 +81,7 @@ items:
   - java
   name: IP_BASED_ENABLED
   fullName: com.microsoft.azure.management.website.implementation.api.SslState.IP_BASED_ENABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SslState.java
@@ -95,7 +98,7 @@ items:
   - java
   name: SNI_ENABLED
   fullName: com.microsoft.azure.management.website.implementation.api.SslState.SNI_ENABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SslState.java
@@ -112,7 +115,7 @@ items:
   - java
   name: SslState(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.SslState.SslState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SslState.java

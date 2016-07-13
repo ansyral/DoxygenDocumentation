@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._domain_type" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum DomainType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<DomainType>
 - uid: com.microsoft.azure.management.website.implementation.api._domain_type_1a1abdba4900ee1d09df95039fb22a57bc
   id: _domain_type_1a1abdba4900ee1d09df95039fb22a57bc
   parent: com.microsoft.azure.management.website.implementation.api._domain_type
@@ -33,7 +36,7 @@ items:
   - java
   name: DomainType(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.DomainType.DomainType(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainType.java
@@ -79,7 +82,7 @@ items:
   - java
   name: REGULAR
   fullName: com.microsoft.azure.management.website.implementation.api.DomainType.REGULAR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainType.java
@@ -96,7 +99,7 @@ items:
   - java
   name: SOFT_DELETED
   fullName: com.microsoft.azure.management.website.implementation.api.DomainType.SOFT_DELETED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/DomainType.java

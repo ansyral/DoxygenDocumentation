@@ -24,6 +24,8 @@ items:
   summary: <p>An internally used class for generating the metadata used for upload. </p>
   syntax: &o1
     content: public class UploadMetadataGenerator
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator_1a31fd679aa29a816b2e7abbfa9387ff25
   id: _upload_metadata_generator_1a31fd679aa29a816b2e7abbfa9387ff25
   parent: com.microsoft.azure.management.datalake.store.uploader._upload_metadata_generator
@@ -98,7 +100,7 @@ items:
   - java
   name: UploadMetadataGenerator(UploadParameters parameters)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadMetadataGenerator.UploadMetadataGenerator(UploadParameters parameters)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadMetadataGenerator.java
@@ -122,7 +124,7 @@ items:
   - java
   name: UploadMetadataGenerator(UploadParameters parameters, int maxAppendLength)
   fullName: com.microsoft.azure.management.datalake.store.uploader.UploadMetadataGenerator.UploadMetadataGenerator(UploadParameters parameters, int maxAppendLength)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadMetadataGenerator.java

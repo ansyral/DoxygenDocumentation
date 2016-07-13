@@ -27,6 +27,9 @@ items:
   summary: <p>Possible power states of a virtual machine. </p>
   syntax: &o1
     content: public enum PowerState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<PowerState>
 - uid: com.microsoft.azure.management.compute._power_state_1aae01d5467c2bd7fcb61383deac1a2f6e
   id: _power_state_1aae01d5467c2bd7fcb61383deac1a2f6e
   parent: com.microsoft.azure.management.compute._power_state
@@ -35,7 +38,7 @@ items:
   - java
   name: DEALLOCATED
   fullName: com.microsoft.azure.management.compute.PowerState.DEALLOCATED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/PowerState.java
@@ -52,7 +55,7 @@ items:
   - java
   name: DEALLOCATING
   fullName: com.microsoft.azure.management.compute.PowerState.DEALLOCATING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/PowerState.java
@@ -96,7 +99,7 @@ items:
   - java
   name: PowerState(String value)
   fullName: com.microsoft.azure.management.compute.PowerState.PowerState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/PowerState.java
@@ -115,7 +118,7 @@ items:
   - java
   name: RUNNING
   fullName: com.microsoft.azure.management.compute.PowerState.RUNNING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/PowerState.java
@@ -132,7 +135,7 @@ items:
   - java
   name: STARTING
   fullName: com.microsoft.azure.management.compute.PowerState.STARTING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/PowerState.java

@@ -20,6 +20,7 @@ items:
   syntax:
     content: public class IntentionalException
   inheritance:
+  - java.lang.Object
   - Exception
   - com.microsoft.rest._rest_exception
   - com.microsoft.azure._cloud_exception
@@ -43,7 +44,7 @@ references:
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException()
   fullName: com.microsoft.azure.CloudException.CloudException()
-  type: Method
+  type: Constructor
   summary: <p>Initializes a new instance of the ServiceException class. </p>
   syntax:
     content: public CloudException()
@@ -52,7 +53,7 @@ references:
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException(final String message)
   fullName: com.microsoft.azure.CloudException.CloudException(final String message)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceException class.</p>
 
@@ -68,7 +69,7 @@ references:
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException(final String message, final Throwable cause)
   fullName: com.microsoft.azure.CloudException.CloudException(final String message, final Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceException class.</p>
 
@@ -87,7 +88,7 @@ references:
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException(final Throwable cause)
   fullName: com.microsoft.azure.CloudException.CloudException(final Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceException class.</p>
 
@@ -133,7 +134,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException()
   fullName: com.microsoft.rest.RestException.RestException()
-  type: Method
+  type: Constructor
   summary: <p>Initializes a new instance of the AutoRestException class. </p>
   syntax:
     content: public RestException()
@@ -142,7 +143,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message)
   fullName: com.microsoft.rest.RestException.RestException(String message)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -158,7 +159,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 
@@ -174,7 +175,7 @@ references:
   href: com.microsoft.rest._rest_exception.yml
   name: RestException(String message, Throwable cause)
   fullName: com.microsoft.rest.RestException.RestException(String message, Throwable cause)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the AutoRestException class.</p>
 

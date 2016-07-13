@@ -25,6 +25,8 @@ items:
   summary: <p>Represents a general purpose file uploader into DataLake. Supports the efficient upload of large files. </p>
   syntax:
     content: public class DataLakeStoreUploader
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader_1a7d89ae624add0388ed7e482d3fd6f7da
   id: _data_lake_store_uploader_1a7d89ae624add0388ed7e482d3fd6f7da
   parent: com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader
@@ -33,7 +35,7 @@ items:
   - java
   name: DataLakeStoreUploader(UploadParameters uploadParameters, FrontEndAdapter frontEnd)
   fullName: com.microsoft.azure.management.datalake.store.uploader.DataLakeStoreUploader.DataLakeStoreUploader(UploadParameters uploadParameters, FrontEndAdapter frontEnd)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeStoreUploader.java

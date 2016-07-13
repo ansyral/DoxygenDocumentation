@@ -59,6 +59,7 @@ items:
   syntax:
     content: public class JobOperations
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
 - uid: com.microsoft.azure.batch._job_operations_1a032ca31025039a1bd6388438efd6caf8
   id: _job_operations_1a032ca31025039a1bd6388438efd6caf8
@@ -403,7 +404,7 @@ items:
   - java
   name: JobOperations(BatchClient batchClient, Collection< BatchClientBehavior > inheritedBehaviors)
   fullName: com.microsoft.azure.batch.JobOperations.JobOperations(BatchClient batchClient, Collection< BatchClientBehavior > inheritedBehaviors)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobOperations.java

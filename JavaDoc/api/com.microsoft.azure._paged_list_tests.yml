@@ -30,6 +30,8 @@ items:
   package: com.microsoft.azure
   syntax:
     content: public class PagedListTests
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._paged_list_tests_1ace9d6fe180d6b1780d5167894bbd4fa4
   id: _paged_list_tests_1ace9d6fe180d6b1780d5167894bbd4fa4
   parent: com.microsoft.azure._paged_list_tests
@@ -210,8 +212,8 @@ references:
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
-  name: PagedList
-  fullName: com.microsoft.azure.PagedList
+  name: PagedList<E>
+  fullName: com.microsoft.azure.PagedList<E>
   type: Class
   summary: >-
     <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>

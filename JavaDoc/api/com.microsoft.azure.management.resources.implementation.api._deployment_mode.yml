@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.resources.implementation.api._deployment_mode" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum DeploymentMode
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<DeploymentMode>
 - uid: com.microsoft.azure.management.resources.implementation.api._deployment_mode_1ae3c0747a687e95f93b1393e950120e5f
   id: _deployment_mode_1ae3c0747a687e95f93b1393e950120e5f
   parent: com.microsoft.azure.management.resources.implementation.api._deployment_mode
@@ -33,7 +36,7 @@ items:
   - java
   name: COMPLETE
   fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentMode.COMPLETE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentMode.java
@@ -50,7 +53,7 @@ items:
   - java
   name: DeploymentMode(String value)
   fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentMode.DeploymentMode(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentMode.java
@@ -96,7 +99,7 @@ items:
   - java
   name: INCREMENTAL
   fullName: com.microsoft.azure.management.resources.implementation.api.DeploymentMode.INCREMENTAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/implementation/api/DeploymentMode.java

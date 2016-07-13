@@ -26,6 +26,8 @@ items:
   summary: <p>The configuration for compute nodes in a pool based on the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Virtual Machines infrastructure. </p>
   syntax: &o1
     content: public class VirtualMachineConfiguration
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.batch.protocol.models._virtual_machine_configuration_1a587a8192ce80ec5a10ded7d6eccd043f
   id: _virtual_machine_configuration_1a587a8192ce80ec5a10ded7d6eccd043f
   parent: com.microsoft.azure.batch.protocol.models._virtual_machine_configuration
@@ -202,8 +204,8 @@ references:
 - uid: com.microsoft.azure._node
   parent: com.microsoft.azure
   href: com.microsoft.azure._node.yml
-  name: Node
-  fullName: com.microsoft.azure.Node
+  name: Node<T>
+  fullName: com.microsoft.azure.Node<T>
   type: Class
   summary: >-
     <p>Type represents a node in a <xref href="com.microsoft.azure._graph" data-throw-if-not-resolved="false"></xref>.</p>

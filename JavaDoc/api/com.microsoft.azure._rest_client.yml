@@ -27,6 +27,8 @@ items:
   summary: <p>An instance of this class stores the client information for making REST calls. </p>
   syntax: &o1
     content: public class RestClient
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._rest_client_1a047f74b7065ec6ad330c605082ddce6e
   id: _rest_client_1a047f74b7065ec6ad330c605082ddce6e
   parent: com.microsoft.azure._rest_client
@@ -127,7 +129,7 @@ items:
   - java
   name: RestClient(OkHttpClient httpClient, Retrofit retrofit, ServiceClientCredentials credentials, CustomHeadersInterceptor customHeadersInterceptor, UserAgentInterceptor userAgentInterceptor, BaseUrlHandler baseUrlHandler, JacksonMapperAdapter mapperAdapter)
   fullName: com.microsoft.azure.RestClient.RestClient(OkHttpClient httpClient, Retrofit retrofit, ServiceClientCredentials credentials, CustomHeadersInterceptor customHeadersInterceptor, UserAgentInterceptor userAgentInterceptor, BaseUrlHandler baseUrlHandler, JacksonMapperAdapter mapperAdapter)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/RestClient.java

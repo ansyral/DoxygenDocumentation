@@ -34,6 +34,8 @@ items:
   summary: <p>A Job Release task to run on job completion on any compute node where the job has run. </p>
   syntax: &o1
     content: public class JobReleaseTask
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.batch.protocol.models._job_release_task_1ae4ce600b5982811c9594b03ca06a9423
   id: _job_release_task_1ae4ce600b5982811c9594b03ca06a9423
   parent: com.microsoft.azure.batch.protocol.models._job_release_task

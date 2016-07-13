@@ -8,8 +8,8 @@ items:
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_protocol.yml
   langs:
   - java
-  name: NetworkSecurityRule.DefinitionWithProtocol
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol
+  name: NetworkSecurityRule.DefinitionWithProtocol<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionWithProtocol<ParentT>
   type: Interface
   source:
     remote: &o0
@@ -77,16 +77,16 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_attachablea6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
-    name: NetworkSecurityRule.DefinitionAttachable
-    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
+    name: NetworkSecurityRule.DefinitionAttachable<ParentT>
+    fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable<ParentT>
     href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
   - name: < ParentT >
     fullName: < ParentT >
 - uid: com.microsoft.azure.management.network._network_security_rule._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
-  name: NetworkSecurityRule.Definitions
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions
+  name: NetworkSecurityRule.Definitions<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definitions<ParentT>
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
@@ -97,8 +97,8 @@ references:
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_attachable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_attachable.yml
-  name: NetworkSecurityRule.DefinitionAttachable
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable
+  name: NetworkSecurityRule.DefinitionAttachable<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionAttachable<ParentT>
   type: Interface
   summary: >-
     <p>The final stage of the security rule definition. </p>

@@ -35,6 +35,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._compute_node_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum ComputeNodeState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ComputeNodeState>
 - uid: com.microsoft.azure.batch.protocol.models._compute_node_state_1a188344dccedd3bd6b0ee8fa882641b37
   id: _compute_node_state_1a188344dccedd3bd6b0ee8fa882641b37
   parent: com.microsoft.azure.batch.protocol.models._compute_node_state
@@ -43,7 +46,7 @@ items:
   - java
   name: ComputeNodeState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.ComputeNodeState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -62,7 +65,7 @@ items:
   - java
   name: CREATING
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.CREATING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -106,7 +109,7 @@ items:
   - java
   name: IDLE
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.IDLE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -123,7 +126,7 @@ items:
   - java
   name: LEAVINGPOOL
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.LEAVINGPOOL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -140,7 +143,7 @@ items:
   - java
   name: OFFLINE
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.OFFLINE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -157,7 +160,7 @@ items:
   - java
   name: REBOOTING
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.REBOOTING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -174,7 +177,7 @@ items:
   - java
   name: REIMAGING
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.REIMAGING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -191,7 +194,7 @@ items:
   - java
   name: RUNNING
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.RUNNING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -208,7 +211,7 @@ items:
   - java
   name: STARTING
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.STARTING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -225,7 +228,7 @@ items:
   - java
   name: STARTTASKFAILED
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.STARTTASKFAILED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -260,7 +263,7 @@ items:
   - java
   name: UNKNOWN
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.UNKNOWN
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -277,7 +280,7 @@ items:
   - java
   name: UNUSABLE
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.UNUSABLE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java
@@ -294,7 +297,7 @@ items:
   - java
   name: WAITINGFORSTARTTASK
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.WAITINGFORSTARTTASK
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/ComputeNodeState.java

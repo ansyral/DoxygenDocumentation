@@ -58,6 +58,7 @@ items:
   syntax: &o1
     content: public class NetworkManagementClientImpl
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._azure_service_client
   inheritedMembers:
   - com.microsoft.azure._azure_service_client_1ab88d970f32ab62431f4c525404f38580
@@ -502,7 +503,7 @@ items:
   - java
   name: NetworkManagementClientImpl(RestClient restClient)
   fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl.NetworkManagementClientImpl(RestClient restClient)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkManagementClientImpl.java
@@ -526,7 +527,7 @@ items:
   - java
   name: NetworkManagementClientImpl(ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl.NetworkManagementClientImpl(ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkManagementClientImpl.java
@@ -550,7 +551,7 @@ items:
   - java
   name: NetworkManagementClientImpl(String baseUrl, ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl.NetworkManagementClientImpl(String baseUrl, ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/api/NetworkManagementClientImpl.java
@@ -947,8 +948,8 @@ references:
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.network.implementation.api._dns_name_availability_result_inner9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: '< '
     fullName: '< '
@@ -963,8 +964,8 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.rest._service_callback
-    name: ServiceCallback
-    fullName: com.microsoft.rest.ServiceCallback
+    name: ServiceCallback<T>
+    fullName: com.microsoft.rest.ServiceCallback<T>
     href: com.microsoft.rest._service_callback.yml
   - name: '< '
     fullName: '< '
@@ -979,7 +980,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(String baseUrl)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(String baseUrl)
-  type: Method
+  type: Constructor
   syntax:
     content: protected AzureServiceClient(String baseUrl)
     parameters:
@@ -990,7 +991,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(RestClient restClient)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(RestClient restClient)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceClient class.</p>
 
@@ -1266,8 +1267,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -1308,8 +1309,8 @@ references:
 - uid: com.microsoft.rest._service_callback
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_callback.yml
-  name: ServiceCallback
-  fullName: com.microsoft.rest.ServiceCallback
+  name: ServiceCallback<T>
+  fullName: com.microsoft.rest.ServiceCallback<T>
   type: Class
   summary: >-
     <p>The callback used for client side asynchronous operations.</p>

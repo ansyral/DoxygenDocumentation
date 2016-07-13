@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._certificate_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum CertificateState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<CertificateState>
 - uid: com.microsoft.azure.batch.protocol.models._certificate_state_1aec2af0af367e025892244658fabd2904
   id: _certificate_state_1aec2af0af367e025892244658fabd2904
   parent: com.microsoft.azure.batch.protocol.models._certificate_state
@@ -34,7 +37,7 @@ items:
   - java
   name: ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateState.java
@@ -51,7 +54,7 @@ items:
   - java
   name: CertificateState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.CertificateState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateState.java
@@ -70,7 +73,7 @@ items:
   - java
   name: DELETEFAILED
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.DELETEFAILED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateState.java
@@ -87,7 +90,7 @@ items:
   - java
   name: DELETING
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.DELETING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/CertificateState.java

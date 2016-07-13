@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._reason" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum Reason
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<Reason>
 - uid: com.microsoft.azure.management.storage.implementation.api._reason_1aeb92b247a3c46e6b56ae0d309c09c674
   id: _reason_1aeb92b247a3c46e6b56ae0d309c09c674
   parent: com.microsoft.azure.management.storage.implementation.api._reason
@@ -33,7 +36,7 @@ items:
   - java
   name: ACCOUNT_NAME_INVALID
   fullName: com.microsoft.azure.management.storage.implementation.api.Reason.ACCOUNT_NAME_INVALID
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Reason.java
@@ -50,7 +53,7 @@ items:
   - java
   name: ALREADY_EXISTS
   fullName: com.microsoft.azure.management.storage.implementation.api.Reason.ALREADY_EXISTS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Reason.java
@@ -94,7 +97,7 @@ items:
   - java
   name: Reason(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.Reason.Reason(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Reason.java

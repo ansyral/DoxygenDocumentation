@@ -25,6 +25,8 @@ items:
   summary: <p>The encryption settings on the account. </p>
   syntax: &o1
     content: public class Encryption
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.storage.implementation.api._encryption_1ab20fba5c844449eef90714fa401008bb
   id: _encryption_1ab20fba5c844449eef90714fa401008bb
   parent: com.microsoft.azure.management.storage.implementation.api._encryption
@@ -33,7 +35,7 @@ items:
   - java
   name: Encryption()
   fullName: com.microsoft.azure.management.storage.implementation.api.Encryption.Encryption()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/Encryption.java

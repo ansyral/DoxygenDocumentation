@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._scheduling_error_category" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SchedulingErrorCategory
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SchedulingErrorCategory>
 - uid: com.microsoft.azure.batch.protocol.models._scheduling_error_category_1aedfd3619c446e84100015513fee3d9e3
   id: _scheduling_error_category_1aedfd3619c446e84100015513fee3d9e3
   parent: com.microsoft.azure.batch.protocol.models._scheduling_error_category
@@ -61,7 +64,7 @@ items:
   - java
   name: SchedulingErrorCategory(String value)
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingErrorCategory.SchedulingErrorCategory(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingErrorCategory.java
@@ -80,7 +83,7 @@ items:
   - java
   name: SERVERERROR
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingErrorCategory.SERVERERROR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingErrorCategory.java
@@ -115,7 +118,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingErrorCategory.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingErrorCategory.java
@@ -132,7 +135,7 @@ items:
   - java
   name: USERERROR
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingErrorCategory.USERERROR
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/SchedulingErrorCategory.java

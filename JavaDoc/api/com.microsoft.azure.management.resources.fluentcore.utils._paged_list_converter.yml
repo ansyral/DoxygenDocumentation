@@ -8,8 +8,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter.yml
   langs:
   - java
-  name: PagedListConverter
-  fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter
+  name: PagedListConverter<U,V>
+  fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter<U,V>
   type: Class
   source:
     remote: &o0
@@ -30,6 +30,8 @@ items:
       description: <p>the type of <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> to convert from </p>
     - type: 0a560652
       description: <p>the type of <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> to convert to </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter_1ae020f1b4501a880c513f23e601a6a8d7
   id: _paged_list_converter_1ae020f1b4501a880c513f23e601a6a8d7
   parent: com.microsoft.azure.management.resources.fluentcore.utils._paged_list_converter
@@ -102,16 +104,16 @@ references:
   - name: 'final '
     fullName: 'final '
   - uid: com.microsoft.azure._paged_list
-    name: PagedList
-    fullName: com.microsoft.azure.PagedList
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
     href: com.microsoft.azure._paged_list.yml
   - name: < U >
     fullName: < U >
 - uid: com.microsoft.azure._paged_listadbb9e59
   spec.java:
   - uid: com.microsoft.azure._paged_list
-    name: PagedList
-    fullName: com.microsoft.azure.PagedList
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
     href: com.microsoft.azure._paged_list.yml
   - name: < V >
     fullName: < V >
@@ -127,8 +129,8 @@ references:
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
-  name: PagedList
-  fullName: com.microsoft.azure.PagedList
+  name: PagedList<E>
+  fullName: com.microsoft.azure.PagedList<E>
   type: Class
   summary: >-
     <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>

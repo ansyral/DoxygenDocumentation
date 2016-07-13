@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._operating_system_types" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum OperatingSystemTypes
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<OperatingSystemTypes>
 - uid: com.microsoft.azure.management.compute.implementation.api._operating_system_types_1a6123cc130ee81c564da2eb8865da1cc7
   id: _operating_system_types_1a6123cc130ee81c564da2eb8865da1cc7
   parent: com.microsoft.azure.management.compute.implementation.api._operating_system_types
@@ -60,7 +63,7 @@ items:
   - java
   name: LINUX
   fullName: com.microsoft.azure.management.compute.implementation.api.OperatingSystemTypes.LINUX
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/OperatingSystemTypes.java
@@ -77,7 +80,7 @@ items:
   - java
   name: OperatingSystemTypes(String value)
   fullName: com.microsoft.azure.management.compute.implementation.api.OperatingSystemTypes.OperatingSystemTypes(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/OperatingSystemTypes.java
@@ -114,7 +117,7 @@ items:
   - java
   name: WINDOWS
   fullName: com.microsoft.azure.management.compute.implementation.api.OperatingSystemTypes.WINDOWS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/OperatingSystemTypes.java

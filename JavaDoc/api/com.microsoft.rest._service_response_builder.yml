@@ -19,8 +19,8 @@ items:
   href: com.microsoft.rest._service_response_builder.yml
   langs:
   - java
-  name: ServiceResponseBuilder
-  fullName: com.microsoft.rest.ServiceResponseBuilder
+  name: ServiceResponseBuilder<T,E>
+  fullName: com.microsoft.rest.ServiceResponseBuilder<T,E>
   type: Class
   source:
     remote: &o0
@@ -41,6 +41,8 @@ items:
       description: <p>The return type the caller expects from the REST response. </p>
     - type: 0ca03e3a
       description: <p>the exception to throw in case of error. </p>
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.rest._service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
   id: _service_response_builder_1ae6f59c7173350860a11e1d50e3c168c9
   parent: com.microsoft.rest._service_response_builder
@@ -365,7 +367,7 @@ items:
   - java
   name: ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter)
   fullName: com.microsoft.rest.ServiceResponseBuilder< T, E extends RestException >.ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseBuilder.java
@@ -389,7 +391,7 @@ items:
   - java
   name: ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter, Map< Integer, Type > responseTypes)
   fullName: com.microsoft.rest.ServiceResponseBuilder< T, E extends RestException >.ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter, Map< Integer, Type > responseTypes)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceResponseBuilder.java
@@ -442,8 +444,8 @@ references:
 - uid: com.microsoft.rest._service_response_builderc95ff18c
   spec.java:
   - uid: com.microsoft.rest._service_response_builder
-    name: ServiceResponseBuilder
-    fullName: com.microsoft.rest.ServiceResponseBuilder
+    name: ServiceResponseBuilder<T,E>
+    fullName: com.microsoft.rest.ServiceResponseBuilder<T,E>
     href: com.microsoft.rest._service_response_builder.yml
   - name: < T, E >
     fullName: < T, E >
@@ -468,8 +470,8 @@ references:
 - uid: com.microsoft.rest._service_response34132889
   spec.java:
   - uid: com.microsoft.rest._service_response
-    name: ServiceResponse
-    fullName: com.microsoft.rest.ServiceResponse
+    name: ServiceResponse<T>
+    fullName: com.microsoft.rest.ServiceResponse<T>
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
@@ -486,8 +488,8 @@ references:
   - name: 'public< THeader > '
     fullName: 'public< THeader > '
   - uid: com.microsoft.rest._service_response_with_headers
-    name: ServiceResponseWithHeaders
-    fullName: com.microsoft.rest.ServiceResponseWithHeaders
+    name: ServiceResponseWithHeaders<TBody,THeader>
+    fullName: com.microsoft.rest.ServiceResponseWithHeaders<TBody,THeader>
     href: com.microsoft.rest._service_response_with_headers.yml
   - name: < T, THeader >
     fullName: < T, THeader >
@@ -502,8 +504,8 @@ references:
 - uid: com.microsoft.azure._azure_service_response_builder
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure_service_response_builder.yml
-  name: AzureServiceResponseBuilder
-  fullName: com.microsoft.azure.AzureServiceResponseBuilder
+  name: AzureServiceResponseBuilder<T,E>
+  fullName: com.microsoft.azure.AzureServiceResponseBuilder<T,E>
   type: Class
   summary: >-
     <p>The builder for building a <ref refid="" kindref="compound">ServiceResponse</ref>.</p>
@@ -537,8 +539,8 @@ references:
 - uid: com.microsoft.rest._service_response_builder
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_builder.yml
-  name: ServiceResponseBuilder
-  fullName: com.microsoft.rest.ServiceResponseBuilder
+  name: ServiceResponseBuilder<T,E>
+  fullName: com.microsoft.rest.ServiceResponseBuilder<T,E>
   type: Class
   summary: >-
     <p>The builder for building a <xref href="com.microsoft.rest._service_response" data-throw-if-not-resolved="false"></xref>.</p>
@@ -548,8 +550,8 @@ references:
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
-  name: ServiceResponse
-  fullName: com.microsoft.rest.ServiceResponse
+  name: ServiceResponse<T>
+  fullName: com.microsoft.rest.ServiceResponse<T>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>
@@ -563,8 +565,8 @@ references:
 - uid: com.microsoft.rest._service_response_with_headers
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response_with_headers.yml
-  name: ServiceResponseWithHeaders
-  fullName: com.microsoft.rest.ServiceResponseWithHeaders
+  name: ServiceResponseWithHeaders<TBody,THeader>
+  fullName: com.microsoft.rest.ServiceResponseWithHeaders<TBody,THeader>
   type: Class
   summary: >-
     <p>An instance of this class holds a response object and a raw REST response.</p>

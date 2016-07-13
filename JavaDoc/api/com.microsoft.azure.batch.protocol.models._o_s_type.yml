@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._o_s_type" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum OSType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<OSType>
 - uid: com.microsoft.azure.batch.protocol.models._o_s_type_1a188423cf3952ffac273c8dbd231a12c0
   id: _o_s_type_1a188423cf3952ffac273c8dbd231a12c0
   parent: com.microsoft.azure.batch.protocol.models._o_s_type
@@ -61,7 +64,7 @@ items:
   - java
   name: LINUX
   fullName: com.microsoft.azure.batch.protocol.models.OSType.LINUX
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/OSType.java
@@ -78,7 +81,7 @@ items:
   - java
   name: OSType(String value)
   fullName: com.microsoft.azure.batch.protocol.models.OSType.OSType(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/OSType.java
@@ -115,7 +118,7 @@ items:
   - java
   name: UNMAPPED
   fullName: com.microsoft.azure.batch.protocol.models.OSType.UNMAPPED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/OSType.java
@@ -132,7 +135,7 @@ items:
   - java
   name: WINDOWS
   fullName: com.microsoft.azure.batch.protocol.models.OSType.WINDOWS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/OSType.java

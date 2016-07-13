@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._azure_resource_type" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum AzureResourceType
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<AzureResourceType>
 - uid: com.microsoft.azure.management.website.implementation.api._azure_resource_type_1abfec5d01363a32c34bfbd1042137ec03
   id: _azure_resource_type_1abfec5d01363a32c34bfbd1042137ec03
   parent: com.microsoft.azure.management.website.implementation.api._azure_resource_type
@@ -33,7 +36,7 @@ items:
   - java
   name: AzureResourceType(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType.AzureResourceType(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
@@ -97,7 +100,7 @@ items:
   - java
   name: TRAFFIC_MANAGER
   fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType.TRAFFIC_MANAGER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java
@@ -114,7 +117,7 @@ items:
   - java
   name: WEBSITE
   fullName: com.microsoft.azure.management.website.implementation.api.AzureResourceType.WEBSITE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/AzureResourceType.java

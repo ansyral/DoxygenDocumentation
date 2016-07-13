@@ -26,6 +26,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._site_availability_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum SiteAvailabilityState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<SiteAvailabilityState>
 - uid: com.microsoft.azure.management.website.implementation.api._site_availability_state_1aa320b704e6d73adc93632f5791e7e556
   id: _site_availability_state_1aa320b704e6d73adc93632f5791e7e556
   parent: com.microsoft.azure.management.website.implementation.api._site_availability_state
@@ -34,7 +37,7 @@ items:
   - java
   name: DISASTER_RECOVERY_MODE
   fullName: com.microsoft.azure.management.website.implementation.api.SiteAvailabilityState.DISASTER_RECOVERY_MODE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteAvailabilityState.java
@@ -78,7 +81,7 @@ items:
   - java
   name: LIMITED
   fullName: com.microsoft.azure.management.website.implementation.api.SiteAvailabilityState.LIMITED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteAvailabilityState.java
@@ -95,7 +98,7 @@ items:
   - java
   name: NORMAL
   fullName: com.microsoft.azure.management.website.implementation.api.SiteAvailabilityState.NORMAL
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteAvailabilityState.java
@@ -112,7 +115,7 @@ items:
   - java
   name: SiteAvailabilityState(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.SiteAvailabilityState.SiteAvailabilityState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/SiteAvailabilityState.java

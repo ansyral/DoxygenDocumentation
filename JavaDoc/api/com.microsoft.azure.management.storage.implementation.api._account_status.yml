@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._account_status" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum AccountStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<AccountStatus>
 - uid: com.microsoft.azure.management.storage.implementation.api._account_status_1ad5eea6146e048ca04fe813d057ac39e9
   id: _account_status_1ad5eea6146e048ca04fe813d057ac39e9
   parent: com.microsoft.azure.management.storage.implementation.api._account_status
@@ -33,7 +36,7 @@ items:
   - java
   name: AccountStatus(String value)
   fullName: com.microsoft.azure.management.storage.implementation.api.AccountStatus.AccountStatus(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/AccountStatus.java
@@ -52,7 +55,7 @@ items:
   - java
   name: AVAILABLE
   fullName: com.microsoft.azure.management.storage.implementation.api.AccountStatus.AVAILABLE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/AccountStatus.java
@@ -114,7 +117,7 @@ items:
   - java
   name: UNAVAILABLE
   fullName: com.microsoft.azure.management.storage.implementation.api.AccountStatus.UNAVAILABLE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/api/AccountStatus.java

@@ -22,6 +22,9 @@ items:
   package: com.microsoft.rest
   syntax:
     content: public enum Color
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ValidatorTests.Color>
 - uid: com.microsoft.rest._validator_tests._color_1a74b9bc111a01ea1d686eb71372552ff8
   id: _color_1a74b9bc111a01ea1d686eb71372552ff8
   parent: com.microsoft.rest._validator_tests._color
@@ -30,7 +33,7 @@ items:
   - java
   name: Blue
   fullName: com.microsoft.rest.ValidatorTests.Color.Blue
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/test/java/com/microsoft/rest/ValidatorTests.java
@@ -46,7 +49,7 @@ items:
   - java
   name: GREEN
   fullName: com.microsoft.rest.ValidatorTests.Color.GREEN
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/test/java/com/microsoft/rest/ValidatorTests.java
@@ -62,7 +65,7 @@ items:
   - java
   name: RED
   fullName: com.microsoft.rest.ValidatorTests.Color.RED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/test/java/com/microsoft/rest/ValidatorTests.java

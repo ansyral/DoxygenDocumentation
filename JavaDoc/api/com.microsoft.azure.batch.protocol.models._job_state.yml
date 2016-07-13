@@ -30,6 +30,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._job_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum JobState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<JobState>
 - uid: com.microsoft.azure.batch.protocol.models._job_state_1a42b8755f9477cdef377e7b133e1b2633
   id: _job_state_1a42b8755f9477cdef377e7b133e1b2633
   parent: com.microsoft.azure.batch.protocol.models._job_state
@@ -38,7 +41,7 @@ items:
   - java
   name: ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.JobState.ACTIVE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -55,7 +58,7 @@ items:
   - java
   name: COMPLETED
   fullName: com.microsoft.azure.batch.protocol.models.JobState.COMPLETED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -72,7 +75,7 @@ items:
   - java
   name: DELETING
   fullName: com.microsoft.azure.batch.protocol.models.JobState.DELETING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -89,7 +92,7 @@ items:
   - java
   name: DISABLED
   fullName: com.microsoft.azure.batch.protocol.models.JobState.DISABLED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -106,7 +109,7 @@ items:
   - java
   name: DISABLING
   fullName: com.microsoft.azure.batch.protocol.models.JobState.DISABLING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -123,7 +126,7 @@ items:
   - java
   name: ENABLING
   fullName: com.microsoft.azure.batch.protocol.models.JobState.ENABLING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -167,7 +170,7 @@ items:
   - java
   name: JobState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.JobState.JobState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java
@@ -186,7 +189,7 @@ items:
   - java
   name: TERMINATING
   fullName: com.microsoft.azure.batch.protocol.models.JobState.TERMINATING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobState.java

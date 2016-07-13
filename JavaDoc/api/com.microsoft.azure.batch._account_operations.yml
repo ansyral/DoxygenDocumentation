@@ -26,6 +26,7 @@ items:
   syntax:
     content: public class AccountOperations
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
 - uid: com.microsoft.azure.batch._account_operations_1a4a34f1e27c1519a72973811895ee4579
   id: _account_operations_1a4a34f1e27c1519a72973811895ee4579
@@ -35,7 +36,7 @@ items:
   - java
   name: AccountOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
   fullName: com.microsoft.azure.batch.AccountOperations.AccountOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java

@@ -26,6 +26,8 @@ items:
   summary: <p>The IIS handler mappings used to define which handler processes HTTP requests with certain extension. For example it is used to configure php-cgi.exe process to handle all HTTP requests with *.php extension. </p>
   syntax: &o1
     content: public class HandlerMapping
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.management.website.implementation.api._handler_mapping_1aabe5e953f5649dbd21fbfd8940822ee2
   id: _handler_mapping_1aabe5e953f5649dbd21fbfd8940822ee2
   parent: com.microsoft.azure.management.website.implementation.api._handler_mapping

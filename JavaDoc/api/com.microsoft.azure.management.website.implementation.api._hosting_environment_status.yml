@@ -27,6 +27,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.website.implementation.api._hosting_environment_status" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum HostingEnvironmentStatus
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<HostingEnvironmentStatus>
 - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_status_1a76725dcfd582d9026c78df3bf46d832c
   id: _hosting_environment_status_1a76725dcfd582d9026c78df3bf46d832c
   parent: com.microsoft.azure.management.website.implementation.api._hosting_environment_status
@@ -35,7 +38,7 @@ items:
   - java
   name: DELETING
   fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.DELETING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
@@ -79,7 +82,7 @@ items:
   - java
   name: HostingEnvironmentStatus(String value)
   fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.HostingEnvironmentStatus(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
@@ -98,7 +101,7 @@ items:
   - java
   name: PREPARING
   fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.PREPARING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
@@ -115,7 +118,7 @@ items:
   - java
   name: READY
   fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.READY
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java
@@ -132,7 +135,7 @@ items:
   - java
   name: SCALING
   fullName: com.microsoft.azure.management.website.implementation.api.HostingEnvironmentStatus.SCALING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-website/src/main/java/com/microsoft/azure/management/website/implementation/api/HostingEnvironmentStatus.java

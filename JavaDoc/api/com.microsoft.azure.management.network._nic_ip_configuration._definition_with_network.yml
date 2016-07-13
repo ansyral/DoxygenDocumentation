@@ -10,8 +10,8 @@ items:
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_network.yml
   langs:
   - java
-  name: NicIpConfiguration.DefinitionWithNetwork
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithNetwork
+  name: NicIpConfiguration.DefinitionWithNetwork<ParentT>
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithNetwork<ParentT>
   type: Interface
   source:
     remote: &o0
@@ -157,8 +157,8 @@ references:
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ipa6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip
-    name: NicIpConfiguration.DefinitionWithPrivateIp
-    fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPrivateIp
+    name: NicIpConfiguration.DefinitionWithPrivateIp<ParentT>
+    fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPrivateIp<ParentT>
     href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip.yml
   - name: < ParentT >
     fullName: < ParentT >
@@ -169,16 +169,16 @@ references:
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subneta6da57ba
   spec.java:
   - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet
-    name: NicIpConfiguration.DefinitionWithSubnet
-    fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithSubnet
+    name: NicIpConfiguration.DefinitionWithSubnet<ParentT>
+    fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithSubnet<ParentT>
     href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet.yml
   - name: < ParentT >
     fullName: < ParentT >
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_blank
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_blank.yml
-  name: NicIpConfiguration.DefinitionBlank
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionBlank
+  name: NicIpConfiguration.DefinitionBlank<ParentT>
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionBlank<ParentT>
   type: Interface
   summary: >-
     <p>The first stage of Ip configuration definition.</p>
@@ -192,8 +192,8 @@ references:
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definitions.yml
-  name: NicIpConfiguration.Definitions
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Definitions
+  name: NicIpConfiguration.Definitions<ParentT>
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Definitions<ParentT>
   type: Interface
   summary: >-
     <p>Container interface for all the definitions.</p>
@@ -207,8 +207,8 @@ references:
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_private_ip.yml
-  name: NicIpConfiguration.DefinitionWithPrivateIp
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPrivateIp
+  name: NicIpConfiguration.DefinitionWithPrivateIp<ParentT>
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithPrivateIp<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the Ip configuration definition allowing to specify private IP address within a virtual network subnet.</p>
@@ -222,8 +222,8 @@ references:
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_subnet.yml
-  name: NicIpConfiguration.DefinitionWithSubnet
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithSubnet
+  name: NicIpConfiguration.DefinitionWithSubnet<ParentT>
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionWithSubnet<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the Ip configuration definition allowing to specify subnet.</p>

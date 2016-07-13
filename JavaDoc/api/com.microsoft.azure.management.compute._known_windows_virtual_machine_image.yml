@@ -30,6 +30,9 @@ items:
   summary: <p>The popular <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Windows images. </p>
   syntax:
     content: public enum KnownWindowsVirtualMachineImage
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<KnownWindowsVirtualMachineImage>
 - uid: com.microsoft.azure.management.compute._known_windows_virtual_machine_image_1a47e6094c981da080ee82729da7dd89f4
   id: _known_windows_virtual_machine_image_1a47e6094c981da080ee82729da7dd89f4
   parent: com.microsoft.azure.management.compute._known_windows_virtual_machine_image
@@ -57,7 +60,7 @@ items:
   - java
   name: KnownWindowsVirtualMachineImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage.KnownWindowsVirtualMachineImage(String publisher, String offer, String sku)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
@@ -137,7 +140,7 @@ items:
   - java
   name: WINDOWS_SERVER_2008_R2_SP1
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage.WINDOWS_SERVER_2008_R2_SP1
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
@@ -154,7 +157,7 @@ items:
   - java
   name: WINDOWS_SERVER_2012_DATACENTER
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage.WINDOWS_SERVER_2012_DATACENTER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
@@ -171,7 +174,7 @@ items:
   - java
   name: WINDOWS_SERVER_2012_R2_DATACENTER
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage.WINDOWS_SERVER_2012_R2_DATACENTER
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
@@ -188,7 +191,7 @@ items:
   - java
   name: WINDOWS_SERVER_2016_TECHNICAL_PREVIEW_WITH_CONTAINERS
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage.WINDOWS_SERVER_2016_TECHNICAL_PREVIEW_WITH_CONTAINERS
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
@@ -205,7 +208,7 @@ items:
   - java
   name: WINDOWS_SERVER_TECHNICAL_PREVIEW
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage.WINDOWS_SERVER_TECHNICAL_PREVIEW
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java

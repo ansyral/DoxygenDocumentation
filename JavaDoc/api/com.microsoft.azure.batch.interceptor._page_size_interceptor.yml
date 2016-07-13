@@ -21,6 +21,7 @@ items:
   syntax:
     content: public class PageSizeInterceptor
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._batch_client_behavior
   - com.microsoft.azure.batch.interceptor._request_interceptor
   inheritedMembers:
@@ -36,7 +37,7 @@ items:
   - java
   name: PageSizeInterceptor(int pageSize)
   fullName: com.microsoft.azure.batch.interceptor.PageSizeInterceptor.PageSizeInterceptor(int pageSize)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/PageSizeInterceptor.java
@@ -67,7 +68,7 @@ references:
   href: com.microsoft.azure.batch.interceptor._request_interceptor.yml
   name: RequestInterceptor()
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor()
-  type: Method
+  type: Constructor
   syntax:
     content: public RequestInterceptor()
 - uid: com.microsoft.azure.batch.interceptor._request_interceptor_1a22cf3bd2426dfe39721bcf97f924542d
@@ -75,7 +76,7 @@ references:
   href: com.microsoft.azure.batch.interceptor._request_interceptor.yml
   name: RequestInterceptor(BatchRequestInterceptHandler handler)
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor(BatchRequestInterceptHandler handler)
-  type: Method
+  type: Constructor
   syntax:
     content: public RequestInterceptor(BatchRequestInterceptHandler handler)
     parameters:

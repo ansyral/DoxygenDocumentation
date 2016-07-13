@@ -16,8 +16,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._azure_configurable_impl.yml
   langs:
   - java
-  name: AzureConfigurableImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.AzureConfigurableImpl
+  name: AzureConfigurableImpl<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.AzureConfigurableImpl<T>
   type: Class
   source:
     remote: &o0
@@ -37,6 +37,7 @@ items:
     - type: 8ce1ecb9
       description: <p>the type of the configurable interface </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._azure_configurable_impl_1ae9ea36bcd724a700079ad4bc744aec6a
   id: _azure_configurable_impl_1ae9ea36bcd724a700079ad4bc744aec6a
@@ -46,7 +47,7 @@ items:
   - java
   name: AzureConfigurableImpl()
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.AzureConfigurableImpl< T extends AzureConfigurable< T >.AzureConfigurableImpl()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/AzureConfigurableImpl.java
@@ -345,8 +346,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable
   parent: com.microsoft.azure.management.resources.fluentcore.arm
   href: com.microsoft.azure.management.resources.fluentcore.arm._azure_configurable.yml
-  name: AzureConfigurable
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.AzureConfigurable
+  name: AzureConfigurable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.AzureConfigurable<T>
   type: Interface
   summary: >-
     <p>The base interface for allowing configurations to be made on the HTTP client.</p>

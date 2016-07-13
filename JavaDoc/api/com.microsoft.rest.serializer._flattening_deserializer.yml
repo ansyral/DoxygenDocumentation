@@ -25,6 +25,7 @@ items:
   syntax: &o1
     content: public class FlatteningDeserializer
   inheritance:
+  - java.lang.Object
   - com.fasterxml.jackson.databind.deser.std.StdDeserializer< Object >
 - uid: com.microsoft.rest.serializer._flattening_deserializer_1a21b64e5ca9fca56a57bae2c71dd49dd3
   id: _flattening_deserializer_1a21b64e5ca9fca56a57bae2c71dd49dd3
@@ -57,7 +58,7 @@ items:
   - java
   name: FlatteningDeserializer(Class<?> vc, JsonDeserializer<?> defaultDeserializer, ObjectMapper mapper)
   fullName: com.microsoft.rest.serializer.FlatteningDeserializer.FlatteningDeserializer(Class<?> vc, JsonDeserializer<?> defaultDeserializer, ObjectMapper mapper)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/serializer/FlatteningDeserializer.java

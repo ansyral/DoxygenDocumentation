@@ -24,6 +24,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._component_names" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum ComponentNames
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ComponentNames>
 - uid: com.microsoft.azure.management.compute.implementation.api._component_names_1a659901e455742e76b6c989f5888e743f
   id: _component_names_1a659901e455742e76b6c989f5888e743f
   parent: com.microsoft.azure.management.compute.implementation.api._component_names
@@ -32,7 +35,7 @@ items:
   - java
   name: ComponentNames(String value)
   fullName: com.microsoft.azure.management.compute.implementation.api.ComponentNames.ComponentNames(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ComponentNames.java
@@ -78,7 +81,7 @@ items:
   - java
   name: MICROSOFT_WINDOWS_SHELL_SETUP
   fullName: com.microsoft.azure.management.compute.implementation.api.ComponentNames.MICROSOFT_WINDOWS_SHELL_SETUP
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/api/ComponentNames.java

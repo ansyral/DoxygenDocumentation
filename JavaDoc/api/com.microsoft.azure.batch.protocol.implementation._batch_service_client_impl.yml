@@ -43,6 +43,7 @@ items:
   syntax: &o1
     content: public class BatchServiceClientImpl
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure._azure_service_client
   inheritedMembers:
   - com.microsoft.azure._azure_service_client_1ab88d970f32ab62431f4c525404f38580
@@ -150,7 +151,7 @@ items:
   - java
   name: BatchServiceClientImpl(RestClient restClient)
   fullName: com.microsoft.azure.batch.protocol.implementation.BatchServiceClientImpl.BatchServiceClientImpl(RestClient restClient)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/BatchServiceClientImpl.java
@@ -174,7 +175,7 @@ items:
   - java
   name: BatchServiceClientImpl(ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.batch.protocol.implementation.BatchServiceClientImpl.BatchServiceClientImpl(ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/BatchServiceClientImpl.java
@@ -198,7 +199,7 @@ items:
   - java
   name: BatchServiceClientImpl(String baseUrl, ServiceClientCredentials credentials)
   fullName: com.microsoft.azure.batch.protocol.implementation.BatchServiceClientImpl.BatchServiceClientImpl(String baseUrl, ServiceClientCredentials credentials)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/implementation/BatchServiceClientImpl.java
@@ -575,7 +576,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(String baseUrl)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(String baseUrl)
-  type: Method
+  type: Constructor
   syntax:
     content: protected AzureServiceClient(String baseUrl)
     parameters:
@@ -586,7 +587,7 @@ references:
   href: com.microsoft.azure._azure_service_client.yml
   name: AzureServiceClient(RestClient restClient)
   fullName: com.microsoft.azure.AzureServiceClient.AzureServiceClient(RestClient restClient)
-  type: Method
+  type: Constructor
   summary: >-
     <p>Initializes a new instance of the ServiceClient class.</p>
 

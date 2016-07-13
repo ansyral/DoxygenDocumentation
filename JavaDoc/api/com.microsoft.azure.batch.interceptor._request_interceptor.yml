@@ -24,6 +24,7 @@ items:
   syntax:
     content: public class RequestInterceptor
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.batch._batch_client_behavior
 - uid: com.microsoft.azure.batch.interceptor._request_interceptor_1a4fc877ad26b134dc26252d54e7758634
   id: _request_interceptor_1a4fc877ad26b134dc26252d54e7758634
@@ -51,7 +52,7 @@ items:
   - java
   name: RequestInterceptor()
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor()
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/RequestInterceptor.java
@@ -67,7 +68,7 @@ items:
   - java
   name: RequestInterceptor(BatchRequestInterceptHandler handler)
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor(BatchRequestInterceptHandler handler)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/RequestInterceptor.java

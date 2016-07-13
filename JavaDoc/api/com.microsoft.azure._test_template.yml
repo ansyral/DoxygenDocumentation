@@ -14,8 +14,8 @@ items:
   href: com.microsoft.azure._test_template.yml
   langs:
   - java
-  name: TestTemplate
-  fullName: com.microsoft.azure.TestTemplate
+  name: TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
+  fullName: com.microsoft.azure.TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
   type: Class
   source:
     remote: &o0
@@ -34,6 +34,8 @@ items:
     - type: 37f8610d
       description: <p>Type representing the collection of the top level resources </p>
     - type: 7804ff6ccom.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group6d8ef525com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting76390d34com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id34132889
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure._test_template_1a684d4c90f454f54c9c2d28567b18da16
   id: _test_template_1a684d4c90f454f54c9c2d28567b18da16
   parent: com.microsoft.azure._test_template
@@ -249,8 +251,8 @@ references:
   - name: '&'
     fullName: '&'
   - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group
-    name: SupportsGettingByGroup
-    fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByGroup
+    name: SupportsGettingByGroup<T>
+    fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByGroup<T>
     href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group.yml
   - name: < T > &
     fullName: < T > &
@@ -261,8 +263,8 @@ references:
   - name: ' &'
     fullName: ' &'
   - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
-    name: SupportsGettingById
-    fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById
+    name: SupportsGettingById<T>
+    fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>
     href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id.yml
   - name: < T >
     fullName: < T >
@@ -302,8 +304,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing
   parent: com.microsoft.azure.management.resources.fluentcore.collection
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing.yml
-  name: SupportsListing
-  fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing
+  name: SupportsListing<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>
   type: Interface
   summary: >-
     <p>Provides access to listing <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources of a specific type in a subscription. </p>
@@ -319,8 +321,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group.yml
-  name: SupportsGettingByGroup
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByGroup
+  name: SupportsGettingByGroup<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByGroup<T>
   type: Interface
   summary: >-
     <p>Provides access to getting a specific <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource based on its name and resource group.</p>
@@ -348,8 +350,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id.yml
-  name: SupportsGettingById
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById
+  name: SupportsGettingById<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>
   type: Interface
   summary: >-
     <p>Provides access to getting a specific <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource based on its resource ID.</p>

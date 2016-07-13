@@ -27,6 +27,7 @@ items:
   syntax: &o1
     content: public class MultipleSegmentUploader
   inheritance:
+  - java.lang.Object
   - Runnable
 - uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader_1ad7ba392d17020dad6c9d03e1942c1f72
   id: _multiple_segment_uploader_1ad7ba392d17020dad6c9d03e1942c1f72
@@ -55,7 +56,7 @@ items:
   - java
   name: MultipleSegmentUploader(UploadMetadata uploadMetadata, int maxThreadCount, FrontEndAdapter frontEnd)
   fullName: com.microsoft.azure.management.datalake.store.uploader.MultipleSegmentUploader.MultipleSegmentUploader(UploadMetadata uploadMetadata, int maxThreadCount, FrontEndAdapter frontEnd)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/MultipleSegmentUploader.java

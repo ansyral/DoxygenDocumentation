@@ -24,6 +24,8 @@ items:
   summary: <p>Specifies any dependencies of a task. Any task that is explicitly specified or within a dependency range must complete before the dependant task will be scheduled. </p>
   syntax: &o1
     content: public class TaskDependencies
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.batch.protocol.models._task_dependencies_1a63270056305b33f091164e1352befd6c
   id: _task_dependencies_1a63270056305b33f091164e1352befd6c
   parent: com.microsoft.azure.batch.protocol.models._task_dependencies

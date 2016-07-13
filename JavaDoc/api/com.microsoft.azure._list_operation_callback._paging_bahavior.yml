@@ -22,6 +22,9 @@ items:
   summary: <p>An enum to indicate whether the client should continue loading or stop. </p>
   syntax:
     content: public enum PagingBahavior
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<ListOperationCallback.PagingBahavior>
 - uid: com.microsoft.azure._list_operation_callback._paging_bahavior_1a6a7fa0bf3754231474fa6f560302fe1b
   id: _paging_bahavior_1a6a7fa0bf3754231474fa6f560302fe1b
   parent: com.microsoft.azure._list_operation_callback._paging_bahavior
@@ -30,7 +33,7 @@ items:
   - java
   name: CONTINUE
   fullName: com.microsoft.azure.ListOperationCallback< E >.PagingBahavior.CONTINUE
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/ListOperationCallback.java
@@ -47,7 +50,7 @@ items:
   - java
   name: STOP
   fullName: com.microsoft.azure.ListOperationCallback< E >.PagingBahavior.STOP
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/ListOperationCallback.java

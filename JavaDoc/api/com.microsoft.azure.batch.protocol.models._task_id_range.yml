@@ -24,6 +24,8 @@ items:
   summary: <p>A range of task ids that a task can depend on. All tasks with ids in the range must complete successfully before the dependent task can be scheduled. </p>
   syntax: &o1
     content: public class TaskIdRange
+  inheritance:
+  - java.lang.Object
 - uid: com.microsoft.azure.batch.protocol.models._task_id_range_1ab7e4bc0273b9f1a10910d897ac6a35e6
   id: _task_id_range_1ab7e4bc0273b9f1a10910d897ac6a35e6
   parent: com.microsoft.azure.batch.protocol.models._task_id_range

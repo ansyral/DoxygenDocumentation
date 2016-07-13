@@ -25,6 +25,9 @@ items:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._job_preparation_task_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
     content: public enum JobPreparationTaskState
+  inheritance:
+  - java.lang.Object
+  - java.lang.Enum<JobPreparationTaskState>
 - uid: com.microsoft.azure.batch.protocol.models._job_preparation_task_state_1aef6b494daa92bbe1e2364ff36ab2ce3a
   id: _job_preparation_task_state_1aef6b494daa92bbe1e2364ff36ab2ce3a
   parent: com.microsoft.azure.batch.protocol.models._job_preparation_task_state
@@ -33,7 +36,7 @@ items:
   - java
   name: COMPLETED
   fullName: com.microsoft.azure.batch.protocol.models.JobPreparationTaskState.COMPLETED
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobPreparationTaskState.java
@@ -77,7 +80,7 @@ items:
   - java
   name: JobPreparationTaskState(String value)
   fullName: com.microsoft.azure.batch.protocol.models.JobPreparationTaskState.JobPreparationTaskState(String value)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobPreparationTaskState.java
@@ -96,7 +99,7 @@ items:
   - java
   name: RUNNING
   fullName: com.microsoft.azure.batch.protocol.models.JobPreparationTaskState.RUNNING
-  type: Field
+  type: Constructor
   source:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/protocol/models/JobPreparationTaskState.java

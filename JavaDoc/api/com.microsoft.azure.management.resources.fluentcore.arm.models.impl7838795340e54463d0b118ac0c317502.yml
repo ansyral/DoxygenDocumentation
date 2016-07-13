@@ -9,8 +9,8 @@ items:
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl7838795340e54463d0b118ac0c317502.yml
   langs:
   - java
-  name: ChildResourceImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ChildResourceImpl
+  name: ChildResourceImpl<InnerT,ParentImplT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ChildResourceImpl<InnerT,ParentImplT>
   type: Class
   source:
     remote: &o0
@@ -32,6 +32,7 @@ items:
     - type: a6c7119d
       description: <p>Parent implementation </p>
   inheritance:
+  - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl
@@ -51,7 +52,7 @@ items:
   - java
   name: ChildResourceImpl(String name, InnerT innerObject, ParentImplT parent)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ChildResourceImpl< InnerT, ParentImplT >.ChildResourceImpl(String name, InnerT innerObject, ParentImplT parent)
-  type: Method
+  type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ChildResourceImpl.java
@@ -126,7 +127,7 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_impl.yml
   name: IndexableImpl(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableImpl.IndexableImpl(String key)
-  type: Method
+  type: Constructor
   syntax:
     content: protected IndexableImpl(String key)
     parameters:
@@ -137,7 +138,7 @@ references:
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
   name: IndexableWrapperImpl(String name, InnerT innerObject)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl< InnerT >.IndexableWrapperImpl(String name, InnerT innerObject)
-  type: Method
+  type: Constructor
   syntax:
     content: protected IndexableWrapperImpl(String name, InnerT innerObject)
     parameters:
@@ -206,8 +207,8 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._indexable_wrapper_impl.yml
-  name: IndexableWrapperImpl
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl
+  name: IndexableWrapperImpl<InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.IndexableWrapperImpl<InnerT>
   type: Class
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.model._indexable" data-throw-if-not-resolved="false"></xref> and <xref href="com.microsoft.azure.management.resources.fluentcore.model._wrapper" data-throw-if-not-resolved="false"></xref>.</p>
