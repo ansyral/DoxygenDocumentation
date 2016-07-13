@@ -139,7 +139,7 @@ references:
   type: Interface
   summary: <p>Entry point to template deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Deployments
+    content: public interface Deployments extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByName<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

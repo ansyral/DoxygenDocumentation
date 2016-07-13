@@ -18,7 +18,7 @@ items:
   package: com.microsoft.azure.management.compute
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets
+    content: public interface AvailabilitySets extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group
   inheritedMembers:

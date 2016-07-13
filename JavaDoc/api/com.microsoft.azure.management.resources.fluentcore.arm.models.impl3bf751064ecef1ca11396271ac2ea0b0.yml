@@ -30,7 +30,7 @@ items:
 
     <p></p>
   syntax: &o1
-    content: public class GroupableResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends GroupableResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>>
+    content: public class GroupableResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends GroupableResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>> extends ResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT> implements GroupableResource
     typeParameters:
     - type: 2f67777b
       description: <p>The fluent model type </p>
@@ -546,7 +546,7 @@ references:
   type: Interface
   summary: <p>Base interface for resources in resource groups. </p>
   syntax:
-    content: public interface GroupableResource
+    content: public interface GroupableResource extends Resource
 - uid: com.microsoft.azure.management.compute.implementation._availability_set_impl
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_impl
 - uid: com.microsoft.azure.management.network.implementation._network_impl

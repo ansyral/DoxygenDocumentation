@@ -133,7 +133,7 @@ references:
   type: Class
   summary: <p>An instance of this class defines a ServiceClient that handles polling and retrying for long running operations when accessing <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources. </p>
   syntax:
-    content: public class AzureClient
+    content: public class AzureClient extends AzureServiceClient
 - uid: com.microsoft.azure._azure_environment
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure_environment.yml
@@ -154,7 +154,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureResponse<T>
+    content: public class AzureResponse<T> extends ServiceResponse<T>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the response resource </p>
@@ -178,7 +178,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class AzureServiceResponseBuilder<T,E extends RestException>
+    content: public class AzureServiceResponseBuilder<T,E extends RestException> extends ServiceResponseBuilder<T,E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the return type from caller. </p>
@@ -209,7 +209,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure._custom_header_interceptor
   parent: com.microsoft.azure
   href: com.microsoft.azure._custom_header_interceptor.yml
@@ -230,7 +230,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGNode<T>
+    content: public class DAGNode<T> extends Node<T>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the node </p>
@@ -247,7 +247,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class DAGraph<T,U extends DAGNode< T>>
+    content: public class DAGraph<T,U extends DAGNode< T>> extends Graph<T,U>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the data stored in the graph nodes </p>
@@ -299,7 +299,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E>
+    content: public class ListOperationCallback<E> extends ServiceCallback<T>
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -405,7 +405,7 @@ references:
   type: Class
   summary: <p>A retry strategy with backoff parameters for calculating the exponential delay between retries for 404s from GET calls. </p>
   syntax:
-    content: public class ResourceGetExponentialBackoffRetryStrategy
+    content: public class ResourceGetExponentialBackoffRetryStrategy extends RetryStrategy
 - uid: com.microsoft.azure._rest_client
   parent: com.microsoft.azure
   href: com.microsoft.azure._rest_client.yml
@@ -454,7 +454,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class TaskGroupBase<T>
+    content: public class TaskGroupBase<T> implements TaskGroup<T,U>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the result type of the tasks in the group </p>
@@ -480,7 +480,7 @@ references:
   fullName: com.microsoft.azure.TestAvailabilitySet
   type: Class
   syntax:
-    content: public class TestAvailabilitySet
+    content: public class TestAvailabilitySet extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_network
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_network.yml
@@ -489,7 +489,7 @@ references:
   type: Class
   summary: <p>Test of virtual network management. </p>
   syntax:
-    content: public class TestNetwork
+    content: public class TestNetwork extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_network_interface
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_network_interface.yml
@@ -497,7 +497,7 @@ references:
   fullName: com.microsoft.azure.TestNetworkInterface
   type: Class
   syntax:
-    content: public class TestNetworkInterface
+    content: public class TestNetworkInterface extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_n_s_g
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_n_s_g.yml
@@ -506,7 +506,7 @@ references:
   type: Class
   summary: <p>Test for network security group CRUD. </p>
   syntax:
-    content: public class TestNSG
+    content: public class TestNSG extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_public_ip_address
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_public_ip_address.yml
@@ -515,7 +515,7 @@ references:
   type: Class
   summary: <p>Tests public IPs. </p>
   syntax:
-    content: public class TestPublicIpAddress
+    content: public class TestPublicIpAddress extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_template
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_template.yml
@@ -547,7 +547,7 @@ references:
   fullName: com.microsoft.azure.TestVirtualMachine
   type: Class
   syntax:
-    content: public class TestVirtualMachine
+    content: public class TestVirtualMachine extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_virtual_machine_data_disk
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_virtual_machine_data_disk.yml
@@ -555,7 +555,7 @@ references:
   fullName: com.microsoft.azure.TestVirtualMachineDataDisk
   type: Class
   syntax:
-    content: public class TestVirtualMachineDataDisk
+    content: public class TestVirtualMachineDataDisk extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_virtual_machine_nics
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_virtual_machine_nics.yml
@@ -563,7 +563,7 @@ references:
   fullName: com.microsoft.azure.TestVirtualMachineNics
   type: Class
   syntax:
-    content: public class TestVirtualMachineNics
+    content: public class TestVirtualMachineNics extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_virtual_machine_sizes
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_virtual_machine_sizes.yml
@@ -571,7 +571,7 @@ references:
   fullName: com.microsoft.azure.TestVirtualMachineSizes
   type: Class
   syntax:
-    content: public class TestVirtualMachineSizes
+    content: public class TestVirtualMachineSizes extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._test_virtual_machine_ssh
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_virtual_machine_ssh.yml
@@ -579,7 +579,7 @@ references:
   fullName: com.microsoft.azure.TestVirtualMachineSsh
   type: Class
   syntax:
-    content: public class TestVirtualMachineSsh
+    content: public class TestVirtualMachineSsh extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
 - uid: com.microsoft.azure._azure._authenticated
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure._authenticated.yml
@@ -618,7 +618,7 @@ references:
   type: Interface
   summary: <p>The interface allowing configurations to be made on the client. </p>
   syntax:
-    content: public interface Configurable
+    content: public interface Configurable extends AzureConfigurable<T>
 - uid: com.microsoft.azure._list_operation_callback._paging_bahavior
   parent: com.microsoft.azure
   href: com.microsoft.azure._list_operation_callback._paging_bahavior.yml
@@ -635,4 +635,4 @@ references:
   fullName: com.microsoft.azure.PagedListTests.TestPage
   type: Class
   syntax:
-    content: public class TestPage
+    content: public class TestPage implements Page<E>

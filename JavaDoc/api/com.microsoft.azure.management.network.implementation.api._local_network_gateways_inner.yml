@@ -759,7 +759,7 @@ references:
   type: Class
   summary: <p>A common class for general resource information. </p>
   syntax:
-    content: public class LocalNetworkGatewayInner
+    content: public class LocalNetworkGatewayInner extends Resource
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -768,7 +768,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure.management.network._network
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network.yml
@@ -828,7 +828,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E>
+    content: public class ListOperationCallback<E> extends ServiceCallback<T>
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>

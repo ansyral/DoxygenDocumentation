@@ -21,7 +21,7 @@ items:
 
     <p></p>
   syntax:
-    content: public interface Definitions<ParentT>
+    content: public interface Definitions<ParentT> extends DataDisk.DefinitionAttachNewDataDisk<ParentT>,DataDisk.DefinitionAttachExistingDataDisk<ParentT>,DataDisk.DefinitionWithStoreAt<ParentT>,DataDisk.DefinitionWithOptionalConfiguration<ParentT>,DataDisk.DefinitionAttachable<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -229,7 +229,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable<ParentT>
+    content: public interface DefinitionAttachable<ParentT> extends Attachable<ParentT>,DataDisk.DefinitionWithOptionalConfiguration<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>

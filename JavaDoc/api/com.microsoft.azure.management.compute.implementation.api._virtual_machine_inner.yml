@@ -39,7 +39,7 @@ items:
   package: com.microsoft.azure.management.compute.implementation.api
   summary: <p>Describes a Virtual Machine. </p>
   syntax: &o1
-    content: public class VirtualMachineInner
+    content: public class VirtualMachineInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -767,7 +767,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Extension. </p>
   syntax:
-    content: public class VirtualMachineExtensionInner
+    content: public class VirtualMachineExtensionInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_inner.yml

@@ -18,7 +18,7 @@ items:
   package: com.microsoft.azure.management.storage
   summary: <p>A storage account definition allowing resource group to be set. </p>
   syntax:
-    content: public interface DefinitionWithGroup
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
   inheritedMembers:
@@ -133,4 +133,4 @@ references:
   type: Interface
   summary: <p>Container interface for all the definitions that need to be implemented. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends StorageAccount.DefinitionBlank,StorageAccount.DefinitionWithGroup,StorageAccount.DefinitionCreatable,StorageAccount.DefinitionCreatableWithAccessTier

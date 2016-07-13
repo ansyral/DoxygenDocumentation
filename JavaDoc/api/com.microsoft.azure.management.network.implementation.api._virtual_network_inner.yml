@@ -31,7 +31,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource. </p>
   syntax: &o1
-    content: public class VirtualNetworkInner
+    content: public class VirtualNetworkInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -512,7 +512,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> in a VirtualNework resource. </p>
   syntax:
-    content: public class SubnetInner
+    content: public class SubnetInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._virtual_network_inner.yml
@@ -529,4 +529,4 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>

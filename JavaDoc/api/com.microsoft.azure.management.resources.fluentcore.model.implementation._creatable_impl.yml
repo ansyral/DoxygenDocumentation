@@ -33,7 +33,7 @@ items:
 
     <p></p>
   syntax:
-    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
     typeParameters:
     - type: 2f67777b
       description: <p>the fluent model type representing the creatable resource </p>
@@ -502,7 +502,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Creatable<T>
+    content: public interface Creatable<T> extends Indexable
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource to be created </p>

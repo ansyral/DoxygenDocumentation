@@ -21,7 +21,7 @@ items:
     startLine: 14
   package: com.microsoft.azure.batch
   syntax: &o1
-    content: public class CreateTasksTerminatedException
+    content: public class CreateTasksTerminatedException extends BatchErrorException
   inheritance:
   - java.lang.Object
   - Exception
@@ -319,7 +319,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with <xref href="com.microsoft.azure.batch.protocol.models._batch_error" data-throw-if-not-resolved="false"></xref> information. </p>
   syntax:
-    content: public class BatchErrorException
+    content: public class BatchErrorException extends RestException
 - uid: com.microsoft.azure.batch.protocol.models._task_add_result
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._task_add_result.yml

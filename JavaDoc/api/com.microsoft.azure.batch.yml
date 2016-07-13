@@ -83,7 +83,7 @@ references:
   fullName: com.microsoft.azure.batch.AccountOperations
   type: Class
   syntax:
-    content: public class AccountOperations
+    content: public class AccountOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._application_operations
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._application_operations.yml
@@ -91,7 +91,7 @@ references:
   fullName: com.microsoft.azure.batch.ApplicationOperations
   type: Class
   syntax:
-    content: public class ApplicationOperations
+    content: public class ApplicationOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._batch_client_behavior
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._batch_client_behavior.yml
@@ -115,7 +115,7 @@ references:
   fullName: com.microsoft.azure.batch.CertificateOperations
   type: Class
   syntax:
-    content: public class CertificateOperations
+    content: public class CertificateOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._compute_node_operations
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -123,7 +123,7 @@ references:
   fullName: com.microsoft.azure.batch.ComputeNodeOperations
   type: Class
   syntax:
-    content: public class ComputeNodeOperations
+    content: public class ComputeNodeOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._create_tasks_terminated_exception
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._create_tasks_terminated_exception.yml
@@ -131,7 +131,7 @@ references:
   fullName: com.microsoft.azure.batch.CreateTasksTerminatedException
   type: Class
   syntax:
-    content: public class CreateTasksTerminatedException
+    content: public class CreateTasksTerminatedException extends BatchErrorException
 - uid: com.microsoft.azure.batch._detail_level
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._detail_level.yml
@@ -147,7 +147,7 @@ references:
   fullName: com.microsoft.azure.batch.FileOperations
   type: Class
   syntax:
-    content: public class FileOperations
+    content: public class FileOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
@@ -163,7 +163,7 @@ references:
   fullName: com.microsoft.azure.batch.JobOperations
   type: Class
   syntax:
-    content: public class JobOperations
+    content: public class JobOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._job_schedule_operations
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._job_schedule_operations.yml
@@ -171,7 +171,7 @@ references:
   fullName: com.microsoft.azure.batch.JobScheduleOperations
   type: Class
   syntax:
-    content: public class JobScheduleOperations
+    content: public class JobScheduleOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._job_scheduling_error_codes
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._job_scheduling_error_codes.yml
@@ -187,7 +187,7 @@ references:
   fullName: com.microsoft.azure.batch.PoolOperations
   type: Class
   syntax:
-    content: public class PoolOperations
+    content: public class PoolOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._pool_resize_error_codes
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._pool_resize_error_codes.yml
@@ -203,7 +203,7 @@ references:
   fullName: com.microsoft.azure.batch.TaskOperations
   type: Class
   syntax:
-    content: public class TaskOperations
+    content: public class TaskOperations implements IInheritedBehaviors
 - uid: com.microsoft.azure.batch._task_scheduling_error_codes
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._task_scheduling_error_codes.yml

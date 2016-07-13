@@ -21,7 +21,7 @@ items:
   package: com.microsoft.azure
   summary: <p>A retry strategy with backoff parameters for calculating the exponential delay between retries for 404s from GET calls. </p>
   syntax:
-    content: public class ResourceGetExponentialBackoffRetryStrategy
+    content: public class ResourceGetExponentialBackoffRetryStrategy extends RetryStrategy
   inheritance:
   - java.lang.Object
   - com.microsoft.rest.retry._retry_strategy

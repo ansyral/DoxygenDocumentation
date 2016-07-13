@@ -20,7 +20,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>Entry point to resource group management API. </p>
   syntax:
-    content: public interface ResourceGroups
+    content: public interface ResourceGroups extends SupportsListing<T>,SupportsGettingByName<T>,SupportsCreating<T>,SupportsDeleting
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing
   inheritedMembers:
@@ -212,4 +212,4 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException

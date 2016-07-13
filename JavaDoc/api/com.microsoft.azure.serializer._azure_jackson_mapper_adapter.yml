@@ -20,7 +20,7 @@ items:
   package: com.microsoft.azure.serializer
   summary: <p>A serialization helper class overriding <ref refid="" kindref="compound">JacksonMapperAdapter</ref> with extra functionality useful for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> operations. </p>
   syntax:
-    content: public class AzureJacksonMapperAdapter
+    content: public class AzureJacksonMapperAdapter extends JacksonMapperAdapter
   inheritance:
   - java.lang.Object
   - com.microsoft.rest.serializer._jackson_mapper_adapter

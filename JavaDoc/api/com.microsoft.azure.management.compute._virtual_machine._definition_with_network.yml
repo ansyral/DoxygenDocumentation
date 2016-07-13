@@ -22,7 +22,7 @@ items:
   package: com.microsoft.azure.management.compute
   summary: <p>The stage of the virtual machine definition allowing to specify virtual network for the new primary network interface or to use a creatable or existing network interface. </p>
   syntax:
-    content: public interface DefinitionWithNetwork
+    content: public interface DefinitionWithNetwork extends VirtualMachine.DefinitionWithPrimaryNetworkInterface
   inheritance:
   - com.microsoft.azure.management.compute._virtual_machine._definition_with_primary_network_interface
   inheritedMembers:
@@ -175,7 +175,7 @@ references:
   type: Interface
   summary: <p>Container interface for all the definitions. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends VirtualMachine.DefinitionBlank,VirtualMachine.DefinitionWithGroup,VirtualMachine.DefinitionWithNetwork,VirtualMachine.DefinitionWithSubnet,VirtualMachine.DefinitionWithPrivateIp,VirtualMachine.DefinitionWithPublicIpAddress,VirtualMachine.DefinitionWithPrimaryNetworkInterface,VirtualMachine.DefinitionWithOS,VirtualMachine.DefinitionWithRootUserName,VirtualMachine.DefinitionWithAdminUserName,VirtualMachine.DefinitionLinuxCreatable,VirtualMachine.DefinitionWindowsCreatable,VirtualMachine.DefinitionCreatable
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_with_private_ip.yml

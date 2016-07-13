@@ -21,7 +21,7 @@ items:
   package: com.microsoft.azure.management.resources
   summary: <p>Entry point to providers management API. </p>
   syntax:
-    content: public interface Providers
+    content: public interface Providers extends SupportsListing<T>,SupportsGettingByName<T>
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing
   inheritedMembers:
@@ -175,7 +175,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource provider. </p>
   syntax:
-    content: public interface Provider
+    content: public interface Provider extends Indexable,Wrapper<T>
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -184,4 +184,4 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException

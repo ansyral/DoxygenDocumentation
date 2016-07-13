@@ -99,7 +99,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown indicating that access is denied due to insufficient permissions. Thrown when a 403 error response code is returned (forbidden). </p>
   syntax:
-    content: public class AdlsAccessControlException
+    content: public class AdlsAccessControlException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_error
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_error.yml
@@ -117,7 +117,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with <xref href="com.microsoft.azure.management.datalake.store.models._adls_error" data-throw-if-not-resolved="false"></xref> information. </p>
   syntax:
-    content: public class AdlsErrorException
+    content: public class AdlsErrorException extends RestException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_file_not_found_exception
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_file_not_found_exception.yml
@@ -126,7 +126,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown indicating the file or folder could not be found. Thrown when a 404 error response code is returned (not found). </p>
   syntax:
-    content: public class AdlsFileNotFoundException
+    content: public class AdlsFileNotFoundException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_illegal_argument_exception
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_illegal_argument_exception.yml
@@ -135,7 +135,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown indicating that one more arguments is incorrect. Thrown when a 400 error response code is returned (bad request). </p>
   syntax:
-    content: public class AdlsIllegalArgumentException
+    content: public class AdlsIllegalArgumentException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_i_o_exception
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_i_o_exception.yml
@@ -144,7 +144,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown indicating there was an IO (read or write) error. Thrown when a 403 error response code is returned (forbidden). </p>
   syntax:
-    content: public class AdlsIOException
+    content: public class AdlsIOException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_remote_exception
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_remote_exception.yml
@@ -162,7 +162,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown when an unexpected error occurs during an operation. Thrown when a 500 error response code is returned (Internal server error). </p>
   syntax:
-    content: public class AdlsRuntimeException
+    content: public class AdlsRuntimeException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_security_exception
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_security_exception.yml
@@ -171,7 +171,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown indicating that access is denied. Thrown when a 401 error response code is returned (Unauthorized). </p>
   syntax:
-    content: public class AdlsSecurityException
+    content: public class AdlsSecurityException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._adls_unsupported_operation_exception
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._adls_unsupported_operation_exception.yml
@@ -180,7 +180,7 @@ references:
   type: Class
   summary: <p>A WebHDFS exception thrown indicating that the requested operation is not supported. Thrown when a 400 error response code is returned (bad request). </p>
   syntax:
-    content: public class AdlsUnsupportedOperationException
+    content: public class AdlsUnsupportedOperationException extends AdlsRemoteException
 - uid: com.microsoft.azure.management.datalake.store.models._append_mode_type
   parent: com.microsoft.azure.management.datalake.store.models
   href: com.microsoft.azure.management.datalake.store.models._append_mode_type.yml
@@ -372,7 +372,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

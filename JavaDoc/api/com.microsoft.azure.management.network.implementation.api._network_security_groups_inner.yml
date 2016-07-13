@@ -942,7 +942,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class NetworkManagementClientImpl
+    content: public class NetworkManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
@@ -974,7 +974,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure.management.network._network_security_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group.yml
@@ -986,7 +986,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
   syntax:
-    content: public interface NetworkSecurityGroup
+    content: public interface NetworkSecurityGroup extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -1022,7 +1022,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> resource. </p>
   syntax:
-    content: public class NetworkSecurityGroupInner
+    content: public class NetworkSecurityGroupInner extends Resource
 - uid: com.microsoft.azure.management.network._network_security_groups
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_groups.yml
@@ -1031,7 +1031,7 @@ references:
   type: Interface
   summary: <p>Entry point to network security group management. </p>
   syntax:
-    content: public interface NetworkSecurityGroups
+    content: public interface NetworkSecurityGroups extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._network
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network.yml
@@ -1040,7 +1040,7 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure._paged_list
   parent: com.microsoft.azure
   href: com.microsoft.azure._paged_list.yml
@@ -1067,7 +1067,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E>
+    content: public class ListOperationCallback<E> extends ServiceCallback<T>
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>

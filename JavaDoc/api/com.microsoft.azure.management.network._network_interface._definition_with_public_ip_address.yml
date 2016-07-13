@@ -23,7 +23,7 @@ items:
   package: com.microsoft.azure.management.network
   summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary Ip configuration. </p>
   syntax:
-    content: public interface DefinitionWithPublicIpAddress
+    content: public interface DefinitionWithPublicIpAddress extends NetworkInterface.DefinitionCreatable
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model._creatable
@@ -333,7 +333,7 @@ references:
   type: Interface
   summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>
 - uid: com.microsoft.azure.management.network._network_interface._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definitions.yml
@@ -342,7 +342,7 @@ references:
   type: Interface
   summary: <p>Container interface for all the definitions. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends NetworkInterface.DefinitionBlank,NetworkInterface.DefinitionWithGroup,NetworkInterface.DefinitionWithNetwork,NetworkInterface.DefinitionWithSubnet,NetworkInterface.DefinitionWithPrivateIp,NetworkInterface.DefinitionWithPublicIpAddress,NetworkInterface.DefinitionWithNetworkSecurityGroup,NetworkInterface.DefinitionCreatable
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address.yml

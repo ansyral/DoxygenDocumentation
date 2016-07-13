@@ -479,7 +479,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with <xref href="com.microsoft.azure.batch.protocol.models._batch_error" data-throw-if-not-resolved="false"></xref> information. </p>
   syntax:
-    content: public class BatchErrorException
+    content: public class BatchErrorException extends RestException
 - uid: com.microsoft.azure.batch.protocol.models._certificate
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._certificate.yml
@@ -1991,7 +1991,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

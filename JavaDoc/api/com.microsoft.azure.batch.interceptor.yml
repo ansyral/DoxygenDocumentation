@@ -33,7 +33,7 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.BatchClientParallelOptions
   type: Class
   syntax:
-    content: public class BatchClientParallelOptions
+    content: public class BatchClientParallelOptions extends BatchClientBehavior
 - uid: com.microsoft.azure.batch.interceptor._batch_request_intercept_handler
   parent: com.microsoft.azure.batch.interceptor
   href: com.microsoft.azure.batch.interceptor._batch_request_intercept_handler.yml
@@ -49,7 +49,7 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.ClientRequestIdInterceptor
   type: Class
   syntax:
-    content: public class ClientRequestIdInterceptor
+    content: public class ClientRequestIdInterceptor extends RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor._detail_level_interceptor
   parent: com.microsoft.azure.batch.interceptor
   href: com.microsoft.azure.batch.interceptor._detail_level_interceptor.yml
@@ -57,7 +57,7 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.DetailLevelInterceptor
   type: Class
   syntax:
-    content: public class DetailLevelInterceptor
+    content: public class DetailLevelInterceptor extends RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor._page_size_interceptor
   parent: com.microsoft.azure.batch.interceptor
   href: com.microsoft.azure.batch.interceptor._page_size_interceptor.yml
@@ -65,7 +65,7 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.PageSizeInterceptor
   type: Class
   syntax:
-    content: public class PageSizeInterceptor
+    content: public class PageSizeInterceptor extends RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor._request_interceptor
   parent: com.microsoft.azure.batch.interceptor
   href: com.microsoft.azure.batch.interceptor._request_interceptor.yml
@@ -73,7 +73,7 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor
   type: Class
   syntax:
-    content: public class RequestInterceptor
+    content: public class RequestInterceptor extends BatchClientBehavior
 - uid: com.microsoft.azure.batch.interceptor._server_timeout_interceptor
   parent: com.microsoft.azure.batch.interceptor
   href: com.microsoft.azure.batch.interceptor._server_timeout_interceptor.yml
@@ -81,4 +81,4 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.ServerTimeoutInterceptor
   type: Class
   syntax:
-    content: public class ServerTimeoutInterceptor
+    content: public class ServerTimeoutInterceptor extends RequestInterceptor

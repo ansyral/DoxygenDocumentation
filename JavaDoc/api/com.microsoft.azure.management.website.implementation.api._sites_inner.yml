@@ -16940,7 +16940,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -16973,7 +16973,7 @@ references:
   type: Class
   summary: <p>This is an object used to store a full view of network features (presently VNET integration and Hybrid Connections) for a web app. </p>
   syntax:
-    content: public class NetworkFeaturesInner
+    content: public class NetworkFeaturesInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._csm_slot_entity_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._csm_slot_entity_inner.yml
@@ -17018,7 +17018,7 @@ references:
   type: Class
   summary: <p>Represents a web app. </p>
   syntax:
-    content: public class SiteInner
+    content: public class SiteInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_cloneability_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_cloneability_inner.yml
@@ -17063,7 +17063,7 @@ references:
   type: Class
   summary: <p>Represents user crendentials used for publishing activity. </p>
   syntax:
-    content: public class DeploymentInner
+    content: public class DeploymentInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_instance_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_instance_collection_inner.yml
@@ -17090,7 +17090,7 @@ references:
   type: Class
   summary: <p>A host name binding object. </p>
   syntax:
-    content: public class HostNameBindingInner
+    content: public class HostNameBindingInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_config_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_config_inner.yml
@@ -17099,7 +17099,7 @@ references:
   type: Class
   summary: <p>Configuration of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> web site. </p>
   syntax:
-    content: public class SiteConfigInner
+    content: public class SiteConfigInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_source_control_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_source_control_inner.yml
@@ -17126,7 +17126,7 @@ references:
   type: Class
   summary: <p>String dictionary resource. </p>
   syntax:
-    content: public class ConnectionStringDictionaryInner
+    content: public class ConnectionStringDictionaryInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_auth_settings_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_auth_settings_inner.yml
@@ -17153,7 +17153,7 @@ references:
   type: Class
   summary: <p>Configuration of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> web site. </p>
   syntax:
-    content: public class SiteLogsConfigInner
+    content: public class SiteLogsConfigInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._premier_add_on_request_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._premier_add_on_request_inner.yml
@@ -17171,7 +17171,7 @@ references:
   type: Class
   summary: <p>Description of a backup which will be performed. </p>
   syntax:
-    content: public class BackupRequestInner
+    content: public class BackupRequestInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._backup_item_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._backup_item_inner.yml
@@ -17180,7 +17180,7 @@ references:
   type: Class
   summary: <p>Backup description. </p>
   syntax:
-    content: public class BackupItemInner
+    content: public class BackupItemInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._restore_request_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._restore_request_inner.yml
@@ -17189,7 +17189,7 @@ references:
   type: Class
   summary: <p>Description of a restore request. </p>
   syntax:
-    content: public class RestoreRequestInner
+    content: public class RestoreRequestInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._backup_item_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._backup_item_collection_inner.yml
@@ -17216,7 +17216,7 @@ references:
   type: Class
   summary: <p>Response for a restore site request. </p>
   syntax:
-    content: public class RestoreResponseInner
+    content: public class RestoreResponseInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._csm_usage_quota_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._csm_usage_quota_collection_inner.yml
@@ -17252,7 +17252,7 @@ references:
   type: Class
   summary: <p>Class that represents a Biztalk Hybrid Connection. </p>
   syntax:
-    content: public class RelayServiceConnectionEntityInner
+    content: public class RelayServiceConnectionEntityInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._vnet_gateway_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._vnet_gateway_inner.yml

@@ -39,7 +39,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>LoadBalancer resource. </p>
   syntax: &o1
-    content: public class LoadBalancerInner
+    content: public class LoadBalancerInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -756,7 +756,7 @@ references:
   type: Class
   summary: <p>Frontend IP address of the load balancer. </p>
   syntax:
-    content: public class FrontendIPConfiguration
+    content: public class FrontendIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._backend_address_pool
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._backend_address_pool.yml
@@ -765,7 +765,7 @@ references:
   type: Class
   summary: <p>Pool of backend IP addresseses. </p>
   syntax:
-    content: public class BackendAddressPool
+    content: public class BackendAddressPool extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._load_balancing_rule
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._load_balancing_rule.yml
@@ -792,7 +792,7 @@ references:
   type: Class
   summary: <p>Inbound NAT rule of the loadbalancer. </p>
   syntax:
-    content: public class InboundNatRule
+    content: public class InboundNatRule extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._inbound_nat_pool
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._inbound_nat_pool.yml
@@ -801,7 +801,7 @@ references:
   type: Class
   summary: <p>Inbound NAT pool of the loadbalancer. </p>
   syntax:
-    content: public class InboundNatPool
+    content: public class InboundNatPool extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._outbound_nat_rule
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._outbound_nat_rule.yml

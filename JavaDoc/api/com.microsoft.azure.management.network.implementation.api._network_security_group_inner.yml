@@ -36,7 +36,7 @@ items:
 
       <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> resource. </p>
   syntax: &o1
-    content: public class NetworkSecurityGroupInner
+    content: public class NetworkSecurityGroupInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -575,7 +575,7 @@ references:
   type: Class
   summary: <p>A <xref href="com.microsoft.azure.management.network._network_interface" data-throw-if-not-resolved="false"></xref> in a resource group. </p>
   syntax:
-    content: public class NetworkInterfaceInner
+    content: public class NetworkInterfaceInner extends Resource
 - uid: com.microsoft.azure.management.network._network
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network.yml
@@ -584,7 +584,7 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network.implementation.api._subnet_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._subnet_inner.yml
@@ -619,4 +619,4 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
   syntax:
-    content: public interface NetworkSecurityGroup
+    content: public interface NetworkSecurityGroup extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>

@@ -26,7 +26,7 @@ items:
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>A front end adapter that communicates with the DataLake Store. This is a syncrhonous call adapter, which has certain efficiency limitations. In the future, new adapters that are created should consider implementing the methods asynchronously. </p>
   syntax:
-    content: public class DataLakeStoreFrontEndAdapterImpl
+    content: public class DataLakeStoreFrontEndAdapterImpl implements FrontEndAdapter
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
@@ -317,7 +317,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class DataLakeStoreFileSystemManagementClientImpl
+    content: public class DataLakeStoreFileSystemManagementClientImpl extends AzureServiceClient implements DataLakeStoreFileSystemManagementClient
 - uid: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1ab8771533762c7df66172208a96efd9ed
   parent: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
   href: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter.yml

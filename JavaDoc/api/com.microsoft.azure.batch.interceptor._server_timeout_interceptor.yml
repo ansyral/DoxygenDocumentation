@@ -19,7 +19,7 @@ items:
     startLine: 11
   package: com.microsoft.azure.batch.interceptor
   syntax:
-    content: public class ServerTimeoutInterceptor
+    content: public class ServerTimeoutInterceptor extends RequestInterceptor
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._batch_client_behavior
@@ -100,4 +100,4 @@ references:
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor
   type: Class
   syntax:
-    content: public class RequestInterceptor
+    content: public class RequestInterceptor extends BatchClientBehavior

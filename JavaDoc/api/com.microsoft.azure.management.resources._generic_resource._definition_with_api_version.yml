@@ -62,4 +62,4 @@ references:
   type: Interface
   summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>

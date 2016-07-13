@@ -174,7 +174,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class ComputeManagementClientImpl
+    content: public class ComputeManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_sizes_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_sizes_inner.yml
@@ -215,7 +215,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -251,7 +251,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

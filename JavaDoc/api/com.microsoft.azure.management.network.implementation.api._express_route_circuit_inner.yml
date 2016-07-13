@@ -39,7 +39,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>ExpressRouteCircuit resource. </p>
   syntax: &o1
-    content: public class ExpressRouteCircuitInner
+    content: public class ExpressRouteCircuitInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -724,7 +724,7 @@ references:
   type: Class
   summary: <p>Authorization in a ExpressRouteCircuit resource. </p>
   syntax:
-    content: public class ExpressRouteCircuitAuthorizationInner
+    content: public class ExpressRouteCircuitAuthorizationInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_peering_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_peering_inner.yml

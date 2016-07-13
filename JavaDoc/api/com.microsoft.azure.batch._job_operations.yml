@@ -57,7 +57,7 @@ items:
     startLine: 43
   package: com.microsoft.azure.batch
   syntax:
-    content: public class JobOperations
+    content: public class JobOperations implements IInheritedBehaviors
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
@@ -1044,7 +1044,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with <xref href="com.microsoft.azure.batch.protocol.models._batch_error" data-throw-if-not-resolved="false"></xref> information. </p>
   syntax:
-    content: public class BatchErrorException
+    content: public class BatchErrorException extends RestException
 - uid: com.microsoft.azure.batch.protocol.models._cloud_job
   parent: com.microsoft.azure.batch.protocol.models
   href: com.microsoft.azure.batch.protocol.models._cloud_job.yml

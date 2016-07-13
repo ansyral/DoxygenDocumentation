@@ -80,7 +80,7 @@ items:
   package: com.microsoft.azure.batch.protocol.implementation
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._jobs" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
-    content: public class JobsImpl
+    content: public class JobsImpl implements Jobs
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch.protocol._jobs
@@ -2771,7 +2771,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class BatchServiceClientImpl
+    content: public class BatchServiceClientImpl extends AzureServiceClient implements BatchServiceClient
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -2841,7 +2841,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with <xref href="com.microsoft.azure.batch.protocol.models._batch_error" data-throw-if-not-resolved="false"></xref> information. </p>
   syntax:
-    content: public class BatchErrorException
+    content: public class BatchErrorException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml

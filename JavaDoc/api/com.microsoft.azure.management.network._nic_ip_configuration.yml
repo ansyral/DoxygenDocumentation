@@ -25,7 +25,7 @@ items:
   package: com.microsoft.azure.management.network
   summary: <p>An Ip configuration in a network interface. </p>
   syntax:
-    content: public interface NicIpConfiguration
+    content: public interface NicIpConfiguration extends Wrapper<T>,ChildResource
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._wrapper
   inheritedMembers:
@@ -245,7 +245,7 @@ references:
   type: Interface
   summary: <p>Base interface used by child resources. </p>
   syntax:
-    content: public interface ChildResource
+    content: public interface ChildResource extends Indexable
 - uid: com.microsoft.azure.management.network.implementation._nic_ip_configuration_impl
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network
@@ -264,7 +264,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure.management.network._network
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network.yml
@@ -273,4 +273,4 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>

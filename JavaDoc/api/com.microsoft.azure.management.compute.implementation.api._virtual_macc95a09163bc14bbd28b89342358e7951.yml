@@ -25,7 +25,7 @@ items:
   package: com.microsoft.azure.management.compute.implementation.api
   summary: <p>Describes a virtual machine scale set network profile's network configurations. </p>
   syntax: &o1
-    content: public class VirtualMachineScaleSetNetworkConfiguration
+    content: public class VirtualMachineScaleSetNetworkConfiguration extends SubResource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._sub_resource
@@ -252,7 +252,7 @@ references:
   type: Class
   summary: <p>Describes a virtual machine scale set network profile's IP configuration. </p>
   syntax:
-    content: public class VirtualMachineScaleSetIPConfiguration
+    content: public class VirtualMachineScaleSetIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_macc95a09163bc14bbd28b89342358e7951
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_macc95a09163bc14bbd28b89342358e7951.yml

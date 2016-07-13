@@ -26,7 +26,7 @@ items:
   package: com.microsoft.rest.retry
   summary: <p>A retry strategy with backoff parameters for calculating the exponential delay between retries. </p>
   syntax: &o1
-    content: public class ExponentialBackoffRetryStrategy
+    content: public class ExponentialBackoffRetryStrategy extends RetryStrategy
   inheritance:
   - java.lang.Object
   - com.microsoft.rest.retry._retry_strategy

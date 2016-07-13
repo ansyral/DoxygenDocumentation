@@ -1399,7 +1399,7 @@ references:
   type: Class
   summary: <p>Description of a managed hosting environment. </p>
   syntax:
-    content: public class ManagedHostingEnvironmentInner
+    content: public class ManagedHostingEnvironmentInner extends Resource
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -1408,7 +1408,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -1441,7 +1441,7 @@ references:
   type: Class
   summary: <p>Description of an hostingEnvironment (App Service Environment). </p>
   syntax:
-    content: public class HostingEnvironmentInner
+    content: public class HostingEnvironmentInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._hosting_environment_collection_inner.yml

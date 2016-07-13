@@ -130,7 +130,7 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._networks
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._networks.yml
@@ -139,7 +139,7 @@ references:
   type: Interface
   summary: <p>Entry point to virtual network management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Networks
+    content: public interface Networks extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._network_interface
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface.yml
@@ -151,7 +151,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
   syntax:
-    content: public interface NetworkInterface
+    content: public interface NetworkInterface extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._network_interfaces
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interfaces.yml
@@ -160,7 +160,7 @@ references:
   type: Interface
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces
+    content: public interface NetworkInterfaces extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._network_security_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group.yml
@@ -172,7 +172,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
   syntax:
-    content: public interface NetworkSecurityGroup
+    content: public interface NetworkSecurityGroup extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._network_security_groups
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_groups.yml
@@ -181,7 +181,7 @@ references:
   type: Interface
   summary: <p>Entry point to network security group management. </p>
   syntax:
-    content: public interface NetworkSecurityGroups
+    content: public interface NetworkSecurityGroups extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._network_security_rule
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule.yml
@@ -190,7 +190,7 @@ references:
   type: Interface
   summary: <p>A network security rule in a network security group. </p>
   syntax:
-    content: public interface NetworkSecurityRule
+    content: public interface NetworkSecurityRule extends Wrapper<T>,ChildResource
 - uid: com.microsoft.azure.management.network._nic_ip_configuration
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration.yml
@@ -199,7 +199,7 @@ references:
   type: Interface
   summary: <p>An Ip configuration in a network interface. </p>
   syntax:
-    content: public interface NicIpConfiguration
+    content: public interface NicIpConfiguration extends Wrapper<T>,ChildResource
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address.yml
@@ -208,7 +208,7 @@ references:
   type: Interface
   summary: <p>Public IP address. </p>
   syntax:
-    content: public interface PublicIpAddress
+    content: public interface PublicIpAddress extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._public_ip_addresses
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_addresses.yml
@@ -217,7 +217,7 @@ references:
   type: Interface
   summary: <p>Entry point to public IP address management. </p>
   syntax:
-    content: public interface PublicIpAddresses
+    content: public interface PublicIpAddresses extends SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet.yml
@@ -226,7 +226,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of a subnet of a virtual network. </p>
   syntax:
-    content: public interface Subnet
+    content: public interface Subnet extends Wrapper<T>,ChildResource
 - uid: com.microsoft.azure.management.network._network_security_rule._access
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._access.yml
@@ -244,7 +244,7 @@ references:
   type: Interface
   summary: <p>The entirety of a <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> definition. </p>
   syntax:
-    content: public interface Definition<ParentT>
+    content: public interface Definition<ParentT> extends Subnet.DefinitionBlank<ParentT>,Subnet.DefinitionAttachable<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -259,7 +259,7 @@ references:
 
     <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface DefinitionAttachable<ParentT>
+    content: public interface DefinitionAttachable<ParentT> extends Attachable<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -274,7 +274,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionAttachable<ParentT>
+    content: public interface DefinitionAttachable<ParentT> extends Attachable<ParentT>,NicIpConfiguration.DefinitionWithPublicIpAddress<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -289,7 +289,7 @@ references:
 
     <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface DefinitionAttachable<ParentT>
+    content: public interface DefinitionAttachable<ParentT> extends Attachable<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -328,7 +328,7 @@ references:
   type: Interface
   summary: <p>The first stage of the subnet definition. </p>
   syntax:
-    content: public interface DefinitionBlank<ParentT>
+    content: public interface DefinitionBlank<ParentT> extends NetworkSecurityRule.DefinitionWithDirectionAccess<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -343,7 +343,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface DefinitionBlank<ParentT>
+    content: public interface DefinitionBlank<ParentT> extends NicIpConfiguration.DefinitionWithNetwork<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -379,7 +379,7 @@ references:
 
     <p>Subnets can be added only right after the address space is explicitly specified (see <ref refid="" kindref="compound">DefinitionWithAddressSpace#withAddressSpace(String)).</ref></p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>
 - uid: com.microsoft.azure.management.network._network_interface._definition_creatable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
@@ -388,7 +388,7 @@ references:
   type: Interface
   summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>
 - uid: com.microsoft.azure.management.network._network_security_group._definition_creatable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._definition_creatable.yml
@@ -397,7 +397,7 @@ references:
   type: Interface
   summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,Resource.DefinitionWithTags<T>,NetworkSecurityGroup.DefinitionWithRule
 - uid: com.microsoft.azure.management.network._public_ip_address._definition_creatable
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definition_creatable.yml
@@ -406,7 +406,7 @@ references:
   type: Interface
   summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,PublicIpAddress.DefinitionWithLeafDomainLabel,PublicIpAddress.DefinitionWithIpAddress,PublicIpAddress.DefinitionWithReverseFQDN<T>,Resource.DefinitionWithTags<T>
 - uid: com.microsoft.azure.management.network._network._definition_creatable_with_subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_creatable_with_subnet.yml
@@ -415,7 +415,7 @@ references:
   type: Interface
   summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, including adding subnets. </p>
   syntax:
-    content: public interface DefinitionCreatableWithSubnet
+    content: public interface DefinitionCreatableWithSubnet extends Network.DefinitionCreatable,Network.DefinitionWithSubnet
 - uid: com.microsoft.azure.management.network._network._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definitions.yml
@@ -424,7 +424,7 @@ references:
   type: Interface
   summary: <p>The entirety of the virtual network definition. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends Network.DefinitionBlank,Network.DefinitionWithGroup,Network.DefinitionWithSubnet,Network.DefinitionCreatable,Network.DefinitionCreatableWithSubnet
 - uid: com.microsoft.azure.management.network._network_interface._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definitions.yml
@@ -433,7 +433,7 @@ references:
   type: Interface
   summary: <p>Container interface for all the definitions. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends NetworkInterface.DefinitionBlank,NetworkInterface.DefinitionWithGroup,NetworkInterface.DefinitionWithNetwork,NetworkInterface.DefinitionWithSubnet,NetworkInterface.DefinitionWithPrivateIp,NetworkInterface.DefinitionWithPublicIpAddress,NetworkInterface.DefinitionWithNetworkSecurityGroup,NetworkInterface.DefinitionCreatable
 - uid: com.microsoft.azure.management.network._network_security_group._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._definitions.yml
@@ -442,7 +442,7 @@ references:
   type: Interface
   summary: <p>The entirety of the network security group definition. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends NetworkSecurityGroup.DefinitionBlank,NetworkSecurityGroup.DefinitionWithGroup,NetworkSecurityGroup.DefinitionCreatable
 - uid: com.microsoft.azure.management.network._network_security_rule._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definitions.yml
@@ -451,7 +451,7 @@ references:
   type: Interface
   summary: <p>The entirety of a network security rule definition. </p>
   syntax:
-    content: public interface Definitions<ParentT>
+    content: public interface Definitions<ParentT> extends NetworkSecurityRule.DefinitionBlank<ParentT>,NetworkSecurityRule.DefinitionAttachable<ParentT>,NetworkSecurityRule.DefinitionWithDirectionAccess<ParentT>,NetworkSecurityRule.DefinitionWithProtocol<ParentT>,NetworkSecurityRule.DefinitionWithSourceAddress<ParentT>,NetworkSecurityRule.DefinitionWithSourcePort<ParentT>,NetworkSecurityRule.DefinitionWithDestinationAddress<ParentT>,NetworkSecurityRule.DefinitionWithDestinationPort<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -466,7 +466,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Definitions<ParentT>
+    content: public interface Definitions<ParentT> extends NicIpConfiguration.DefinitionBlank<ParentT>,NicIpConfiguration.DefinitionWithNetwork<ParentT>,NicIpConfiguration.DefinitionWithPrivateIp<ParentT>,NicIpConfiguration.DefinitionWithSubnet<ParentT>,NicIpConfiguration.DefinitionWithPublicIpAddress<ParentT>,NicIpConfiguration.DefinitionAttachable<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable_1a92836b66fb83b831c1470a093c42d42d" data-throw-if-not-resolved="false"></xref></p>
@@ -478,7 +478,7 @@ references:
   type: Interface
   summary: <p>Container interface for all the definitions. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends PublicIpAddress.DefinitionBlank,PublicIpAddress.DefinitionWithGroup,PublicIpAddress.DefinitionWithIpAddress,PublicIpAddress.DefinitionWithLeafDomainLabel,PublicIpAddress.DefinitionCreatable
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_with_destination_address.yml
@@ -523,7 +523,7 @@ references:
   type: Interface
   summary: <p>The stage of the public IP address definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface DefinitionWithGroup
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
 - uid: com.microsoft.azure.management.network._network._definition_with_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_with_group.yml
@@ -532,7 +532,7 @@ references:
   type: Interface
   summary: <p>The stage of the virtual network definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface DefinitionWithGroup
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
 - uid: com.microsoft.azure.management.network._network_interface._definition_with_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definition_with_group.yml
@@ -541,7 +541,7 @@ references:
   type: Interface
   summary: <p>The stage of the network interface definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface DefinitionWithGroup
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
 - uid: com.microsoft.azure.management.network._network_security_group._definition_with_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._definition_with_group.yml
@@ -550,7 +550,7 @@ references:
   type: Interface
   summary: <p>The stage of the definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface DefinitionWithGroup
+    content: public interface DefinitionWithGroup extends GroupableResource.DefinitionWithGroup<T>
 - uid: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definition_with_ip_address.yml
@@ -646,7 +646,7 @@ references:
   type: Interface
   summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary Ip configuration. </p>
   syntax:
-    content: public interface DefinitionWithPublicIpAddress
+    content: public interface DefinitionWithPublicIpAddress extends NetworkInterface.DefinitionCreatable
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_with_public_ip_address.yml
@@ -775,7 +775,7 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update
+    content: public interface Update extends Appliable<T>,Resource.UpdateWithTags<T>,Network.UpdateWithSubnet
 - uid: com.microsoft.azure.management.network._network_interface._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._update.yml
@@ -787,7 +787,7 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update
+    content: public interface Update extends Appliable<T>,Resource.UpdateWithTags<T>
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
@@ -799,7 +799,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Update<ParentT>
+    content: public interface Update<ParentT> extends Settable<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref></p>
@@ -814,7 +814,7 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update
+    content: public interface Update extends Appliable<T>,Resource.UpdateWithTags<T>,NetworkSecurityGroup.UpdateWithRule
 - uid: com.microsoft.azure.management.network._public_ip_address._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._update.yml
@@ -826,7 +826,7 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update
+    content: public interface Update extends Appliable<T>,PublicIpAddress.UpdateWithIpAddress,PublicIpAddress.UpdateWithLeafDomainLabel,PublicIpAddress.UpdateWithReverseFQDN,Resource.UpdateWithTags<T>
 - uid: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._update_with_ip_address.yml

@@ -598,7 +598,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._feature_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class FeatureClientImpl
+    content: public class FeatureClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.resources.implementation.api._features_inner
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._features_inner.yml
@@ -654,7 +654,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -717,4 +717,4 @@ references:
   type: Interface
   summary: <p>Entry point to features management API. </p>
   syntax:
-    content: public interface Features
+    content: public interface Features extends SupportsListing<T>

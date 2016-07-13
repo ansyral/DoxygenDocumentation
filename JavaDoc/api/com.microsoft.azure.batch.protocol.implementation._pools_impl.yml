@@ -92,7 +92,7 @@ items:
   package: com.microsoft.azure.batch.protocol.implementation
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._pools" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
-    content: public class PoolsImpl
+    content: public class PoolsImpl implements Pools
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch.protocol._pools
@@ -3272,7 +3272,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class BatchServiceClientImpl
+    content: public class BatchServiceClientImpl extends AzureServiceClient implements BatchServiceClient
 - uid: com.microsoft.azure.batch.protocol.implementation._pools_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
@@ -3354,7 +3354,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with <xref href="com.microsoft.azure.batch.protocol.models._batch_error" data-throw-if-not-resolved="false"></xref> information. </p>
   syntax:
-    content: public class BatchErrorException
+    content: public class BatchErrorException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -3394,7 +3394,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ListOperationCallback<E>
+    content: public class ListOperationCallback<E> extends ServiceCallback<T>
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -5212,7 +5212,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>

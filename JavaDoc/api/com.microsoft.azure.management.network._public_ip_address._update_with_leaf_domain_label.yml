@@ -88,4 +88,4 @@ references:
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update
+    content: public interface Update extends Appliable<T>,PublicIpAddress.UpdateWithIpAddress,PublicIpAddress.UpdateWithLeafDomainLabel,PublicIpAddress.UpdateWithReverseFQDN,Resource.UpdateWithTags<T>

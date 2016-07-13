@@ -35,7 +35,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>PublicIPAddress resource. </p>
   syntax: &o1
-    content: public class PublicIPAddressInner
+    content: public class PublicIPAddressInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -589,7 +589,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network.implementation.api._i_p_configuration" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class IPConfiguration
+    content: public class IPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._public_i_p_address_dns_settings
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._public_i_p_address_dns_settings.yml

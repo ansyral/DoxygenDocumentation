@@ -190,7 +190,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class ServiceException
+    content: public class ServiceException extends RestException
 - uid: com.microsoft.rest._service_response
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_response.yml
@@ -264,7 +264,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ServiceResponseWithHeaders<TBody,THeader>
+    content: public class ServiceResponseWithHeaders<TBody,THeader> extends ServiceResponse<T>
     typeParameters:
     - type: 0063fec6
       description: <p>the type of the response </p>

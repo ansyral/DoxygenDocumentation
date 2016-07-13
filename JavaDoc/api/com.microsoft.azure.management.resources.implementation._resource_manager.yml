@@ -215,7 +215,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class ResourceManagementClientImpl
+    content: public class ResourceManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.resources.implementation.api._feature_client_impl
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._feature_client_impl.yml
@@ -224,7 +224,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._feature_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class FeatureClientImpl
+    content: public class FeatureClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.resources._resource_groups
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_groups.yml
@@ -233,7 +233,7 @@ references:
   type: Interface
   summary: <p>Entry point to resource group management API. </p>
   syntax:
-    content: public interface ResourceGroups
+    content: public interface ResourceGroups extends SupportsListing<T>,SupportsGettingByName<T>,SupportsCreating<T>,SupportsDeleting
 - uid: com.microsoft.azure.management.resources._generic_resources
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resources.yml
@@ -242,7 +242,7 @@ references:
   type: Interface
   summary: <p>Entry point to generic resources management API. </p>
   syntax:
-    content: public interface GenericResources
+    content: public interface GenericResources extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsCreating<T>
 - uid: com.microsoft.azure.management.resources._deployments
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployments.yml
@@ -251,7 +251,7 @@ references:
   type: Interface
   summary: <p>Entry point to template deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Deployments
+    content: public interface Deployments extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByName<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.resources._features
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._features.yml
@@ -260,7 +260,7 @@ references:
   type: Interface
   summary: <p>Entry point to features management API. </p>
   syntax:
-    content: public interface Features
+    content: public interface Features extends SupportsListing<T>
 - uid: com.microsoft.azure.management.resources._providers
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._providers.yml
@@ -269,7 +269,7 @@ references:
   type: Interface
   summary: <p>Entry point to providers management API. </p>
   syntax:
-    content: public interface Providers
+    content: public interface Providers extends SupportsListing<T>,SupportsGettingByName<T>
 - uid: com.microsoft.rest.credentials._service_client_credentials
   parent: com.microsoft.rest.credentials
   href: com.microsoft.rest.credentials._service_client_credentials.yml
@@ -307,7 +307,7 @@ references:
   type: Interface
   summary: <p>The interface allowing configurations to be set. </p>
   syntax:
-    content: public interface Configurable
+    content: public interface Configurable extends AzureConfigurable<T>
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

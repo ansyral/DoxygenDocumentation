@@ -40,7 +40,7 @@ items:
   package: com.microsoft.azure.management.resources.implementation.api
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax: &o1
-    content: public class ResourceManagementClientImpl
+    content: public class ResourceManagementClientImpl extends AzureServiceClient
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._azure_service_client
@@ -629,7 +629,7 @@ references:
   type: Class
   summary: <p>An instance of this class defines a ServiceClient that handles polling and retrying for long running operations when accessing <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resources. </p>
   syntax:
-    content: public class AzureClient
+    content: public class AzureClient extends AzureServiceClient
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

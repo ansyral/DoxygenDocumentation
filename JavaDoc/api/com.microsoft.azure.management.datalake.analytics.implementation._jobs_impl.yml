@@ -38,7 +38,7 @@ items:
   package: com.microsoft.azure.management.datalake.analytics.implementation
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.analytics._jobs" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
-    content: public class JobsImpl
+    content: public class JobsImpl implements Jobs
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.analytics._jobs
@@ -1011,7 +1011,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.analytics.implementation._data1e182d99db7720babacb832862cb4c49" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class DataLakeAnalyticsJobManagementClientImpl
+    content: public class DataLakeAnalyticsJobManagementClientImpl extends AzureServiceClient implements DataLakeAnalyticsJobManagementClient
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   parent: com.microsoft.azure.management.datalake.analytics.implementation
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -1074,7 +1074,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

@@ -79,7 +79,7 @@ references:
   type: Interface
   summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>,PublicIpAddress.DefinitionWithLeafDomainLabel,PublicIpAddress.DefinitionWithIpAddress,PublicIpAddress.DefinitionWithReverseFQDN<T>,Resource.DefinitionWithTags<T>
 - uid: com.microsoft.azure.management.network._public_ip_address._definitions
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definitions.yml
@@ -88,7 +88,7 @@ references:
   type: Interface
   summary: <p>Container interface for all the definitions. </p>
   syntax:
-    content: public interface Definitions
+    content: public interface Definitions extends PublicIpAddress.DefinitionBlank,PublicIpAddress.DefinitionWithGroup,PublicIpAddress.DefinitionWithIpAddress,PublicIpAddress.DefinitionWithLeafDomainLabel,PublicIpAddress.DefinitionCreatable
 - uid: com.microsoft.azure.management.network._public_ip_address_1a3725d2f28423f7b1760053415b68c37d
   parent: com.microsoft.azure.management.network._public_ip_address
   href: com.microsoft.azure.management.network._public_ip_address.yml

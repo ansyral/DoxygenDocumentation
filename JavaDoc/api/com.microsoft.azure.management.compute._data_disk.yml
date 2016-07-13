@@ -25,7 +25,7 @@ items:
   package: com.microsoft.azure.management.compute
   summary: <p>A data disk of a virtual machine. </p>
   syntax:
-    content: public interface DataDisk
+    content: public interface DataDisk extends Wrapper<T>,ChildResource
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._wrapper
   inheritedMembers:
@@ -229,7 +229,7 @@ references:
   type: Interface
   summary: <p>Base interface used by child resources. </p>
   syntax:
-    content: public interface ChildResource
+    content: public interface ChildResource extends Indexable
 - uid: com.microsoft.azure.management.compute.implementation._data_disk_impl
 - uid: com.microsoft.azure.management.compute.implementation.api._caching_types
   parent: com.microsoft.azure.management.compute.implementation.api

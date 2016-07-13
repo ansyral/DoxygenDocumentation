@@ -412,7 +412,7 @@ references:
   type: Class
   summary: <p>Backup description. </p>
   syntax:
-    content: public class BackupItemInner
+    content: public class BackupItemInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._backup_item_status
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._backup_item_status.yml
@@ -430,7 +430,7 @@ references:
   type: Class
   summary: <p>Description of a backup which will be performed. </p>
   syntax:
-    content: public class BackupRequestInner
+    content: public class BackupRequestInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._backup_restore_operation_type
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._backup_restore_operation_type.yml
@@ -475,7 +475,7 @@ references:
   type: Class
   summary: <p>Certificate Details. </p>
   syntax:
-    content: public class CertificateDetails
+    content: public class CertificateDetails extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._certificate_email_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._certificate_email_inner.yml
@@ -484,7 +484,7 @@ references:
   type: Class
   summary: <p>Certificate Email. </p>
   syntax:
-    content: public class CertificateEmailInner
+    content: public class CertificateEmailInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._certificate_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._certificate_inner.yml
@@ -493,7 +493,7 @@ references:
   type: Class
   summary: <p>App certificate. </p>
   syntax:
-    content: public class CertificateInner
+    content: public class CertificateInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._certificate_order_action_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._certificate_order_action_inner.yml
@@ -502,7 +502,7 @@ references:
   type: Class
   summary: <p>Represents a certificate action. </p>
   syntax:
-    content: public class CertificateOrderActionInner
+    content: public class CertificateOrderActionInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._certificate_order_action_type
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._certificate_order_action_type.yml
@@ -529,7 +529,7 @@ references:
   type: Class
   summary: <p>Class representing the Key Vault container for certificate purchased through <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class CertificateOrderCertificateInner
+    content: public class CertificateOrderCertificateInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._certificate_order_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._certificate_order_collection_inner.yml
@@ -547,7 +547,7 @@ references:
   type: Class
   summary: <p>Certificate purchase order. </p>
   syntax:
-    content: public class CertificateOrderInner
+    content: public class CertificateOrderInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._certificate_orders_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._certificate_orders_inner.yml
@@ -610,7 +610,7 @@ references:
   type: Class
   summary: <p>A mobile service. </p>
   syntax:
-    content: public class ClassicMobileServiceInner
+    content: public class ClassicMobileServiceInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._classic_mobile_services_inner.yml
@@ -655,7 +655,7 @@ references:
   type: Class
   summary: <p>String dictionary resource. </p>
   syntax:
-    content: public class ConnectionStringDictionaryInner
+    content: public class ConnectionStringDictionaryInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._conn_string_info
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._conn_string_info.yml
@@ -760,7 +760,7 @@ references:
   type: Class
   summary: <p>Certificate signing request object. </p>
   syntax:
-    content: public class CsrInner
+    content: public class CsrInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._custom_host_name_dns_record_type
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._custom_host_name_dns_record_type.yml
@@ -796,7 +796,7 @@ references:
   type: Class
   summary: <p>Reports deleted site including the timestamp of operation. </p>
   syntax:
-    content: public class DeletedSite
+    content: public class DeletedSite extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._deleted_site_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._deleted_site_collection_inner.yml
@@ -823,7 +823,7 @@ references:
   type: Class
   summary: <p>Represents user crendentials used for publishing activity. </p>
   syntax:
-    content: public class DeploymentInner
+    content: public class DeploymentInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._domain_availablility_check_result_inner.yml
@@ -859,7 +859,7 @@ references:
   type: Class
   summary: <p>Represents a domain. </p>
   syntax:
-    content: public class DomainInner
+    content: public class DomainInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._domain_purchase_consent.yml
@@ -886,7 +886,7 @@ references:
   type: Class
   summary: <p>Domain registration input for validation Api. </p>
   syntax:
-    content: public class DomainRegistrationInputInner
+    content: public class DomainRegistrationInputInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._domains_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._domains_inner.yml
@@ -967,7 +967,7 @@ references:
   type: Class
   summary: <p>Geographical region. </p>
   syntax:
-    content: public class GeoRegion
+    content: public class GeoRegion extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._geo_region_collection_inner.yml
@@ -1048,7 +1048,7 @@ references:
   type: Class
   summary: <p>Description of an hostingEnvironment (App Service Environment). </p>
   syntax:
-    content: public class HostingEnvironmentInner
+    content: public class HostingEnvironmentInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._hosting_environment_profile
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._hosting_environment_profile.yml
@@ -1102,7 +1102,7 @@ references:
   type: Class
   summary: <p>A host name binding object. </p>
   syntax:
-    content: public class HostNameBindingInner
+    content: public class HostNameBindingInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._host_name_ssl_state
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._host_name_ssl_state.yml
@@ -1204,7 +1204,7 @@ references:
   type: Class
   summary: <p>Description of a managed hosting environment. </p>
   syntax:
-    content: public class ManagedHostingEnvironmentInner
+    content: public class ManagedHostingEnvironmentInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._managed_hosting_environments_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._managed_hosting_environments_inner.yml
@@ -1258,7 +1258,7 @@ references:
   type: Class
   summary: <p>Class repesenting metadata for the metrics. </p>
   syntax:
-    content: public class MetricDefinitionInner
+    content: public class MetricDefinitionInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._name_identifier
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._name_identifier.yml
@@ -1303,7 +1303,7 @@ references:
   type: Class
   summary: <p>This is an object used to store a full view of network features (presently VNET integration and Hybrid Connections) for a web app. </p>
   syntax:
-    content: public class NetworkFeaturesInner
+    content: public class NetworkFeaturesInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._notification_level
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._notification_level.yml
@@ -1324,7 +1324,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -1399,7 +1399,7 @@ references:
   type: Class
   summary: <p>Class representing certificate reissue request. </p>
   syntax:
-    content: public class ReissueCertificateOrderRequestInner
+    content: public class ReissueCertificateOrderRequestInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._relay_service_connection_entity_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._relay_service_connection_entity_inner.yml
@@ -1408,7 +1408,7 @@ references:
   type: Class
   summary: <p>Class that represents a Biztalk Hybrid Connection. </p>
   syntax:
-    content: public class RelayServiceConnectionEntityInner
+    content: public class RelayServiceConnectionEntityInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._renew_certificate_order_request_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._renew_certificate_order_request_inner.yml
@@ -1417,7 +1417,7 @@ references:
   type: Class
   summary: <p>Class representing certificate renew request. </p>
   syntax:
-    content: public class RenewCertificateOrderRequestInner
+    content: public class RenewCertificateOrderRequestInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._requests_based_trigger
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._requests_based_trigger.yml
@@ -1495,7 +1495,7 @@ references:
   type: Class
   summary: <p>Description of a restore request. </p>
   syntax:
-    content: public class RestoreRequestInner
+    content: public class RestoreRequestInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._restore_response_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._restore_response_inner.yml
@@ -1504,7 +1504,7 @@ references:
   type: Class
   summary: <p>Response for a restore site request. </p>
   syntax:
-    content: public class RestoreResponseInner
+    content: public class RestoreResponseInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._routing_rule
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._routing_rule.yml
@@ -1540,7 +1540,7 @@ references:
   type: Class
   summary: <p>App Service Plan Model. </p>
   syntax:
-    content: public class ServerFarmWithRichSkuInner
+    content: public class ServerFarmWithRichSkuInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_auth_settings_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_auth_settings_inner.yml
@@ -1594,7 +1594,7 @@ references:
   type: Class
   summary: <p>Configuration of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> web site. </p>
   syntax:
-    content: public class SiteConfigInner
+    content: public class SiteConfigInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_inner.yml
@@ -1603,7 +1603,7 @@ references:
   type: Class
   summary: <p>Represents a web app. </p>
   syntax:
-    content: public class SiteInner
+    content: public class SiteInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_instance
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_instance.yml
@@ -1612,7 +1612,7 @@ references:
   type: Class
   summary: <p>Instance of a web app. </p>
   syntax:
-    content: public class SiteInstance
+    content: public class SiteInstance extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_instance_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_instance_collection_inner.yml
@@ -1648,7 +1648,7 @@ references:
   type: Class
   summary: <p>Configuration of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> web site. </p>
   syntax:
-    content: public class SiteLogsConfigInner
+    content: public class SiteLogsConfigInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._site_properties
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._site_properties.yml
@@ -1675,7 +1675,7 @@ references:
   type: Class
   summary: <p>Describes the source control configuration for web app. </p>
   syntax:
-    content: public class SiteSourceControlInner
+    content: public class SiteSourceControlInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._sku_capacity
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._sku_capacity.yml
@@ -1729,7 +1729,7 @@ references:
   type: Class
   summary: <p>Slot Config names azure resource. </p>
   syntax:
-    content: public class SlotConfigNamesResourceInner
+    content: public class SlotConfigNamesResourceInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._slot_difference
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._slot_difference.yml
@@ -1738,7 +1738,7 @@ references:
   type: Class
   summary: <p>An object describing the difference in setting values between two web app slots. </p>
   syntax:
-    content: public class SlotDifference
+    content: public class SlotDifference extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._slot_difference_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._slot_difference_collection_inner.yml
@@ -1777,7 +1777,7 @@ references:
   type: Class
   summary: <p>Describes the Source Control OAuth Token. </p>
   syntax:
-    content: public class SourceControlInner
+    content: public class SourceControlInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._ssl_state
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._ssl_state.yml
@@ -1831,7 +1831,7 @@ references:
   type: Class
   summary: <p>String dictionary resource. </p>
   syntax:
-    content: public class StringDictionaryInner
+    content: public class StringDictionaryInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement.yml
@@ -1876,7 +1876,7 @@ references:
   type: Class
   summary: <p>A top level domain object. </p>
   syntax:
-    content: public class TopLevelDomainInner
+    content: public class TopLevelDomainInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._top_level_domains_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._top_level_domains_inner.yml
@@ -1903,7 +1903,7 @@ references:
   type: Class
   summary: <p>Class that represents usage of the quota resource. </p>
   syntax:
-    content: public class Usage
+    content: public class Usage extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._usage_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._usage_collection_inner.yml
@@ -1939,7 +1939,7 @@ references:
   type: Class
   summary: <p>Represents user crendentials used for publishing activity. </p>
   syntax:
-    content: public class UserInner
+    content: public class UserInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._virtual_application
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._virtual_application.yml
@@ -1984,7 +1984,7 @@ references:
   type: Class
   summary: <p>The VnetGateway contract. This is used to give the vnet gateway access to the VPN package. </p>
   syntax:
-    content: public class VnetGatewayInner
+    content: public class VnetGatewayInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._vnet_info_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._vnet_info_inner.yml
@@ -1993,7 +1993,7 @@ references:
   type: Class
   summary: <p>VNETInfo contract. This contract is public and is a stripped down version of VNETInfoInternal. </p>
   syntax:
-    content: public class VnetInfoInner
+    content: public class VnetInfoInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._vnet_route_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._vnet_route_inner.yml
@@ -2002,7 +2002,7 @@ references:
   type: Class
   summary: <p>VnetRoute contract used to pass routing information for a vnet. </p>
   syntax:
-    content: public class VnetRouteInner
+    content: public class VnetRouteInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
@@ -2011,7 +2011,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class WebSiteManagementClientImpl
+    content: public class WebSiteManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.website.implementation.api._worker_pool_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._worker_pool_collection_inner.yml
@@ -2029,7 +2029,7 @@ references:
   type: Class
   summary: <p>Worker pool of a hostingEnvironment (App Service Environment). </p>
   syntax:
-    content: public class WorkerPoolInner
+    content: public class WorkerPoolInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._worker_size_options
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._worker_size_options.yml

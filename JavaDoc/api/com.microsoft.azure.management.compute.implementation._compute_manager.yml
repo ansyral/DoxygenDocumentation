@@ -25,7 +25,7 @@ items:
   package: com.microsoft.azure.management.compute.implementation
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> compute resource management. </p>
   syntax: &o1
-    content: public class ComputeManager
+    content: public class ComputeManager extends Manager<T>
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
@@ -243,7 +243,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class ComputeManagementClientImpl
+    content: public class ComputeManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.compute._availability_sets
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_sets.yml
@@ -252,7 +252,7 @@ references:
   type: Interface
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets
+    content: public interface AvailabilitySets extends SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.compute._virtual_machines
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machines.yml

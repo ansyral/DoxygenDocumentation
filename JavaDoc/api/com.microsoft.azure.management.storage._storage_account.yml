@@ -32,7 +32,7 @@ items:
   package: com.microsoft.azure.management.storage
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage account. </p>
   syntax:
-    content: public interface StorageAccount
+    content: public interface StorageAccount extends GroupableResource,Refreshable<T>,Updatable<T>,Wrapper<T>
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
@@ -473,7 +473,7 @@ references:
   type: Interface
   summary: <p>Base interface for resources in resource groups. </p>
   syntax:
-    content: public interface GroupableResource
+    content: public interface GroupableResource extends Resource
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
@@ -609,7 +609,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

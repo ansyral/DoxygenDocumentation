@@ -34,7 +34,7 @@ references:
   type: Class
   summary: <p>Child resource abstract implementation. (Internal use only) </p>
   syntax:
-    content: public class ChildResourceImpl<InnerT,ParentImplT>
+    content: public class ChildResourceImpl<InnerT,ParentImplT> extends IndexableWrapperImpl<InnerT> implements ChildResource
     typeParameters:
     - type: 52cf8095
       description: >-
@@ -54,7 +54,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class GroupableResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends GroupableResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>>
+    content: public class GroupableResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends GroupableResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>> extends ResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT> implements GroupableResource
     typeParameters:
     - type: 2f67777b
       description: <p>The fluent model type </p>
@@ -83,7 +83,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class GroupPagedList<E>
+    content: public class GroupPagedList<E> extends PagedList<E>
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
@@ -98,7 +98,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class ResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends ResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>>
+    content: public class ResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends ResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>> extends CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT> implements Resource
     typeParameters:
     - type: 2f67777b
       description: <p>The fluent model type </p>

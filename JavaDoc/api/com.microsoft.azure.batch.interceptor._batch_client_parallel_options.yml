@@ -22,7 +22,7 @@ items:
     startLine: 10
   package: com.microsoft.azure.batch.interceptor
   syntax: &o1
-    content: public class BatchClientParallelOptions
+    content: public class BatchClientParallelOptions extends BatchClientBehavior
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._batch_client_behavior

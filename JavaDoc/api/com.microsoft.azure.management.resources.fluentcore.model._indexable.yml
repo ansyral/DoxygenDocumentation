@@ -53,7 +53,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of a deployment operation. </p>
   syntax:
-    content: public interface DeploymentOperation
+    content: public interface DeploymentOperation extends Indexable,Refreshable<T>,Wrapper<T>
 - uid: com.microsoft.azure.management.resources._feature
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._feature.yml
@@ -62,7 +62,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> feature. </p>
   syntax:
-    content: public interface Feature
+    content: public interface Feature extends Indexable,Wrapper<T>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._child_resource.yml
@@ -71,7 +71,7 @@ references:
   type: Interface
   summary: <p>Base interface used by child resources. </p>
   syntax:
-    content: public interface ChildResource
+    content: public interface ChildResource extends Indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
@@ -92,7 +92,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Appliable<T>
+    content: public interface Appliable<T> extends Indexable
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the resource returned from the update. </p>
@@ -107,7 +107,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface Creatable<T>
+    content: public interface Creatable<T> extends Indexable
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource to be created </p>

@@ -42,7 +42,7 @@ items:
   package: com.microsoft.azure.management.compute.implementation.api
   summary: <p>Describes a virtual machine scale set virtual machine. </p>
   syntax: &o1
-    content: public class VirtualMachineScaleSetVMInner
+    content: public class VirtualMachineScaleSetVMInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -852,7 +852,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Extension. </p>
   syntax:
-    content: public class VirtualMachineExtensionInner
+    content: public class VirtualMachineExtensionInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_v_m_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_v_m_inner.yml

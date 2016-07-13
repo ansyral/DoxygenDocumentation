@@ -25,7 +25,7 @@ items:
   package: com.microsoft.azure.management.compute.implementation.api
   summary: <p>Virtual machine image resource information. </p>
   syntax: &o1
-    content: public class VirtualMachineImageResourceInner
+    content: public class VirtualMachineImageResourceInner extends SubResource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._sub_resource
@@ -242,7 +242,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Image. </p>
   syntax:
-    content: public class VirtualMachineImageInner
+    content: public class VirtualMachineImageInner extends VirtualMachineImageResourceInner
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner.yml

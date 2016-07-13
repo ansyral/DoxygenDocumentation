@@ -25,7 +25,7 @@ items:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
+    content: public class IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT> extends IndexableRefreshableImpl<T> implements Wrapper<T>
     typeParameters:
     - type: 2f67777b
       description: <p>The fluent model type </p>
@@ -155,7 +155,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableImpl<T>
+    content: public class IndexableRefreshableImpl<T> extends IndexableImpl implements Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
@@ -185,7 +185,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
     typeParameters:
     - type: 2f67777b
       description: <p>the fluent model type representing the creatable resource </p>

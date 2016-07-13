@@ -173,7 +173,7 @@ references:
   type: Class
   summary: <p>Create or update Availability Set parameters. </p>
   syntax:
-    content: public class AvailabilitySetInner
+    content: public class AvailabilitySetInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._availability_sets_inner.yml
@@ -236,7 +236,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class ComputeManagementClientImpl
+    content: public class ComputeManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.compute.implementation.api._data_disk
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._data_disk.yml
@@ -380,7 +380,7 @@ references:
   type: Class
   summary: <p>Describes a network interface reference. </p>
   syntax:
-    content: public class NetworkInterfaceReference
+    content: public class NetworkInterfaceReference extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._network_profile
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._network_profile.yml
@@ -437,7 +437,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -452,7 +452,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl1<T>
+    content: public class PageImpl1<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -650,7 +650,7 @@ references:
 
       <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> Id. </p>
   syntax:
-    content: public class VirtualMachineCaptureResultInner
+    content: public class VirtualMachineCaptureResultInner extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac9e1b958a15f0b2e3267214be47b85519
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_mac9e1b958a15f0b2e3267214be47b85519.yml
@@ -668,7 +668,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Extension Image. </p>
   syntax:
-    content: public class VirtualMachineExtensionImageInner
+    content: public class VirtualMachineExtensionImageInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_images_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_images_inner.yml
@@ -686,7 +686,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Extension. </p>
   syntax:
-    content: public class VirtualMachineExtensionInner
+    content: public class VirtualMachineExtensionInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_instance_view
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_instance_view.yml
@@ -713,7 +713,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Image. </p>
   syntax:
-    content: public class VirtualMachineImageInner
+    content: public class VirtualMachineImageInner extends VirtualMachineImageResourceInner
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_image_resource_inner.yml
@@ -722,7 +722,7 @@ references:
   type: Class
   summary: <p>Virtual machine image resource information. </p>
   syntax:
-    content: public class VirtualMachineImageResourceInner
+    content: public class VirtualMachineImageResourceInner extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
@@ -740,7 +740,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine. </p>
   syntax:
-    content: public class VirtualMachineInner
+    content: public class VirtualMachineInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_instance_view
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_instance_view.yml
@@ -758,7 +758,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Scale Set Extension. </p>
   syntax:
-    content: public class VirtualMachineScaleSetExtension
+    content: public class VirtualMachineScaleSetExtension extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_mac992aabe830e48bade57f96b247993f9f.yml
@@ -776,7 +776,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Scale Set. </p>
   syntax:
-    content: public class VirtualMachineScaleSetInner
+    content: public class VirtualMachineScaleSetInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_mac54a8f945c7974f3cbda43441cbd4eac3
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_mac54a8f945c7974f3cbda43441cbd4eac3.yml
@@ -803,7 +803,7 @@ references:
   type: Class
   summary: <p>Describes a virtual machine scale set network profile's IP configuration. </p>
   syntax:
-    content: public class VirtualMachineScaleSetIPConfiguration
+    content: public class VirtualMachineScaleSetIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_macc95a09163bc14bbd28b89342358e7951
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_macc95a09163bc14bbd28b89342358e7951.yml
@@ -812,7 +812,7 @@ references:
   type: Class
   summary: <p>Describes a virtual machine scale set network profile's network configurations. </p>
   syntax:
-    content: public class VirtualMachineScaleSetNetworkConfiguration
+    content: public class VirtualMachineScaleSetNetworkConfiguration extends SubResource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_network_profile
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_scale_set_network_profile.yml
@@ -902,7 +902,7 @@ references:
   type: Class
   summary: <p>Describes a virtual machine scale set virtual machine. </p>
   syntax:
-    content: public class VirtualMachineScaleSetVMInner
+    content: public class VirtualMachineScaleSetVMInner extends Resource
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_mace432b2e868f9342e3e353f7e06246e3d
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_mace432b2e868f9342e3e353f7e06246e3d.yml

@@ -70,7 +70,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> availability set. </p>
   syntax:
-    content: public interface AvailabilitySet
+    content: public interface AvailabilitySet extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.compute._virtual_machine
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine.yml
@@ -88,7 +88,7 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._network_interface
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface.yml
@@ -100,7 +100,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
   syntax:
-    content: public interface NetworkInterface
+    content: public interface NetworkInterface extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._network_security_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group.yml
@@ -112,7 +112,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security group. </p>
   syntax:
-    content: public interface NetworkSecurityGroup
+    content: public interface NetworkSecurityGroup extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._public_ip_address
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address.yml
@@ -121,7 +121,7 @@ references:
   type: Interface
   summary: <p>Public IP address. </p>
   syntax:
-    content: public interface PublicIpAddress
+    content: public interface PublicIpAddress extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.resources._deployment
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment.yml
@@ -130,7 +130,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> deployment. </p>
   syntax:
-    content: public interface Deployment
+    content: public interface Deployment extends Refreshable<T>,Updatable<T>,Wrapper<T>
 - uid: com.microsoft.azure.management.resources._deployment_operation
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment_operation.yml
@@ -139,7 +139,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of a deployment operation. </p>
   syntax:
-    content: public interface DeploymentOperation
+    content: public interface DeploymentOperation extends Indexable,Refreshable<T>,Wrapper<T>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533.yml
@@ -151,7 +151,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableImpl<T>
+    content: public class IndexableRefreshableImpl<T> extends IndexableImpl implements Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
@@ -163,7 +163,7 @@ references:
   type: Interface
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> generic resource. </p>
   syntax:
-    content: public interface GenericResource
+    content: public interface GenericResource extends GroupableResource,Refreshable<T>,Updatable<T>,Wrapper<T>
 - uid: com.microsoft.azure.management.resources._resource_group
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_group.yml

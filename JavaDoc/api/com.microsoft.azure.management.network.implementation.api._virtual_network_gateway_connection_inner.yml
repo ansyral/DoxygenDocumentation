@@ -49,7 +49,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>A common class for general resource information. </p>
   syntax: &o1
-    content: public class VirtualNetworkGatewayConnectionInner
+    content: public class VirtualNetworkGatewayConnectionInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -967,7 +967,7 @@ references:
   type: Class
   summary: <p>A common class for general resource information. </p>
   syntax:
-    content: public class LocalNetworkGatewayInner
+    content: public class LocalNetworkGatewayInner extends Resource
 - uid: com.microsoft.azure._sub_resource
   parent: com.microsoft.azure
   href: com.microsoft.azure._sub_resource.yml

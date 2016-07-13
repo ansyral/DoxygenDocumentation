@@ -485,7 +485,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -518,7 +518,7 @@ references:
   type: Class
   summary: <p>A top level domain object. </p>
   syntax:
-    content: public class TopLevelDomainInner
+    content: public class TopLevelDomainInner extends Resource
 - uid: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner
   parent: com.microsoft.azure.management.website.implementation.api
   href: com.microsoft.azure.management.website.implementation.api._tld_legal_agreement_collection_inner.yml

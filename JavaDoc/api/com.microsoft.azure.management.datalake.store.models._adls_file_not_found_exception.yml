@@ -18,7 +18,7 @@ items:
   package: com.microsoft.azure.management.datalake.store.models
   summary: <p>A WebHDFS exception thrown indicating the file or folder could not be found. Thrown when a 404 error response code is returned (not found). </p>
   syntax:
-    content: public class AdlsFileNotFoundException
+    content: public class AdlsFileNotFoundException extends AdlsRemoteException
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.store.models._adls_remote_exception

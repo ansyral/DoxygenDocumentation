@@ -649,7 +649,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class ComputeManagementClientImpl
+    content: public class ComputeManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner
   parent: com.microsoft.azure.management.compute.implementation.api
   href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_images_inner.yml
@@ -681,7 +681,7 @@ references:
   type: Class
   summary: <p>Describes a Virtual Machine Image. </p>
   syntax:
-    content: public class VirtualMachineImageInner
+    content: public class VirtualMachineImageInner extends VirtualMachineImageResourceInner
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -690,7 +690,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -723,7 +723,7 @@ references:
   type: Class
   summary: <p>Virtual machine image resource information. </p>
   syntax:
-    content: public class VirtualMachineImageResourceInner
+    content: public class VirtualMachineImageResourceInner extends SubResource
 - uid: com.microsoft.azure.management.compute._virtual_machine_images
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_images.yml
@@ -732,4 +732,4 @@ references:
   type: Interface
   summary: <p>Entry point to virtual machine image management API. </p>
   syntax:
-    content: public interface VirtualMachineImages
+    content: public interface VirtualMachineImages extends SupportsListingByRegion<T>

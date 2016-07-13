@@ -26,7 +26,7 @@ items:
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>A mocked front end for testing out the code paths of the <xref href="com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader" data-throw-if-not-resolved="false"></xref></p>
   syntax:
-    content: public class MsuMockFrontEnd
+    content: public class MsuMockFrontEnd implements FrontEndAdapter
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.store.uploader._front_end_adapter

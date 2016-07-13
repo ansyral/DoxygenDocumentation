@@ -271,7 +271,7 @@ references:
   type: Class
   summary: <p>A front end adapter that communicates with the DataLake Store. This is a syncrhonous call adapter, which has certain efficiency limitations. In the future, new adapters that are created should consider implementing the methods asynchronously. </p>
   syntax:
-    content: public class DataLakeStoreFrontEndAdapterImpl
+    content: public class DataLakeStoreFrontEndAdapterImpl implements FrontEndAdapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._in_memory_front_end
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._in_memory_front_end.yml

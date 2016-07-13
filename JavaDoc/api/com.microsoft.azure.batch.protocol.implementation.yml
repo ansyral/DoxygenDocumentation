@@ -58,7 +58,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._accounts" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class AccountsImpl
+    content: public class AccountsImpl implements Accounts
 - uid: com.microsoft.azure.batch.protocol.implementation._applications_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -67,7 +67,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._applications" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class ApplicationsImpl
+    content: public class ApplicationsImpl implements Applications
 - uid: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl.yml
@@ -76,7 +76,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class BatchServiceClientImpl
+    content: public class BatchServiceClientImpl extends AzureServiceClient implements BatchServiceClient
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -85,7 +85,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._certificates" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class CertificatesImpl
+    content: public class CertificatesImpl implements Certificates
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -94,7 +94,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._compute_nodes" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class ComputeNodesImpl
+    content: public class ComputeNodesImpl implements ComputeNodes
 - uid: com.microsoft.azure.batch.protocol.implementation._files_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
@@ -103,7 +103,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._files" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class FilesImpl
+    content: public class FilesImpl implements Files
 - uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
@@ -112,7 +112,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._job_schedules" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class JobSchedulesImpl
+    content: public class JobSchedulesImpl implements JobSchedules
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -121,7 +121,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._jobs" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class JobsImpl
+    content: public class JobsImpl implements Jobs
 - uid: com.microsoft.azure.batch.protocol.implementation._pools_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
@@ -130,7 +130,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._pools" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class PoolsImpl
+    content: public class PoolsImpl implements Pools
 - uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   parent: com.microsoft.azure.batch.protocol.implementation
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
@@ -139,4 +139,4 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.batch.protocol._tasks" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class TasksImpl
+    content: public class TasksImpl implements Tasks

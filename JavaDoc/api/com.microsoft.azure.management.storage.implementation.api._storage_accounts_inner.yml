@@ -1009,7 +1009,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -1042,7 +1042,7 @@ references:
   type: Class
   summary: <p>The storage account. </p>
   syntax:
-    content: public class StorageAccountInner
+    content: public class StorageAccountInner extends Resource
 - uid: com.microsoft.azure.management.storage.implementation.api._storage_account_create_parameters_inner
   parent: com.microsoft.azure.management.storage.implementation.api
   href: com.microsoft.azure.management.storage.implementation.api._storage_account_create_parameters_inner.yml
@@ -1090,7 +1090,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -1102,4 +1102,4 @@ references:
   type: Interface
   summary: <p>Entry point for storage accounts management API. </p>
   syntax:
-    content: public interface StorageAccounts
+    content: public interface StorageAccounts extends SupportsListing<T>,SupportsCreating<T>,SupportsDeleting,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeletingByGroup

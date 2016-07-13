@@ -20,7 +20,7 @@ items:
   package: com.microsoft.azure.management.network
   summary: <p>An immutable client-side representation of a subnet of a virtual network. </p>
   syntax:
-    content: public interface Subnet
+    content: public interface Subnet extends Wrapper<T>,ChildResource
   inheritance:
   - com.microsoft.azure.management.resources.fluentcore.model._wrapper
   inheritedMembers:
@@ -107,5 +107,5 @@ references:
   type: Interface
   summary: <p>Base interface used by child resources. </p>
   syntax:
-    content: public interface ChildResource
+    content: public interface ChildResource extends Indexable
 - uid: com.microsoft.azure.management.network.implementation._subnet_impl

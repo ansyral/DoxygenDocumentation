@@ -319,7 +319,7 @@ references:
   type: Class
   summary: <p>The <xref href="com.microsoft.azure.management.datalake.analytics.models._hive_job_properties" data-throw-if-not-resolved="false"></xref> model. </p>
   syntax:
-    content: public class HiveJobProperties
+    content: public class HiveJobProperties extends JobProperties
 - uid: com.microsoft.azure.management.datalake.analytics.models._hive_job_statement_info
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._hive_job_statement_info.yml
@@ -475,7 +475,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -538,7 +538,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL Assembly. </p>
   syntax:
-    content: public class USqlAssembly
+    content: public class USqlAssembly extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_assembly_clr
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_assembly_clr.yml
@@ -547,7 +547,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL assembly CLR item. </p>
   syntax:
-    content: public class USqlAssemblyClr
+    content: public class USqlAssemblyClr extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_assembly_dependency_info
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_assembly_dependency_info.yml
@@ -574,7 +574,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL credential item. </p>
   syntax:
-    content: public class USqlCredential
+    content: public class USqlCredential extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_database
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_database.yml
@@ -583,7 +583,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL database item. </p>
   syntax:
-    content: public class USqlDatabase
+    content: public class USqlDatabase extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_directed_column
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_directed_column.yml
@@ -610,7 +610,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL external datasource item. </p>
   syntax:
-    content: public class USqlExternalDataSource
+    content: public class USqlExternalDataSource extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_index
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_index.yml
@@ -628,7 +628,7 @@ references:
   type: Class
   summary: <p>The <xref href="com.microsoft.azure.management.datalake.analytics.models._u_sql_job_properties" data-throw-if-not-resolved="false"></xref> model. </p>
   syntax:
-    content: public class USqlJobProperties
+    content: public class USqlJobProperties extends JobProperties
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_procedure
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_procedure.yml
@@ -637,7 +637,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL procedure item. </p>
   syntax:
-    content: public class USqlProcedure
+    content: public class USqlProcedure extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_schema
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_schema.yml
@@ -646,7 +646,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL schema item. </p>
   syntax:
-    content: public class USqlSchema
+    content: public class USqlSchema extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_secret
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_secret.yml
@@ -655,7 +655,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL secret item. </p>
   syntax:
-    content: public class USqlSecret
+    content: public class USqlSecret extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table.yml
@@ -664,7 +664,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL table item. </p>
   syntax:
-    content: public class USqlTable
+    content: public class USqlTable extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_column
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_column.yml
@@ -682,7 +682,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL table partition item. </p>
   syntax:
-    content: public class USqlTablePartition
+    content: public class USqlTablePartition extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_statistics
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_statistics.yml
@@ -691,7 +691,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL table statistics item. </p>
   syntax:
-    content: public class USqlTableStatistics
+    content: public class USqlTableStatistics extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type.yml
@@ -700,7 +700,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL table type item. </p>
   syntax:
-    content: public class USqlTableType
+    content: public class USqlTableType extends USqlType
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_valued_function
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_valued_function.yml
@@ -709,7 +709,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL table valued function item. </p>
   syntax:
-    content: public class USqlTableValuedFunction
+    content: public class USqlTableValuedFunction extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_type
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_type.yml
@@ -718,7 +718,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL type item. </p>
   syntax:
-    content: public class USqlType
+    content: public class USqlType extends CatalogItem
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_view
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_view.yml
@@ -727,4 +727,4 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL view item. </p>
   syntax:
-    content: public class USqlView
+    content: public class USqlView extends CatalogItem

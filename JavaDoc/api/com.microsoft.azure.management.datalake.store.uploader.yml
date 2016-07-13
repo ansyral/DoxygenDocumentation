@@ -85,7 +85,7 @@ references:
   type: Class
   summary: <p>A front end adapter that communicates with the DataLake Store. This is a syncrhonous call adapter, which has certain efficiency limitations. In the future, new adapters that are created should consider implementing the methods asynchronously. </p>
   syntax:
-    content: public class DataLakeStoreFrontEndAdapterImpl
+    content: public class DataLakeStoreFrontEndAdapterImpl implements FrontEndAdapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base.yml
@@ -120,7 +120,7 @@ references:
   type: Class
   summary: <p>Test front-end, fully in-memory. </p>
   syntax:
-    content: public class InMemoryFrontEnd
+    content: public class InMemoryFrontEnd implements FrontEndAdapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._intentional_exception
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._intentional_exception.yml
@@ -129,7 +129,7 @@ references:
   type: Class
   summary: <p>An exception that we want our mocks to throw sometimes to test out various code paths. </p>
   syntax:
-    content: public class IntentionalException
+    content: public class IntentionalException extends CloudException
 - uid: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._invalid_metadata_exception.yml
@@ -147,7 +147,7 @@ references:
   type: Class
   summary: <p>A mocked front end for testing out the code paths of the <xref href="com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader" data-throw-if-not-resolved="false"></xref></p>
   syntax:
-    content: public class MsuMockFrontEnd
+    content: public class MsuMockFrontEnd implements FrontEndAdapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._multiple_segment_uploader.yml
@@ -173,7 +173,7 @@ references:
   fullName: com.microsoft.azure.management.datalake.store.uploader.PerformanceUploadTests
   type: Class
   syntax:
-    content: public class PerformanceUploadTests
+    content: public class PerformanceUploadTests extends DataLakeUploaderTestBase
 - uid: com.microsoft.azure.management.datalake.store.uploader._segment_upload_status
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._segment_upload_status.yml
@@ -208,7 +208,7 @@ references:
   type: Class
   summary: <p>Represents a mocked front end for testing the <xref href="com.microsoft.azure.management.datalake.store.uploader._single_segment_uploader" data-throw-if-not-resolved="false"></xref></p>
   syntax:
-    content: public class SsuMockFrontEnd
+    content: public class SsuMockFrontEnd implements FrontEndAdapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._string_extensions
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._string_extensions.yml
@@ -242,7 +242,7 @@ references:
   type: Class
   summary: <p>A front end mock used for unit testing <xref href="com.microsoft.azure.management.datalake.store.uploader._data_lake_store_uploader" data-throw-if-not-resolved="false"></xref></p>
   syntax:
-    content: public class UploaderFrontEndMock
+    content: public class UploaderFrontEndMock implements FrontEndAdapter
 - uid: com.microsoft.azure.management.datalake.store.uploader._upload_failed_exception
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._upload_failed_exception.yml

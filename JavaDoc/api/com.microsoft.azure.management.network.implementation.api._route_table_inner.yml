@@ -27,7 +27,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>RouteTable resource. </p>
   syntax: &o1
-    content: public class RouteTableInner
+    content: public class RouteTableInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -394,7 +394,7 @@ references:
   type: Class
   summary: <p>Route resource. </p>
   syntax:
-    content: public class RouteInner
+    content: public class RouteInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._subnet_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._subnet_inner.yml

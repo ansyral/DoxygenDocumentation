@@ -25,7 +25,7 @@ items:
 
     <p></p>
   syntax:
-    content: public class AzureServiceResponseBuilder<T,E extends RestException>
+    content: public class AzureServiceResponseBuilder<T,E extends RestException> extends ServiceResponseBuilder<T,E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the return type from caller. </p>

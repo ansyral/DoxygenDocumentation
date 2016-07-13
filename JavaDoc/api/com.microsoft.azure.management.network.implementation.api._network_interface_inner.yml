@@ -39,7 +39,7 @@ items:
   package: com.microsoft.azure.management.network.implementation.api
   summary: <p>A <xref href="com.microsoft.azure.management.network._network_interface" data-throw-if-not-resolved="false"></xref> in a resource group. </p>
   syntax: &o1
-    content: public class NetworkInterfaceInner
+    content: public class NetworkInterfaceInner extends Resource
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._resource
@@ -736,7 +736,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> interface. </p>
   syntax:
-    content: public interface NetworkInterface
+    content: public interface NetworkInterface extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network.implementation.api._network_interface_dns_settings
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_interface_dns_settings.yml

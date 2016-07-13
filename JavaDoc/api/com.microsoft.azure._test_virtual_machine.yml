@@ -22,7 +22,7 @@ items:
     startLine: 18
   package: com.microsoft.azure
   syntax:
-    content: public class TestVirtualMachine
+    content: public class TestVirtualMachine extends TestTemplate<T,C,&SupportsGettingByGroup< T > &SupportsDeleting &SupportsGettingById< T >>
   inheritance:
   - java.lang.Object
   - com.microsoft.azure._test_template

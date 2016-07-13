@@ -94,4 +94,4 @@ references:
   type: Interface
   summary: <p>The template for a generic resource update operation, containing all the settings that can be modified. </p>
   syntax:
-    content: public interface Update
+    content: public interface Update extends Appliable<T>,GenericResource.UpdateWithPlan,GenericResource.UpdateWithParentResource,GenericResource.UpdateWithProperties,Resource.UpdateWithTags<T>

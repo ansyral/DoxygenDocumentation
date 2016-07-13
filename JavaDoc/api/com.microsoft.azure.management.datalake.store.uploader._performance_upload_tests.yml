@@ -24,7 +24,7 @@ items:
     startLine: 22
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
-    content: public class PerformanceUploadTests
+    content: public class PerformanceUploadTests extends DataLakeUploaderTestBase
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base
@@ -219,4 +219,4 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class DataLakeStoreFileSystemManagementClientImpl
+    content: public class DataLakeStoreFileSystemManagementClientImpl extends AzureServiceClient implements DataLakeStoreFileSystemManagementClient

@@ -52,7 +52,7 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._accounts" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class AccountsImpl
+    content: public class AccountsImpl implements Accounts
 - uid: com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633
   parent: com.microsoft.azure.management.datalake.store.implementation
   href: com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633.yml
@@ -61,7 +61,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class DataLakeStoreAccountManagementClientImpl
+    content: public class DataLakeStoreAccountManagementClientImpl extends AzureServiceClient implements DataLakeStoreAccountManagementClient
 - uid: com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c
   parent: com.microsoft.azure.management.datalake.store.implementation
   href: com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c.yml
@@ -70,7 +70,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class DataLakeStoreFileSystemManagementClientImpl
+    content: public class DataLakeStoreFileSystemManagementClientImpl extends AzureServiceClient implements DataLakeStoreFileSystemManagementClient
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   parent: com.microsoft.azure.management.datalake.store.implementation
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -79,4 +79,4 @@ references:
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._file_systems" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class FileSystemsImpl
+    content: public class FileSystemsImpl implements FileSystems

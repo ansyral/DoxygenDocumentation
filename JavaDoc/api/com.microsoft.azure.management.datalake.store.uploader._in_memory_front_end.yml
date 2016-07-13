@@ -28,7 +28,7 @@ items:
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Test front-end, fully in-memory. </p>
   syntax:
-    content: public class InMemoryFrontEnd
+    content: public class InMemoryFrontEnd implements FrontEndAdapter
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
@@ -350,7 +350,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter_1ac0fb5d67c44b9ceba06f59625cffb38e
   parent: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter
   href: com.microsoft.azure.management.datalake.store.uploader._front_end_adapter.yml

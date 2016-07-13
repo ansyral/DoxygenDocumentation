@@ -163,7 +163,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class StorageManagementClientImpl
+    content: public class StorageManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.storage.implementation.api._usages_inner
   parent: com.microsoft.azure.management.storage.implementation.api
   href: com.microsoft.azure.management.storage.implementation.api._usages_inner.yml
@@ -204,7 +204,7 @@ references:
   type: Class
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
-    content: public class CloudException
+    content: public class CloudException extends RestException
 - uid: com.microsoft.rest._service_call
   parent: com.microsoft.rest
   href: com.microsoft.rest._service_call.yml
@@ -237,4 +237,4 @@ references:
   type: Interface
   summary: <p>Entry point for storage resource usage management API. </p>
   syntax:
-    content: public interface Usages
+    content: public interface Usages extends SupportsListing<T>

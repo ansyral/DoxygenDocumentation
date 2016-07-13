@@ -94,7 +94,7 @@ references:
   type: Interface
   summary: <p>A generic resource definition allowing parent resource to be specified. </p>
   syntax:
-    content: public interface DefinitionWithOrWithoutParentResource
+    content: public interface DefinitionWithOrWithoutParentResource extends GenericResource.DefinitionWithPlan
 - uid: com.microsoft.azure.management.resources.implementation._generic_resource_impl
 - uid: com.microsoft.azure.management.resources._generic_resource._definition_with_api_version
   parent: com.microsoft.azure.management.resources

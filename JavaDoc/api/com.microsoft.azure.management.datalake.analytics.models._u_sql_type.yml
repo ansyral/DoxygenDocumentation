@@ -49,7 +49,7 @@ items:
   package: com.microsoft.azure.management.datalake.analytics.models
   summary: <p>A Data Lake Analytics catalog U-SQL type item. </p>
   syntax: &o1
-    content: public class USqlType
+    content: public class USqlType extends CatalogItem
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.datalake.analytics.models._catalog_item
@@ -906,7 +906,7 @@ references:
   type: Class
   summary: <p>A Data Lake Analytics catalog U-SQL table type item. </p>
   syntax:
-    content: public class USqlTableType
+    content: public class USqlTableType extends USqlType
 - uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_type
   parent: com.microsoft.azure.management.datalake.analytics.models
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_type.yml

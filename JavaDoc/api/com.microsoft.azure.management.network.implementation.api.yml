@@ -164,7 +164,7 @@ references:
   type: Interface
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Network
+    content: public interface Network extends GroupableResource,Refreshable<T>,Wrapper<T>,Updatable<T>
 - uid: com.microsoft.azure.management.network._networks
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._networks.yml
@@ -173,7 +173,7 @@ references:
   type: Interface
   summary: <p>Entry point to virtual network management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Networks
+    content: public interface Networks extends SupportsCreating<T>,SupportsListing<T>,SupportsListingByGroup<T>,SupportsGettingByGroup<T>,SupportsGettingById<T>,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network.implementation.api._address_space
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._address_space.yml
@@ -203,7 +203,7 @@ references:
   type: Class
   summary: <p>Backend Address Pool of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayBackendAddressPool
+    content: public class ApplicationGatewayBackendAddressPool extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_backend_http_settings
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_backend_http_settings.yml
@@ -212,7 +212,7 @@ references:
   type: Class
   summary: <p>Backend address pool settings of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayBackendHttpSettings
+    content: public class ApplicationGatewayBackendHttpSettings extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_cookie_based_affinity
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_cookie_based_affinity.yml
@@ -230,7 +230,7 @@ references:
   type: Class
   summary: <p>Frontend IP configuration of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayFrontendIPConfiguration
+    content: public class ApplicationGatewayFrontendIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_frontend_port
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_frontend_port.yml
@@ -239,7 +239,7 @@ references:
   type: Class
   summary: <p>Frontend Port of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayFrontendPort
+    content: public class ApplicationGatewayFrontendPort extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_http_listener
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_http_listener.yml
@@ -248,7 +248,7 @@ references:
   type: Class
   summary: <p>Http listener of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayHttpListener
+    content: public class ApplicationGatewayHttpListener extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_inner.yml
@@ -257,7 +257,7 @@ references:
   type: Class
   summary: <p>ApplicationGateways resource. </p>
   syntax:
-    content: public class ApplicationGatewayInner
+    content: public class ApplicationGatewayInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_i_p_configuration
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_i_p_configuration.yml
@@ -266,7 +266,7 @@ references:
   type: Class
   summary: <p>IP configuration of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayIPConfiguration
+    content: public class ApplicationGatewayIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_operational_state
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_operational_state.yml
@@ -284,7 +284,7 @@ references:
   type: Class
   summary: <p>Path rule of URL path map of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayPathRule
+    content: public class ApplicationGatewayPathRule extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_probe
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_probe.yml
@@ -296,7 +296,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network.implementation.api._probe" data-throw-if-not-resolved="false"></xref> of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayProbe
+    content: public class ApplicationGatewayProbe extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_protocol
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_protocol.yml
@@ -314,7 +314,7 @@ references:
   type: Class
   summary: <p>Request routing rule of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayRequestRoutingRule
+    content: public class ApplicationGatewayRequestRoutingRule extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application6070fe59d5193e036ff680bbd8571016
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application6070fe59d5193e036ff680bbd8571016.yml
@@ -359,7 +359,7 @@ references:
   type: Class
   summary: <p>SSL certificates of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewaySslCertificate
+    content: public class ApplicationGatewaySslCertificate extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._application_gateway_tier
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._application_gateway_tier.yml
@@ -377,7 +377,7 @@ references:
   type: Class
   summary: <p>UrlPathMap of application gateway. </p>
   syntax:
-    content: public class ApplicationGatewayUrlPathMap
+    content: public class ApplicationGatewayUrlPathMap extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._authorization_use_status
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._authorization_use_status.yml
@@ -404,7 +404,7 @@ references:
   type: Class
   summary: <p>Pool of backend IP addresseses. </p>
   syntax:
-    content: public class BackendAddressPool
+    content: public class BackendAddressPool extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._bgp_settings
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._bgp_settings.yml
@@ -494,7 +494,7 @@ references:
   type: Class
   summary: <p>Authorization in a ExpressRouteCircuit resource. </p>
   syntax:
-    content: public class ExpressRouteCircuitAuthorizationInner
+    content: public class ExpressRouteCircuitAuthorizationInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_authorizations_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_authorizations_inner.yml
@@ -512,7 +512,7 @@ references:
   type: Class
   summary: <p>ExpressRouteCircuit resource. </p>
   syntax:
-    content: public class ExpressRouteCircuitInner
+    content: public class ExpressRouteCircuitInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._express_roua1b9c91a52319e6e565d322b5b0e7c71
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._express_roua1b9c91a52319e6e565d322b5b0e7c71.yml
@@ -539,7 +539,7 @@ references:
   type: Class
   summary: <p>Peering in a ExpressRouteCircuit resource. </p>
   syntax:
-    content: public class ExpressRouteCircuitPeeringInner
+    content: public class ExpressRouteCircuitPeeringInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._express_route_circuit_peerings_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._express_route_circuit_peerings_inner.yml
@@ -647,7 +647,7 @@ references:
   type: Class
   summary: <p>ExpressRouteResourceProvider object. </p>
   syntax:
-    content: public class ExpressRouteServiceProviderInner
+    content: public class ExpressRouteServiceProviderInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._express_route_service_providers_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._express_route_service_providers_inner.yml
@@ -665,7 +665,7 @@ references:
   type: Class
   summary: <p>Frontend IP address of the load balancer. </p>
   syntax:
-    content: public class FrontendIPConfiguration
+    content: public class FrontendIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._inbound_nat_pool
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._inbound_nat_pool.yml
@@ -674,7 +674,7 @@ references:
   type: Class
   summary: <p>Inbound NAT pool of the loadbalancer. </p>
   syntax:
-    content: public class InboundNatPool
+    content: public class InboundNatPool extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._inbound_nat_rule
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._inbound_nat_rule.yml
@@ -683,7 +683,7 @@ references:
   type: Class
   summary: <p>Inbound NAT rule of the loadbalancer. </p>
   syntax:
-    content: public class InboundNatRule
+    content: public class InboundNatRule extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._i_p_allocation_method
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._i_p_allocation_method.yml
@@ -704,7 +704,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network.implementation.api._i_p_configuration" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class IPConfiguration
+    content: public class IPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._load_balancer_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._load_balancer_inner.yml
@@ -713,7 +713,7 @@ references:
   type: Class
   summary: <p>LoadBalancer resource. </p>
   syntax:
-    content: public class LoadBalancerInner
+    content: public class LoadBalancerInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._load_balancers_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._load_balancers_inner.yml
@@ -731,7 +731,7 @@ references:
   type: Class
   summary: <p>Rules of the load balancer. </p>
   syntax:
-    content: public class LoadBalancingRule
+    content: public class LoadBalancingRule extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._load_distribution
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._load_distribution.yml
@@ -749,7 +749,7 @@ references:
   type: Class
   summary: <p>A common class for general resource information. </p>
   syntax:
-    content: public class LocalNetworkGatewayInner
+    content: public class LocalNetworkGatewayInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._local_network_gateways_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._local_network_gateways_inner.yml
@@ -776,7 +776,7 @@ references:
   type: Class
   summary: <p>A <xref href="com.microsoft.azure.management.network._network_interface" data-throw-if-not-resolved="false"></xref> in a resource group. </p>
   syntax:
-    content: public class NetworkInterfaceInner
+    content: public class NetworkInterfaceInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._network_interface_i_p_configuration
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_interface_i_p_configuration.yml
@@ -788,7 +788,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network.implementation.api._i_p_configuration" data-throw-if-not-resolved="false"></xref> in a <xref href="com.microsoft.azure.management.network._network_interface" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class NetworkInterfaceIPConfiguration
+    content: public class NetworkInterfaceIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._network_interfaces_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_interfaces_inner.yml
@@ -806,7 +806,7 @@ references:
   type: Class
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
-    content: public class NetworkManagementClientImpl
+    content: public class NetworkManagementClientImpl extends AzureServiceClient
 - uid: com.microsoft.azure.management.network.implementation.api._network_operation_status
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_operation_status.yml
@@ -827,7 +827,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> resource. </p>
   syntax:
-    content: public class NetworkSecurityGroupInner
+    content: public class NetworkSecurityGroupInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._network_security_groups_inner.yml
@@ -845,7 +845,7 @@ references:
   type: Class
   summary: <p>Outbound NAT pool of the loadbalancer. </p>
   syntax:
-    content: public class OutboundNatRule
+    content: public class OutboundNatRule extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._page_impl
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._page_impl.yml
@@ -857,7 +857,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class PageImpl<T>
+    content: public class PageImpl<T> implements Page<E>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
@@ -869,7 +869,7 @@ references:
   type: Class
   summary: <p>Load balancer <xref href="com.microsoft.azure.management.network.implementation.api._probe" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class Probe
+    content: public class Probe extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._probe_protocol
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._probe_protocol.yml
@@ -914,7 +914,7 @@ references:
   type: Class
   summary: <p>PublicIPAddress resource. </p>
   syntax:
-    content: public class PublicIPAddressInner
+    content: public class PublicIPAddressInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._route_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._route_inner.yml
@@ -923,7 +923,7 @@ references:
   type: Class
   summary: <p>Route resource. </p>
   syntax:
-    content: public class RouteInner
+    content: public class RouteInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._route_next_hop_type
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._route_next_hop_type.yml
@@ -950,7 +950,7 @@ references:
   type: Class
   summary: <p>RouteTable resource. </p>
   syntax:
-    content: public class RouteTableInner
+    content: public class RouteTableInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._route_tables_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._route_tables_inner.yml
@@ -989,7 +989,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> security rule. </p>
   syntax:
-    content: public class SecurityRuleInner
+    content: public class SecurityRuleInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._security_rule_protocol
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._security_rule_protocol.yml
@@ -1028,7 +1028,7 @@ references:
 
       <xref href="com.microsoft.azure.management.network._subnet" data-throw-if-not-resolved="false"></xref> in a VirtualNework resource. </p>
   syntax:
-    content: public class SubnetInner
+    content: public class SubnetInner extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._subnets_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._subnets_inner.yml
@@ -1082,7 +1082,7 @@ references:
   type: Class
   summary: <p>A common class for general resource information. </p>
   syntax:
-    content: public class VirtualNetworkGatewayConnectionInner
+    content: public class VirtualNetworkGatewayConnectionInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_connections_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_connections_inner.yml
@@ -1118,7 +1118,7 @@ references:
   type: Class
   summary: <p>A common class for general resource information. </p>
   syntax:
-    content: public class VirtualNetworkGatewayInner
+    content: public class VirtualNetworkGatewayInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateway_i_p_configuration.yml
@@ -1127,7 +1127,7 @@ references:
   type: Class
   summary: <p>IpConfiguration for Virtual network gateway. </p>
   syntax:
-    content: public class VirtualNetworkGatewayIPConfiguration
+    content: public class VirtualNetworkGatewayIPConfiguration extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._virtual_network_gateways_inner.yml
@@ -1184,7 +1184,7 @@ references:
   type: Class
   summary: <p>Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource. </p>
   syntax:
-    content: public class VirtualNetworkInner
+    content: public class VirtualNetworkInner extends Resource
 - uid: com.microsoft.azure.management.network.implementation.api._virtual_networks_inner
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._virtual_networks_inner.yml
@@ -1226,7 +1226,7 @@ references:
   type: Class
   summary: <p>VPN client revoked certificate of virtual network gateway. </p>
   syntax:
-    content: public class VpnClientRevokedCertificate
+    content: public class VpnClientRevokedCertificate extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._vpn_client_root_certificate
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._vpn_client_root_certificate.yml
@@ -1235,7 +1235,7 @@ references:
   type: Class
   summary: <p>VPN client root certificate of virtual network gateway. </p>
   syntax:
-    content: public class VpnClientRootCertificate
+    content: public class VpnClientRootCertificate extends SubResource
 - uid: com.microsoft.azure.management.network.implementation.api._vpn_type
   parent: com.microsoft.azure.management.network.implementation.api
   href: com.microsoft.azure.management.network.implementation.api._vpn_type.yml

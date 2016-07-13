@@ -58,7 +58,7 @@ references:
   type: Interface
   summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface DefinitionCreatable extends Creatable<T>
 - uid: com.microsoft.azure.management.resources.implementation.api._deployment_mode
   parent: com.microsoft.azure.management.resources.implementation.api
   href: com.microsoft.azure.management.resources.implementation.api._deployment_mode.yml

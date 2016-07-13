@@ -42,7 +42,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+    content: public class CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
     typeParameters:
     - type: 2f67777b
       description: <p>the fluent model type representing the creatable resource </p>
@@ -58,7 +58,7 @@ references:
   type: Class
   summary: <p>Type representing a group of creatable tasks and the dependency between them. </p>
   syntax:
-    content: public class CreatableTaskGroup
+    content: public class CreatableTaskGroup extends TaskGroupBase<T>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_item
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_task_item.yml
@@ -67,7 +67,7 @@ references:
   type: Class
   summary: <p>Represents a task that creates a resource when executed. </p>
   syntax:
-    content: public class CreatableTaskItem
+    content: public class CreatableTaskItem implements TaskItem<U>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl.yml
@@ -79,7 +79,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
+    content: public class CreatableUpdatableImpl<FluentModelT,InnerModelT,FluentModelImplT> extends CreatableImpl<FluentModelT,InnerModelT,FluentModelImplT>
     typeParameters:
     - type: 2f67777b
       description: <p>the fluent model type representing the resource </p>
@@ -95,7 +95,7 @@ references:
   type: Class
   summary: <p>The base implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.model._indexable" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public class IndexableImpl
+    content: public class IndexableImpl implements Indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementati8a7bec9bdead80d909ddab56ada5d533.yml
@@ -107,7 +107,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableImpl<T>
+    content: public class IndexableRefreshableImpl<T> extends IndexableImpl implements Refreshable<T>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
@@ -122,7 +122,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT>
+    content: public class IndexableRefreshableWrapperImpl<FluentModelT,InnerModelT> extends IndexableRefreshableImpl<T> implements Wrapper<T>
     typeParameters:
     - type: 2f67777b
       description: <p>The fluent model type </p>
@@ -142,7 +142,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class IndexableWrapperImpl<InnerT>
+    content: public class IndexableWrapperImpl<InnerT> extends IndexableImpl implements Wrapper<T>
     typeParameters:
     - type: 52cf8095
       description: <p>wrapped type </p>
@@ -157,7 +157,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class WrapperImpl<InnerT>
+    content: public class WrapperImpl<InnerT> implements Wrapper<T>
     typeParameters:
     - type: 52cf8095
       description: <p>wrapped type </p>
