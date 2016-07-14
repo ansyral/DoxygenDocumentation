@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java
     startLine: 13
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public class DataLakeStoreAccountOperationsTests extends DataLakeStoreManagementTestBase
@@ -46,8 +44,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java
     startLine: 36
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public void canCreateGetUpdateDeleteAdlsAccount()
@@ -64,8 +60,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java
     startLine: 27
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public static void cleanup()
@@ -82,8 +76,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java
     startLine: 19
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public static void setup()
@@ -138,7 +130,7 @@ references:
   syntax:
     content: protected static ResourceManagementClientImpl resourceManagementClient
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      type: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
 - uid: com.microsoft.azure.management.datalake.store._data_lake_store_management_test_base
   parent: com.microsoft.azure.management.datalake.store
   href: com.microsoft.azure.management.datalake.store._data_lake_store_management_test_base.yml

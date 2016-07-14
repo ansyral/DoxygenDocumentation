@@ -7,7 +7,7 @@ items:
   - com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a3fb760e5d52fcb380ce52fa450f96313
   - com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a38fe5197730e8afdfd2484160c59aec0
   - com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a50ef79ab2602d179ce8552c9b6ec9812
-  - com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1aecc7826b90ef7ac1a3a7043b89d5715a
+  - com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a5656d4d6c0c94b0b2334582d6b6836a7
   - com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a506a4dfdb427c361daf8b35e6ca479d0
   href: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests.yml
   langs:
@@ -22,8 +22,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public class PerformanceUploadTests extends DataLakeUploaderTestBase
@@ -49,8 +47,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 81
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void cleanup()
@@ -67,8 +63,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 35
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void Setup()
@@ -85,8 +79,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 137
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void Test10gbFileUpload()
@@ -103,29 +95,25 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 114
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void Test2_5gbFileUpload()
-- uid: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1aecc7826b90ef7ac1a3a7043b89d5715a
-  id: _performance_upload_tests_1aecc7826b90ef7ac1a3a7043b89d5715a
+- uid: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a5656d4d6c0c94b0b2334582d6b6836a7
+  id: _performance_upload_tests_1a5656d4d6c0c94b0b2334582d6b6836a7
   parent: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests
   href: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests.yml
   langs:
   - java
-  name: Test4mbFileUpload()
-  fullName: void com.microsoft.azure.management.datalake.store.uploader.PerformanceUploadTests.Test4mbFileUpload()
+  name: Test2mbFileUpload()
+  fullName: void com.microsoft.azure.management.datalake.store.uploader.PerformanceUploadTests.Test2mbFileUpload()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 91
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
-    content: public void Test4mbFileUpload()
+    content: public void Test2mbFileUpload()
 - uid: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests_1a506a4dfdb427c361daf8b35e6ca479d0
   id: _performance_upload_tests_1a506a4dfdb427c361daf8b35e6ca479d0
   parent: com.microsoft.azure.management.datalake.store.uploader._performance_upload_tests
@@ -139,8 +127,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/PerformanceUploadTests.java
     startLine: 159
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static boolean UploadFile(DataLakeStoreFileSystemManagementClientImpl dataLakeStoreFileSystemClient, String dlAccountName, String srcPath, String destPath, boolean force)
@@ -216,7 +202,7 @@ references:
   syntax:
     content: protected static ResourceManagementClientImpl resourceManagementClient
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      type: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
 - uid: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base
   parent: com.microsoft.azure.management.datalake.store.uploader
   href: com.microsoft.azure.management.datalake.store.uploader._data_lake_uploader_test_base.yml

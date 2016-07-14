@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestAvailabilitySet.java
     startLine: 13
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public class TestAvailabilitySet extends TestTemplate< AvailabilitySet, AvailabilitySets >
@@ -49,8 +47,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestAvailabilitySet.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public AvailabilitySet createResource(AvailabilitySets availabilitySets)
@@ -72,8 +68,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestAvailabilitySet.java
     startLine: 42
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void print(AvailabilitySet resource)
@@ -93,8 +87,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestAvailabilitySet.java
     startLine: 29
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public AvailabilitySet updateResource(AvailabilitySet resource)
@@ -251,4 +243,4 @@ references:
   type: Interface
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionStages.Blank >,SupportsDeleting,SupportsDeletingByGroup

@@ -6,7 +6,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1aaa75ce4ae3a8cbbc18fd8620f0f8986d
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a26437f38b841deb0665f49a0e9514bd8
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a2d5e313a5fc2b3480c9fbe5aece75c4d
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a535ea3d6f4e005835cba686b4464f932
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a3f14e17bbde49a7c40059ade2f99ddde
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a9d6fabd31b26e44c8bf53596eeaf4de3
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a163ed738de5c807b3ad12e778dc49ab7
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1aeac188fea7fab6b2cbf52675e043040e
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a6bbb468c3da69ab17762d62aca195703
@@ -28,8 +29,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
     startLine: 26
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.arm.models._resource" data-throw-if-not-resolved="false"></xref> and base class for all resource model implementations. (Internal use only)</p>
@@ -63,8 +62,6 @@ items:
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a15be51ea62bc7f27e4b0708d05a4bfa4
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a17b86eae6bcb45c93df007af09305280
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aaddcb7890db49102981ba856059a58a5
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1ad2c09567e302881865046ad723e66389
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl_1a1df6d590eab6f3f82ac29c041891fd2c
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a4957792836fd23d04f0f7ca1b3b433d9
@@ -92,9 +89,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 64
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 69
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: public String id()
@@ -114,9 +109,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 147
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 152
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: protected boolean isInCreateMode()
@@ -138,38 +131,54 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 74
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 79
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
   overridden: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a535ea3d6f4e005835cba686b4464f932
-  id: _resource_impl_1a535ea3d6f4e005835cba686b4464f932
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a3f14e17bbde49a7c40059ade2f99ddde
+  id: _resource_impl_1a3f14e17bbde49a7c40059ade2f99ddde
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
   langs:
   - java
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.region()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
+    startLine: 55
+  package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  syntax:
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+  overridden: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a9d6fabd31b26e44c8bf53596eeaf4de3
+  id: _resource_impl_1a9d6fabd31b26e44c8bf53596eeaf4de3
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
+  langs:
+  - java
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.regionName()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
     startLine: 50
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
-    content: public String region()
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
-  overridden: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+      description: <p>the name of the region the resource is in </p>
+  overridden: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a163ed738de5c807b3ad12e778dc49ab7
   id: _resource_impl_1a163ed738de5c807b3ad12e778dc49ab7
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
@@ -183,8 +192,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
     startLine: 36
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: protected ResourceImpl(String key, InnerModelT innerObject)
@@ -205,9 +212,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 55
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 60
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: public Map< String, String > tags()
@@ -227,9 +232,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 69
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 74
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: public String type()
@@ -249,9 +252,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 115
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 120
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Removes a tag from the resource. </p>
   syntax:
@@ -275,9 +276,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 140
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 145
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Specifies the region for the resource. </p>
   syntax:
@@ -301,9 +300,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 130
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 135
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Specifies the region for the resource by name. </p>
   syntax:
@@ -327,9 +324,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 104
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 109
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Adds a tag to the resource. </p>
   syntax:
@@ -356,9 +351,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/ResourceImpl.java
-    startLine: 92
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 97
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Specifies tags for the resource as a <ref refid="" kindref="compound">Map</ref>. </p>
   syntax:
@@ -406,7 +399,7 @@ references:
   fullName: void com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.addCreatableDependency(Creatable<?> creatableResource)
   type: Method
   summary: >-
-    <p>add a creatable resource dependency for this resource.</p>
+    <p>Add a creatable resource dependency for this resource.</p>
 
     <p></p>
   syntax:
@@ -428,33 +421,6 @@ references:
       type: "26831127"
     - id: innerObject
       type: 23ab9e11
-- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aaddcb7890db49102981ba856059a58a5
-  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
-  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
-  name: creatablesCreate()
-  fullName: void com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.creatablesCreate()
-  type: Method
-  summary: >-
-    <p>create this resource and creatable resources it depends on. </p>
-
-    <p>dependency resources will be created only if this is the root group otherwise it creates the main resource.</p>
-
-    <p></p>
-  syntax:
-    content: protected void creatablesCreate()
-- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1ad2c09567e302881865046ad723e66389
-  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
-  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
-  name: creatablesCreateAsync(ServiceCallback< Void > callback)
-  fullName: ServiceCall com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.creatablesCreateAsync(ServiceCallback< Void > callback)
-  type: Method
-  syntax:
-    content: protected ServiceCall creatablesCreateAsync(ServiceCallback< Void > callback)
-    parameters:
-    - id: callback
-      type: com.microsoft.rest._service_callbacke35e5465
-    return:
-      type: com.microsoft.rest._service_call
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl_1a1df6d590eab6f3f82ac29c041891fd2c
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl.yml
@@ -474,7 +440,10 @@ references:
   name: create()
   fullName: FluentModelImplT com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.create()
   type: Method
-  summary: <p>Default implementation of <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: >-
+    <p>Default implementation of <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
   syntax:
     content: public FluentModelImplT create()
     return:
@@ -532,6 +501,10 @@ references:
   name: createResourceAsync(ServiceCallback< Void > callback)
   fullName: abstract ServiceCall com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.createResourceAsync(ServiceCallback< Void > callback)
   type: Method
+  summary: >-
+    <p>Creates this resource asynchronously.</p>
+
+    <p></p>
   syntax:
     content: protected abstract ServiceCall createResourceAsync(ServiceCallback< Void > callback)
     parameters:
@@ -702,16 +675,36 @@ references:
 
     <p></p>
   syntax: *o1
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
+    return:
+      type: "26831127"
+      description: <p>the name of the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
+  syntax:
+    content: public enum Region
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
     return:
-      type: "26831127"
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
       description: <p>the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
@@ -756,16 +749,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
-  parent: com.microsoft.azure.management.resources.fluentcore.arm
-  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
-  name: Region
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
-  type: Enum
-  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
-  syntax:
-    content: public enum Region
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

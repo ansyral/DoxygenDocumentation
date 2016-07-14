@@ -5,7 +5,8 @@ items:
   children:
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
@@ -21,8 +22,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models
   package: com.microsoft.azure.management.resources.fluentcore.arm.models
   summary: <p>Base interfaces for fluent resources. </p>
   syntax:
@@ -42,8 +41,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
     startLine: 20
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models
   package: com.microsoft.azure.management.resources.fluentcore.arm.models
   syntax:
     content: public String id()
@@ -63,35 +60,50 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
     startLine: 30
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models
   package: com.microsoft.azure.management.resources.fluentcore.arm.models
   syntax:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
-  id: _resource_1ad2e37f2029fc8ce3f37706441475e0ac
+      description: <p>the name of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  id: _resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   langs:
   - java
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
+    startLine: 40
+  package: com.microsoft.azure.management.resources.fluentcore.arm.models
+  syntax:
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  id: _resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  langs:
+  - java
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
     startLine: 35
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models
   package: com.microsoft.azure.management.resources.fluentcore.arm.models
   syntax:
-    content: public String region()
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   id: _resource_1af7aead2ce26c788d572d253246938b67
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
@@ -104,9 +116,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
-    startLine: 40
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models
+    startLine: 45
   package: com.microsoft.azure.management.resources.fluentcore.arm.models
   syntax:
     content: public Map< String, String > tags()
@@ -126,8 +136,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/Resource.java
     startLine: 25
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models
   package: com.microsoft.azure.management.resources.fluentcore.arm.models
   syntax:
     content: public String type()
@@ -163,6 +171,117 @@ references:
   summary: <p>Base interface for all models that can be indexed by a key. </p>
   syntax:
     content: public interface Indexable
+- uid: com.microsoft.azure.management.network.implementation._application_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._application_gateway_inner.yml
+  name: ApplicationGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.ApplicationGatewayInner
+  type: Class
+  summary: <p>ApplicationGateways resource. </p>
+  syntax:
+    content: public class ApplicationGatewayInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._express_route_circuit_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._express_route_circuit_inner.yml
+  name: ExpressRouteCircuitInner
+  fullName: com.microsoft.azure.management.network.implementation.ExpressRouteCircuitInner
+  type: Class
+  summary: <p>ExpressRouteCircuit resource. </p>
+  syntax:
+    content: public class ExpressRouteCircuitInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._express_route_service_provider_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._express_route_service_provider_inner.yml
+  name: ExpressRouteServiceProviderInner
+  fullName: com.microsoft.azure.management.network.implementation.ExpressRouteServiceProviderInner
+  type: Class
+  summary: <p>ExpressRouteResourceProvider object. </p>
+  syntax:
+    content: public class ExpressRouteServiceProviderInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._load_balancer_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._load_balancer_inner.yml
+  name: LoadBalancerInner
+  fullName: com.microsoft.azure.management.network.implementation.LoadBalancerInner
+  type: Class
+  summary: <p>LoadBalancer resource. </p>
+  syntax:
+    content: public class LoadBalancerInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._local_network_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._local_network_gateway_inner.yml
+  name: LocalNetworkGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.LocalNetworkGatewayInner
+  type: Class
+  summary: <p>A common class for general resource information. </p>
+  syntax:
+    content: public class LocalNetworkGatewayInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._network_interface_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._network_interface_inner.yml
+  name: NetworkInterfaceInner
+  fullName: com.microsoft.azure.management.network.implementation.NetworkInterfaceInner
+  type: Class
+  summary: <p>A <xref href="com.microsoft.azure.management.network._network_interface" data-throw-if-not-resolved="false"></xref> in a resource group. </p>
+  syntax:
+    content: public class NetworkInterfaceInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._network_security_group_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._network_security_group_inner.yml
+  name: NetworkSecurityGroupInner
+  fullName: com.microsoft.azure.management.network.implementation.NetworkSecurityGroupInner
+  type: Class
+  summary: >-
+    <p>
+
+      <xref href="com.microsoft.azure.management.network._network_security_group" data-throw-if-not-resolved="false"></xref> resource. </p>
+  syntax:
+    content: public class NetworkSecurityGroupInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._public_i_p_address_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._public_i_p_address_inner.yml
+  name: PublicIPAddressInner
+  fullName: com.microsoft.azure.management.network.implementation.PublicIPAddressInner
+  type: Class
+  summary: <p>PublicIPAddress resource. </p>
+  syntax:
+    content: public class PublicIPAddressInner implements Resource
+- uid: com.microsoft.azure.management.network.implementation._route_table_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._route_table_inner.yml
+  name: RouteTableInner
+  fullName: com.microsoft.azure.management.network.implementation.RouteTableInner
+  type: Class
+  summary: <p>RouteTable resource. </p>
+  syntax:
+    content: public class RouteTableInner
+- uid: com.microsoft.azure.management.network.implementation._virtual_network_gateway_connection_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._virtual_network_gateway_connection_inner.yml
+  name: VirtualNetworkGatewayConnectionInner
+  fullName: com.microsoft.azure.management.network.implementation.VirtualNetworkGatewayConnectionInner
+  type: Class
+  summary: <p>A common class for general resource information. </p>
+  syntax:
+    content: public class VirtualNetworkGatewayConnectionInner
+- uid: com.microsoft.azure.management.network.implementation._virtual_network_gateway_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._virtual_network_gateway_inner.yml
+  name: VirtualNetworkGatewayInner
+  fullName: com.microsoft.azure.management.network.implementation.VirtualNetworkGatewayInner
+  type: Class
+  summary: <p>A common class for general resource information. </p>
+  syntax:
+    content: public class VirtualNetworkGatewayInner
+- uid: com.microsoft.azure.management.network.implementation._virtual_network_inner
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._virtual_network_inner.yml
+  name: VirtualNetworkInner
+  fullName: com.microsoft.azure.management.network.implementation.VirtualNetworkInner
+  type: Class
+  summary: <p>Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> resource. </p>
+  syntax:
+    content: public class VirtualNetworkInner
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
@@ -253,28 +372,37 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
-- uid: com.microsoft.azure.management.resources._resource_group_1a4e743b627edbde4a9100c8aecb427434
-  parent: com.microsoft.azure.management.resources._resource_group
-  href: com.microsoft.azure.management.resources._resource_group.yml
-  name: region()
-  fullName: String com.microsoft.azure.management.resources.ResourceGroup.region()
+      description: <p>the name of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a9d6fabd31b26e44c8bf53596eeaf4de3
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.regionName()
   type: Method
   syntax:
-    content: public String region()
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region of the resource group </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a535ea3d6f4e005835cba686b4464f932
+      description: <p>the name of the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
+  syntax:
+    content: public enum Region
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a3f14e17bbde49a7c40059ade2f99ddde
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
     return:
-      type: "26831127"
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
       description: <p>the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources._resource_group_1a28eee4f5a539cd635fc12b81115adf75
   parent: com.microsoft.azure.management.resources._resource_group

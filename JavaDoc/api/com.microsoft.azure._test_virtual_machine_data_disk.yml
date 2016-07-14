@@ -18,9 +18,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineDataDisk.java
-    startLine: 11
-  assemblies:
-  - com.microsoft.azure
+    startLine: 17
   package: com.microsoft.azure
   syntax:
     content: public class TestVirtualMachineDataDisk extends TestTemplate< VirtualMachine, VirtualMachines >
@@ -48,9 +46,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineDataDisk.java
-    startLine: 13
-  assemblies:
-  - com.microsoft.azure
+    startLine: 19
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachine createResource(VirtualMachines virtualMachines)
@@ -71,9 +67,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineDataDisk.java
-    startLine: 70
-  assemblies:
-  - com.microsoft.azure
+    startLine: 76
   package: com.microsoft.azure
   syntax:
     content: public void print(VirtualMachine virtualMachine)
@@ -92,9 +86,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineDataDisk.java
-    startLine: 48
-  assemblies:
-  - com.microsoft.azure
+    startLine: 54
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachine updateResource(VirtualMachine virtualMachine)

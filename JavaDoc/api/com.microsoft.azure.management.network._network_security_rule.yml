@@ -4,6 +4,7 @@ items:
   parent: com.microsoft.azure.management.network
   children:
   - com.microsoft.azure.management.network._network_security_rule_1a5f90c0675ab3a6e33a115b6a7d1c2605
+  - com.microsoft.azure.management.network._network_security_rule_1ab0220ad803c422f6894bc32941950c6e
   - com.microsoft.azure.management.network._network_security_rule_1ab5fe1ff9653073956530cf60c0b41fa9
   - com.microsoft.azure.management.network._network_security_rule_1a093eea81ce2453edb8bbc35223e9abb8
   - com.microsoft.azure.management.network._network_security_rule_1a28015479de0405f6db6b09002db57d20
@@ -23,9 +24,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 18
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 16
   package: com.microsoft.azure.management.network
   summary: <p>A network security rule in a network security group. </p>
   syntax:
@@ -46,15 +45,32 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 133
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 135
   package: com.microsoft.azure.management.network
   syntax:
     content: public Access access()
     return:
       type: com.microsoft.azure.management.network._network_security_rule._access
       description: <p>the type of access the rule enforces </p>
+- uid: com.microsoft.azure.management.network._network_security_rule_1ab0220ad803c422f6894bc32941950c6e
+  id: _network_security_rule_1ab0220ad803c422f6894bc32941950c6e
+  parent: com.microsoft.azure.management.network._network_security_rule
+  href: com.microsoft.azure.management.network._network_security_rule.yml
+  langs:
+  - java
+  name: description()
+  fullName: String com.microsoft.azure.management.network.NetworkSecurityRule.description()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
+    startLine: 130
+  package: com.microsoft.azure.management.network
+  syntax:
+    content: public String description()
+    return:
+      type: "26831127"
+      description: <p>the user-defined description of the security rule </p>
 - uid: com.microsoft.azure.management.network._network_security_rule_1ab5fe1ff9653073956530cf60c0b41fa9
   id: _network_security_rule_1ab5fe1ff9653073956530cf60c0b41fa9
   parent: com.microsoft.azure.management.network._network_security_rule
@@ -67,9 +83,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 150
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 152
   package: com.microsoft.azure.management.network
   syntax:
     content: public String destinationAddressPrefix()
@@ -88,9 +102,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 155
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 157
   package: com.microsoft.azure.management.network
   syntax:
     content: public String destinationPortRange()
@@ -109,9 +121,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 123
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 120
   package: com.microsoft.azure.management.network
   syntax:
     content: public Direction direction()
@@ -130,9 +140,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 161
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 163
   package: com.microsoft.azure.management.network
   syntax:
     content: public int priority()
@@ -151,9 +159,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 128
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 125
   package: com.microsoft.azure.management.network
   syntax:
     content: public Protocol protocol()
@@ -172,9 +178,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 139
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 141
   package: com.microsoft.azure.management.network
   syntax:
     content: public String sourceAddressPrefix()
@@ -193,9 +197,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 144
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 146
   package: com.microsoft.azure.management.network
   syntax:
     content: public String sourcePortRange()

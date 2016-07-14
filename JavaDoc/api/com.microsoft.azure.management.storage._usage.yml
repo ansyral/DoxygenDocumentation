@@ -3,8 +3,8 @@ items:
   id: _usage
   parent: com.microsoft.azure.management.storage
   children:
-  - com.microsoft.azure.management.storage._usage_1afe4b00ac585a8c67f4aab639e25b3658
-  - com.microsoft.azure.management.storage._usage_1a742901b16e1f5bb8ac5548d36cf9bfc2
+  - com.microsoft.azure.management.storage._usage_1ab15264c596d42316a34bbab175126abb
+  - com.microsoft.azure.management.storage._usage_1a6f9bdf94f99e8e7ed784b4c6714c249f
   - com.microsoft.azure.management.storage._usage_1ae8724ba8fabd7406fb75e0cf2c7cedfb
   - com.microsoft.azure.management.storage._usage_1afa43c0b9d7bfcfe88b662d04fa7c551d
   href: com.microsoft.azure.management.storage._usage.yml
@@ -12,7 +12,7 @@ items:
   - java
   name: Usage
   fullName: com.microsoft.azure.management.storage.Usage
-  type: Interface
+  type: Class
   source:
     remote: &o0
       path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/Usage.java
@@ -20,56 +20,58 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/Usage.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.storage
   package: com.microsoft.azure.management.storage
-  summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource usage info object. </p>
-  syntax:
-    content: public interface Usage extends Wrapper< com.microsoft.azure.management.storage.implementation.api.Usage >
-  inheritedMembers:
-  - com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
-- uid: com.microsoft.azure.management.storage._usage_1afe4b00ac585a8c67f4aab639e25b3658
-  id: _usage_1afe4b00ac585a8c67f4aab639e25b3658
+  summary: <p>Describes Storage <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.storage._usage" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: &o1
+    content: public class Usage
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.management.storage._usage_1ab15264c596d42316a34bbab175126abb
+  id: _usage_1ab15264c596d42316a34bbab175126abb
   parent: com.microsoft.azure.management.storage._usage
   href: com.microsoft.azure.management.storage._usage.yml
   langs:
   - java
   name: currentValue()
-  fullName: int com.microsoft.azure.management.storage.Usage.currentValue()
+  fullName: Integer com.microsoft.azure.management.storage.Usage.currentValue()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/Usage.java
-    startLine: 25
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 56
   package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Get the currentValue value.</p>
+
+    <p></p>
   syntax:
-    content: public int currentValue()
+    content: public Integer currentValue()
     return:
-      type: f75371fa
-      description: <p>the current count of the allocated resources in the subscription </p>
-- uid: com.microsoft.azure.management.storage._usage_1a742901b16e1f5bb8ac5548d36cf9bfc2
-  id: _usage_1a742901b16e1f5bb8ac5548d36cf9bfc2
+      type: 08effaa0
+      description: <p>the currentValue value </p>
+- uid: com.microsoft.azure.management.storage._usage_1a6f9bdf94f99e8e7ed784b4c6714c249f
+  id: _usage_1a6f9bdf94f99e8e7ed784b4c6714c249f
   parent: com.microsoft.azure.management.storage._usage
   href: com.microsoft.azure.management.storage._usage.yml
   langs:
   - java
   name: limit()
-  fullName: int com.microsoft.azure.management.storage.Usage.limit()
+  fullName: Integer com.microsoft.azure.management.storage.Usage.limit()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/Usage.java
-    startLine: 31
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 65
   package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Get the limit value.</p>
+
+    <p></p>
   syntax:
-    content: public int limit()
+    content: public Integer limit()
     return:
-      type: f75371fa
-      description: <p>the maximum count of the resources that can be allocated in the subscription </p>
+      type: 08effaa0
+      description: <p>the limit value </p>
 - uid: com.microsoft.azure.management.storage._usage_1ae8724ba8fabd7406fb75e0cf2c7cedfb
   id: _usage_1ae8724ba8fabd7406fb75e0cf2c7cedfb
   parent: com.microsoft.azure.management.storage._usage
@@ -82,15 +84,17 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/Usage.java
-    startLine: 36
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 74
   package: com.microsoft.azure.management.storage
+  summary: >-
+    <p>Get the name value.</p>
+
+    <p></p>
   syntax:
     content: public UsageName name()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._usage_name
-      description: <p>the name of the type of usage </p>
+      type: com.microsoft.azure.management.storage._usage_name
+      description: <p>the name value </p>
 - uid: com.microsoft.azure.management.storage._usage_1afa43c0b9d7bfcfe88b662d04fa7c551d
   id: _usage_1afa43c0b9d7bfcfe88b662d04fa7c551d
   parent: com.microsoft.azure.management.storage._usage
@@ -103,71 +107,54 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/Usage.java
-    startLine: 20
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 47
   package: com.microsoft.azure.management.storage
-  syntax:
-    content: public UsageUnit unit()
-    return:
-      type: com.microsoft.azure.management.storage.implementation.api._usage_unit
-      description: '<p>the unit of measurement. Possible values include: ''Count'', ''Bytes'', ''Seconds'', ''Percent'', ''CountsPerSecond'', ''BytesPerSecond''. </p>'
-references:
-- uid: f75371fa
-  spec.java:
-  - name: int
-    fullName: int
-- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
-  parent: com.microsoft.azure.management.resources.fluentcore.model._wrapper
-  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
-  name: inner()
-  fullName: T com.microsoft.azure.management.resources.fluentcore.model.Wrapper< T >.inner()
-  type: Method
-  syntax:
-    content: public T inner()
-    return:
-      type: 8ce1ecb9
-      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> REST API </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper
-  parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._wrapper.yml
-  name: Wrapper<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.Wrapper<T>
-  type: Interface
   summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
+    <p>Get the unit value.</p>
 
     <p></p>
   syntax:
-    content: public interface Wrapper<T>
-    typeParameters:
-    - type: 8ce1ecb9
-      description: <p>the type of the inner object. </p>
-- uid: com.microsoft.azure.management.storage.implementation._usage_impl
-- uid: com.microsoft.azure.management.storage.implementation.api._usage_unit
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._usage_unit.yml
+    content: public UsageUnit unit()
+    return:
+      type: com.microsoft.azure.management.storage._usage_unit
+      description: <p>the unit value </p>
+references:
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.azure.management.storage._usage_unit
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usage_unit.yml
   name: UsageUnit
-  fullName: com.microsoft.azure.management.storage.implementation.api.UsageUnit
+  fullName: com.microsoft.azure.management.storage.UsageUnit
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._usage_unit" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage._usage_unit" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum UsageUnit
-- uid: com.microsoft.azure.management.storage.implementation.api._usage_name
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._usage_name.yml
+- uid: com.microsoft.azure.management.storage._usage_name
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usage_name.yml
   name: UsageName
-  fullName: com.microsoft.azure.management.storage.implementation.api.UsageName
+  fullName: com.microsoft.azure.management.storage.UsageName
   type: Class
-  summary: <p>The <xref href="com.microsoft.azure.management.storage.implementation.api._usage" data-throw-if-not-resolved="false"></xref> Names. </p>
+  summary: <p>The <xref href="com.microsoft.azure.management.storage._usage" data-throw-if-not-resolved="false"></xref> Names. </p>
   syntax:
     content: public class UsageName
-- uid: com.microsoft.azure._azure
+- uid: com.microsoft.azure._resource
   parent: com.microsoft.azure
-  href: com.microsoft.azure._azure.yml
-  name: Azure
-  fullName: com.microsoft.azure.Azure
+  href: com.microsoft.azure._resource.yml
+  name: Resource
+  fullName: com.microsoft.azure.Resource
   type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>The <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> model. </p>
   syntax:
-    content: public class Azure
+    content: public class Resource
+- uid: com.microsoft.azure.management.storage._usage
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._usage.yml
+  name: Usage
+  fullName: com.microsoft.azure.management.storage.Usage
+  type: Class
+  summary: <p>Describes Storage <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref><xref href="com.microsoft.azure.management.storage._usage" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax: *o1

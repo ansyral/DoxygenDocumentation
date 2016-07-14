@@ -20,9 +20,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/DeploymentsTests.java
-    startLine: 12
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 11
   package: com.microsoft.azure.management.resources
   syntax:
     content: public class DeploymentsTests
@@ -44,9 +42,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/DeploymentsTests.java
-    startLine: 80
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 79
   package: com.microsoft.azure.management.resources
   syntax:
     content: public void canCancelVirtualNetworkDeployment()
@@ -62,9 +58,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/DeploymentsTests.java
-    startLine: 43
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 42
   package: com.microsoft.azure.management.resources
   syntax:
     content: public void canDeployVirtualNetwork()
@@ -80,9 +74,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/DeploymentsTests.java
-    startLine: 99
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 98
   package: com.microsoft.azure.management.resources
   syntax:
     content: public void canUpdateVirtualNetworkDeployment()
@@ -98,9 +90,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/DeploymentsTests.java
-    startLine: 38
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 37
   package: com.microsoft.azure.management.resources
   syntax:
     content: public static void cleanup()
@@ -116,9 +106,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/test/java/com/microsoft/azure/management/resources/DeploymentsTests.java
-    startLine: 28
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 27
   package: com.microsoft.azure.management.resources
   syntax:
     content: public static void setup()
@@ -151,7 +139,7 @@ references:
   type: Interface
   summary: <p>Entry point to template deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Deployments extends SupportsCreating< Deployment.DefinitionBlank >,SupportsListing< Deployment >,SupportsListingByGroup< Deployment >,SupportsGettingByName< Deployment >,SupportsGettingByGroup< Deployment >,SupportsGettingById< Deployment >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface Deployments extends SupportsCreating< Deployment.DefinitionStages.Blank >,SupportsListing< Deployment >,SupportsListingByGroup< Deployment >,SupportsGettingByName< Deployment >,SupportsGettingByGroup< Deployment >,SupportsGettingById< Deployment >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

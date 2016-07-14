@@ -8,7 +8,7 @@ items:
   - com.microsoft.azure._task_group_base_1a00540358b507e4b0eeb10b7f28363b2b
   - com.microsoft.azure._task_group_base_1acc1bebe2fb92ab0c6bd6d6f7d07ae2ac
   - com.microsoft.azure._task_group_base_1a565c67b76a30d31af590c22ce12d98ab
-  - com.microsoft.azure._task_group_base_1acfe5cdec57b2c5adc09f4520cb739bcb
+  - com.microsoft.azure._task_group_base_1af756120837dbdbe896330748b77701b8
   - com.microsoft.azure._task_group_base_1a4a8262953258b71cf0173737f0619ae8
   - com.microsoft.azure._task_group_base_1aeacd9baf0edcfe11ac98b123cefd6e42
   - com.microsoft.azure._task_group_base_1ac51901a577e9c9ec63430082133a4005
@@ -26,8 +26,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 17
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>The base implementation of <xref href="com.microsoft.azure._task_group" data-throw-if-not-resolved="false"></xref> interface.</p>
@@ -57,8 +55,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 32
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public DAGraph< TaskItem< T >, DAGNode< TaskItem< T > > > dag()
@@ -77,8 +73,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 54
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void execute()
@@ -94,9 +88,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
-    startLine: 72
-  assemblies:
-  - com.microsoft.azure
+    startLine: 68
   package: com.microsoft.azure
   syntax:
     content: public ServiceCall executeAsync(final ServiceCallback< Void > callback)
@@ -117,14 +109,12 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
-    startLine: 106
-  assemblies:
-  - com.microsoft.azure
+    startLine: 96
   package: com.microsoft.azure
   summary: >-
-    <p>executes the root task in this group. </p>
+    <p>Executes the root task in this group. </p>
 
-    <p>this method will be invoked when all the task dependencies of the root task are finished executing, at this point root task can be executed by consuming the result of tasks it depends on.</p>
+    <p>This method will be invoked when all the task dependencies of the root task are finished executing, at this point root task can be executed by consuming the result of tasks it depends on.</p>
 
     <p></p>
   syntax:
@@ -150,14 +140,12 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
-    startLine: 119
-  assemblies:
-  - com.microsoft.azure
+    startLine: 109
   package: com.microsoft.azure
   summary: >-
-    <p>executes the root task in this group asynchronously. </p>
+    <p>Executes the root task in this group asynchronously. </p>
 
-    <p>this method will be invoked when all the task dependencies of the root task are finished executing, at this point root task can be executed by consuming the result of tasks it depends on.</p>
+    <p>This method will be invoked when all the task dependencies of the root task are finished executing, at this point root task can be executed by consuming the result of tasks it depends on.</p>
 
     <p></p>
   syntax:
@@ -172,24 +160,22 @@ items:
     return:
       type: 13c86962com.microsoft.rest._service_call
       description: <p>the handle to the REST call </p>
-- uid: com.microsoft.azure._task_group_base_1acfe5cdec57b2c5adc09f4520cb739bcb
-  id: _task_group_base_1acfe5cdec57b2c5adc09f4520cb739bcb
+- uid: com.microsoft.azure._task_group_base_1af756120837dbdbe896330748b77701b8
+  id: _task_group_base_1af756120837dbdbe896330748b77701b8
   parent: com.microsoft.azure._task_group_base
   href: com.microsoft.azure._task_group_base.yml
   langs:
   - java
-  name: isRoot()
-  fullName: boolean com.microsoft.azure.TaskGroupBase< T >.isRoot()
+  name: isPreparer()
+  fullName: boolean com.microsoft.azure.TaskGroupBase< T >.isPreparer()
   type: Method
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 37
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
-    content: public boolean isRoot()
+    content: public boolean isPreparer()
     return:
       type: 4fc6e284
 - uid: com.microsoft.azure._task_group_base_1a4a8262953258b71cf0173737f0619ae8
@@ -205,8 +191,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 42
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void merge(TaskGroup< T, TaskItem< T >> parentTaskGroup)
@@ -226,8 +210,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 47
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void prepare()
@@ -244,8 +226,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
     startLine: 27
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Creates <xref href="com.microsoft.azure._task_group_base" data-throw-if-not-resolved="false"></xref>.</p>
@@ -272,9 +252,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroupBase.java
-    startLine: 92
-  assemblies:
-  - com.microsoft.azure
+    startLine: 82
   package: com.microsoft.azure
   syntax:
     content: public T taskResult(String taskId)

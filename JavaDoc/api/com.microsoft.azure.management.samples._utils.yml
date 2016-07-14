@@ -24,9 +24,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 30
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 31
   package: com.microsoft.azure.management.samples
   summary: <p>Common utils for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> management samples. </p>
   syntax:
@@ -45,9 +43,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 276
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 284
   package: com.microsoft.azure.management.samples
   summary: <p>Creates and returns a randomized name based on the prefix file for use by the sample. </p>
   syntax:
@@ -71,9 +67,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 135
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 136
   package: com.microsoft.azure.management.samples
   summary: <p>Print availability set info. </p>
   syntax:
@@ -94,16 +88,14 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 260
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 268
   package: com.microsoft.azure.management.samples
   summary: <p>Print storage account keys. </p>
   syntax:
     content: public static void print(List< StorageAccountKey > storageAccountKeys)
     parameters:
     - id: storageAccountKeys
-      type: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.storage._storage_account_key9ec3e006
       description: <p>a list of storage account keys </p>
 - uid: com.microsoft.azure.management.samples._utils_1a779d01fc6aace3f1c8349238451d131d
   id: _utils_1a779d01fc6aace3f1c8349238451d131d
@@ -117,9 +109,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 151
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 154
   package: com.microsoft.azure.management.samples
   summary: <p>Print network info. </p>
   syntax:
@@ -128,6 +118,11 @@ items:
     - id: resource
       type: com.microsoft.azure.management.network._network
       description: <p>a network </p>
+  exceptions:
+  - type: cbf33bbe
+    description: <p>IO errors </p>
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>Cloud errors </p>
 - uid: com.microsoft.azure.management.samples._utils_1a2ad7d827fb5f2cdbebe223246ebc9e3d
   id: _utils_1a2ad7d827fb5f2cdbebe223246ebc9e3d
   parent: com.microsoft.azure.management.samples._utils
@@ -140,9 +135,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 174
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 181
   package: com.microsoft.azure.management.samples
   summary: <p>Print network interface. </p>
   syntax:
@@ -163,9 +156,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 203
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 211
   package: com.microsoft.azure.management.samples
   summary: <p>Print network security group. </p>
   syntax:
@@ -186,9 +177,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 231
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 239
   package: com.microsoft.azure.management.samples
   summary: <p>Print public IP address. </p>
   syntax:
@@ -209,9 +198,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 251
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 259
   package: com.microsoft.azure.management.samples
   summary: <p>Print storage account. </p>
   syntax:
@@ -232,9 +219,7 @@ items:
   source:
     remote: *o0
     path: azure-samples/src/main/java/com/microsoft/azure/management/samples/Utils.java
-    startLine: 36
-  assemblies:
-  - com.microsoft.azure.management.samples
+    startLine: 37
   package: com.microsoft.azure.management.samples
   summary: <p>Print virtual machine info. </p>
   syntax:
@@ -244,14 +229,18 @@ items:
       type: com.microsoft.azure.management.compute._virtual_machine
       description: <p>a virtual machine </p>
 references:
-- uid: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
+- uid: f6a6204dcom.microsoft.azure.management.storage._storage_account_key9ec3e006
   spec.java:
   - name: 'List< '
     fullName: 'List< '
-  - uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key
+  - uid: com.microsoft.azure.management.storage._storage_account_key
     name: StorageAccountKey
-    fullName: com.microsoft.azure.management.storage.implementation.api.StorageAccountKey
-    href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+    fullName: com.microsoft.azure.management.storage.StorageAccountKey
+    href: com.microsoft.azure.management.storage._storage_account_key.yml
   - name: ' >'
     fullName: ' >'
 - uid: "26831127"
@@ -285,6 +274,15 @@ references:
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Network extends GroupableResource,Refreshable< Network >,Wrapper< VirtualNetworkInner >,Updatable< Network.Update >
+- uid: com.microsoft.azure._cloud_exception
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._cloud_exception.yml
+  name: CloudException
+  fullName: com.microsoft.azure.CloudException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with custom error information. </p>
+  syntax:
+    content: public class CloudException extends RestException
 - uid: com.microsoft.azure.management.network._network_interface
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface.yml
@@ -327,11 +325,11 @@ references:
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage account. </p>
   syntax:
     content: public interface StorageAccount extends GroupableResource,Refreshable< StorageAccount >,Updatable< StorageAccount.Update >,Wrapper< StorageAccountInner >
-- uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+- uid: com.microsoft.azure.management.storage._storage_account_key
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._storage_account_key.yml
   name: StorageAccountKey
-  fullName: com.microsoft.azure.management.storage.implementation.api.StorageAccountKey
+  fullName: com.microsoft.azure.management.storage.StorageAccountKey
   type: Class
   summary: <p>An access key for the storage account. </p>
   syntax:

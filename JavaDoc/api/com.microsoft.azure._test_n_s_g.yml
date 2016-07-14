@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
     startLine: 18
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Test for network security group CRUD. </p>
   syntax:
@@ -50,8 +48,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
     startLine: 21
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkSecurityGroup createResource(NetworkSecurityGroups nsgs)
@@ -72,9 +68,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
-    startLine: 58
-  assemblies:
-  - com.microsoft.azure
+    startLine: 84
   package: com.microsoft.azure
   syntax:
     content: public void print(NetworkSecurityGroup resource)
@@ -93,9 +87,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNSG.java
-    startLine: 47
-  assemblies:
-  - com.microsoft.azure
+    startLine: 57
   package: com.microsoft.azure
   syntax:
     content: public NetworkSecurityGroup updateResource(NetworkSecurityGroup resource)
@@ -255,4 +247,4 @@ references:
   type: Interface
   summary: <p>Entry point to network security group management. </p>
   syntax:
-    content: public interface NetworkSecurityGroups extends SupportsCreating< NetworkSecurityGroup.DefinitionBlank >,SupportsListing< NetworkSecurityGroup >,SupportsListingByGroup< NetworkSecurityGroup >,SupportsGettingByGroup< NetworkSecurityGroup >,SupportsGettingById< NetworkSecurityGroup >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkSecurityGroups extends SupportsCreating< NetworkSecurityGroup.DefinitionStages.Blank >,SupportsListing< NetworkSecurityGroup >,SupportsListingByGroup< NetworkSecurityGroup >,SupportsGettingByGroup< NetworkSecurityGroup >,SupportsGettingById< NetworkSecurityGroup >,SupportsDeleting,SupportsDeletingByGroup

@@ -5,7 +5,7 @@ items:
   children:
   - com.microsoft.azure.management.network._network_1a248e431acefb9dcafa6a7c48e1ae1556
   - com.microsoft.azure.management.network._network_1ad0aefaa780208eb6ea36e497fb9c8c3f
-  - com.microsoft.azure.management.network._network_1ac24ab3d8387baee51bc75a964397ff4f
+  - com.microsoft.azure.management.network._network_1a3cfaf5c77e3efae8b0a33bd8e2ba2fc7
   href: com.microsoft.azure.management.network._network.yml
   langs:
   - java
@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: <p>Entry point for Virtual <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
@@ -31,7 +29,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
@@ -49,8 +48,6 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public List< String > addressSpaces()
@@ -70,44 +67,44 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public List< String > dnsServerIPs()
     return:
       type: f35af49b
       description: <p>list of DNS server IP addresses associated with this virtual network </p>
-- uid: com.microsoft.azure.management.network._network_1ac24ab3d8387baee51bc75a964397ff4f
-  id: _network_1ac24ab3d8387baee51bc75a964397ff4f
+- uid: com.microsoft.azure.management.network._network_1a3cfaf5c77e3efae8b0a33bd8e2ba2fc7
+  id: _network_1a3cfaf5c77e3efae8b0a33bd8e2ba2fc7
   parent: com.microsoft.azure.management.network._network
   href: com.microsoft.azure.management.network._network.yml
   langs:
   - java
   name: subnets()
-  fullName: List<Subnet> com.microsoft.azure.management.network.Network.subnets()
+  fullName: Map<String, Subnet> com.microsoft.azure.management.network.Network.subnets()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/Network.java
-    startLine: 44
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 47
   package: com.microsoft.azure.management.network
+  summary: >-
+    <p></p>
+
+    <p>Note that when a virtual network is created with no subnets explicitly defined, a default subnet is automatically created with the name "subnet1". </p>
   syntax:
-    content: public List< Subnet > subnets()
+    content: public Map< String, Subnet > subnets()
     return:
-      type: f6a6204dcom.microsoft.azure.management.network._subnet9ec3e006
-      description: <p>list of subnets of this virtual network </p>
+      type: c90817d4com.microsoft.azure.management.network._subnet9ec3e006
+      description: <p>subnets of this virtual network as a map indexed by subnet name</p>
 references:
 - uid: f35af49b
   spec.java:
   - name: List< String >
     fullName: List< String >
-- uid: f6a6204dcom.microsoft.azure.management.network._subnet9ec3e006
+- uid: c90817d4com.microsoft.azure.management.network._subnet9ec3e006
   spec.java:
-  - name: 'List< '
-    fullName: 'List< '
+  - name: 'Map< String, '
+    fullName: 'Map< String, '
   - uid: com.microsoft.azure.management.network._subnet
     name: Subnet
     fullName: com.microsoft.azure.management.network.Subnet
@@ -157,7 +154,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
   parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
@@ -173,17 +170,28 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the refreshed resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml

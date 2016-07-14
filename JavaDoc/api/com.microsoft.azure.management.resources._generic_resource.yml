@@ -21,9 +21,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 20
   package: com.microsoft.azure.management.resources
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> generic resource. </p>
   syntax:
@@ -34,7 +32,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
@@ -51,9 +50,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 44
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 43
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String apiVersion()
@@ -72,9 +69,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 33
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String parentResourceId()
@@ -93,14 +88,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 49
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 48
   package: com.microsoft.azure.management.resources
   syntax:
     content: public Plan plan()
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._plan
+      type: com.microsoft.azure.management.resources._plan
       description: <p>the plan of the resource </p>
 - uid: com.microsoft.azure.management.resources._generic_resource_1a0303971c2c70aeaf6891cf4009ffb4a1
   id: _generic_resource_1a0303971c2c70aeaf6891cf4009ffb4a1
@@ -114,9 +107,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 54
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 53
   package: com.microsoft.azure.management.resources
   syntax:
     content: public Object properties()
@@ -135,9 +126,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 29
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 28
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String resourceProviderNamespace()
@@ -156,9 +145,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 39
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 38
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String resourceType()
@@ -217,7 +204,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
   parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
@@ -233,17 +220,28 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the refreshed resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
@@ -349,16 +347,16 @@ references:
     - type: 8ce1ecb9
       description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.implementation._generic_resource_impl
-- uid: com.microsoft.azure.management.resources.implementation.api._plan
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._plan.yml
+- uid: com.microsoft.azure.management.resources._plan
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._plan.yml
   name: Plan
-  fullName: com.microsoft.azure.management.resources.implementation.api.Plan
+  fullName: com.microsoft.azure.management.resources.Plan
   type: Class
   summary: >-
     <p>
 
-      <xref href="com.microsoft.azure.management.resources.implementation.api._plan" data-throw-if-not-resolved="false"></xref> for the resource. </p>
+      <xref href="com.microsoft.azure.management.resources._plan" data-throw-if-not-resolved="false"></xref> for the resource. </p>
   syntax:
     content: public class Plan
 - uid: com.microsoft.azure._azure

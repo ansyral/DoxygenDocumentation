@@ -18,8 +18,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatableUpdatableImpl.java
     startLine: 17
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation
   package: com.microsoft.azure.management.resources.fluentcore.model.implementation
   summary: >-
     <p>The base class for all updatable resource.</p>
@@ -42,8 +40,6 @@ items:
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a15be51ea62bc7f27e4b0708d05a4bfa4
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a17b86eae6bcb45c93df007af09305280
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aaddcb7890db49102981ba856059a58a5
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1ad2c09567e302881865046ad723e66389
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a4957792836fd23d04f0f7ca1b3b433d9
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1ac90206eb208c7c212f4b7209d475b33b
@@ -69,8 +65,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatableUpdatableImpl.java
     startLine: 20
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation
   package: com.microsoft.azure.management.resources.fluentcore.model.implementation
   syntax:
     content: protected CreatableUpdatableImpl(String name, InnerModelT innerObject)
@@ -92,8 +86,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatableUpdatableImpl.java
     startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model.implementation
   package: com.microsoft.azure.management.resources.fluentcore.model.implementation
   summary: >-
     <p>Begins an update for a new resource. </p>
@@ -130,7 +122,7 @@ references:
   fullName: void com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.addCreatableDependency(Creatable<?> creatableResource)
   type: Method
   summary: >-
-    <p>add a creatable resource dependency for this resource.</p>
+    <p>Add a creatable resource dependency for this resource.</p>
 
     <p></p>
   syntax:
@@ -152,40 +144,16 @@ references:
       type: "26831127"
     - id: innerObject
       type: 23ab9e11
-- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aaddcb7890db49102981ba856059a58a5
-  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
-  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
-  name: creatablesCreate()
-  fullName: void com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.creatablesCreate()
-  type: Method
-  summary: >-
-    <p>create this resource and creatable resources it depends on. </p>
-
-    <p>dependency resources will be created only if this is the root group otherwise it creates the main resource.</p>
-
-    <p></p>
-  syntax:
-    content: protected void creatablesCreate()
-- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1ad2c09567e302881865046ad723e66389
-  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
-  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
-  name: creatablesCreateAsync(ServiceCallback< Void > callback)
-  fullName: ServiceCall com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.creatablesCreateAsync(ServiceCallback< Void > callback)
-  type: Method
-  syntax:
-    content: protected ServiceCall creatablesCreateAsync(ServiceCallback< Void > callback)
-    parameters:
-    - id: callback
-      type: com.microsoft.rest._service_callbacke35e5465
-    return:
-      type: com.microsoft.rest._service_call
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
   name: create()
   fullName: FluentModelImplT com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.create()
   type: Method
-  summary: <p>Default implementation of <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: >-
+    <p>Default implementation of <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aac5167036b6d4d066bab4e877ab5376b" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
   syntax:
     content: public FluentModelImplT create()
     return:
@@ -243,6 +211,10 @@ references:
   name: createResourceAsync(ServiceCallback< Void > callback)
   fullName: abstract ServiceCall com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT, InnerModelT, FluentModelImplT >.createResourceAsync(ServiceCallback< Void > callback)
   type: Method
+  summary: >-
+    <p>Creates this resource asynchronously.</p>
+
+    <p></p>
   syntax:
     content: protected abstract ServiceCall createResourceAsync(ServiceCallback< Void > callback)
     parameters:

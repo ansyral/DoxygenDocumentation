@@ -17,8 +17,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchRequestInterceptHandler.java
     startLine: 8
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public interface BatchRequestInterceptHandler
@@ -35,8 +33,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchRequestInterceptHandler.java
     startLine: 9
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public void modify(Object request)

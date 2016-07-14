@@ -28,9 +28,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 35
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 26
   package: com.microsoft.azure.management.storage
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage account. </p>
   syntax:
@@ -41,7 +39,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
@@ -58,14 +57,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 109
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 96
   package: com.microsoft.azure.management.storage
   syntax:
     content: public AccessTier accessTier()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._access_tier
+      type: com.microsoft.azure.management.storage._access_tier
       description: '<p>access tier used for billing. Access tier cannot be changed more than once every 7 days (168 hours). Access tier cannot be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS account types. Possible values include: ''Hot'', ''Cool''. </p>'
 - uid: com.microsoft.azure.management.storage._storage_account_1acf5c8ce36b48a148c05d766fba5bbca6
   id: _storage_account_1acf5c8ce36b48a148c05d766fba5bbca6
@@ -79,9 +76,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 50
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 37
   package: com.microsoft.azure.management.storage
   syntax:
     content: public AccountStatuses accountStatuses()
@@ -100,9 +95,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 68
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 55
   package: com.microsoft.azure.management.storage
   syntax:
     content: public DateTime creationTime()
@@ -121,14 +114,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 73
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 60
   package: com.microsoft.azure.management.storage
   syntax:
     content: public CustomDomain customDomain()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._custom_domain
+      type: com.microsoft.azure.management.storage._custom_domain
       description: <p>the user assigned custom domain assigned to this storage account </p>
 - uid: com.microsoft.azure.management.storage._storage_account_1aaea014f1aceb298be2f5752f9a4467a8
   id: _storage_account_1aaea014f1aceb298be2f5752f9a4467a8
@@ -142,14 +133,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 101
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 88
   package: com.microsoft.azure.management.storage
   syntax:
     content: public Encryption encryption()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._encryption
+      type: com.microsoft.azure.management.storage._encryption
       description: <p>the encryption settings on the account. If unspecified the account is unencrypted. </p>
 - uid: com.microsoft.azure.management.storage._storage_account_1aa7ecb984434c65a4ac04a39d513d7627
   id: _storage_account_1aa7ecb984434c65a4ac04a39d513d7627
@@ -163,14 +152,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 95
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 82
   package: com.microsoft.azure.management.storage
   syntax:
     content: public PublicEndpoints endPoints()
     return:
-      type: com.microsoft.azure.management.storage.implementation._public_endpoints
+      type: com.microsoft.azure.management.storage._public_endpoints
       description: <p>the URLs that are used to perform a retrieval of a public blob, queue or table object. Note that StandardZRS and PremiumLRS accounts only return the blob endpoint </p>
 - uid: com.microsoft.azure.management.storage._storage_account_1a7966a09b36849def6b25f56920d62f9a
   id: _storage_account_1a7966a09b36849def6b25f56920d62f9a
@@ -184,14 +171,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 117
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 104
   package: com.microsoft.azure.management.storage
   syntax:
     content: public List< StorageAccountKey > keys()
     return:
-      type: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.storage._storage_account_key9ec3e006
       description: <p>the access keys for this storage account</p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -210,14 +195,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 63
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 50
   package: com.microsoft.azure.management.storage
   syntax:
     content: public Kind kind()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._kind
+      type: com.microsoft.azure.management.storage._kind
       description: <p>the kind of the storage account. Possible values are 'Storage', 'BlobStorage'. </p>
 - uid: com.microsoft.azure.management.storage._storage_account_1a3993feec7a2959c58cb3e671011867d7
   id: _storage_account_1a3993feec7a2959c58cb3e671011867d7
@@ -231,9 +214,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 81
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 68
   package: com.microsoft.azure.management.storage
   syntax:
     content: public DateTime lastGeoFailoverTime()
@@ -252,14 +233,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 88
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 75
   package: com.microsoft.azure.management.storage
   syntax:
     content: public ProvisioningState provisioningState()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._provisioning_state
+      type: com.microsoft.azure.management.storage._provisioning_state
       description: '<p>the status of the storage account at the time the operation was called. Possible values include: ''Creating'', ''ResolvingDNS'', ''Succeeded'' </p>'
 - uid: com.microsoft.azure.management.storage._storage_account_1aadcc20a6cb2e68cf54a1f65528cd1331
   id: _storage_account_1aadcc20a6cb2e68cf54a1f65528cd1331
@@ -273,9 +252,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 127
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 114
   package: com.microsoft.azure.management.storage
   summary: >-
     <p>Fetch the up-to-date access keys from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> for this storage account.</p>
@@ -284,7 +261,7 @@ items:
   syntax:
     content: public List< StorageAccountKey > refreshKeys()
     return:
-      type: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.storage._storage_account_key9ec3e006
       description: <p>the access keys for this storage account</p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -303,9 +280,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 137
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 124
   package: com.microsoft.azure.management.storage
   summary: >-
     <p>Regenerates the access keys for this storage account.</p>
@@ -318,7 +293,7 @@ items:
       type: "26831127"
       description: <p>if the key name </p>
     return:
-      type: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.storage._storage_account_key9ec3e006
       description: <p>the generated access keys for this storage account </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -337,14 +312,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 57
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 44
   package: com.microsoft.azure.management.storage
   syntax:
     content: public Sku sku()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._sku
+      type: com.microsoft.azure.management.storage._sku
       description: '<p>the sku of this storage account. Possible names include: ''Standard_LRS'', ''Standard_ZRS'', ''Standard_GRS'', ''Standard_RAGRS'', ''Premium_LRS''. Possible tiers include: ''Standard'', ''Premium''. </p>'
 references:
 - uid: 230df18c
@@ -355,14 +328,14 @@ references:
   spec.java:
   - name: IOException
     fullName: IOException
-- uid: f6a6204dcom.microsoft.azure.management.storage.implementation.api._storage_account_key9ec3e006
+- uid: f6a6204dcom.microsoft.azure.management.storage._storage_account_key9ec3e006
   spec.java:
   - name: 'List< '
     fullName: 'List< '
-  - uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key
+  - uid: com.microsoft.azure.management.storage._storage_account_key
     name: StorageAccountKey
-    fullName: com.microsoft.azure.management.storage.implementation.api.StorageAccountKey
-    href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+    fullName: com.microsoft.azure.management.storage.StorageAccountKey
+    href: com.microsoft.azure.management.storage._storage_account_key.yml
   - name: ' >'
     fullName: ' >'
 - uid: "26831127"
@@ -412,7 +385,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
   parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
@@ -428,17 +401,28 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the refreshed resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
@@ -553,74 +537,74 @@ references:
   summary: <p>An instance of this class stores the availability of a storage account. </p>
   syntax:
     content: public class AccountStatuses
-- uid: com.microsoft.azure.management.storage.implementation.api._sku
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._sku.yml
+- uid: com.microsoft.azure.management.storage._sku
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._sku.yml
   name: Sku
-  fullName: com.microsoft.azure.management.storage.implementation.api.Sku
+  fullName: com.microsoft.azure.management.storage.Sku
   type: Class
   summary: <p>The SKU of the storage account. </p>
   syntax:
     content: public class Sku
-- uid: com.microsoft.azure.management.storage.implementation.api._kind
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._kind.yml
+- uid: com.microsoft.azure.management.storage._kind
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._kind.yml
   name: Kind
-  fullName: com.microsoft.azure.management.storage.implementation.api.Kind
+  fullName: com.microsoft.azure.management.storage.Kind
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._kind" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage._kind" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum Kind
-- uid: com.microsoft.azure.management.storage.implementation.api._custom_domain
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._custom_domain.yml
+- uid: com.microsoft.azure.management.storage._custom_domain
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._custom_domain.yml
   name: CustomDomain
-  fullName: com.microsoft.azure.management.storage.implementation.api.CustomDomain
+  fullName: com.microsoft.azure.management.storage.CustomDomain
   type: Class
   summary: <p>The custom domain assigned to this storage account. This can be set via Update. </p>
   syntax:
     content: public class CustomDomain
-- uid: com.microsoft.azure.management.storage.implementation.api._provisioning_state
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._provisioning_state.yml
+- uid: com.microsoft.azure.management.storage._provisioning_state
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._provisioning_state.yml
   name: ProvisioningState
-  fullName: com.microsoft.azure.management.storage.implementation.api.ProvisioningState
+  fullName: com.microsoft.azure.management.storage.ProvisioningState
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._provisioning_state" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage._provisioning_state" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum ProvisioningState
-- uid: com.microsoft.azure.management.storage.implementation._public_endpoints
-  parent: com.microsoft.azure.management.storage.implementation
-  href: com.microsoft.azure.management.storage.implementation._public_endpoints.yml
+- uid: com.microsoft.azure.management.storage._public_endpoints
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._public_endpoints.yml
   name: PublicEndpoints
-  fullName: com.microsoft.azure.management.storage.implementation.PublicEndpoints
+  fullName: com.microsoft.azure.management.storage.PublicEndpoints
   type: Class
   summary: <p>An instance of this class stores the The URIs associated with a storage account that are used to perform a retrieval of a public blob, queue or table object. </p>
   syntax:
     content: public class PublicEndpoints
-- uid: com.microsoft.azure.management.storage.implementation.api._encryption
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._encryption.yml
+- uid: com.microsoft.azure.management.storage._encryption
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._encryption.yml
   name: Encryption
-  fullName: com.microsoft.azure.management.storage.implementation.api.Encryption
+  fullName: com.microsoft.azure.management.storage.Encryption
   type: Class
   summary: <p>The encryption settings on the account. </p>
   syntax:
     content: public class Encryption
-- uid: com.microsoft.azure.management.storage.implementation.api._access_tier
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._access_tier.yml
+- uid: com.microsoft.azure.management.storage._access_tier
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._access_tier.yml
   name: AccessTier
-  fullName: com.microsoft.azure.management.storage.implementation.api.AccessTier
+  fullName: com.microsoft.azure.management.storage.AccessTier
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._access_tier" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage._access_tier" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum AccessTier
-- uid: com.microsoft.azure.management.storage.implementation.api._storage_account_key
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._storage_account_key.yml
+- uid: com.microsoft.azure.management.storage._storage_account_key
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._storage_account_key.yml
   name: StorageAccountKey
-  fullName: com.microsoft.azure.management.storage.implementation.api.StorageAccountKey
+  fullName: com.microsoft.azure.management.storage.StorageAccountKey
   type: Class
   summary: <p>An access key for the storage account. </p>
   syntax:

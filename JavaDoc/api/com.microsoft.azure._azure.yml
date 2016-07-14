@@ -35,8 +35,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 41
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
@@ -56,8 +54,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 77
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Authenticates API access using a properties file containing the required credentials. </p>
   syntax:
@@ -85,8 +81,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 89
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Authenticates API access using a <xref href="com.microsoft.azure._rest_client" data-throw-if-not-resolved="false"></xref> instance. </p>
   syntax:
@@ -111,8 +105,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 54
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Authenticate to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> using a credentials object.</p>
@@ -140,8 +132,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 305
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public AvailabilitySets availabilitySets()
@@ -161,8 +151,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 100
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public static Configurable configure()
@@ -182,8 +170,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 263
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Deployments deployments()
@@ -203,8 +189,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 277
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Features features()
@@ -224,8 +208,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 270
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public GenericResources genericResources()
@@ -245,8 +227,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 347
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkInterfaces networkInterfaces()
@@ -266,8 +246,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 312
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Networks networks()
@@ -287,8 +265,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 319
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkSecurityGroups networkSecurityGroups()
@@ -308,8 +284,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 284
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Providers providers()
@@ -329,8 +303,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 340
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public PublicIpAddresses publicIpAddresses()
@@ -350,8 +322,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 256
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public ResourceGroups resourceGroups()
@@ -371,8 +341,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 291
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public StorageAccounts storageAccounts()
@@ -392,8 +360,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 298
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Usages storageUsages()
@@ -413,8 +379,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 249
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public String subscriptionId()
@@ -434,8 +398,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 333
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachineImages virtualMachineImages()
@@ -455,8 +417,6 @@ items:
     remote: *o0
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 326
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachines virtualMachines()
@@ -633,7 +593,7 @@ references:
   type: Interface
   summary: <p>Entry point to availability set management API. </p>
   syntax:
-    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface AvailabilitySets extends SupportsListingByGroup< AvailabilitySet >,SupportsGettingByGroup< AvailabilitySet >,SupportsGettingById< AvailabilitySet >,SupportsListing< AvailabilitySet >,SupportsCreating< AvailabilitySet.DefinitionStages.Blank >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._networks
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._networks.yml

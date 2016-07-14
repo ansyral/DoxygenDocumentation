@@ -18,8 +18,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/PagedListConverter.java
     startLine: 25
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>The base class for converting <xref href="com.microsoft.azure._paged_list" data-throw-if-not-resolved="false"></xref> of one type of resource to another, without polling down all the items in a list. This converter is useful in converting inner top level resources into fluent top level resources.</p>
@@ -47,8 +45,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/PagedListConverter.java
     startLine: 41
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>Converts the paged list.</p>
@@ -76,8 +72,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/PagedListConverter.java
     startLine: 33
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>Override this method to define how to convert each <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> item individually.</p>

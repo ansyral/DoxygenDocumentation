@@ -7,7 +7,7 @@ items:
   - com.microsoft.azure.management.compute._virtual_machine_1a30a1eff6eca9f726e1cb61c31f29f6d1
   - com.microsoft.azure.management.compute._virtual_machine_1af0cd22561526a418477c5fbfb8968258
   - com.microsoft.azure.management.compute._virtual_machine_1a5c1b9f1f04547b6517d4cbe25d40e5f4
-  - com.microsoft.azure.management.compute._virtual_machine_1ab37dcc0ebbeeaae0f6a47f4330083283
+  - com.microsoft.azure.management.compute._virtual_machine_1a1c416fb9807cc6c270c0bad790459675
   - com.microsoft.azure.management.compute._virtual_machine_1ae25beb4f3332de13ffb4dffcc264c88b
   - com.microsoft.azure.management.compute._virtual_machine_1a590f32e4b4029a917138cba16173896d
   - com.microsoft.azure.management.compute._virtual_machine_1a1a752766ea3d59136ec190a9b26db987
@@ -15,7 +15,7 @@ items:
   - com.microsoft.azure.management.compute._virtual_machine_1a985bd2c549a37d56d51f1d1dce62b4ed
   - com.microsoft.azure.management.compute._virtual_machine_1accb70150c5bae943ced5755e9c3ed53d
   - com.microsoft.azure.management.compute._virtual_machine_1a7f9e7973dc6bbec259bf99495ed054f0
-  - com.microsoft.azure.management.compute._virtual_machine_1a5f6a5b2f33a5885dbc41ee1e463c1603
+  - com.microsoft.azure.management.compute._virtual_machine_1a7740237eb3ea6db04d59f0558a1c88a8
   - com.microsoft.azure.management.compute._virtual_machine_1afdbe7ecbfc87b1def995244d2551e276
   - com.microsoft.azure.management.compute._virtual_machine_1a95b7b2315ef1051c6c2790865bf8f32d
   - com.microsoft.azure.management.compute._virtual_machine_1acab2d1eca2fa0c283699b0deefaa7c87
@@ -33,6 +33,7 @@ items:
   - com.microsoft.azure.management.compute._virtual_machine_1a7998afa72a02d99911966b797f5b9d30
   - com.microsoft.azure.management.compute._virtual_machine_1aec05b1f059f1abd105c44bbc61de742a
   - com.microsoft.azure.management.compute._virtual_machine_1ab6994be044e40a51c57022a50258eeb4
+  - com.microsoft.azure.management.compute._virtual_machine_1a7a804aaa16406a61e9699e8afc6456c5
   href: com.microsoft.azure.management.compute._virtual_machine.yml
   langs:
   - java
@@ -45,9 +46,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 35
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 24
   package: com.microsoft.azure.management.compute
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine. </p>
   syntax:
@@ -58,7 +57,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
@@ -75,9 +75,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 211
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 199
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Returns id to the availability set this virtual machine associated with. </p>
@@ -102,12 +100,10 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 107
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 95
   package: com.microsoft.azure.management.compute
   summary: >-
-    <p>list of all available virtual machine sizes this virtual machine can resized to.</p>
+    <p>List of all available virtual machine sizes this virtual machine can resized to.</p>
 
     <p></p>
   syntax:
@@ -132,9 +128,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 120
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 108
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Captures the virtual machine by copying virtual hard disks of the VM and returns template as json string that can be used to create similar VMs.</p>
@@ -171,35 +165,31 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 139
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 127
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String computerName()
     return:
       type: "26831127"
       description: <p>name of this virtual machine </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_1ab37dcc0ebbeeaae0f6a47f4330083283
-  id: _virtual_machine_1ab37dcc0ebbeeaae0f6a47f4330083283
+- uid: com.microsoft.azure.management.compute._virtual_machine_1a1c416fb9807cc6c270c0bad790459675
+  id: _virtual_machine_1a1c416fb9807cc6c270c0bad790459675
   parent: com.microsoft.azure.management.compute._virtual_machine
   href: com.microsoft.azure.management.compute._virtual_machine.yml
   langs:
   - java
   name: dataDisks()
-  fullName: List<DataDisk> com.microsoft.azure.management.compute.VirtualMachine.dataDisks()
+  fullName: List<VirtualMachineDataDisk> com.microsoft.azure.management.compute.VirtualMachine.dataDisks()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 169
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 157
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public List< DataDisk > dataDisks()
+    content: public List< VirtualMachineDataDisk > dataDisks()
     return:
-      type: f6a6204dcom.microsoft.azure.management.compute._data_disk9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.compute._virtual_machine_data_disk9ec3e006
       description: <p>the list of data disks attached to this virtual machine </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1ae25beb4f3332de13ffb4dffcc264c88b
   id: _virtual_machine_1ae25beb4f3332de13ffb4dffcc264c88b
@@ -213,9 +203,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 52
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 40
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Shuts down the Virtual Machine and releases the compute resources. </p>
@@ -244,9 +232,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 259
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 247
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Returns the diagnostics profile of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine. </p>
@@ -257,7 +243,7 @@ items:
   syntax:
     content: public DiagnosticsProfile diagnosticsProfile()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._diagnostics_profile
+      type: com.microsoft.azure.management.compute._diagnostics_profile
       description: <p>the diagnosticsProfile value </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1a1a752766ea3d59136ec190a9b26db987
   id: _virtual_machine_1a1a752766ea3d59136ec190a9b26db987
@@ -271,9 +257,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 60
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 48
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Generalize the Virtual Machine.</p>
@@ -298,20 +282,18 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 275
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 268
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Get the virtual machine instance view. </p>
 
-    <p>this method returns the cached instance view, to refresh the cache call <xref href="com.microsoft.azure.management.compute._virtual_machine_1a9a4bb74689b3fd460e5a9e40f35fcaa8" data-throw-if-not-resolved="false"></xref></p>
+    <p>this method returns the cached instance view, to refresh the cache call <xref href="com.microsoft.azure.management.compute._virtual_machine_1a9a4bb74689b3fd460e5a9e40f35fcaa8" data-throw-if-not-resolved="false"></xref>.</p>
 
     <p></p>
   syntax: &o1
     content: public VirtualMachineInstanceView instanceView()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_instance_view
+      type: com.microsoft.azure.management.compute._virtual_machine_instance_view
       description: <p>the virtual machine instance view </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -330,9 +312,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 221
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 209
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String licenseType()
@@ -351,9 +331,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 196
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 184
   package: com.microsoft.azure.management.compute
   syntax:
     content: public List< String > networkInterfaceIds()
@@ -372,35 +350,31 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 159
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 147
   package: com.microsoft.azure.management.compute
   syntax:
     content: public CachingTypes osDiskCachingType()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._caching_types
+      type: com.microsoft.azure.management.compute._caching_types
       description: <p>the operating system disk caching type, valid values are 'None', 'ReadOnly', 'ReadWrite' </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_1a5f6a5b2f33a5885dbc41ee1e463c1603
-  id: _virtual_machine_1a5f6a5b2f33a5885dbc41ee1e463c1603
+- uid: com.microsoft.azure.management.compute._virtual_machine_1a7740237eb3ea6db04d59f0558a1c88a8
+  id: _virtual_machine_1a7740237eb3ea6db04d59f0558a1c88a8
   parent: com.microsoft.azure.management.compute._virtual_machine
   href: com.microsoft.azure.management.compute._virtual_machine.yml
   langs:
   - java
   name: osDiskSize()
-  fullName: Integer com.microsoft.azure.management.compute.VirtualMachine.osDiskSize()
+  fullName: int com.microsoft.azure.management.compute.VirtualMachine.osDiskSize()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 164
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 152
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public Integer osDiskSize()
+    content: public int osDiskSize()
     return:
-      type: 08effaa0
+      type: f75371fa
       description: <p>the size of the operating system disk in GB </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1afdbe7ecbfc87b1def995244d2551e276
   id: _virtual_machine_1afdbe7ecbfc87b1def995244d2551e276
@@ -414,9 +388,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 154
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 142
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String osDiskVhdUri()
@@ -435,9 +407,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 249
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 237
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Gets the operating system profile of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine.</p>
@@ -446,7 +416,7 @@ items:
   syntax:
     content: public OSProfile osProfile()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._o_s_profile
+      type: com.microsoft.azure.management.compute._o_s_profile
       description: <p>the osProfile value </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1acab2d1eca2fa0c283699b0deefaa7c87
   id: _virtual_machine_1acab2d1eca2fa0c283699b0deefaa7c87
@@ -460,14 +430,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 149
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 137
   package: com.microsoft.azure.management.compute
   syntax:
     content: public OperatingSystemTypes osType()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._operating_system_types
+      type: com.microsoft.azure.management.compute._operating_system_types
       description: <p>the operating system of this virtual machine </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1a12da2596163349d783b46b1dff22a058
   id: _virtual_machine_1a12da2596163349d783b46b1dff22a058
@@ -481,14 +449,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 231
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 219
   package: com.microsoft.azure.management.compute
   syntax:
     content: public Plan plan()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._plan
+      type: com.microsoft.azure.management.compute._plan
       description: <p>the plan value </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1a6f829f27c1408b095bb7994df78be496
   id: _virtual_machine_1a6f829f27c1408b095bb7994df78be496
@@ -502,14 +468,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 71
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 59
   package: com.microsoft.azure.management.compute
   summary: >-
-    <p>power off (stop) the virtual machine. </p>
+    <p>Power off (stop) the virtual machine. </p>
 
-    <p>You will be billed for the compute resources that this Virtual Machine uses</p>
+    <p>You will be billed for the compute resources that this Virtual Machine uses.</p>
 
     <p></p>
   syntax:
@@ -533,9 +497,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 264
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 257
   package: com.microsoft.azure.management.compute
   syntax:
     content: public PowerState powerState()
@@ -554,14 +516,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 180
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 168
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Gets the primary network interface of this virtual machine. </p>
 
-    <p>note that this method makes a rest API call to fetch the network interface</p>
+    <p>note that this method makes a rest API call to fetch the network interface.</p>
 
     <p></p>
   syntax:
@@ -586,9 +546,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 201
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 189
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String primaryNetworkInterfaceId()
@@ -607,14 +565,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 191
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 179
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Gets the public IP address associated with this virtual machine's primary network interface. </p>
 
-    <p>note that this method makes a rest API call to fetch the resource</p>
+    <p>note that this method makes a rest API call to fetch the resource.</p>
 
     <p></p>
   syntax:
@@ -639,9 +595,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 216
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 204
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String provisioningState()
@@ -660,9 +614,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 98
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 86
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Redeploy the virtual machine.</p>
@@ -689,20 +641,18 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 131
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 119
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Refreshes the virtual machine instance view to sync with <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
 
-    <p>this will caches the instance view which can be later retrieved using <xref href="com.microsoft.azure.management.compute._virtual_machine_1afda677bdf75cf7cf3d0956cb4be65b18" data-throw-if-not-resolved="false"></xref></p>
+    <p>this will caches the instance view which can be later retrieved using <xref href="com.microsoft.azure.management.compute._virtual_machine_1afda677bdf75cf7cf3d0956cb4be65b18" data-throw-if-not-resolved="false"></xref>.</p>
 
     <p></p>
   syntax: &o2
     content: public VirtualMachineInstanceView refreshInstanceView()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._virtual_machine_instance_view
+      type: com.microsoft.azure.management.compute._virtual_machine_instance_view
       description: <p>the refreshed instance view </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -721,14 +671,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 226
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 214
   package: com.microsoft.azure.management.compute
   syntax:
     content: public List< VirtualMachineExtensionInner > resources()
     return:
-      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.compute.implementation._virtual_machine_extension_inner9ec3e006
       description: <p>the resources value </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_1a7900bdbddff04e4759128c5cdc4f57a4
   id: _virtual_machine_1a7900bdbddff04e4759128c5cdc4f57a4
@@ -742,9 +690,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 80
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 68
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Restart the virtual machine.</p>
@@ -771,9 +717,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 144
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 132
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String size()
@@ -792,9 +736,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 89
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 77
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Start the virtual machine.</p>
@@ -821,9 +763,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
-    startLine: 242
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 230
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Returns the storage profile of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine. </p>
@@ -834,8 +774,27 @@ items:
   syntax:
     content: public StorageProfile storageProfile()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._storage_profile
+      type: com.microsoft.azure.management.compute._storage_profile
       description: <p>the storageProfile value </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_1a7a804aaa16406a61e9699e8afc6456c5
+  id: _virtual_machine_1a7a804aaa16406a61e9699e8afc6456c5
+  parent: com.microsoft.azure.management.compute._virtual_machine
+  href: com.microsoft.azure.management.compute._virtual_machine.yml
+  langs:
+  - java
+  name: vmId()
+  fullName: String com.microsoft.azure.management.compute.VirtualMachine.vmId()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachine.java
+    startLine: 252
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public String vmId()
+    return:
+      type: "26831127"
+      description: <p>the virtual machine unique id. </p>
 references:
 - uid: cbf33bbe
   spec.java:
@@ -867,32 +826,32 @@ references:
   spec.java:
   - name: boolean
     fullName: boolean
-- uid: 08effaa0
+- uid: f75371fa
   spec.java:
-  - name: Integer
-    fullName: Integer
-- uid: f6a6204dcom.microsoft.azure.management.compute._data_disk9ec3e006
+  - name: int
+    fullName: int
+- uid: f6a6204dcom.microsoft.azure.management.compute._virtual_machine_data_disk9ec3e006
   spec.java:
   - name: 'List< '
     fullName: 'List< '
-  - uid: com.microsoft.azure.management.compute._data_disk
-    name: DataDisk
-    fullName: com.microsoft.azure.management.compute.DataDisk
-    href: com.microsoft.azure.management.compute._data_disk.yml
+  - uid: com.microsoft.azure.management.compute._virtual_machine_data_disk
+    name: VirtualMachineDataDisk
+    fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk
+    href: com.microsoft.azure.management.compute._virtual_machine_data_disk.yml
   - name: ' >'
     fullName: ' >'
 - uid: f35af49b
   spec.java:
   - name: List< String >
     fullName: List< String >
-- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner9ec3e006
+- uid: f6a6204dcom.microsoft.azure.management.compute.implementation._virtual_machine_extension_inner9ec3e006
   spec.java:
   - name: 'List< '
     fullName: 'List< '
-  - uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
+  - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_extension_inner
     name: VirtualMachineExtensionInner
-    fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
-    href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+    fullName: com.microsoft.azure.management.compute.implementation.VirtualMachineExtensionInner
+    href: com.microsoft.azure.management.compute.implementation._virtual_machine_extension_inner.yml
   - name: ' >'
     fullName: ' >'
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
@@ -938,7 +897,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
   parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
@@ -954,17 +913,28 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the refreshed resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
@@ -1103,11 +1073,11 @@ references:
   summary: <p>A type representing virtual machine size available for a subscription in a region. </p>
   syntax:
     content: public interface VirtualMachineSize
-- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_instance_view
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_instance_view.yml
+- uid: com.microsoft.azure.management.compute._virtual_machine_instance_view
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_instance_view.yml
   name: VirtualMachineInstanceView
-  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineInstanceView
+  fullName: com.microsoft.azure.management.compute.VirtualMachineInstanceView
   type: Class
   summary: <p>The instance view of a virtual machine. </p>
   syntax:
@@ -1130,37 +1100,37 @@ references:
   summary: >-
     <p>Get the virtual machine instance view. </p>
 
-    <p>this method returns the cached instance view, to refresh the cache call <xref href="com.microsoft.azure.management.compute._virtual_machine_1a9a4bb74689b3fd460e5a9e40f35fcaa8" data-throw-if-not-resolved="false"></xref></p>
+    <p>this method returns the cached instance view, to refresh the cache call <xref href="com.microsoft.azure.management.compute._virtual_machine_1a9a4bb74689b3fd460e5a9e40f35fcaa8" data-throw-if-not-resolved="false"></xref>.</p>
 
     <p></p>
   syntax: *o1
-- uid: com.microsoft.azure.management.compute.implementation.api._operating_system_types
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._operating_system_types.yml
+- uid: com.microsoft.azure.management.compute._operating_system_types
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._operating_system_types.yml
   name: OperatingSystemTypes
-  fullName: com.microsoft.azure.management.compute.implementation.api.OperatingSystemTypes
+  fullName: com.microsoft.azure.management.compute.OperatingSystemTypes
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._operating_system_types" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute._operating_system_types" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum OperatingSystemTypes
-- uid: com.microsoft.azure.management.compute.implementation.api._caching_types
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._caching_types.yml
+- uid: com.microsoft.azure.management.compute._caching_types
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._caching_types.yml
   name: CachingTypes
-  fullName: com.microsoft.azure.management.compute.implementation.api.CachingTypes
+  fullName: com.microsoft.azure.management.compute.CachingTypes
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute.implementation.api._caching_types" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.compute._caching_types" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum CachingTypes
-- uid: com.microsoft.azure.management.compute._data_disk
+- uid: com.microsoft.azure.management.compute._virtual_machine_data_disk
   parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._data_disk.yml
-  name: DataDisk
-  fullName: com.microsoft.azure.management.compute.DataDisk
+  href: com.microsoft.azure.management.compute._virtual_machine_data_disk.yml
+  name: VirtualMachineDataDisk
+  fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk
   type: Interface
   summary: <p>A data disk of a virtual machine. </p>
   syntax:
-    content: public interface DataDisk extends Wrapper< com.microsoft.azure.management.compute.implementation.api.DataDisk >,ChildResource
+    content: public interface VirtualMachineDataDisk
 - uid: com.microsoft.azure.management.network._network_interface
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface.yml
@@ -1182,50 +1152,50 @@ references:
   summary: <p>Public IP address. </p>
   syntax:
     content: public interface PublicIpAddress extends GroupableResource,Refreshable< PublicIpAddress >,Wrapper< PublicIPAddressInner >,Updatable< PublicIpAddress.Update >
-- uid: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._virtual_machine_extension_inner.yml
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_extension_inner
+  parent: com.microsoft.azure.management.compute.implementation
+  href: com.microsoft.azure.management.compute.implementation._virtual_machine_extension_inner.yml
   name: VirtualMachineExtensionInner
-  fullName: com.microsoft.azure.management.compute.implementation.api.VirtualMachineExtensionInner
+  fullName: com.microsoft.azure.management.compute.implementation.VirtualMachineExtensionInner
   type: Class
   summary: <p>Describes a Virtual Machine Extension. </p>
   syntax:
     content: public class VirtualMachineExtensionInner
-- uid: com.microsoft.azure.management.compute.implementation.api._plan
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._plan.yml
+- uid: com.microsoft.azure.management.compute._plan
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._plan.yml
   name: Plan
-  fullName: com.microsoft.azure.management.compute.implementation.api.Plan
+  fullName: com.microsoft.azure.management.compute.Plan
   type: Class
   summary: >-
     <p>
 
-      <xref href="com.microsoft.azure.management.compute.implementation.api._plan" data-throw-if-not-resolved="false"></xref> for the resource. </p>
+      <xref href="com.microsoft.azure.management.compute._plan" data-throw-if-not-resolved="false"></xref> for the resource. </p>
   syntax:
     content: public class Plan
-- uid: com.microsoft.azure.management.compute.implementation.api._storage_profile
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._storage_profile.yml
+- uid: com.microsoft.azure.management.compute._storage_profile
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._storage_profile.yml
   name: StorageProfile
-  fullName: com.microsoft.azure.management.compute.implementation.api.StorageProfile
+  fullName: com.microsoft.azure.management.compute.StorageProfile
   type: Class
   summary: <p>Describes a storage profile. </p>
   syntax:
     content: public class StorageProfile
-- uid: com.microsoft.azure.management.compute.implementation.api._o_s_profile
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._o_s_profile.yml
+- uid: com.microsoft.azure.management.compute._o_s_profile
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._o_s_profile.yml
   name: OSProfile
-  fullName: com.microsoft.azure.management.compute.implementation.api.OSProfile
+  fullName: com.microsoft.azure.management.compute.OSProfile
   type: Class
   summary: <p>Describes an OS profile. </p>
   syntax:
     content: public class OSProfile
-- uid: com.microsoft.azure.management.compute.implementation.api._diagnostics_profile
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._diagnostics_profile.yml
+- uid: com.microsoft.azure.management.compute._diagnostics_profile
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._diagnostics_profile.yml
   name: DiagnosticsProfile
-  fullName: com.microsoft.azure.management.compute.implementation.api.DiagnosticsProfile
+  fullName: com.microsoft.azure.management.compute.DiagnosticsProfile
   type: Class
   summary: <p>Describes a diagnostics profile. </p>
   syntax:
@@ -1248,7 +1218,7 @@ references:
   summary: >-
     <p>Refreshes the virtual machine instance view to sync with <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
 
-    <p>this will caches the instance view which can be later retrieved using <xref href="com.microsoft.azure.management.compute._virtual_machine_1afda677bdf75cf7cf3d0956cb4be65b18" data-throw-if-not-resolved="false"></xref></p>
+    <p>this will caches the instance view which can be later retrieved using <xref href="com.microsoft.azure.management.compute._virtual_machine_1afda677bdf75cf7cf3d0956cb4be65b18" data-throw-if-not-resolved="false"></xref>.</p>
 
     <p></p>
   syntax: *o2

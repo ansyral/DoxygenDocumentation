@@ -32,8 +32,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 13
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Represents metadata for a particular file segment. </p>
   syntax: &o1
@@ -54,8 +52,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 137
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Calculates the number of segments a file of the given length should be split into. The method to calculate this is based on some empirical measurements that allows both the number of segments and the length of each segment to grow as the input file size grows. They both grow on a logarithmic pattern as the file length increases. The formula is roughly this: Multiplier = Min(100, 50 * 2 ^ Log10(FileLengthInGB)) SegmentCount = Max(1, Multiplier * 2 ^ Log10(FileLengthInGB) Essentially we quadruple the number of segments for each tenfold increase in the file length, with certain caps. The formula is designed to support both small files and extremely large files (and not cause very small segment lengths or very large number of segments).</p>
@@ -83,8 +79,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 76
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Calculates the length of the segment with given number for a file with given length that is split into the given number of segments. </p>
   syntax:
@@ -112,8 +106,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 45
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Calculates the length of a typical (non-terminal) segment for a file of the given length that is split into the given number of segments.</p>
@@ -144,8 +136,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 233
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public long getLength()
@@ -165,8 +155,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 217
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public long getOffset()
@@ -186,8 +174,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 185
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public String getPath()
@@ -207,8 +193,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 201
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public int getSegmentNumber()
@@ -228,8 +212,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 249
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public SegmentUploadStatus getStatus()
@@ -249,8 +231,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 122
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>The minimum number of bytes in a segment. For best performance, should be sync-ed with the upload buffer length. </p>
   syntax:
@@ -270,8 +250,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 241
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void setLength(long length)
@@ -292,8 +270,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 225
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void setOffset(long offset)
@@ -314,8 +290,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 193
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void setPath(String path)
@@ -336,8 +310,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 209
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void setSegmentNumber(int segmentNumber)
@@ -358,8 +330,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 257
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void setStatus(SegmentUploadStatus status)
@@ -380,8 +350,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 18
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata" data-throw-if-not-resolved="false"></xref> for use with unit tests. </p>
   syntax:
@@ -399,8 +367,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/UploadSegmentMetadata.java
     startLine: 28
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Creates a new <xref href="com.microsoft.azure.management.datalake.store.uploader._upload_segment_metadata" data-throw-if-not-resolved="false"></xref> with the given segment number.</p>

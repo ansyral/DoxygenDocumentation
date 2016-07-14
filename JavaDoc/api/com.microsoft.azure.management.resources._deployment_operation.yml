@@ -21,9 +21,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 18
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 17
   package: com.microsoft.azure.management.resources
   summary: <p>An immutable client-side representation of a deployment operation. </p>
   syntax:
@@ -44,9 +42,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 26
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 25
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String operationId()
@@ -65,9 +61,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 31
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String provisioningState()
@@ -86,9 +80,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 42
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 41
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String statusCode()
@@ -107,9 +99,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 47
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 46
   package: com.microsoft.azure.management.resources
   syntax:
     content: public Object statusMessage()
@@ -128,14 +118,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 52
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 51
   package: com.microsoft.azure.management.resources
   syntax:
     content: public TargetResource targetResource()
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._target_resource
+      type: com.microsoft.azure.management.resources._target_resource
       description: <p>the target resource </p>
 - uid: com.microsoft.azure.management.resources._deployment_operation_1a1ea8897894d6bf0c4362ddc3dc534475
   id: _deployment_operation_1a1ea8897894d6bf0c4362ddc3dc534475
@@ -149,9 +137,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/DeploymentOperation.java
-    startLine: 37
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 36
   package: com.microsoft.azure.management.resources
   syntax:
     content: public DateTime timestamp()
@@ -248,11 +234,11 @@ references:
     - type: 8ce1ecb9
       description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.implementation._deployment_operation_impl
-- uid: com.microsoft.azure.management.resources.implementation.api._target_resource
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._target_resource.yml
+- uid: com.microsoft.azure.management.resources._target_resource
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._target_resource.yml
   name: TargetResource
-  fullName: com.microsoft.azure.management.resources.implementation.api.TargetResource
+  fullName: com.microsoft.azure.management.resources.TargetResource
   type: Class
   summary: <p>Target resource. </p>
   syntax:

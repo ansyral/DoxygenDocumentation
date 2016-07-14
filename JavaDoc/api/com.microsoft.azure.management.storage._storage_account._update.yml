@@ -14,25 +14,23 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/StorageAccount.java
-    startLine: 353
-  assemblies:
-  - com.microsoft.azure.management.storage
+    startLine: 362
   package: com.microsoft.azure.management.storage
   summary: <p>The template for a storage account update operation, containing all the settings that can be modified. </p>
   syntax:
-    content: public interface Update extends Appliable< StorageAccount >,StorageAccount.UpdateWithSku,StorageAccount.UpdateWithCustomDomain,StorageAccount.UpdateWithEncryption,StorageAccount.UpdateWithAccessTier,Resource.UpdateWithTags< Update >
+    content: public interface Update extends Appliable< StorageAccount >,StorageAccount.UpdateStages.WithSku,StorageAccount.UpdateStages.WithCustomDomain,StorageAccount.UpdateStages.WithEncryption,StorageAccount.UpdateStages.WithAccessTier,Resource.UpdateWithTags< Update >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a614b76a85ab8e27c82a680c826e7c293
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
-  - com.microsoft.azure.management.storage._storage_account._update_with_access_tier_1afce5e3fa941b961f3b44bad7e533c052
-  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1ada45d24f4121ed20a1f4a64216d70ddc
-  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a023e7b521600e41c28f127228c0e2987
-  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a022e6930ce7a4bf8473e856962f07c99
-  - com.microsoft.azure.management.storage._storage_account._update_with_encryption_1a89abfa9ae13f173fa01c8211ac52235d
-  - com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a0de10a1de742bf030f232d81e8e20f8f
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier_1aa94d1e329a3ea438aaf1b463670ba48f
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1a83e2fcc0f80ce6b1b6e427d1415e92cc
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1abe36bf9920a57209cc564c3be785a7ae
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1ad8f07abce5ce404f229d77477aa91d5c
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption_1ad4025aeb91506aaa49ebef9fc3a97b95
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1af24bb67a226bef7aa40ab6bc4a37b5de
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1af307b0910a16e1a10cd53688d90964ab
-  - com.microsoft.azure.management.storage._storage_account._update_with_sku_1a6f13bd266c0874f58947e143a1e98be3
+  - com.microsoft.azure.management.storage._storage_account._update_stages._with_sku_1a0ccf08ffbd282ed0dfff5b2b3d9e7fcb
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1a29b90aa888ae72ce7027d21801c3ec2e
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags_1a776ea31fee986700468bded993381c1d
 references:
@@ -81,54 +79,54 @@ references:
     return:
       type: "26831127"
       description: <p>the index key. </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_access_tier_1afce5e3fa941b961f3b44bad7e533c052
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_access_tier
-  href: com.microsoft.azure.management.storage._storage_account._update_with_access_tier.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier_1aa94d1e329a3ea438aaf1b463670ba48f
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier.yml
   name: withAccessTier(AccessTier accessTier)
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithAccessTier.withAccessTier(AccessTier accessTier)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier.withAccessTier(AccessTier accessTier)
   type: Method
   summary: >-
     <p>Specifies the access tier used for billing. </p>
 
-    <p>Access tier cannot be changed more than once every 7 days (168 hours). Access tier cannot be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS account types. Possible values include: 'Hot', 'Cool'.</p>
+    <p>Access tier cannot be changed more than once every 7 days (168 hours). Access tier cannot be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS account types.</p>
 
     <p></p>
   syntax:
     content: public Update withAccessTier(AccessTier accessTier)
     parameters:
     - id: accessTier
-      type: com.microsoft.azure.management.storage.implementation.api._access_tier
+      type: com.microsoft.azure.management.storage._access_tier
       description: <p>the access tier value </p>
     return:
       type: com.microsoft.azure.management.storage._storage_account._update
       description: <p>the next stage of storage account update </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1ada45d24f4121ed20a1f4a64216d70ddc
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
-  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1a83e2fcc0f80ce6b1b6e427d1415e92cc
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain.yml
   name: withCustomDomain(CustomDomain customDomain)
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withCustomDomain(CustomDomain customDomain)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(CustomDomain customDomain)
   type: Method
   summary: >-
-    <p>Specifies the user domain assigned to the storage account. Name is the CNAME source. Only one custom domain is supported per storage account at this time. To clear the existing custom domain, use an empty string for the custom domain name property.</p>
+    <p>Specifies the user domain assigned to the storage account.</p>
 
     <p></p>
   syntax:
     content: public Update withCustomDomain(CustomDomain customDomain)
     parameters:
     - id: customDomain
-      type: com.microsoft.azure.management.storage.implementation.api._custom_domain
+      type: com.microsoft.azure.management.storage._custom_domain
       description: <p>the user domain assigned to the storage account </p>
     return:
       type: com.microsoft.azure.management.storage._storage_account._update
       description: <p>the next stage of storage account update </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a023e7b521600e41c28f127228c0e2987
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
-  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1abe36bf9920a57209cc564c3be785a7ae
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain.yml
   name: withCustomDomain(String name)
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withCustomDomain(String name)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(String name)
   type: Method
   summary: >-
-    <p>Specifies the user domain assigned to the storage account. Name is the CNAME source. Only one custom domain is supported per storage account at this time. To clear the existing custom domain, use an empty string for the custom domain name property.</p>
+    <p>Specifies the user domain assigned to the storage account.</p>
 
     <p></p>
   syntax:
@@ -140,14 +138,14 @@ references:
     return:
       type: com.microsoft.azure.management.storage._storage_account._update
       description: <p>the next stage of storage account update </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a022e6930ce7a4bf8473e856962f07c99
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
-  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1ad8f07abce5ce404f229d77477aa91d5c
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain.yml
   name: withCustomDomain(String name, boolean useSubDomain)
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
   type: Method
   summary: >-
-    <p>Specifies the user domain assigned to the storage account. Name is the CNAME source. Only one custom domain is supported per storage account at this time. To clear the existing custom domain, use an empty string for the custom domain name property.</p>
+    <p>Specifies the user domain assigned to the storage account.</p>
 
     <p></p>
   syntax:
@@ -162,30 +160,32 @@ references:
     return:
       type: com.microsoft.azure.management.storage._storage_account._update
       description: <p>the next stage of storage account update </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_encryption_1a89abfa9ae13f173fa01c8211ac52235d
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_encryption
-  href: com.microsoft.azure.management.storage._storage_account._update_with_encryption.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption_1ad4025aeb91506aaa49ebef9fc3a97b95
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption.yml
   name: withEncryption(Encryption encryption)
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithEncryption.withEncryption(Encryption encryption)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption.withEncryption(Encryption encryption)
   type: Method
   summary: >-
-    <p>Specifies the encryption settings on the account. The default setting is unencrypted.</p>
+    <p>Specifies the encryption setting on the account. </p>
+
+    <p>The default setting is unencrypted.</p>
 
     <p></p>
   syntax:
     content: public Update withEncryption(Encryption encryption)
     parameters:
     - id: encryption
-      type: com.microsoft.azure.management.storage.implementation.api._encryption
+      type: com.microsoft.azure.management.storage._encryption
       description: <p>the encryption setting </p>
     return:
       type: com.microsoft.azure.management.storage._storage_account._update
       description: <p>the nest stage of storage account update </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain_1a0de10a1de742bf030f232d81e8e20f8f
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
-  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain_1af24bb67a226bef7aa40ab6bc4a37b5de
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain.yml
   name: withoutCustomDomain()
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain.withoutCustomDomain()
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withoutCustomDomain()
   type: Method
   summary: >-
     <p>Clears the existing user domain assigned to the storage account.</p>
@@ -212,21 +212,18 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the next stage of the resource update </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_sku_1a6f13bd266c0874f58947e143a1e98be3
-  parent: com.microsoft.azure.management.storage._storage_account._update_with_sku
-  href: com.microsoft.azure.management.storage._storage_account._update_with_sku.yml
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku_1a0ccf08ffbd282ed0dfff5b2b3d9e7fcb
+  parent: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku.yml
   name: withSku(SkuName skuName)
-  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateWithSku.withSku(SkuName skuName)
+  fullName: Update com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithSku.withSku(SkuName skuName)
   type: Method
-  summary: >-
-    <p>Specifies the sku of the storage account. This used to be called account types. Possible values include: 'Standard_LRS', 'Standard_ZRS', 'Standard_GRS', 'Standard_RAGRS', 'Premium_LRS'.</p>
-
-    <p></p>
+  summary: <p>Specifies the sku of the storage account. This used to be called account types. * </p>
   syntax:
     content: public Update withSku(SkuName skuName)
     parameters:
     - id: skuName
-      type: com.microsoft.azure.management.storage.implementation.api._sku_name
+      type: com.microsoft.azure.management.storage._sku_name
       description: <p>the sku </p>
     return:
       type: com.microsoft.azure.management.storage._storage_account._update
@@ -281,42 +278,42 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the resource returned from the update. </p>
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_sku
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku
   parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_sku.yml
-  name: StorageAccount.UpdateWithSku
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithSku
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku.yml
+  name: StorageAccount.UpdateStages.WithSku
+  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithSku
   type: Interface
-  summary: <p>A storage account update allowing to change the parameters. </p>
+  summary: <p>A storage account update stage allowing to change the parameters. </p>
   syntax:
-    content: public interface UpdateWithSku
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain
+    content: public interface WithSku
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
   parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_custom_domain.yml
-  name: StorageAccount.UpdateWithCustomDomain
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithCustomDomain
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain.yml
+  name: StorageAccount.UpdateStages.WithCustomDomain
+  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain
   type: Interface
-  summary: <p>A storageaccount update allowing to change the parameters. </p>
+  summary: <p>A storage account update stage allowing to change the parameters. </p>
   syntax:
-    content: public interface UpdateWithCustomDomain
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_encryption
+    content: public interface WithCustomDomain
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption
   parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_encryption.yml
-  name: StorageAccount.UpdateWithEncryption
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithEncryption
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption.yml
+  name: StorageAccount.UpdateStages.WithEncryption
+  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption
   type: Interface
   summary: <p>A storage account update allowing encryption to be specified. </p>
   syntax:
-    content: public interface UpdateWithEncryption
-- uid: com.microsoft.azure.management.storage._storage_account._update_with_access_tier
+    content: public interface WithEncryption
+- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier
   parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_with_access_tier.yml
-  name: StorageAccount.UpdateWithAccessTier
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateWithAccessTier
+  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier.yml
+  name: StorageAccount.UpdateStages.WithAccessTier
+  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier
   type: Interface
-  summary: <p>A blob storage account update allowing access tier to be specified. </p>
+  summary: <p>A blob storage account update stage allowing access tier to be specified. </p>
   syntax:
-    content: public interface UpdateWithAccessTier
+    content: public interface WithAccessTier
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml

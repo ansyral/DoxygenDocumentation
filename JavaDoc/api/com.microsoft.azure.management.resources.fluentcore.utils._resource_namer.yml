@@ -4,6 +4,7 @@ items:
   parent: com.microsoft.azure.management.resources.fluentcore.utils
   children:
   - com.microsoft.azure.management.resources.fluentcore.utils._resource_namer_1a62c91949cea3ecc6caff581b43fcc3d7
+  - com.microsoft.azure.management.resources.fluentcore.utils._resource_namer_1a36c3ac3a2ea21cec7a10c9e869d5ac71
   - com.microsoft.azure.management.resources.fluentcore.utils._resource_namer_1ac89019d2ab5b8e5efb98a7f997a8af44
   href: com.microsoft.azure.management.resources.fluentcore.utils._resource_namer.yml
   langs:
@@ -18,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/ResourceNamer.java
     startLine: 7
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: <p>The <xref href="com.microsoft.azure.management.resources.fluentcore.utils._resource_namer" data-throw-if-not-resolved="false"></xref> to generate random name. </p>
   syntax: &o1
@@ -38,12 +37,10 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/ResourceNamer.java
-    startLine: 28
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
+    startLine: 26
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
-    <p>Gets a random randName.</p>
+    <p>Gets a random name.</p>
 
     <p></p>
   syntax:
@@ -54,7 +51,37 @@ items:
       description: <p>the prefix to be used if possible </p>
     - id: maxLen
       type: f75371fa
-      description: <p>the max length for the randName </p>
+      description: <p>the max length for the random generated name </p>
+    return:
+      type: "26831127"
+      description: <p>the random name </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.utils._resource_namer_1a36c3ac3a2ea21cec7a10c9e869d5ac71
+  id: _resource_namer_1a36c3ac3a2ea21cec7a10c9e869d5ac71
+  parent: com.microsoft.azure.management.resources.fluentcore.utils._resource_namer
+  href: com.microsoft.azure.management.resources.fluentcore.utils._resource_namer.yml
+  langs:
+  - java
+  name: randomResourceName(String prefix, int maxLen)
+  fullName: static String com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamer.randomResourceName(String prefix, int maxLen)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/ResourceNamer.java
+    startLine: 65
+  package: com.microsoft.azure.management.resources.fluentcore.utils
+  summary: >-
+    <p>Gets a random name.</p>
+
+    <p></p>
+  syntax:
+    content: public static String randomResourceName(String prefix, int maxLen)
+    parameters:
+    - id: prefix
+      type: "26831127"
+      description: <p>the prefix to be used if possible </p>
+    - id: maxLen
+      type: f75371fa
+      description: <p>the maximum length for the random generated name </p>
     return:
       type: "26831127"
       description: <p>the random name </p>
@@ -70,9 +97,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/ResourceNamer.java
-    startLine: 17
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
+    startLine: 15
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>Creates <xref href="com.microsoft.azure.management.resources.fluentcore.utils._resource_namer" data-throw-if-not-resolved="false"></xref>.</p>

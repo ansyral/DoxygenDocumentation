@@ -6,9 +6,12 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.22f0e5e09fc55a866285a82898a1199b
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.25bac8bce6b0e2177ae2f3f517bb1820
   - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.79156392b6c7de52796e84f59ad1464d
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.8840de0f1834fe83a2ad6c366b5a0555
   - com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.yml
   langs:
   - java
@@ -67,21 +70,15 @@ references:
   summary: <p>Base interfaces for fluent resources. </p>
   syntax:
     content: public interface Resource extends Indexable
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.22f0e5e09fc55a866285a82898a1199b
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models.fd7a0ded9acc2451392c7843d9baff4f.yml
-  name: GroupableResource.DefinitionWithGroup<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionWithGroup<T>
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.22f0e5e09fc55a866285a82898a1199b.yml
+  name: GroupableResource.DefinitionStages
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages
   type: Interface
-  summary: >-
-    <p>A resource definition allowing a resource group to be selected.</p>
-
-    <p></p>
+  summary: <p>Grouping of all the definition stages. </p>
   syntax:
-    content: public interface DefinitionWithGroup<T>
-    typeParameters:
-    - type: 8ce1ecb9
-      description: <p>the type of the next stage resource definition </p>
+    content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.f2161385b1a9b0a59b0e528834b2f06f.yml
@@ -127,3 +124,48 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the next stage resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.8840de0f1834fe83a2ad6c366b5a0555
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.8840de0f1834fe83a2ad6c366b5a0555.yml
+  name: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithExistingResourceGroup<T>
+  type: Interface
+  summary: >-
+    <p>A resource definition allowing an existing resource group to be selected.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithExistingResourceGroup<T>
+    typeParameters:
+    - type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.79156392b6c7de52796e84f59ad1464d
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.79156392b6c7de52796e84f59ad1464d.yml
+  name: GroupableResource.DefinitionStages.WithGroup<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithGroup<T>
+  type: Interface
+  summary: >-
+    <p>A resource definition allowing a resource group to be selected.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithGroup<T> extends GroupableResource.DefinitionStages.WithExistingResourceGroup< T >,GroupableResource.DefinitionStages.WithNewResourceGroup< T >
+    typeParameters:
+    - type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.25bac8bce6b0e2177ae2f3f517bb1820
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.25bac8bce6b0e2177ae2f3f517bb1820.yml
+  name: GroupableResource.DefinitionStages.WithNewResourceGroup<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithNewResourceGroup<T>
+  type: Interface
+  summary: >-
+    <p>A resource definition allowing a new resource group to be created.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithNewResourceGroup<T>
+    typeParameters:
+    - type: 8ce1ecb9
+      description: <p>the next stage of the resource definition </p>

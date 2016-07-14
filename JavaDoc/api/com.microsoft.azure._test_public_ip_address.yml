@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestPublicIpAddress.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>Tests public IPs. </p>
   syntax:
@@ -50,8 +48,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestPublicIpAddress.java
     startLine: 19
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public PublicIpAddress createResource(PublicIpAddresses pips)
@@ -73,8 +69,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestPublicIpAddress.java
     startLine: 49
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void print(PublicIpAddress resource)
@@ -94,8 +88,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestPublicIpAddress.java
     startLine: 32
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public PublicIpAddress updateResource(PublicIpAddress resource)
@@ -252,4 +244,4 @@ references:
   type: Interface
   summary: <p>Entry point to public IP address management. </p>
   syntax:
-    content: public interface PublicIpAddresses extends SupportsListing< PublicIpAddress >,SupportsCreating< PublicIpAddress.DefinitionBlank >,SupportsDeleting,SupportsListingByGroup< PublicIpAddress >,SupportsGettingByGroup< PublicIpAddress >,SupportsGettingById< PublicIpAddress >,SupportsDeletingByGroup
+    content: public interface PublicIpAddresses extends SupportsListing< PublicIpAddress >,SupportsCreating< PublicIpAddress.DefinitionStages.Blank >,SupportsDeleting,SupportsListingByGroup< PublicIpAddress >,SupportsGettingByGroup< PublicIpAddress >,SupportsGettingById< PublicIpAddress >,SupportsDeletingByGroup

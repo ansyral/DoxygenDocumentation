@@ -39,8 +39,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 33
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public class FileOperations implements IInheritedBehaviors
@@ -60,8 +58,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 110
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteFileFromComputeNode(String poolId, String nodeId, String fileName)
@@ -85,8 +81,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 114
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteFileFromComputeNode(String poolId, String nodeId, String fileName, Boolean recursive)
@@ -112,8 +106,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 118
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteFileFromComputeNode(String poolId, String nodeId, String fileName, Boolean recursive, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -141,8 +133,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 94
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteFileFromTask(String jobId, String taskId, String fileName)
@@ -166,8 +156,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 98
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteFileFromTask(String jobId, String taskId, String fileName, Boolean recursive)
@@ -193,8 +181,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 102
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteFileFromTask(String jobId, String taskId, String fileName, Boolean recursive, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -222,8 +208,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: FileOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
@@ -245,8 +229,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 47
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public Collection< BatchClientBehavior > getCustomBehaviors()
@@ -266,8 +248,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 140
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public InputStream getFileFromComputeNode(String poolId, String nodeId, String fileName)
@@ -293,8 +273,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 144
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public InputStream getFileFromComputeNode(String poolId, String nodeId, String fileName, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -322,8 +300,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 126
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public InputStream getFileFromTask(String jobId, String taskId, String fileName)
@@ -349,8 +325,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 130
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public InputStream getFileFromTask(String jobId, String taskId, String fileName, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -378,8 +352,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 173
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public FileProperties getFilePropertiesFromComputeNode(String poolId, String nodeId, String fileName)
@@ -405,8 +377,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 177
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public FileProperties getFilePropertiesFromComputeNode(String poolId, String nodeId, String fileName, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -434,8 +404,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 154
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public FileProperties getFilePropertiesFromTask(String jobId, String taskId, String fileName)
@@ -461,8 +429,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 158
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public FileProperties getFilePropertiesFromTask(String jobId, String taskId, String fileName, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -490,8 +456,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 75
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeFile > listFilesFromComputeNode(String poolId, String nodeId)
@@ -515,8 +479,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 79
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeFile > listFilesFromComputeNode(String poolId, String nodeId, Boolean recursive, DetailLevel detailLevel)
@@ -544,8 +506,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 83
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeFile > listFilesFromComputeNode(String poolId, String nodeId, Boolean recursive, DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -575,8 +535,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 56
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeFile > listFilesFromTask(String jobId, String taskId)
@@ -600,8 +558,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 60
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeFile > listFilesFromTask(String jobId, String taskId, Boolean recursive, DetailLevel detailLevel)
@@ -629,8 +585,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 64
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< NodeFile > listFilesFromTask(String jobId, String taskId, Boolean recursive, DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -660,8 +614,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
     startLine: 52
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void setCustomBehaviors(Collection< BatchClientBehavior > behaviors)

@@ -48,8 +48,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 20
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public class ComputeNodeOperations implements IInheritedBehaviors
@@ -69,8 +67,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 43
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void addComputeNodeUser(String poolId, String nodeId, ComputeNodeUser user)
@@ -94,8 +90,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 47
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void addComputeNodeUser(String poolId, String nodeId, ComputeNodeUser user, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -121,8 +115,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 26
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: ComputeNodeOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
@@ -144,8 +136,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 55
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteComputeNodeUser(String poolId, String nodeId, String userName)
@@ -169,8 +159,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 59
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteComputeNodeUser(String poolId, String nodeId, String userName, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -196,8 +184,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 150
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void disableComputeNodeScheduling(String poolId, String nodeId)
@@ -219,8 +205,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 154
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void disableComputeNodeScheduling(String poolId, String nodeId, DisableComputeNodeSchedulingOption nodeDisableSchedulingOption)
@@ -244,8 +228,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 158
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void disableComputeNodeScheduling(String poolId, String nodeId, DisableComputeNodeSchedulingOption nodeDisableSchedulingOption, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -271,8 +253,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 166
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void enableComputeNodeScheduling(String poolId, String nodeId)
@@ -294,8 +274,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 170
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void enableComputeNodeScheduling(String poolId, String nodeId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -319,8 +297,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 98
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ComputeNode getComputeNode(String poolId, String nodeId)
@@ -344,8 +320,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 103
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ComputeNode getComputeNode(String poolId, String nodeId, DetailLevel detailLevel)
@@ -371,8 +345,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 107
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ComputeNode getComputeNode(String poolId, String nodeId, DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -400,8 +372,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 178
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public String getComputeNodeRemoteDesktop(String poolId, String nodeId)
@@ -425,8 +395,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 182
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public String getComputeNodeRemoteDesktop(String poolId, String nodeId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -452,8 +420,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 34
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public Collection< BatchClientBehavior > getCustomBehaviors()
@@ -473,8 +439,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 197
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ComputeNodeGetRemoteLoginSettingsResult getRemoteLoginSettings(String poolId, String nodeId)
@@ -498,8 +462,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 201
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ComputeNodeGetRemoteLoginSettingsResult getRemoteLoginSettings(String poolId, String nodeId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -525,8 +487,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 211
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< ComputeNode > listComputeNodes(String poolId)
@@ -548,8 +508,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 215
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< ComputeNode > listComputeNodes(String poolId, DetailLevel detaiLevel)
@@ -573,8 +531,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 219
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< ComputeNode > listComputeNodes(String poolId, DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -600,8 +556,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 118
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void rebootComputeNode(String poolId, String nodeId)
@@ -623,8 +577,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 122
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void rebootComputeNode(String poolId, String nodeId, ComputeNodeRebootOption nodeRebootOption)
@@ -648,8 +600,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 126
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void rebootComputeNode(String poolId, String nodeId, ComputeNodeRebootOption nodeRebootOption, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -675,8 +625,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 134
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void reimageComputeNode(String poolId, String nodeId)
@@ -698,8 +646,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 138
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void reimageComputeNode(String poolId, String nodeId, ComputeNodeReimageOption nodeReimageOption)
@@ -723,8 +669,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 142
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void reimageComputeNode(String poolId, String nodeId, ComputeNodeReimageOption nodeReimageOption, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -750,8 +694,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void setCustomBehaviors(Collection< BatchClientBehavior > behaviors)
@@ -772,8 +714,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 67
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateComputeNodeUser(String poolId, String nodeId, String userName, String password, DateTime expiryTime)
@@ -801,8 +741,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 71
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateComputeNodeUser(String poolId, String nodeId, String userName, String password, DateTime expiryTime, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -832,8 +770,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 79
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateComputeNodeUser(String poolId, String nodeId, String userName, String sshPublicKey)
@@ -859,8 +795,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
     startLine: 83
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateComputeNodeUser(String poolId, String nodeId, String userName, String sshPublicKey, Iterable< BatchClientBehavior > additionalBehaviors)

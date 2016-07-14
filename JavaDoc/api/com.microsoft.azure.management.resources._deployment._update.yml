@@ -14,27 +14,25 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Deployment.java
-    startLine: 304
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 329
   package: com.microsoft.azure.management.resources
   summary: >-
     <p>The template for a deployment update operation, containing all the settings that can be modified. </p>
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the deployment in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Update extends Appliable< Deployment >,Deployment.UpdateWithTemplate,Deployment.UpdateWithParameters,Deployment.UpdateWithDeploymentMode
+    content: public interface Update extends Appliable< Deployment >,Deployment.UpdateStages.WithTemplate,Deployment.UpdateStages.WithParameters,Deployment.UpdateStages.WithMode
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
   - com.microsoft.azure.management.resources.fluentcore.model._appliable_1a614b76a85ab8e27c82a680c826e7c293
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
-  - com.microsoft.azure.management.resources._deployment._update_with_deployment_mode_1a56ad4627c4e0edfccecc1343a77ca693
-  - com.microsoft.azure.management.resources._deployment._update_with_parameters_1a87f612519aac2c0a47661f65fca84a4c
-  - com.microsoft.azure.management.resources._deployment._update_with_parameters_1a9ba178b4c0ca8bfc0a21c15217160eac
-  - com.microsoft.azure.management.resources._deployment._update_with_parameters_1abf6c5a5a8b5f654c3755719e508aa5db
-  - com.microsoft.azure.management.resources._deployment._update_with_template_1a8cd6131f5db065b088be9baadcc88865
-  - com.microsoft.azure.management.resources._deployment._update_with_template_1ae08dc79cd1d04e7c78e7d576a653a536
-  - com.microsoft.azure.management.resources._deployment._update_with_template_1abbccad4dfdf15d9fda7d32e65d0965ad
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_mode_1a4c47bd1c5d498e20be15cc74957ad5d5
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_parameters_1a15a895e3ecc67407ec2dc96fbe4e72e5
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_parameters_1a49b820e6b5e5114e90206faf79d595e7
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_parameters_1acc6a928e52301f70ce6700624273ed6b
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_template_1a0c00ddcac2185ad79513bd8c9b444e26
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_template_1a68431f05a197d0616311ac63cb198350
+  - com.microsoft.azure.management.resources._deployment._update_stages._with_template_1a3b9e91fe6e530a23e86a6b271b64b0dd
 references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406
   parent: com.microsoft.azure.management.resources.fluentcore.model._appliable
@@ -81,11 +79,11 @@ references:
     return:
       type: "26831127"
       description: <p>the index key. </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_deployment_mode_1a56ad4627c4e0edfccecc1343a77ca693
-  parent: com.microsoft.azure.management.resources._deployment._update_with_deployment_mode
-  href: com.microsoft.azure.management.resources._deployment._update_with_deployment_mode.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_mode_1a4c47bd1c5d498e20be15cc74957ad5d5
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_mode
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_mode.yml
   name: withMode(DeploymentMode mode)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithDeploymentMode.withMode(DeploymentMode mode)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode.withMode(DeploymentMode mode)
   type: Method
   summary: >-
     <p>Specifies the deployment mode.</p>
@@ -95,16 +93,16 @@ references:
     content: public Update withMode(DeploymentMode mode)
     parameters:
     - id: mode
-      type: com.microsoft.azure.management.resources.implementation.api._deployment_mode
+      type: com.microsoft.azure.management.resources._deployment_mode
       description: <p>the mode of the deployment </p>
     return:
       type: com.microsoft.azure.management.resources._deployment._update
       description: <p>the next stage of the deployment update </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_parameters_1a87f612519aac2c0a47661f65fca84a4c
-  parent: com.microsoft.azure.management.resources._deployment._update_with_parameters
-  href: com.microsoft.azure.management.resources._deployment._update_with_parameters.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters_1a15a895e3ecc67407ec2dc96fbe4e72e5
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
   name: withParameters(Object parameters)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithParameters.withParameters(Object parameters)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters.withParameters(Object parameters)
   type: Method
   summary: >-
     <p>Specifies the parameters as a Java object.</p>
@@ -119,11 +117,11 @@ references:
     return:
       type: com.microsoft.azure.management.resources._deployment._update
       description: <p>the next stage of the deployment update </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_parameters_1a9ba178b4c0ca8bfc0a21c15217160eac
-  parent: com.microsoft.azure.management.resources._deployment._update_with_parameters
-  href: com.microsoft.azure.management.resources._deployment._update_with_parameters.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters_1a49b820e6b5e5114e90206faf79d595e7
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
   name: withParameters(String parametersJson)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithParameters.withParameters(String parametersJson)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters.withParameters(String parametersJson)
   type: Method
   summary: >-
     <p>Specifies the parameters as a JSON string.</p>
@@ -138,11 +136,11 @@ references:
     return:
       type: com.microsoft.azure.management.resources._deployment._update
       description: <p>the next stage of the deployment update </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_parameters_1abf6c5a5a8b5f654c3755719e508aa5db
-  parent: com.microsoft.azure.management.resources._deployment._update_with_parameters
-  href: com.microsoft.azure.management.resources._deployment._update_with_parameters.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters_1acc6a928e52301f70ce6700624273ed6b
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
   name: withParametersLink(String uri, String contentVersion)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithParameters.withParametersLink(String uri, String contentVersion)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters.withParametersLink(String uri, String contentVersion)
   type: Method
   summary: >-
     <p>Specifies the parameters as a URL.</p>
@@ -160,11 +158,11 @@ references:
     return:
       type: com.microsoft.azure.management.resources._deployment._update
       description: <p>the next stage of the deployment update </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_template_1a8cd6131f5db065b088be9baadcc88865
-  parent: com.microsoft.azure.management.resources._deployment._update_with_template
-  href: com.microsoft.azure.management.resources._deployment._update_with_template.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template_1a0c00ddcac2185ad79513bd8c9b444e26
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_template
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
   name: withTemplate(Object template)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithTemplate.withTemplate(Object template)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate.withTemplate(Object template)
   type: Method
   summary: >-
     <p>Specifies the template as a Java object.</p>
@@ -179,11 +177,11 @@ references:
     return:
       type: com.microsoft.azure.management.resources._deployment._update
       description: <p>the next stage of the deployment update </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_template_1ae08dc79cd1d04e7c78e7d576a653a536
-  parent: com.microsoft.azure.management.resources._deployment._update_with_template
-  href: com.microsoft.azure.management.resources._deployment._update_with_template.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template_1a68431f05a197d0616311ac63cb198350
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_template
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
   name: withTemplate(String templateJson)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithTemplate.withTemplate(String templateJson)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate.withTemplate(String templateJson)
   type: Method
   summary: >-
     <p>Specifies the template as a JSON string.</p>
@@ -198,11 +196,11 @@ references:
     return:
       type: com.microsoft.azure.management.resources._deployment._update
       description: <p>the next stage of the deployment update </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_template_1abbccad4dfdf15d9fda7d32e65d0965ad
-  parent: com.microsoft.azure.management.resources._deployment._update_with_template
-  href: com.microsoft.azure.management.resources._deployment._update_with_template.yml
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template_1a3b9e91fe6e530a23e86a6b271b64b0dd
+  parent: com.microsoft.azure.management.resources._deployment._update_stages._with_template
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
   name: withTemplateLink(String uri, String contentVersion)
-  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateWithTemplate.withTemplateLink(String uri, String contentVersion)
+  fullName: Update com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate.withTemplateLink(String uri, String contentVersion)
   type: Method
   summary: >-
     <p>Specifies the template as a URL.</p>
@@ -235,33 +233,33 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the resource returned from the update. </p>
-- uid: com.microsoft.azure.management.resources._deployment._update_with_template
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_with_template.yml
-  name: Deployment.UpdateWithTemplate
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateWithTemplate
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
+  name: Deployment.UpdateStages.WithTemplate
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
   type: Interface
   summary: <p>A deployment update allowing to change the template. </p>
   syntax:
-    content: public interface UpdateWithTemplate
-- uid: com.microsoft.azure.management.resources._deployment._update_with_parameters
+    content: public interface WithTemplate
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_with_parameters.yml
-  name: Deployment.UpdateWithParameters
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateWithParameters
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
+  name: Deployment.UpdateStages.WithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
   type: Interface
   summary: <p>A deployment update allowing to change the parameters. </p>
   syntax:
-    content: public interface UpdateWithParameters
-- uid: com.microsoft.azure.management.resources._deployment._update_with_deployment_mode
+    content: public interface WithParameters
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_mode
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_with_deployment_mode.yml
-  name: Deployment.UpdateWithDeploymentMode
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateWithDeploymentMode
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_mode.yml
+  name: Deployment.UpdateStages.WithMode
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
   type: Interface
   summary: <p>A deployment update allowing to change the deployment mode. </p>
   syntax:
-    content: public interface UpdateWithDeploymentMode
+    content: public interface WithMode
 - uid: com.microsoft.azure.management.resources.implementation._deployment_impl
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure

@@ -21,8 +21,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java
     startLine: 10
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public class DataLakeStoreManagementTestBase
@@ -41,8 +39,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public static void createClients()
@@ -59,8 +55,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java
     startLine: 12
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: protected static DataLakeStoreAccountManagementClientImpl dataLakeStoreAccountManagementClient
@@ -79,8 +73,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java
     startLine: 13
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: protected static DataLakeStoreFileSystemManagementClientImpl dataLakeStoreFileSystemManagementClient
@@ -99,8 +91,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: public static String generateName(String prefix)
@@ -122,13 +112,11 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java
     startLine: 11
-  assemblies:
-  - com.microsoft.azure.management.datalake.store
   package: com.microsoft.azure.management.datalake.store
   syntax:
     content: protected static ResourceManagementClientImpl resourceManagementClient
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      type: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
 references:
 - uid: "26831127"
   spec.java:
@@ -150,13 +138,13 @@ references:
   type: Class
   syntax:
     content: public class DataLakeStoreFilesystemOperationsTests extends DataLakeStoreManagementTestBase
-- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
+- uid: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_management_client_impl.yml
   name: ResourceManagementClientImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class ResourceManagementClientImpl
 - uid: com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633

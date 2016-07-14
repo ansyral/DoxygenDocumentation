@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
     startLine: 13
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
   package: com.microsoft.azure.management.storage.implementation
   summary: <p>An instance of this class stores the availability of a storage account. </p>
   syntax: &o1
@@ -40,18 +38,16 @@ items:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
     startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
   package: com.microsoft.azure.management.storage.implementation
   summary: <p>Creates an instance of <xref href="com.microsoft.azure.management.storage.implementation._account_statuses" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public AccountStatuses(AccountStatus primary, AccountStatus secondary)
     parameters:
     - id: primary
-      type: com.microsoft.azure.management.storage.implementation.api._account_status
+      type: com.microsoft.azure.management.storage._account_status
       description: <p>the status of the primary location </p>
     - id: secondary
-      type: com.microsoft.azure.management.storage.implementation.api._account_status
+      type: com.microsoft.azure.management.storage._account_status
       description: <p>the status of the secondary location </p>
 - uid: com.microsoft.azure.management.storage.implementation._account_statuses_1ab5d6c49afcfb37cec2866427af2351d6
   id: _account_statuses_1ab5d6c49afcfb37cec2866427af2351d6
@@ -66,13 +62,11 @@ items:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
     startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
   package: com.microsoft.azure.management.storage.implementation
   syntax:
     content: public AccountStatus primary()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._account_status
+      type: com.microsoft.azure.management.storage._account_status
       description: '<p>the status indicating whether the primary location of the storage account is available or unavailable. Possible values include: ''Available'', ''Unavailable''. </p>'
 - uid: com.microsoft.azure.management.storage.implementation._account_statuses_1a93f2d7fdeee95d78ff57fe7397ff0460
   id: _account_statuses_1a93f2d7fdeee95d78ff57fe7397ff0460
@@ -87,22 +81,20 @@ items:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
     startLine: 42
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
   package: com.microsoft.azure.management.storage.implementation
   syntax:
     content: public AccountStatus secondary()
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._account_status
+      type: com.microsoft.azure.management.storage._account_status
       description: '<p>the status indicating whether the secondary location of the storage account is available or unavailable. Only available if the accountType is StandardGRS or StandardRAGRS. Possible values include: ''Available'', ''Unavailable''. </p>'
 references:
-- uid: com.microsoft.azure.management.storage.implementation.api._account_status
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._account_status.yml
+- uid: com.microsoft.azure.management.storage._account_status
+  parent: com.microsoft.azure.management.storage
+  href: com.microsoft.azure.management.storage._account_status.yml
   name: AccountStatus
-  fullName: com.microsoft.azure.management.storage.implementation.api.AccountStatus
+  fullName: com.microsoft.azure.management.storage.AccountStatus
   type: Enum
-  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage.implementation.api._account_status" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Defines values for <xref href="com.microsoft.azure.management.storage._account_status" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum AccountStatus
 - uid: com.microsoft.azure.management.storage.implementation._account_statuses

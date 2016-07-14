@@ -3,12 +3,12 @@ items:
   id: _virtual_machine_size
   parent: com.microsoft.azure.management.compute
   children:
-  - com.microsoft.azure.management.compute._virtual_machine_size_1aeebd2b049f277ac7731063c33b9e3919
-  - com.microsoft.azure.management.compute._virtual_machine_size_1ab16d2ea737dfea7cd9133a118f882610
+  - com.microsoft.azure.management.compute._virtual_machine_size_1a07c336fbb36f85c98c4fd0a39d767de6
+  - com.microsoft.azure.management.compute._virtual_machine_size_1acad1b31fdae1b93feb5ad02d923ccf45
   - com.microsoft.azure.management.compute._virtual_machine_size_1ad880dc297da8a768592799bfff9d69bc
-  - com.microsoft.azure.management.compute._virtual_machine_size_1a7e0a48813334dbc3a171212378441a9b
-  - com.microsoft.azure.management.compute._virtual_machine_size_1a46fed2cb32898b055f3a3975ed7c8c45
-  - com.microsoft.azure.management.compute._virtual_machine_size_1a02099b2644293c569fa07016bc74eca6
+  - com.microsoft.azure.management.compute._virtual_machine_size_1a5086d78266f131a284499d182c2e4dd2
+  - com.microsoft.azure.management.compute._virtual_machine_size_1ae640efe5a3cf0c28bab1ed06ed397e24
+  - com.microsoft.azure.management.compute._virtual_machine_size_1aaa6bbf8a17c7f902ef3de548291a6b9e
   href: com.microsoft.azure.management.compute._virtual_machine_size.yml
   langs:
   - java
@@ -21,54 +21,48 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
-    startLine: 5
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 10
   package: com.microsoft.azure.management.compute
   summary: <p>A type representing virtual machine size available for a subscription in a region. </p>
   syntax:
     content: public interface VirtualMachineSize
-- uid: com.microsoft.azure.management.compute._virtual_machine_size_1aeebd2b049f277ac7731063c33b9e3919
-  id: _virtual_machine_size_1aeebd2b049f277ac7731063c33b9e3919
+- uid: com.microsoft.azure.management.compute._virtual_machine_size_1a07c336fbb36f85c98c4fd0a39d767de6
+  id: _virtual_machine_size_1a07c336fbb36f85c98c4fd0a39d767de6
   parent: com.microsoft.azure.management.compute._virtual_machine_size
   href: com.microsoft.azure.management.compute._virtual_machine_size.yml
   langs:
   - java
   name: maxDataDiskCount()
-  fullName: Integer com.microsoft.azure.management.compute.VirtualMachineSize.maxDataDiskCount()
+  fullName: int com.microsoft.azure.management.compute.VirtualMachineSize.maxDataDiskCount()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
-    startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 39
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public Integer maxDataDiskCount()
+    content: public int maxDataDiskCount()
     return:
-      type: 08effaa0
+      type: f75371fa
       description: <p>the maximum number of data disks allowed by a VM size </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_size_1ab16d2ea737dfea7cd9133a118f882610
-  id: _virtual_machine_size_1ab16d2ea737dfea7cd9133a118f882610
+- uid: com.microsoft.azure.management.compute._virtual_machine_size_1acad1b31fdae1b93feb5ad02d923ccf45
+  id: _virtual_machine_size_1acad1b31fdae1b93feb5ad02d923ccf45
   parent: com.microsoft.azure.management.compute._virtual_machine_size
   href: com.microsoft.azure.management.compute._virtual_machine_size.yml
   langs:
   - java
   name: memoryInMB()
-  fullName: Integer com.microsoft.azure.management.compute.VirtualMachineSize.memoryInMB()
+  fullName: int com.microsoft.azure.management.compute.VirtualMachineSize.memoryInMB()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
-    startLine: 29
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 34
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public Integer memoryInMB()
+    content: public int memoryInMB()
     return:
-      type: 08effaa0
+      type: f75371fa
       description: <p>the memory size supported by a VM size </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_size_1ad880dc297da8a768592799bfff9d69bc
   id: _virtual_machine_size_1ad880dc297da8a768592799bfff9d69bc
@@ -82,85 +76,77 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
-    startLine: 9
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 14
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String name()
     return:
       type: "26831127"
       description: <p>the VM size name </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_size_1a7e0a48813334dbc3a171212378441a9b
-  id: _virtual_machine_size_1a7e0a48813334dbc3a171212378441a9b
+- uid: com.microsoft.azure.management.compute._virtual_machine_size_1a5086d78266f131a284499d182c2e4dd2
+  id: _virtual_machine_size_1a5086d78266f131a284499d182c2e4dd2
   parent: com.microsoft.azure.management.compute._virtual_machine_size
   href: com.microsoft.azure.management.compute._virtual_machine_size.yml
   langs:
   - java
   name: numberOfCores()
-  fullName: Integer com.microsoft.azure.management.compute.VirtualMachineSize.numberOfCores()
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
-    startLine: 14
-  assemblies:
-  - com.microsoft.azure.management.compute
-  package: com.microsoft.azure.management.compute
-  syntax:
-    content: public Integer numberOfCores()
-    return:
-      type: 08effaa0
-      description: <p>the Number of cores supported by a VM size </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_size_1a46fed2cb32898b055f3a3975ed7c8c45
-  id: _virtual_machine_size_1a46fed2cb32898b055f3a3975ed7c8c45
-  parent: com.microsoft.azure.management.compute._virtual_machine_size
-  href: com.microsoft.azure.management.compute._virtual_machine_size.yml
-  langs:
-  - java
-  name: osDiskSizeInMB()
-  fullName: Integer com.microsoft.azure.management.compute.VirtualMachineSize.osDiskSizeInMB()
+  fullName: int com.microsoft.azure.management.compute.VirtualMachineSize.numberOfCores()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
     startLine: 19
-  assemblies:
-  - com.microsoft.azure.management.compute
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public Integer osDiskSizeInMB()
+    content: public int numberOfCores()
     return:
-      type: 08effaa0
-      description: <p>the OS disk size allowed by a VM size </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_size_1a02099b2644293c569fa07016bc74eca6
-  id: _virtual_machine_size_1a02099b2644293c569fa07016bc74eca6
+      type: f75371fa
+      description: <p>the Number of cores supported by a VM size </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_size_1ae640efe5a3cf0c28bab1ed06ed397e24
+  id: _virtual_machine_size_1ae640efe5a3cf0c28bab1ed06ed397e24
   parent: com.microsoft.azure.management.compute._virtual_machine_size
   href: com.microsoft.azure.management.compute._virtual_machine_size.yml
   langs:
   - java
-  name: resourceDiskSizeInMB()
-  fullName: Integer com.microsoft.azure.management.compute.VirtualMachineSize.resourceDiskSizeInMB()
+  name: osDiskSizeInMB()
+  fullName: int com.microsoft.azure.management.compute.VirtualMachineSize.osDiskSizeInMB()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
     startLine: 24
-  assemblies:
-  - com.microsoft.azure.management.compute
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public Integer resourceDiskSizeInMB()
+    content: public int osDiskSizeInMB()
     return:
-      type: 08effaa0
+      type: f75371fa
+      description: <p>the OS disk size allowed by a VM size </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_size_1aaa6bbf8a17c7f902ef3de548291a6b9e
+  id: _virtual_machine_size_1aaa6bbf8a17c7f902ef3de548291a6b9e
+  parent: com.microsoft.azure.management.compute._virtual_machine_size
+  href: com.microsoft.azure.management.compute._virtual_machine_size.yml
+  langs:
+  - java
+  name: resourceDiskSizeInMB()
+  fullName: int com.microsoft.azure.management.compute.VirtualMachineSize.resourceDiskSizeInMB()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineSize.java
+    startLine: 29
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public int resourceDiskSizeInMB()
+    return:
+      type: f75371fa
       description: <p>resource disk size allowed by a VM size </p>
 references:
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
-- uid: 08effaa0
+- uid: f75371fa
   spec.java:
-  - name: Integer
-    fullName: Integer
+  - name: int
+    fullName: int
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_size_impl

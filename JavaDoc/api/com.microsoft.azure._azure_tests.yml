@@ -3,7 +3,6 @@ items:
   id: _azure_tests
   parent: com.microsoft.azure
   children:
-  - com.microsoft.azure._azure_tests_1a165fede905d99de04bf7bb303dd20537
   - com.microsoft.azure._azure_tests_1a06e35c6aa1b30302c5ad7190b6ccd551
   - com.microsoft.azure._azure_tests_1aa4c46df3bd9bf53f9a75164789b0bfc8
   - com.microsoft.azure._azure_tests_1a752b0fe9a644bd310a0d9b9eff5a12d3
@@ -11,6 +10,8 @@ items:
   - com.microsoft.azure._azure_tests_1ac3ad3b97b4745380a9cb1fc30bdf352d
   - com.microsoft.azure._azure_tests_1a00390a847567f61b09408b680a683713
   - com.microsoft.azure._azure_tests_1af5485417109d38f921abfcc7f8c113dd
+  - com.microsoft.azure._azure_tests_1a5e662b5d8109a46c1959e8f6063a9523
+  - com.microsoft.azure._azure_tests_1ac1ee4dffababfb5a0d9faf419714a6d0
   - com.microsoft.azure._azure_tests_1a9e0b3873814cc0945834014dcca4f142
   - com.microsoft.azure._azure_tests_1ad72cab9308347f89c03f8f7fcbf1f110
   - com.microsoft.azure._azure_tests_1a486539072e5d52b56763ca7ac45330f4
@@ -20,6 +21,7 @@ items:
   - com.microsoft.azure._azure_tests_1a204757178ce03729b748f543f7bf3e27
   - com.microsoft.azure._azure_tests_1a8ba353f6b48cf7959bfc1e630d4646ba
   - com.microsoft.azure._azure_tests_1a9220f837f971ea1af57fb4c23d791120
+  - com.microsoft.azure._azure_tests_1aeb0795b47b2b059bc7190be8813ce321
   href: com.microsoft.azure._azure_tests.yml
   langs:
   - java
@@ -32,34 +34,12 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure
+    startLine: 29
   package: com.microsoft.azure
   syntax:
     content: public class AzureTests
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.azure._azure_tests_1a165fede905d99de04bf7bb303dd20537
-  id: _azure_tests_1a165fede905d99de04bf7bb303dd20537
-  parent: com.microsoft.azure._azure_tests
-  href: com.microsoft.azure._azure_tests.yml
-  langs:
-  - java
-  name: azure2
-  fullName: Azure com.microsoft.azure.AzureTests.azure2
-  type: Field
-  source:
-    remote: *o0
-    path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 29
-  assemblies:
-  - com.microsoft.azure
-  package: com.microsoft.azure
-  syntax:
-    content: Azure azure2
-    return:
-      type: com.microsoft.azure._azure
 - uid: com.microsoft.azure._azure_tests_1a06e35c6aa1b30302c5ad7190b6ccd551
   id: _azure_tests_1a06e35c6aa1b30302c5ad7190b6ccd551
   parent: com.microsoft.azure._azure_tests
@@ -72,9 +52,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 159
-  assemblies:
-  - com.microsoft.azure
+    startLine: 226
   package: com.microsoft.azure
   syntax:
     content: public void createStorageAccount()
@@ -90,9 +68,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 149
-  assemblies:
-  - com.microsoft.azure
+    startLine: 214
   package: com.microsoft.azure
   syntax:
     content: public void listResourceGroups()
@@ -108,9 +84,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 154
-  assemblies:
-  - com.microsoft.azure
+    startLine: 221
   package: com.microsoft.azure
   syntax:
     content: public void listStorageAccounts()
@@ -126,9 +100,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 144
-  assemblies:
-  - com.microsoft.azure
+    startLine: 209
   package: com.microsoft.azure
   syntax:
     content: public void listSubscriptions()
@@ -144,9 +116,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 31
-  assemblies:
-  - com.microsoft.azure
+    startLine: 39
   package: com.microsoft.azure
   syntax:
     content: public static void main(String[] args)
@@ -165,9 +135,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 48
-  assemblies:
-  - com.microsoft.azure
+    startLine: 56
   package: com.microsoft.azure
   syntax:
     content: public void setup()
@@ -183,13 +151,50 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 88
-  assemblies:
-  - com.microsoft.azure
+    startLine: 153
   package: com.microsoft.azure
   summary: <p>Tests the availability set implementation </p>
   syntax:
     content: public void testAvailabilitySets()
+  exceptions:
+  - type: 8a99d4b0
+- uid: com.microsoft.azure._azure_tests_1a5e662b5d8109a46c1959e8f6063a9523
+  id: _azure_tests_1a5e662b5d8109a46c1959e8f6063a9523
+  parent: com.microsoft.azure._azure_tests
+  href: com.microsoft.azure._azure_tests.yml
+  langs:
+  - java
+  name: testDeployments()
+  fullName: void com.microsoft.azure.AzureTests.testDeployments()
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/test/java/com/microsoft/azure/AzureTests.java
+    startLine: 82
+  package: com.microsoft.azure
+  summary: <p>Tests ARM template deployments </p>
+  syntax:
+    content: public void testDeployments()
+  exceptions:
+  - type: cbf33bbe
+  - type: com.microsoft.azure._cloud_exception
+- uid: com.microsoft.azure._azure_tests_1ac1ee4dffababfb5a0d9faf419714a6d0
+  id: _azure_tests_1ac1ee4dffababfb5a0d9faf419714a6d0
+  parent: com.microsoft.azure._azure_tests
+  href: com.microsoft.azure._azure_tests.yml
+  langs:
+  - java
+  name: testGenericResources()
+  fullName: void com.microsoft.azure.AzureTests.testGenericResources()
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/test/java/com/microsoft/azure/AzureTests.java
+    startLine: 105
+  package: com.microsoft.azure
+  summary: <p>Tests basic generic resources retrieval </p>
+  syntax:
+    content: public void testGenericResources()
   exceptions:
   - type: 8a99d4b0
 - uid: com.microsoft.azure._azure_tests_1a9e0b3873814cc0945834014dcca4f142
@@ -204,9 +209,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 104
-  assemblies:
-  - com.microsoft.azure
+    startLine: 169
   package: com.microsoft.azure
   summary: <p>Tests the network interface implementation </p>
   syntax:
@@ -225,9 +228,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 96
-  assemblies:
-  - com.microsoft.azure
+    startLine: 161
   package: com.microsoft.azure
   summary: <p>Tests the virtual network implementation </p>
   syntax:
@@ -246,9 +247,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 72
-  assemblies:
-  - com.microsoft.azure
+    startLine: 137
   package: com.microsoft.azure
   summary: <p>Tests the network security group implementation </p>
   syntax:
@@ -267,9 +266,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 80
-  assemblies:
-  - com.microsoft.azure
+    startLine: 145
   package: com.microsoft.azure
   summary: <p>Tests the public IP address implementation </p>
   syntax:
@@ -288,9 +285,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 118
-  assemblies:
-  - com.microsoft.azure
+    startLine: 183
   package: com.microsoft.azure
   summary: <p>Tests the virtual machine data disk implementation </p>
   syntax:
@@ -309,9 +304,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 126
-  assemblies:
-  - com.microsoft.azure
+    startLine: 191
   package: com.microsoft.azure
   summary: <p>Tests the virtual machine network interface implementation </p>
   syntax:
@@ -330,9 +323,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 108
-  assemblies:
-  - com.microsoft.azure
+    startLine: 173
   package: com.microsoft.azure
   syntax:
     content: public void testVirtualMachines()
@@ -348,9 +339,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 138
-  assemblies:
-  - com.microsoft.azure
+    startLine: 203
   package: com.microsoft.azure
   syntax:
     content: public void testVirtualMachineSizes()
@@ -366,17 +355,39 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/AzureTests.java
-    startLine: 133
-  assemblies:
-  - com.microsoft.azure
+    startLine: 198
   package: com.microsoft.azure
   syntax:
     content: public void testVirtualMachineSSh()
+- uid: com.microsoft.azure._azure_tests_1aeb0795b47b2b059bc7190be8813ce321
+  id: _azure_tests_1aeb0795b47b2b059bc7190be8813ce321
+  parent: com.microsoft.azure._azure_tests
+  href: com.microsoft.azure._azure_tests.yml
+  langs:
+  - java
+  name: testVMImages()
+  fullName: void com.microsoft.azure.AzureTests.testVMImages()
+  type: Method
+  source:
+    remote: *o0
+    path: azure/src/test/java/com/microsoft/azure/AzureTests.java
+    startLine: 117
+  package: com.microsoft.azure
+  summary: <p>Tests VM images </p>
+  syntax:
+    content: public void testVMImages()
+  exceptions:
+  - type: cbf33bbe
+  - type: com.microsoft.azure._cloud_exception
 references:
 - uid: 30d59cf1
   spec.java:
   - name: String[]
     fullName: String[]
+- uid: cbf33bbe
+  spec.java:
+  - name: IOException
+    fullName: IOException
 - uid: 8a99d4b0
   spec.java:
   - name: Exception

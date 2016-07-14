@@ -4,6 +4,8 @@ items:
   children:
   - com.microsoft.azure.management.resources.fluentcore.model._appliable
   - com.microsoft.azure.management.resources.fluentcore.model._attachable
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition
+  - com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update
   - com.microsoft.azure.management.resources.fluentcore.model._creatable
   - com.microsoft.azure.management.resources.fluentcore.model._indexable
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable
@@ -124,7 +126,7 @@ references:
     content: public interface Settable<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the parent definition <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1aff7fcac9e49ac1dc14afe615f7bec066" data-throw-if-not-resolved="false"></xref> returns to </p>
+      description: <p>the parent definition <xref href="com.microsoft.azure.management.resources.fluentcore.model._settable_1a2161d5ed2001041610d85dad2e36db2e" data-throw-if-not-resolved="false"></xref> returns to </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
@@ -155,3 +157,27 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the inner object. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.yml
+  name: Attachable.InDefinition<ParentT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
+  type: Interface
+  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  syntax:
+    content: public interface InDefinition<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the parent definition </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update.yml
+  name: Attachable.InUpdate<ParentT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
+  type: Interface
+  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  syntax:
+    content: public interface InUpdate<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the parent definition </p>

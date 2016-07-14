@@ -22,19 +22,21 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 21
   package: com.microsoft.azure.management.network.implementation
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network management. </p>
   syntax: &o1
-    content: public class NetworkManager extends Manager< NetworkManager >
+    content: public class NetworkManager extends Manager< NetworkManager, NetworkManagementClientImpl >
   inheritance:
   - java.lang.Object
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
   - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   inheritedMembers:
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a16674f6f76f7c9c80fe35598f483a048
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a4a8886e6aea57cdcd3d4945e979fccd6
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a2b683c0ecd69659b7ab9a7e98825c29d
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a34ecb79db98abccbe741ff9cb898b823
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a6f1cebe6e5b2369a2ded3ab4bb419d03
 - uid: com.microsoft.azure.management.network.implementation._network_manager_1af1db197b4683cc725dc9d1350edd0e4d
   id: _network_manager_1af1db197b4683cc725dc9d1350edd0e4d
   parent: com.microsoft.azure.management.network.implementation._network_manager
@@ -47,9 +49,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 61
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 59
   package: com.microsoft.azure.management.network.implementation
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.azure.management.network.implementation._network_manager" data-throw-if-not-resolved="false"></xref> that exposes network resource management API entry points.</p>
@@ -79,9 +79,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 48
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 46
   package: com.microsoft.azure.management.network.implementation
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.azure.management.network.implementation._network_manager" data-throw-if-not-resolved="false"></xref> that exposes network resource management API entry points.</p>
@@ -111,9 +109,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 37
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 35
   package: com.microsoft.azure.management.network.implementation
   summary: >-
     <p>Get a <xref href="com.microsoft.azure.management.network.implementation._network_manager._configurable" data-throw-if-not-resolved="false"></xref> instance that can be used to create <xref href="com.microsoft.azure.management.network.implementation._network_manager" data-throw-if-not-resolved="false"></xref> with optional configuration.</p>
@@ -136,9 +132,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 136
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 135
   package: com.microsoft.azure.management.network.implementation
   syntax:
     content: public NetworkInterfaces networkInterfaces()
@@ -157,9 +151,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 100
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 99
   package: com.microsoft.azure.management.network.implementation
   syntax:
     content: public Networks networks()
@@ -178,9 +170,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 112
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 111
   package: com.microsoft.azure.management.network.implementation
   syntax:
     content: public NetworkSecurityGroups networkSecurityGroups()
@@ -199,9 +189,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/implementation/NetworkManager.java
-    startLine: 124
-  assemblies:
-  - com.microsoft.azure.management.network.implementation
+    startLine: 123
   package: com.microsoft.azure.management.network.implementation
   syntax:
     content: public PublicIpAddresses publicIpAddresses()
@@ -213,50 +201,82 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a16674f6f76f7c9c80fe35598f483a048
   parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
-  name: Manager(RestClient restClient, String subscriptionId)
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.Manager(RestClient restClient, String subscriptionId)
+  name: innerManagementClient
+  fullName: final InnerT com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T, InnerT >.innerManagementClient
+  type: Field
+  syntax:
+    content: protected final InnerT innerManagementClient
+    return:
+      type: b3452c4f
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a4a8886e6aea57cdcd3d4945e979fccd6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  name: Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T, InnerT >.Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
   type: Constructor
   syntax:
-    content: protected Manager(RestClient restClient, String subscriptionId)
+    content: protected Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
     parameters:
     - id: restClient
       type: com.microsoft.azure._rest_client
     - id: subscriptionId
       type: "26831127"
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
-  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+    - id: innerManagementClient
+      type: 52cf8095
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a2b683c0ecd69659b7ab9a7e98825c29d
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: ManagerBase(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.ManagerBase(RestClient restClient, String subscriptionId)
+  type: Constructor
+  syntax:
+    content: protected ManagerBase(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+    - id: subscriptionId
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a34ecb79db98abccbe741ff9cb898b823
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
   name: resourceManager()
-  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.resourceManager()
+  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
   type: Method
   syntax:
-    content: protected ResourceManager resourceManager()
+    content: public ResourceManager resourceManager()
     return:
       type: com.microsoft.azure.management.resources.implementation._resource_manager
+      description: <p>the {} associated with this manager </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a6f1cebe6e5b2369a2ded3ab4bb419d03
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: setResourceManager(ResourceManager resourceManager)
+  fullName: final void com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.setResourceManager(ResourceManager resourceManager)
+  type: Method
+  syntax:
+    content: protected final void setResourceManager(ResourceManager resourceManager)
+    parameters:
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    return:
+      type: 3f6357ce
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
-  name: Manager<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager<T>
+  name: Manager<T,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager<T,InnerT>
   type: Class
-  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  summary: <p>Generic base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
   syntax:
-    content: public class Manager<T>
+    content: public class Manager<T,InnerT> extends ManagerBase
     typeParameters:
     - type: 8ce1ecb9
       description: <p>specific manager type </p>
-- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
-  parent: com.microsoft.azure.management.network.implementation.api
-  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
-  name: NetworkManagementClientImpl
-  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
-  type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public class NetworkManagementClientImpl extends AzureServiceClient
+    - type: 52cf8095
+      description: <p>inner management client implementation type </p>
 - uid: com.microsoft.azure.management.network._public_ip_addresses
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_addresses.yml
@@ -292,7 +312,7 @@ references:
   type: Interface
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionBlank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionStages.Blank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network.implementation._network_manager._configurable
   parent: com.microsoft.azure.management.network.implementation
   href: com.microsoft.azure.management.network.implementation._network_manager._configurable.yml

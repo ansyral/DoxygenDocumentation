@@ -27,8 +27,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public class SingleSegmentUploaderTests
@@ -47,8 +45,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 31
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void Setup()
@@ -65,8 +61,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 239
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests various scenarios where the upload will fail repeatedly; verifies that the uploader will retry a certain number of times before finally giving up</p>
@@ -89,8 +83,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 133
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when an existing stream with the same name already exists on the server. That stream needs to be fully replaced with the new data.</p>
@@ -113,8 +105,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 109
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when only a part of the file is to be uploaded (i.e., all other cases feed in the entire file)</p>
@@ -137,8 +127,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 90
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests an uploading consisting of a larger file, which will need to be uploaded in sequential buffers.</p>
@@ -161,8 +149,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 182
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when the <xref href="com.microsoft.azure.management.datalake.store.uploader._single_segment_uploader" data-throw-if-not-resolved="false"></xref> should upload a non-binary file (i.e., split on record boundaries).</p>
@@ -185,8 +171,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 215
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when the <xref href="com.microsoft.azure.management.datalake.store.uploader._single_segment_uploader" data-throw-if-not-resolved="false"></xref> tries upload a non-binary file (i.e., split on record boundaries), but at least one record is larger than the max allowed size.</p>
@@ -209,8 +193,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 72
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests a simple upload consisting of a single block (the file is small enough to be uploaded without splitting into smaller buffers)</p>
@@ -233,8 +215,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 157
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when the upload did "succeed", but the server reports back a different stream length than expected.</p>
@@ -257,8 +237,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void Teardown()
@@ -275,8 +253,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploaderTests.java
     startLine: 248
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void TestRetryBlock(int failCount)

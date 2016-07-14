@@ -21,8 +21,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
     startLine: 22
-  assemblies:
-  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>
@@ -44,9 +42,7 @@ items:
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
-    startLine: 77
-  assemblies:
-  - com.microsoft.rest
+    startLine: 80
   package: com.microsoft.rest
   syntax:
     content: public OkHttpClient httpClient()
@@ -65,9 +61,7 @@ items:
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
-    startLine: 84
-  assemblies:
-  - com.microsoft.rest
+    startLine: 87
   package: com.microsoft.rest
   syntax:
     content: public JacksonMapperAdapter mapperAdapter()
@@ -86,9 +80,7 @@ items:
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
-    startLine: 70
-  assemblies:
-  - com.microsoft.rest
+    startLine: 73
   package: com.microsoft.rest
   syntax:
     content: public Retrofit retrofit()
@@ -108,8 +100,6 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
     startLine: 35
-  assemblies:
-  - com.microsoft.rest
   package: com.microsoft.rest
   summary: >-
     <p>Initializes a new instance of the <xref href="com.microsoft.rest._service_client" data-throw-if-not-resolved="false"></xref> class.</p>
@@ -133,20 +123,24 @@ items:
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceClient.java
-    startLine: 43
-  assemblies:
-  - com.microsoft.rest
+    startLine: 46
   package: com.microsoft.rest
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.rest._service_client" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: >-
+    <p>Initializes a new instance of the <xref href="com.microsoft.rest._service_client" data-throw-if-not-resolved="false"></xref> class.</p>
+
+    <p></p>
   syntax:
     content: protected ServiceClient(String baseUrl, OkHttpClient.Builder clientBuilder, Retrofit.Builder restBuilder)
     parameters:
     - id: baseUrl
       type: "26831127"
+      description: <p>the service base uri </p>
     - id: clientBuilder
       type: 2c0be77c
+      description: <p>the http client builder </p>
     - id: restBuilder
       type: 1dbbe4ca
+      description: <p>the retrofit rest client builder </p>
 references:
 - uid: "26831127"
   spec.java:

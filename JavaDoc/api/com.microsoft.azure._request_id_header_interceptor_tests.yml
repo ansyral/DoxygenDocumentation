@@ -18,8 +18,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/RequestIdHeaderInterceptorTests.java
     startLine: 21
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public class RequestIdHeaderInterceptorTests
@@ -38,8 +36,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/RequestIdHeaderInterceptorTests.java
     startLine: 25
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void newRequestIdForEachCall()
@@ -56,8 +52,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/test/java/com/microsoft/azure/RequestIdHeaderInterceptorTests.java
     startLine: 59
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void sameRequestIdForRetry()

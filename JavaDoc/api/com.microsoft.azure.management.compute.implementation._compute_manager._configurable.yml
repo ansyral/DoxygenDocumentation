@@ -16,9 +16,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/ComputeManager.java
-    startLine: 65
-  assemblies:
-  - com.microsoft.azure.management.compute.implementation
+    startLine: 62
   package: com.microsoft.azure.management.compute.implementation
   summary: <p>The interface allowing configurations to be set. </p>
   syntax:
@@ -44,9 +42,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/ComputeManager.java
-    startLine: 73
-  assemblies:
-  - com.microsoft.azure.management.compute.implementation
+    startLine: 70
   package: com.microsoft.azure.management.compute.implementation
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.azure.management.compute.implementation._compute_manager" data-throw-if-not-resolved="false"></xref> that exposes Compute resource management API entry points.</p>
@@ -250,7 +246,7 @@ references:
   type: Class
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> compute resource management. </p>
   syntax:
-    content: public class ComputeManager extends Manager< ComputeManager >
+    content: public class ComputeManager extends Manager< ComputeManager, ComputeManagementClientImpl >
 - uid: com.microsoft.rest.credentials._service_client_credentials
   parent: com.microsoft.rest.credentials
   href: com.microsoft.rest.credentials._service_client_credentials.yml

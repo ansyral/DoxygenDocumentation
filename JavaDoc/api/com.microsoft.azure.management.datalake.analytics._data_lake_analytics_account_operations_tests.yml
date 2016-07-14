@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsAccountOperationsTests.java
     startLine: 24
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public class DataLakeAnalyticsAccountOperationsTests extends DataLakeAnalyticsManagementTestBase
@@ -51,8 +49,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsAccountOperationsTests.java
     startLine: 66
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public void canCreateGetUpdateDeleteAdlaAccount()
@@ -69,8 +65,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsAccountOperationsTests.java
     startLine: 56
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public static void cleanup()
@@ -87,8 +81,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsAccountOperationsTests.java
     startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public static void setup()
@@ -173,7 +165,7 @@ references:
   syntax:
     content: protected static ResourceManagementClientImpl resourceManagementClient
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      type: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
 - uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base_1a3ffc86cba0544c3271bbfd78b10721c1
   parent: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base
   href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base.yml
@@ -200,7 +192,7 @@ references:
   syntax:
     content: protected static StorageManagementClientImpl storageManagementClient
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
+      type: com.microsoft.azure.management.storage.implementation._storage_management_client_impl
 - uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base
   parent: com.microsoft.azure.management.datalake.analytics
   href: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base.yml

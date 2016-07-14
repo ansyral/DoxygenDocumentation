@@ -20,19 +20,21 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
+    startLine: 20
   package: com.microsoft.azure.management.storage.implementation
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
   syntax: &o1
-    content: public class StorageManager extends Manager< StorageManager >
+    content: public class StorageManager extends Manager< StorageManager, StorageManagementClientImpl >
   inheritance:
   - java.lang.Object
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
   - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   inheritedMembers:
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a16674f6f76f7c9c80fe35598f483a048
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a4a8886e6aea57cdcd3d4945e979fccd6
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a2b683c0ecd69659b7ab9a7e98825c29d
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a34ecb79db98abccbe741ff9cb898b823
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a6f1cebe6e5b2369a2ded3ab4bb419d03
 - uid: com.microsoft.azure.management.storage.implementation._storage_manager_1a1529814e1250e3361dc10aa02e93fbf9
   id: _storage_manager_1a1529814e1250e3361dc10aa02e93fbf9
   parent: com.microsoft.azure.management.storage.implementation._storage_manager
@@ -45,9 +47,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
-    startLine: 57
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
+    startLine: 54
   package: com.microsoft.azure.management.storage.implementation
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref> that exposes storage resource management API entry points.</p>
@@ -77,9 +77,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
-    startLine: 44
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
+    startLine: 41
   package: com.microsoft.azure.management.storage.implementation
   summary: >-
     <p>Creates an instance of <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref> that exposes storage resource management API entry points.</p>
@@ -109,9 +107,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
-    startLine: 33
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
+    startLine: 30
   package: com.microsoft.azure.management.storage.implementation
   summary: >-
     <p>Get a <xref href="com.microsoft.azure.management.storage.implementation._storage_manager._configurable" data-throw-if-not-resolved="false"></xref> instance that can be used to create <xref href="com.microsoft.azure.management.storage.implementation._storage_manager" data-throw-if-not-resolved="false"></xref> with optional configuration.</p>
@@ -134,9 +130,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
-    startLine: 93
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
+    startLine: 91
   package: com.microsoft.azure.management.storage.implementation
   syntax:
     content: public StorageAccounts storageAccounts()
@@ -155,9 +149,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/StorageManager.java
-    startLine: 105
-  assemblies:
-  - com.microsoft.azure.management.storage.implementation
+    startLine: 103
   package: com.microsoft.azure.management.storage.implementation
   syntax:
     content: public Usages usages()
@@ -169,50 +161,82 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a16674f6f76f7c9c80fe35598f483a048
   parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
-  name: Manager(RestClient restClient, String subscriptionId)
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.Manager(RestClient restClient, String subscriptionId)
+  name: innerManagementClient
+  fullName: final InnerT com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T, InnerT >.innerManagementClient
+  type: Field
+  syntax:
+    content: protected final InnerT innerManagementClient
+    return:
+      type: b3452c4f
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a4a8886e6aea57cdcd3d4945e979fccd6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  name: Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T, InnerT >.Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
   type: Constructor
   syntax:
-    content: protected Manager(RestClient restClient, String subscriptionId)
+    content: protected Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
     parameters:
     - id: restClient
       type: com.microsoft.azure._rest_client
     - id: subscriptionId
       type: "26831127"
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
-  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+    - id: innerManagementClient
+      type: 52cf8095
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a2b683c0ecd69659b7ab9a7e98825c29d
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: ManagerBase(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.ManagerBase(RestClient restClient, String subscriptionId)
+  type: Constructor
+  syntax:
+    content: protected ManagerBase(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+    - id: subscriptionId
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a34ecb79db98abccbe741ff9cb898b823
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
   name: resourceManager()
-  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.resourceManager()
+  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
   type: Method
   syntax:
-    content: protected ResourceManager resourceManager()
+    content: public ResourceManager resourceManager()
     return:
       type: com.microsoft.azure.management.resources.implementation._resource_manager
+      description: <p>the {} associated with this manager </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a6f1cebe6e5b2369a2ded3ab4bb419d03
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: setResourceManager(ResourceManager resourceManager)
+  fullName: final void com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.setResourceManager(ResourceManager resourceManager)
+  type: Method
+  syntax:
+    content: protected final void setResourceManager(ResourceManager resourceManager)
+    parameters:
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    return:
+      type: 3f6357ce
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
-  name: Manager<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager<T>
+  name: Manager<T,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager<T,InnerT>
   type: Class
-  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  summary: <p>Generic base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
   syntax:
-    content: public class Manager<T>
+    content: public class Manager<T,InnerT> extends ManagerBase
     typeParameters:
     - type: 8ce1ecb9
       description: <p>specific manager type </p>
-- uid: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl.yml
-  name: StorageManagementClientImpl
-  fullName: com.microsoft.azure.management.storage.implementation.api.StorageManagementClientImpl
-  type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
-  syntax:
-    content: public class StorageManagementClientImpl extends AzureServiceClient
+    - type: 52cf8095
+      description: <p>inner management client implementation type </p>
 - uid: com.microsoft.azure.management.storage._storage_accounts
   parent: com.microsoft.azure.management.storage
   href: com.microsoft.azure.management.storage._storage_accounts.yml
@@ -221,7 +245,7 @@ references:
   type: Interface
   summary: <p>Entry point for storage accounts management API. </p>
   syntax:
-    content: public interface StorageAccounts extends SupportsListing< StorageAccount >,SupportsCreating< StorageAccount.DefinitionBlank >,SupportsDeleting,SupportsListingByGroup< StorageAccount >,SupportsGettingByGroup< StorageAccount >,SupportsGettingById< StorageAccount >,SupportsDeletingByGroup
+    content: public interface StorageAccounts extends SupportsListing< StorageAccount >,SupportsCreating< StorageAccount.DefinitionStages.Blank >,SupportsDeleting,SupportsListingByGroup< StorageAccount >,SupportsGettingByGroup< StorageAccount >,SupportsGettingById< StorageAccount >,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.storage._usages
   parent: com.microsoft.azure.management.storage
   href: com.microsoft.azure.management.storage._usages.yml

@@ -25,9 +25,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 7
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 5
   package: com.microsoft.azure.management.compute
   summary: <p>The popular <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Windows images. </p>
   syntax:
@@ -47,14 +45,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 53
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 51
   package: com.microsoft.azure.management.compute
   syntax:
     content: public ImageReference imageReference()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._image_reference
+      type: com.microsoft.azure.management.compute._image_reference
       description: <p>the image reference </p>
 - uid: com.microsoft.azure.management.compute._known_windows_virtual_machine_image_1a569b465105a45fe6e68b8b535c483f91
   id: _known_windows_virtual_machine_image_1a569b465105a45fe6e68b8b535c483f91
@@ -68,9 +64,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 23
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 21
   package: com.microsoft.azure.management.compute
   syntax:
     content: public KnownWindowsVirtualMachineImage(String publisher, String offer, String sku)
@@ -93,9 +87,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 39
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 37
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String offer()
@@ -114,9 +106,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 30
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String publisher()
@@ -135,9 +125,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 46
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 44
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String sku()
@@ -156,9 +144,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 9
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 7
   package: com.microsoft.azure.management.compute
   summary: <p>Windows Server 2008 R2 SP1. </p>
   syntax:
@@ -175,9 +161,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 11
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 9
   package: com.microsoft.azure.management.compute
   summary: <p>Windows Server 2012 Data center. </p>
   syntax:
@@ -194,9 +178,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 13
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 11
   package: com.microsoft.azure.management.compute
   summary: <p>Windows Server 2012 R2 Data center. </p>
   syntax:
@@ -213,9 +195,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 13
   package: com.microsoft.azure.management.compute
   summary: <p>Windows Server 2016 technical preview with container support. </p>
   syntax:
@@ -232,9 +212,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownWindowsVirtualMachineImage.java
-    startLine: 17
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 15
   package: com.microsoft.azure.management.compute
   summary: <p>Windows Server 2016 technical preview. </p>
   syntax:
@@ -244,11 +222,11 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.azure.management.compute.implementation.api._image_reference
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._image_reference.yml
+- uid: com.microsoft.azure.management.compute._image_reference
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._image_reference.yml
   name: ImageReference
-  fullName: com.microsoft.azure.management.compute.implementation.api.ImageReference
+  fullName: com.microsoft.azure.management.compute.ImageReference
   type: Class
   summary: <p>The image reference. </p>
   syntax:

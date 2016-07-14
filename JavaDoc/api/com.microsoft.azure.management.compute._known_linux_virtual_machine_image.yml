@@ -26,9 +26,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 7
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 5
   package: com.microsoft.azure.management.compute
   summary: <p>The popular <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Linux images. </p>
   syntax:
@@ -48,9 +46,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 13
   package: com.microsoft.azure.management.compute
   summary: <p>CentOS 7.2. </p>
   syntax:
@@ -67,9 +63,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 13
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 11
   package: com.microsoft.azure.management.compute
   summary: <p>Debian 8. </p>
   syntax:
@@ -86,14 +80,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 55
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 53
   package: com.microsoft.azure.management.compute
   syntax:
     content: public ImageReference imageReference()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._image_reference
+      type: com.microsoft.azure.management.compute._image_reference
       description: <p>the image reference </p>
 - uid: com.microsoft.azure.management.compute._known_linux_virtual_machine_image_1ad7eb9187da10774fce36b70bec37596f
   id: _known_linux_virtual_machine_image_1ad7eb9187da10774fce36b70bec37596f
@@ -107,9 +99,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 25
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 23
   package: com.microsoft.azure.management.compute
   syntax:
     content: public KnownLinuxVirtualMachineImage(String publisher, String offer, String sku)
@@ -132,9 +122,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 41
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 39
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String offer()
@@ -153,9 +141,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 17
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 15
   package: com.microsoft.azure.management.compute
   summary: <p>OpenSUSE-Leap 42.1. </p>
   syntax:
@@ -172,9 +158,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 32
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String publisher()
@@ -193,9 +177,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 48
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 46
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String sku()
@@ -214,9 +196,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 19
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 17
   package: com.microsoft.azure.management.compute
   summary: <p>SLES 12-SP1. </p>
   syntax:
@@ -233,9 +213,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 9
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 7
   package: com.microsoft.azure.management.compute
   summary: <p>UbuntuServer 14.04LTS. </p>
   syntax:
@@ -252,9 +230,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/KnownLinuxVirtualMachineImage.java
-    startLine: 11
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 9
   package: com.microsoft.azure.management.compute
   summary: <p>UbuntuServer 16.04LTS. </p>
   syntax:
@@ -264,11 +240,11 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.azure.management.compute.implementation.api._image_reference
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._image_reference.yml
+- uid: com.microsoft.azure.management.compute._image_reference
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._image_reference.yml
   name: ImageReference
-  fullName: com.microsoft.azure.management.compute.implementation.api.ImageReference
+  fullName: com.microsoft.azure.management.compute.ImageReference
   type: Class
   summary: <p>The image reference. </p>
   syntax:

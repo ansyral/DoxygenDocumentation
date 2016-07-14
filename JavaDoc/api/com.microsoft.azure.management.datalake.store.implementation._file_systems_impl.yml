@@ -4,7 +4,9 @@ items:
   parent: com.microsoft.azure.management.datalake.store.implementation
   children:
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1abaa87e640895978fd52fd8fe147b67c4
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a735448e2554e888f3957818f2fd2e7f1
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a0be519ea99454f4b35b9f559d0aaaa6d
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a79d2c382fa2d74596a01d367aedbc0eb
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a7b15fd1ce50609bd0a6a43c668260d8f
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a8f8dc9d69c2f5d46eb6e7264f7f5961a
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1aa99b06e09c2d68e97accdf3022e76340
@@ -72,9 +74,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 49
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 51
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: <p>An instance of this class provides access to all the operations defined in <xref href="com.microsoft.azure.management.datalake.store._file_systems" data-throw-if-not-resolved="false"></xref>. </p>
   syntax: &o1
@@ -94,9 +94,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1202
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1204
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Appends to the specified file. This method does not support multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option. Use the ConcurrentAppend option if you would like support for concurrent appends.</p>
@@ -125,6 +123,50 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a735448e2554e888f3957818f2fd2e7f1
+  id: _file_systems_impl_1a735448e2554e888f3957818f2fd2e7f1
+  parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
+  href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
+  langs:
+  - java
+  name: append(String accountName, String directFilePath, byte[] streamContents, Long offset)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.datalake.store.implementation.FileSystemsImpl.append(String accountName, String directFilePath, byte[] streamContents, Long offset)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
+    startLine: 1297
+  package: com.microsoft.azure.management.datalake.store.implementation
+  summary: >-
+    <p>Appends to the specified file. This method does not support multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option. Use the ConcurrentAppend option if you would like support for concurrent appends.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > append(String accountName, String directFilePath, byte[] streamContents, Long offset)
+    parameters:
+    - id: accountName
+      type: "26831127"
+      description: <p>The <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Store account to execute filesystem operations on. </p>
+    - id: directFilePath
+      type: "26831127"
+      description: <p>The Data Lake Store path (starting with '/') of the file to which to append. </p>
+    - id: streamContents
+      type: bc819c2f
+      description: <p>The file contents to include when appending to the file. </p>
+    - id: offset
+      type: 34f09483
+      description: <p>The optional offset in the stream to begin the append operation. Default is to append at the end of the stream. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+  overridden: com.microsoft.azure.management.datalake.store._file_systems_1afa7a41c79ff049ed111c9094279b8de3
+  exceptions:
+  - type: "24876076"
+    description: <p>exception thrown from REST call </p>
+  - type: cbf33bbe
+    description: <p>exception thrown from serialization/deserialization </p>
+  - type: 3c87bd19
+    description: <p>exception thrown from invalid parameters </p>
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a0be519ea99454f4b35b9f559d0aaaa6d
   id: _file_systems_impl_1a0be519ea99454f4b35b9f559d0aaaa6d
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -137,9 +179,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1237
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1240
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Appends to the specified file. This method does not support multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option. Use the ConcurrentAppend option if you would like support for concurrent appends.</p>
@@ -167,6 +207,49 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a79d2c382fa2d74596a01d367aedbc0eb
+  id: _file_systems_impl_1a79d2c382fa2d74596a01d367aedbc0eb
+  parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
+  href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
+  langs:
+  - java
+  name: appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.datalake.store.implementation.FileSystemsImpl.appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
+    startLine: 1333
+  package: com.microsoft.azure.management.datalake.store.implementation
+  summary: >-
+    <p>Appends to the specified file. This method does not support multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option. Use the ConcurrentAppend option if you would like support for concurrent appends.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: accountName
+      type: "26831127"
+      description: <p>The <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Store account to execute filesystem operations on. </p>
+    - id: directFilePath
+      type: "26831127"
+      description: <p>The Data Lake Store path (starting with '/') of the file to which to append. </p>
+    - id: streamContents
+      type: bc819c2f
+      description: <p>The file contents to include when appending to the file. </p>
+    - id: offset
+      type: 34f09483
+      description: <p>The optional offset in the stream to begin the append operation. Default is to append at the end of the stream. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
+  overridden: com.microsoft.azure.management.datalake.store._file_systems_1ac063bad02c63caa7b825eb8ec7789f91
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if callback is null </p>
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl_1a7b15fd1ce50609bd0a6a43c668260d8f
   id: _file_systems_impl_1a7b15fd1ce50609bd0a6a43c668260d8f
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -179,9 +262,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 347
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 349
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Checks if the specified access is available at the given path.</p>
@@ -219,9 +300,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 425
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 427
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Checks if the specified access is available at the given path.</p>
@@ -262,9 +341,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 376
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 378
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Checks if the specified access is available at the given path.</p>
@@ -301,9 +378,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 454
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 456
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Checks if the specified access is available at the given path.</p>
@@ -343,9 +418,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 591
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 593
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Concatenates the list of source files into the destination file, removing all source files upon success.</p>
@@ -386,9 +459,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 625
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 627
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Concatenates the list of source files into the destination file, removing all source files upon success.</p>
@@ -428,9 +499,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 161
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 163
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Appends to the specified file. This method supports multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option.</p>
@@ -471,9 +540,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 252
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 254
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Appends to the specified file. This method supports multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option.</p>
@@ -517,9 +584,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 287
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 289
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Appends to the specified file. This method supports multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option.</p>
@@ -562,9 +627,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 196
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 198
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Appends to the specified file. This method supports multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option.</p>
@@ -604,9 +667,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1298
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1394
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Creates a file with optionally specified content.</p>
@@ -644,9 +705,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1391
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1487
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Creates a file with optionally specified content.</p>
@@ -690,9 +749,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1427
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1523
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Creates a file with optionally specified content.</p>
@@ -735,9 +792,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1334
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1430
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Creates a file with optionally specified content.</p>
@@ -774,9 +829,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2011
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2107
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Deletes the requested file or directory, optionally recursively.</p>
@@ -814,9 +867,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2089
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2185
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Deletes the requested file or directory, optionally recursively.</p>
@@ -857,9 +908,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2118
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2214
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Deletes the requested file or directory, optionally recursively.</p>
@@ -899,9 +948,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2040
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2136
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Deletes the requested file or directory, optionally recursively.</p>
@@ -938,9 +985,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 61
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 63
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Initializes an instance of <xref href="com.microsoft.azure.management.datalake.store.implementation._file_systems_impl" data-throw-if-not-resolved="false"></xref>.</p>
@@ -967,9 +1012,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1929
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2025
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Gets Access Control List (ACL) entries for the specified file or directory.</p>
@@ -1007,9 +1050,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1957
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2053
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Gets Access Control List (ACL) entries for the specified file or directory.</p>
@@ -1046,9 +1087,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1037
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1039
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Gets the file content summary object specified by the file path.</p>
@@ -1086,9 +1125,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1065
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1067
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Gets the file content summary object specified by the file path.</p>
@@ -1125,9 +1162,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1119
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1121
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Get the file status object specified by the file path.</p>
@@ -1165,9 +1200,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1147
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1149
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Get the file status object specified by the file path.</p>
@@ -1204,9 +1237,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 868
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 870
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Get the list of file status objects specified by the file path, with optional pagination parameters.</p>
@@ -1244,9 +1275,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 952
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 954
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Get the list of file status objects specified by the file path, with optional pagination parameters.</p>
@@ -1293,9 +1322,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 899
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 901
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Get the list of file status objects specified by the file path, with optional pagination parameters.</p>
@@ -1332,9 +1359,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 983
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 985
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Get the list of file status objects specified by the file path, with optional pagination parameters.</p>
@@ -1380,9 +1405,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 508
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 510
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Creates a directory.</p>
@@ -1420,9 +1443,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 536
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 538
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Creates a directory.</p>
@@ -1459,9 +1480,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1748
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1844
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Modifies existing Access Control List (ACL) entries on a file or folder.</p>
@@ -1502,9 +1521,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1780
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1876
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Modifies existing Access Control List (ACL) entries on a file or folder.</p>
@@ -1544,9 +1561,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 686
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 688
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Concatenates the list of source files into the destination file, deleting all source files upon success. This method accepts more source file paths than the Concat method. This method and the parameters it accepts are subject to change for usability in an upcoming version.</p>
@@ -1587,9 +1602,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 775
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 777
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Concatenates the list of source files into the destination file, deleting all source files upon success. This method accepts more source file paths than the Concat method. This method and the parameters it accepts are subject to change for usability in an upcoming version.</p>
@@ -1633,9 +1646,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 809
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 811
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Concatenates the list of source files into the destination file, deleting all source files upon success. This method accepts more source file paths than the Concat method. This method and the parameters it accepts are subject to change for usability in an upcoming version.</p>
@@ -1678,9 +1689,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 720
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 722
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Concatenates the list of source files into the destination file, deleting all source files upon success. This method accepts more source file paths than the Concat method. This method and the parameters it accepts are subject to change for usability in an upcoming version.</p>
@@ -1720,9 +1729,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1487
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1583
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Opens and reads from the specified file.</p>
@@ -1760,9 +1767,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1570
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1666
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Opens and reads from the specified file.</p>
@@ -1806,9 +1811,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1518
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1614
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Opens and reads from the specified file.</p>
@@ -1845,9 +1848,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1601
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1697
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Opens and reads from the specified file.</p>
@@ -1890,9 +1891,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1839
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1935
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Removes existing Access Control List (ACL) entries for a file or folder.</p>
@@ -1933,9 +1932,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1871
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1967
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Removes existing Access Control List (ACL) entries for a file or folder.</p>
@@ -1975,9 +1972,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2173
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2269
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Rename a file or directory.</p>
@@ -2018,9 +2013,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2205
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2301
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Rename a file or directory.</p>
@@ -2060,9 +2053,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1657
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1753
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the Access Control List (ACL) for a file or folder.</p>
@@ -2103,9 +2094,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 1689
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 1785
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the Access Control List (ACL) for a file or folder.</p>
@@ -2145,9 +2134,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2263
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2359
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the owner of a file or directory.</p>
@@ -2185,9 +2172,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2344
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2440
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the owner of a file or directory.</p>
@@ -2231,9 +2216,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2293
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2389
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the owner of a file or directory.</p>
@@ -2270,9 +2253,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2374
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2470
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the owner of a file or directory.</p>
@@ -2315,9 +2296,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2428
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2524
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the permission of the file or folder.</p>
@@ -2355,9 +2334,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2506
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2602
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the permission of the file or folder.</p>
@@ -2398,9 +2375,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2457
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2553
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the permission of the file or folder.</p>
@@ -2437,9 +2412,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store/src/main/java/com/microsoft/azure/management/datalake/store/implementation/FileSystemsImpl.java
-    startLine: 2535
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.implementation
+    startLine: 2631
   package: com.microsoft.azure.management.datalake.store.implementation
   summary: >-
     <p>Sets the permission of the file or folder.</p>
@@ -2642,6 +2615,10 @@ references:
     href: com.microsoft.azure.management.datalake.store.models._file_status_result.yml
   - name: ' >'
     fullName: ' >'
+- uid: 34f09483
+  spec.java:
+  - name: Long
+    fullName: Long
 - uid: com.microsoft.rest._service_response7f11b53f
   spec.java:
   - uid: com.microsoft.rest._service_response
@@ -2660,10 +2637,6 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < InputStream >
     fullName: < InputStream >
-- uid: 34f09483
-  spec.java:
-  - name: Long
-    fullName: Long
 - uid: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._acl_status_result9ec3e006
   spec.java:
   - uid: com.microsoft.rest._service_response
@@ -3499,6 +3472,65 @@ references:
     - id: streamContents
       type: bc819c2f
       description: <p>The file contents to include when appending to the file. </p>
+    - id: serviceCallback
+      type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
+- uid: com.microsoft.azure.management.datalake.store._file_systems_1afa7a41c79ff049ed111c9094279b8de3
+  parent: com.microsoft.azure.management.datalake.store._file_systems
+  href: com.microsoft.azure.management.datalake.store._file_systems.yml
+  name: append(String accountName, String directFilePath, byte[] streamContents, Long offset)
+  fullName: ServiceResponse<Void> com.microsoft.azure.management.datalake.store.FileSystems.append(String accountName, String directFilePath, byte[] streamContents, Long offset)
+  type: Method
+  summary: >-
+    <p>Appends to the specified file. This method does not support multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option. Use the ConcurrentAppend option if you would like support for concurrent appends.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceResponse< Void > append(String accountName, String directFilePath, byte[] streamContents, Long offset)
+    parameters:
+    - id: accountName
+      type: "26831127"
+      description: <p>The <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Store account to execute filesystem operations on. </p>
+    - id: directFilePath
+      type: "26831127"
+      description: <p>The Data Lake Store path (starting with '/') of the file to which to append. </p>
+    - id: streamContents
+      type: bc819c2f
+      description: <p>The file contents to include when appending to the file. </p>
+    - id: offset
+      type: 34f09483
+      description: <p>The optional offset in the stream to begin the append operation. Default is to append at the end of the stream. </p>
+    return:
+      type: com.microsoft.rest._service_responsee35e5465
+      description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
+- uid: com.microsoft.azure.management.datalake.store._file_systems_1ac063bad02c63caa7b825eb8ec7789f91
+  parent: com.microsoft.azure.management.datalake.store._file_systems
+  href: com.microsoft.azure.management.datalake.store._file_systems.yml
+  name: appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
+  fullName: ServiceCall com.microsoft.azure.management.datalake.store.FileSystems.appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
+  type: Method
+  summary: >-
+    <p>Appends to the specified file. This method does not support multiple concurrent appends to the file. NOTE: Concurrent append and normal (serial) append CANNOT be used interchangeably. Once a file has been appended to using either append option, it can only be appended to using that append option. Use the ConcurrentAppend option if you would like support for concurrent appends.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
+    parameters:
+    - id: accountName
+      type: "26831127"
+      description: <p>The <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Data Lake Store account to execute filesystem operations on. </p>
+    - id: directFilePath
+      type: "26831127"
+      description: <p>The Data Lake Store path (starting with '/') of the file to which to append. </p>
+    - id: streamContents
+      type: bc819c2f
+      description: <p>The file contents to include when appending to the file. </p>
+    - id: offset
+      type: 34f09483
+      description: <p>The optional offset in the stream to begin the append operation. Default is to append at the end of the stream. </p>
     - id: serviceCallback
       type: 93de0ef9com.microsoft.rest._service_callbacke35e5465
       description: <p>the async ServiceCallback to handle successful and failed responses. </p>

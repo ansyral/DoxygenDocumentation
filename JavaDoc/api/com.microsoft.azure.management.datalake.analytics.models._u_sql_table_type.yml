@@ -3,8 +3,7 @@ items:
   id: _u_sql_table_type
   parent: com.microsoft.azure.management.datalake.analytics.models
   children:
-  - com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type_1a9145ad5bf6cd55b66aeb6947814542df
-  - com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type_1a394b9a7cb67f6e89f6840ae882a1d649
+  - com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type_1a8b346c668350525789d6fa79ddbff440
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type.yml
   langs:
   - java
@@ -17,12 +16,10 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-analytics/src/main/java/com/microsoft/azure/management/datalake/analytics/models/USqlTableType.java
-    startLine: 12
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics.models
+    startLine: 16
   package: com.microsoft.azure.management.datalake.analytics.models
   summary: <p>A Data Lake Analytics catalog U-SQL table type item. </p>
-  syntax: &o1
+  syntax:
     content: public class USqlTableType extends USqlType
   inheritance:
   - java.lang.Object
@@ -63,61 +60,40 @@ items:
   - com.microsoft.azure.management.datalake.analytics.models._u_sql_type_1af22c75f666a62bc3e9f50b530a817886
   - com.microsoft.azure.management.datalake.analytics.models._u_sql_type_1aaa61cadc0ba3ca47040105c55242123b
   - com.microsoft.azure.management.datalake.analytics.models._catalog_item_1a07ac2b5d6f2763fc6f6e97ce1d21508d
-- uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type_1a9145ad5bf6cd55b66aeb6947814542df
-  id: _u_sql_table_type_1a9145ad5bf6cd55b66aeb6947814542df
+- uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type_1a8b346c668350525789d6fa79ddbff440
+  id: _u_sql_table_type_1a8b346c668350525789d6fa79ddbff440
   parent: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type
   href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type.yml
   langs:
   - java
   name: columns()
-  fullName: TypeFieldInfo com.microsoft.azure.management.datalake.analytics.models.USqlTableType.columns()
+  fullName: List<TypeFieldInfo> com.microsoft.azure.management.datalake.analytics.models.USqlTableType.columns()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/main/java/com/microsoft/azure/management/datalake/analytics/models/USqlTableType.java
-    startLine: 23
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics.models
+    startLine: 28
   package: com.microsoft.azure.management.datalake.analytics.models
   summary: >-
     <p>Get the columns value.</p>
 
     <p></p>
   syntax:
-    content: public TypeFieldInfo columns()
+    content: public List< TypeFieldInfo > columns()
     return:
-      type: com.microsoft.azure.management.datalake.analytics.models._type_field_info
+      type: f6a6204dcom.microsoft.azure.management.datalake.analytics.models._type_field_info9ec3e006
       description: <p>the columns value </p>
-- uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type_1a394b9a7cb67f6e89f6840ae882a1d649
-  id: _u_sql_table_type_1a394b9a7cb67f6e89f6840ae882a1d649
-  parent: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type
-  href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type.yml
-  langs:
-  - java
-  name: withColumns(TypeFieldInfo columns)
-  fullName: USqlTableType com.microsoft.azure.management.datalake.analytics.models.USqlTableType.withColumns(TypeFieldInfo columns)
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-datalake-analytics/src/main/java/com/microsoft/azure/management/datalake/analytics/models/USqlTableType.java
-    startLine: 33
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics.models
-  package: com.microsoft.azure.management.datalake.analytics.models
-  summary: >-
-    <p>Set the columns value.</p>
-
-    <p></p>
-  syntax:
-    content: public USqlTableType withColumns(TypeFieldInfo columns)
-    parameters:
-    - id: columns
-      type: com.microsoft.azure.management.datalake.analytics.models._type_field_info
-      description: <p>the columns value to set </p>
-    return:
-      type: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type
-      description: <p>the <xref href="com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type" data-throw-if-not-resolved="false"></xref> object itself. </p>
 references:
+- uid: f6a6204dcom.microsoft.azure.management.datalake.analytics.models._type_field_info9ec3e006
+  spec.java:
+  - name: 'List< '
+    fullName: 'List< '
+  - uid: com.microsoft.azure.management.datalake.analytics.models._type_field_info
+    name: TypeFieldInfo
+    fullName: com.microsoft.azure.management.datalake.analytics.models.TypeFieldInfo
+    href: com.microsoft.azure.management.datalake.analytics.models._type_field_info.yml
+  - name: ' >'
+    fullName: ' >'
 - uid: com.microsoft.azure.management.datalake.analytics.models._catalog_item_1acf13e17e6b2bf446c89925edc5f94dcf
   parent: com.microsoft.azure.management.datalake.analytics.models._catalog_item
   href: com.microsoft.azure.management.datalake.analytics.models._catalog_item.yml
@@ -714,11 +690,3 @@ references:
   summary: <p>A Data Lake Analytics catalog type field information item. </p>
   syntax:
     content: public class TypeFieldInfo
-- uid: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type
-  parent: com.microsoft.azure.management.datalake.analytics.models
-  href: com.microsoft.azure.management.datalake.analytics.models._u_sql_table_type.yml
-  name: USqlTableType
-  fullName: com.microsoft.azure.management.datalake.analytics.models.USqlTableType
-  type: Class
-  summary: <p>A Data Lake Analytics catalog U-SQL table type item. </p>
-  syntax: *o1

@@ -24,8 +24,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 21
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Unit tests for the uploader. </p>
   syntax:
@@ -45,8 +43,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 171
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case of a fresh upload with multiple segments.\</p>
@@ -69,8 +65,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 61
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when invalid parameters are being passed to the uploader.</p>
@@ -93,8 +87,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 234
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the resume upload when only some segments were uploaded previously</p>
@@ -117,8 +109,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 187
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the resume upload when the metadata indicates all files are uploaded but no files exist on the server.</p>
@@ -141,8 +131,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 127
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the case when the target stream exists and we haven't set the overwrite flag.</p>
@@ -165,8 +153,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 276
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Tests the upload case with only 1 segment (since that is an optimization of the broader case).</p>
@@ -189,8 +175,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void Setup()
@@ -207,8 +191,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTests.java
     startLine: 40
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void Teardown()

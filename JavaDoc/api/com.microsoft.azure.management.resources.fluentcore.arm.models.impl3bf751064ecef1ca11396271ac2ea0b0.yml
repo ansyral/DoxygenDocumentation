@@ -3,19 +3,20 @@ items:
   id: impl3bf751064ecef1ca11396271ac2ea0b0
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   children:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a92738e75ef6169317a34c8b39a9593aa
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a1126efee37a1ec4c1458451b3eac8c9f
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a80c32b4ca51e383b1e8dde7e84bf7965
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a9194603706b12b30219e9f876781bed1
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ae5deda9a91affbc640123eb899b823c4
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ab88c4141385064738d814f6ede5a7829
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ad497e0c1a84954aae8a8d4a6cb0d2de6
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a800b624600102bdf2988eb50a0c9261a
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a9e1d609aea4924054b1a311ef704a653
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ac588e3299279dce3182133842e9b586b
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a5d007ced4c135fc57fda65460bb84acc
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a98856f965ea9ca0d1fad52c2cc76731c
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a85e345ab59a57e64dc937d611c90fd83
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a88bd961a55e0ea21f7467b9cb6dfd510
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a0ed8c4673c37456043c599d3d0becef1
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ad997228b02281ebd9af0be478024130f
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a8dd41035d9137bcaacf47fc437b92daf
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT>
+  name: GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT,ManagerT,ManagerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT,ManagerT,ManagerT>
   type: Class
   source:
     remote: &o0
@@ -23,16 +24,14 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 23
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource" data-throw-if-not-resolved="false"></xref>. (Internal use only)</p>
 
     <p></p>
   syntax: &o1
-    content: public class GroupableResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends GroupableResourceImpl< FluentModelT,InnerModelT,FluentModelImplT>> extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT > implements GroupableResource
+    content: public class GroupableResourceImpl<FluentModelT,InnerModelT extends com.microsoft.azure.Resource,FluentModelImplT extends GroupableResourceImpl< FluentModelT,InnerModelT,FluentModelImplT,ManagerT,ManagerT extends ManagerBase>> extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT > implements GroupableResource
     typeParameters:
     - type: 2f67777b
       description: <p>The fluent model type </p>
@@ -50,6 +49,10 @@ items:
           <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> inner resource class type </p>
     - type: 664a96a9
       description: <p>the implementation type of the fluent model type </p>
+    - type: 8b0aab42
+      description: <p>the service manager type </p>
+    - type: 8b0aab42
+      description: <p>the service manager type </p>
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
@@ -60,8 +63,10 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a2d5e313a5fc2b3480c9fbe5aece75c4d
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a535ea3d6f4e005835cba686b4464f932
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a3f14e17bbde49a7c40059ade2f99ddde
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a9d6fabd31b26e44c8bf53596eeaf4de3
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a163ed738de5c807b3ad12e778dc49ab7
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1aeac188fea7fab6b2cbf52675e043040e
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
@@ -72,66 +77,78 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1ab487b34ff0ede0c7b4f1f03eef77ae3c
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1aec9c8204de25259c8ebc7494a90df015
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a8adf50f8b41c5a7846c610d51ffd714a
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a92738e75ef6169317a34c8b39a9593aa
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a92738e75ef6169317a34c8b39a9593aa
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a9e1d609aea4924054b1a311ef704a653
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a9e1d609aea4924054b1a311ef704a653
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: GroupableResourceImpl(String key, InnerModelT innerObject, ResourceManager resourceManager)
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.GroupableResourceImpl(String key, InnerModelT innerObject, ResourceManager resourceManager)
+  name: GroupableResourceImpl(String key, InnerModelT innerObject, ManagerT manager)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.GroupableResourceImpl(String key, InnerModelT innerObject, ManagerT manager)
   type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 37
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
-    content: protected GroupableResourceImpl(String key, InnerModelT innerObject, ResourceManager resourceManager)
+    content: protected GroupableResourceImpl(String key, InnerModelT innerObject, ManagerT manager)
     parameters:
     - id: key
       type: "26831127"
     - id: innerObject
       type: 23ab9e11
-    - id: resourceManager
-      type: com.microsoft.azure.management.resources.implementation._resource_manager
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a1126efee37a1ec4c1458451b3eac8c9f
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a1126efee37a1ec4c1458451b3eac8c9f
+    - id: manager
+      type: 8b0aab42
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ac588e3299279dce3182133842e9b586b
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1ac588e3299279dce3182133842e9b586b
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
+  langs:
+  - java
+  name: myManager
+  fullName: final ManagerT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.myManager
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
+    startLine: 33
+  package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  syntax:
+    content: protected final ManagerT myManager
+    return:
+      type: 6535286a
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a5d007ced4c135fc57fda65460bb84acc
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a5d007ced4c135fc57fda65460bb84acc
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
   name: newGroup
-  fullName: ResourceGroup.DefinitionCreatable com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.newGroup
+  fullName: Creatable<ResourceGroup> com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.newGroup
   type: Field
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 31
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 34
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
-    content: protected ResourceGroup.DefinitionCreatable newGroup
+    content: protected Creatable< ResourceGroup > newGroup
     return:
-      type: 701eb166
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a80c32b4ca51e383b1e8dde7e84bf7965
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a80c32b4ca51e383b1e8dde7e84bf7965
+      type: com.microsoft.azure.management.resources.fluentcore.model._creatable151dc42ccom.microsoft.azure.management.resources._resource_group9ec3e006
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a98856f965ea9ca0d1fad52c2cc76731c
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a98856f965ea9ca0d1fad52c2cc76731c
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
   name: resourceGroupName()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.resourceGroupName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.resourceGroupName()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 44
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 50
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   syntax:
     content: public String resourceGroupName()
@@ -139,25 +156,23 @@ items:
       type: "26831127"
       description: <p>the name of the resource group </p>
   overridden: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a9194603706b12b30219e9f876781bed1
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a9194603706b12b30219e9f876781bed1
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a85e345ab59a57e64dc937d611c90fd83
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a85e345ab59a57e64dc937d611c90fd83
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: withExistingGroup(ResourceGroup group)
-  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.withExistingGroup(ResourceGroup group)
+  name: withExistingResourceGroup(ResourceGroup group)
+  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.withExistingResourceGroup(ResourceGroup group)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 108
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 114
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Associates the resources with an existing resource group. </p>
   syntax:
-    content: public final FluentModelImplT withExistingGroup(ResourceGroup group)
+    content: public final FluentModelImplT withExistingResourceGroup(ResourceGroup group)
     parameters:
     - id: group
       type: com.microsoft.azure.management.resources._resource_group
@@ -165,25 +180,23 @@ items:
     return:
       type: 9406c15b
       description: <p>the next stage of the resource definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ae5deda9a91affbc640123eb899b823c4
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1ae5deda9a91affbc640123eb899b823c4
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a88bd961a55e0ea21f7467b9cb6dfd510
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a88bd961a55e0ea21f7467b9cb6dfd510
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: withExistingGroup(String groupName)
-  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.withExistingGroup(String groupName)
+  name: withExistingResourceGroup(String groupName)
+  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.withExistingResourceGroup(String groupName)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 98
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 104
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Associates the resources with an existing resource group. </p>
   syntax:
-    content: public final FluentModelImplT withExistingGroup(String groupName)
+    content: public final FluentModelImplT withExistingResourceGroup(String groupName)
     parameters:
     - id: groupName
       type: "26831127"
@@ -191,79 +204,73 @@ items:
     return:
       type: 9406c15b
       description: <p>the next stage of the resource definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ab88c4141385064738d814f6ede5a7829
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1ab88c4141385064738d814f6ede5a7829
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a0ed8c4673c37456043c599d3d0becef1
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a0ed8c4673c37456043c599d3d0becef1
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: withNewGroup()
-  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.withNewGroup()
+  name: withNewResourceGroup()
+  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.withNewResourceGroup()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 75
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 81
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: >-
     <p>Creates a new resource group to put the resource in. </p>
 
     <p>The group will be created in the same location as the resource. The group's name is automatically derived from the resource's name. </p>
   syntax:
-    content: public final FluentModelImplT withNewGroup()
+    content: public final FluentModelImplT withNewResourceGroup()
     return:
       type: 9406c15b
       description: <p>the next stage of the resource definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ad497e0c1a84954aae8a8d4a6cb0d2de6
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1ad497e0c1a84954aae8a8d4a6cb0d2de6
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ad997228b02281ebd9af0be478024130f
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1ad997228b02281ebd9af0be478024130f
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: withNewGroup(ResourceGroup.DefinitionCreatable creatable)
-  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.withNewGroup(ResourceGroup.DefinitionCreatable creatable)
+  name: withNewResourceGroup(Creatable< ResourceGroup > creatable)
+  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.withNewResourceGroup(Creatable< ResourceGroup > creatable)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 85
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 91
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: <p>Creates a new resource group to put the resource in, based on the definition specified. </p>
   syntax:
-    content: public final FluentModelImplT withNewGroup(ResourceGroup.DefinitionCreatable creatable)
+    content: public final FluentModelImplT withNewResourceGroup(Creatable< ResourceGroup > creatable)
     parameters:
     - id: creatable
-      type: 701eb166
+      type: com.microsoft.azure.management.resources.fluentcore.model._creatable151dc42ccom.microsoft.azure.management.resources._resource_group9ec3e006
       description: <p>a creatable definition for a new resource group </p>
     return:
       type: 9406c15b
       description: <p>the next stage of the resource definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a800b624600102bdf2988eb50a0c9261a
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a800b624600102bdf2988eb50a0c9261a
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a8dd41035d9137bcaacf47fc437b92daf
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a8dd41035d9137bcaacf47fc437b92daf
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
   langs:
   - java
-  name: withNewGroup(String groupName)
-  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.withNewGroup(String groupName)
+  name: withNewResourceGroup(String groupName)
+  fullName: final FluentModelImplT com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.withNewResourceGroup(String groupName)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 63
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+    startLine: 69
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   summary: >-
     <p>Creates a new resource group to put the resource in. </p>
 
     <p>The group will be created in the same location as the resource. </p>
   syntax:
-    content: public final FluentModelImplT withNewGroup(String groupName)
+    content: public final FluentModelImplT withNewResourceGroup(String groupName)
     parameters:
     - id: groupName
       type: "26831127"
@@ -284,10 +291,28 @@ references:
   spec.java:
   - name: FluentModelImplT
     fullName: FluentModelImplT
-- uid: 701eb166
+- uid: 8b0aab42
   spec.java:
-  - name: ResourceGroup.DefinitionCreatable
-    fullName: ResourceGroup.DefinitionCreatable
+  - name: ManagerT
+    fullName: ManagerT
+- uid: 6535286a
+  spec.java:
+  - name: final ManagerT
+    fullName: final ManagerT
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable151dc42ccom.microsoft.azure.management.resources._resource_group9ec3e006
+  spec.java:
+  - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
+    name: Creatable<T>
+    fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
+    href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.resources._resource_group
+    name: ResourceGroup
+    fullName: com.microsoft.azure.management.resources.ResourceGroup
+    href: com.microsoft.azure.management.resources._resource_group.yml
+  - name: ' >'
+    fullName: ' >'
 - uid: "26831127"
   spec.java:
   - name: String
@@ -353,7 +378,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
@@ -364,29 +389,51 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a535ea3d6f4e005835cba686b4464f932
+      description: <p>the name of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a3f14e17bbde49a7c40059ade2f99ddde
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
     return:
-      type: "26831127"
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
       description: <p>the region the resource is in </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a9d6fabd31b26e44c8bf53596eeaf4de3
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.ResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends ResourceImpl< FluentModelT, InnerModelT, FluentModelImplT >.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
+    return:
+      type: "26831127"
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a163ed738de5c807b3ad12e778dc49ab7
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
@@ -585,23 +632,47 @@ references:
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
-  name: GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT>
+  name: GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT,ManagerT,ManagerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl<FluentModelT,InnerModelT,FluentModelImplT,InnerModelT,FluentModelImplT,ManagerT,ManagerT>
   type: Class
   summary: >-
     <p>The implementation for <xref href="com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource" data-throw-if-not-resolved="false"></xref>. (Internal use only)</p>
 
     <p></p>
   syntax: *o1
-- uid: com.microsoft.azure.management.resources.implementation._resource_manager
-  parent: com.microsoft.azure.management.resources.implementation
-  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
-  name: ResourceManager
-  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: ManagerBase
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase
   type: Class
-  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource management. </p>
+  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
   syntax:
-    content: public class ResourceManager
+    content: public class ManagerBase
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  name: Creatable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
+  type: Interface
+  summary: >-
+    <p>The final stage of the resource definition, at which it can be create, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Creatable<T> extends Indexable
+    typeParameters:
+    - type: 8ce1ecb9
+      description: <p>the fluent type of the resource to be created </p>
+- uid: com.microsoft.azure.management.resources._resource_group
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_group.yml
+  name: ResourceGroup
+  fullName: com.microsoft.azure.management.resources.ResourceGroup
+  type: Interface
+  summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource group. </p>
+  syntax:
+    content: public interface ResourceGroup
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
@@ -613,15 +684,6 @@ references:
     return:
       type: "26831127"
       description: <p>the name of the resource group </p>
-- uid: com.microsoft.azure.management.resources._resource_group
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._resource_group.yml
-  name: ResourceGroup
-  fullName: com.microsoft.azure.management.resources.ResourceGroup
-  type: Interface
-  summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource group. </p>
-  syntax:
-    content: public interface ResourceGroup
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

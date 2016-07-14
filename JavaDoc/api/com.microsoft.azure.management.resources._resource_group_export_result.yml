@@ -18,9 +18,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportResult.java
-    startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 14
   package: com.microsoft.azure.management.resources
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> deployment template export result. </p>
   syntax:
@@ -39,14 +37,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportResult.java
-    startLine: 31
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 30
   package: com.microsoft.azure.management.resources
   syntax:
     content: public ResourceManagementErrorWithDetails error()
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_error_with_details
+      type: com.microsoft.azure.management.resources._resource_management_error_with_details
       description: <p>the error, if any. </p>
 - uid: com.microsoft.azure.management.resources._resource_group_export_result_1accba56b555013eb44579ae5daaf6ac1e
   id: _resource_group_export_result_1accba56b555013eb44579ae5daaf6ac1e
@@ -60,9 +56,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportResult.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 20
   package: com.microsoft.azure.management.resources
   syntax:
     content: public Object template()
@@ -81,9 +75,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroupExportResult.java
-    startLine: 26
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 25
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String templateJson()
@@ -126,13 +118,13 @@ references:
     - type: 8ce1ecb9
       description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.implementation._resource_group_export_result_impl
-- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_error_with_details
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._resource_management_error_with_details.yml
+- uid: com.microsoft.azure.management.resources._resource_management_error_with_details
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_management_error_with_details.yml
   name: ResourceManagementErrorWithDetails
-  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementErrorWithDetails
+  fullName: com.microsoft.azure.management.resources.ResourceManagementErrorWithDetails
   type: Class
-  summary: <p>The <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_error_with_details" data-throw-if-not-resolved="false"></xref> model. </p>
+  summary: <p>The <xref href="com.microsoft.azure.management.resources._resource_management_error_with_details" data-throw-if-not-resolved="false"></xref> model. </p>
   syntax:
     content: public class ResourceManagementErrorWithDetails
 - uid: com.microsoft.azure._azure

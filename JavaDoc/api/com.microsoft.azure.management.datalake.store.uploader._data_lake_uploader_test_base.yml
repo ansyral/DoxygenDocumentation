@@ -20,9 +20,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTestBase.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
+    startLine: 19
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public class DataLakeUploaderTestBase
@@ -40,9 +38,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTestBase.java
-    startLine: 26
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
+    startLine: 24
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static void createClients()
@@ -58,9 +54,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTestBase.java
-    startLine: 23
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
+    startLine: 21
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: protected static DataLakeStoreAccountManagementClientImpl dataLakeStoreAccountManagementClient
@@ -78,9 +72,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTestBase.java
-    startLine: 24
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
+    startLine: 22
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: protected static DataLakeStoreFileSystemManagementClientImpl dataLakeStoreFileSystemManagementClient
@@ -98,9 +90,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTestBase.java
-    startLine: 56
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
+    startLine: 51
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public static String generateName(String prefix)
@@ -121,14 +111,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/DataLakeUploaderTestBase.java
-    startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
+    startLine: 20
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: protected static ResourceManagementClientImpl resourceManagementClient
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      type: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
 references:
 - uid: "26831127"
   spec.java:
@@ -142,13 +130,13 @@ references:
   type: Class
   syntax:
     content: public class PerformanceUploadTests
-- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
+- uid: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_management_client_impl.yml
   name: ResourceManagementClientImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class ResourceManagementClientImpl
 - uid: com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633

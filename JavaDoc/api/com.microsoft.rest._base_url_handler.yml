@@ -17,8 +17,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/BaseUrlHandler.java
     startLine: 22
-  assemblies:
-  - com.microsoft.rest
   package: com.microsoft.rest
   summary: '<p>Handles dynamic replacements on base URL. The arguments must be in pairs with the string in raw URL to replace as replacements[i] and the dynamic part as replacements[i+1]. E.g. {subdomain}.microsoft.com can be set dynamically by setting header x-ms-parameterized-host: "{subdomain}, azure" </p>'
   syntax:
@@ -39,8 +37,6 @@ items:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/BaseUrlHandler.java
     startLine: 24
-  assemblies:
-  - com.microsoft.rest
   package: com.microsoft.rest
   syntax:
     content: public Response intercept(Chain chain)

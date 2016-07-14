@@ -4,7 +4,6 @@ items:
   parent: com.microsoft.azure.management.resources.fluentcore.utils
   children:
   - com.microsoft.azure.management.resources.fluentcore.utils._utils_1afefb21b190e498ae1d6ccf716c8fb19b
-  - com.microsoft.azure.management.resources.fluentcore.utils._utils_1a5166dfa026c6e36884bbaea529b7b7de
   - com.microsoft.azure.management.resources.fluentcore.utils._utils_1aad2e10c76f9c80aa8b53c329606da9ac
   - com.microsoft.azure.management.resources.fluentcore.utils._utils_1a3e0c7f24d56935ec4e63b2c5b2a06827
   href: com.microsoft.azure.management.resources.fluentcore.utils._utils.yml
@@ -20,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/Utils.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: <p>Defines a few utilities. </p>
   syntax:
@@ -40,9 +37,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/Utils.java
-    startLine: 75
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
+    startLine: 65
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>Creates a callback returning the inner resource from a fluent model and a void callback, and set the inner on the fluent model.</p>
@@ -60,35 +55,6 @@ items:
     return:
       type: 7f0ff5dacom.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl45954771com.microsoft.rest._service_callback34132889
       description: <p>the inner callback </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.utils._utils_1a5166dfa026c6e36884bbaea529b7b7de
-  id: _utils_1a5166dfa026c6e36884bbaea529b7b7de
-  parent: com.microsoft.azure.management.resources.fluentcore.utils._utils
-  href: com.microsoft.azure.management.resources.fluentcore.utils._utils.yml
-  langs:
-  - java
-  name: randomId(String prefix)
-  fullName: static String com.microsoft.azure.management.resources.fluentcore.utils.Utils.randomId(String prefix)
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/Utils.java
-    startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
-  package: com.microsoft.azure.management.resources.fluentcore.utils
-  summary: >-
-    <p>Generate a random ID from a prefix.</p>
-
-    <p></p>
-  syntax:
-    content: public static String randomId(String prefix)
-    parameters:
-    - id: prefix
-      type: "26831127"
-      description: <p>the prefix for the random value </p>
-    return:
-      type: "26831127"
-      description: <p>a random value with the given prefix </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.utils._utils_1aad2e10c76f9c80aa8b53c329606da9ac
   id: _utils_1aad2e10c76f9c80aa8b53c329606da9ac
   parent: com.microsoft.azure.management.resources.fluentcore.utils._utils
@@ -101,9 +67,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/Utils.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
+    startLine: 22
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>Converts an object Boolean to a primitive boolean.</p>
@@ -133,9 +97,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/utils/Utils.java
-    startLine: 49
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.utils
+    startLine: 39
   package: com.microsoft.azure.management.resources.fluentcore.utils
   summary: >-
     <p>Creates a void callback from a callback that returns another type of instance. This is useful for internal async handoffs where returned resource is stored elsewhere.</p>
@@ -154,10 +116,6 @@ items:
       type: f09ed7bdcom.microsoft.rest._service_callbacke35e5465
       description: <p>the void callback </p>
 references:
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: 866c2227
   spec.java:
   - name: Boolean

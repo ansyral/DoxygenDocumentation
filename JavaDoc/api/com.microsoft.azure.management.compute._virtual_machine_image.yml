@@ -9,7 +9,7 @@ items:
   - com.microsoft.azure.management.compute._virtual_machine_image_1a92dd1374c3598c80d030efa8e0b17f7f
   - com.microsoft.azure.management.compute._virtual_machine_image_1a9be3e95217445a92293fb9cfb4cd271e
   - com.microsoft.azure.management.compute._virtual_machine_image_1ab8a1c46addd0c98564aff87eb2d36653
-  - com.microsoft.azure.management.compute._virtual_machine_image_1acda5a9894759fd08036b38973e8e3b9e
+  - com.microsoft.azure.management.compute._virtual_machine_image_1a4e529a48e08c5850682ee6c9abd2513a
   - com.microsoft.azure.management.compute._virtual_machine_image_1a3815ac4b585db2c5b2d86f3f6b5e24aa
   - com.microsoft.azure.management.compute._virtual_machine_image_1a327968968dee75a3381093e2374d3a13
   href: com.microsoft.azure.management.compute._virtual_machine_image.yml
@@ -24,9 +24,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 17
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 16
   package: com.microsoft.azure.management.compute
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine image. </p>
   syntax:
@@ -45,14 +43,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 62
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 61
   package: com.microsoft.azure.management.compute
   syntax:
     content: public List< DataDiskImage > dataDiskImages()
     return:
-      type: f6a6204dcom.microsoft.azure.management.compute.implementation.api._data_disk_image9ec3e006
+      type: f6a6204dcom.microsoft.azure.management.compute._data_disk_image9ec3e006
       description: <p>description of the Data disk images in the virtual machine. </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_image_1aad84ca61c2cb1c469da7559dce84876b
   id: _virtual_machine_image_1aad84ca61c2cb1c469da7559dce84876b
@@ -66,15 +62,13 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 47
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 46
   package: com.microsoft.azure.management.compute
   syntax:
     content: public ImageReference imageReference()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._image_reference
-      description: <p>The image reference representing publisher, offer, sku and version of the virtual machine image </p>
+      type: com.microsoft.azure.management.compute._image_reference
+      description: <p>the image reference representing publisher, offer, sku and version of the virtual machine image </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_image_1ace40dde2a5292fe6e4072d8fbcbc6e3f
   id: _virtual_machine_image_1ace40dde2a5292fe6e4072d8fbcbc6e3f
   parent: com.microsoft.azure.management.compute._virtual_machine_image
@@ -87,9 +81,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 21
   package: com.microsoft.azure.management.compute
   syntax:
     content: public Region location()
@@ -108,15 +100,13 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 31
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String offer()
     return:
       type: "26831127"
-      description: <p>the name of the virtual machine image offer </p>
+      description: <p>the name of the virtual machine image offer this image is part of </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_image_1a9be3e95217445a92293fb9cfb4cd271e
   id: _virtual_machine_image_1a9be3e95217445a92293fb9cfb4cd271e
   parent: com.microsoft.azure.management.compute._virtual_machine_image
@@ -129,14 +119,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 57
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 56
   package: com.microsoft.azure.management.compute
   syntax:
     content: public OSDiskImage osDiskImage()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._o_s_disk_image
+      type: com.microsoft.azure.management.compute._o_s_disk_image
       description: <p>description of the OS Disk image in the virtual machine image. </p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_image_1ab8a1c46addd0c98564aff87eb2d36653
   id: _virtual_machine_image_1ab8a1c46addd0c98564aff87eb2d36653
@@ -150,33 +138,29 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 52
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 51
   package: com.microsoft.azure.management.compute
   syntax:
     content: public PurchasePlan plan()
     return:
-      type: com.microsoft.azure.management.compute.implementation.api._purchase_plan
+      type: com.microsoft.azure.management.compute._purchase_plan
       description: <p>the purchase plan for the virtual machine image. </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_image_1acda5a9894759fd08036b38973e8e3b9e
-  id: _virtual_machine_image_1acda5a9894759fd08036b38973e8e3b9e
+- uid: com.microsoft.azure.management.compute._virtual_machine_image_1a4e529a48e08c5850682ee6c9abd2513a
+  id: _virtual_machine_image_1a4e529a48e08c5850682ee6c9abd2513a
   parent: com.microsoft.azure.management.compute._virtual_machine_image
   href: com.microsoft.azure.management.compute._virtual_machine_image.yml
   langs:
   - java
-  name: publisher()
-  fullName: String com.microsoft.azure.management.compute.VirtualMachineImage.publisher()
+  name: publisherName()
+  fullName: String com.microsoft.azure.management.compute.VirtualMachineImage.publisherName()
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 27
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 26
   package: com.microsoft.azure.management.compute
   syntax:
-    content: public String publisher()
+    content: public String publisherName()
     return:
       type: "26831127"
       description: <p>the publisher name of the virtual machine image </p>
@@ -192,9 +176,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 37
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 36
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String sku()
@@ -213,9 +195,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImage.java
-    startLine: 42
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 41
   package: com.microsoft.azure.management.compute
   syntax:
     content: public String version()
@@ -227,14 +207,14 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: f6a6204dcom.microsoft.azure.management.compute.implementation.api._data_disk_image9ec3e006
+- uid: f6a6204dcom.microsoft.azure.management.compute._data_disk_image9ec3e006
   spec.java:
   - name: 'List< '
     fullName: 'List< '
-  - uid: com.microsoft.azure.management.compute.implementation.api._data_disk_image
+  - uid: com.microsoft.azure.management.compute._data_disk_image
     name: DataDiskImage
-    fullName: com.microsoft.azure.management.compute.implementation.api.DataDiskImage
-    href: com.microsoft.azure.management.compute.implementation.api._data_disk_image.yml
+    fullName: com.microsoft.azure.management.compute.DataDiskImage
+    href: com.microsoft.azure.management.compute._data_disk_image.yml
   - name: ' >'
     fullName: ' >'
 - uid: com.microsoft.azure.management.resources.fluentcore.model._wrapper_1abc55ed091c6359eabd413c60b0d3c7fb
@@ -273,38 +253,38 @@ references:
   summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
   syntax:
     content: public enum Region
-- uid: com.microsoft.azure.management.compute.implementation.api._image_reference
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._image_reference.yml
+- uid: com.microsoft.azure.management.compute._image_reference
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._image_reference.yml
   name: ImageReference
-  fullName: com.microsoft.azure.management.compute.implementation.api.ImageReference
+  fullName: com.microsoft.azure.management.compute.ImageReference
   type: Class
   summary: <p>The image reference. </p>
   syntax:
     content: public class ImageReference
-- uid: com.microsoft.azure.management.compute.implementation.api._purchase_plan
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._purchase_plan.yml
+- uid: com.microsoft.azure.management.compute._purchase_plan
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._purchase_plan.yml
   name: PurchasePlan
-  fullName: com.microsoft.azure.management.compute.implementation.api.PurchasePlan
+  fullName: com.microsoft.azure.management.compute.PurchasePlan
   type: Class
   summary: <p>Used for establishing the purchase context of any 3rd Party artifact through MarketPlace. </p>
   syntax:
     content: public class PurchasePlan
-- uid: com.microsoft.azure.management.compute.implementation.api._o_s_disk_image
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._o_s_disk_image.yml
+- uid: com.microsoft.azure.management.compute._o_s_disk_image
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._o_s_disk_image.yml
   name: OSDiskImage
-  fullName: com.microsoft.azure.management.compute.implementation.api.OSDiskImage
+  fullName: com.microsoft.azure.management.compute.OSDiskImage
   type: Class
   summary: <p>Contains the os disk image information. </p>
   syntax:
     content: public class OSDiskImage
-- uid: com.microsoft.azure.management.compute.implementation.api._data_disk_image
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._data_disk_image.yml
+- uid: com.microsoft.azure.management.compute._data_disk_image
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._data_disk_image.yml
   name: DataDiskImage
-  fullName: com.microsoft.azure.management.compute.implementation.api.DataDiskImage
+  fullName: com.microsoft.azure.management.compute.DataDiskImage
   type: Class
   summary: <p>Contains the data disk images information. </p>
   syntax:

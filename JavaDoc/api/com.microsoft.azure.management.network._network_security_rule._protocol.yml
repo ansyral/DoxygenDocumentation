@@ -22,9 +22,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 90
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 87
   package: com.microsoft.azure.management.network
   summary: <p>The possible <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> network protocols supported by a network security rule. </p>
   syntax: &o1
@@ -44,9 +42,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 93
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 90
   package: com.microsoft.azure.management.network
   syntax:
     content: public ANY=(SecurityRuleProtocol.ASTERISK)
@@ -62,9 +58,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 110
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 107
   package: com.microsoft.azure.management.network
   summary: <p>Converts the string used by <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> into the corresponding constant, if any. </p>
   syntax:
@@ -88,9 +82,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 95
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 92
   package: com.microsoft.azure.management.network
   syntax:
     content: public final String name
@@ -108,9 +100,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 96
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 93
   package: com.microsoft.azure.management.network
   syntax:
     content: public Protocol(String name)
@@ -129,9 +119,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 91
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 88
   package: com.microsoft.azure.management.network
   syntax:
     content: public TCP=(SecurityRuleProtocol.TCP)
@@ -147,9 +135,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 101
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 98
   package: com.microsoft.azure.management.network
   syntax:
     content: public String toString()
@@ -167,9 +153,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityRule.java
-    startLine: 92
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 89
   package: com.microsoft.azure.management.network
   syntax:
     content: public UDP=(SecurityRuleProtocol.UDP)
@@ -182,13 +166,13 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.azure.management.network.implementation.api._security_rule_protocol_1abdc05ef39d097c4d5259dc8eb3627a5f
-  parent: com.microsoft.azure.management.network.implementation.api._security_rule_protocol
-  href: com.microsoft.azure.management.network.implementation.api._security_rule_protocol.yml
+- uid: com.microsoft.azure.management.network._security_rule_protocol_1af13b0f16593a2a332197dda3ef4ea7bc
+  parent: com.microsoft.azure.management.network._security_rule_protocol
+  href: com.microsoft.azure.management.network._security_rule_protocol.yml
   name: ASTERISK
-  fullName: final String com.microsoft.azure.management.network.implementation.api.SecurityRuleProtocol.ASTERISK
+  fullName: final String com.microsoft.azure.management.network.SecurityRuleProtocol.ASTERISK
   type: Field
-  summary: <p>Static value * for <xref href="com.microsoft.azure.management.network.implementation.api._security_rule_protocol" data-throw-if-not-resolved="false"></xref>. </p>
+  summary: <p>Static value * for <xref href="com.microsoft.azure.management.network._security_rule_protocol" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public static final String ASTERISK= "*"
     return:

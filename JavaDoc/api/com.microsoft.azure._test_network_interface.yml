@@ -19,8 +19,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestNetworkInterface.java
     startLine: 13
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public class TestNetworkInterface extends TestTemplate< NetworkInterface, NetworkInterfaces >
@@ -49,8 +47,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNetworkInterface.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkInterface createResource(NetworkInterfaces networkInterfaces)
@@ -72,8 +68,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNetworkInterface.java
     startLine: 44
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public void print(NetworkInterface resource)
@@ -93,8 +87,6 @@ items:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestNetworkInterface.java
     startLine: 29
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public NetworkInterface updateResource(NetworkInterface resource)
@@ -254,4 +246,4 @@ references:
   type: Interface
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionBlank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionStages.Blank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup

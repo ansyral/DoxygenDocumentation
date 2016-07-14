@@ -45,8 +45,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public class JobScheduleOperations implements IInheritedBehaviors
@@ -66,8 +64,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 172
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void createJobSchedule(JobScheduleAddParameter param)
@@ -87,8 +83,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 176
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void createJobSchedule(JobScheduleAddParameter param, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -110,8 +104,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 160
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void createJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification)
@@ -135,8 +127,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 164
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void createJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -162,8 +152,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 53
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteJobSchedule(String jobScheduleId)
@@ -183,8 +171,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 57
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void deleteJobSchedule(String jobScheduleId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -206,8 +192,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 124
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void disableJobSchedule(String jobScheduleId)
@@ -227,8 +211,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 128
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void disableJobSchedule(String jobScheduleId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -250,8 +232,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 136
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void enableJobSchedule(String jobScheduleId)
@@ -271,8 +251,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 140
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void enableJobSchedule(String jobScheduleId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -294,8 +272,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public boolean existsJobSchedule(String jobScheduleId)
@@ -317,8 +293,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 43
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public boolean existsJobSchedule(String jobScheduleId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -342,8 +316,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 30
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public Collection< BatchClientBehavior > getCustomBehaviors()
@@ -363,8 +335,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 65
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public CloudJobSchedule getJobSchedule(String jobScheduleId)
@@ -386,8 +356,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 69
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public CloudJobSchedule getJobSchedule(String jobScheduleId, DetailLevel detailLevel)
@@ -411,8 +379,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 73
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public CloudJobSchedule getJobSchedule(String jobScheduleId, DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -438,8 +404,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 22
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: JobScheduleOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
@@ -461,8 +425,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 184
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< CloudJobSchedule > listJobSchedules()
@@ -481,8 +443,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 188
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< CloudJobSchedule > listJobSchedules(DetailLevel detailLevel)
@@ -504,8 +464,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 192
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< CloudJobSchedule > listJobSchedules(DetailLevel detailLevel, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -529,8 +487,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 84
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void patchJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification)
@@ -554,8 +510,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 88
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void patchJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification, List< MetadataItem > metadata)
@@ -581,8 +535,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 92
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void patchJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification, List< MetadataItem > metadata, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -610,8 +562,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 35
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void setCustomBehaviors(Collection< BatchClientBehavior > behaviors)
@@ -632,8 +582,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 148
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void terminateJobSchedule(String jobScheduleId)
@@ -653,8 +601,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 152
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void terminateJobSchedule(String jobScheduleId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -676,8 +622,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 104
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification)
@@ -701,8 +645,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 108
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification, List< MetadataItem > metadata)
@@ -728,8 +670,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/JobScheduleOperations.java
     startLine: 112
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void updateJobSchedule(String jobScheduleId, Schedule schedule, JobSpecification jobSpecification, List< MetadataItem > metadata, Iterable< BatchClientBehavior > additionalBehaviors)

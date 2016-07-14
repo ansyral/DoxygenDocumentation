@@ -3,16 +3,16 @@ items:
   id: 3e3691dbc506dc05cb5fc2a957ace38a
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   children:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a3552d86c22ebc490f755686f28519acc
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ae8b4247fba1e2f6725a0cf5438d40173
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a364af74ffc463bb8ba917e3cb01d0e6d
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aee9cb388e67204355fe908880ee8f803
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1af7cafde9ee3d2552471edeb94e43838f
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a922afc2dc4eb49ac7e6ecba771a89b3a
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
-  name: GroupableResourcesImpl<T,ImplT,InnerT,InnerCollectionT>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl<T,ImplT,InnerT,InnerCollectionT>
+  name: GroupableResourcesImpl<T,ImplT,InnerT,InnerCollectionT,ManagerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl<T,ImplT,InnerT,InnerCollectionT,ManagerT>
   type: Class
   source:
     remote: &o0
@@ -20,13 +20,11 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
-    startLine: 25
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+    startLine: 26
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   summary: <p>Base class for resource collection classes. (Internal use only) </p>
   syntax:
-    content: public class GroupableResourcesImpl<T extends GroupableResource,ImplT extends T,InnerT extends Resource,InnerCollectionT> extends WrappersImpl< T, ImplT, InnerT > implements SupportsGettingById< T >,SupportsGettingByGroup< T >
+    content: public class GroupableResourcesImpl<T extends GroupableResource,ImplT extends T,InnerT extends Resource,InnerCollectionT,ManagerT extends ManagerBase> extends CreatableWrappersImpl< T, ImplT, InnerT > implements SupportsGettingById< T >,SupportsGettingByGroup< T >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the individual resource type returned </p>
@@ -36,30 +34,27 @@ items:
       description: <p>the wrapper inner type </p>
     - type: 891f7fcf
       description: <p>the inner type of the collection object </p>
+    - type: 8b0aab42
+      description: <p>the manager type for this resource provider type </p>
   inheritance:
   - java.lang.Object
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937
   inheritedMembers:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a4015815ade62000aea1662cd7746a600
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a3552d86c22ebc490f755686f28519acc
-  id: 3e3691dbc506dc05cb5fc2a957ace38a_1a3552d86c22ebc490f755686f28519acc
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937_1a91ec5d280cb3e39a1511b90617f4678b
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937_1ae1874bd3e62c403033ee0718ee06f9b4
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ae8b4247fba1e2f6725a0cf5438d40173
+  id: 3e3691dbc506dc05cb5fc2a957ace38a_1ae8b4247fba1e2f6725a0cf5438d40173
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
   name: getByGroup(String groupName, String name)
-  fullName: abstract T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.getByGroup(String groupName, String name)
+  fullName: abstract T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT, ManagerT extends ManagerBase >.getByGroup(String groupName, String name)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
-    startLine: 46
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+    startLine: 47
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   summary: >-
     <p>Gets the information about a resource from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> based on the resource name and the name of its resource group.</p>
@@ -83,21 +78,19 @@ items:
     description: <p>exceptions thrown from the cloud. </p>
   - type: cbf33bbe
     description: <p>exceptions thrown from serialization/deserialization. </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
-  id: 3e3691dbc506dc05cb5fc2a957ace38a_1aa7739707807580e30f204882638334e6
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a364af74ffc463bb8ba917e3cb01d0e6d
+  id: 3e3691dbc506dc05cb5fc2a957ace38a_1a364af74ffc463bb8ba917e3cb01d0e6d
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
   name: getById(String id)
-  fullName: final T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.getById(String id)
+  fullName: final T com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT, ManagerT extends ManagerBase >.getById(String id)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
-    startLine: 49
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+    startLine: 50
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   summary: >-
     <p>Gets the information about a resource from <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> based on the resource id.</p>
@@ -120,69 +113,63 @@ items:
     description: <p>exceptions thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exceptions thrown when something is wrong with the input parameters </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
-  id: 3e3691dbc506dc05cb5fc2a957ace38a_1ab269637854e54c3f6971ec48aab60fbc
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1aee9cb388e67204355fe908880ee8f803
+  id: 3e3691dbc506dc05cb5fc2a957ace38a_1aee9cb388e67204355fe908880ee8f803
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
-  name: GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+  name: GroupableResourcesImpl(InnerCollectionT innerCollection, ManagerT manager)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT, ManagerT extends ManagerBase >.GroupableResourcesImpl(InnerCollectionT innerCollection, ManagerT manager)
   type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
-    startLine: 38
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+    startLine: 39
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
-    content: protected GroupableResourcesImpl(ResourceManager resourceManager, InnerCollectionT innerCollection)
+    content: protected GroupableResourcesImpl(InnerCollectionT innerCollection, ManagerT manager)
     parameters:
-    - id: resourceManager
-      type: com.microsoft.azure.management.resources.implementation._resource_manager
     - id: innerCollection
       type: 891f7fcf
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
-  id: 3e3691dbc506dc05cb5fc2a957ace38a_1ac29920e022d14cbb0707e43ecf0c93a9
+    - id: manager
+      type: 8b0aab42
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1af7cafde9ee3d2552471edeb94e43838f
+  id: 3e3691dbc506dc05cb5fc2a957ace38a_1af7cafde9ee3d2552471edeb94e43838f
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
   name: innerCollection
-  fullName: final InnerCollectionT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.innerCollection
+  fullName: final InnerCollectionT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT, ManagerT extends ManagerBase >.innerCollection
   type: Field
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
-    startLine: 36
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+    startLine: 37
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected final InnerCollectionT innerCollection
     return:
       type: 5cd01b93
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
-  id: 3e3691dbc506dc05cb5fc2a957ace38a_1a46b8bd50cd5da22d4cdb9544fbfa1f13
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a_1a922afc2dc4eb49ac7e6ecba771a89b3a
+  id: 3e3691dbc506dc05cb5fc2a957ace38a_1a922afc2dc4eb49ac7e6ecba771a89b3a
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.3e3691dbc506dc05cb5fc2a957ace38a.yml
   langs:
   - java
-  name: resourceManager
-  fullName: final ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT >.resourceManager
+  name: myManager
+  fullName: final ManagerT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.GroupableResourcesImpl< T extends GroupableResource, ImplT extends T, InnerT extends Resource, InnerCollectionT, ManagerT extends ManagerBase >.myManager
   type: Field
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/collection/implementation/GroupableResourcesImpl.java
-    startLine: 35
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
+    startLine: 38
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
-    content: protected final ResourceManager resourceManager
+    content: protected final ManagerT myManager
     return:
-      type: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+      type: 6535286a
 references:
 - uid: 8ce1ecb9
   spec.java:
@@ -200,18 +187,18 @@ references:
   spec.java:
   - name: InnerCollectionT
     fullName: InnerCollectionT
-- uid: 93de0ef9com.microsoft.azure.management.resources.implementation._resource_manager
+- uid: 8b0aab42
   spec.java:
-  - name: 'final '
-    fullName: 'final '
-  - uid: com.microsoft.azure.management.resources.implementation._resource_manager
-    name: ResourceManager
-    fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
-    href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
+  - name: ManagerT
+    fullName: ManagerT
 - uid: 5cd01b93
   spec.java:
   - name: final InnerCollectionT
     fullName: final InnerCollectionT
+- uid: 6535286a
+  spec.java:
+  - name: final ManagerT
+    fullName: final ManagerT
 - uid: cbf33bbe
   spec.java:
   - name: IOException
@@ -232,37 +219,19 @@ references:
   spec.java:
   - name: final T
     fullName: final T
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1addbef0334e3dce15a1267590f08fa8c7
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
-  name: wrapList(PagedList< InnerT > pagedList)
-  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(PagedList< InnerT > pagedList)
-  type: Method
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937_1a91ec5d280cb3e39a1511b90617f4678b
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937.yml
+  name: CreatableWrappersImpl()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.CreatableWrappersImpl< T, ImplT extends T, InnerT >.CreatableWrappersImpl()
+  type: Constructor
   syntax:
-    content: protected PagedList< T > wrapList(PagedList< InnerT > pagedList)
-    parameters:
-    - id: pagedList
-      type: com.microsoft.azure._paged_list5b074597
-    return:
-      type: com.microsoft.azure._paged_list34132889
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a3870c382c37469b79ee8197bef1f42ef
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
-  name: wrapList(List< InnerT > list)
-  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapList(List< InnerT > list)
-  type: Method
-  syntax:
-    content: protected PagedList< T > wrapList(List< InnerT > list)
-    parameters:
-    - id: list
-      type: c2cb7003
-    return:
-      type: com.microsoft.azure._paged_list34132889
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a4015815ade62000aea1662cd7746a600
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
+    content: protected CreatableWrappersImpl()
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937_1ae1874bd3e62c403033ee0718ee06f9b4
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937.yml
   name: wrapModel(String name)
-  fullName: abstract ImplT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapModel(String name)
+  fullName: abstract ImplT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.CreatableWrappersImpl< T, ImplT extends T, InnerT >.wrapModel(String name)
   type: Method
   syntax:
     content: protected abstract ImplT wrapModel(String name)
@@ -271,36 +240,15 @@ references:
       type: "26831127"
     return:
       type: afe49e45
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1acdd5ca069ad4c825f8e1b29b7fc3672e
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
-  name: wrapModel(InnerT inner)
-  fullName: abstract ImplT com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.wrapModel(InnerT inner)
-  type: Method
-  syntax:
-    content: protected abstract ImplT wrapModel(InnerT inner)
-    parameters:
-    - id: inner
-      type: 52cf8095
-    return:
-      type: afe49e45
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b_1a6e718d367762d15e80f1060f3e4d9d87
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
-  name: WrappersImpl()
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl< T, ImplT extends T, InnerT >.WrappersImpl()
-  type: Constructor
-  syntax:
-    content: protected WrappersImpl()
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
-  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.a1ab8216024e80cc986a9c551e30058b.yml
-  name: WrappersImpl<T,ImplT,InnerT>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.WrappersImpl<T,ImplT,InnerT>
+  href: com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937.yml
+  name: CreatableWrappersImpl<T,ImplT,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation.CreatableWrappersImpl<T,ImplT,InnerT>
   type: Class
-  summary: <p>Base class for wrapper collections. (Internal use only) </p>
+  summary: <p>Base class for creatable wrapper collections, i.e. those where a new member of the collection can be created. (Internal use only) </p>
   syntax:
-    content: public class WrappersImpl<T,ImplT extends T,InnerT>
+    content: public class CreatableWrappersImpl<T,ImplT extends T,InnerT> extends ReadableWrappersImpl< T, ImplT, InnerT >
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the individual resource type returned </p>
@@ -366,15 +314,15 @@ references:
   summary: <p>The <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> model. </p>
   syntax:
     content: public class Resource
-- uid: com.microsoft.azure.management.resources.implementation._resource_manager
-  parent: com.microsoft.azure.management.resources.implementation
-  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
-  name: ResourceManager
-  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: ManagerBase
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase
   type: Class
-  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource management. </p>
+  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
   syntax:
-    content: public class ResourceManager
+    content: public class ManagerBase
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group_1a89ed42534b4970969dbc555a6f207dc7
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_group.yml

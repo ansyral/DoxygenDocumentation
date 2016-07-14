@@ -19,9 +19,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineNics.java
-    startLine: 16
-  assemblies:
-  - com.microsoft.azure
+    startLine: 24
   package: com.microsoft.azure
   syntax:
     content: public class TestVirtualMachineNics extends TestTemplate< VirtualMachine, VirtualMachines >
@@ -49,9 +47,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineNics.java
-    startLine: 30
-  assemblies:
-  - com.microsoft.azure
+    startLine: 38
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachine createResource(VirtualMachines virtualMachines)
@@ -72,9 +68,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineNics.java
-    startLine: 93
-  assemblies:
-  - com.microsoft.azure
+    startLine: 111
   package: com.microsoft.azure
   syntax:
     content: public void print(VirtualMachine virtualMachine)
@@ -93,9 +87,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineNics.java
-    startLine: 21
-  assemblies:
-  - com.microsoft.azure
+    startLine: 29
   package: com.microsoft.azure
   syntax:
     content: public TestVirtualMachineNics(ResourceGroups resourceGroups, Networks networks, NetworkInterfaces networkInterfaces)
@@ -118,9 +110,7 @@ items:
   source:
     remote: *o0
     path: azure/src/test/java/com/microsoft/azure/TestVirtualMachineNics.java
-    startLine: 82
-  assemblies:
-  - com.microsoft.azure
+    startLine: 100
   package: com.microsoft.azure
   syntax:
     content: public VirtualMachine updateResource(VirtualMachine virtualMachine)
@@ -268,7 +258,7 @@ references:
   type: Interface
   summary: <p>Entry point to network interface management. </p>
   syntax:
-    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionBlank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface NetworkInterfaces extends SupportsCreating< NetworkInterface.DefinitionStages.Blank >,SupportsListing< NetworkInterface >,SupportsListingByGroup< NetworkInterface >,SupportsGettingByGroup< NetworkInterface >,SupportsGettingById< NetworkInterface >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.network._networks
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._networks.yml
@@ -277,7 +267,7 @@ references:
   type: Interface
   summary: <p>Entry point to virtual network management API in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
-    content: public interface Networks extends SupportsCreating< Network.DefinitionBlank >,SupportsListing< Network >,SupportsListingByGroup< Network >,SupportsGettingByGroup< Network >,SupportsGettingById< Network >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface Networks extends SupportsCreating< Network.DefinitionStages.Blank >,SupportsListing< Network >,SupportsListingByGroup< Network >,SupportsGettingByGroup< Network >,SupportsGettingById< Network >,SupportsDeleting,SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.resources._resource_groups
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._resource_groups.yml

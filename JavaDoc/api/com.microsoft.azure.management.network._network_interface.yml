@@ -30,8 +30,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 24
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
     <p>
@@ -45,7 +43,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afdd966bac617d2897d86aff960c9acb5
   - com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
-  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1af7aead2ce26c788d572d253246938b67
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
@@ -63,14 +62,12 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 63
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public List< String > dnsServers()
     return:
       type: f35af49b
-      description: <p>IP addresses this network interface's DNS servers </p>
+      description: <p>IP addresses of this network interface's DNS servers </p>
 - uid: com.microsoft.azure.management.network._network_interface_1a4d39e153435e85e1110bd82fe99fc9c7
   id: _network_interface_1a4d39e153435e85e1110bd82fe99fc9c7
   parent: com.microsoft.azure.management.network._network_interface
@@ -84,8 +81,6 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 49
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public String internalDnsNameLabel()
@@ -105,13 +100,11 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 58
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
     <p>Gets the fully qualified domain name of this network interface. </p>
 
-    <p>a network interface receives FQDN as a part of assigning it to a virtual machine</p>
+    <p>A network interface receives FQDN as a part of assigning it to a virtual machine.</p>
 
     <p></p>
   syntax:
@@ -131,15 +124,13 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
-    startLine: 109
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 110
   package: com.microsoft.azure.management.network
   syntax:
     content: public List< NicIpConfiguration > ipConfigurations()
     return:
       type: f6a6204dcom.microsoft.azure.management.network._nic_ip_configuration9ec3e006
-      description: <p>the Ip configurations of this network interface </p>
+      description: <p>the IP configurations of this network interface </p>
 - uid: com.microsoft.azure.management.network._network_interface_1af2fc18334bc1a2c66b497c25e5a641ef
   id: _network_interface_1af2fc18334bc1a2c66b497c25e5a641ef
   parent: com.microsoft.azure.management.network._network_interface
@@ -153,8 +144,6 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 33
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public boolean isIpForwardingEnabled()
@@ -177,8 +166,6 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 38
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public boolean isPrimary()
@@ -201,8 +188,6 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 43
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public String macAddress()
@@ -221,14 +206,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
-    startLine: 125
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 127
   package: com.microsoft.azure.management.network
   summary: >-
     <p>Gets the network security group associated this network interface. </p>
 
-    <p>note that this method makes a rest API call to fetch the <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Security Group resource</p>
+    <p>This method makes a rest API call to fetch the <xref href="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false"></xref> Security Group resource.</p>
 
     <p></p>
   syntax:
@@ -253,15 +236,13 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
-    startLine: 114
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 116
   package: com.microsoft.azure.management.network
   syntax:
     content: public String networkSecurityGroupId()
     return:
       type: "26831127"
-      description: <p>the resource id of the network security group associated with this network interface. </p>
+      description: <p>the network security group resource id or null if there is no network security group associated with this network interface. </p>
 - uid: com.microsoft.azure.management.network._network_interface_1a4faedf771e8f9f633fad870d4a717eac
   id: _network_interface_1a4faedf771e8f9f633fad870d4a717eac
   parent: com.microsoft.azure.management.network._network_interface
@@ -275,13 +256,11 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 90
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
-    <p>Gets the virtual network associated this network interface's primary Ip configuration. </p>
+    <p>Gets the virtual network associated this network interface's primary IP configuration. </p>
 
-    <p>note that this method makes a rest API call to fetch the public IP</p>
+    <p>This method makes a rest API call to fetch the virtual network.</p>
 
     <p></p>
   syntax:
@@ -307,13 +286,11 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 99
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
-    <p>Gets the private IP address allocated to this network interface's primary Ip configuration. </p>
+    <p>Gets the private IP address allocated to this network interface's primary IP configuration. </p>
 
-    <p>the private IP will be within the virtual network subnet of this network interface.</p>
+    <p>The private IP will be within the virtual network subnet of this network interface.</p>
 
     <p></p>
   syntax:
@@ -333,15 +310,13 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
-    startLine: 104
-  assemblies:
-  - com.microsoft.azure.management.network
+    startLine: 105
   package: com.microsoft.azure.management.network
   syntax:
     content: public String primaryPrivateIpAllocationMethod()
     return:
       type: "26831127"
-      description: <p>the private IP allocation method (Dynamic, Static) of this network interface's primary Ip configuration. </p>
+      description: <p>the private IP allocation method (Dynamic, Static) of this network interface's primary IP configuration. </p>
 - uid: com.microsoft.azure.management.network._network_interface_1af5ddc63f4103ac10022e665522634918
   id: _network_interface_1af5ddc63f4103ac10022e665522634918
   parent: com.microsoft.azure.management.network._network_interface
@@ -355,13 +330,11 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 74
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   summary: >-
     <p>Gets the public IP address associated with this network interface. </p>
 
-    <p>note that this method makes a rest API call to fetch the public IP</p>
+    <p>This method makes a rest API call to fetch the public IP.</p>
 
     <p></p>
   syntax:
@@ -387,8 +360,6 @@ items:
     remote: *o0
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkInterface.java
     startLine: 79
-  assemblies:
-  - com.microsoft.azure.management.network
   package: com.microsoft.azure.management.network
   syntax:
     content: public String primarySubnetId()
@@ -465,7 +436,7 @@ references:
     content: public String name()
     return:
       type: "26831127"
-      description: <p>the name of the reosurce </p>
+      description: <p>the name of the resource </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable_1a86e8da9083eaa04ff3853c646d5a6f31
   parent: com.microsoft.azure.management.resources.fluentcore.model._refreshable
   href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
@@ -481,17 +452,28 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the refreshed resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1ad2e37f2029fc8ce3f37706441475e0ac
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1afbab796e65df223164941a87ba6b077e
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
   name: region()
-  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  fullName: Region com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
   type: Method
   syntax:
-    content: public String region()
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
+  name: regionName()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
     return:
       type: "26831127"
-      description: <p>the region the resource is in </p>
+      description: <p>the name of the region the resource is in </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource_1aedc90848e108aa77cf855af6d491b5d6
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._groupable_resource.yml
@@ -630,7 +612,7 @@ references:
   name: NicIpConfiguration
   fullName: com.microsoft.azure.management.network.NicIpConfiguration
   type: Interface
-  summary: <p>An Ip configuration in a network interface. </p>
+  summary: <p>An IP configuration in a network interface. </p>
   syntax:
     content: public interface NicIpConfiguration
 - uid: com.microsoft.azure.management.network._network_security_group

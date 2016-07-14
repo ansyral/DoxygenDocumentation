@@ -20,8 +20,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchClientParallelOptions.java
     startLine: 10
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax: &o1
     content: public class BatchClientParallelOptions extends BatchClientBehavior
@@ -41,8 +39,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchClientParallelOptions.java
     startLine: 31
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public BatchClientParallelOptions()
@@ -59,8 +55,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchClientParallelOptions.java
     startLine: 35
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public BatchClientParallelOptions(int maxDegreeOfParallelism)
@@ -80,8 +74,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchClientParallelOptions.java
     startLine: 18
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   summary: <p>Gets or sets the maximum number of concurrent tasks enabled by this <xref href="com.microsoft.azure.batch.interceptor._batch_client_parallel_options" data-throw-if-not-resolved="false"></xref> instance. The default value is 1. </p>
   syntax:
@@ -101,8 +93,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/BatchClientParallelOptions.java
     startLine: 22
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public void setMaxDegreeOfParallelism(int maxDegreeOfParallelism)

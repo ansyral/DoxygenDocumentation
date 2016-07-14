@@ -18,8 +18,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Appliable.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>The base interface for all template interfaces that support update operations.</p>
@@ -45,8 +43,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Appliable.java
     startLine: 23
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>Execute the update request.</p>
@@ -73,8 +69,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Appliable.java
     startLine: 31
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>Execute the update request asynchronously.</p>
@@ -145,7 +139,7 @@ references:
   fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
   type: Interface
   summary: >-
-    <p>The template for a virtual machine update operation, containing all the settings that can be modified. </p>
+    <p>The template for an update operation, containing all the settings that can be modified. </p>
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
@@ -169,7 +163,7 @@ references:
   fullName: com.microsoft.azure.management.network.NetworkInterface.Update
   type: Interface
   summary: >-
-    <p>The template for a network interface update operation, containing all the settings that can be modified. </p>
+    <p>The template for an update operation, containing all the settings that can be modified. </p>
 
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
@@ -193,9 +187,9 @@ references:
   fullName: com.microsoft.azure.management.network.PublicIpAddress.Update
   type: Interface
   summary: >-
-    <p>The template for a public IP address update operation, containing all the settings that can be modified. </p>
+    <p>Container interface for all the updates. </p>
 
-    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+    <p>Use <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable_1a644f6f9ad9fb815ebc68becb7a5e3406" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.resources._deployment._update

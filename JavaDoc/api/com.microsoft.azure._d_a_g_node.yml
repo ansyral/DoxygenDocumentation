@@ -10,8 +10,10 @@ items:
   - com.microsoft.azure._d_a_g_node_1a7b15a2462b2f5afec401720afd0f0612
   - com.microsoft.azure._d_a_g_node_1a829c0308e301a1c8c5602ca290404d74
   - com.microsoft.azure._d_a_g_node_1a616a7a833bd3f3726dfbaeac1989c279
-  - com.microsoft.azure._d_a_g_node_1acd4b188dc187337b28b22eaa42137f05
+  - com.microsoft.azure._d_a_g_node_1a4e2e3c28096a0d9310d1f31c07d78f56
+  - com.microsoft.azure._d_a_g_node_1a84bf95adfcfcf6fb8d88d866b09e729f
   - com.microsoft.azure._d_a_g_node_1af8b8b1a36c83c73603cbc2b00d3e1405
+  - com.microsoft.azure._d_a_g_node_1ad381c85d3f60dfa953906af32a854aec
   href: com.microsoft.azure._d_a_g_node.yml
   langs:
   - java
@@ -24,9 +26,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 17
-  assemblies:
-  - com.microsoft.azure
+    startLine: 18
   package: com.microsoft.azure
   summary: >-
     <p>The type representing node in a <xref href="com.microsoft.azure._d_a_graph" data-throw-if-not-resolved="false"></xref>.</p>
@@ -59,12 +59,10 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 60
-  assemblies:
-  - com.microsoft.azure
+    startLine: 62
   package: com.microsoft.azure
   summary: >-
-    <p>mark the node identified by the given key as this node's dependency.</p>
+    <p>Mark the node identified by the given key as this node's dependency.</p>
 
     <p></p>
   syntax:
@@ -85,12 +83,10 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 44
-  assemblies:
-  - com.microsoft.azure
+    startLine: 46
   package: com.microsoft.azure
   summary: >-
-    <p>mark the node identified by the given key as dependent of this node.</p>
+    <p>Mark the node identified by the given key as dependent of this node.</p>
 
     <p></p>
   syntax:
@@ -111,9 +107,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 27
-  assemblies:
-  - com.microsoft.azure
+    startLine: 29
   package: com.microsoft.azure
   summary: >-
     <p>Creates a DAG node.</p>
@@ -140,9 +134,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 51
-  assemblies:
-  - com.microsoft.azure
+    startLine: 53
   package: com.microsoft.azure
   syntax:
     content: public List< String > dependencyKeys()
@@ -161,9 +153,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 35
-  assemblies:
-  - com.microsoft.azure
+    startLine: 37
   package: com.microsoft.azure
   syntax:
     content: List< String > dependentKeys()
@@ -182,9 +172,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 81
-  assemblies:
-  - com.microsoft.azure
+    startLine: 100
   package: com.microsoft.azure
   syntax:
     content: boolean hasAllResolved()
@@ -206,9 +194,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 67
-  assemblies:
-  - com.microsoft.azure
+    startLine: 69
   package: com.microsoft.azure
   syntax:
     content: public boolean hasDependencies()
@@ -218,25 +204,45 @@ items:
         <p>
 
           <code>true</code> if this node has any dependency </p>
-- uid: com.microsoft.azure._d_a_g_node_1acd4b188dc187337b28b22eaa42137f05
-  id: _d_a_g_node_1acd4b188dc187337b28b22eaa42137f05
+- uid: com.microsoft.azure._d_a_g_node_1a4e2e3c28096a0d9310d1f31c07d78f56
+  id: _d_a_g_node_1a4e2e3c28096a0d9310d1f31c07d78f56
   parent: com.microsoft.azure._d_a_g_node
   href: com.microsoft.azure._d_a_g_node.yml
   langs:
   - java
-  name: prepare()
-  fullName: void com.microsoft.azure.DAGNode< T >.prepare()
+  name: initialize()
+  fullName: void com.microsoft.azure.DAGNode< T >.initialize()
   type: Method
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 74
-  assemblies:
-  - com.microsoft.azure
+    startLine: 92
   package: com.microsoft.azure
-  summary: <p>prepare the node for traversal. </p>
+  summary: <p>Initialize the node so that traversal can be performed on the parent DAG. </p>
   syntax:
-    content: public void prepare()
+    content: public void initialize()
+- uid: com.microsoft.azure._d_a_g_node_1a84bf95adfcfcf6fb8d88d866b09e729f
+  id: _d_a_g_node_1a84bf95adfcfcf6fb8d88d866b09e729f
+  parent: com.microsoft.azure._d_a_g_node
+  href: com.microsoft.azure._d_a_g_node.yml
+  langs:
+  - java
+  name: isPreparer()
+  fullName: boolean com.microsoft.azure.DAGNode< T >.isPreparer()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
+    startLine: 85
+  package: com.microsoft.azure
+  syntax:
+    content: public boolean isPreparer()
+    return:
+      type: 4fc6e284
+      description: >-
+        <p>
+
+          <code>true</code> if this node is marked as preparer </p>
 - uid: com.microsoft.azure._d_a_g_node_1af8b8b1a36c83c73603cbc2b00d3e1405
   id: _d_a_g_node_1af8b8b1a36c83c73603cbc2b00d3e1405
   parent: com.microsoft.azure._d_a_g_node
@@ -249,9 +255,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
-    startLine: 90
-  assemblies:
-  - com.microsoft.azure
+    startLine: 109
   package: com.microsoft.azure
   summary: >-
     <p>Reports that one of this node's dependency has been resolved and ready to be consumed.</p>
@@ -263,6 +267,33 @@ items:
     - id: dependencyKey
       type: "26831127"
       description: <p>the id of the dependency node </p>
+- uid: com.microsoft.azure._d_a_g_node_1ad381c85d3f60dfa953906af32a854aec
+  id: _d_a_g_node_1ad381c85d3f60dfa953906af32a854aec
+  parent: com.microsoft.azure._d_a_g_node
+  href: com.microsoft.azure._d_a_g_node.yml
+  langs:
+  - java
+  name: setPreparer(boolean isPreparer)
+  fullName: void com.microsoft.azure.DAGNode< T >.setPreparer(boolean isPreparer)
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/DAGNode.java
+    startLine: 78
+  package: com.microsoft.azure
+  summary: >-
+    <p>Mark or un-mark this node as preparer.</p>
+
+    <p></p>
+  syntax:
+    content: public void setPreparer(boolean isPreparer)
+    parameters:
+    - id: isPreparer
+      type: 4fc6e284
+      description: >-
+        <p>
+
+          <code>true</code> if this node needs to be marked as preparer, <code>false</code> otherwise. </p>
 references:
 - uid: 8ce1ecb9
   spec.java:

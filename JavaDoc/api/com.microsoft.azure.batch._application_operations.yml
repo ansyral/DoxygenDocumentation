@@ -23,8 +23,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 21
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public class ApplicationOperations implements IInheritedBehaviors
@@ -44,8 +42,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 23
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: ApplicationOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
@@ -67,8 +63,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 58
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ApplicationSummary getApplication(String applicationId)
@@ -90,8 +84,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 62
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public ApplicationSummary getApplication(String applicationId, Iterable< BatchClientBehavior > additionalBehaviors)
@@ -115,8 +107,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 35
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public Collection< BatchClientBehavior > getCustomBehaviors()
@@ -136,8 +126,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 44
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< ApplicationSummary > listApplications()
@@ -156,8 +144,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 48
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public List< ApplicationSummary > listApplications(Iterable< BatchClientBehavior > additionalBehaviors)
@@ -179,8 +165,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
     startLine: 40
-  assemblies:
-  - com.microsoft.azure.batch
   package: com.microsoft.azure.batch
   syntax:
     content: public void setCustomBehaviors(Collection< BatchClientBehavior > behaviors)

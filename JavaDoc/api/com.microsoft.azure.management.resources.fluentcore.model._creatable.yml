@@ -18,8 +18,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Creatable.java
     startLine: 16
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>The final stage of the resource definition, at which it can be create, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>.</p>
@@ -45,8 +43,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Creatable.java
     startLine: 23
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>Execute the create request.</p>
@@ -73,8 +69,6 @@ items:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Creatable.java
     startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.model
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
@@ -126,72 +120,72 @@ references:
   summary: <p>Base interface for all models that can be indexed by a key. </p>
   syntax:
     content: public interface Indexable
-- uid: com.microsoft.azure.management.compute._availability_set._definition_creatable
+- uid: com.microsoft.azure.management.compute._availability_set._definition_stages._with_create
   parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._availability_set._definition_creatable.yml
-  name: AvailabilitySet.DefinitionCreatable
-  fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionCreatable
+  href: com.microsoft.azure.management.compute._availability_set._definition_stages._with_create.yml
+  name: AvailabilitySet.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithCreate
   type: Interface
   summary: <p>The stage of an availability set definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.compute._virtual_machine._definition_creatable
+    content: public interface WithCreate
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_create
   parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._virtual_machine._definition_creatable.yml
-  name: VirtualMachine.DefinitionCreatable
-  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionCreatable
+  href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_create.yml
+  name: VirtualMachine.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the virtual machine definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._network._definition_creatable
+    content: public interface WithCreate
+- uid: com.microsoft.azure.management.network._network._definition_stages._with_create
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_creatable.yml
-  name: Network.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.Network.DefinitionCreatable
+  href: com.microsoft.azure.management.network._network._definition_stages._with_create.yml
+  name: Network.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithCreate
   type: Interface
   summary: >-
     <p>The stage of the virtual network definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified, except for adding subnets. </p>
 
-    <p>Subnets can be added only right after the address space is explicitly specified (see <ref refid="" kindref="compound">DefinitionWithAddressSpace#withAddressSpace(String)).</ref></p>
+    <p>Subnets can be added only right after the address space is explicitly specified (see <xref href="com.microsoft.azure.management.network._network._definition_stages._with_create_1aa2997b6a69591b03df8ebd1a54f2422a" data-throw-if-not-resolved="false"></xref>). </p>
   syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._network_interface._definition_creatable
+    content: public interface WithCreate
+- uid: com.microsoft.azure.management.network._network_interface._definition_stages._with_create
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_creatable.yml
-  name: NetworkInterface.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionCreatable
+  href: com.microsoft.azure.management.network._network_interface._definition_stages._with_create.yml
+  name: NetworkInterface.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
   type: Interface
   summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._network_security_group._definition_creatable
+    content: public interface WithCreate
+- uid: com.microsoft.azure.management.network._network_security_group._definition_stages._with_create
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_group._definition_creatable.yml
-  name: NetworkSecurityGroup.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionCreatable
+  href: com.microsoft.azure.management.network._network_security_group._definition_stages._with_create.yml
+  name: NetworkSecurityGroup.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages.WithCreate
   type: Interface
   summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.network._public_ip_address._definition_creatable
+    content: public interface WithCreate
+- uid: com.microsoft.azure.management.network._public_ip_address._definition_stages._with_create
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition_creatable.yml
-  name: PublicIpAddress.DefinitionCreatable
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionCreatable
+  href: com.microsoft.azure.management.network._public_ip_address._definition_stages._with_create.yml
+  name: PublicIpAddress.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionStages.WithCreate
   type: Interface
   summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
-    content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.resources._deployment._definition_creatable
+    content: public interface WithCreate
+- uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_create
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._definition_creatable.yml
-  name: Deployment.DefinitionCreatable
-  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionCreatable
+  href: com.microsoft.azure.management.resources._deployment._definition_stages._with_create.yml
+  name: Deployment.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
   type: Interface
   summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface WithCreate
 - uid: com.microsoft.azure.management.resources._generic_resource._definition_creatable
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource._definition_creatable.yml
@@ -210,15 +204,15 @@ references:
   summary: <p>A resource group definition with sufficient inputs to create a new resource group in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
     content: public interface DefinitionCreatable
-- uid: com.microsoft.azure.management.storage._storage_account._definition_creatable
+- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._with_create
   parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_creatable.yml
-  name: StorageAccount.DefinitionCreatable
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionCreatable
+  href: com.microsoft.azure.management.storage._storage_account._definition_stages._with_create.yml
+  name: StorageAccount.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate
   type: Interface
   summary: <p>A storage account definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionCreatable
+    content: public interface WithCreate
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

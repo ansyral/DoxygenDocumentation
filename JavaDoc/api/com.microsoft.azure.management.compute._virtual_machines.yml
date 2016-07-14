@@ -3,14 +3,13 @@ items:
   id: _virtual_machines
   parent: com.microsoft.azure.management.compute
   children:
-  - com.microsoft.azure.management.compute._virtual_machines_1afd3d9f0c4805f4251065c274c77d31ef
-  - com.microsoft.azure.management.compute._virtual_machines_1a9c4edbec94b638b683249be80ae8bd8e
   - com.microsoft.azure.management.compute._virtual_machines_1a110853e321cca25b92506d969168cba1
   - com.microsoft.azure.management.compute._virtual_machines_1ae2e002a6e2a1bcba7199b2905a480a6a
   - com.microsoft.azure.management.compute._virtual_machines_1adb7815826603339f77c2524b892e58db
   - com.microsoft.azure.management.compute._virtual_machines_1a54b9bfd14dea233b8d8dad01cca6e074
   - com.microsoft.azure.management.compute._virtual_machines_1ac33710deb86d1347cf9a69a146ce465b
   - com.microsoft.azure.management.compute._virtual_machines_1af6ac910def6b78065f08cb16f746b20d
+  - com.microsoft.azure.management.compute._virtual_machines_1abfae4eb76da016c6d39bb72787f3a286
   - com.microsoft.azure.management.compute._virtual_machines_1aa22ce468aa4f374e302519312da813b8
   href: com.microsoft.azure.management.compute._virtual_machines.yml
   langs:
@@ -24,13 +23,11 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 18
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 16
   package: com.microsoft.azure.management.compute
   summary: <p>Entry point to virtual machine management API. </p>
   syntax:
-    content: public interface VirtualMachines extends SupportsListing< VirtualMachine >,SupportsListingByGroup< VirtualMachine >,SupportsGettingByGroup< VirtualMachine >,SupportsGettingById< VirtualMachine >,SupportsCreating< VirtualMachine.DefinitionBlank >,SupportsDeleting,SupportsDeletingByGroup
+    content: public interface VirtualMachines extends SupportsListing< VirtualMachine >,SupportsListingByGroup< VirtualMachine >,SupportsGettingByGroup< VirtualMachine >,SupportsGettingById< VirtualMachine >,SupportsCreating< VirtualMachine.DefinitionStages.Blank >,SupportsDeleting,SupportsDeletingByGroup
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_creating_1acb4b91b4df30a078fe433602c8ba2a57
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_deleting_1ad910b873cf428629967344590e65ad57
@@ -39,74 +36,6 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_getting_by_id_1aa29af283908f5df0042793462b18b1f0
   - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_1a6869e882cc0be87969bc296e5bbd0851
   - com.microsoft.azure.management.resources.fluentcore.arm.collection._supports_listing_by_group_1aa411d59008350a5c3e77cafd58f67f93
-- uid: com.microsoft.azure.management.compute._virtual_machines_1afd3d9f0c4805f4251065c274c77d31ef
-  id: _virtual_machines_1afd3d9f0c4805f4251065c274c77d31ef
-  parent: com.microsoft.azure.management.compute._virtual_machines
-  href: com.microsoft.azure.management.compute._virtual_machines.yml
-  langs:
-  - java
-  name: availableSizesByRegion(Region region)
-  fullName: PagedList<VirtualMachineSize> com.microsoft.azure.management.compute.VirtualMachines.availableSizesByRegion(Region region)
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 44
-  assemblies:
-  - com.microsoft.azure.management.compute
-  package: com.microsoft.azure.management.compute
-  summary: >-
-    <p>Lists all available virtual machine sizes in a region.</p>
-
-    <p></p>
-  syntax:
-    content: public PagedList< VirtualMachineSize > availableSizesByRegion(Region region)
-    parameters:
-    - id: region
-      type: com.microsoft.azure.management.resources.fluentcore.arm._region
-      description: <p>The <ref refid="" kindref="compound">Region</ref> upon which virtual-machine-sizes is queried. </p>
-    return:
-      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._virtual_machine_size9ec3e006
-      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute._virtual_machine_size" data-throw-if-not-resolved="false"></xref>&gt; if successful. </p>
-  exceptions:
-  - type: com.microsoft.azure._cloud_exception
-    description: <p>thrown for an invalid response from the service. </p>
-  - type: cbf33bbe
-    description: <p>thrown for IO exception. </p>
-- uid: com.microsoft.azure.management.compute._virtual_machines_1a9c4edbec94b638b683249be80ae8bd8e
-  id: _virtual_machines_1a9c4edbec94b638b683249be80ae8bd8e
-  parent: com.microsoft.azure.management.compute._virtual_machines
-  href: com.microsoft.azure.management.compute._virtual_machines.yml
-  langs:
-  - java
-  name: availableSizesByRegion(String region)
-  fullName: PagedList<VirtualMachineSize> com.microsoft.azure.management.compute.VirtualMachines.availableSizesByRegion(String region)
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.compute
-  package: com.microsoft.azure.management.compute
-  summary: >-
-    <p>Lists all available virtual machine sizes in a region.</p>
-
-    <p></p>
-  syntax:
-    content: public PagedList< VirtualMachineSize > availableSizesByRegion(String region)
-    parameters:
-    - id: region
-      type: "26831127"
-      description: <p>The region upon which virtual-machine-sizes is queried. </p>
-    return:
-      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._virtual_machine_size9ec3e006
-      description: <p>the List&lt;<xref href="com.microsoft.azure.management.compute._virtual_machine_size" data-throw-if-not-resolved="false"></xref>&gt; if successful. </p>
-  exceptions:
-  - type: com.microsoft.azure._cloud_exception
-    description: <p>thrown for an invalid response from the service. </p>
-  - type: cbf33bbe
-    description: <p>thrown for IO exception. </p>
 - uid: com.microsoft.azure.management.compute._virtual_machines_1a110853e321cca25b92506d969168cba1
   id: _virtual_machines_1a110853e321cca25b92506d969168cba1
   parent: com.microsoft.azure.management.compute._virtual_machines
@@ -119,9 +48,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 128
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 112
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Captures the virtual machine by copying virtual hard disks of the VM and returns template as json string that can be used to create similar VMs.</p>
@@ -164,9 +91,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 57
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 41
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Shuts down the Virtual Machine and releases the compute resources. </p>
@@ -202,9 +127,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 67
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 51
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Generalize the Virtual Machine.</p>
@@ -236,9 +159,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 80
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 64
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Power off (stop) a virtual machine. </p>
@@ -274,9 +195,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 113
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 97
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Redeploy a virtual machine.</p>
@@ -310,9 +229,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 91
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 75
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Restart a virtual machine.</p>
@@ -334,6 +251,25 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 8256ba40
     description: <p>exception thrown when the operation is interrupted </p>
+- uid: com.microsoft.azure.management.compute._virtual_machines_1abfae4eb76da016c6d39bb72787f3a286
+  id: _virtual_machines_1abfae4eb76da016c6d39bb72787f3a286
+  parent: com.microsoft.azure.management.compute._virtual_machines
+  href: com.microsoft.azure.management.compute._virtual_machines.yml
+  langs:
+  - java
+  name: sizes()
+  fullName: VirtualMachineSizes com.microsoft.azure.management.compute.VirtualMachines.sizes()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
+    startLine: 28
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public VirtualMachineSizes sizes()
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine_sizes
+      description: <p>entry point to virtual machine sizes </p>
 - uid: com.microsoft.azure.management.compute._virtual_machines_1aa22ce468aa4f374e302519312da813b8
   id: _virtual_machines_1aa22ce468aa4f374e302519312da813b8
   parent: com.microsoft.azure.management.compute._virtual_machines
@@ -346,9 +282,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachines.java
-    startLine: 102
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 86
   package: com.microsoft.azure.management.compute
   summary: >-
     <p>Start a virtual machine.</p>
@@ -375,28 +309,14 @@ references:
   spec.java:
   - name: IOException
     fullName: IOException
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
-- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._virtual_machine_size9ec3e006
-  spec.java:
-  - uid: com.microsoft.azure._paged_list
-    name: PagedList<E>
-    fullName: com.microsoft.azure.PagedList<E>
-    href: com.microsoft.azure._paged_list.yml
-  - name: '< '
-    fullName: '< '
-  - uid: com.microsoft.azure.management.compute._virtual_machine_size
-    name: VirtualMachineSize
-    fullName: com.microsoft.azure.management.compute.VirtualMachineSize
-    href: com.microsoft.azure.management.compute._virtual_machine_size.yml
-  - name: ' >'
-    fullName: ' >'
 - uid: 8256ba40
   spec.java:
   - name: InterruptedException
     fullName: InterruptedException
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: 4fc6e284
   spec.java:
   - name: boolean
@@ -638,30 +558,15 @@ references:
   syntax:
     content: public interface SupportsDeletingByGroup
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machines_impl
-- uid: com.microsoft.azure._paged_list
-  parent: com.microsoft.azure
-  href: com.microsoft.azure._paged_list.yml
-  name: PagedList<E>
-  fullName: com.microsoft.azure.PagedList<E>
-  type: Class
-  summary: >-
-    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
-
-    <p></p>
-  syntax:
-    content: public class PagedList<E>
-    typeParameters:
-    - type: 0ca03e3a
-      description: <p>the element type. </p>
-- uid: com.microsoft.azure.management.compute._virtual_machine_size
+- uid: com.microsoft.azure.management.compute._virtual_machine_sizes
   parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._virtual_machine_size.yml
-  name: VirtualMachineSize
-  fullName: com.microsoft.azure.management.compute.VirtualMachineSize
+  href: com.microsoft.azure.management.compute._virtual_machine_sizes.yml
+  name: VirtualMachineSizes
+  fullName: com.microsoft.azure.management.compute.VirtualMachineSizes
   type: Interface
-  summary: <p>A type representing virtual machine size available for a subscription in a region. </p>
+  summary: <p>Entry point to virtual machine sizes API. </p>
   syntax:
-    content: public interface VirtualMachineSize
+    content: public interface VirtualMachineSizes
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -671,12 +576,3 @@ references:
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
     content: public class CloudException extends RestException
-- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
-  parent: com.microsoft.azure.management.resources.fluentcore.arm
-  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
-  name: Region
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
-  type: Enum
-  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
-  syntax:
-    content: public enum Region

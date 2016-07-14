@@ -6,7 +6,7 @@ items:
   - com.microsoft.azure._task_group_1ae48eb235ea38957de508d8fb44088920
   - com.microsoft.azure._task_group_1a9b00f1a2f300a1580c13b6b845f29574
   - com.microsoft.azure._task_group_1a617468190e15bdc0b3e72e7f6dfd6545
-  - com.microsoft.azure._task_group_1a52a8e6680e1f0f63450ed1c8349a3c38
+  - com.microsoft.azure._task_group_1a6276399621bfcf67971568a8ff76505d
   - com.microsoft.azure._task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
   - com.microsoft.azure._task_group_1a7edd9186a8183b5bb15686a14e08a951
   - com.microsoft.azure._task_group_1a57bc5599ba422d8c2df0a391914e8edc
@@ -23,8 +23,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
     startLine: 20
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Represents a group of related tasks. </p>
@@ -52,8 +50,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
     startLine: 27
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Gets underlying directed acyclic graph structure that stores tasks in the group and dependency information between them.</p>
@@ -76,9 +72,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
-    startLine: 56
-  assemblies:
-  - com.microsoft.azure
+    startLine: 57
   package: com.microsoft.azure
   summary: >-
     <p>Executes the tasks in the group. </p>
@@ -101,9 +95,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
-    startLine: 64
-  assemblies:
-  - com.microsoft.azure
+    startLine: 65
   package: com.microsoft.azure
   summary: >-
     <p>Executes the tasks in the group asynchronously.</p>
@@ -118,30 +110,28 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>the handle to the REST call </p>
-- uid: com.microsoft.azure._task_group_1a52a8e6680e1f0f63450ed1c8349a3c38
-  id: _task_group_1a52a8e6680e1f0f63450ed1c8349a3c38
+- uid: com.microsoft.azure._task_group_1a6276399621bfcf67971568a8ff76505d
+  id: _task_group_1a6276399621bfcf67971568a8ff76505d
   parent: com.microsoft.azure._task_group
   href: com.microsoft.azure._task_group.yml
   langs:
   - java
-  name: isRoot()
-  fullName: boolean com.microsoft.azure.TaskGroup< T, U extends TaskItem< T >.isRoot()
+  name: isPreparer()
+  fullName: boolean com.microsoft.azure.TaskGroup< T, U extends TaskItem< T >.isPreparer()
   type: Method
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure
+    startLine: 43
   package: com.microsoft.azure
   syntax:
-    content: public boolean isRoot()
+    content: public boolean isPreparer()
     return:
       type: 4fc6e284
       description: >-
         <p>
 
-          <code>true</code> if this is a root (parent) task group composing other task groups. </p>
+          <code>true</code> if the group is responsible for preparing execution of original task in this group and all tasks belong other task group it composes. </p>
 - uid: com.microsoft.azure._task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
   id: _task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
   parent: com.microsoft.azure._task_group
@@ -154,9 +144,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
-    startLine: 42
-  assemblies:
-  - com.microsoft.azure
+    startLine: 37
   package: com.microsoft.azure
   summary: >-
     <p>Merges this task group with parent task group. </p>
@@ -182,9 +170,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
-    startLine: 47
-  assemblies:
-  - com.microsoft.azure
+    startLine: 48
   package: com.microsoft.azure
   summary: <p>Prepare the graph for execution. </p>
   syntax:
@@ -201,9 +187,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/TaskGroup.java
-    startLine: 74
-  assemblies:
-  - com.microsoft.azure
+    startLine: 75
   package: com.microsoft.azure
   summary: >-
     <p>Gets the result of execution of a task in the group. </p>
@@ -243,10 +227,6 @@ references:
     href: com.microsoft.azure._d_a_g_node.yml
   - name: < U > >
     fullName: < U > >
-- uid: 4fc6e284
-  spec.java:
-  - name: boolean
-    fullName: boolean
 - uid: com.microsoft.azure._task_group43b2a0f3
   spec.java:
   - uid: com.microsoft.azure._task_group
@@ -255,6 +235,10 @@ references:
     href: com.microsoft.azure._task_group.yml
   - name: < T, U >
     fullName: < T, U >
+- uid: 4fc6e284
+  spec.java:
+  - name: boolean
+    fullName: boolean
 - uid: 8a99d4b0
   spec.java:
   - name: Exception

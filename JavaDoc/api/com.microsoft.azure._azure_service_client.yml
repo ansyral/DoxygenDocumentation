@@ -23,8 +23,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 17
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: <p>ServiceClient is the abstraction for accessing REST operations and their payload data types. </p>
   syntax:
@@ -44,8 +42,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 33
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>Initializes a new instance of the ServiceClient class.</p>
@@ -70,8 +66,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 23
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: protected AzureServiceClient(String baseUrl)
@@ -91,8 +85,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 63
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public OkHttpClient httpClient()
@@ -112,8 +104,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 70
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public JacksonMapperAdapter mapperAdapter()
@@ -133,8 +123,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 49
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public RestClient restClient()
@@ -154,8 +142,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 56
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   syntax:
     content: public Retrofit retrofit()
@@ -175,8 +161,6 @@ items:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureServiceClient.java
     startLine: 42
-  assemblies:
-  - com.microsoft.azure
   package: com.microsoft.azure
   summary: >-
     <p>The default User-Agent header. Override this method to override the user agent.</p>
@@ -218,13 +202,13 @@ references:
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.batch.protocol.implementation._batch_service_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class BatchServiceClientImpl
-- uid: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl
-  parent: com.microsoft.azure.management.compute.implementation.api
-  href: com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl.yml
+- uid: com.microsoft.azure.management.compute.implementation._compute_management_client_impl
+  parent: com.microsoft.azure.management.compute.implementation
+  href: com.microsoft.azure.management.compute.implementation._compute_management_client_impl.yml
   name: ComputeManagementClientImpl
-  fullName: com.microsoft.azure.management.compute.implementation.api.ComputeManagementClientImpl
+  fullName: com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation.api._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.compute.implementation._compute_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class ComputeManagementClientImpl
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._data743104178860afce26cc488547487622
@@ -272,58 +256,58 @@ references:
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.implementation._data_lak9b46a3ddf302c002d128667e4b33a32c" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class DataLakeStoreFileSystemManagementClientImpl
-- uid: com.microsoft.azure.management.network.implementation.api._network_management_client_impl
-  parent: com.microsoft.azure.management.network.implementation.api
-  href: com.microsoft.azure.management.network.implementation.api._network_management_client_impl.yml
+- uid: com.microsoft.azure.management.network.implementation._network_management_client_impl
+  parent: com.microsoft.azure.management.network.implementation
+  href: com.microsoft.azure.management.network.implementation._network_management_client_impl.yml
   name: NetworkManagementClientImpl
-  fullName: com.microsoft.azure.management.network.implementation.api.NetworkManagementClientImpl
+  fullName: com.microsoft.azure.management.network.implementation.NetworkManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation.api._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.network.implementation._network_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class NetworkManagementClientImpl
-- uid: com.microsoft.azure.management.resources.implementation.api._feature_client_impl
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._feature_client_impl.yml
+- uid: com.microsoft.azure.management.resources.implementation._feature_client_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._feature_client_impl.yml
   name: FeatureClientImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.FeatureClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.FeatureClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._feature_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation._feature_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class FeatureClientImpl
-- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
+- uid: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_management_client_impl.yml
   name: ResourceManagementClientImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class ResourceManagementClientImpl
-- uid: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._subscription_client_impl.yml
+- uid: com.microsoft.azure.management.resources.implementation._subscription_client_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._subscription_client_impl.yml
   name: SubscriptionClientImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.SubscriptionClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._subscription_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation._subscription_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class SubscriptionClientImpl
-- uid: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl.yml
+- uid: com.microsoft.azure.management.storage.implementation._storage_management_client_impl
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_management_client_impl.yml
   name: StorageManagementClientImpl
-  fullName: com.microsoft.azure.management.storage.implementation.api.StorageManagementClientImpl
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class StorageManagementClientImpl
-- uid: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl
-  parent: com.microsoft.azure.management.website.implementation.api
-  href: com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl.yml
+- uid: com.microsoft.azure.management.website.implementation._web_site_management_client_impl
+  parent: com.microsoft.azure.management.website.implementation
+  href: com.microsoft.azure.management.website.implementation._web_site_management_client_impl.yml
   name: WebSiteManagementClientImpl
-  fullName: com.microsoft.azure.management.website.implementation.api.WebSiteManagementClientImpl
+  fullName: com.microsoft.azure.management.website.implementation.WebSiteManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation.api._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.website.implementation._web_site_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class WebSiteManagementClientImpl
 - uid: com.microsoft.azure._rest_client

@@ -20,9 +20,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Subscription.java
-    startLine: 20
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 19
   package: com.microsoft.azure.management.resources
   summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> subscription. </p>
   syntax:
@@ -42,9 +40,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Subscription.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 31
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String displayName()
@@ -63,9 +59,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Subscription.java
-    startLine: 52
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 51
   package: com.microsoft.azure.management.resources
   summary: >-
     <p>List the locations the subscription has access to.</p>
@@ -93,9 +87,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Subscription.java
-    startLine: 37
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 36
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String state()
@@ -114,9 +106,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Subscription.java
-    startLine: 27
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 26
   package: com.microsoft.azure.management.resources
   syntax:
     content: public String subscriptionId()
@@ -135,14 +125,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/Subscription.java
-    startLine: 42
-  assemblies:
-  - com.microsoft.azure.management.resources
+    startLine: 41
   package: com.microsoft.azure.management.resources
   syntax:
     content: public SubscriptionPolicies subscriptionPolicies()
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._subscription_policies
+      type: com.microsoft.azure.management.resources._subscription_policies
       description: <p>the policies defined in the subscription </p>
 references:
 - uid: "26831127"
@@ -214,11 +202,11 @@ references:
     - type: 8ce1ecb9
       description: <p>the type of the inner object. </p>
 - uid: com.microsoft.azure.management.resources.implementation._subscription_impl
-- uid: com.microsoft.azure.management.resources.implementation.api._subscription_policies
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._subscription_policies.yml
+- uid: com.microsoft.azure.management.resources._subscription_policies
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._subscription_policies.yml
   name: SubscriptionPolicies
-  fullName: com.microsoft.azure.management.resources.implementation.api.SubscriptionPolicies
+  fullName: com.microsoft.azure.management.resources.SubscriptionPolicies
   type: Class
   summary: >-
     <p>

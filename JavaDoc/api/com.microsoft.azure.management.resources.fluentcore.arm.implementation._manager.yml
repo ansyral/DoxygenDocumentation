@@ -3,13 +3,13 @@ items:
   id: _manager
   parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   children:
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a16674f6f76f7c9c80fe35598f483a048
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a4a8886e6aea57cdcd3d4945e979fccd6
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
   langs:
   - java
-  name: Manager<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager<T>
+  name: Manager<T,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager<T,InnerT>
   type: Class
   source:
     remote: &o0
@@ -18,69 +18,126 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
-  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  summary: <p>Generic base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
   syntax:
-    content: public class Manager<T>
+    content: public class Manager<T,InnerT> extends ManagerBase
     typeParameters:
     - type: 8ce1ecb9
       description: <p>specific manager type </p>
+    - type: 52cf8095
+      description: <p>inner management client implementation type </p>
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1ab93fd97ae43a64f3e11cfde051b8df45
-  id: _manager_1ab93fd97ae43a64f3e11cfde051b8df45
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a2b683c0ecd69659b7ab9a7e98825c29d
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a34ecb79db98abccbe741ff9cb898b823
+  - com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a6f1cebe6e5b2369a2ded3ab4bb419d03
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a16674f6f76f7c9c80fe35598f483a048
+  id: _manager_1a16674f6f76f7c9c80fe35598f483a048
   parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
   href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
   langs:
   - java
-  name: Manager(RestClient restClient, String subscriptionId)
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.Manager(RestClient restClient, String subscriptionId)
+  name: innerManagementClient
+  fullName: final InnerT com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T, InnerT >.innerManagementClient
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
+    startLine: 17
+  package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  syntax:
+    content: protected final InnerT innerManagementClient
+    return:
+      type: b3452c4f
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a4a8886e6aea57cdcd3d4945e979fccd6
+  id: _manager_1a4a8886e6aea57cdcd3d4945e979fccd6
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
+  langs:
+  - java
+  name: Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T, InnerT >.Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
   type: Constructor
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
     startLine: 19
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation
   package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
   syntax:
-    content: protected Manager(RestClient restClient, String subscriptionId)
+    content: protected Manager(RestClient restClient, String subscriptionId, InnerT innerManagementClient)
     parameters:
     - id: restClient
       type: com.microsoft.azure._rest_client
     - id: subscriptionId
       type: "26831127"
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_1a405a3a18ad3f1215eaf6d64cb1604089
-  id: _manager_1a405a3a18ad3f1215eaf6d64cb1604089
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager
-  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager.yml
-  langs:
-  - java
-  name: resourceManager()
-  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.Manager< T >.resourceManager()
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/implementation/Manager.java
-    startLine: 23
-  assemblies:
-  - com.microsoft.azure.management.resources.fluentcore.arm.implementation
-  package: com.microsoft.azure.management.resources.fluentcore.arm.implementation
-  syntax:
-    content: protected ResourceManager resourceManager()
-    return:
-      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    - id: innerManagementClient
+      type: 52cf8095
 references:
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: 52cf8095
+  spec.java:
+  - name: InnerT
+    fullName: InnerT
+- uid: b3452c4f
+  spec.java:
+  - name: final InnerT
+    fullName: final InnerT
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a2b683c0ecd69659b7ab9a7e98825c29d
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: ManagerBase(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.ManagerBase(RestClient restClient, String subscriptionId)
+  type: Constructor
+  syntax:
+    content: protected ManagerBase(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: com.microsoft.azure._rest_client
+    - id: subscriptionId
+      type: "26831127"
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a34ecb79db98abccbe741ff9cb898b823
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: resourceManager()
+  fullName: ResourceManager com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
+  type: Method
+  syntax:
+    content: public ResourceManager resourceManager()
+    return:
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+      description: <p>the {} associated with this manager </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base_1a6f1cebe6e5b2369a2ded3ab4bb419d03
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: setResourceManager(ResourceManager resourceManager)
+  fullName: final void com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase.setResourceManager(ResourceManager resourceManager)
+  type: Method
+  syntax:
+    content: protected final void setResourceManager(ResourceManager resourceManager)
+    parameters:
+    - id: resourceManager
+      type: com.microsoft.azure.management.resources.implementation._resource_manager
+    return:
+      type: 3f6357ce
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.arm.implementation._manager_base.yml
+  name: ManagerBase
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.implementation.ManagerBase
+  type: Class
+  summary: <p>Base class for <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource managers. </p>
+  syntax:
+    content: public class ManagerBase
 - uid: com.microsoft.azure.management.compute.implementation._compute_manager
   parent: com.microsoft.azure.management.compute.implementation
   href: com.microsoft.azure.management.compute.implementation._compute_manager.yml
@@ -89,7 +146,7 @@ references:
   type: Class
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> compute resource management. </p>
   syntax:
-    content: public class ComputeManager extends Manager< ComputeManager >
+    content: public class ComputeManager extends Manager< ComputeManager, ComputeManagementClientImpl >
 - uid: com.microsoft.azure.management.network.implementation._network_manager
   parent: com.microsoft.azure.management.network.implementation
   href: com.microsoft.azure.management.network.implementation._network_manager.yml
@@ -108,15 +165,6 @@ references:
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
   syntax:
     content: public class StorageManager
-- uid: com.microsoft.azure.management.resources.implementation._resource_manager
-  parent: com.microsoft.azure.management.resources.implementation
-  href: com.microsoft.azure.management.resources.implementation._resource_manager.yml
-  name: ResourceManager
-  fullName: com.microsoft.azure.management.resources.implementation.ResourceManager
-  type: Class
-  summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource management. </p>
-  syntax:
-    content: public class ResourceManager
 - uid: com.microsoft.azure._rest_client
   parent: com.microsoft.azure
   href: com.microsoft.azure._rest_client.yml

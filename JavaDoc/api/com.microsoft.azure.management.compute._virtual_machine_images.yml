@@ -3,7 +3,9 @@ items:
   id: _virtual_machine_images
   parent: com.microsoft.azure.management.compute
   children:
-  - com.microsoft.azure.management.compute._virtual_machine_images_1a1061d568b7c036b9fdb80175d30b7c50
+  - com.microsoft.azure.management.compute._virtual_machine_images_1abe81efe4a4a0f20d00fad2daaa73856c
+  - com.microsoft.azure.management.compute._virtual_machine_images_1a031970dc08f14cec0c3957a4e78a4d30
+  - com.microsoft.azure.management.compute._virtual_machine_images_1a5e4f908a3ac40efdba01f8ae9bfb65d0
   href: com.microsoft.azure.management.compute._virtual_machine_images.yml
   langs:
   - java
@@ -16,85 +18,119 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
-    startLine: 12
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 16
   package: com.microsoft.azure.management.compute
   summary: <p>Entry point to virtual machine image management API. </p>
   syntax:
     content: public interface VirtualMachineImages extends SupportsListingByRegion< VirtualMachineImage >
-  inheritedMembers:
-  - com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1a20a3979e5b8bd18b607e5b122fa684ca
-- uid: com.microsoft.azure.management.compute._virtual_machine_images_1a1061d568b7c036b9fdb80175d30b7c50
-  id: _virtual_machine_images_1a1061d568b7c036b9fdb80175d30b7c50
+- uid: com.microsoft.azure.management.compute._virtual_machine_images_1abe81efe4a4a0f20d00fad2daaa73856c
+  id: _virtual_machine_images_1abe81efe4a4a0f20d00fad2daaa73856c
   parent: com.microsoft.azure.management.compute._virtual_machine_images
   href: com.microsoft.azure.management.compute._virtual_machine_images.yml
   langs:
   - java
-  name: listPublishers(final Region region)
-  fullName: List<VirtualMachineImage.Publisher> com.microsoft.azure.management.compute.VirtualMachineImages.listPublishers(final Region region)
+  name: listByRegion(Region region)
+  fullName: PagedList<VirtualMachineImage> com.microsoft.azure.management.compute.VirtualMachineImages.listByRegion(Region region)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
-    startLine: 22
-  assemblies:
-  - com.microsoft.azure.management.compute
+    startLine: 43
   package: com.microsoft.azure.management.compute
   summary: >-
-    <p>Lists the virtual machine publishers in a region.</p>
+    <p>Lists all the virtual machine images available in a given region. </p>
 
-    <p></p>
+    <p>Note this is a very long running call, as it enumerates through all publishers, offers and skus. </p>
   syntax:
-    content: public List< VirtualMachineImage.Publisher > listPublishers(final Region region)
+    content: public PagedList< VirtualMachineImage > listByRegion(Region region)
     parameters:
     - id: region
-      type: 93de0ef9com.microsoft.azure.management.resources.fluentcore.arm._region
-      description: <p>the region </p>
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the region to list the images from </p>
     return:
-      type: 6260f9d1
-      description: <p>the list of VM image publishers </p>
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._virtual_machine_image9ec3e006
+      description: <p>list of virtual machine images </p>
+  overridden: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1a86ff5cf9480521a2cf0f14e7109c1515
   exceptions:
   - type: com.microsoft.azure._cloud_exception
-    description: <p>thrown for an invalid response from the service </p>
+    description: <p>exceptions thrown from the cloud </p>
   - type: cbf33bbe
-    description: <p>thrown for IO exception </p>
+    description: <p>exceptions thrown from serialization/deserialization </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_images_1a031970dc08f14cec0c3957a4e78a4d30
+  id: _virtual_machine_images_1a031970dc08f14cec0c3957a4e78a4d30
+  parent: com.microsoft.azure.management.compute._virtual_machine_images
+  href: com.microsoft.azure.management.compute._virtual_machine_images.yml
+  langs:
+  - java
+  name: listByRegion(String regionName)
+  fullName: PagedList<VirtualMachineImage> com.microsoft.azure.management.compute.VirtualMachineImages.listByRegion(String regionName)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
+    startLine: 32
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Lists all the virtual machine images available in a given region. </p>
+
+    <p>Note this is a very long running call, as it enumerates through all publishers, offers and skus. </p>
+  syntax:
+    content: public PagedList< VirtualMachineImage > listByRegion(String regionName)
+    parameters:
+    - id: regionName
+      type: "26831127"
+      description: <p>the name of the region as used internally by <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref></p>
+    return:
+      type: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._virtual_machine_image9ec3e006
+      description: <p>list of virtual machine images </p>
+  overridden: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1ae6208e32fa6ad4b00902ce476756c105
+  exceptions:
+  - type: com.microsoft.azure._cloud_exception
+    description: <p>exceptions thrown from the cloud </p>
+  - type: cbf33bbe
+    description: <p>exceptions thrown from serialization/deserialization </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_images_1a5e4f908a3ac40efdba01f8ae9bfb65d0
+  id: _virtual_machine_images_1a5e4f908a3ac40efdba01f8ae9bfb65d0
+  parent: com.microsoft.azure.management.compute._virtual_machine_images
+  href: com.microsoft.azure.management.compute._virtual_machine_images.yml
+  langs:
+  - java
+  name: publishers()
+  fullName: VirtualMachinePublishers com.microsoft.azure.management.compute.VirtualMachineImages.publishers()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/VirtualMachineImages.java
+    startLine: 21
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public VirtualMachinePublishers publishers()
+    return:
+      type: com.microsoft.azure.management.compute._virtual_machine_publishers
+      description: <p>entry point to virtual machine image publishers </p>
 references:
 - uid: cbf33bbe
   spec.java:
   - name: IOException
     fullName: IOException
-- uid: 93de0ef9com.microsoft.azure.management.resources.fluentcore.arm._region
+- uid: "26831127"
   spec.java:
-  - name: 'final '
-    fullName: 'final '
-  - uid: com.microsoft.azure.management.resources.fluentcore.arm._region
-    name: Region
-    fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
-    href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
-- uid: 6260f9d1
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.compute._virtual_machine_image9ec3e006
   spec.java:
-  - name: List< VirtualMachineImage.Publisher >
-    fullName: List< VirtualMachineImage.Publisher >
-- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1a20a3979e5b8bd18b607e5b122fa684ca
-  parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
-  href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region.yml
-  name: list(Region region)
-  fullName: List<T> com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion< T >.list(Region region)
-  type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the specified region.</p>
-
-    <p></p>
-  syntax:
-    content: public List< T > list(Region region)
-    parameters:
-    - id: region
-      type: com.microsoft.azure.management.resources.fluentcore.arm._region
-      description: <p>the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> region to list the resources from </p>
-    return:
-      type: 18bbd974
-      description: <p>list of resources </p>
+  - uid: com.microsoft.azure._paged_list
+    name: PagedList<E>
+    fullName: com.microsoft.azure.PagedList<E>
+    href: com.microsoft.azure._paged_list.yml
+  - name: '< '
+    fullName: '< '
+  - uid: com.microsoft.azure.management.compute._virtual_machine_image
+    name: VirtualMachineImage
+    fullName: com.microsoft.azure.management.compute.VirtualMachineImage
+    href: com.microsoft.azure.management.compute._virtual_machine_image.yml
+  - name: ' >'
+    fullName: ' >'
 - uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
   parent: com.microsoft.azure.management.resources.fluentcore.collection
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region.yml
@@ -113,15 +149,55 @@ references:
     - type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_impl
-- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
-  parent: com.microsoft.azure.management.resources.fluentcore.arm
-  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
-  name: Region
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
-  type: Enum
-  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_publishers
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_publishers.yml
+  name: VirtualMachinePublishers
+  fullName: com.microsoft.azure.management.compute.VirtualMachinePublishers
+  type: Interface
+  summary: <p>Entry point to virtual machine image publishers. </p>
   syntax:
-    content: public enum Region
+    content: public interface VirtualMachinePublishers
+- uid: com.microsoft.azure._paged_list
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._paged_list.yml
+  name: PagedList<E>
+  fullName: com.microsoft.azure.PagedList<E>
+  type: Class
+  summary: >-
+    <p>Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.</p>
+
+    <p></p>
+  syntax:
+    content: public class PagedList<E>
+    typeParameters:
+    - type: 0ca03e3a
+      description: <p>the element type. </p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_image
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_image.yml
+  name: VirtualMachineImage
+  fullName: com.microsoft.azure.management.compute.VirtualMachineImage
+  type: Interface
+  summary: <p>An immutable client-side representation of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> virtual machine image. </p>
+  syntax:
+    content: public interface VirtualMachineImage extends Wrapper< VirtualMachineImageInner >
+- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1ae6208e32fa6ad4b00902ce476756c105
+  parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
+  href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region.yml
+  name: listByRegion(String regionName)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion< T >.listByRegion(String regionName)
+  type: Method
+  summary: <p>List all the resources of the specified type in the specified region. </p>
+  syntax:
+    content: public PagedList< T > listByRegion(String regionName)
+    parameters:
+    - id: regionName
+      type: "26831127"
+      description: <p>the name of an <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> region </p>
+    return:
+      type: com.microsoft.azure._paged_list34132889
+      description: <p>list of resources </p>
 - uid: com.microsoft.azure._cloud_exception
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_exception.yml
@@ -131,3 +207,40 @@ references:
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
     content: public class CloudException extends RestException
+- uid: com.microsoft.azure._azure
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._azure.yml
+  name: Azure
+  fullName: com.microsoft.azure.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure
+- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region_1a86ff5cf9480521a2cf0f14e7109c1515
+  parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region
+  href: com.microsoft.azure.management.resources.fluentcore.collection._supports_listing_by_region.yml
+  name: listByRegion(Region region)
+  fullName: PagedList<T> com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion< T >.listByRegion(Region region)
+  type: Method
+  summary: >-
+    <p>Lists all the resources of the specified type in the specified region.</p>
+
+    <p></p>
+  syntax:
+    content: public PagedList< T > listByRegion(Region region)
+    parameters:
+    - id: region
+      type: com.microsoft.azure.management.resources.fluentcore.arm._region
+      description: <p>the selected <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> region </p>
+    return:
+      type: com.microsoft.azure._paged_list34132889
+      description: <p>list of resources </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm._region
+  parent: com.microsoft.azure.management.resources.fluentcore.arm
+  href: com.microsoft.azure.management.resources.fluentcore.arm._region.yml
+  name: Region
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
+  type: Enum
+  summary: <p>Enumeration of the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> datacenter regions. See <ulink url="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</ulink></p>
+  syntax:
+    content: public enum Region

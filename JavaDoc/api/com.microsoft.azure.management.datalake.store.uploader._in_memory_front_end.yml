@@ -25,8 +25,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Test front-end, fully in-memory. </p>
   syntax:
@@ -47,8 +45,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 81
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void appendToStream(String streamPath, byte[] data, long offset, int byteCount)
@@ -84,8 +80,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 136
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void concatenate(String targetStreamPath, String[] inputStreamPaths)
@@ -110,8 +104,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 26
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void createStream(String streamPath, boolean overwrite, byte[] data, int byteCount)
@@ -146,8 +138,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 65
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void deleteStream(String streamPath, boolean recurse)
@@ -172,8 +162,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 185
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public Iterable< byte[]> GetAppendBlocks(String streamPath)
@@ -201,8 +189,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 201
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public byte[] GetStreamContents(String streamPath)
@@ -230,8 +216,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 230
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Returns the number of "streams" that have been created by this adapter.</p>
@@ -255,8 +239,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 121
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public long getStreamLength(String streamPath)
@@ -286,8 +268,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/test/java/com/microsoft/azure/management/datalake/store/uploader/InMemoryFrontEnd.java
     startLine: 110
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public boolean streamExists(String streamPath)

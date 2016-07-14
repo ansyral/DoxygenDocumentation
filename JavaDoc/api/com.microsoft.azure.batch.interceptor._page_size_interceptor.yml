@@ -17,8 +17,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/PageSizeInterceptor.java
     startLine: 11
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public class PageSizeInterceptor extends RequestInterceptor
@@ -44,8 +42,6 @@ items:
     remote: *o0
     path: azure-batch/src/main/java/com/microsoft/azure/batch/interceptor/PageSizeInterceptor.java
     startLine: 15
-  assemblies:
-  - com.microsoft.azure.batch.interceptor
   package: com.microsoft.azure.batch.interceptor
   syntax:
     content: public PageSizeInterceptor(int pageSize)

@@ -25,9 +25,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 27
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 25
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public class DataLakeAnalyticsManagementTestBase
@@ -45,9 +43,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 35
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 33
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public static void createClients()
@@ -63,9 +59,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 28
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 26
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static DataLakeAnalyticsAccountManagementClientImpl dataLakeAnalyticsAccountManagementClient
@@ -83,9 +77,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 30
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 28
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static DataLakeAnalyticsCatalogManagementClientImpl dataLakeAnalyticsCatalogManagementClient
@@ -103,9 +95,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 29
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 27
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static DataLakeAnalyticsJobManagementClientImpl dataLakeAnalyticsJobManagementClient
@@ -123,9 +113,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 32
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 30
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static DataLakeStoreAccountManagementClientImpl dataLakeStoreAccountManagementClient
@@ -143,9 +131,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 32
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static String environmentLocation
@@ -163,9 +149,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 137
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 143
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public static String generateName(String prefix)
@@ -186,14 +170,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 31
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 29
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static ResourceManagementClientImpl resourceManagementClient
     return:
-      type: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
+      type: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
 - uid: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base_1a3ffc86cba0544c3271bbfd78b10721c1
   id: _data_lake_analytics_management_test_base_1a3ffc86cba0544c3271bbfd78b10721c1
   parent: com.microsoft.azure.management.datalake.analytics._data_lake_analytics_management_test_base
@@ -206,9 +188,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 101
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 107
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: public static void runJobToCompletion(DataLakeAnalyticsJobManagementClientImpl jobClient, String adlaAcct, UUID jobId, String scriptToRun)
@@ -233,14 +213,12 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-datalake-analytics/src/test/java/com/microsoft/azure/management/datalake/analytics/DataLakeAnalyticsManagementTestBase.java
-    startLine: 33
-  assemblies:
-  - com.microsoft.azure.management.datalake.analytics
+    startLine: 31
   package: com.microsoft.azure.management.datalake.analytics
   syntax:
     content: protected static StorageManagementClientImpl storageManagementClient
     return:
-      type: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
+      type: com.microsoft.azure.management.storage.implementation._storage_management_client_impl
 references:
 - uid: "26831127"
   spec.java:
@@ -301,13 +279,13 @@ references:
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.analytics.implementation._data853ef330d8582f71e286965226edec1a" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class DataLakeAnalyticsCatalogManagementClientImpl extends AzureServiceClient implements DataLakeAnalyticsCatalogManagementClient
-- uid: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl
-  parent: com.microsoft.azure.management.resources.implementation.api
-  href: com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl.yml
+- uid: com.microsoft.azure.management.resources.implementation._resource_management_client_impl
+  parent: com.microsoft.azure.management.resources.implementation
+  href: com.microsoft.azure.management.resources.implementation._resource_management_client_impl.yml
   name: ResourceManagementClientImpl
-  fullName: com.microsoft.azure.management.resources.implementation.api.ResourceManagementClientImpl
+  fullName: com.microsoft.azure.management.resources.implementation.ResourceManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation.api._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.resources.implementation._resource_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class ResourceManagementClientImpl
 - uid: com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633
@@ -319,12 +297,12 @@ references:
   summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.datalake.store.implementation._data_lak2e63522ad9875a71597034149f58d633" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class DataLakeStoreAccountManagementClientImpl
-- uid: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl
-  parent: com.microsoft.azure.management.storage.implementation.api
-  href: com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl.yml
+- uid: com.microsoft.azure.management.storage.implementation._storage_management_client_impl
+  parent: com.microsoft.azure.management.storage.implementation
+  href: com.microsoft.azure.management.storage.implementation._storage_management_client_impl.yml
   name: StorageManagementClientImpl
-  fullName: com.microsoft.azure.management.storage.implementation.api.StorageManagementClientImpl
+  fullName: com.microsoft.azure.management.storage.implementation.StorageManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation.api._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
+  summary: <p>Initializes a new instance of the <xref href="com.microsoft.azure.management.storage.implementation._storage_management_client_impl" data-throw-if-not-resolved="false"></xref> class. </p>
   syntax:
     content: public class StorageManagementClientImpl

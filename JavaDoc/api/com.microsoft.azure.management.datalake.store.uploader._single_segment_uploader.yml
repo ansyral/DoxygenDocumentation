@@ -25,8 +25,6 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 19
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>Represents an uploader for a single segment of a larger file. </p>
   syntax:
@@ -46,8 +44,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 24
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>The length of the buffers to upload (4MB). </p>
   syntax:
@@ -67,8 +63,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 39
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>The maximum number of times to attempt to upload the buffer. </p>
   syntax:
@@ -88,8 +82,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 29
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>4MB is the maximum length of a single extent. So if one record is longer than this, then we will fast fail, since that record will cross extent boundaries. </p>
   syntax:
@@ -109,8 +101,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 34
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: <p>During upload retries, this indicates the maximum amount of time, in seconds, that we will wait between retries. </p>
   syntax:
@@ -130,8 +120,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 79
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public void setUseBackOffRetryStrategy(boolean isEnabled)
@@ -152,8 +140,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 52
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Creates a new uploader for a single segment.</p>
@@ -184,8 +170,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 90
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Uploads the portion of the InputFilePath to the given TargetStreamPath, starting at the given StartOffset. The segment is further divided into equally-sized blocks which are uploaded in sequence. Each such block is attempted a certain number of times; if after that it still cannot be uploaded, the entire segment is aborted (in which case no cleanup is performed on the server).</p>
@@ -209,8 +193,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 70
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   syntax:
     content: public boolean useBackOffRetryStrategy()
@@ -230,8 +212,6 @@ items:
     remote: *o0
     path: azure-mgmt-datalake-store-uploader/src/main/java/com/microsoft/azure/management/datalake/store/uploader/SingleSegmentUploader.java
     startLine: 284
-  assemblies:
-  - com.microsoft.azure.management.datalake.store.uploader
   package: com.microsoft.azure.management.datalake.store.uploader
   summary: >-
     <p>Enables use of a back off retry strategy, allowing a caller to wait before attempting an action again.</p>
