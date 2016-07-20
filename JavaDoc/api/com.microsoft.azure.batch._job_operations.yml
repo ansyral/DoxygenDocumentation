@@ -19,7 +19,6 @@ items:
   - com.microsoft.azure.batch._job_operations_1a5d4e5c81e5ed38350b8a8c42a20e496f
   - com.microsoft.azure.batch._job_operations_1abe29faf19053df43a26a2b3171bebd15
   - com.microsoft.azure.batch._job_operations_1a943ff40275794f3e4bd6807b0e920e54
-  - com.microsoft.azure.batch._job_operations_1a29a10ff121c9c378426154fde21dca91
   - com.microsoft.azure.batch._job_operations_1a536dfb6caa67cfadaac5d039edfd16f7
   - com.microsoft.azure.batch._job_operations_1aa6bc33f0a7fb7d47a019aaf77f1303ce
   - com.microsoft.azure.batch._job_operations_1af366bfed74429903d069755161812c6f
@@ -61,6 +60,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
+  inheritedMembers:
+  - com.microsoft.azure.batch._job_operations_1a29a10ff121c9c378426154fde21dca91
 - uid: com.microsoft.azure.batch._job_operations_1a032ca31025039a1bd6388438efd6caf8
   id: _job_operations_1a032ca31025039a1bd6388438efd6caf8
   parent: com.microsoft.azure.batch._job_operations
@@ -396,27 +397,6 @@ items:
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: com.microsoft.azure.batch.protocol.models._cloud_job
-- uid: com.microsoft.azure.batch._job_operations_1a29a10ff121c9c378426154fde21dca91
-  id: _job_operations_1a29a10ff121c9c378426154fde21dca91
-  parent: com.microsoft.azure.batch._job_operations
-  href: com.microsoft.azure.batch._job_operations.yml
-  langs:
-  - java
-  name: JobOperations(BatchClient batchClient, Collection< BatchClientBehavior > inheritedBehaviors)
-  fullName: com.microsoft.azure.batch.JobOperations.JobOperations(BatchClient batchClient, Collection< BatchClientBehavior > inheritedBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/JobOperations.java
-    startLine: 51
-  package: com.microsoft.azure.batch
-  syntax:
-    content: JobOperations(BatchClient batchClient, Collection< BatchClientBehavior > inheritedBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: inheritedBehaviors
-      type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
 - uid: com.microsoft.azure.batch._job_operations_1a536dfb6caa67cfadaac5d039edfd16f7
   id: _job_operations_1a536dfb6caa67cfadaac5d039edfd16f7
   parent: com.microsoft.azure.batch._job_operations
@@ -979,6 +959,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._metadata_item.yml
   - name: ' >'
     fullName: ' >'
+- uid: com.microsoft.azure.batch._job_operations_1a29a10ff121c9c378426154fde21dca91
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

@@ -3,7 +3,6 @@ items:
   id: _account_operations
   parent: com.microsoft.azure.batch
   children:
-  - com.microsoft.azure.batch._account_operations_1a4a34f1e27c1519a72973811895ee4579
   - com.microsoft.azure.batch._account_operations_1a8f2b08ee5a13dd7bae95503017c9607f
   - com.microsoft.azure.batch._account_operations_1a42c5a0600a3133907e37bfc2f49f1443
   - com.microsoft.azure.batch._account_operations_1a552ad01a2b4d8bb62899808269e2d387
@@ -28,27 +27,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
-- uid: com.microsoft.azure.batch._account_operations_1a4a34f1e27c1519a72973811895ee4579
-  id: _account_operations_1a4a34f1e27c1519a72973811895ee4579
-  parent: com.microsoft.azure.batch._account_operations
-  href: com.microsoft.azure.batch._account_operations.yml
-  langs:
-  - java
-  name: AccountOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  fullName: com.microsoft.azure.batch.AccountOperations.AccountOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/AccountOperations.java
-    startLine: 21
-  package: com.microsoft.azure.batch
-  syntax:
-    content: AccountOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: customBehaviors
-      type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
+  inheritedMembers:
+  - com.microsoft.azure.batch._account_operations_1a4a34f1e27c1519a72973811895ee4579
 - uid: com.microsoft.azure.batch._account_operations_1a8f2b08ee5a13dd7bae95503017c9607f
   id: _account_operations_1a8f2b08ee5a13dd7bae95503017c9607f
   parent: com.microsoft.azure.batch._account_operations
@@ -181,6 +161,7 @@ references:
     href: com.microsoft.azure.batch._batch_client_behavior.yml
   - name: ' >'
     fullName: ' >'
+- uid: com.microsoft.azure.batch._account_operations_1a4a34f1e27c1519a72973811895ee4579
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

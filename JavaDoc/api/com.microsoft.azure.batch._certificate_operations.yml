@@ -5,7 +5,6 @@ items:
   children:
   - com.microsoft.azure.batch._certificate_operations_1aae21903d4e890ccd6984424f8ce6b361
   - com.microsoft.azure.batch._certificate_operations_1a164aec908cd84d29c66d334095a8fefb
-  - com.microsoft.azure.batch._certificate_operations_1a9c2e51309e1fedb34231ba43f7903e2f
   - com.microsoft.azure.batch._certificate_operations_1a46e3ef73a102cc0d545604dcb5a74d11
   - com.microsoft.azure.batch._certificate_operations_1afce6ef76b849062b221b82c454bdd7f0
   - com.microsoft.azure.batch._certificate_operations_1a4be070ddab5d72624ee6a6c156069568
@@ -41,6 +40,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
+  inheritedMembers:
+  - com.microsoft.azure.batch._certificate_operations_1a9c2e51309e1fedb34231ba43f7903e2f
 - uid: com.microsoft.azure.batch._certificate_operations_1aae21903d4e890ccd6984424f8ce6b361
   id: _certificate_operations_1aae21903d4e890ccd6984424f8ce6b361
   parent: com.microsoft.azure.batch._certificate_operations
@@ -84,27 +85,6 @@ items:
     - id: thumbprint
       type: "26831127"
     - id: additionalBehaviors
-      type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: com.microsoft.azure.batch._certificate_operations_1a9c2e51309e1fedb34231ba43f7903e2f
-  id: _certificate_operations_1a9c2e51309e1fedb34231ba43f7903e2f
-  parent: com.microsoft.azure.batch._certificate_operations
-  href: com.microsoft.azure.batch._certificate_operations.yml
-  langs:
-  - java
-  name: CertificateOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  fullName: com.microsoft.azure.batch.CertificateOperations.CertificateOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/CertificateOperations.java
-    startLine: 42
-  package: com.microsoft.azure.batch
-  syntax:
-    content: CertificateOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: inheritedBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
 - uid: com.microsoft.azure.batch._certificate_operations_1a46e3ef73a102cc0d545604dcb5a74d11
   id: _certificate_operations_1a46e3ef73a102cc0d545604dcb5a74d11
@@ -452,16 +432,6 @@ references:
   spec.java:
   - name: final String
     fullName: final String
-- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-  spec.java:
-  - name: 'Iterable< '
-    fullName: 'Iterable< '
-  - uid: com.microsoft.azure.batch._batch_client_behavior
-    name: BatchClientBehavior
-    fullName: com.microsoft.azure.batch.BatchClientBehavior
-    href: com.microsoft.azure.batch._batch_client_behavior.yml
-  - name: ' >'
-    fullName: ' >'
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
   - name: 'Collection< '
@@ -476,6 +446,16 @@ references:
   spec.java:
   - name: InputStream
     fullName: InputStream
+- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
+  spec.java:
+  - name: 'Iterable< '
+    fullName: 'Iterable< '
+  - uid: com.microsoft.azure.batch._batch_client_behavior
+    name: BatchClientBehavior
+    fullName: com.microsoft.azure.batch.BatchClientBehavior
+    href: com.microsoft.azure.batch._batch_client_behavior.yml
+  - name: ' >'
+    fullName: ' >'
 - uid: "26831127"
   spec.java:
   - name: String
@@ -490,6 +470,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._certificate.yml
   - name: ' >'
     fullName: ' >'
+- uid: com.microsoft.azure.batch._certificate_operations_1a9c2e51309e1fedb34231ba43f7903e2f
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

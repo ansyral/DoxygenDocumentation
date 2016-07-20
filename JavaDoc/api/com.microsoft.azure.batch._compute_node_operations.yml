@@ -5,7 +5,6 @@ items:
   children:
   - com.microsoft.azure.batch._compute_node_operations_1ad6f2d4856371f010ce882f0ba28c3907
   - com.microsoft.azure.batch._compute_node_operations_1a053ace72c2dfa1cbcad0e3f5aa34685f
-  - com.microsoft.azure.batch._compute_node_operations_1a06fd357fadfc6bec48c89836691866c7
   - com.microsoft.azure.batch._compute_node_operations_1af86d7e162e39cd2322394e894c5b9d70
   - com.microsoft.azure.batch._compute_node_operations_1acde974e0c00ab22824bc959c3957fa68
   - com.microsoft.azure.batch._compute_node_operations_1a724ef558d5adbdd59fe9203d09cb39ac
@@ -54,6 +53,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
+  inheritedMembers:
+  - com.microsoft.azure.batch._compute_node_operations_1a06fd357fadfc6bec48c89836691866c7
 - uid: com.microsoft.azure.batch._compute_node_operations_1ad6f2d4856371f010ce882f0ba28c3907
   id: _compute_node_operations_1ad6f2d4856371f010ce882f0ba28c3907
   parent: com.microsoft.azure.batch._compute_node_operations
@@ -101,27 +102,6 @@ items:
     - id: user
       type: com.microsoft.azure.batch.protocol.models._compute_node_user
     - id: additionalBehaviors
-      type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: com.microsoft.azure.batch._compute_node_operations_1a06fd357fadfc6bec48c89836691866c7
-  id: _compute_node_operations_1a06fd357fadfc6bec48c89836691866c7
-  parent: com.microsoft.azure.batch._compute_node_operations
-  href: com.microsoft.azure.batch._compute_node_operations.yml
-  langs:
-  - java
-  name: ComputeNodeOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  fullName: com.microsoft.azure.batch.ComputeNodeOperations.ComputeNodeOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/ComputeNodeOperations.java
-    startLine: 26
-  package: com.microsoft.azure.batch
-  syntax:
-    content: ComputeNodeOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: inheritedBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
 - uid: com.microsoft.azure.batch._compute_node_operations_1af86d7e162e39cd2322394e894c5b9d70
   id: _compute_node_operations_1af86d7e162e39cd2322394e894c5b9d70
@@ -810,16 +790,6 @@ items:
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
 references:
-- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-  spec.java:
-  - name: 'Iterable< '
-    fullName: 'Iterable< '
-  - uid: com.microsoft.azure.batch._batch_client_behavior
-    name: BatchClientBehavior
-    fullName: com.microsoft.azure.batch.BatchClientBehavior
-    href: com.microsoft.azure.batch._batch_client_behavior.yml
-  - name: ' >'
-    fullName: ' >'
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
   - name: 'Collection< '
@@ -834,6 +804,16 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
+  spec.java:
+  - name: 'Iterable< '
+    fullName: 'Iterable< '
+  - uid: com.microsoft.azure.batch._batch_client_behavior
+    name: BatchClientBehavior
+    fullName: com.microsoft.azure.batch.BatchClientBehavior
+    href: com.microsoft.azure.batch._batch_client_behavior.yml
+  - name: ' >'
+    fullName: ' >'
 - uid: 230df18c
   spec.java:
   - name: DateTime
@@ -848,6 +828,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._compute_node.yml
   - name: ' >'
     fullName: ' >'
+- uid: com.microsoft.azure.batch._compute_node_operations_1a06fd357fadfc6bec48c89836691866c7
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

@@ -13,14 +13,6 @@ items:
   - com.microsoft.azure._azure_client_1a1b7eb9e13269e55bffa89261d2bfc07b
   - com.microsoft.azure._azure_client_1ae2469408e99f8f208b5201c34539926c
   - com.microsoft.azure._azure_client_1ad20133c033e59ab7594f1bc63772ef52
-  - com.microsoft.azure._azure_client_1a1a91aadc2e6bcd14c23cac61614312f6
-  - com.microsoft.azure._azure_client_1af30660d915a4705a206fdd85d6bd9f06
-  - com.microsoft.azure._azure_client_1a713594ece9d0f237ee0a6f3ee98d4867
-  - com.microsoft.azure._azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
-  - com.microsoft.azure._azure_client_1aa021df5d60d1bf9c660dfc4aeae54c1d
-  - com.microsoft.azure._azure_client_1a046ade9ee4e0e935fedac41a014ceb75
-  - com.microsoft.azure._azure_client_1ac383f55e15f4bd42669c370fdf480e74
-  - com.microsoft.azure._azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
   - com.microsoft.azure._azure_client_1a6d06ccce7879fced5da092b4d568a29d
   href: com.microsoft.azure._azure_client.yml
   langs:
@@ -49,6 +41,14 @@ items:
   - com.microsoft.azure._azure_service_client_1a18e78c0f8bdc2326725e55b986cf6ab6
   - com.microsoft.azure._azure_service_client_1afb509bc696d2cf1efb8e7f660c9f2c0c
   - com.microsoft.azure._azure_service_client_1a9101a02255268a832633e2717a0bcbe9
+  - com.microsoft.azure._azure_client_1a1a91aadc2e6bcd14c23cac61614312f6
+  - com.microsoft.azure._azure_client_1af30660d915a4705a206fdd85d6bd9f06
+  - com.microsoft.azure._azure_client_1a713594ece9d0f237ee0a6f3ee98d4867
+  - com.microsoft.azure._azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
+  - com.microsoft.azure._azure_client_1aa021df5d60d1bf9c660dfc4aeae54c1d
+  - com.microsoft.azure._azure_client_1a046ade9ee4e0e935fedac41a014ceb75
+  - com.microsoft.azure._azure_client_1ac383f55e15f4bd42669c370fdf480e74
+  - com.microsoft.azure._azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
   - com.microsoft.azure._azure_service_client_1a97f8ed1ae90c4a62caddf5a12d147a6c
 - uid: com.microsoft.azure._azure_client_1a89b08159e51840562029d52ecb271ad2
   id: _azure_client_1a89b08159e51840562029d52ecb271ad2
@@ -116,7 +116,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T > ServiceResponse< T > getPostOrDeleteResult(Response< ResponseBody > response, Type resourceType)
+    content: public ServiceResponse< T > getPostOrDeleteResult(Response< ResponseBody > response, Type resourceType)
     parameters:
     - id: response
       type: "1755e818"
@@ -125,7 +125,7 @@ items:
       type: 7727faa1
       description: <p>the type of the resource </p>
     return:
-      type: beed6a5bcom.microsoft.rest._service_response34132889
+      type: com.microsoft.rest._service_response34132889
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -153,7 +153,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T > AsyncPollingTask< T > getPostOrDeleteResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
+    content: public AsyncPollingTask< T > getPostOrDeleteResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -168,7 +168,7 @@ items:
       type: com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: d0b8388f
+      type: 8d381f08
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1a7feb2d3a814ce376de5136c3ac9f6729
   id: _azure_client_1a7feb2d3a814ce376de5136c3ac9f6729
@@ -189,7 +189,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T, THeader > ServiceResponseWithHeaders< T, THeader > getPostOrDeleteResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
+    content: public ServiceResponseWithHeaders< T, THeader > getPostOrDeleteResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
     parameters:
     - id: response
       type: "1755e818"
@@ -201,7 +201,7 @@ items:
       type: c6b67eee
       description: <p>the type of the response header </p>
     return:
-      type: 22bb80bfcom.microsoft.rest._service_response_with_headers629a7163
+      type: com.microsoft.rest._service_response_with_headers629a7163
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -229,7 +229,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T, THeader > AsyncPollingTask< T > getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
+    content: public AsyncPollingTask< T > getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -247,7 +247,7 @@ items:
       type: 93de0ef9com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: 73b28e1f
+      type: 8d381f08
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1a6f264cc3cf5abe96be4240fca2c03f9b
   id: _azure_client_1a6f264cc3cf5abe96be4240fca2c03f9b
@@ -268,7 +268,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T > ServiceResponse< T > getPutOrPatchResult(Response< ResponseBody > response, Type resourceType)
+    content: public ServiceResponse< T > getPutOrPatchResult(Response< ResponseBody > response, Type resourceType)
     parameters:
     - id: response
       type: "1755e818"
@@ -277,7 +277,7 @@ items:
       type: 7727faa1
       description: <p>the type of the resource </p>
     return:
-      type: beed6a5bcom.microsoft.rest._service_response34132889
+      type: com.microsoft.rest._service_response34132889
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -305,7 +305,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T > AsyncPollingTask< T > getPutOrPatchResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
+    content: public AsyncPollingTask< T > getPutOrPatchResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -320,7 +320,7 @@ items:
       type: com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: d0b8388f
+      type: 8d381f08
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1ae2469408e99f8f208b5201c34539926c
   id: _azure_client_1ae2469408e99f8f208b5201c34539926c
@@ -341,7 +341,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T, THeader > ServiceResponseWithHeaders< T, THeader > getPutOrPatchResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
+    content: public ServiceResponseWithHeaders< T, THeader > getPutOrPatchResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
     parameters:
     - id: response
       type: "1755e818"
@@ -353,7 +353,7 @@ items:
       type: c6b67eee
       description: <p>the type of the response header </p>
     return:
-      type: 22bb80bfcom.microsoft.rest._service_response_with_headers629a7163
+      type: com.microsoft.rest._service_response_with_headers629a7163
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -381,7 +381,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< T, THeader > AsyncPollingTask< T > getPutOrPatchResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
+    content: public AsyncPollingTask< T > getPutOrPatchResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -399,257 +399,7 @@ items:
       type: 93de0ef9com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: 73b28e1f
-      description: <p>the task describing the asynchronous polling. </p>
-- uid: com.microsoft.azure._azure_client_1a1a91aadc2e6bcd14c23cac61614312f6
-  id: _azure_client_1a1a91aadc2e6bcd14c23cac61614312f6
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromAzureAsyncOperationHeader(PollingState< T > pollingState)
-  fullName: private<T> void com.microsoft.azure.AzureClient.updateStateFromAzureAsyncOperationHeader(PollingState< T > pollingState)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 568
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the 'Azure-AsyncOperation' header and updates the polling state with the polling response.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > void updateStateFromAzureAsyncOperationHeader(PollingState< T > pollingState)
-    parameters:
-    - id: pollingState
-      type: com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    return:
-      type: f09ef1c9
-  exceptions:
-  - type: com.microsoft.azure._cloud_exception
-    description: <p>service exception </p>
-  - type: cbf33bbe
-    description: <p>thrown by deserialization </p>
-- uid: com.microsoft.azure._azure_client_1af30660d915a4705a206fdd85d6bd9f06
-  id: _azure_client_1af30660d915a4705a206fdd85d6bd9f06
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-  fullName: private<T> Call<ResponseBody> com.microsoft.azure.AzureClient.updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 601
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the 'Azure-AsyncOperation' header and updates the polling state with the polling response.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > Call< ResponseBody > updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-    parameters:
-    - id: pollingState
-      type: 93de0ef9com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    - id: callback
-      type: 93de0ef9com.microsoft.rest._service_callback34132889
-      description: <p>the user callback to call when operation terminates. </p>
-    return:
-      type: 882802ef
-      description: <p>the task describing the asynchronous polling. </p>
-- uid: com.microsoft.azure._azure_client_1a713594ece9d0f237ee0a6f3ee98d4867
-  id: _azure_client_1a713594ece9d0f237ee0a6f3ee98d4867
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromGetResourceOperation(PollingState< T > pollingState, String url)
-  fullName: private<T> void com.microsoft.azure.AzureClient.updateStateFromGetResourceOperation(PollingState< T > pollingState, String url)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 525
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the provided URL and updates the polling state with the polling response.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > void updateStateFromGetResourceOperation(PollingState< T > pollingState, String url)
-    parameters:
-    - id: pollingState
-      type: com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    - id: url
-      type: "26831127"
-      description: <p>the url to poll from </p>
-    return:
-      type: f09ef1c9
-  exceptions:
-  - type: com.microsoft.azure._cloud_exception
-    description: <p>service exception </p>
-  - type: cbf33bbe
-    description: <p>thrown by deserialization </p>
-- uid: com.microsoft.azure._azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
-  id: _azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromGetResourceOperationAsync(final PollingState< T > pollingState, String url, final ServiceCallback< T > callback)
-  fullName: private<T> Call<ResponseBody> com.microsoft.azure.AzureClient.updateStateFromGetResourceOperationAsync(final PollingState< T > pollingState, String url, final ServiceCallback< T > callback)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 540
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the provided URL and updates the polling state with the polling response.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > Call< ResponseBody > updateStateFromGetResourceOperationAsync(final PollingState< T > pollingState, String url, final ServiceCallback< T > callback)
-    parameters:
-    - id: pollingState
-      type: 93de0ef9com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    - id: url
-      type: "26831127"
-      description: <p>the url to poll from </p>
-    - id: callback
-      type: 93de0ef9com.microsoft.rest._service_callback34132889
-      description: <p>the user callback to call when operation terminates. </p>
-    return:
-      type: 882802ef
-      description: <p>the task describing the asynchronous polling. </p>
-- uid: com.microsoft.azure._azure_client_1aa021df5d60d1bf9c660dfc4aeae54c1d
-  id: _azure_client_1aa021df5d60d1bf9c660dfc4aeae54c1d
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromLocationHeaderOnPostOrDelete(PollingState< T > pollingState)
-  fullName: private<T> void com.microsoft.azure.AzureClient.updateStateFromLocationHeaderOnPostOrDelete(PollingState< T > pollingState)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 470
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the location header and updates the polling state with the polling response for a POST or DELETE operation.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > void updateStateFromLocationHeaderOnPostOrDelete(PollingState< T > pollingState)
-    parameters:
-    - id: pollingState
-      type: com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    return:
-      type: f09ef1c9
-  exceptions:
-  - type: com.microsoft.azure._cloud_exception
-    description: <p>service exception </p>
-  - type: cbf33bbe
-    description: <p>thrown by deserialization </p>
-- uid: com.microsoft.azure._azure_client_1a046ade9ee4e0e935fedac41a014ceb75
-  id: _azure_client_1a046ade9ee4e0e935fedac41a014ceb75
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-  fullName: private<T> Call<ResponseBody> com.microsoft.azure.AzureClient.updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 490
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the location header and updates the polling state with the polling response for a POST or DELETE operation.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > Call< ResponseBody > updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-    parameters:
-    - id: pollingState
-      type: 93de0ef9com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    - id: callback
-      type: 93de0ef9com.microsoft.rest._service_callback34132889
-      description: <p>the user callback to call when operation terminates. </p>
-    return:
-      type: 882802ef
-      description: <p>the task describing the asynchronous polling. </p>
-- uid: com.microsoft.azure._azure_client_1ac383f55e15f4bd42669c370fdf480e74
-  id: _azure_client_1ac383f55e15f4bd42669c370fdf480e74
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromLocationHeaderOnPut(PollingState< T > pollingState)
-  fullName: private<T> void com.microsoft.azure.AzureClient.updateStateFromLocationHeaderOnPut(PollingState< T > pollingState)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 416
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the location header and updates the polling state with the polling response for a PUT operation.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > void updateStateFromLocationHeaderOnPut(PollingState< T > pollingState)
-    parameters:
-    - id: pollingState
-      type: com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    return:
-      type: f09ef1c9
-  exceptions:
-  - type: com.microsoft.azure._cloud_exception
-    description: <p>REST exception </p>
-  - type: cbf33bbe
-    description: <p>thrown by deserialization </p>
-- uid: com.microsoft.azure._azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
-  id: _azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
-  parent: com.microsoft.azure._azure_client
-  href: com.microsoft.azure._azure_client.yml
-  langs:
-  - java
-  name: updateStateFromLocationHeaderOnPutAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-  fullName: private<T> Call<ResponseBody> com.microsoft.azure.AzureClient.updateStateFromLocationHeaderOnPutAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-  type: Method
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureClient.java
-    startLine: 436
-  package: com.microsoft.azure
-  summary: >-
-    <p>Polls from the location header and updates the polling state with the polling response for a PUT operation.</p>
-
-    <p></p>
-  syntax:
-    content: private< T > Call< ResponseBody > updateStateFromLocationHeaderOnPutAsync(final PollingState< T > pollingState, final ServiceCallback< T > callback)
-    parameters:
-    - id: pollingState
-      type: 93de0ef9com.microsoft.azure._polling_state34132889
-      description: <p>the polling state for the current operation. </p>
-    - id: callback
-      type: 93de0ef9com.microsoft.rest._service_callback34132889
-      description: <p>the user callback to call when operation terminates. </p>
-    return:
-      type: 882802ef
+      type: 8d381f08
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1a6d06ccce7879fced5da092b4d568a29d
   id: _azure_client_1a6d06ccce7879fced5da092b4d568a29d
@@ -696,10 +446,8 @@ references:
   spec.java:
   - name: Type
     fullName: Type
-- uid: beed6a5bcom.microsoft.rest._service_response34132889
+- uid: com.microsoft.rest._service_response34132889
   spec.java:
-  - name: 'public< T > '
-    fullName: 'public< T > '
   - uid: com.microsoft.rest._service_response
     name: ServiceResponse
     fullName: com.microsoft.rest.ServiceResponse
@@ -710,10 +458,8 @@ references:
   spec.java:
   - name: Class< THeader >
     fullName: Class< THeader >
-- uid: 22bb80bfcom.microsoft.rest._service_response_with_headers629a7163
+- uid: com.microsoft.rest._service_response_with_headers629a7163
   spec.java:
-  - name: 'public< T, THeader > '
-    fullName: 'public< T, THeader > '
   - uid: com.microsoft.rest._service_response_with_headers
     name: ServiceResponseWithHeaders
     fullName: com.microsoft.rest.ServiceResponseWithHeaders
@@ -728,10 +474,10 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < T >
     fullName: < T >
-- uid: d0b8388f
+- uid: 8d381f08
   spec.java:
-  - name: public< T > AsyncPollingTask< T >
-    fullName: public< T > AsyncPollingTask< T >
+  - name: AsyncPollingTask< T >
+    fullName: AsyncPollingTask< T >
 - uid: 8cfd9acf
   spec.java:
   - name: final Class< THeader >
@@ -754,40 +500,6 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < T >
     fullName: < T >
-- uid: 73b28e1f
-  spec.java:
-  - name: public< T, THeader > AsyncPollingTask< T >
-    fullName: public< T, THeader > AsyncPollingTask< T >
-- uid: com.microsoft.azure._polling_state34132889
-  spec.java:
-  - uid: com.microsoft.azure._polling_state
-    name: PollingState
-    fullName: com.microsoft.azure.PollingState
-    href: com.microsoft.azure._polling_state.yml
-  - name: < T >
-    fullName: < T >
-- uid: f09ef1c9
-  spec.java:
-  - name: private< T > void
-    fullName: private< T > void
-- uid: 93de0ef9com.microsoft.azure._polling_state34132889
-  spec.java:
-  - name: 'final '
-    fullName: 'final '
-  - uid: com.microsoft.azure._polling_state
-    name: PollingState
-    fullName: com.microsoft.azure.PollingState
-    href: com.microsoft.azure._polling_state.yml
-  - name: < T >
-    fullName: < T >
-- uid: 882802ef
-  spec.java:
-  - name: private< T > Call< ResponseBody >
-    fullName: private< T > Call< ResponseBody >
-- uid: "26831127"
-  spec.java:
-  - name: String
-    fullName: String
 - uid: com.microsoft.azure._azure_service_client_1ab88d970f32ab62431f4c525404f38580
   parent: com.microsoft.azure._azure_service_client
   href: com.microsoft.azure._azure_service_client.yml
@@ -859,6 +571,14 @@ references:
     return:
       type: 964879b9
       description: <p>the Retrofit instance. </p>
+- uid: com.microsoft.azure._azure_client_1a1a91aadc2e6bcd14c23cac61614312f6
+- uid: com.microsoft.azure._azure_client_1af30660d915a4705a206fdd85d6bd9f06
+- uid: com.microsoft.azure._azure_client_1a713594ece9d0f237ee0a6f3ee98d4867
+- uid: com.microsoft.azure._azure_client_1a36632f1ebfef5c667ffc697f49b8d8ca
+- uid: com.microsoft.azure._azure_client_1aa021df5d60d1bf9c660dfc4aeae54c1d
+- uid: com.microsoft.azure._azure_client_1a046ade9ee4e0e935fedac41a014ceb75
+- uid: com.microsoft.azure._azure_client_1ac383f55e15f4bd42669c370fdf480e74
+- uid: com.microsoft.azure._azure_client_1a8fb51ae14204159fce5fc1eee8df4b8c
 - uid: com.microsoft.azure._azure_service_client_1a97f8ed1ae90c4a62caddf5a12d147a6c
   parent: com.microsoft.azure._azure_service_client
   href: com.microsoft.azure._azure_service_client.yml

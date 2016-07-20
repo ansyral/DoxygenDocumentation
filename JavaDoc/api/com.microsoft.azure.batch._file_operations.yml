@@ -9,7 +9,6 @@ items:
   - com.microsoft.azure.batch._file_operations_1a1238582fd0064142da33f1cd99633ddc
   - com.microsoft.azure.batch._file_operations_1a563cc302fafd617c689ccf263be21887
   - com.microsoft.azure.batch._file_operations_1a67e3aba87927ceb998c5310e600e40c8
-  - com.microsoft.azure.batch._file_operations_1a078b0d1ce22bdf9f34c8210df5e4d12b
   - com.microsoft.azure.batch._file_operations_1a5114b1dd80ca055d933963f927035185
   - com.microsoft.azure.batch._file_operations_1a5dc0e83e9126cb1486d82aaed4f7a454
   - com.microsoft.azure.batch._file_operations_1a95b277cea503b52975577d438f82f425
@@ -45,6 +44,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
+  inheritedMembers:
+  - com.microsoft.azure.batch._file_operations_1a078b0d1ce22bdf9f34c8210df5e4d12b
 - uid: com.microsoft.azure.batch._file_operations_1a016b2ab2ac68f2999cf36a66fde32e4d
   id: _file_operations_1a016b2ab2ac68f2999cf36a66fde32e4d
   parent: com.microsoft.azure.batch._file_operations
@@ -194,27 +195,6 @@ items:
     - id: recursive
       type: 866c2227
     - id: additionalBehaviors
-      type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: com.microsoft.azure.batch._file_operations_1a078b0d1ce22bdf9f34c8210df5e4d12b
-  id: _file_operations_1a078b0d1ce22bdf9f34c8210df5e4d12b
-  parent: com.microsoft.azure.batch._file_operations
-  href: com.microsoft.azure.batch._file_operations.yml
-  langs:
-  - java
-  name: FileOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  fullName: com.microsoft.azure.batch.FileOperations.FileOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/FileOperations.java
-    startLine: 39
-  package: com.microsoft.azure.batch
-  syntax:
-    content: FileOperations(BatchClient batchClient, Iterable< BatchClientBehavior > inheritedBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: inheritedBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
 - uid: com.microsoft.azure.batch._file_operations_1a5114b1dd80ca055d933963f927035185
   id: _file_operations_1a5114b1dd80ca055d933963f927035185
@@ -622,16 +602,6 @@ items:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   overridden: com.microsoft.azure.batch._i_inherited_behaviors_1a906d02b393fbc3a9982f1396f6c1ec44
 references:
-- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-  spec.java:
-  - name: 'Iterable< '
-    fullName: 'Iterable< '
-  - uid: com.microsoft.azure.batch._batch_client_behavior
-    name: BatchClientBehavior
-    fullName: com.microsoft.azure.batch.BatchClientBehavior
-    href: com.microsoft.azure.batch._batch_client_behavior.yml
-  - name: ' >'
-    fullName: ' >'
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
   - name: 'Collection< '
@@ -660,10 +630,21 @@ references:
   spec.java:
   - name: Boolean
     fullName: Boolean
+- uid: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
+  spec.java:
+  - name: 'Iterable< '
+    fullName: 'Iterable< '
+  - uid: com.microsoft.azure.batch._batch_client_behavior
+    name: BatchClientBehavior
+    fullName: com.microsoft.azure.batch.BatchClientBehavior
+    href: com.microsoft.azure.batch._batch_client_behavior.yml
+  - name: ' >'
+    fullName: ' >'
 - uid: 76fcb9b7
   spec.java:
   - name: InputStream
     fullName: InputStream
+- uid: com.microsoft.azure.batch._file_operations_1a078b0d1ce22bdf9f34c8210df5e4d12b
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

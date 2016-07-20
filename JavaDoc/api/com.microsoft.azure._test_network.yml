@@ -5,7 +5,6 @@ items:
   children:
   - com.microsoft.azure._test_network_1ab90beb4f858908266a7f8ce8a2dc0993
   - com.microsoft.azure._test_network_1a57546372720ac90b350741a5d711db9a
-  - com.microsoft.azure._test_network_1a32a55202926c8ff3a37e8a965d8755f6
   - com.microsoft.azure._test_network_1a1373a29dd68858c294e2fa5f9e1b8feb
   href: com.microsoft.azure._test_network.yml
   langs:
@@ -32,6 +31,7 @@ items:
   - com.microsoft.azure._test_template_1ad0692209779060ed14522787fd1f8460
   - com.microsoft.azure._test_template_1a268b3336f5790997f3507a5cbc2f60da
   - com.microsoft.azure._test_template_1a166a78b0c84807111b68036dd2af10a6
+  - com.microsoft.azure._test_network_1a32a55202926c8ff3a37e8a965d8755f6
   - com.microsoft.azure._test_template_1a3d8319b0ad76131f6b6b247e2dd051ec
   - com.microsoft.azure._test_template_1a5d4b9939a4feb23308cae80bf0f247bc
   - com.microsoft.azure._test_template_1a8b2365cc7588e8a02ba2b68b3ace25e3
@@ -76,25 +76,6 @@ items:
     parameters:
     - id: resource
       type: com.microsoft.azure.management.network._network
-- uid: com.microsoft.azure._test_network_1a32a55202926c8ff3a37e8a965d8755f6
-  id: _test_network_1a32a55202926c8ff3a37e8a965d8755f6
-  parent: com.microsoft.azure._test_network
-  href: com.microsoft.azure._test_network.yml
-  langs:
-  - java
-  name: TestNetwork(NetworkSecurityGroups nsgs)
-  fullName: com.microsoft.azure.TestNetwork.TestNetwork(NetworkSecurityGroups nsgs)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure/src/test/java/com/microsoft/azure/TestNetwork.java
-    startLine: 22
-  package: com.microsoft.azure
-  syntax:
-    content: TestNetwork(NetworkSecurityGroups nsgs)
-    parameters:
-    - id: nsgs
-      type: com.microsoft.azure.management.network._network_security_groups
 - uid: com.microsoft.azure._test_network_1a1373a29dd68858c294e2fa5f9e1b8feb
   id: _test_network_1a1373a29dd68858c294e2fa5f9e1b8feb
   parent: com.microsoft.azure._test_network
@@ -180,6 +161,7 @@ references:
     content: protected String testId= String.valueOf(System.currentTimeMillis() % 100000L)
     return:
       type: "26831127"
+- uid: com.microsoft.azure._test_network_1a32a55202926c8ff3a37e8a965d8755f6
 - uid: com.microsoft.azure._test_template_1a3d8319b0ad76131f6b6b247e2dd051ec
   parent: com.microsoft.azure._test_template
   href: com.microsoft.azure._test_template.yml

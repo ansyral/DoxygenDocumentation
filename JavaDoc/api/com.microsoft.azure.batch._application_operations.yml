@@ -3,7 +3,6 @@ items:
   id: _application_operations
   parent: com.microsoft.azure.batch
   children:
-  - com.microsoft.azure.batch._application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
   - com.microsoft.azure.batch._application_operations_1aadc3bd037b9a84679bb919f715c999de
   - com.microsoft.azure.batch._application_operations_1a86f8ee68a5b734a46be718d0b40ab26b
   - com.microsoft.azure.batch._application_operations_1a3993d95aa9fa4567832d9eb40d28aac0
@@ -29,27 +28,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
-- uid: com.microsoft.azure.batch._application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
-  id: _application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
-  parent: com.microsoft.azure.batch._application_operations
-  href: com.microsoft.azure.batch._application_operations.yml
-  langs:
-  - java
-  name: ApplicationOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  fullName: com.microsoft.azure.batch.ApplicationOperations.ApplicationOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/ApplicationOperations.java
-    startLine: 23
-  package: com.microsoft.azure.batch
-  syntax:
-    content: ApplicationOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: customBehaviors
-      type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
+  inheritedMembers:
+  - com.microsoft.azure.batch._application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
 - uid: com.microsoft.azure.batch._application_operations_1aadc3bd037b9a84679bb919f715c999de
   id: _application_operations_1aadc3bd037b9a84679bb919f715c999de
   parent: com.microsoft.azure.batch._application_operations
@@ -207,6 +187,7 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.batch._application_operations_1a15e007120d832d9c7b8dbb43e8a6cab6
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

@@ -20,7 +20,6 @@ items:
   - com.microsoft.azure.batch._task_operations_1a2a2c9358289c475441532b206fa2dd64
   - com.microsoft.azure.batch._task_operations_1aac2c56bea06fb48b0c7f041964cd3547
   - com.microsoft.azure.batch._task_operations_1a1b98d95fcb09d7ff5194558446dbb4ff
-  - com.microsoft.azure.batch._task_operations_1a77ae2be53b1d09885ae9786999017767
   - com.microsoft.azure.batch._task_operations_1acda2b9e1158f0dcb21f0565fce3a7126
   - com.microsoft.azure.batch._task_operations_1a44e7c84a83c8ab2c70fb98ca073d03de
   - com.microsoft.azure.batch._task_operations_1acab7cc480c833a70fc7bb8df94f20014
@@ -44,6 +43,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
+  inheritedMembers:
+  - com.microsoft.azure.batch._task_operations_1a77ae2be53b1d09885ae9786999017767
 - uid: com.microsoft.azure.batch._task_operations_1aa9a714d5b932bc2ae466e045475ea325
   id: _task_operations_1aa9a714d5b932bc2ae466e045475ea325
   parent: com.microsoft.azure.batch._task_operations
@@ -434,27 +435,6 @@ items:
     - id: behaviors
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   overridden: com.microsoft.azure.batch._i_inherited_behaviors_1a906d02b393fbc3a9982f1396f6c1ec44
-- uid: com.microsoft.azure.batch._task_operations_1a77ae2be53b1d09885ae9786999017767
-  id: _task_operations_1a77ae2be53b1d09885ae9786999017767
-  parent: com.microsoft.azure.batch._task_operations
-  href: com.microsoft.azure.batch._task_operations.yml
-  langs:
-  - java
-  name: TaskOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  fullName: com.microsoft.azure.batch.TaskOperations.TaskOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/TaskOperations.java
-    startLine: 19
-  package: com.microsoft.azure.batch
-  syntax:
-    content: TaskOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: customBehaviors
-      type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
 - uid: com.microsoft.azure.batch._task_operations_1acda2b9e1158f0dcb21f0565fce3a7126
   id: _task_operations_1acda2b9e1158f0dcb21f0565fce3a7126
   parent: com.microsoft.azure.batch._task_operations
@@ -602,6 +582,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
   - name: ' >'
     fullName: ' >'
+- uid: com.microsoft.azure.batch._task_operations_1a77ae2be53b1d09885ae9786999017767
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

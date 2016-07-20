@@ -3,19 +3,14 @@ items:
   id: _azure_async_operation
   parent: com.microsoft.azure
   children:
-  - com.microsoft.azure._azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
-  - com.microsoft.azure._azure_async_operation_1a5693958576b7a018d4ebde1195ec7f73
-  - com.microsoft.azure._azure_async_operation_1a9c6c992797737426befd95b7d71e94ae
   - com.microsoft.azure._azure_async_operation_1a38be3fbf0bcf5c662b4c689017cb06cb
   - com.microsoft.azure._azure_async_operation_1afd2f46c5516d73811cf7dc4b56207693
   - com.microsoft.azure._azure_async_operation_1ace9bcb0d49560abff622332e99542977
   - com.microsoft.azure._azure_async_operation_1a3f8fec732395bcc28be881a5ea5fd067
   - com.microsoft.azure._azure_async_operation_1a7af675f8387861b53bf3922763607824
-  - com.microsoft.azure._azure_async_operation_1a08495351158a6272f6128176450eb693
   - com.microsoft.azure._azure_async_operation_1af7fb7bb0e339a16a3697a34f8c9da3d5
   - com.microsoft.azure._azure_async_operation_1a85a18c85ae79d02c2272929b778739e0
   - com.microsoft.azure._azure_async_operation_1acf791310fa54b06438df19baeabc4995
-  - com.microsoft.azure._azure_async_operation_1a28178b1b3a1c673bd1bc709ac4147d69
   href: com.microsoft.azure._azure_async_operation.yml
   langs:
   - java
@@ -35,63 +30,12 @@ items:
     content: public class AzureAsyncOperation
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.azure._azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
-  id: _azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
-  parent: com.microsoft.azure._azure_async_operation
-  href: com.microsoft.azure._azure_async_operation.yml
-  langs:
-  - java
-  name: CANCELED_STATUS
-  fullName: final String com.microsoft.azure.AzureAsyncOperation.CANCELED_STATUS
-  type: Field
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureAsyncOperation.java
-    startLine: 47
-  package: com.microsoft.azure
-  summary: <p>Canceled status for long running operations. </p>
-  syntax:
-    content: static final String CANCELED_STATUS= "Canceled"
-    return:
-      type: 3d93591e
-- uid: com.microsoft.azure._azure_async_operation_1a5693958576b7a018d4ebde1195ec7f73
-  id: _azure_async_operation_1a5693958576b7a018d4ebde1195ec7f73
-  parent: com.microsoft.azure._azure_async_operation
-  href: com.microsoft.azure._azure_async_operation.yml
-  langs:
-  - java
-  name: DEFAULT_DELAY
-  fullName: final int com.microsoft.azure.AzureAsyncOperation.DEFAULT_DELAY
-  type: Field
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureAsyncOperation.java
-    startLine: 27
-  package: com.microsoft.azure
-  summary: <p>Default delay in seconds for long running operations. </p>
-  syntax:
-    content: static final int DEFAULT_DELAY= 30
-    return:
-      type: cd225469
-- uid: com.microsoft.azure._azure_async_operation_1a9c6c992797737426befd95b7d71e94ae
-  id: _azure_async_operation_1a9c6c992797737426befd95b7d71e94ae
-  parent: com.microsoft.azure._azure_async_operation
-  href: com.microsoft.azure._azure_async_operation.yml
-  langs:
-  - java
-  name: FAILED_STATUS
-  fullName: final String com.microsoft.azure.AzureAsyncOperation.FAILED_STATUS
-  type: Field
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureAsyncOperation.java
-    startLine: 42
-  package: com.microsoft.azure
-  summary: <p>Failed status for long running operations. </p>
-  syntax:
-    content: static final String FAILED_STATUS= "Failed"
-    return:
-      type: 3d93591e
+  inheritedMembers:
+  - com.microsoft.azure._azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
+  - com.microsoft.azure._azure_async_operation_1a5693958576b7a018d4ebde1195ec7f73
+  - com.microsoft.azure._azure_async_operation_1a9c6c992797737426befd95b7d71e94ae
+  - com.microsoft.azure._azure_async_operation_1a08495351158a6272f6128176450eb693
+  - com.microsoft.azure._azure_async_operation_1a28178b1b3a1c673bd1bc709ac4147d69
 - uid: com.microsoft.azure._azure_async_operation_1a38be3fbf0bcf5c662b4c689017cb06cb
   id: _azure_async_operation_1a38be3fbf0bcf5c662b4c689017cb06cb
   parent: com.microsoft.azure._azure_async_operation
@@ -207,25 +151,6 @@ items:
     return:
       type: f35af49b
       description: <p>a list of terminal statuses. </p>
-- uid: com.microsoft.azure._azure_async_operation_1a08495351158a6272f6128176450eb693
-  id: _azure_async_operation_1a08495351158a6272f6128176450eb693
-  parent: com.microsoft.azure._azure_async_operation
-  href: com.microsoft.azure._azure_async_operation.yml
-  langs:
-  - java
-  name: IN_PROGRESS_STATUS
-  fullName: final String com.microsoft.azure.AzureAsyncOperation.IN_PROGRESS_STATUS
-  type: Field
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureAsyncOperation.java
-    startLine: 37
-  package: com.microsoft.azure
-  summary: <p>In progress status for long running operations. </p>
-  syntax:
-    content: static final String IN_PROGRESS_STATUS= "InProgress"
-    return:
-      type: 3d93591e
 - uid: com.microsoft.azure._azure_async_operation_1af7fb7bb0e339a16a3697a34f8c9da3d5
   id: _azure_async_operation_1af7fb7bb0e339a16a3697a34f8c9da3d5
   parent: com.microsoft.azure._azure_async_operation
@@ -298,34 +223,7 @@ items:
     - id: status
       type: "26831127"
       description: <p>the status of the asynchronous request. </p>
-- uid: com.microsoft.azure._azure_async_operation_1a28178b1b3a1c673bd1bc709ac4147d69
-  id: _azure_async_operation_1a28178b1b3a1c673bd1bc709ac4147d69
-  parent: com.microsoft.azure._azure_async_operation
-  href: com.microsoft.azure._azure_async_operation.yml
-  langs:
-  - java
-  name: SUCCESS_STATUS
-  fullName: final String com.microsoft.azure.AzureAsyncOperation.SUCCESS_STATUS
-  type: Field
-  source:
-    remote: *o0
-    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/AzureAsyncOperation.java
-    startLine: 32
-  package: com.microsoft.azure
-  summary: <p>Successful status for long running operations. </p>
-  syntax:
-    content: static final String SUCCESS_STATUS= "Succeeded"
-    return:
-      type: 3d93591e
 references:
-- uid: cd225469
-  spec.java:
-  - name: final int
-    fullName: final int
-- uid: 3d93591e
-  spec.java:
-  - name: final String
-    fullName: final String
 - uid: f35af49b
   spec.java:
   - name: List< String >
@@ -338,6 +236,11 @@ references:
   spec.java:
   - name: int
     fullName: int
+- uid: com.microsoft.azure._azure_async_operation_1a27c18106b368eb97f932f05c5d3fe238
+- uid: com.microsoft.azure._azure_async_operation_1a5693958576b7a018d4ebde1195ec7f73
+- uid: com.microsoft.azure._azure_async_operation_1a9c6c992797737426befd95b7d71e94ae
+- uid: com.microsoft.azure._azure_async_operation_1a08495351158a6272f6128176450eb693
+- uid: com.microsoft.azure._azure_async_operation_1a28178b1b3a1c673bd1bc709ac4147d69
 - uid: com.microsoft.azure._cloud_error
   parent: com.microsoft.azure
   href: com.microsoft.azure._cloud_error.yml

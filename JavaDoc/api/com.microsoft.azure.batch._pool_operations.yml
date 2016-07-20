@@ -41,7 +41,6 @@ items:
   - com.microsoft.azure.batch._pool_operations_1aa20f92028ea58119cb0d4e7e1dff0cbb
   - com.microsoft.azure.batch._pool_operations_1a1c5ff7891f9b3a351f3b2cdbbd75d382
   - com.microsoft.azure.batch._pool_operations_1ac5528169d7c444cc35ef2eea7ed8a6fd
-  - com.microsoft.azure.batch._pool_operations_1a5131a41d348f0470923f53bcc06c841e
   - com.microsoft.azure.batch._pool_operations_1ae4dd1aa07c745d7656cefbf66412ef1c
   - com.microsoft.azure.batch._pool_operations_1a04a47b8f514c9357cdb83885ce4891fa
   - com.microsoft.azure.batch._pool_operations_1a38a5f2a23ed4ae393591cfc3ff0a7f91
@@ -76,6 +75,8 @@ items:
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
+  inheritedMembers:
+  - com.microsoft.azure.batch._pool_operations_1a5131a41d348f0470923f53bcc06c841e
 - uid: com.microsoft.azure.batch._pool_operations_1a74f41c5e4817962985354319f2249b0d
   id: _pool_operations_1a74f41c5e4817962985354319f2249b0d
   parent: com.microsoft.azure.batch._pool_operations
@@ -936,27 +937,6 @@ items:
       type: 642418facom.microsoft.azure.batch.protocol.models._metadata_item9ec3e006
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: com.microsoft.azure.batch._pool_operations_1a5131a41d348f0470923f53bcc06c841e
-  id: _pool_operations_1a5131a41d348f0470923f53bcc06c841e
-  parent: com.microsoft.azure.batch._pool_operations
-  href: com.microsoft.azure.batch._pool_operations.yml
-  langs:
-  - java
-  name: PoolOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  fullName: com.microsoft.azure.batch.PoolOperations.PoolOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-  type: Constructor
-  source:
-    remote: *o0
-    path: azure-batch/src/main/java/com/microsoft/azure/batch/PoolOperations.java
-    startLine: 20
-  package: com.microsoft.azure.batch
-  syntax:
-    content: PoolOperations(BatchClient batchClient, Collection< BatchClientBehavior > customBehaviors)
-    parameters:
-    - id: batchClient
-      type: com.microsoft.azure.batch._batch_client
-    - id: customBehaviors
-      type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
 - uid: com.microsoft.azure.batch._pool_operations_1ae4dd1aa07c745d7656cefbf66412ef1c
   id: _pool_operations_1ae4dd1aa07c745d7656cefbf66412ef1c
   parent: com.microsoft.azure.batch._pool_operations
@@ -1402,6 +1382,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._pool_usage_metrics.yml
   - name: ' >'
     fullName: ' >'
+- uid: com.microsoft.azure.batch._pool_operations_1a5131a41d348f0470923f53bcc06c841e
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml

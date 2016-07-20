@@ -165,7 +165,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< THeader > ServiceResponseWithHeaders< T, THeader > buildEmptyWithHeaders(Response< Void > response, Class< THeader > headerType)
+    content: public ServiceResponseWithHeaders< T, THeader > buildEmptyWithHeaders(Response< Void > response, Class< THeader > headerType)
     parameters:
     - id: response
       type: 1f34a690
@@ -174,7 +174,7 @@ items:
       type: c6b67eee
       description: <p>the type of the header </p>
     return:
-      type: f5665ddecom.microsoft.rest._service_response_with_headers629a7163
+      type: com.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
   exceptions:
   - type: 0ca03e3a
@@ -202,7 +202,7 @@ items:
 
     <p></p>
   syntax:
-    content: public< THeader > ServiceResponseWithHeaders< T, THeader > buildWithHeaders(Response< ResponseBody > response, Class< THeader > headerType)
+    content: public ServiceResponseWithHeaders< T, THeader > buildWithHeaders(Response< ResponseBody > response, Class< THeader > headerType)
     parameters:
     - id: response
       type: "1755e818"
@@ -211,7 +211,7 @@ items:
       type: c6b67eee
       description: <p>the type of the header </p>
     return:
-      type: f5665ddecom.microsoft.rest._service_response_with_headers629a7163
+      type: com.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
   exceptions:
   - type: 0ca03e3a
@@ -483,10 +483,8 @@ references:
   spec.java:
   - name: Class< THeader >
     fullName: Class< THeader >
-- uid: f5665ddecom.microsoft.rest._service_response_with_headers629a7163
+- uid: com.microsoft.rest._service_response_with_headers629a7163
   spec.java:
-  - name: 'public< THeader > '
-    fullName: 'public< THeader > '
   - uid: com.microsoft.rest._service_response_with_headers
     name: ServiceResponseWithHeaders
     fullName: com.microsoft.rest.ServiceResponseWithHeaders
