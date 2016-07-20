@@ -116,7 +116,7 @@ items:
 
     <p></p>
   syntax:
-    content: public ServiceResponse< T > getPostOrDeleteResult(Response< ResponseBody > response, Type resourceType)
+    content: public < T > ServiceResponse< T > getPostOrDeleteResult(Response< ResponseBody > response, Type resourceType)
     parameters:
     - id: response
       type: "1755e818"
@@ -125,7 +125,7 @@ items:
       type: 7727faa1
       description: <p>the type of the resource </p>
     return:
-      type: com.microsoft.rest._service_response34132889
+      type: 4844993acom.microsoft.rest._service_response34132889
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -153,7 +153,7 @@ items:
 
     <p></p>
   syntax:
-    content: public AsyncPollingTask< T > getPostOrDeleteResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
+    content: public < T > AsyncPollingTask< T > getPostOrDeleteResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -168,7 +168,7 @@ items:
       type: com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: 8d381f08
+      type: 1e0a35de
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1a7feb2d3a814ce376de5136c3ac9f6729
   id: _azure_client_1a7feb2d3a814ce376de5136c3ac9f6729
@@ -189,7 +189,7 @@ items:
 
     <p></p>
   syntax:
-    content: public ServiceResponseWithHeaders< T, THeader > getPostOrDeleteResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
+    content: public < T, THeader > ServiceResponseWithHeaders< T, THeader > getPostOrDeleteResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
     parameters:
     - id: response
       type: "1755e818"
@@ -201,7 +201,7 @@ items:
       type: c6b67eee
       description: <p>the type of the response header </p>
     return:
-      type: com.microsoft.rest._service_response_with_headers629a7163
+      type: dc285512com.microsoft.rest._service_response_with_headers629a7163
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -229,7 +229,7 @@ items:
 
     <p></p>
   syntax:
-    content: public AsyncPollingTask< T > getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
+    content: public < T, THeader > AsyncPollingTask< T > getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -247,7 +247,7 @@ items:
       type: 93de0ef9com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: 8d381f08
+      type: 8367667f
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1a6f264cc3cf5abe96be4240fca2c03f9b
   id: _azure_client_1a6f264cc3cf5abe96be4240fca2c03f9b
@@ -268,7 +268,7 @@ items:
 
     <p></p>
   syntax:
-    content: public ServiceResponse< T > getPutOrPatchResult(Response< ResponseBody > response, Type resourceType)
+    content: public < T > ServiceResponse< T > getPutOrPatchResult(Response< ResponseBody > response, Type resourceType)
     parameters:
     - id: response
       type: "1755e818"
@@ -277,7 +277,7 @@ items:
       type: 7727faa1
       description: <p>the type of the resource </p>
     return:
-      type: com.microsoft.rest._service_response34132889
+      type: 4844993acom.microsoft.rest._service_response34132889
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -305,7 +305,7 @@ items:
 
     <p></p>
   syntax:
-    content: public AsyncPollingTask< T > getPutOrPatchResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
+    content: public < T > AsyncPollingTask< T > getPutOrPatchResultAsync(Response< ResponseBody > response, Type resourceType, ServiceCall serviceCall, ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -320,7 +320,7 @@ items:
       type: com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: 8d381f08
+      type: 1e0a35de
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1ae2469408e99f8f208b5201c34539926c
   id: _azure_client_1ae2469408e99f8f208b5201c34539926c
@@ -341,7 +341,7 @@ items:
 
     <p></p>
   syntax:
-    content: public ServiceResponseWithHeaders< T, THeader > getPutOrPatchResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
+    content: public < T, THeader > ServiceResponseWithHeaders< T, THeader > getPutOrPatchResultWithHeaders(Response< ResponseBody > response, Type resourceType, Class< THeader > headerType)
     parameters:
     - id: response
       type: "1755e818"
@@ -353,7 +353,7 @@ items:
       type: c6b67eee
       description: <p>the type of the response header </p>
     return:
-      type: com.microsoft.rest._service_response_with_headers629a7163
+      type: dc285512com.microsoft.rest._service_response_with_headers629a7163
       description: <p>the terminal response for the operation. </p>
   exceptions:
   - type: com.microsoft.azure._cloud_exception
@@ -381,7 +381,7 @@ items:
 
     <p></p>
   syntax:
-    content: public AsyncPollingTask< T > getPutOrPatchResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
+    content: public < T, THeader > AsyncPollingTask< T > getPutOrPatchResultWithHeadersAsync(Response< ResponseBody > response, Type resourceType, final Class< THeader > headerType, final ServiceCall serviceCall, final ServiceCallback< T > callback)
     parameters:
     - id: response
       type: "1755e818"
@@ -399,7 +399,7 @@ items:
       type: 93de0ef9com.microsoft.rest._service_callback34132889
       description: <p>the user callback to call when operation terminates. </p>
     return:
-      type: 8d381f08
+      type: 8367667f
       description: <p>the task describing the asynchronous polling. </p>
 - uid: com.microsoft.azure._azure_client_1a6d06ccce7879fced5da092b4d568a29d
   id: _azure_client_1a6d06ccce7879fced5da092b4d568a29d
@@ -446,8 +446,10 @@ references:
   spec.java:
   - name: Type
     fullName: Type
-- uid: com.microsoft.rest._service_response34132889
+- uid: 4844993acom.microsoft.rest._service_response34132889
   spec.java:
+  - name: '< T > '
+    fullName: '< T > '
   - uid: com.microsoft.rest._service_response
     name: ServiceResponse
     fullName: com.microsoft.rest.ServiceResponse
@@ -458,8 +460,10 @@ references:
   spec.java:
   - name: Class< THeader >
     fullName: Class< THeader >
-- uid: com.microsoft.rest._service_response_with_headers629a7163
+- uid: dc285512com.microsoft.rest._service_response_with_headers629a7163
   spec.java:
+  - name: '< T, THeader > '
+    fullName: '< T, THeader > '
   - uid: com.microsoft.rest._service_response_with_headers
     name: ServiceResponseWithHeaders
     fullName: com.microsoft.rest.ServiceResponseWithHeaders
@@ -474,10 +478,10 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < T >
     fullName: < T >
-- uid: 8d381f08
+- uid: 1e0a35de
   spec.java:
-  - name: AsyncPollingTask< T >
-    fullName: AsyncPollingTask< T >
+  - name: < T > AsyncPollingTask< T >
+    fullName: < T > AsyncPollingTask< T >
 - uid: 8cfd9acf
   spec.java:
   - name: final Class< THeader >
@@ -500,6 +504,10 @@ references:
     href: com.microsoft.rest._service_callback.yml
   - name: < T >
     fullName: < T >
+- uid: 8367667f
+  spec.java:
+  - name: < T, THeader > AsyncPollingTask< T >
+    fullName: < T, THeader > AsyncPollingTask< T >
 - uid: com.microsoft.azure._azure_service_client_1ab88d970f32ab62431f4c525404f38580
   parent: com.microsoft.azure._azure_service_client
   href: com.microsoft.azure._azure_service_client.yml

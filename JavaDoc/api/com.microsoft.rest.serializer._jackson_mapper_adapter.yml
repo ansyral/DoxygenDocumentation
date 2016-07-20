@@ -49,7 +49,7 @@ items:
 
     <p></p>
   syntax:
-    content: public T deserialize(String value, final Type type)
+    content: public < T > T deserialize(String value, final Type type)
     parameters:
     - id: value
       type: "26831127"
@@ -58,7 +58,7 @@ items:
       type: 1ac5c823
       description: <p>the type to deserialize. </p>
     return:
-      type: 8ce1ecb9
+      type: 37ac8106
       description: <p>the deserialized object. </p>
   exceptions:
   - type: cbf33bbe
@@ -268,10 +268,10 @@ references:
   spec.java:
   - name: final Type
     fullName: final Type
-- uid: 8ce1ecb9
+- uid: 37ac8106
   spec.java:
-  - name: T
-    fullName: T
+  - name: < T > T
+    fullName: < T > T
 - uid: com.microsoft.azure.serializer._azure_jackson_mapper_adapter
   parent: com.microsoft.azure.serializer
   href: com.microsoft.azure.serializer._azure_jackson_mapper_adapter.yml

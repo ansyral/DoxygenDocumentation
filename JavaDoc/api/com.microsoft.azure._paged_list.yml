@@ -699,12 +699,12 @@ items:
     startLine: 216
   package: com.microsoft.azure
   syntax:
-    content: public T[] toArray(T[] a)
+    content: public < T > T[] toArray(T[] a)
     parameters:
     - id: a
       type: 5712ffd1
     return:
-      type: 5712ffd1
+      type: 526fd749
 references:
 - uid: 0ca03e3a
   spec.java:
@@ -780,6 +780,10 @@ references:
   spec.java:
   - name: T[]
     fullName: T[]
+- uid: 526fd749
+  spec.java:
+  - name: < T > T[]
+    fullName: < T > T[]
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._group_paged_list.yml

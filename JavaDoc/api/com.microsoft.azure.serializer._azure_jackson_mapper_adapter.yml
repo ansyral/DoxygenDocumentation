@@ -66,7 +66,7 @@ references:
 
     <p></p>
   syntax:
-    content: public T deserialize(String value, final Type type)
+    content: public < T > T deserialize(String value, final Type type)
     parameters:
     - id: value
       type: "26831127"
@@ -75,7 +75,7 @@ references:
       type: 1ac5c823
       description: <p>the type to deserialize. </p>
     return:
-      type: 8ce1ecb9
+      type: 37ac8106
       description: <p>the deserialized object. </p>
 - uid: com.microsoft.rest.serializer._jackson_mapper_adapter_1ad75475e24044c3dbf373f939249fcce7
   parent: com.microsoft.rest.serializer._jackson_mapper_adapter

@@ -200,7 +200,7 @@ references:
 
     <p></p>
   syntax:
-    content: public ServiceResponseWithHeaders< T, THeader > buildEmptyWithHeaders(Response< Void > response, Class< THeader > headerType)
+    content: public < THeader > ServiceResponseWithHeaders< T, THeader > buildEmptyWithHeaders(Response< Void > response, Class< THeader > headerType)
     parameters:
     - id: response
       type: 1f34a690
@@ -209,7 +209,7 @@ references:
       type: c6b67eee
       description: <p>the type of the header </p>
     return:
-      type: com.microsoft.rest._service_response_with_headers629a7163
+      type: 7ed6cabdcom.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
 - uid: com.microsoft.rest._service_response_builder_1ad92bf9b7be14dc1b29b3f2949c84b8af
   parent: com.microsoft.rest._service_response_builder
@@ -224,7 +224,7 @@ references:
 
     <p></p>
   syntax:
-    content: public ServiceResponseWithHeaders< T, THeader > buildWithHeaders(Response< ResponseBody > response, Class< THeader > headerType)
+    content: public < THeader > ServiceResponseWithHeaders< T, THeader > buildWithHeaders(Response< ResponseBody > response, Class< THeader > headerType)
     parameters:
     - id: response
       type: "1755e818"
@@ -233,7 +233,7 @@ references:
       type: c6b67eee
       description: <p>the type of the header </p>
     return:
-      type: com.microsoft.rest._service_response_with_headers629a7163
+      type: 7ed6cabdcom.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
 - uid: com.microsoft.rest._service_response_builder_1a9f0d6ec601ca30598eb6f46c9f965b85
   parent: com.microsoft.rest._service_response_builder
