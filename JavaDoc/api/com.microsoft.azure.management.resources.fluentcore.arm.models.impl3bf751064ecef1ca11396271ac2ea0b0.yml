@@ -3,9 +3,9 @@ items:
   id: impl3bf751064ecef1ca11396271ac2ea0b0
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
   children:
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a105157f49315ef12eced70943f118dba
   - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a9e1d609aea4924054b1a311ef704a653
   - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1ac588e3299279dce3182133842e9b586b
-  - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a5d007ced4c135fc57fda65460bb84acc
   - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a98856f965ea9ca0d1fad52c2cc76731c
   - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a85e345ab59a57e64dc937d611c90fd83
   - com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a88bd961a55e0ea21f7467b9cb6dfd510
@@ -22,7 +22,7 @@ items:
     remote: &o0
       path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
       branch: master
-      repo: https://github.com/Azure/azure-sdk-for-java.git
+      repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
     startLine: 23
   package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
@@ -77,6 +77,24 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1ab487b34ff0ede0c7b4f1f03eef77ae3c
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1aec9c8204de25259c8ebc7494a90df015
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl_1a8adf50f8b41c5a7846c610d51ffd714a
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a105157f49315ef12eced70943f118dba
+  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a105157f49315ef12eced70943f118dba
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
+  langs:
+  - java
+  name: creatableGroup
+  fullName: Creatable<ResourceGroup> com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.creatableGroup
+  type: Field
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
+    startLine: 34
+  package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
+  syntax:
+    content: protected Creatable< ResourceGroup > creatableGroup
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.model._creatable151dc42ccom.microsoft.azure.management.resources._resource_group9ec3e006
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a9e1d609aea4924054b1a311ef704a653
   id: impl3bf751064ecef1ca11396271ac2ea0b0_1a9e1d609aea4924054b1a311ef704a653
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
@@ -118,24 +136,6 @@ items:
     content: protected final ManagerT myManager
     return:
       type: 6535286a
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a5d007ced4c135fc57fda65460bb84acc
-  id: impl3bf751064ecef1ca11396271ac2ea0b0_1a5d007ced4c135fc57fda65460bb84acc
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0.yml
-  langs:
-  - java
-  name: newGroup
-  fullName: Creatable<ResourceGroup> com.microsoft.azure.management.resources.fluentcore.arm.models.implementation.GroupableResourceImpl< FluentModelT, InnerModelT extends com.microsoft.azure.Resource, FluentModelImplT extends GroupableResourceImpl< FluentModelT, InnerModelT, FluentModelImplT, ManagerT, ManagerT extends ManagerBase >.newGroup
-  type: Field
-  source:
-    remote: *o0
-    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/arm/models/implementation/GroupableResourceImpl.java
-    startLine: 34
-  package: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
-  syntax:
-    content: protected Creatable< ResourceGroup > newGroup
-    return:
-      type: com.microsoft.azure.management.resources.fluentcore.model._creatable151dc42ccom.microsoft.azure.management.resources._resource_group9ec3e006
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0_1a98856f965ea9ca0d1fad52c2cc76731c
   id: impl3bf751064ecef1ca11396271ac2ea0b0_1a98856f965ea9ca0d1fad52c2cc76731c
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.impl3bf751064ecef1ca11396271ac2ea0b0
@@ -614,6 +614,7 @@ references:
     content: public interface GroupableResource extends Resource
 - uid: com.microsoft.azure.management.compute.implementation._availability_set_impl
 - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_impl
+- uid: com.microsoft.azure.management.network.implementation._load_balancer_impl
 - uid: com.microsoft.azure.management.network.implementation._network_impl
 - uid: com.microsoft.azure.management.network.implementation._network_interface_impl
 - uid: com.microsoft.azure.management.network.implementation._network_security_group_impl

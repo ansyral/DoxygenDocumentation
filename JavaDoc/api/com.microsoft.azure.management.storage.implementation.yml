@@ -13,7 +13,7 @@ items:
   - com.microsoft.azure.management.storage.implementation._storage_management_client_impl
   - com.microsoft.azure.management.storage.implementation._storage_manager
   - com.microsoft.azure.management.storage.implementation._storage_manager._configurable
-  - com.microsoft.azure.management.storage.implementation._usage_list_result_inner
+  - com.microsoft.azure.management.storage.implementation._usage_inner
   - com.microsoft.azure.management.storage.implementation._usages_inner
   href: com.microsoft.azure.management.storage.implementation.yml
   langs:
@@ -25,7 +25,7 @@ items:
     remote:
       path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
       branch: master
-      repo: https://github.com/Azure/azure-sdk-for-java.git
+      repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/implementation/AccountStatuses.java
     startLine: 6
   summary: >-
@@ -135,15 +135,15 @@ references:
   summary: <p>Entry point to <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> storage resource management. </p>
   syntax:
     content: public class StorageManager extends Manager< StorageManager, StorageManagementClientImpl >
-- uid: com.microsoft.azure.management.storage.implementation._usage_list_result_inner
+- uid: com.microsoft.azure.management.storage.implementation._usage_inner
   parent: com.microsoft.azure.management.storage.implementation
-  href: com.microsoft.azure.management.storage.implementation._usage_list_result_inner.yml
-  name: UsageListResultInner
-  fullName: com.microsoft.azure.management.storage.implementation.UsageListResultInner
+  href: com.microsoft.azure.management.storage.implementation._usage_inner.yml
+  name: UsageInner
+  fullName: com.microsoft.azure.management.storage.implementation.UsageInner
   type: Class
-  summary: <p>The List <xref href="com.microsoft.azure.management.storage._usages" data-throw-if-not-resolved="false"></xref> operation response. </p>
+  summary: <p>Describes Storage <xref href="com.microsoft.azure._resource" data-throw-if-not-resolved="false"></xref> Usage. </p>
   syntax:
-    content: public class UsageListResultInner
+    content: public class UsageInner
 - uid: com.microsoft.azure.management.storage.implementation._usages_inner
   parent: com.microsoft.azure.management.storage.implementation
   href: com.microsoft.azure.management.storage.implementation._usages_inner.yml

@@ -116,6 +116,9 @@
   - uid: com.microsoft.azure._test_availability_set
     name: TestAvailabilitySet
     href: com.microsoft.azure._test_availability_set.yml
+  - uid: com.microsoft.azure._test_load_balancer
+    name: TestLoadBalancer
+    href: com.microsoft.azure._test_load_balancer.yml
   - uid: com.microsoft.azure._test_network
     name: TestNetwork
     href: com.microsoft.azure._test_network.yml
@@ -1282,9 +1285,6 @@
   - uid: com.microsoft.azure.management.compute._linux_configuration
     name: LinuxConfiguration
     href: com.microsoft.azure.management.compute._linux_configuration.yml
-  - uid: com.microsoft.azure.management.compute._network_interface_reference
-    name: NetworkInterfaceReference
-    href: com.microsoft.azure.management.compute._network_interface_reference.yml
   - uid: com.microsoft.azure.management.compute._network_profile
     name: NetworkProfile
     href: com.microsoft.azure.management.compute._network_profile.yml
@@ -1531,21 +1531,12 @@
   - uid: com.microsoft.azure.management.compute._virtual_machines
     name: VirtualMachines
     href: com.microsoft.azure.management.compute._virtual_machines.yml
-  - uid: com.microsoft.azure.management.compute._virtual_machine_scale_set_extension
-    name: VirtualMachineScaleSetExtension
-    href: com.microsoft.azure.management.compute._virtual_machine_scale_set_extension.yml
   - uid: com.microsoft.azure.management.compute._virtual_machine_scale_set_extension_profile
     name: VirtualMachineScaleSetExtensionProfile
     href: com.microsoft.azure.management.compute._virtual_machine_scale_set_extension_profile.yml
   - uid: com.microsoft.azure.management.compute._virtual_machine_scale_set_instance_view_statuses_summary
     name: VirtualMachineScaleSetInstanceViewStatusesSummary
     href: com.microsoft.azure.management.compute._virtual_machine_scale_set_instance_view_statuses_summary.yml
-  - uid: com.microsoft.azure.management.compute._virtual_machine_scale_set_i_p_configuration
-    name: VirtualMachineScaleSetIPConfiguration
-    href: com.microsoft.azure.management.compute._virtual_machine_scale_set_i_p_configuration.yml
-  - uid: com.microsoft.azure.management.compute._virtual_machine_scale_set_network_configuration
-    name: VirtualMachineScaleSetNetworkConfiguration
-    href: com.microsoft.azure.management.compute._virtual_machine_scale_set_network_configuration.yml
   - uid: com.microsoft.azure.management.compute._virtual_machine_scale_set_network_profile
     name: VirtualMachineScaleSetNetworkProfile
     href: com.microsoft.azure.management.compute._virtual_machine_scale_set_network_profile.yml
@@ -1622,6 +1613,9 @@
   - uid: com.microsoft.azure.management.compute.implementation._compute_manager._configurable
     name: ComputeManager.Configurable
     href: com.microsoft.azure.management.compute.implementation._compute_manager._configurable.yml
+  - uid: com.microsoft.azure.management.compute.implementation._network_interface_reference_inner
+    name: NetworkInterfaceReferenceInner
+    href: com.microsoft.azure.management.compute.implementation._network_interface_reference_inner.yml
   - uid: com.microsoft.azure.management.compute.implementation._page_impl
     name: PageImpl
     href: com.microsoft.azure.management.compute.implementation._page_impl.yml
@@ -1664,12 +1658,21 @@
   - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_inner
     name: VirtualMachineInner
     href: com.microsoft.azure.management.compute.implementation._virtual_machine_inner.yml
+  - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_extension_inner
+    name: VirtualMachineScaleSetExtensionInner
+    href: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_extension_inner.yml
   - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_inner
     name: VirtualMachineScaleSetInner
     href: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_inner.yml
   - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_instance_view_inner
     name: VirtualMachineScaleSetInstanceViewInner
     href: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_instance_view_inner.yml
+  - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_i_p_configuration_inner
+    name: VirtualMachineScaleSetIPConfigurationInner
+    href: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_set_i_p_configuration_inner.yml
+  - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_scf2830357078eae67b0a7632510a6d65f
+    name: VirtualMachineScaleSetNetworkConfigurationInner
+    href: com.microsoft.azure.management.compute.implementation._virtual_machine_scf2830357078eae67b0a7632510a6d65f.yml
   - uid: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_sets_inner
     name: VirtualMachineScaleSetsInner
     href: com.microsoft.azure.management.compute.implementation._virtual_machine_scale_sets_inner.yml
@@ -2216,42 +2219,15 @@
   - uid: com.microsoft.azure.management.network._application_gateway_backend_address
     name: ApplicationGatewayBackendAddress
     href: com.microsoft.azure.management.network._application_gateway_backend_address.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_backend_address_pool
-    name: ApplicationGatewayBackendAddressPool
-    href: com.microsoft.azure.management.network._application_gateway_backend_address_pool.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_backend_http_settings
-    name: ApplicationGatewayBackendHttpSettings
-    href: com.microsoft.azure.management.network._application_gateway_backend_http_settings.yml
   - uid: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity
     name: ApplicationGatewayCookieBasedAffinity
     href: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_frontend_i_p_configuration
-    name: ApplicationGatewayFrontendIPConfiguration
-    href: com.microsoft.azure.management.network._application_gateway_frontend_i_p_configuration.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_frontend_port
-    name: ApplicationGatewayFrontendPort
-    href: com.microsoft.azure.management.network._application_gateway_frontend_port.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_http_listener
-    name: ApplicationGatewayHttpListener
-    href: com.microsoft.azure.management.network._application_gateway_http_listener.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_i_p_configuration
-    name: ApplicationGatewayIPConfiguration
-    href: com.microsoft.azure.management.network._application_gateway_i_p_configuration.yml
   - uid: com.microsoft.azure.management.network._application_gateway_operational_state
     name: ApplicationGatewayOperationalState
     href: com.microsoft.azure.management.network._application_gateway_operational_state.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_path_rule
-    name: ApplicationGatewayPathRule
-    href: com.microsoft.azure.management.network._application_gateway_path_rule.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_probe
-    name: ApplicationGatewayProbe
-    href: com.microsoft.azure.management.network._application_gateway_probe.yml
   - uid: com.microsoft.azure.management.network._application_gateway_protocol
     name: ApplicationGatewayProtocol
     href: com.microsoft.azure.management.network._application_gateway_protocol.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_request_routing_rule
-    name: ApplicationGatewayRequestRoutingRule
-    href: com.microsoft.azure.management.network._application_gateway_request_routing_rule.yml
   - uid: com.microsoft.azure.management.network._application_gateway_request_routing_rule_type
     name: ApplicationGatewayRequestRoutingRuleType
     href: com.microsoft.azure.management.network._application_gateway_request_routing_rule_type.yml
@@ -2261,36 +2237,42 @@
   - uid: com.microsoft.azure.management.network._application_gateway_sku_name
     name: ApplicationGatewaySkuName
     href: com.microsoft.azure.management.network._application_gateway_sku_name.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_ssl_certificate
-    name: ApplicationGatewaySslCertificate
-    href: com.microsoft.azure.management.network._application_gateway_ssl_certificate.yml
   - uid: com.microsoft.azure.management.network._application_gateway_tier
     name: ApplicationGatewayTier
     href: com.microsoft.azure.management.network._application_gateway_tier.yml
-  - uid: com.microsoft.azure.management.network._application_gateway_url_path_map
-    name: ApplicationGatewayUrlPathMap
-    href: com.microsoft.azure.management.network._application_gateway_url_path_map.yml
   - uid: com.microsoft.azure.management.network._authorization_use_status
     name: AuthorizationUseStatus
     href: com.microsoft.azure.management.network._authorization_use_status.yml
   - uid: com.microsoft.azure.management.network._azure_async_operation_result
     name: AzureAsyncOperationResult
     href: com.microsoft.azure.management.network._azure_async_operation_result.yml
-  - uid: com.microsoft.azure.management.network._backend_address_pool
-    name: BackendAddressPool
-    href: com.microsoft.azure.management.network._backend_address_pool.yml
   - uid: com.microsoft.azure.management.network._bgp_settings
     name: BgpSettings
     href: com.microsoft.azure.management.network._bgp_settings.yml
   - uid: com.microsoft.azure.management.network._dhcp_options
     name: DhcpOptions
     href: com.microsoft.azure.management.network._dhcp_options.yml
+  - uid: com.microsoft.azure.management.network._effective_network_security_group_association
+    name: EffectiveNetworkSecurityGroupAssociation
+    href: com.microsoft.azure.management.network._effective_network_security_group_association.yml
+  - uid: com.microsoft.azure.management.network._effective_network_security_rules
+    name: EffectiveNetworkSecurityRules
+    href: com.microsoft.azure.management.network._effective_network_security_rules.yml
+  - uid: com.microsoft.azure.management.network._effective_route_source
+    name: EffectiveRouteSource
+    href: com.microsoft.azure.management.network._effective_route_source.yml
+  - uid: com.microsoft.azure.management.network._effective_route_state
+    name: EffectiveRouteState
+    href: com.microsoft.azure.management.network._effective_route_state.yml
   - uid: com.microsoft.azure.management.network._error
     name: Error
     href: com.microsoft.azure.management.network._error.yml
   - uid: com.microsoft.azure.management.network._error_details
     name: ErrorDetails
     href: com.microsoft.azure.management.network._error_details.yml
+  - uid: com.microsoft.azure.management.network._express_route_circuit_arp_table
+    name: ExpressRouteCircuitArpTable
+    href: com.microsoft.azure.management.network._express_route_circuit_arp_table.yml
   - uid: com.microsoft.azure.management.network._express_route_circuit_peering_advertised_public_prefix_state
     name: ExpressRouteCircuitPeeringAdvertisedPublicPrefixState
     href: com.microsoft.azure.management.network._express_route_circuit_peering_advertised_public_prefix_state.yml
@@ -2303,6 +2285,12 @@
   - uid: com.microsoft.azure.management.network._express_route_circuit_peering_type
     name: ExpressRouteCircuitPeeringType
     href: com.microsoft.azure.management.network._express_route_circuit_peering_type.yml
+  - uid: com.microsoft.azure.management.network._express_route_circuit_routes_table
+    name: ExpressRouteCircuitRoutesTable
+    href: com.microsoft.azure.management.network._express_route_circuit_routes_table.yml
+  - uid: com.microsoft.azure.management.network._express_route_circuit_routes_table_summary
+    name: ExpressRouteCircuitRoutesTableSummary
+    href: com.microsoft.azure.management.network._express_route_circuit_routes_table_summary.yml
   - uid: com.microsoft.azure.management.network._express_route_circuit_service_provider_properties
     name: ExpressRouteCircuitServiceProviderProperties
     href: com.microsoft.azure.management.network._express_route_circuit_service_provider_properties.yml
@@ -2318,24 +2306,45 @@
   - uid: com.microsoft.azure.management.network._express_route_service_provider_bandwidths_offered
     name: ExpressRouteServiceProviderBandwidthsOffered
     href: com.microsoft.azure.management.network._express_route_service_provider_bandwidths_offered.yml
-  - uid: com.microsoft.azure.management.network._frontend_i_p_configuration
-    name: FrontendIPConfiguration
-    href: com.microsoft.azure.management.network._frontend_i_p_configuration.yml
-  - uid: com.microsoft.azure.management.network._inbound_nat_pool
-    name: InboundNatPool
-    href: com.microsoft.azure.management.network._inbound_nat_pool.yml
-  - uid: com.microsoft.azure.management.network._inbound_nat_rule
-    name: InboundNatRule
-    href: com.microsoft.azure.management.network._inbound_nat_rule.yml
   - uid: com.microsoft.azure.management.network._i_p_allocation_method
     name: IPAllocationMethod
     href: com.microsoft.azure.management.network._i_p_allocation_method.yml
-  - uid: com.microsoft.azure.management.network._i_p_configuration
-    name: IPConfiguration
-    href: com.microsoft.azure.management.network._i_p_configuration.yml
-  - uid: com.microsoft.azure.management.network._load_balancing_rule
-    name: LoadBalancingRule
-    href: com.microsoft.azure.management.network._load_balancing_rule.yml
+  - uid: com.microsoft.azure.management.network._i_p_version
+    name: IPVersion
+    href: com.microsoft.azure.management.network._i_p_version.yml
+  - uid: com.microsoft.azure.management.network._load_balancer
+    name: LoadBalancer
+    href: com.microsoft.azure.management.network._load_balancer.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition
+    name: LoadBalancer.Definition
+    href: com.microsoft.azure.management.network._load_balancer._definition.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition_stages
+    name: LoadBalancer.DefinitionStages
+    href: com.microsoft.azure.management.network._load_balancer._definition_stages.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition_stages._blank
+    name: LoadBalancer.DefinitionStages.Blank
+    href: com.microsoft.azure.management.network._load_balancer._definition_stages._blank.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_create
+    name: LoadBalancer.DefinitionStages.WithCreate
+    href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_create.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_group
+    name: LoadBalancer.DefinitionStages.WithGroup
+    href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_group.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition_sta91bea4a0636bc2bf58ed0e9eebf39490
+    name: LoadBalancer.DefinitionStages.WithPublicIpAddresses
+    href: com.microsoft.azure.management.network._load_balancer._definition_sta91bea4a0636bc2bf58ed0e9eebf39490.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_virtual_machine
+    name: LoadBalancer.DefinitionStages.WithVirtualMachine
+    href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_virtual_machine.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._update
+    name: LoadBalancer.Update
+    href: com.microsoft.azure.management.network._load_balancer._update.yml
+  - uid: com.microsoft.azure.management.network._load_balancer._update_stages
+    name: LoadBalancer.UpdateStages
+    href: com.microsoft.azure.management.network._load_balancer._update_stages.yml
+  - uid: com.microsoft.azure.management.network._load_balancers
+    name: LoadBalancers
+    href: com.microsoft.azure.management.network._load_balancers.yml
   - uid: com.microsoft.azure.management.network._load_distribution
     name: LoadDistribution
     href: com.microsoft.azure.management.network._load_distribution.yml
@@ -2444,9 +2453,6 @@
   - uid: com.microsoft.azure.management.network._network_interface_dns_settings
     name: NetworkInterfaceDnsSettings
     href: com.microsoft.azure.management.network._network_interface_dns_settings.yml
-  - uid: com.microsoft.azure.management.network._network_interface_i_p_configuration
-    name: NetworkInterfaceIPConfiguration
-    href: com.microsoft.azure.management.network._network_interface_i_p_configuration.yml
   - uid: com.microsoft.azure.management.network._network_interfaces
     name: NetworkInterfaces
     href: com.microsoft.azure.management.network._network_interfaces.yml
@@ -2492,9 +2498,6 @@
   - uid: com.microsoft.azure.management.network._network_security_rule
     name: NetworkSecurityRule
     href: com.microsoft.azure.management.network._network_security_rule.yml
-  - uid: com.microsoft.azure.management.network._network_security_rule._access
-    name: NetworkSecurityRule.Access
-    href: com.microsoft.azure.management.network._network_security_rule._access.yml
   - uid: com.microsoft.azure.management.network._network_security_rule._definition
     name: NetworkSecurityRule.Definition
     href: com.microsoft.azure.management.network._network_security_rule._definition.yml
@@ -2531,12 +2534,6 @@
   - uid: com.microsoft.azure.management.network._network_security_rule._defini923fef172158bb38e98c7721fe1251a6
     name: NetworkSecurityRule.DefinitionStages.WithSourcePort
     href: com.microsoft.azure.management.network._network_security_rule._defini923fef172158bb38e98c7721fe1251a6.yml
-  - uid: com.microsoft.azure.management.network._network_security_rule._direction
-    name: NetworkSecurityRule.Direction
-    href: com.microsoft.azure.management.network._network_security_rule._direction.yml
-  - uid: com.microsoft.azure.management.network._network_security_rule._protocol
-    name: NetworkSecurityRule.Protocol
-    href: com.microsoft.azure.management.network._network_security_rule._protocol.yml
   - uid: com.microsoft.azure.management.network._network_security_rule._update
     name: NetworkSecurityRule.Update
     href: com.microsoft.azure.management.network._network_security_rule._update.yml
@@ -2648,6 +2645,12 @@
   - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages
     name: NicIpConfiguration.UpdateStages
     href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages.yml
+  - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_7d1d94805bfe36a8463df749eca66b2b
+    name: NicIpConfiguration.UpdateStages.WithBackendAddressPool
+    href: com.microsoft.azure.management.network._nic_ip_configuration._update_7d1d94805bfe36a8463df749eca66b2b.yml
+  - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_load_balancer
+    name: NicIpConfiguration.UpdateStages.WithLoadBalancer
+    href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_load_balancer.yml
   - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_private_ip
     name: NicIpConfiguration.UpdateStages.WithPrivateIp
     href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_private_ip.yml
@@ -2657,12 +2660,6 @@
   - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_subnet
     name: NicIpConfiguration.UpdateStages.WithSubnet
     href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_subnet.yml
-  - uid: com.microsoft.azure.management.network._outbound_nat_rule
-    name: OutboundNatRule
-    href: com.microsoft.azure.management.network._outbound_nat_rule.yml
-  - uid: com.microsoft.azure.management.network._probe
-    name: Probe
-    href: com.microsoft.azure.management.network._probe.yml
   - uid: com.microsoft.azure.management.network._probe_protocol
     name: ProbeProtocol
     href: com.microsoft.azure.management.network._probe_protocol.yml
@@ -2699,9 +2696,6 @@
   - uid: com.microsoft.azure.management.network._public_ip_address._definitionbced8ddea27ac5c1965e42da5fdd25b6
     name: PublicIpAddress.DefinitionStages.WithReverseFQDN
     href: com.microsoft.azure.management.network._public_ip_address._definitionbced8ddea27ac5c1965e42da5fdd25b6.yml
-  - uid: com.microsoft.azure.management.network._public_ip_address._ip_allocation_method
-    name: PublicIpAddress.IpAllocationMethod
-    href: com.microsoft.azure.management.network._public_ip_address._ip_allocation_method.yml
   - uid: com.microsoft.azure.management.network._public_ip_address._update
     name: PublicIpAddress.Update
     href: com.microsoft.azure.management.network._public_ip_address._update.yml
@@ -2792,6 +2786,9 @@
   - uid: com.microsoft.azure.management.network._subnet._update_stages._with_network_security_group
     name: Subnet.UpdateStages.WithNetworkSecurityGroup
     href: com.microsoft.azure.management.network._subnet._update_stages._with_network_security_group.yml
+  - uid: com.microsoft.azure.management.network._supports_network_interfaces
+    name: SupportsNetworkInterfaces
+    href: com.microsoft.azure.management.network._supports_network_interfaces.yml
   - uid: com.microsoft.azure.management.network._transport_protocol
     name: TransportProtocol
     href: com.microsoft.azure.management.network._transport_protocol.yml
@@ -2804,9 +2801,6 @@
   - uid: com.microsoft.azure.management.network._virtual_network_gateway_connection_type
     name: VirtualNetworkGatewayConnectionType
     href: com.microsoft.azure.management.network._virtual_network_gateway_connection_type.yml
-  - uid: com.microsoft.azure.management.network._virtual_network_gateway_i_p_configuration
-    name: VirtualNetworkGatewayIPConfiguration
-    href: com.microsoft.azure.management.network._virtual_network_gateway_i_p_configuration.yml
   - uid: com.microsoft.azure.management.network._virtual_network_gateway_sku
     name: VirtualNetworkGatewaySku
     href: com.microsoft.azure.management.network._virtual_network_gateway_sku.yml
@@ -2819,18 +2813,15 @@
   - uid: com.microsoft.azure.management.network._virtual_network_gateway_type
     name: VirtualNetworkGatewayType
     href: com.microsoft.azure.management.network._virtual_network_gateway_type.yml
+  - uid: com.microsoft.azure.management.network._virtual_network_peering_state
+    name: VirtualNetworkPeeringState
+    href: com.microsoft.azure.management.network._virtual_network_peering_state.yml
   - uid: com.microsoft.azure.management.network._vpn_client_configuration
     name: VpnClientConfiguration
     href: com.microsoft.azure.management.network._vpn_client_configuration.yml
   - uid: com.microsoft.azure.management.network._vpn_client_parameters
     name: VpnClientParameters
     href: com.microsoft.azure.management.network._vpn_client_parameters.yml
-  - uid: com.microsoft.azure.management.network._vpn_client_revoked_certificate
-    name: VpnClientRevokedCertificate
-    href: com.microsoft.azure.management.network._vpn_client_revoked_certificate.yml
-  - uid: com.microsoft.azure.management.network._vpn_client_root_certificate
-    name: VpnClientRootCertificate
-    href: com.microsoft.azure.management.network._vpn_client_root_certificate.yml
   - uid: com.microsoft.azure.management.network._vpn_type
     name: VpnType
     href: com.microsoft.azure.management.network._vpn_type.yml
@@ -2838,12 +2829,48 @@
   name: com.microsoft.azure.management.network.implementation
   href: com.microsoft.azure.management.network.implementation.yml
   items:
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_backend_address_pool_inner
+    name: ApplicationGatewayBackendAddressPoolInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_backend_address_pool_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_backend_http_settings_inner
+    name: ApplicationGatewayBackendHttpSettingsInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_backend_http_settings_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gatewa94ca1c294e36ecebdc333fa857719158
+    name: ApplicationGatewayFrontendIPConfigurationInner
+    href: com.microsoft.azure.management.network.implementation._application_gatewa94ca1c294e36ecebdc333fa857719158.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_frontend_port_inner
+    name: ApplicationGatewayFrontendPortInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_frontend_port_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_http_listener_inner
+    name: ApplicationGatewayHttpListenerInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_http_listener_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._application_gateway_inner
     name: ApplicationGatewayInner
     href: com.microsoft.azure.management.network.implementation._application_gateway_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_i_p_configuration_inner
+    name: ApplicationGatewayIPConfigurationInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_i_p_configuration_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_path_rule_inner
+    name: ApplicationGatewayPathRuleInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_path_rule_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_probe_inner
+    name: ApplicationGatewayProbeInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_probe_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_request_routing_rule_inner
+    name: ApplicationGatewayRequestRoutingRuleInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_request_routing_rule_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._application_gateways_inner
     name: ApplicationGatewaysInner
     href: com.microsoft.azure.management.network.implementation._application_gateways_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_ssl_certificate_inner
+    name: ApplicationGatewaySslCertificateInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_ssl_certificate_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._application_gateway_url_path_map_inner
+    name: ApplicationGatewayUrlPathMapInner
+    href: com.microsoft.azure.management.network.implementation._application_gateway_url_path_map_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._backend_address_pool_inner
+    name: BackendAddressPoolInner
+    href: com.microsoft.azure.management.network.implementation._backend_address_pool_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._connection_reset_shared_key_inner
     name: ConnectionResetSharedKeyInner
     href: com.microsoft.azure.management.network.implementation._connection_reset_shared_key_inner.yml
@@ -2856,9 +2883,12 @@
   - uid: com.microsoft.azure.management.network.implementation._dns_name_availability_result_inner
     name: DnsNameAvailabilityResultInner
     href: com.microsoft.azure.management.network.implementation._dns_name_availability_result_inner.yml
-  - uid: com.microsoft.azure.management.network.implementation._express_route_circuit_arp_table_inner
-    name: ExpressRouteCircuitArpTableInner
-    href: com.microsoft.azure.management.network.implementation._express_route_circuit_arp_table_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._effective_network_security_group_inner
+    name: EffectiveNetworkSecurityGroupInner
+    href: com.microsoft.azure.management.network.implementation._effective_network_security_group_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._effective_route_inner
+    name: EffectiveRouteInner
+    href: com.microsoft.azure.management.network.implementation._effective_route_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._express_route_circuit_authorization_inner
     name: ExpressRouteCircuitAuthorizationInner
     href: com.microsoft.azure.management.network.implementation._express_route_circuit_authorization_inner.yml
@@ -2874,12 +2904,18 @@
   - uid: com.microsoft.azure.management.network.implementation._express_route_circuit_peerings_inner
     name: ExpressRouteCircuitPeeringsInner
     href: com.microsoft.azure.management.network.implementation._express_route_circuit_peerings_inner.yml
-  - uid: com.microsoft.azure.management.network.implementation._express_route_circuit_routes_table_inner
-    name: ExpressRouteCircuitRoutesTableInner
-    href: com.microsoft.azure.management.network.implementation._express_route_circuit_routes_table_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._express_route_circa29097d979b874cdbc84fabb735f61c0
+    name: ExpressRouteCircuitsArpTableListResultInner
+    href: com.microsoft.azure.management.network.implementation._express_route_circa29097d979b874cdbc84fabb735f61c0.yml
   - uid: com.microsoft.azure.management.network.implementation._express_route_circuits_inner
     name: ExpressRouteCircuitsInner
     href: com.microsoft.azure.management.network.implementation._express_route_circuits_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._express_route_circ4909393b462e455aa9825056d6c373e1
+    name: ExpressRouteCircuitsRoutesTableListResultInner
+    href: com.microsoft.azure.management.network.implementation._express_route_circ4909393b462e455aa9825056d6c373e1.yml
+  - uid: com.microsoft.azure.management.network.implementation._express_route_circ8ad2226f2fe5a5bff6cd4668b2ac1c5b
+    name: ExpressRouteCircuitsRoutesTableSummaryListResultInner
+    href: com.microsoft.azure.management.network.implementation._express_route_circ8ad2226f2fe5a5bff6cd4668b2ac1c5b.yml
   - uid: com.microsoft.azure.management.network.implementation._express_route_circuit_stats_inner
     name: ExpressRouteCircuitStatsInner
     href: com.microsoft.azure.management.network.implementation._express_route_circuit_stats_inner.yml
@@ -2889,12 +2925,27 @@
   - uid: com.microsoft.azure.management.network.implementation._express_route_service_providers_inner
     name: ExpressRouteServiceProvidersInner
     href: com.microsoft.azure.management.network.implementation._express_route_service_providers_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._frontend_i_p_configuration_inner
+    name: FrontendIPConfigurationInner
+    href: com.microsoft.azure.management.network.implementation._frontend_i_p_configuration_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._inbound_nat_pool_inner
+    name: InboundNatPoolInner
+    href: com.microsoft.azure.management.network.implementation._inbound_nat_pool_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._inbound_nat_rule_inner
+    name: InboundNatRuleInner
+    href: com.microsoft.azure.management.network.implementation._inbound_nat_rule_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._i_p_configuration_inner
+    name: IPConfigurationInner
+    href: com.microsoft.azure.management.network.implementation._i_p_configuration_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._load_balancer_inner
     name: LoadBalancerInner
     href: com.microsoft.azure.management.network.implementation._load_balancer_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._load_balancers_inner
     name: LoadBalancersInner
     href: com.microsoft.azure.management.network.implementation._load_balancers_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._load_balancing_rule_inner
+    name: LoadBalancingRuleInner
+    href: com.microsoft.azure.management.network.implementation._load_balancing_rule_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._local_network_gateway_inner
     name: LocalNetworkGatewayInner
     href: com.microsoft.azure.management.network.implementation._local_network_gateway_inner.yml
@@ -2904,6 +2955,9 @@
   - uid: com.microsoft.azure.management.network.implementation._network_interface_inner
     name: NetworkInterfaceInner
     href: com.microsoft.azure.management.network.implementation._network_interface_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._network_interface_i_p_configuration_inner
+    name: NetworkInterfaceIPConfigurationInner
+    href: com.microsoft.azure.management.network.implementation._network_interface_i_p_configuration_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._network_interfaces_inner
     name: NetworkInterfacesInner
     href: com.microsoft.azure.management.network.implementation._network_interfaces_inner.yml
@@ -2922,9 +2976,18 @@
   - uid: com.microsoft.azure.management.network.implementation._network_security_groups_inner
     name: NetworkSecurityGroupsInner
     href: com.microsoft.azure.management.network.implementation._network_security_groups_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._outbound_nat_rule_inner
+    name: OutboundNatRuleInner
+    href: com.microsoft.azure.management.network.implementation._outbound_nat_rule_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._page_impl
     name: PageImpl
     href: com.microsoft.azure.management.network.implementation._page_impl.yml
+  - uid: com.microsoft.azure.management.network.implementation._page_impl1
+    name: PageImpl1
+    href: com.microsoft.azure.management.network.implementation._page_impl1.yml
+  - uid: com.microsoft.azure.management.network.implementation._probe_inner
+    name: ProbeInner
+    href: com.microsoft.azure.management.network.implementation._probe_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._public_i_p_addresses_inner
     name: PublicIPAddressesInner
     href: com.microsoft.azure.management.network.implementation._public_i_p_addresses_inner.yml
@@ -2970,15 +3033,30 @@
   - uid: com.microsoft.azure.management.network.implementation._virtual_network_gateway_inner
     name: VirtualNetworkGatewayInner
     href: com.microsoft.azure.management.network.implementation._virtual_network_gateway_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._virtual_network_gateway_i_p_configuration_inner
+    name: VirtualNetworkGatewayIPConfigurationInner
+    href: com.microsoft.azure.management.network.implementation._virtual_network_gateway_i_p_configuration_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._virtual_network_gateways_inner
     name: VirtualNetworkGatewaysInner
     href: com.microsoft.azure.management.network.implementation._virtual_network_gateways_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._virtual_network_inner
     name: VirtualNetworkInner
     href: com.microsoft.azure.management.network.implementation._virtual_network_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._virtual_network_peering_inner
+    name: VirtualNetworkPeeringInner
+    href: com.microsoft.azure.management.network.implementation._virtual_network_peering_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._virtual_network_peerings_inner
+    name: VirtualNetworkPeeringsInner
+    href: com.microsoft.azure.management.network.implementation._virtual_network_peerings_inner.yml
   - uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner
     name: VirtualNetworksInner
     href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._vpn_client_revoked_certificate_inner
+    name: VpnClientRevokedCertificateInner
+    href: com.microsoft.azure.management.network.implementation._vpn_client_revoked_certificate_inner.yml
+  - uid: com.microsoft.azure.management.network.implementation._vpn_client_root_certificate_inner
+    name: VpnClientRootCertificateInner
+    href: com.microsoft.azure.management.network.implementation._vpn_client_root_certificate_inner.yml
 - uid: com.microsoft.azure.management.network.samples
   name: com.microsoft.azure.management.network.samples
   href: com.microsoft.azure.management.network.samples.yml
@@ -3712,9 +3790,6 @@
   - uid: com.microsoft.azure.management.storage._storage_usage
     name: StorageUsage
     href: com.microsoft.azure.management.storage._storage_usage.yml
-  - uid: com.microsoft.azure.management.storage._usage
-    name: Usage
-    href: com.microsoft.azure.management.storage._usage.yml
   - uid: com.microsoft.azure.management.storage._usage_name
     name: UsageName
     href: com.microsoft.azure.management.storage._usage_name.yml
@@ -3764,9 +3839,9 @@
   - uid: com.microsoft.azure.management.storage.implementation._storage_manager._configurable
     name: StorageManager.Configurable
     href: com.microsoft.azure.management.storage.implementation._storage_manager._configurable.yml
-  - uid: com.microsoft.azure.management.storage.implementation._usage_list_result_inner
-    name: UsageListResultInner
-    href: com.microsoft.azure.management.storage.implementation._usage_list_result_inner.yml
+  - uid: com.microsoft.azure.management.storage.implementation._usage_inner
+    name: UsageInner
+    href: com.microsoft.azure.management.storage.implementation._usage_inner.yml
   - uid: com.microsoft.azure.management.storage.implementation._usages_inner
     name: UsagesInner
     href: com.microsoft.azure.management.storage.implementation._usages_inner.yml
@@ -3835,9 +3910,6 @@
   - uid: com.microsoft.azure.management.website._built_in_authentication_provider
     name: BuiltInAuthenticationProvider
     href: com.microsoft.azure.management.website._built_in_authentication_provider.yml
-  - uid: com.microsoft.azure.management.website._certificate_details
-    name: CertificateDetails
-    href: com.microsoft.azure.management.website._certificate_details.yml
   - uid: com.microsoft.azure.management.website._certificate_order_action_type
     name: CertificateOrderActionType
     href: com.microsoft.azure.management.website._certificate_order_action_type.yml
@@ -3886,9 +3958,6 @@
   - uid: com.microsoft.azure.management.website._database_server_type
     name: DatabaseServerType
     href: com.microsoft.azure.management.website._database_server_type.yml
-  - uid: com.microsoft.azure.management.website._deleted_site
-    name: DeletedSite
-    href: com.microsoft.azure.management.website._deleted_site.yml
   - uid: com.microsoft.azure.management.website._domain_purchase_consent
     name: DomainPurchaseConsent
     href: com.microsoft.azure.management.website._domain_purchase_consent.yml
@@ -3913,9 +3982,6 @@
   - uid: com.microsoft.azure.management.website._frequency_unit
     name: FrequencyUnit
     href: com.microsoft.azure.management.website._frequency_unit.yml
-  - uid: com.microsoft.azure.management.website._geo_region
-    name: GeoRegion
-    href: com.microsoft.azure.management.website._geo_region.yml
   - uid: com.microsoft.azure.management.website._handler_mapping
     name: HandlerMapping
     href: com.microsoft.azure.management.website._handler_mapping.yml
@@ -4003,9 +4069,6 @@
   - uid: com.microsoft.azure.management.website._site_cloneability_criterion
     name: SiteCloneabilityCriterion
     href: com.microsoft.azure.management.website._site_cloneability_criterion.yml
-  - uid: com.microsoft.azure.management.website._site_instance
-    name: SiteInstance
-    href: com.microsoft.azure.management.website._site_instance.yml
   - uid: com.microsoft.azure.management.website._site_limits
     name: SiteLimits
     href: com.microsoft.azure.management.website._site_limits.yml
@@ -4027,9 +4090,6 @@
   - uid: com.microsoft.azure.management.website._slot_config_names
     name: SlotConfigNames
     href: com.microsoft.azure.management.website._slot_config_names.yml
-  - uid: com.microsoft.azure.management.website._slot_difference
-    name: SlotDifference
-    href: com.microsoft.azure.management.website._slot_difference.yml
   - uid: com.microsoft.azure.management.website._slow_requests_based_trigger
     name: SlowRequestsBasedTrigger
     href: com.microsoft.azure.management.website._slow_requests_based_trigger.yml
@@ -4054,9 +4114,6 @@
   - uid: com.microsoft.azure.management.website._unauthenticated_client_action
     name: UnauthenticatedClientAction
     href: com.microsoft.azure.management.website._unauthenticated_client_action.yml
-  - uid: com.microsoft.azure.management.website._usage
-    name: Usage
-    href: com.microsoft.azure.management.website._usage.yml
   - uid: com.microsoft.azure.management.website._usage_state
     name: UsageState
     href: com.microsoft.azure.management.website._usage_state.yml
@@ -4094,6 +4151,9 @@
   - uid: com.microsoft.azure.management.website.implementation._certificate_collection_inner
     name: CertificateCollectionInner
     href: com.microsoft.azure.management.website.implementation._certificate_collection_inner.yml
+  - uid: com.microsoft.azure.management.website.implementation._certificate_details_inner
+    name: CertificateDetailsInner
+    href: com.microsoft.azure.management.website.implementation._certificate_details_inner.yml
   - uid: com.microsoft.azure.management.website.implementation._certificate_email_inner
     name: CertificateEmailInner
     href: com.microsoft.azure.management.website.implementation._certificate_email_inner.yml
@@ -4151,6 +4211,9 @@
   - uid: com.microsoft.azure.management.website.implementation._deleted_site_collection_inner
     name: DeletedSiteCollectionInner
     href: com.microsoft.azure.management.website.implementation._deleted_site_collection_inner.yml
+  - uid: com.microsoft.azure.management.website.implementation._deleted_site_inner
+    name: DeletedSiteInner
+    href: com.microsoft.azure.management.website.implementation._deleted_site_inner.yml
   - uid: com.microsoft.azure.management.website.implementation._deployment_collection_inner
     name: DeploymentCollectionInner
     href: com.microsoft.azure.management.website.implementation._deployment_collection_inner.yml
@@ -4181,6 +4244,9 @@
   - uid: com.microsoft.azure.management.website.implementation._geo_region_collection_inner
     name: GeoRegionCollectionInner
     href: com.microsoft.azure.management.website.implementation._geo_region_collection_inner.yml
+  - uid: com.microsoft.azure.management.website.implementation._geo_region_inner
+    name: GeoRegionInner
+    href: com.microsoft.azure.management.website.implementation._geo_region_inner.yml
   - uid: com.microsoft.azure.management.website.implementation._global_certificate_orders_inner
     name: GlobalCertificateOrdersInner
     href: com.microsoft.azure.management.website.implementation._global_certificate_orders_inner.yml
@@ -4301,6 +4367,9 @@
   - uid: com.microsoft.azure.management.website.implementation._site_instance_collection_inner
     name: SiteInstanceCollectionInner
     href: com.microsoft.azure.management.website.implementation._site_instance_collection_inner.yml
+  - uid: com.microsoft.azure.management.website.implementation._site_instance_inner
+    name: SiteInstanceInner
+    href: com.microsoft.azure.management.website.implementation._site_instance_inner.yml
   - uid: com.microsoft.azure.management.website.implementation._site_logs_config_inner
     name: SiteLogsConfigInner
     href: com.microsoft.azure.management.website.implementation._site_logs_config_inner.yml
@@ -4319,6 +4388,9 @@
   - uid: com.microsoft.azure.management.website.implementation._slot_difference_collection_inner
     name: SlotDifferenceCollectionInner
     href: com.microsoft.azure.management.website.implementation._slot_difference_collection_inner.yml
+  - uid: com.microsoft.azure.management.website.implementation._slot_difference_inner
+    name: SlotDifferenceInner
+    href: com.microsoft.azure.management.website.implementation._slot_difference_inner.yml
   - uid: com.microsoft.azure.management.website.implementation._source_control_collection_inner
     name: SourceControlCollectionInner
     href: com.microsoft.azure.management.website.implementation._source_control_collection_inner.yml
@@ -4346,6 +4418,9 @@
   - uid: com.microsoft.azure.management.website.implementation._usage_collection_inner
     name: UsageCollectionInner
     href: com.microsoft.azure.management.website.implementation._usage_collection_inner.yml
+  - uid: com.microsoft.azure.management.website.implementation._usage_inner
+    name: UsageInner
+    href: com.microsoft.azure.management.website.implementation._usage_inner.yml
   - uid: com.microsoft.azure.management.website.implementation._usages_inner
     name: UsagesInner
     href: com.microsoft.azure.management.website.implementation._usages_inner.yml
@@ -4384,6 +4459,9 @@
   name: com.microsoft.rest
   href: com.microsoft.rest.yml
   items:
+  - uid: com.microsoft.rest._base64_url
+    name: Base64Url
+    href: com.microsoft.rest._base64_url.yml
   - uid: com.microsoft.rest._base_url_handler
     name: BaseUrlHandler
     href: com.microsoft.rest._base_url_handler.yml
@@ -4513,6 +4591,9 @@
   name: com.microsoft.rest.serializer
   href: com.microsoft.rest.serializer.yml
   items:
+  - uid: com.microsoft.rest.serializer._base64_url_serializer
+    name: Base64UrlSerializer
+    href: com.microsoft.rest.serializer._base64_url_serializer.yml
   - uid: com.microsoft.rest.serializer._byte_array_serializer
     name: ByteArraySerializer
     href: com.microsoft.rest.serializer._byte_array_serializer.yml

@@ -40,6 +40,7 @@ items:
   - com.microsoft.azure._task_group_base
   - com.microsoft.azure._task_item
   - com.microsoft.azure._test_availability_set
+  - com.microsoft.azure._test_load_balancer
   - com.microsoft.azure._test_n_s_g
   - com.microsoft.azure._test_network
   - com.microsoft.azure._test_network_interface
@@ -61,7 +62,7 @@ items:
     remote:
       path: azure/src/main/java/com/microsoft/azure/Azure.java
       branch: master
-      repo: https://github.com/Azure/azure-sdk-for-java.git
+      repo: https://github.com/Azure/azure-sdk-for-java
     path: azure/src/main/java/com/microsoft/azure/Azure.java
     startLine: 6
   summary: >-
@@ -481,6 +482,15 @@ references:
   type: Class
   syntax:
     content: public class TestAvailabilitySet extends TestTemplate< AvailabilitySet, AvailabilitySets >
+- uid: com.microsoft.azure._test_load_balancer
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._test_load_balancer.yml
+  name: TestLoadBalancer
+  fullName: com.microsoft.azure.TestLoadBalancer
+  type: Class
+  summary: <p>Test of virtual network management. </p>
+  syntax:
+    content: public class TestLoadBalancer extends TestTemplate< LoadBalancer, LoadBalancers >
 - uid: com.microsoft.azure._test_network
   parent: com.microsoft.azure
   href: com.microsoft.azure._test_network.yml
