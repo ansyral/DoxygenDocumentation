@@ -1,0 +1,320 @@
+items:
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group
+  id: _creator_task_group
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  children:
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group_1a92a9ec4a89fe5b465b1c8671035d4f41
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group_1aba92149157623c2acec9c7035d6a898e
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group_1a21b91095e80bed0de42a27e3bdd436b0
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group.yml
+  langs:
+  - java
+  name: CreatorTaskGroup<ResourceT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskGroup<ResourceT>
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatorTaskGroup.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatorTaskGroup.java
+    startLine: 11
+  package: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  summary: >-
+    <p>Type representing a group of tasks that can create resources that are dependents on each other.</p>
+
+    <p></p>
+  syntax: &o1
+    content: public class CreatorTaskGroup<ResourceT> extends TaskGroupBase< ResourceT >
+    typeParameters:
+    - type: ab77b02a
+      description: <p>the type of the resource this group creates </p>
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.azure._task_group
+  - com.microsoft.azure._task_group_base
+  inheritedMembers:
+  - com.microsoft.azure._task_group_base_1aeb63eaf49a43407bc40e10a6b06c0218
+  - com.microsoft.azure._task_group_base_1a0b6e5febc626225e9be3e4a9bdb72efd
+  - com.microsoft.azure._task_group_base_1aba31e272e831db9c44ebb94063ec857e
+  - com.microsoft.azure._task_group_1a386bc1d77ecd53d17fbe64883818ac38
+  - com.microsoft.azure._task_group_base_1af756120837dbdbe896330748b77701b8
+  - com.microsoft.azure._task_group_base_1a4a8262953258b71cf0173737f0619ae8
+  - com.microsoft.azure._task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
+  - com.microsoft.azure._task_group_base_1aeacd9baf0edcfe11ac98b123cefd6e42
+  - com.microsoft.azure._task_group_base_1ac51901a577e9c9ec63430082133a4005
+  - com.microsoft.azure._task_group_base_1af8964127c1c20136c4d03e4538776ac7
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group_1a92a9ec4a89fe5b465b1c8671035d4f41
+  id: _creator_task_group_1a92a9ec4a89fe5b465b1c8671035d4f41
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group.yml
+  langs:
+  - java
+  name: createdResource(String key)
+  fullName: ResourceT com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskGroup< ResourceT >.createdResource(String key)
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatorTaskGroup.java
+    startLine: 69
+  package: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  summary: >-
+    <p>Gets a resource created by a creator task in this group. </p>
+
+    <p>This method can return null if the resource has not yet created that happens if the responsible task is not yet selected for execution or it's it progress</p>
+
+    <p></p>
+  syntax:
+    content: public ResourceT createdResource(String key)
+    parameters:
+    - id: key
+      type: "26831127"
+      description: <p>the resource id </p>
+    return:
+      type: ab77b02a
+      description: <p>the created resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group_1aba92149157623c2acec9c7035d6a898e
+  id: _creator_task_group_1aba92149157623c2acec9c7035d6a898e
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group.yml
+  langs:
+  - java
+  name: CreatorTaskGroup(String key, CreatorTaskItem< ResourceT > rootTask)
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskGroup< ResourceT >.CreatorTaskGroup(String key, CreatorTaskItem< ResourceT > rootTask)
+  type: Constructor
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatorTaskGroup.java
+    startLine: 56
+  package: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  summary: >-
+    <p>Creates <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public CreatorTaskGroup(String key, CreatorTaskItem< ResourceT > rootTask)
+    parameters:
+    - id: key
+      type: "26831127"
+      description: <p>the key of the root task </p>
+    - id: rootTask
+      type: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_itemff4137d7
+      description: <p>represents the root task that this group want to executes ultimately </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group_1a21b91095e80bed0de42a27e3bdd436b0
+  id: _creator_task_group_1a21b91095e80bed0de42a27e3bdd436b0
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group.yml
+  langs:
+  - java
+  name: CreatorTaskGroup(String rootCreatableId, ResourceCreator< ResourceT > resourceCreator)
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskGroup< ResourceT >.CreatorTaskGroup(String rootCreatableId, ResourceCreator< ResourceT > resourceCreator)
+  type: Constructor
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/implementation/CreatorTaskGroup.java
+    startLine: 46
+  package: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  summary: >-
+    <p>Creates <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public CreatorTaskGroup(String rootCreatableId, ResourceCreator< ResourceT > resourceCreator)
+    parameters:
+    - id: rootCreatableId
+      type: "26831127"
+      description: <p>the id of the root creatable </p>
+    - id: resourceCreator
+      type: 489dc797
+      description: <p>represents the resource creator that this group want to create ultimately </p>
+references:
+- uid: ab77b02a
+  spec.java:
+  - name: ResourceT
+    fullName: ResourceT
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: 489dc797
+  spec.java:
+  - name: ResourceCreator< ResourceT >
+    fullName: ResourceCreator< ResourceT >
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_itemff4137d7
+  spec.java:
+  - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_item
+    name: CreatorTaskItem
+    fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskItem
+    href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_item.yml
+  - name: < ResourceT >
+    fullName: < ResourceT >
+- uid: com.microsoft.azure._task_group_base_1aeb63eaf49a43407bc40e10a6b06c0218
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: dag()
+  fullName: DAGraph<TaskItem<T>, DAGNode<TaskItem<T> > > com.microsoft.azure.TaskGroupBase< T >.dag()
+  type: Method
+  syntax:
+    content: public DAGraph< TaskItem< T >, DAGNode< TaskItem< T > > > dag()
+    return:
+      type: com.microsoft.azure._d_a_graph151dc42ccom.microsoft.azure._task_itemd9e5dffccom.microsoft.azure._d_a_g_node151dc42ccom.microsoft.azure._task_item058a8955
+- uid: com.microsoft.azure._task_group_base_1a0b6e5febc626225e9be3e4a9bdb72efd
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: execute()
+  fullName: void com.microsoft.azure.TaskGroupBase< T >.execute()
+  type: Method
+  syntax:
+    content: public void execute()
+- uid: com.microsoft.azure._task_group_base_1aba31e272e831db9c44ebb94063ec857e
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: executeAsync(final ServiceCallback< T > callback)
+  fullName: ServiceCall com.microsoft.azure.TaskGroupBase< T >.executeAsync(final ServiceCallback< T > callback)
+  type: Method
+  syntax:
+    content: public ServiceCall executeAsync(final ServiceCallback< T > callback)
+    parameters:
+    - id: callback
+      type: 93de0ef9com.microsoft.rest._service_callback34132889
+    return:
+      type: com.microsoft.rest._service_call
+- uid: com.microsoft.azure._task_group_1a386bc1d77ecd53d17fbe64883818ac38
+  parent: com.microsoft.azure._task_group
+  href: com.microsoft.azure._task_group.yml
+  name: executeAsync(ServiceCallback< T > callback)
+  fullName: ServiceCall com.microsoft.azure.TaskGroup< T, U extends TaskItem< T >.executeAsync(ServiceCallback< T > callback)
+  type: Method
+  summary: >-
+    <p>Executes the tasks in the group asynchronously.</p>
+
+    <p></p>
+  syntax:
+    content: public ServiceCall executeAsync(ServiceCallback< T > callback)
+    parameters:
+    - id: callback
+      type: com.microsoft.rest._service_callback34132889
+      description: <p>the callback to call on failure or success </p>
+    return:
+      type: com.microsoft.rest._service_call
+      description: <p>the handle to the REST call </p>
+- uid: com.microsoft.azure._task_group_base_1af756120837dbdbe896330748b77701b8
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: isPreparer()
+  fullName: boolean com.microsoft.azure.TaskGroupBase< T >.isPreparer()
+  type: Method
+  syntax:
+    content: public boolean isPreparer()
+    return:
+      type: 4fc6e284
+- uid: com.microsoft.azure._task_group_base_1a4a8262953258b71cf0173737f0619ae8
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: merge(TaskGroup< T, TaskItem< T >> parentTaskGroup)
+  fullName: void com.microsoft.azure.TaskGroupBase< T >.merge(TaskGroup< T, TaskItem< T >> parentTaskGroup)
+  type: Method
+  syntax:
+    content: public void merge(TaskGroup< T, TaskItem< T >> parentTaskGroup)
+    parameters:
+    - id: parentTaskGroup
+      type: com.microsoft.azure._task_group8c65604fcom.microsoft.azure._task_iteme9c5ed17
+- uid: com.microsoft.azure._task_group_1a02a1e09a6b77a056f7be7dbbe4b2e9a9
+  parent: com.microsoft.azure._task_group
+  href: com.microsoft.azure._task_group.yml
+  name: merge(TaskGroup< T, U > parentTaskGroup)
+  fullName: void com.microsoft.azure.TaskGroup< T, U extends TaskItem< T >.merge(TaskGroup< T, U > parentTaskGroup)
+  type: Method
+  summary: >-
+    <p>Merges this task group with parent task group. </p>
+
+    <p>once merged, calling execute in the parent group will executes the task in this group as well.</p>
+
+    <p></p>
+  syntax:
+    content: public void merge(TaskGroup< T, U > parentTaskGroup)
+    parameters:
+    - id: parentTaskGroup
+      type: com.microsoft.azure._task_group43b2a0f3
+      description: <p>task group </p>
+- uid: com.microsoft.azure._task_group_base_1aeacd9baf0edcfe11ac98b123cefd6e42
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: prepare()
+  fullName: void com.microsoft.azure.TaskGroupBase< T >.prepare()
+  type: Method
+  syntax:
+    content: public void prepare()
+- uid: com.microsoft.azure._task_group_base_1ac51901a577e9c9ec63430082133a4005
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
+  fullName: com.microsoft.azure.TaskGroupBase< T >.TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
+  type: Constructor
+  summary: >-
+    <p>Creates <xref href="com.microsoft.azure._task_group_base" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public TaskGroupBase(String rootTaskItemId, TaskItem< T > rootTaskItem)
+    parameters:
+    - id: rootTaskItemId
+      type: "26831127"
+      description: <p>the id of the root task in this task group </p>
+    - id: rootTaskItem
+      type: com.microsoft.azure._task_item34132889
+      description: <p>the root task </p>
+- uid: com.microsoft.azure._task_group_base_1af8964127c1c20136c4d03e4538776ac7
+  parent: com.microsoft.azure._task_group_base
+  href: com.microsoft.azure._task_group_base.yml
+  name: taskResult(String taskId)
+  fullName: T com.microsoft.azure.TaskGroupBase< T >.taskResult(String taskId)
+  type: Method
+  syntax:
+    content: public T taskResult(String taskId)
+    parameters:
+    - id: taskId
+      type: "26831127"
+    return:
+      type: 8ce1ecb9
+- uid: com.microsoft.azure._task_group_base
+  parent: com.microsoft.azure
+  href: com.microsoft.azure._task_group_base.yml
+  name: TaskGroupBase<T>
+  fullName: com.microsoft.azure.TaskGroupBase<T>
+  type: Class
+  summary: >-
+    <p>The base implementation of <xref href="com.microsoft.azure._task_group" data-throw-if-not-resolved="false"></xref> interface.</p>
+
+    <p></p>
+  syntax:
+    content: public class TaskGroupBase<T>
+    typeParameters:
+    - type: 8ce1ecb9
+      description: <p>the result type of the tasks in the group </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group.yml
+  name: CreatorTaskGroup<ResourceT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskGroup<ResourceT>
+  type: Class
+  summary: >-
+    <p>Type representing a group of tasks that can create resources that are dependents on each other.</p>
+
+    <p></p>
+  syntax: *o1
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_item
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_item.yml
+  name: CreatorTaskItem<ResourceT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatorTaskItem<ResourceT>
+  type: Class
+  summary: >-
+    <p>Represents a task that creates a resource when executed.</p>
+
+    <p></p>
+  syntax:
+    content: public class CreatorTaskItem<ResourceT>
+    typeParameters:
+    - type: ab77b02a
+      description: <p>the type of the resource that this task creates </p>

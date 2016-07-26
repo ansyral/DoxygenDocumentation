@@ -1214,21 +1214,6 @@ references:
   summary: <p>The stage of the Windows virtual machine definition allowing to specify administrator user name. </p>
   syntax:
     content: public interface WithAdminUserName
-- uid: com.microsoft.azure.management.compute._virtual_machine_data_disk._up391169224b8cae34b5f5cde61f19bc43
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._virtual_machine_data_disk._up391169224b8cae34b5f5cde61f19bc43.yml
-  name: VirtualMachineDataDisk.UpdateDefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk.UpdateDefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: >-
-    <p>The final stage of the data disk definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the data disk definition can be attached to the parent virtual machine definition using <ref refid="" kindref="compound">WithAttach#attach()</ref>. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable< ParentT >.InDefinition
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.compute._virtual_machine_data_disk._definition_stages._with_attach
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine_data_disk._definition_stages._with_attach.yml
@@ -1241,6 +1226,21 @@ references:
     <p>At this stage, any remaining optional settings can be specified, or the data disk definition can be attached to the parent virtual machine definition using <ref refid="" kindref="compound">WithAttach#attach()</ref>. </p>
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable< ParentT >.InUpdate
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
+- uid: com.microsoft.azure.management.compute._virtual_machine_data_disk._up391169224b8cae34b5f5cde61f19bc43
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine_data_disk._up391169224b8cae34b5f5cde61f19bc43.yml
+  name: VirtualMachineDataDisk.UpdateDefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk.UpdateDefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: >-
+    <p>The final stage of the data disk definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the data disk definition can be attached to the parent virtual machine definition using <ref refid="" kindref="compound">WithAttach#attach()</ref>. </p>
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable< ParentT >.InDefinition
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
@@ -1286,6 +1286,15 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
+- uid: com.microsoft.azure.management.compute._virtual_machine._update_stages._with_data_disk
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._virtual_machine._update_stages._with_data_disk.yml
+  name: VirtualMachine.UpdateStages.WithDataDisk
+  fullName: com.microsoft.azure.management.compute.VirtualMachine.UpdateStages.WithDataDisk
+  type: Interface
+  summary: <p>The stage of the virtual machine definition allowing to specify data disk configuration. </p>
+  syntax:
+    content: public interface WithDataDisk
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_data_disk
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_data_disk.yml
@@ -1310,15 +1319,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
-- uid: com.microsoft.azure.management.compute._virtual_machine._update_stages._with_data_disk
-  parent: com.microsoft.azure.management.compute
-  href: com.microsoft.azure.management.compute._virtual_machine._update_stages._with_data_disk.yml
-  name: VirtualMachine.UpdateStages.WithDataDisk
-  fullName: com.microsoft.azure.management.compute.VirtualMachine.UpdateStages.WithDataDisk
-  type: Interface
-  summary: <p>The stage of the virtual machine definition allowing to specify data disk configuration. </p>
-  syntax:
-    content: public interface WithDataDisk
 - uid: com.microsoft.azure.management.compute._availability_set._definition_5e566f899198966448bf006c5be3006a
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._availability_set._definition_5e566f899198966448bf006c5be3006a.yml
