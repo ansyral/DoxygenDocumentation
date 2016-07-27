@@ -12,7 +12,7 @@ items:
     remote:
       path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityGroup.java
       branch: master
-      repo: https://github.com/Azure/azure-sdk-for-java
+      repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/NetworkSecurityGroup.java
     startLine: 72
   package: com.microsoft.azure.management.network
@@ -31,7 +31,7 @@ references:
 
     <p></p>
   syntax:
-    content: public interface WithGroup<T> extends GroupableResource.DefinitionStages.WithExistingResourceGroup< T >,GroupableResource.DefinitionStages.WithNewResourceGroup< T >
+    content: public interface WithGroup<T>
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the next stage of the resource definition </p>

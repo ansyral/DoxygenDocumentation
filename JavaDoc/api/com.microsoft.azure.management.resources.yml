@@ -96,7 +96,7 @@ items:
     remote:
       path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/BasicDependency.java
       branch: master
-      repo: https://github.com/Azure/azure-sdk-for-java
+      repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/BasicDependency.java
     startLine: 8
   summary: >-
@@ -126,17 +126,6 @@ references:
     <p>This package contains the implementation classes for ResourceManagementClient. </p>
   syntax:
     content: namespace implementation
-- uid: com.microsoft.azure.management.resources.samples
-  href: com.microsoft.azure.management.resources.samples.yml
-  name: com.microsoft.azure.management.resources.samples
-  fullName: com.microsoft.azure.management.resources.samples
-  type: Namespace
-  summary: >-
-    <p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information.</p>
-
-    <p>This package contains the classes for compute samples. </p>
-  syntax:
-    content: namespace samples
 - uid: com.microsoft.azure.management.resources._basic_dependency
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._basic_dependency.yml
@@ -901,15 +890,6 @@ references:
   summary: <p>A deployment update allowing to change the deployment mode. </p>
   syntax:
     content: public interface WithMode
-- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
-  name: Deployment.UpdateStages.WithParameters
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
-  type: Interface
-  summary: <p>A deployment update allowing to change the parameters. </p>
-  syntax:
-    content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters.yml
@@ -917,6 +897,15 @@ references:
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
   type: Interface
   summary: <p>A deployment definition allowing the parameters to be specified. </p>
+  syntax:
+    content: public interface WithParameters
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
+  name: Deployment.UpdateStages.WithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
+  type: Interface
+  summary: <p>A deployment update allowing to change the parameters. </p>
   syntax:
     content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_template
