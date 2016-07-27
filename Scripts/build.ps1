@@ -16,18 +16,17 @@ function Unzip
 }
 function CloneOrPull
 {
-      param([string]$gitRepo, [string]$location)
-      
-      & git ls-remote $gitRepo
-      if ($lastexitcode -ne 0)
+      param([string]$gitRepo, [string]$folderName)
+
+      if (Test-Path $folderName\.git)
       {
-          & git clone $gitRepo
+          Push-Location $folderName
+          & git pull
+          Pop-Location
       }
       else
       {
-          Push-Location $location
-          & git pull
-          Pop-Location
+          & git clone $gitRepo $folderName
       }
 }
 
