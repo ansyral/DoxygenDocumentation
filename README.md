@@ -4,4 +4,4 @@
 2. Create a code2yaml.json config file to specify your input folder, output folder, exclude paths. you can refer to the [template config file](./Scripts/code2yaml.json)
 3. Run Code2Yaml.exe to generate YAML files.
 
-or you can run build.ps, it would update the YAML files in JavaDoc/api folder.
+or you can run build.ps1, it would do above steps and update the YAML files in JavaDoc/api folder.
