@@ -3,7 +3,6 @@ items:
   id: _resource_group
   parent: com.microsoft.azure.management.resources
   children:
-  - com.microsoft.azure.management.resources._resource_group_1a1beed1deb757476aa7d1b81652eee5df
   - com.microsoft.azure.management.resources._resource_group_1ac10a5dd546cedf7242145f363bdf4214
   - com.microsoft.azure.management.resources._resource_group_1ad5cad66345e9401bb4550802504170fa
   - com.microsoft.azure.management.resources._resource_group_1a07b18a2eae793e0c10e83617d80325ca
@@ -34,33 +33,6 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a8d7ca69bc82718c6daf31dfe62033856
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a74d78ba95d97193d66ab67695d04b12b
   - com.microsoft.azure.management.resources.fluentcore.model._updatable_1ad0b8439cb1d8039e01301ab5d374749c
-- uid: com.microsoft.azure.management.resources._resource_group_1a1beed1deb757476aa7d1b81652eee5df
-  id: _resource_group_1a1beed1deb757476aa7d1b81652eee5df
-  parent: com.microsoft.azure.management.resources._resource_group
-  href: com.microsoft.azure.management.resources._resource_group.yml
-  langs:
-  - java
-  name: connectToResource(ResourceConnector.Builder< T > adapterBuilder)
-  fullName: <T extends ResourceConnector> T com.microsoft.azure.management.resources.ResourceGroup.connectToResource(ResourceConnector.Builder< T > adapterBuilder)
-  type: Method
-  source:
-    remote: *o0
-    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroup.java
-    startLine: 87
-  package: com.microsoft.azure.management.resources
-  summary: >-
-    <p>Connects to other resources inside the resource group.</p>
-
-    <p></p>
-  syntax:
-    content: public < T extends ResourceConnector > T connectToResource(ResourceConnector.Builder< T > adapterBuilder)
-    parameters:
-    - id: adapterBuilder
-      type: ac3696ff
-      description: <p>the builder for building a connector. </p>
-    return:
-      type: dbd9c9f7com.microsoft.azure.management.resources._resource_connector2ffeb5e5
-      description: <p>the connector with access to other resource types. </p>
 - uid: com.microsoft.azure.management.resources._resource_group_1ac10a5dd546cedf7242145f363bdf4214
   id: _resource_group_1ac10a5dd546cedf7242145f363bdf4214
   parent: com.microsoft.azure.management.resources._resource_group
@@ -165,20 +137,6 @@ references:
   spec.java:
   - name: IOException
     fullName: IOException
-- uid: ac3696ff
-  spec.java:
-  - name: ResourceConnector.Builder< T >
-    fullName: ResourceConnector.Builder< T >
-- uid: dbd9c9f7com.microsoft.azure.management.resources._resource_connector2ffeb5e5
-  spec.java:
-  - name: '< T extends '
-    fullName: '< T extends '
-  - uid: com.microsoft.azure.management.resources._resource_connector
-    name: ResourceConnector
-    fullName: com.microsoft.azure.management.resources.ResourceConnector
-    href: com.microsoft.azure.management.resources._resource_connector.yml
-  - name: ' > T'
-    fullName: ' > T'
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource_1a1a7da8d3e107d74edddb6dc0d620d32f
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource.yml
@@ -390,15 +348,6 @@ references:
   summary: <p>Exception thrown for an invalid response with custom error information. </p>
   syntax:
     content: public class CloudException extends RestException
-- uid: com.microsoft.azure.management.resources._resource_connector
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._resource_connector.yml
-  name: ResourceConnector
-  fullName: com.microsoft.azure.management.resources.ResourceConnector
-  type: Interface
-  summary: <p>Defines a connector that connects other resources to a resource group. Implementations of this class can let users browse resources inside a specific resource group. </p>
-  syntax:
-    content: public interface ResourceConnector
 - uid: com.microsoft.azure._azure
   parent: com.microsoft.azure
   href: com.microsoft.azure._azure.yml

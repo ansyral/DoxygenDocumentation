@@ -560,6 +560,18 @@
   - uid: com.microsoft.azure.batch.protocol.models._error_message
     name: ErrorMessage
     href: com.microsoft.azure.batch.protocol.models._error_message.yml
+  - uid: com.microsoft.azure.batch.protocol.models._exit_code_mapping
+    name: ExitCodeMapping
+    href: com.microsoft.azure.batch.protocol.models._exit_code_mapping.yml
+  - uid: com.microsoft.azure.batch.protocol.models._exit_code_range_mapping
+    name: ExitCodeRangeMapping
+    href: com.microsoft.azure.batch.protocol.models._exit_code_range_mapping.yml
+  - uid: com.microsoft.azure.batch.protocol.models._exit_conditions
+    name: ExitConditions
+    href: com.microsoft.azure.batch.protocol.models._exit_conditions.yml
+  - uid: com.microsoft.azure.batch.protocol.models._exit_options
+    name: ExitOptions
+    href: com.microsoft.azure.batch.protocol.models._exit_options.yml
   - uid: com.microsoft.azure.batch.protocol.models._file_delete_from_compute_node_headers
     name: FileDeleteFromComputeNodeHeaders
     href: com.microsoft.azure.batch.protocol.models._file_delete_from_compute_node_headers.yml
@@ -620,6 +632,9 @@
   - uid: com.microsoft.azure.batch.protocol.models._image_reference
     name: ImageReference
     href: com.microsoft.azure.batch.protocol.models._image_reference.yml
+  - uid: com.microsoft.azure.batch.protocol.models._job_action
+    name: JobAction
+    href: com.microsoft.azure.batch.protocol.models._job_action.yml
   - uid: com.microsoft.azure.batch.protocol.models._job_add_headers
     name: JobAddHeaders
     href: com.microsoft.azure.batch.protocol.models._job_add_headers.yml
@@ -848,6 +863,9 @@
   - uid: com.microsoft.azure.batch.protocol.models._name_value_pair
     name: NameValuePair
     href: com.microsoft.azure.batch.protocol.models._name_value_pair.yml
+  - uid: com.microsoft.azure.batch.protocol.models._network_configuration
+    name: NetworkConfiguration
+    href: com.microsoft.azure.batch.protocol.models._network_configuration.yml
   - uid: com.microsoft.azure.batch.protocol.models._node_agent_sku
     name: NodeAgentSku
     href: com.microsoft.azure.batch.protocol.models._node_agent_sku.yml
@@ -869,6 +887,12 @@
   - uid: com.microsoft.azure.batch.protocol.models._node_update_user_parameter
     name: NodeUpdateUserParameter
     href: com.microsoft.azure.batch.protocol.models._node_update_user_parameter.yml
+  - uid: com.microsoft.azure.batch.protocol.models._on_all_tasks_complete
+    name: OnAllTasksComplete
+    href: com.microsoft.azure.batch.protocol.models._on_all_tasks_complete.yml
+  - uid: com.microsoft.azure.batch.protocol.models._on_task_failure
+    name: OnTaskFailure
+    href: com.microsoft.azure.batch.protocol.models._on_task_failure.yml
   - uid: com.microsoft.azure.batch.protocol.models._o_s_type
     name: OSType
     href: com.microsoft.azure.batch.protocol.models._o_s_type.yml
@@ -3231,15 +3255,24 @@
   - uid: com.microsoft.azure.management.resources._resource_group
     name: ResourceGroup
     href: com.microsoft.azure.management.resources._resource_group.yml
-  - uid: com.microsoft.azure.management.resources._resource_group._definition_blank
-    name: ResourceGroup.DefinitionBlank
-    href: com.microsoft.azure.management.resources._resource_group._definition_blank.yml
-  - uid: com.microsoft.azure.management.resources._resource_group._definition_creatable
-    name: ResourceGroup.DefinitionCreatable
-    href: com.microsoft.azure.management.resources._resource_group._definition_creatable.yml
+  - uid: com.microsoft.azure.management.resources._resource_group._definition
+    name: ResourceGroup.Definition
+    href: com.microsoft.azure.management.resources._resource_group._definition.yml
+  - uid: com.microsoft.azure.management.resources._resource_group._definition_stages
+    name: ResourceGroup.DefinitionStages
+    href: com.microsoft.azure.management.resources._resource_group._definition_stages.yml
+  - uid: com.microsoft.azure.management.resources._resource_group._definition_stages._blank
+    name: ResourceGroup.DefinitionStages.Blank
+    href: com.microsoft.azure.management.resources._resource_group._definition_stages._blank.yml
+  - uid: com.microsoft.azure.management.resources._resource_group._definition_stages._with_create
+    name: ResourceGroup.DefinitionStages.WithCreate
+    href: com.microsoft.azure.management.resources._resource_group._definition_stages._with_create.yml
   - uid: com.microsoft.azure.management.resources._resource_group._update
     name: ResourceGroup.Update
     href: com.microsoft.azure.management.resources._resource_group._update.yml
+  - uid: com.microsoft.azure.management.resources._resource_group._update_stages
+    name: ResourceGroup.UpdateStages
+    href: com.microsoft.azure.management.resources._resource_group._update_stages.yml
   - uid: com.microsoft.azure.management.resources._resource_group_export_result
     name: ResourceGroupExportResult
     href: com.microsoft.azure.management.resources._resource_group_export_result.yml

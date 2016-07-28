@@ -1,12 +1,12 @@
 items:
-- uid: com.microsoft.azure.management.resources._resource_group._definition_creatable
-  id: _definition_creatable
+- uid: com.microsoft.azure.management.resources._resource_group._definition
+  id: _definition
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._resource_group._definition_creatable.yml
+  href: com.microsoft.azure.management.resources._resource_group._definition.yml
   langs:
   - java
-  name: ResourceGroup.DefinitionCreatable
-  fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionCreatable
+  name: ResourceGroup.Definition
+  fullName: com.microsoft.azure.management.resources.ResourceGroup.Definition
   type: Interface
   source:
     remote:
@@ -14,11 +14,11 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/ResourceGroup.java
-    startLine: 67
+    startLine: 63
   package: com.microsoft.azure.management.resources
-  summary: <p>A resource group definition with sufficient inputs to create a new resource group in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: <p>Container interface for all the definitions that need to be implemented. </p>
   syntax:
-    content: public interface DefinitionCreatable extends Creatable< ResourceGroup >,Resource.DefinitionWithTags< DefinitionCreatable >
+    content: public interface Definition extends ResourceGroup.DefinitionStages.Blank,ResourceGroup.DefinitionStages.WithCreate
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
@@ -123,34 +123,22 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the next stage of the resource definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
-  parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
-  name: Creatable<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
+- uid: com.microsoft.azure.management.resources._resource_group._definition_stages._blank
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_group._definition_stages._blank.yml
+  name: ResourceGroup.DefinitionStages.Blank
+  fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be create, using <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991" data-throw-if-not-resolved="false"></xref>.</p>
-
-    <p></p>
+  summary: <p>A resource group definition allowing location to be set. </p>
   syntax:
-    content: public interface Creatable<T> extends Indexable
-    typeParameters:
-    - type: 8ce1ecb9
-      description: <p>the fluent type of the resource to be created </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
-  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
-  href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
-  name: Resource.DefinitionWithTags<T>
-  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
+    content: public interface Blank
+- uid: com.microsoft.azure.management.resources._resource_group._definition_stages._with_create
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_group._definition_stages._with_create.yml
+  name: ResourceGroup.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.WithCreate
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: <p>A resource group definition with sufficient inputs to create a new resource group in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
-    content: public interface DefinitionWithTags<T>
-    typeParameters:
-    - type: 8ce1ecb9
-      description: <p>the type of the next stage resource definition </p>
+    content: public interface WithCreate
 - uid: com.microsoft.azure.management.resources.implementation._resource_group_impl
