@@ -328,7 +328,7 @@ references:
   type: Interface
   summary: <p>Entry point to generic resources management API. </p>
   syntax:
-    content: public interface GenericResources extends SupportsListingByGroup< GenericResource >,SupportsGettingByGroup< GenericResource >,SupportsGettingById< GenericResource >,SupportsCreating< GenericResource.DefinitionBlank >
+    content: public interface GenericResources extends SupportsListingByGroup< GenericResource >,SupportsGettingById< GenericResource >,SupportsCreating< GenericResource.DefinitionBlank >
 - uid: com.microsoft.azure.management.resources._generic_resources_tests
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resources_tests.yml
@@ -923,15 +923,6 @@ references:
   summary: <p>A deployment update allowing to change the deployment mode. </p>
   syntax:
     content: public interface WithMode
-- uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters.yml
-  name: Deployment.DefinitionStages.WithParameters
-  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
-  type: Interface
-  summary: <p>A deployment definition allowing the parameters to be specified. </p>
-  syntax:
-    content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
@@ -941,15 +932,15 @@ references:
   summary: <p>A deployment update allowing to change the parameters. </p>
   syntax:
     content: public interface WithParameters
-- uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_template
+- uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._definition_stages._with_template.yml
-  name: Deployment.DefinitionStages.WithTemplate
-  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
+  href: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters.yml
+  name: Deployment.DefinitionStages.WithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
   type: Interface
-  summary: <p>A deployment definition allowing the template to be specified. </p>
+  summary: <p>A deployment definition allowing the parameters to be specified. </p>
   syntax:
-    content: public interface WithTemplate
+    content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
@@ -957,5 +948,14 @@ references:
   fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
   type: Interface
   summary: <p>A deployment update allowing to change the template. </p>
+  syntax:
+    content: public interface WithTemplate
+- uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_template
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._definition_stages._with_template.yml
+  name: Deployment.DefinitionStages.WithTemplate
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
+  type: Interface
+  summary: <p>A deployment definition allowing the template to be specified. </p>
   syntax:
     content: public interface WithTemplate
