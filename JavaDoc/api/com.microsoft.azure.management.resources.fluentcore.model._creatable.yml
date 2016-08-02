@@ -5,6 +5,7 @@ items:
   children:
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable_1a621c7b5b403043ebcb2517da5c346740
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
   langs:
   - java
@@ -42,7 +43,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Creatable.java
-    startLine: 23
+    startLine: 28
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>Execute the create request.</p>
@@ -68,7 +69,7 @@ items:
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Creatable.java
-    startLine: 32
+    startLine: 37
   package: com.microsoft.azure.management.resources.fluentcore.model
   summary: >-
     <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
@@ -83,11 +84,34 @@ items:
     return:
       type: com.microsoft.rest._service_call
       description: <p>a handle to cancel the request </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable_1a621c7b5b403043ebcb2517da5c346740
+  id: _creatable_1a621c7b5b403043ebcb2517da5c346740
+  parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
+  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  langs:
+  - java
+  name: name()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.Creatable< T >.name()
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Creatable.java
+    startLine: 20
+  package: com.microsoft.azure.management.resources.fluentcore.model
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name of the creatable resource. </p>
 references:
 - uid: 8ce1ecb9
   spec.java:
   - name: T
     fullName: T
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
 - uid: 8a99d4b0
   spec.java:
   - name: Exception

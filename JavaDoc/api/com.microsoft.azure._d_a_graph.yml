@@ -45,8 +45,9 @@ items:
   inheritedMembers:
   - com.microsoft.azure._graph_1a86314d0d81f14a3ffb13c531f94cf54e
   - com.microsoft.azure._graph_1a45c95fe8f5ff96e0214c43acb5480289
-  - com.microsoft.azure._graph_1a7a5974d693aee0816e6b222cd3d142d5
+  - com.microsoft.azure._graph_1ab62a87e96751542e8f4c51c1ef270f7a
   - com.microsoft.azure._graph_1ab8148e92ab05c1c6283e6ec1731dd856
+  - com.microsoft.azure._graph_1a7a5974d693aee0816e6b222cd3d142d5
   - com.microsoft.azure._graph_1ae40963792e80b40fea6676e6157aa5ae
 - uid: com.microsoft.azure._d_a_graph_1a7cc746fba1814e67cef173e9308c3619
   id: _d_a_graph_1a7cc746fba1814e67cef173e9308c3619
@@ -319,15 +320,17 @@ references:
       type: "26831127"
     return:
       type: "26831127"
-- uid: com.microsoft.azure._graph_1a7a5974d693aee0816e6b222cd3d142d5
+- uid: com.microsoft.azure._graph_1ab62a87e96751542e8f4c51c1ef270f7a
   parent: com.microsoft.azure._graph
   href: com.microsoft.azure._graph.yml
-  name: Graph()
-  fullName: com.microsoft.azure.Graph< T, U extends Node< T >.Graph()
-  type: Constructor
-  summary: <p>Creates a directed graph. </p>
+  name: getNodes()
+  fullName: Collection<U> com.microsoft.azure.Graph< T, U extends Node< T >.getNodes()
+  type: Method
   syntax:
-    content: public Graph()
+    content: public Collection< U > getNodes()
+    return:
+      type: 8728f1cf
+      description: <p>all nodes in the graph. </p>
 - uid: com.microsoft.azure._graph_1ab8148e92ab05c1c6283e6ec1731dd856
   parent: com.microsoft.azure._graph
   href: com.microsoft.azure._graph.yml
@@ -338,6 +341,15 @@ references:
     content: protected Map< String, U > graph
     return:
       type: 76b2693b
+- uid: com.microsoft.azure._graph_1a7a5974d693aee0816e6b222cd3d142d5
+  parent: com.microsoft.azure._graph
+  href: com.microsoft.azure._graph.yml
+  name: Graph()
+  fullName: com.microsoft.azure.Graph< T, U extends Node< T >.Graph()
+  type: Constructor
+  summary: <p>Creates a directed graph. </p>
+  syntax:
+    content: public Graph()
 - uid: com.microsoft.azure._graph_1ae40963792e80b40fea6676e6157aa5ae
   parent: com.microsoft.azure._graph
   href: com.microsoft.azure._graph.yml

@@ -44,6 +44,7 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1aa3aafecb0c8f79531b7b6b5399b9981e
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1ae1474a6020361647fa2c5b8d18ba2728
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a8a9e4b0857ad956292b74e27f26f2e20
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a3f122a68afd09ca3547ca116f71dc166
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl_1a3a3882ee105caed92f95f2a6778f44b2
   id: _creatable_updatable_impl_1a3a3882ee105caed92f95f2a6778f44b2
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl
@@ -198,6 +199,17 @@ references:
     return:
       type: com.microsoft.azure.management.resources.fluentcore.model.implementation._creator_task_group
       description: <p>the task group associated with this creatable. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl_1a3f122a68afd09ca3547ca116f71dc166
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
+  name: name()
+  fullName: String com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT extends ResourceT, InnerModelT, FluentModelImplT, ResourceT >.name()
+  type: Method
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name of the creatable resource. </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml

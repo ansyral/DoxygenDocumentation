@@ -84,7 +84,7 @@ references:
 
     <p></p>
   syntax:
-    content: public class CreatorTaskGroup<ResourceT> extends TaskGroupBase< ResourceT >
+    content: public class CreatorTaskGroup<ResourceT> extends TaskGroupBase< ResourceT, CreatorTaskItem< ResourceT > >
     typeParameters:
     - type: ab77b02a
       description: <p>the type of the resource this group creates </p>

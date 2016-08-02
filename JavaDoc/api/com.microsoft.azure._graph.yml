@@ -5,6 +5,7 @@ items:
   children:
   - com.microsoft.azure._graph_1a86314d0d81f14a3ffb13c531f94cf54e
   - com.microsoft.azure._graph_1a45c95fe8f5ff96e0214c43acb5480289
+  - com.microsoft.azure._graph_1ab62a87e96751542e8f4c51c1ef270f7a
   - com.microsoft.azure._graph_1ab8148e92ab05c1c6283e6ec1731dd856
   - com.microsoft.azure._graph_1a7a5974d693aee0816e6b222cd3d142d5
   - com.microsoft.azure._graph_1ae40963792e80b40fea6676e6157aa5ae
@@ -20,7 +21,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
-    startLine: 22
+    startLine: 23
   package: com.microsoft.azure
   summary: >-
     <p>Type representing a directed graph data structure. </p>
@@ -49,7 +50,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
-    startLine: 49
+    startLine: 50
   package: com.microsoft.azure
   summary: >-
     <p>Adds a node to this graph.</p>
@@ -73,7 +74,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
-    startLine: 118
+    startLine: 126
   package: com.microsoft.azure
   syntax:
     content: protected String findPath(String start, String end)
@@ -84,6 +85,25 @@ items:
       type: "26831127"
     return:
       type: "26831127"
+- uid: com.microsoft.azure._graph_1ab62a87e96751542e8f4c51c1ef270f7a
+  id: _graph_1ab62a87e96751542e8f4c51c1ef270f7a
+  parent: com.microsoft.azure._graph
+  href: com.microsoft.azure._graph.yml
+  langs:
+  - java
+  name: getNodes()
+  fullName: Collection<U> com.microsoft.azure.Graph< T, U extends Node< T >.getNodes()
+  type: Method
+  source:
+    remote: *o0
+    path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
+    startLine: 57
+  package: com.microsoft.azure
+  syntax:
+    content: public Collection< U > getNodes()
+    return:
+      type: 8728f1cf
+      description: <p>all nodes in the graph. </p>
 - uid: com.microsoft.azure._graph_1ab8148e92ab05c1c6283e6ec1731dd856
   id: _graph_1ab8148e92ab05c1c6283e6ec1731dd856
   parent: com.microsoft.azure._graph
@@ -96,7 +116,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
-    startLine: 23
+    startLine: 24
   package: com.microsoft.azure
   syntax:
     content: protected Map< String, U > graph
@@ -114,7 +134,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
-    startLine: 34
+    startLine: 35
   package: com.microsoft.azure
   summary: <p>Creates a directed graph. </p>
   syntax:
@@ -131,7 +151,7 @@ items:
   source:
     remote: *o0
     path: runtimes/azure-client-runtime/src/main/java/com/microsoft/azure/Graph.java
-    startLine: 61
+    startLine: 69
   package: com.microsoft.azure
   summary: >-
     <p>Perform DFS visit in this graph. </p>
@@ -158,6 +178,10 @@ references:
   spec.java:
   - name: Map< String, U >
     fullName: Map< String, U >
+- uid: 8728f1cf
+  spec.java:
+  - name: Collection< U >
+    fullName: Collection< U >
 - uid: bb01fbc9
   spec.java:
   - name: Visitor
