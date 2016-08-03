@@ -1,14 +1,14 @@
 items:
-- uid: com.microsoft.azure.management.resources._generic_resource._definition_creatable
-  id: _definition_creatable
+- uid: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create
+  id: _with_create
   parent: com.microsoft.azure.management.resources
   children:
-  - com.microsoft.azure.management.resources._generic_resource._definition_creatable_1a2e8a0de83d67c95de8e29aab13c2e9db
-  href: com.microsoft.azure.management.resources._generic_resource._definition_creatable.yml
+  - com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create_1a99ad811d1d48271b95daf5c818d3d08f
+  href: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create.yml
   langs:
   - java
-  name: GenericResource.DefinitionCreatable
-  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionCreatable
+  name: GenericResource.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
   type: Interface
   source:
     remote: &o0
@@ -16,44 +16,45 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java.git
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 147
+    startLine: 165
   package: com.microsoft.azure.management.resources
   summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
   syntax: &o1
-    content: public interface DefinitionCreatable extends Creatable< GenericResource >,Resource.DefinitionWithTags< DefinitionCreatable >
+    content: public interface WithCreate extends GenericResource.DefinitionStages.WithParentResource,Creatable< GenericResource >,Resource.DefinitionWithTags< WithCreate >
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1acf3889a24f1bb5e64f8e6a751397f991
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1adbc46a6d347c6b82ecca1a86b3bd6f10
   - com.microsoft.azure.management.resources.fluentcore.model._indexable_1ab0ae133d20d97eaee0480795ee886bde
   - com.microsoft.azure.management.resources.fluentcore.model._creatable_1a621c7b5b403043ebcb2517da5c346740
+  - com.microsoft.azure.management.resources._generic_resource._definitio4d69ae035372aa8dcb42ed1867c2ca77_1ab909b6a84212b195d4a4f9ea2a6e7cf4
   - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1a5cc4db7c23294a045cab58bc3d0eb625
   - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1af64687022003b777d0cfc486c9c08503
-- uid: com.microsoft.azure.management.resources._generic_resource._definition_creatable_1a2e8a0de83d67c95de8e29aab13c2e9db
-  id: _definition_creatable_1a2e8a0de83d67c95de8e29aab13c2e9db
-  parent: com.microsoft.azure.management.resources._generic_resource._definition_creatable
-  href: com.microsoft.azure.management.resources._generic_resource._definition_creatable.yml
+- uid: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create_1a99ad811d1d48271b95daf5c818d3d08f
+  id: _with_create_1a99ad811d1d48271b95daf5c818d3d08f
+  parent: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create
+  href: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create.yml
   langs:
   - java
   name: withProperties(Object properties)
-  fullName: DefinitionCreatable com.microsoft.azure.management.resources.GenericResource.DefinitionCreatable.withProperties(Object properties)
+  fullName: WithCreate com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate.withProperties(Object properties)
   type: Method
   source:
     remote: *o0
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/GenericResource.java
-    startLine: 156
+    startLine: 175
   package: com.microsoft.azure.management.resources
   summary: >-
     <p>Specifies other properties.</p>
 
     <p></p>
   syntax:
-    content: public DefinitionCreatable withProperties(Object properties)
+    content: public WithCreate withProperties(Object properties)
     parameters:
     - id: properties
       type: "79317049"
       description: <p>the properties object </p>
     return:
-      type: com.microsoft.azure.management.resources._generic_resource._definition_creatable
+      type: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create
       description: <p>the next stage of generic resource definition </p>
 references:
 - uid: "79317049"
@@ -116,6 +117,25 @@ references:
     return:
       type: "26831127"
       description: <p>the name of the creatable resource. </p>
+- uid: com.microsoft.azure.management.resources._generic_resource._definitio4d69ae035372aa8dcb42ed1867c2ca77_1ab909b6a84212b195d4a4f9ea2a6e7cf4
+  parent: com.microsoft.azure.management.resources._generic_resource._definitio4d69ae035372aa8dcb42ed1867c2ca77
+  href: com.microsoft.azure.management.resources._generic_resource._definitio4d69ae035372aa8dcb42ed1867c2ca77.yml
+  name: withParentResource(String parentResourceId)
+  fullName: WithCreate com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.withParentResource(String parentResourceId)
+  type: Method
+  summary: >-
+    <p>Specifies the parent resource.</p>
+
+    <p></p>
+  syntax:
+    content: public WithCreate withParentResource(String parentResourceId)
+    parameters:
+    - id: parentResourceId
+      type: "26831127"
+      description: <p>the parent resource id </p>
+    return:
+      type: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create
+      description: <p>the next stage of the generic resource definition </p>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09_1a5cc4db7c23294a045cab58bc3d0eb625
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
@@ -151,6 +171,15 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the next stage of the resource definition </p>
+- uid: com.microsoft.azure.management.resources._generic_resource._definitio4d69ae035372aa8dcb42ed1867c2ca77
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._generic_resource._definitio4d69ae035372aa8dcb42ed1867c2ca77.yml
+  name: GenericResource.DefinitionStages.WithParentResource
+  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
+  type: Interface
+  summary: <p>A generic resource definition allowing parent resource to be specified. </p>
+  syntax:
+    content: public interface WithParentResource
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
@@ -181,12 +210,20 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the next stage resource definition </p>
-- uid: com.microsoft.azure.management.resources.implementation._generic_resource_impl
-- uid: com.microsoft.azure.management.resources._generic_resource._definition_creatable
+- uid: com.microsoft.azure.management.resources._generic_resource._definition
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._generic_resource._definition_creatable.yml
-  name: GenericResource.DefinitionCreatable
-  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionCreatable
+  href: com.microsoft.azure.management.resources._generic_resource._definition.yml
+  name: GenericResource.Definition
+  fullName: com.microsoft.azure.management.resources.GenericResource.Definition
+  type: Interface
+  summary: <p>The entirety of the generic resource definition. </p>
+  syntax:
+    content: public interface Definition extends GenericResource.DefinitionStages.Blank,GenericResource.DefinitionStages.WithGroup,GenericResource.DefinitionStages.WithResourceType,GenericResource.DefinitionStages.WithProviderNamespace,GenericResource.DefinitionStages.WithParentResource,GenericResource.DefinitionStages.WithPlan,GenericResource.DefinitionStages.WithApiVersion,GenericResource.DefinitionStages.WithCreate
+- uid: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create.yml
+  name: GenericResource.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
   type: Interface
   summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
   syntax: *o1
