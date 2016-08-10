@@ -3,27 +3,27 @@ items:
   id: _storage_accounts_inner
   parent: com.microsoft.azure.management.storage.implementation
   children:
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a2f35caf7181dceaa46db041920bcc1f3
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ad532cfa062b3dfade044826b4c591ef7
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a5588afb20199e88402390008c34e2a40
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a4ccf4bfa47d27a44fe2cf9d10016a3e4
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a22acb911602c69ae3b03ebca852743ce
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1afaec6c5ee846c547a4f98c42a3ac42b4
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1aae4bd42540440da2081c0f81bc72614c
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a066ce8d7df8cbb75ac5d3355bb80a581
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1adbbb386d47c604ff64205d4b3da76733
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1aa4dda97036aa502cc0011ee99b647f6f
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1af6581a7b8799065194e1bd95a6d2cf87
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a0a61d6974563e2de03803b2575fc25c5
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a6995b3b2852a2ab1b79aa83452b92d1c
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ac555f18d824fe9b6ddad0a17ac6c4d33
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ae5c7ca316f494abdf5b939ab0f936e13
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a4bf0995b0e31a2b568316e2a5d78addd
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a87657b1e3f35c5641fefabc5f8a61f83
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ad9b9ab21eece949e240fe06f5e3fc24c
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a40c7b2f21037f1a6b3f8bd9a490183a9
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a4b753dbba6c58949f06f2741d1134c60
-  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1aa0584c9f8f014e16505e9744a0443dcd
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.beginCreate(String,String,StorageAccountCreateParametersInner)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.beginCreateAsync(String,String,StorageAccountCreateParametersInner,final ServiceCallback< StorageAccountInner >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.checkNameAvailability(String)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.checkNameAvailabilityAsync(String,final ServiceCallback< CheckNameAvailabilityResultInner >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.create(String,String,StorageAccountCreateParametersInner)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.createAsync(String,String,StorageAccountCreateParametersInner,final ServiceCallback< StorageAccountInner >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.delete(String,String)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.deleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.getProperties(String,String)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.getPropertiesAsync(String,String,final ServiceCallback< StorageAccountInner >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.list()
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.listAsync(final ServiceCallback< List< StorageAccountInner >>)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.listByResourceGroup(String)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.listByResourceGroupAsync(String,final ServiceCallback< List< StorageAccountInner >>)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.listKeys(String,String)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.listKeysAsync(String,String,final ServiceCallback< StorageAccountListKeysResultInner >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.regenerateKey(String,String,String)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.regenerateKeyAsync(String,String,String,final ServiceCallback< StorageAccountListKeysResultInner >)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.StorageAccountsInner(Retrofit,StorageManagementClientImpl)
+  - com.microsoft.azure.management.storage.implementation._storage_accounts_inner.update(String,String,StorageAccountUpdateParametersInner)
+  - classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.updateAsync(String,String,StorageAccountUpdateParametersInner,final ServiceCallback< StorageAccountInner >)
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
   - java
@@ -43,8 +43,8 @@ items:
     content: public class StorageAccountsInner
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a2f35caf7181dceaa46db041920bcc1f3
-  id: _storage_accounts_inner_1a2f35caf7181dceaa46db041920bcc1f3
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.beginCreate(String,String,StorageAccountCreateParametersInner)
+  id: beginCreate(String,String,StorageAccountCreateParametersInner)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -83,8 +83,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ad532cfa062b3dfade044826b4c591ef7
-  id: _storage_accounts_inner_1ad532cfa062b3dfade044826b4c591ef7
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.beginCreateAsync(String,String,StorageAccountCreateParametersInner,final ServiceCallback< StorageAccountInner >)
+  id: beginCreateAsync(String,String,StorageAccountCreateParametersInner,final ServiceCallback< StorageAccountInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -119,8 +119,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.storage.implementation._storage_account_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a5588afb20199e88402390008c34e2a40
-  id: _storage_accounts_inner_1a5588afb20199e88402390008c34e2a40
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.checkNameAvailability(String)
+  id: checkNameAvailability(String)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -153,8 +153,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a4ccf4bfa47d27a44fe2cf9d10016a3e4
-  id: _storage_accounts_inner_1a4ccf4bfa47d27a44fe2cf9d10016a3e4
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.checkNameAvailabilityAsync(String,final ServiceCallback< CheckNameAvailabilityResultInner >)
+  id: checkNameAvailabilityAsync(String,final ServiceCallback< CheckNameAvailabilityResultInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -183,8 +183,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.storage.implementation._check_name_availability_result_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a22acb911602c69ae3b03ebca852743ce
-  id: _storage_accounts_inner_1a22acb911602c69ae3b03ebca852743ce
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.create(String,String,StorageAccountCreateParametersInner)
+  id: create(String,String,StorageAccountCreateParametersInner)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -225,8 +225,8 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1afaec6c5ee846c547a4f98c42a3ac42b4
-  id: _storage_accounts_inner_1afaec6c5ee846c547a4f98c42a3ac42b4
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.createAsync(String,String,StorageAccountCreateParametersInner,final ServiceCallback< StorageAccountInner >)
+  id: createAsync(String,String,StorageAccountCreateParametersInner,final ServiceCallback< StorageAccountInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -264,8 +264,8 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1aae4bd42540440da2081c0f81bc72614c
-  id: _storage_accounts_inner_1aae4bd42540440da2081c0f81bc72614c
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.delete(String,String)
+  id: delete(String,String)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -301,8 +301,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a066ce8d7df8cbb75ac5d3355bb80a581
-  id: _storage_accounts_inner_1a066ce8d7df8cbb75ac5d3355bb80a581
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.deleteAsync(String,String,final ServiceCallback< Void >)
+  id: deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -334,8 +334,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1adbbb386d47c604ff64205d4b3da76733
-  id: _storage_accounts_inner_1adbbb386d47c604ff64205d4b3da76733
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.getProperties(String,String)
+  id: getProperties(String,String)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -371,8 +371,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1aa4dda97036aa502cc0011ee99b647f6f
-  id: _storage_accounts_inner_1aa4dda97036aa502cc0011ee99b647f6f
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.getPropertiesAsync(String,String,final ServiceCallback< StorageAccountInner >)
+  id: getPropertiesAsync(String,String,final ServiceCallback< StorageAccountInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -404,8 +404,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.storage.implementation._storage_account_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1af6581a7b8799065194e1bd95a6d2cf87
-  id: _storage_accounts_inner_1af6581a7b8799065194e1bd95a6d2cf87
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.list()
+  id: list()
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -434,8 +434,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a0a61d6974563e2de03803b2575fc25c5
-  id: _storage_accounts_inner_1a0a61d6974563e2de03803b2575fc25c5
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.listAsync(final ServiceCallback< List< StorageAccountInner >>)
+  id: listAsync(final ServiceCallback< List< StorageAccountInner >>)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -461,8 +461,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.storage.implementation._storage_account_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a6995b3b2852a2ab1b79aa83452b92d1c
-  id: _storage_accounts_inner_1a6995b3b2852a2ab1b79aa83452b92d1c
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.listByResourceGroup(String)
+  id: listByResourceGroup(String)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -495,8 +495,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ac555f18d824fe9b6ddad0a17ac6c4d33
-  id: _storage_accounts_inner_1ac555f18d824fe9b6ddad0a17ac6c4d33
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.listByResourceGroupAsync(String,final ServiceCallback< List< StorageAccountInner >>)
+  id: listByResourceGroupAsync(String,final ServiceCallback< List< StorageAccountInner >>)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -525,8 +525,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.storage.implementation._storage_account_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ae5c7ca316f494abdf5b939ab0f936e13
-  id: _storage_accounts_inner_1ae5c7ca316f494abdf5b939ab0f936e13
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.listKeys(String,String)
+  id: listKeys(String,String)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -562,8 +562,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a4bf0995b0e31a2b568316e2a5d78addd
-  id: _storage_accounts_inner_1a4bf0995b0e31a2b568316e2a5d78addd
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.listKeysAsync(String,String,final ServiceCallback< StorageAccountListKeysResultInner >)
+  id: listKeysAsync(String,String,final ServiceCallback< StorageAccountListKeysResultInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -595,8 +595,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.storage.implementation._storage_account_list_keys_result_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a87657b1e3f35c5641fefabc5f8a61f83
-  id: _storage_accounts_inner_1a87657b1e3f35c5641fefabc5f8a61f83
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.regenerateKey(String,String,String)
+  id: regenerateKey(String,String,String)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -635,8 +635,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1ad9b9ab21eece949e240fe06f5e3fc24c
-  id: _storage_accounts_inner_1ad9b9ab21eece949e240fe06f5e3fc24c
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.regenerateKeyAsync(String,String,String,final ServiceCallback< StorageAccountListKeysResultInner >)
+  id: regenerateKeyAsync(String,String,String,final ServiceCallback< StorageAccountListKeysResultInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -671,8 +671,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.storage.implementation._storage_account_list_keys_result_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a40c7b2f21037f1a6b3f8bd9a490183a9
-  id: _storage_accounts_inner_1a40c7b2f21037f1a6b3f8bd9a490183a9
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.StorageAccountsInner(Retrofit,StorageManagementClientImpl)
+  id: StorageAccountsInner(Retrofit,StorageManagementClientImpl)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -698,8 +698,8 @@ items:
     - id: client
       type: com.microsoft.azure.management.storage.implementation._storage_management_client_impl
       description: <p>the instance of the service client containing this operation class. </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1a4b753dbba6c58949f06f2741d1134c60
-  id: _storage_accounts_inner_1a4b753dbba6c58949f06f2741d1134c60
+- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.update(String,String,StorageAccountUpdateParametersInner)
+  id: update(String,String,StorageAccountUpdateParametersInner)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:
@@ -738,8 +738,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.storage.implementation._storage_accounts_inner_1aa0584c9f8f014e16505e9744a0443dcd
-  id: _storage_accounts_inner_1aa0584c9f8f014e16505e9744a0443dcd
+- uid: classcom.microsoft.azure.management.storage.implementation._storage_accounts_inner.updateAsync(String,String,StorageAccountUpdateParametersInner,final ServiceCallback< StorageAccountInner >)
+  id: updateAsync(String,String,StorageAccountUpdateParametersInner,final ServiceCallback< StorageAccountInner >)
   parent: com.microsoft.azure.management.storage.implementation._storage_accounts_inner
   href: com.microsoft.azure.management.storage.implementation._storage_accounts_inner.yml
   langs:

@@ -3,27 +3,27 @@ items:
   id: _virtual_networks_inner
   parent: com.microsoft.azure.management.network.implementation
   children:
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a44f1bdddd719a8e5dcf39090f700dccc
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a82a7ab35cd46b94d7f0253ca5a9f5183
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ad396da9db5d99f10135a1158e648d458
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a0a395902d639a89df032484f2851a0a2
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a1dcc95d0fa1340d0264c45a53686d6a9
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1acc18b74e9b9d22ee31e5ce92c4210bb6
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ab2f990b0d94f7ce1a2e665d42d122b14
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ac5c2f6b9002d8704112c4f30a47a3e90
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1aa796653b467fcaa2036a671d3e02036f
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a9fd694b9c1b6884cf608aae3a079b06a
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a66b8e0f4b33c190265f366bc0fbb7443
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a172f3cc253f5dbe7e6b1d10d5cd9b61b
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a42052dd088d1ff415b8bac160e820b12
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a3751e50ae6b5a4364e9f36a735c6fe63
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a7d7146085e6bf909586b2293e1286235
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a1602497f4ac7329412c0c17223fe0958
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a0d64c8506691280c4b5d782535d3da6c
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1afa7b3510f7ee769b0844fa5cfed02a8d
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a9d0dbaa4b26eef7fae7b58b73382fe8b
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ac1ca686c7e88ddd23089459a6a080364
-  - com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a50042636748f8bf4630a438d2202a44f
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.beginCreateOrUpdate(String,String,VirtualNetworkInner)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.beginCreateOrUpdateAsync(String,String,VirtualNetworkInner,final ServiceCallback< VirtualNetworkInner >)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.beginDelete(String,String)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.beginDeleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.createOrUpdate(String,String,VirtualNetworkInner)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.createOrUpdateAsync(String,String,VirtualNetworkInner,final ServiceCallback< VirtualNetworkInner >)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.delete(String,String)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.deleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.get(String,String)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.get(String,String,String)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.getAsync(String,String,final ServiceCallback< VirtualNetworkInner >)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.getAsync(String,String,String,final ServiceCallback< VirtualNetworkInner >)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.list(final String)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.listAll()
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAllAsync(final ListOperationCallback< VirtualNetworkInner >)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAllNext(final String)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAllNextAsync(final String,final ServiceCall< List< VirtualNetworkInner >>,final ListOperationCallback< VirtualNetworkInner >)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAsync(final String,final ListOperationCallback< VirtualNetworkInner >)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listNext(final String)
+  - classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listNextAsync(final String,final ServiceCall< List< VirtualNetworkInner >>,final ListOperationCallback< VirtualNetworkInner >)
+  - com.microsoft.azure.management.network.implementation._virtual_networks_inner.VirtualNetworksInner(Retrofit,NetworkManagementClientImpl)
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
   - java
@@ -43,8 +43,8 @@ items:
     content: public class VirtualNetworksInner
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a44f1bdddd719a8e5dcf39090f700dccc
-  id: _virtual_networks_inner_1a44f1bdddd719a8e5dcf39090f700dccc
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.beginCreateOrUpdate(String,String,VirtualNetworkInner)
+  id: beginCreateOrUpdate(String,String,VirtualNetworkInner)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -83,8 +83,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a82a7ab35cd46b94d7f0253ca5a9f5183
-  id: _virtual_networks_inner_1a82a7ab35cd46b94d7f0253ca5a9f5183
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.beginCreateOrUpdateAsync(String,String,VirtualNetworkInner,final ServiceCallback< VirtualNetworkInner >)
+  id: beginCreateOrUpdateAsync(String,String,VirtualNetworkInner,final ServiceCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -119,8 +119,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.network.implementation._virtual_network_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ad396da9db5d99f10135a1158e648d458
-  id: _virtual_networks_inner_1ad396da9db5d99f10135a1158e648d458
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.beginDelete(String,String)
+  id: beginDelete(String,String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -156,8 +156,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a0a395902d639a89df032484f2851a0a2
-  id: _virtual_networks_inner_1a0a395902d639a89df032484f2851a0a2
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.beginDeleteAsync(String,String,final ServiceCallback< Void >)
+  id: beginDeleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -189,8 +189,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a1dcc95d0fa1340d0264c45a53686d6a9
-  id: _virtual_networks_inner_1a1dcc95d0fa1340d0264c45a53686d6a9
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.createOrUpdate(String,String,VirtualNetworkInner)
+  id: createOrUpdate(String,String,VirtualNetworkInner)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -231,8 +231,8 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1acc18b74e9b9d22ee31e5ce92c4210bb6
-  id: _virtual_networks_inner_1acc18b74e9b9d22ee31e5ce92c4210bb6
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.createOrUpdateAsync(String,String,VirtualNetworkInner,final ServiceCallback< VirtualNetworkInner >)
+  id: createOrUpdateAsync(String,String,VirtualNetworkInner,final ServiceCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -270,8 +270,8 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ab2f990b0d94f7ce1a2e665d42d122b14
-  id: _virtual_networks_inner_1ab2f990b0d94f7ce1a2e665d42d122b14
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.delete(String,String)
+  id: delete(String,String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -309,8 +309,8 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ac5c2f6b9002d8704112c4f30a47a3e90
-  id: _virtual_networks_inner_1ac5c2f6b9002d8704112c4f30a47a3e90
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.deleteAsync(String,String,final ServiceCallback< Void >)
+  id: deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -345,8 +345,8 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1aa796653b467fcaa2036a671d3e02036f
-  id: _virtual_networks_inner_1aa796653b467fcaa2036a671d3e02036f
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.get(String,String)
+  id: get(String,String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -382,8 +382,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a9fd694b9c1b6884cf608aae3a079b06a
-  id: _virtual_networks_inner_1a9fd694b9c1b6884cf608aae3a079b06a
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.get(String,String,String)
+  id: get(String,String,String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -422,8 +422,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a66b8e0f4b33c190265f366bc0fbb7443
-  id: _virtual_networks_inner_1a66b8e0f4b33c190265f366bc0fbb7443
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.getAsync(String,String,final ServiceCallback< VirtualNetworkInner >)
+  id: getAsync(String,String,final ServiceCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -455,8 +455,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.network.implementation._virtual_network_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a172f3cc253f5dbe7e6b1d10d5cd9b61b
-  id: _virtual_networks_inner_1a172f3cc253f5dbe7e6b1d10d5cd9b61b
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.getAsync(String,String,String,final ServiceCallback< VirtualNetworkInner >)
+  id: getAsync(String,String,String,final ServiceCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -491,8 +491,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.network.implementation._virtual_network_inner9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a42052dd088d1ff415b8bac160e820b12
-  id: _virtual_networks_inner_1a42052dd088d1ff415b8bac160e820b12
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.list(final String)
+  id: list(final String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -525,8 +525,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a3751e50ae6b5a4364e9f36a735c6fe63
-  id: _virtual_networks_inner_1a3751e50ae6b5a4364e9f36a735c6fe63
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.listAll()
+  id: listAll()
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -555,8 +555,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a7d7146085e6bf909586b2293e1286235
-  id: _virtual_networks_inner_1a7d7146085e6bf909586b2293e1286235
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAllAsync(final ListOperationCallback< VirtualNetworkInner >)
+  id: listAllAsync(final ListOperationCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -582,8 +582,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.network.implementation._virtual_network_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a1602497f4ac7329412c0c17223fe0958
-  id: _virtual_networks_inner_1a1602497f4ac7329412c0c17223fe0958
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAllNext(final String)
+  id: listAllNext(final String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -616,8 +616,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a0d64c8506691280c4b5d782535d3da6c
-  id: _virtual_networks_inner_1a0d64c8506691280c4b5d782535d3da6c
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAllNextAsync(final String,final ServiceCall< List< VirtualNetworkInner >>,final ListOperationCallback< VirtualNetworkInner >)
+  id: listAllNextAsync(final String,final ServiceCall< List< VirtualNetworkInner >>,final ListOperationCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -649,8 +649,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.network.implementation._virtual_network_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1afa7b3510f7ee769b0844fa5cfed02a8d
-  id: _virtual_networks_inner_1afa7b3510f7ee769b0844fa5cfed02a8d
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listAsync(final String,final ListOperationCallback< VirtualNetworkInner >)
+  id: listAsync(final String,final ListOperationCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -679,8 +679,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.network.implementation._virtual_network_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a9d0dbaa4b26eef7fae7b58b73382fe8b
-  id: _virtual_networks_inner_1a9d0dbaa4b26eef7fae7b58b73382fe8b
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listNext(final String)
+  id: listNext(final String)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -713,8 +713,8 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1ac1ca686c7e88ddd23089459a6a080364
-  id: _virtual_networks_inner_1ac1ca686c7e88ddd23089459a6a080364
+- uid: classcom.microsoft.azure.management.network.implementation._virtual_networks_inner.listNextAsync(final String,final ServiceCall< List< VirtualNetworkInner >>,final ListOperationCallback< VirtualNetworkInner >)
+  id: listNextAsync(final String,final ServiceCall< List< VirtualNetworkInner >>,final ListOperationCallback< VirtualNetworkInner >)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
@@ -746,8 +746,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.network.implementation._virtual_network_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner_1a50042636748f8bf4630a438d2202a44f
-  id: _virtual_networks_inner_1a50042636748f8bf4630a438d2202a44f
+- uid: com.microsoft.azure.management.network.implementation._virtual_networks_inner.VirtualNetworksInner(Retrofit,NetworkManagementClientImpl)
+  id: VirtualNetworksInner(Retrofit,NetworkManagementClientImpl)
   parent: com.microsoft.azure.management.network.implementation._virtual_networks_inner
   href: com.microsoft.azure.management.network.implementation._virtual_networks_inner.yml
   langs:
