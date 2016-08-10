@@ -3,10 +3,10 @@ items:
   id: _service_call
   parent: com.microsoft.rest
   children:
-  - com.microsoft.rest._service_call.cancel()
+  - com.microsoft.rest._service_call.cancel(boolean)
   - com.microsoft.rest._service_call.failure(Throwable)
   - com.microsoft.rest._service_call.getCall()
-  - com.microsoft.rest._service_call.isCanceled()
+  - com.microsoft.rest._service_call.isCancelled()
   - com.microsoft.rest._service_call.newCall(Call<?>)
   - com.microsoft.rest._service_call.ServiceCall(Call<?>)
   - classcom.microsoft.rest._service_call.success(ServiceResponse< T >)
@@ -36,23 +36,32 @@ items:
   inheritance:
   - java.lang.Object
   - com.google.common.util.concurrent.AbstractFuture< ServiceResponse< T > >
-- uid: com.microsoft.rest._service_call.cancel()
-  id: cancel()
+- uid: com.microsoft.rest._service_call.cancel(boolean)
+  id: cancel(boolean)
   parent: com.microsoft.rest._service_call
   href: com.microsoft.rest._service_call.yml
   langs:
   - java
-  name: cancel()
-  fullName: void com.microsoft.rest.ServiceCall< T >.cancel()
+  name: cancel(boolean mayInterruptIfRunning)
+  fullName: boolean com.microsoft.rest.ServiceCall< T >.cancel(boolean mayInterruptIfRunning)
   type: Method
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCall.java
-    startLine: 56
+    startLine: 60
   package: com.microsoft.rest
-  summary: <p>Cancel the Retrofit call if possible. </p>
+  summary: >-
+    <p>Cancel the Retrofit call if possible. Parameter 'mayInterruptIfRunning is ignored.</p>
+
+    <p></p>
   syntax:
-    content: public void cancel()
+    content: public boolean cancel(boolean mayInterruptIfRunning)
+    parameters:
+    - id: mayInterruptIfRunning
+      type: 4fc6e284
+      description: <p>ignored </p>
+    return:
+      type: 4fc6e284
 - uid: com.microsoft.rest._service_call.failure(Throwable)
   id: failure(Throwable)
   parent: com.microsoft.rest._service_call
@@ -65,7 +74,7 @@ items:
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCall.java
-    startLine: 87
+    startLine: 92
   package: com.microsoft.rest
   summary: >-
     <p>Invoke this method to report a failure, allowing <ref refid="" kindref="compound">AbstractFuture#get()</ref> to throw the exception.</p>
@@ -103,29 +112,24 @@ items:
     return:
       type: de54f7b2
       description: <p>the current call object. </p>
-- uid: com.microsoft.rest._service_call.isCanceled()
-  id: isCanceled()
+- uid: com.microsoft.rest._service_call.isCancelled()
+  id: isCancelled()
   parent: com.microsoft.rest._service_call
   href: com.microsoft.rest._service_call.yml
   langs:
   - java
-  name: isCanceled()
-  fullName: boolean com.microsoft.rest.ServiceCall< T >.isCanceled()
+  name: isCancelled()
+  fullName: boolean com.microsoft.rest.ServiceCall< T >.isCancelled()
   type: Method
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCall.java
-    startLine: 65
+    startLine: 70
   package: com.microsoft.rest
-  summary: >-
-    <p>If the Retrofit call has been canceled.</p>
-
-    <p></p>
   syntax:
-    content: public boolean isCanceled()
+    content: public boolean isCancelled()
     return:
       type: 4fc6e284
-      description: <p>true if the call has been canceled; false otherwise. </p>
 - uid: com.microsoft.rest._service_call.newCall(Call<?>)
   id: newCall(Call<?>)
   parent: com.microsoft.rest._service_call
@@ -186,7 +190,7 @@ items:
   source:
     remote: *o0
     path: runtimes/client-runtime/src/main/java/com/microsoft/rest/ServiceCall.java
-    startLine: 76
+    startLine: 81
   package: com.microsoft.rest
   summary: >-
     <p>Invoke this method to report completed, allowing <ref refid="" kindref="compound">AbstractFuture#get()</ref> to be unblocked.</p>
