@@ -5,14 +5,14 @@ items:
   children:
   - com.microsoft.azure._azure_client.AzureClient(AzureServiceClient)
   - com.microsoft.azure._azure_client.getLongRunningOperationRetryTimeout()
-  - classcom.microsoft.azure._azure_client.getPostOrDeleteResult(Response< ResponseBody >,Type)
-  - classcom.microsoft.azure._azure_client.getPostOrDeleteResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
-  - classcom.microsoft.azure._azure_client.getPostOrDeleteResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
-  - classcom.microsoft.azure._azure_client.getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
-  - classcom.microsoft.azure._azure_client.getPutOrPatchResult(Response< ResponseBody >,Type)
-  - classcom.microsoft.azure._azure_client.getPutOrPatchResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
-  - classcom.microsoft.azure._azure_client.getPutOrPatchResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
-  - classcom.microsoft.azure._azure_client.getPutOrPatchResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.getPostOrDeleteResult(Response< ResponseBody >,Type)
+  - com.microsoft.azure._azure_client.getPostOrDeleteResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.getPostOrDeleteResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
+  - com.microsoft.azure._azure_client.getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.getPutOrPatchResult(Response< ResponseBody >,Type)
+  - com.microsoft.azure._azure_client.getPutOrPatchResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.getPutOrPatchResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
+  - com.microsoft.azure._azure_client.getPutOrPatchResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
   - com.microsoft.azure._azure_client.withLongRunningOperationRetryTimeout(Integer)
   href: com.microsoft.azure._azure_client.yml
   langs:
@@ -41,14 +41,14 @@ items:
   - com.microsoft.azure._azure_service_client.mapperAdapter()
   - com.microsoft.azure._azure_service_client.restClient()
   - com.microsoft.azure._azure_service_client.retrofit()
-  - classcom.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeader(PollingState< T >)
-  - classcom.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T >,final ServiceCallback< T >)
-  - classcom.microsoft.azure._azure_client.updateStateFromGetResourceOperation(PollingState< T >,String)
-  - classcom.microsoft.azure._azure_client.updateStateFromGetResourceOperationAsync(final PollingState< T >,String,final ServiceCall< T >,final ServiceCallback< T >)
-  - classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDelete(PollingState< T >)
-  - classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T >,final ServiceCallback< T >)
-  - classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPut(PollingState< T >)
-  - classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPutAsync(final PollingState< T >,final ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeader(PollingState< T >)
+  - com.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T >,final ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.updateStateFromGetResourceOperation(PollingState< T >,String)
+  - com.microsoft.azure._azure_client.updateStateFromGetResourceOperationAsync(final PollingState< T >,String,final ServiceCall< T >,final ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDelete(PollingState< T >)
+  - com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T >,final ServiceCallback< T >)
+  - com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPut(PollingState< T >)
+  - com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPutAsync(final PollingState< T >,final ServiceCallback< T >)
   - com.microsoft.azure._azure_service_client.userAgent()
 - uid: com.microsoft.azure._azure_client.AzureClient(AzureServiceClient)
   id: AzureClient(AzureServiceClient)
@@ -97,7 +97,7 @@ items:
     return:
       type: 08effaa0
       description: <p>the time in milliseconds. </p>
-- uid: classcom.microsoft.azure._azure_client.getPostOrDeleteResult(Response< ResponseBody >,Type)
+- uid: com.microsoft.azure._azure_client.getPostOrDeleteResult(Response< ResponseBody >,Type)
   id: getPostOrDeleteResult(Response< ResponseBody >,Type)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -134,7 +134,7 @@ items:
     description: <p>interrupted exception </p>
   - type: cbf33bbe
     description: <p>thrown by deserialization </p>
-- uid: classcom.microsoft.azure._azure_client.getPostOrDeleteResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.getPostOrDeleteResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
   id: getPostOrDeleteResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -170,7 +170,7 @@ items:
     return:
       type: 1e0a35de
       description: <p>the task describing the asynchronous polling. </p>
-- uid: classcom.microsoft.azure._azure_client.getPostOrDeleteResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
+- uid: com.microsoft.azure._azure_client.getPostOrDeleteResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
   id: getPostOrDeleteResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -210,7 +210,7 @@ items:
     description: <p>interrupted exception </p>
   - type: cbf33bbe
     description: <p>thrown by deserialization </p>
-- uid: classcom.microsoft.azure._azure_client.getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
   id: getPostOrDeleteResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -249,7 +249,7 @@ items:
     return:
       type: 8367667f
       description: <p>the task describing the asynchronous polling. </p>
-- uid: classcom.microsoft.azure._azure_client.getPutOrPatchResult(Response< ResponseBody >,Type)
+- uid: com.microsoft.azure._azure_client.getPutOrPatchResult(Response< ResponseBody >,Type)
   id: getPutOrPatchResult(Response< ResponseBody >,Type)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -286,7 +286,7 @@ items:
     description: <p>interrupted exception </p>
   - type: cbf33bbe
     description: <p>thrown by deserialization </p>
-- uid: classcom.microsoft.azure._azure_client.getPutOrPatchResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.getPutOrPatchResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
   id: getPutOrPatchResultAsync(Response< ResponseBody >,Type,ServiceCall< T >,ServiceCallback< T >)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -322,7 +322,7 @@ items:
     return:
       type: 1e0a35de
       description: <p>the task describing the asynchronous polling. </p>
-- uid: classcom.microsoft.azure._azure_client.getPutOrPatchResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
+- uid: com.microsoft.azure._azure_client.getPutOrPatchResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
   id: getPutOrPatchResultWithHeaders(Response< ResponseBody >,Type,Class< THeader >)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -362,7 +362,7 @@ items:
     description: <p>interrupted exception </p>
   - type: cbf33bbe
     description: <p>thrown by deserialization </p>
-- uid: classcom.microsoft.azure._azure_client.getPutOrPatchResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.getPutOrPatchResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
   id: getPutOrPatchResultWithHeadersAsync(Response< ResponseBody >,Type,final Class< THeader >,final ServiceCall< T >,final ServiceCallback< T >)
   parent: com.microsoft.azure._azure_client
   href: com.microsoft.azure._azure_client.yml
@@ -589,14 +589,14 @@ references:
     return:
       type: 964879b9
       description: <p>the Retrofit instance. </p>
-- uid: classcom.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeader(PollingState< T >)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T >,final ServiceCallback< T >)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromGetResourceOperation(PollingState< T >,String)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromGetResourceOperationAsync(final PollingState< T >,String,final ServiceCall< T >,final ServiceCallback< T >)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDelete(PollingState< T >)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T >,final ServiceCallback< T >)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPut(PollingState< T >)
-- uid: classcom.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPutAsync(final PollingState< T >,final ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeader(PollingState< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromAzureAsyncOperationHeaderAsync(final PollingState< T >,final ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromGetResourceOperation(PollingState< T >,String)
+- uid: com.microsoft.azure._azure_client.updateStateFromGetResourceOperationAsync(final PollingState< T >,String,final ServiceCall< T >,final ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDelete(PollingState< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPostOrDeleteAsync(final PollingState< T >,final ServiceCallback< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPut(PollingState< T >)
+- uid: com.microsoft.azure._azure_client.updateStateFromLocationHeaderOnPutAsync(final PollingState< T >,final ServiceCallback< T >)
 - uid: com.microsoft.azure._azure_service_client.userAgent()
   parent: com.microsoft.azure._azure_service_client
   href: com.microsoft.azure._azure_service_client.yml

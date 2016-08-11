@@ -4,36 +4,36 @@ items:
   parent: com.microsoft.azure.batch
   children:
   - com.microsoft.azure.batch._compute_node_operations.addComputeNodeUser(String,String,ComputeNodeUser)
-  - classcom.microsoft.azure.batch._compute_node_operations.addComputeNodeUser(String,String,ComputeNodeUser,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.addComputeNodeUser(String,String,ComputeNodeUser,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.customBehaviors()
   - com.microsoft.azure.batch._compute_node_operations.deleteComputeNodeUser(String,String,String)
-  - classcom.microsoft.azure.batch._compute_node_operations.deleteComputeNodeUser(String,String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.deleteComputeNodeUser(String,String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.disableComputeNodeScheduling(String,String)
   - com.microsoft.azure.batch._compute_node_operations.disableComputeNodeScheduling(String,String,DisableComputeNodeSchedulingOption)
-  - classcom.microsoft.azure.batch._compute_node_operations.disableComputeNodeScheduling(String,String,DisableComputeNodeSchedulingOption,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.disableComputeNodeScheduling(String,String,DisableComputeNodeSchedulingOption,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.enableComputeNodeScheduling(String,String)
-  - classcom.microsoft.azure.batch._compute_node_operations.enableComputeNodeScheduling(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.enableComputeNodeScheduling(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.getComputeNode(String,String)
   - com.microsoft.azure.batch._compute_node_operations.getComputeNode(String,String,DetailLevel)
-  - classcom.microsoft.azure.batch._compute_node_operations.getComputeNode(String,String,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.getComputeNode(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.getComputeNodeRemoteDesktop(String,String)
-  - classcom.microsoft.azure.batch._compute_node_operations.getComputeNodeRemoteDesktop(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.getComputeNodeRemoteDesktop(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.getRemoteLoginSettings(String,String)
-  - classcom.microsoft.azure.batch._compute_node_operations.getRemoteLoginSettings(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.getRemoteLoginSettings(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.listComputeNodes(String)
   - com.microsoft.azure.batch._compute_node_operations.listComputeNodes(String,DetailLevel)
-  - classcom.microsoft.azure.batch._compute_node_operations.listComputeNodes(String,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.listComputeNodes(String,DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.rebootComputeNode(String,String)
   - com.microsoft.azure.batch._compute_node_operations.rebootComputeNode(String,String,ComputeNodeRebootOption)
-  - classcom.microsoft.azure.batch._compute_node_operations.rebootComputeNode(String,String,ComputeNodeRebootOption,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.rebootComputeNode(String,String,ComputeNodeRebootOption,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.reimageComputeNode(String,String)
   - com.microsoft.azure.batch._compute_node_operations.reimageComputeNode(String,String,ComputeNodeReimageOption)
-  - classcom.microsoft.azure.batch._compute_node_operations.reimageComputeNode(String,String,ComputeNodeReimageOption,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.reimageComputeNode(String,String,ComputeNodeReimageOption,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,DateTime)
-  - classcom.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,DateTime,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,DateTime,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String)
-  - classcom.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._compute_node_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   href: com.microsoft.azure.batch._compute_node_operations.yml
   langs:
   - java
@@ -54,7 +54,7 @@ items:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
   inheritedMembers:
-  - classcom.microsoft.azure.batch._compute_node_operations.ComputeNodeOperations(BatchClient,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._compute_node_operations.ComputeNodeOperations(BatchClient,Iterable< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._compute_node_operations.addComputeNodeUser(String,String,ComputeNodeUser)
   id: addComputeNodeUser(String,String,ComputeNodeUser)
   parent: com.microsoft.azure.batch._compute_node_operations
@@ -78,7 +78,7 @@ items:
       type: "26831127"
     - id: user
       type: com.microsoft.azure.batch.protocol.models._compute_node_user
-- uid: classcom.microsoft.azure.batch._compute_node_operations.addComputeNodeUser(String,String,ComputeNodeUser,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.addComputeNodeUser(String,String,ComputeNodeUser,Iterable< BatchClientBehavior >)
   id: addComputeNodeUser(String,String,ComputeNodeUser,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -145,7 +145,7 @@ items:
       type: "26831127"
     - id: userName
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._compute_node_operations.deleteComputeNodeUser(String,String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.deleteComputeNodeUser(String,String,String,Iterable< BatchClientBehavior >)
   id: deleteComputeNodeUser(String,String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -214,7 +214,7 @@ items:
       type: "26831127"
     - id: nodeDisableSchedulingOption
       type: com.microsoft.azure.batch.protocol.models._disable_compute_node_scheduling_option
-- uid: classcom.microsoft.azure.batch._compute_node_operations.disableComputeNodeScheduling(String,String,DisableComputeNodeSchedulingOption,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.disableComputeNodeScheduling(String,String,DisableComputeNodeSchedulingOption,Iterable< BatchClientBehavior >)
   id: disableComputeNodeScheduling(String,String,DisableComputeNodeSchedulingOption,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -260,7 +260,7 @@ items:
       type: "26831127"
     - id: nodeId
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._compute_node_operations.enableComputeNodeScheduling(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.enableComputeNodeScheduling(String,String,Iterable< BatchClientBehavior >)
   id: enableComputeNodeScheduling(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -331,7 +331,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: com.microsoft.azure.batch.protocol.models._compute_node
-- uid: classcom.microsoft.azure.batch._compute_node_operations.getComputeNode(String,String,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.getComputeNode(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   id: getComputeNode(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -381,7 +381,7 @@ items:
       type: "26831127"
     return:
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._compute_node_operations.getComputeNodeRemoteDesktop(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.getComputeNodeRemoteDesktop(String,String,Iterable< BatchClientBehavior >)
   id: getComputeNodeRemoteDesktop(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -429,7 +429,7 @@ items:
       type: "26831127"
     return:
       type: com.microsoft.azure.batch.protocol.models._compute_node_get_remote_login_settings_result
-- uid: classcom.microsoft.azure.batch._compute_node_operations.getRemoteLoginSettings(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.getRemoteLoginSettings(String,String,Iterable< BatchClientBehavior >)
   id: getRemoteLoginSettings(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -498,7 +498,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._compute_node9ec3e006
-- uid: classcom.microsoft.azure.batch._compute_node_operations.listComputeNodes(String,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.listComputeNodes(String,DetailLevel,Iterable< BatchClientBehavior >)
   id: listComputeNodes(String,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -567,7 +567,7 @@ items:
       type: "26831127"
     - id: nodeRebootOption
       type: com.microsoft.azure.batch.protocol.models._compute_node_reboot_option
-- uid: classcom.microsoft.azure.batch._compute_node_operations.rebootComputeNode(String,String,ComputeNodeRebootOption,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.rebootComputeNode(String,String,ComputeNodeRebootOption,Iterable< BatchClientBehavior >)
   id: rebootComputeNode(String,String,ComputeNodeRebootOption,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -636,7 +636,7 @@ items:
       type: "26831127"
     - id: nodeReimageOption
       type: com.microsoft.azure.batch.protocol.models._compute_node_reimage_option
-- uid: classcom.microsoft.azure.batch._compute_node_operations.reimageComputeNode(String,String,ComputeNodeReimageOption,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.reimageComputeNode(String,String,ComputeNodeReimageOption,Iterable< BatchClientBehavior >)
   id: reimageComputeNode(String,String,ComputeNodeReimageOption,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -688,7 +688,7 @@ items:
       type: "26831127"
     - id: expiryTime
       type: 230df18c
-- uid: classcom.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,DateTime,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,DateTime,Iterable< BatchClientBehavior >)
   id: updateComputeNodeUser(String,String,String,String,DateTime,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -742,7 +742,7 @@ items:
       type: "26831127"
     - id: sshPublicKey
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.updateComputeNodeUser(String,String,String,String,Iterable< BatchClientBehavior >)
   id: updateComputeNodeUser(String,String,String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -769,7 +769,7 @@ items:
       type: "26831127"
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._compute_node_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   id: withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._compute_node_operations
   href: com.microsoft.azure.batch._compute_node_operations.yml
@@ -790,7 +790,7 @@ items:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: com.microsoft.azure.batch._i_inherited_behaviors
-  overridden: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+  overridden: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
 references:
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
@@ -830,7 +830,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._compute_node.yml
   - name: " >"
     fullName: " >"
-- uid: classcom.microsoft.azure.batch._compute_node_operations.ComputeNodeOperations(BatchClient,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._compute_node_operations.ComputeNodeOperations(BatchClient,Iterable< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
@@ -865,7 +865,7 @@ references:
     content: public Collection< BatchClientBehavior > customBehaviors()
     return:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._i_inherited_behaviors
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
   name: withCustomBehaviors(Collection< BatchClientBehavior > behaviors)

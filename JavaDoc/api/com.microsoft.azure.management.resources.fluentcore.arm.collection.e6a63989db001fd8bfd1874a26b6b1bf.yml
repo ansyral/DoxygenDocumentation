@@ -4,8 +4,8 @@ items:
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   children:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.CreatableResourcesImpl()
-  - classcom.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.create(Creatable< T >...)
-  - classcom.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.createAsync(final ServiceCallback< CreatedResources< T >>,Creatable< T >...)
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.create(Creatable< T >...)
+  - com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.createAsync(final ServiceCallback< CreatedResources< T >>,Creatable< T >...)
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.yml
   langs:
   - java
@@ -38,8 +38,8 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937.CreatableWrappersImpl()
-  - interfacecom.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.create(Creatable< ResourceT >...)
-  - interfacecom.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.createAsync(ServiceCallback< CreatedResources< ResourceT >>,Creatable< ResourceT >...)
+  - com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.create(Creatable< ResourceT >...)
+  - com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.createAsync(ServiceCallback< CreatedResources< ResourceT >>,Creatable< ResourceT >...)
   - com.microsoft.azure.management.resources.fluentcore.arm.collection.2bea196c38d35d52e38040c01bad1937.wrapModel(String)
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.CreatableResourcesImpl()
   id: CreatableResourcesImpl()
@@ -57,7 +57,7 @@ items:
   package: com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
   syntax:
     content: protected CreatableResourcesImpl()
-- uid: classcom.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.create(Creatable< T >...)
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.create(Creatable< T >...)
   id: )
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.yml
@@ -78,7 +78,7 @@ items:
       type: com.microsoft.azure.management.resources.fluentcore.model._creatable684917ce
     return:
       type: com.microsoft.azure.management.resources.fluentcore.model._created_resources34132889
-- uid: classcom.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.createAsync(final ServiceCallback< CreatedResources< T >>,Creatable< T >...)
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.createAsync(final ServiceCallback< CreatedResources< T >>,Creatable< T >...)
   id: )
   parent: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf
   href: com.microsoft.azure.management.resources.fluentcore.arm.collection.e6a63989db001fd8bfd1874a26b6b1bf.yml
@@ -168,7 +168,7 @@ references:
   type: Constructor
   syntax:
     content: protected CreatableWrappersImpl()
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.create(Creatable< ResourceT >...)
+- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.create(Creatable< ResourceT >...)
   parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.yml
   name: create(Creatable< ResourceT >...creatables)
@@ -187,7 +187,7 @@ references:
     return:
       type: com.microsoft.azure.management.resources.fluentcore.model._created_resourcesff4137d7
       description: <p>the batch operation result from which created resources in this batch can be accessed. </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.createAsync(ServiceCallback< CreatedResources< ResourceT >>,Creatable< ResourceT >...)
+- uid: com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.createAsync(ServiceCallback< CreatedResources< ResourceT >>,Creatable< ResourceT >...)
   parent: com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation
   href: com.microsoft.azure.management.resources.fluentcore.collection._supports_batch_creation.yml
   name: createAsync(ServiceCallback< CreatedResources< ResourceT >> callback, Creatable< ResourceT >...creatables)

@@ -5,76 +5,76 @@ items:
   children:
   - com.microsoft.azure.batch.protocol._pools.add(PoolAddParameter)
   - com.microsoft.azure.batch.protocol._pools.add(PoolAddParameter,PoolAddOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.delete(String)
   - com.microsoft.azure.batch.protocol._pools.delete(String,PoolDeleteOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.deleteAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.deleteAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.disableAutoScale(String)
   - com.microsoft.azure.batch.protocol._pools.disableAutoScale(String,PoolDisableAutoScaleOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.enableAutoScale(String,PoolEnableAutoScaleParameter)
   - com.microsoft.azure.batch.protocol._pools.enableAutoScale(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.evaluateAutoScale(String,String)
   - com.microsoft.azure.batch.protocol._pools.evaluateAutoScale(String,String,PoolEvaluateAutoScaleOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
+  - com.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
+  - com.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
   - com.microsoft.azure.batch.protocol._pools.exists(String)
   - com.microsoft.azure.batch.protocol._pools.exists(String,PoolExistsOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.existsAsync(String,final ServiceCallback< Boolean >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
+  - com.microsoft.azure.batch.protocol._pools.existsAsync(String,final ServiceCallback< Boolean >)
+  - com.microsoft.azure.batch.protocol._pools.existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
   - com.microsoft.azure.batch.protocol._pools.get(String)
   - com.microsoft.azure.batch.protocol._pools.get(String,PoolGetOptions)
   - com.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatistics()
   - com.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatistics(PoolGetAllPoolsLifetimeStatisticsOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.getAsync(String,final ServiceCallback< CloudPool >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
+  - com.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
+  - com.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
+  - com.microsoft.azure.batch.protocol._pools.getAsync(String,final ServiceCallback< CloudPool >)
+  - com.microsoft.azure.batch.protocol._pools.getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
   - com.microsoft.azure.batch.protocol._pools.list()
-  - interfacecom.microsoft.azure.batch.protocol._pools.list(final PoolListOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listAsync(final ListOperationCallback< CloudPool >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listNext(final String)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listNext(final String,final PoolListNextOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
+  - com.microsoft.azure.batch.protocol._pools.list(final PoolListOptions)
+  - com.microsoft.azure.batch.protocol._pools.listAsync(final ListOperationCallback< CloudPool >)
+  - com.microsoft.azure.batch.protocol._pools.listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
+  - com.microsoft.azure.batch.protocol._pools.listNext(final String)
+  - com.microsoft.azure.batch.protocol._pools.listNext(final String,final PoolListNextOptions)
+  - com.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
+  - com.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetrics()
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
+  - com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   - com.microsoft.azure.batch.protocol._pools.patch(String,PoolPatchParameter)
   - com.microsoft.azure.batch.protocol._pools.patch(String,PoolPatchParameter,PoolPatchOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.removeNodes(String,NodeRemoveParameter)
   - com.microsoft.azure.batch.protocol._pools.removeNodes(String,NodeRemoveParameter,PoolRemoveNodesOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.resize(String,PoolResizeParameter)
   - com.microsoft.azure.batch.protocol._pools.resize(String,PoolResizeParameter,PoolResizeOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.stopResize(String)
   - com.microsoft.azure.batch.protocol._pools.stopResize(String,PoolStopResizeOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.updateProperties(String,PoolUpdatePropertiesParameter)
   - com.microsoft.azure.batch.protocol._pools.updateProperties(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._pools.upgradeOS(String,String)
   - com.microsoft.azure.batch.protocol._pools.upgradeOS(String,String,PoolUpgradeOSOptions)
-  - interfacecom.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
   href: com.microsoft.azure.batch.protocol._pools.yml
   langs:
   - java
@@ -163,7 +163,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,final ServiceCallback< Void >)
   id: addAsync(PoolAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -196,7 +196,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
   id: addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -303,7 +303,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.deleteAsync(String,final ServiceCallback< Void >)
   id: deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -336,7 +336,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
   id: deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -443,7 +443,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,final ServiceCallback< Void >)
   id: disableAutoScaleAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -476,7 +476,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
   id: disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -589,7 +589,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
   id: enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -625,7 +625,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
   id: enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -741,7 +741,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
+- uid: com.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
   id: evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -777,7 +777,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
+- uid: com.microsoft.azure.batch.protocol._pools.evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
   id: evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -887,7 +887,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.existsAsync(String,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol._pools.existsAsync(String,final ServiceCallback< Boolean >)
   id: existsAsync(String,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -920,7 +920,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol._pools.existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
   id: existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1091,7 +1091,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
+- uid: com.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
   id: getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1121,7 +1121,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
+- uid: com.microsoft.azure.batch.protocol._pools.getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
   id: getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1154,7 +1154,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.getAsync(String,final ServiceCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol._pools.getAsync(String,final ServiceCallback< CloudPool >)
   id: getAsync(String,final ServiceCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1187,7 +1187,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol._pools.getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
   id: getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1253,7 +1253,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.list(final PoolListOptions)
+- uid: com.microsoft.azure.batch.protocol._pools.list(final PoolListOptions)
   id: list(final PoolListOptions)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1287,7 +1287,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listAsync(final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol._pools.listAsync(final ListOperationCallback< CloudPool >)
   id: listAsync(final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1317,7 +1317,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol._pools.listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
   id: listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1350,7 +1350,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._pools.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1384,7 +1384,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listNext(final String,final PoolListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._pools.listNext(final String,final PoolListNextOptions)
   id: listNext(final String,final PoolListNextOptions)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1421,7 +1421,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   id: listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1460,7 +1460,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol._pools.listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   id: listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1526,7 +1526,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
   id: listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1560,7 +1560,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
   id: listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1590,7 +1590,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
   id: listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1623,7 +1623,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String)
   id: listPoolUsageMetricsNext(final String)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1657,7 +1657,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
   id: listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1694,7 +1694,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   id: listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1733,7 +1733,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol._pools.listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   id: listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1846,7 +1846,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
   id: patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1882,7 +1882,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
   id: patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -1998,7 +1998,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
   id: removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2034,7 +2034,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
   id: removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2150,7 +2150,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
   id: resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2186,7 +2186,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
   id: resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2296,7 +2296,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,final ServiceCallback< Void >)
   id: stopResizeAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2329,7 +2329,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
   id: stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2442,7 +2442,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
   id: updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2478,7 +2478,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
   id: updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2594,7 +2594,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,final ServiceCallback< Void >)
   id: upgradeOSAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -2630,7 +2630,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._pools.upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
   id: upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._pools
   href: com.microsoft.azure.batch.protocol._pools.yml
@@ -3356,7 +3356,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetricsAsync(final ListOperationCallback< PoolUsageMetrics > serviceCallback)
@@ -3390,7 +3390,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetrics(final PoolListPoolUsageMetricsOptions poolListPoolUsageMetricsOptions)
@@ -3418,7 +3418,7 @@ references:
   summary: <p>Additional parameters for the Pool_ListPoolUsageMetrics operation. </p>
   syntax:
     content: public class PoolListPoolUsageMetricsOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions,final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetricsAsync(final PoolListPoolUsageMetricsOptions poolListPoolUsageMetricsOptions, final ListOperationCallback< PoolUsageMetrics > serviceCallback)
@@ -3473,7 +3473,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._pool_statisticsb33c76fccom.microsoft.azure.batch.protocol.models._pool_get_all_pools_lifetime_statistics_headers9ec3e006
       description: <p>the PoolStatistics object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: getAllPoolsLifetimeStatisticsAsync(final ServiceCallback< PoolStatistics > serviceCallback)
@@ -3535,7 +3535,7 @@ references:
   summary: <p>Additional parameters for the Pool_GetAllPoolsLifetimeStatistics operation. </p>
   syntax:
     content: public class PoolGetAllPoolsLifetimeStatisticsOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions,final ServiceCallback< PoolStatistics >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: getAllPoolsLifetimeStatisticsAsync(PoolGetAllPoolsLifetimeStatisticsOptions poolGetAllPoolsLifetimeStatisticsOptions, final ServiceCallback< PoolStatistics > serviceCallback)
@@ -3594,7 +3594,7 @@ references:
   summary: <p>A pool in the <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Batch service to add. </p>
   syntax:
     content: public class PoolAddParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.addAsync(PoolAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.addAsync(PoolAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: addAsync(PoolAddParameter pool, final ServiceCallback< Void > serviceCallback)
@@ -3647,7 +3647,7 @@ references:
   summary: <p>Additional parameters for the Pool_Add operation. </p>
   syntax:
     content: public class PoolAddOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.addAsync(PoolAddParameter,PoolAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: addAsync(PoolAddParameter pool, PoolAddOptions poolAddOptions, final ServiceCallback< Void > serviceCallback)
@@ -3705,7 +3705,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_pool0506df69com.microsoft.azure.batch.protocol.models._pool_list_headers9ec3e006
       description: <p>the List&lt;CloudPool&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listAsync(final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listAsync(final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listAsync(final ListOperationCallback< CloudPool > serviceCallback)
@@ -3724,7 +3724,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_poold4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.list(final PoolListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.list(final PoolListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: list(final PoolListOptions poolListOptions)
@@ -3752,7 +3752,7 @@ references:
   summary: <p>Additional parameters for the Pool_List operation. </p>
   syntax:
     content: public class PoolListOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listAsync(final PoolListOptions,final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listAsync(final PoolListOptions poolListOptions, final ListOperationCallback< CloudPool > serviceCallback)
@@ -3802,7 +3802,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._pool_delete_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: deleteAsync(String poolId, final ServiceCallback< Void > serviceCallback)
@@ -3855,7 +3855,7 @@ references:
   summary: <p>Additional parameters for the Pool_Delete operation. </p>
   syntax:
     content: public class PoolDeleteOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.deleteAsync(String,PoolDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: deleteAsync(String poolId, PoolDeleteOptions poolDeleteOptions, final ServiceCallback< Void > serviceCallback)
@@ -3908,7 +3908,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersb2db9491com.microsoft.azure.batch.protocol.models._pool_exists_headers9ec3e006
       description: <p>the boolean object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.existsAsync(String,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.existsAsync(String,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: existsAsync(String poolId, final ServiceCallback< Boolean > serviceCallback)
@@ -3961,7 +3961,7 @@ references:
   summary: <p>Additional parameters for the Pool_Exists operation. </p>
   syntax:
     content: public class PoolExistsOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.existsAsync(String,PoolExistsOptions,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: existsAsync(String poolId, PoolExistsOptions poolExistsOptions, final ServiceCallback< Boolean > serviceCallback)
@@ -4014,7 +4014,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._cloud_poolb33c76fccom.microsoft.azure.batch.protocol.models._pool_get_headers9ec3e006
       description: <p>the CloudPool object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.getAsync(String,final ServiceCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.getAsync(String,final ServiceCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: getAsync(String poolId, final ServiceCallback< CloudPool > serviceCallback)
@@ -4067,7 +4067,7 @@ references:
   summary: <p>Additional parameters for the Pool_Get operation. </p>
   syntax:
     content: public class PoolGetOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.getAsync(String,PoolGetOptions,final ServiceCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: getAsync(String poolId, PoolGetOptions poolGetOptions, final ServiceCallback< CloudPool > serviceCallback)
@@ -4132,7 +4132,7 @@ references:
   summary: <p>Parameters for a CloudPoolOperations.Patch request. </p>
   syntax:
     content: public class PoolPatchParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.patchAsync(String,PoolPatchParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: patchAsync(String poolId, PoolPatchParameter poolPatchParameter, final ServiceCallback< Void > serviceCallback)
@@ -4191,7 +4191,7 @@ references:
   summary: <p>Additional parameters for the Pool_Patch operation. </p>
   syntax:
     content: public class PoolPatchOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.patchAsync(String,PoolPatchParameter,PoolPatchOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: patchAsync(String poolId, PoolPatchParameter poolPatchParameter, PoolPatchOptions poolPatchOptions, final ServiceCallback< Void > serviceCallback)
@@ -4247,7 +4247,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._pool_disable_auto_scale_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.disableAutoScaleAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.disableAutoScaleAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: disableAutoScaleAsync(String poolId, final ServiceCallback< Void > serviceCallback)
@@ -4300,7 +4300,7 @@ references:
   summary: <p>Additional parameters for the Pool_DisableAutoScale operation. </p>
   syntax:
     content: public class PoolDisableAutoScaleOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.disableAutoScaleAsync(String,PoolDisableAutoScaleOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: disableAutoScaleAsync(String poolId, PoolDisableAutoScaleOptions poolDisableAutoScaleOptions, final ServiceCallback< Void > serviceCallback)
@@ -4365,7 +4365,7 @@ references:
   summary: <p>Parameters for a CloudPoolOperations.EnableAutoScale request. </p>
   syntax:
     content: public class PoolEnableAutoScaleParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: enableAutoScaleAsync(String poolId, PoolEnableAutoScaleParameter poolEnableAutoScaleParameter, final ServiceCallback< Void > serviceCallback)
@@ -4424,7 +4424,7 @@ references:
   summary: <p>Additional parameters for the Pool_EnableAutoScale operation. </p>
   syntax:
     content: public class PoolEnableAutoScaleOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.enableAutoScaleAsync(String,PoolEnableAutoScaleParameter,PoolEnableAutoScaleOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: enableAutoScaleAsync(String poolId, PoolEnableAutoScaleParameter poolEnableAutoScaleParameter, PoolEnableAutoScaleOptions poolEnableAutoScaleOptions, final ServiceCallback< Void > serviceCallback)
@@ -4492,7 +4492,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._auto_scale_runb33c76fccom.microsoft.azure.batch.protocol.models._pool_evaluate_auto_scale_headers9ec3e006
       description: <p>the AutoScaleRun object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.evaluateAutoScaleAsync(String,String,final ServiceCallback< AutoScaleRun >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: evaluateAutoScaleAsync(String poolId, String autoScaleFormula, final ServiceCallback< AutoScaleRun > serviceCallback)
@@ -4551,7 +4551,7 @@ references:
   summary: <p>Additional parameters for the Pool_EvaluateAutoScale operation. </p>
   syntax:
     content: public class PoolEvaluateAutoScaleOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.evaluateAutoScaleAsync(String,String,PoolEvaluateAutoScaleOptions,final ServiceCallback< AutoScaleRun >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: evaluateAutoScaleAsync(String poolId, String autoScaleFormula, PoolEvaluateAutoScaleOptions poolEvaluateAutoScaleOptions, final ServiceCallback< AutoScaleRun > serviceCallback)
@@ -4619,7 +4619,7 @@ references:
   summary: <p>Parameters for a CloudPoolOperations.Resize request. </p>
   syntax:
     content: public class PoolResizeParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.resizeAsync(String,PoolResizeParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: resizeAsync(String poolId, PoolResizeParameter poolResizeParameter, final ServiceCallback< Void > serviceCallback)
@@ -4678,7 +4678,7 @@ references:
   summary: <p>Additional parameters for the Pool_Resize operation. </p>
   syntax:
     content: public class PoolResizeOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.resizeAsync(String,PoolResizeParameter,PoolResizeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: resizeAsync(String poolId, PoolResizeParameter poolResizeParameter, PoolResizeOptions poolResizeOptions, final ServiceCallback< Void > serviceCallback)
@@ -4734,7 +4734,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._pool_stop_resize_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.stopResizeAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.stopResizeAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: stopResizeAsync(String poolId, final ServiceCallback< Void > serviceCallback)
@@ -4787,7 +4787,7 @@ references:
   summary: <p>Additional parameters for the Pool_StopResize operation. </p>
   syntax:
     content: public class PoolStopResizeOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.stopResizeAsync(String,PoolStopResizeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: stopResizeAsync(String poolId, PoolStopResizeOptions poolStopResizeOptions, final ServiceCallback< Void > serviceCallback)
@@ -4852,7 +4852,7 @@ references:
   summary: <p>Parameters for a CloudPoolOperations.UpdateProperties request. </p>
   syntax:
     content: public class PoolUpdatePropertiesParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: updatePropertiesAsync(String poolId, PoolUpdatePropertiesParameter poolUpdatePropertiesParameter, final ServiceCallback< Void > serviceCallback)
@@ -4911,7 +4911,7 @@ references:
   summary: <p>Additional parameters for the Pool_UpdateProperties operation. </p>
   syntax:
     content: public class PoolUpdatePropertiesOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.updatePropertiesAsync(String,PoolUpdatePropertiesParameter,PoolUpdatePropertiesOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: updatePropertiesAsync(String poolId, PoolUpdatePropertiesParameter poolUpdatePropertiesParameter, PoolUpdatePropertiesOptions poolUpdatePropertiesOptions, final ServiceCallback< Void > serviceCallback)
@@ -4979,7 +4979,7 @@ references:
   summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public class Azure
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.upgradeOSAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.upgradeOSAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: upgradeOSAsync(String poolId, String targetOSVersion, final ServiceCallback< Void > serviceCallback)
@@ -5038,7 +5038,7 @@ references:
   summary: <p>Additional parameters for the Pool_UpgradeOS operation. </p>
   syntax:
     content: public class PoolUpgradeOSOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.upgradeOSAsync(String,String,PoolUpgradeOSOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: upgradeOSAsync(String poolId, String targetOSVersion, PoolUpgradeOSOptions poolUpgradeOSOptions, final ServiceCallback< Void > serviceCallback)
@@ -5106,7 +5106,7 @@ references:
   summary: <p>Parameters for a ComputeNodeOperations.Remove request. </p>
   syntax:
     content: public class NodeRemoveParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.removeNodesAsync(String,NodeRemoveParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: removeNodesAsync(String poolId, NodeRemoveParameter nodeRemoveParameter, final ServiceCallback< Void > serviceCallback)
@@ -5165,7 +5165,7 @@ references:
   summary: <p>Additional parameters for the Pool_RemoveNodes operation. </p>
   syntax:
     content: public class PoolRemoveNodesOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.removeNodesAsync(String,NodeRemoveParameter,PoolRemoveNodesOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: removeNodesAsync(String poolId, NodeRemoveParameter nodeRemoveParameter, PoolRemoveNodesOptions poolRemoveNodesOptions, final ServiceCallback< Void > serviceCallback)
@@ -5208,7 +5208,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNext(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetricsNext(final String nextPageLink)
@@ -5227,7 +5227,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._pool_usage_metrics0506df69com.microsoft.azure.batch.protocol.models._pool_list_pool_usage_metrics_headers9ec3e006
       description: <p>the List&lt;PoolUsageMetrics&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNextAsync(final String,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetricsNextAsync(final String nextPageLink, final ServiceCall< List< PoolUsageMetrics >> serviceCall, final ListOperationCallback< PoolUsageMetrics > serviceCallback)
@@ -5252,7 +5252,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._pool_usage_metricsd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNext(final String,final PoolListPoolUsageMetricsNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetricsNext(final String nextPageLink, final PoolListPoolUsageMetricsNextOptions poolListPoolUsageMetricsNextOptions)
@@ -5283,7 +5283,7 @@ references:
   summary: <p>Additional parameters for the ListPoolUsageMetricsNext operation. </p>
   syntax:
     content: public class PoolListPoolUsageMetricsNextOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listPoolUsageMetricsNextAsync(final String,final PoolListPoolUsageMetricsNextOptions,final ServiceCall< List< PoolUsageMetrics >>,final ListOperationCallback< PoolUsageMetrics >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listPoolUsageMetricsNextAsync(final String nextPageLink, final PoolListPoolUsageMetricsNextOptions poolListPoolUsageMetricsNextOptions, final ServiceCall< List< PoolUsageMetrics >> serviceCall, final ListOperationCallback< PoolUsageMetrics > serviceCallback)
@@ -5311,7 +5311,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._pool_usage_metricsd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listNext(final String nextPageLink)
@@ -5330,7 +5330,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_pool0506df69com.microsoft.azure.batch.protocol.models._pool_list_headers9ec3e006
       description: <p>the List&lt;CloudPool&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listNextAsync(final String,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< CloudPool >> serviceCall, final ListOperationCallback< CloudPool > serviceCallback)
@@ -5355,7 +5355,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_poold4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listNext(final String,final PoolListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listNext(final String,final PoolListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listNext(final String nextPageLink, final PoolListNextOptions poolListNextOptions)
@@ -5386,7 +5386,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class PoolListNextOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._pools_impl.listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
+- uid: com.microsoft.azure.batch.protocol.implementation._pools_impl.listNextAsync(final String,final PoolListNextOptions,final ServiceCall< List< CloudPool >>,final ListOperationCallback< CloudPool >)
   parent: com.microsoft.azure.batch.protocol.implementation._pools_impl
   href: com.microsoft.azure.batch.protocol.implementation._pools_impl.yml
   name: listNextAsync(final String nextPageLink, final PoolListNextOptions poolListNextOptions, final ServiceCall< List< CloudPool >> serviceCall, final ListOperationCallback< CloudPool > serviceCallback)

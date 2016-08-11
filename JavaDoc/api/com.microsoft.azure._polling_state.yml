@@ -10,13 +10,13 @@ items:
   - com.microsoft.azure._polling_state.getResource()
   - com.microsoft.azure._polling_state.getResponse()
   - com.microsoft.azure._polling_state.getStatus()
-  - classcom.microsoft.azure._polling_state.PollingState(Response< ResponseBody >,Integer,Type,JacksonMapperAdapter)
+  - com.microsoft.azure._polling_state.PollingState(Response< ResponseBody >,Integer,Type,JacksonMapperAdapter)
   - com.microsoft.azure._polling_state.setError(CloudError)
   - com.microsoft.azure._polling_state.setResource(T)
-  - classcom.microsoft.azure._polling_state.setResponse(Response< ResponseBody >)
+  - com.microsoft.azure._polling_state.setResponse(Response< ResponseBody >)
   - com.microsoft.azure._polling_state.setStatus(String)
-  - classcom.microsoft.azure._polling_state.updateFromResponseOnDeletePost(Response< ResponseBody >)
-  - classcom.microsoft.azure._polling_state.updateFromResponseOnPutPatch(Response< ResponseBody >)
+  - com.microsoft.azure._polling_state.updateFromResponseOnDeletePost(Response< ResponseBody >)
+  - com.microsoft.azure._polling_state.updateFromResponseOnPutPatch(Response< ResponseBody >)
   href: com.microsoft.azure._polling_state.yml
   langs:
   - java
@@ -203,7 +203,7 @@ items:
     return:
       type: "26831127"
       description: <p>the polling status. </p>
-- uid: classcom.microsoft.azure._polling_state.PollingState(Response< ResponseBody >,Integer,Type,JacksonMapperAdapter)
+- uid: com.microsoft.azure._polling_state.PollingState(Response< ResponseBody >,Integer,Type,JacksonMapperAdapter)
   id: PollingState(Response< ResponseBody >,Integer,Type,JacksonMapperAdapter)
   parent: com.microsoft.azure._polling_state
   href: com.microsoft.azure._polling_state.yml
@@ -287,7 +287,7 @@ items:
     - id: resource
       type: 8ce1ecb9
       description: <p>the resource. </p>
-- uid: classcom.microsoft.azure._polling_state.setResponse(Response< ResponseBody >)
+- uid: com.microsoft.azure._polling_state.setResponse(Response< ResponseBody >)
   id: setResponse(Response< ResponseBody >)
   parent: com.microsoft.azure._polling_state
   href: com.microsoft.azure._polling_state.yml
@@ -338,7 +338,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if status is null. </p>
-- uid: classcom.microsoft.azure._polling_state.updateFromResponseOnDeletePost(Response< ResponseBody >)
+- uid: com.microsoft.azure._polling_state.updateFromResponseOnDeletePost(Response< ResponseBody >)
   id: updateFromResponseOnDeletePost(Response< ResponseBody >)
   parent: com.microsoft.azure._polling_state
   href: com.microsoft.azure._polling_state.yml
@@ -365,7 +365,7 @@ items:
   exceptions:
   - type: cbf33bbe
     description: <p>thrown by deserialization </p>
-- uid: classcom.microsoft.azure._polling_state.updateFromResponseOnPutPatch(Response< ResponseBody >)
+- uid: com.microsoft.azure._polling_state.updateFromResponseOnPutPatch(Response< ResponseBody >)
   id: updateFromResponseOnPutPatch(Response< ResponseBody >)
   parent: com.microsoft.azure._polling_state
   href: com.microsoft.azure._polling_state.yml

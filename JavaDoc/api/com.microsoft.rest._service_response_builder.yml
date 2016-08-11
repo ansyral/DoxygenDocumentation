@@ -3,19 +3,19 @@ items:
   id: _service_response_builder
   parent: com.microsoft.rest
   children:
-  - classcom.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
+  - com.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
   - com.microsoft.rest._service_response_builder.buildBody(int,ResponseBody)
-  - classcom.microsoft.rest._service_response_builder.buildEmpty(Response< Void >)
-  - classcom.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
-  - classcom.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
+  - com.microsoft.rest._service_response_builder.buildEmpty(Response< Void >)
+  - com.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
+  - com.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
   - com.microsoft.rest._service_response_builder.exceptionType()
   - com.microsoft.rest._service_response_builder.mapperAdapter()
-  - classcom.microsoft.rest._service_response_builder.register(int,final Type)
-  - classcom.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
-  - classcom.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
+  - com.microsoft.rest._service_response_builder.register(int,final Type)
+  - com.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
+  - com.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
   - com.microsoft.rest._service_response_builder.responseTypes()
   - com.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter)
-  - classcom.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
+  - com.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
   href: com.microsoft.rest._service_response_builder.yml
   langs:
   - java
@@ -43,7 +43,7 @@ items:
       description: <p>the exception to throw in case of error. </p>
   inheritance:
   - java.lang.Object
-- uid: classcom.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
+- uid: com.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
   id: build(Response< ResponseBody >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -110,7 +110,7 @@ items:
   exceptions:
   - type: cbf33bbe
     description: <p>thrown for any deserialization errors </p>
-- uid: classcom.microsoft.rest._service_response_builder.buildEmpty(Response< Void >)
+- uid: com.microsoft.rest._service_response_builder.buildEmpty(Response< Void >)
   id: buildEmpty(Response< Void >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -144,7 +144,7 @@ items:
     description: <p>exceptions from the REST call </p>
   - type: cbf33bbe
     description: <p>exceptions from deserialization </p>
-- uid: classcom.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
+- uid: com.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
   id: buildEmptyWithHeaders(Response< Void >,Class< THeader >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -181,7 +181,7 @@ items:
     description: <p>exceptions from the REST call </p>
   - type: cbf33bbe
     description: <p>exceptions from deserialization </p>
-- uid: classcom.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
+- uid: com.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
   id: buildWithHeaders(Response< ResponseBody >,Class< THeader >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -256,7 +256,7 @@ items:
     content: protected JacksonMapperAdapter mapperAdapter
     return:
       type: com.microsoft.rest.serializer._jackson_mapper_adapter
-- uid: classcom.microsoft.rest._service_response_builder.register(int,final Type)
+- uid: com.microsoft.rest._service_response_builder.register(int,final Type)
   id: register(int,final Type)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -286,7 +286,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_builderc95ff18c
       description: <p>the same builder instance. </p>
-- uid: classcom.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
+- uid: com.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
   id: registerAll(Map< Integer, Type >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -313,7 +313,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_builderc95ff18c
       description: <p>the same builder instance. </p>
-- uid: classcom.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
+- uid: com.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
   id: registerError(final Class<?extends RestException >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
@@ -383,7 +383,7 @@ items:
     - id: mapperAdapter
       type: com.microsoft.rest.serializer._jackson_mapper_adapter
       description: <p>the serialization utils to use for deserialization operations </p>
-- uid: classcom.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
+- uid: com.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
   id: ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml

@@ -4,7 +4,7 @@ items:
   parent: com.microsoft.azure.management.compute
   children:
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withExistingPrimaryNetwork(Network)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(String)
   href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.yml
   langs:
@@ -25,7 +25,7 @@ items:
     content: public interface WithNetwork extends VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface
   inheritedMembers:
   - com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withExistingPrimaryNetworkInterface(NetworkInterface)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
 - uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withExistingPrimaryNetwork(Network)
   id: withExistingPrimaryNetwork(Network)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network
@@ -53,7 +53,7 @@ items:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_subnet
       description: <p>the next stage of the virtual machine definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
   id: withNewPrimaryNetwork(Creatable< Network >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network
   href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.yml
@@ -147,7 +147,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s
       description: <p>The next stage of the virtual machine definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb
   href: com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.yml
   name: withNewPrimaryNetworkInterface(Creatable< NetworkInterface > creatable)

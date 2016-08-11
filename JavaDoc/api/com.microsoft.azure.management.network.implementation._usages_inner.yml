@@ -3,10 +3,10 @@ items:
   id: _usages_inner
   parent: com.microsoft.azure.management.network.implementation
   children:
-  - classcom.microsoft.azure.management.network.implementation._usages_inner.list(final String)
-  - classcom.microsoft.azure.management.network.implementation._usages_inner.listAsync(final String,final ListOperationCallback< UsageInner >)
-  - classcom.microsoft.azure.management.network.implementation._usages_inner.listNext(final String)
-  - classcom.microsoft.azure.management.network.implementation._usages_inner.listNextAsync(final String,final ServiceCall< List< UsageInner >>,final ListOperationCallback< UsageInner >)
+  - com.microsoft.azure.management.network.implementation._usages_inner.list(final String)
+  - com.microsoft.azure.management.network.implementation._usages_inner.listAsync(final String,final ListOperationCallback< UsageInner >)
+  - com.microsoft.azure.management.network.implementation._usages_inner.listNext(final String)
+  - com.microsoft.azure.management.network.implementation._usages_inner.listNextAsync(final String,final ServiceCall< List< UsageInner >>,final ListOperationCallback< UsageInner >)
   - com.microsoft.azure.management.network.implementation._usages_inner.UsagesInner(Retrofit,NetworkManagementClientImpl)
   href: com.microsoft.azure.management.network.implementation._usages_inner.yml
   langs:
@@ -27,7 +27,7 @@ items:
     content: public class UsagesInner
   inheritance:
   - java.lang.Object
-- uid: classcom.microsoft.azure.management.network.implementation._usages_inner.list(final String)
+- uid: com.microsoft.azure.management.network.implementation._usages_inner.list(final String)
   id: list(final String)
   parent: com.microsoft.azure.management.network.implementation._usages_inner
   href: com.microsoft.azure.management.network.implementation._usages_inner.yml
@@ -61,7 +61,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.network.implementation._usages_inner.listAsync(final String,final ListOperationCallback< UsageInner >)
+- uid: com.microsoft.azure.management.network.implementation._usages_inner.listAsync(final String,final ListOperationCallback< UsageInner >)
   id: listAsync(final String,final ListOperationCallback< UsageInner >)
   parent: com.microsoft.azure.management.network.implementation._usages_inner
   href: com.microsoft.azure.management.network.implementation._usages_inner.yml
@@ -91,7 +91,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.network.implementation._usage_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.network.implementation._usages_inner.listNext(final String)
+- uid: com.microsoft.azure.management.network.implementation._usages_inner.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.management.network.implementation._usages_inner
   href: com.microsoft.azure.management.network.implementation._usages_inner.yml
@@ -125,7 +125,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.network.implementation._usages_inner.listNextAsync(final String,final ServiceCall< List< UsageInner >>,final ListOperationCallback< UsageInner >)
+- uid: com.microsoft.azure.management.network.implementation._usages_inner.listNextAsync(final String,final ServiceCall< List< UsageInner >>,final ListOperationCallback< UsageInner >)
   id: listNextAsync(final String,final ServiceCall< List< UsageInner >>,final ListOperationCallback< UsageInner >)
   parent: com.microsoft.azure.management.network.implementation._usages_inner
   href: com.microsoft.azure.management.network.implementation._usages_inner.yml

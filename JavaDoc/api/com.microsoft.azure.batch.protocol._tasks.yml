@@ -5,40 +5,40 @@ items:
   children:
   - com.microsoft.azure.batch.protocol._tasks.add(String,TaskAddParameter)
   - com.microsoft.azure.batch.protocol._tasks.add(String,TaskAddParameter,TaskAddOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
+  - com.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >)
+  - com.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
+  - com.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
+  - com.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
   - com.microsoft.azure.batch.protocol._tasks.delete(String,String)
   - com.microsoft.azure.batch.protocol._tasks.delete(String,String,TaskDeleteOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._tasks.get(String,String)
   - com.microsoft.azure.batch.protocol._tasks.get(String,String,TaskGetOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.getAsync(String,String,final ServiceCallback< CloudTask >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.list(final String)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.list(final String,final TaskListOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listAsync(final String,final ListOperationCallback< CloudTask >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listNext(final String)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listNext(final String,final TaskListNextOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
+  - com.microsoft.azure.batch.protocol._tasks.getAsync(String,String,final ServiceCallback< CloudTask >)
+  - com.microsoft.azure.batch.protocol._tasks.getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
+  - com.microsoft.azure.batch.protocol._tasks.list(final String)
+  - com.microsoft.azure.batch.protocol._tasks.list(final String,final TaskListOptions)
+  - com.microsoft.azure.batch.protocol._tasks.listAsync(final String,final ListOperationCallback< CloudTask >)
+  - com.microsoft.azure.batch.protocol._tasks.listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
+  - com.microsoft.azure.batch.protocol._tasks.listNext(final String)
+  - com.microsoft.azure.batch.protocol._tasks.listNext(final String,final TaskListNextOptions)
+  - com.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
+  - com.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   - com.microsoft.azure.batch.protocol._tasks.listSubtasks(String,String)
   - com.microsoft.azure.batch.protocol._tasks.listSubtasks(String,String,TaskListSubtasksOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
+  - com.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
+  - com.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
   - com.microsoft.azure.batch.protocol._tasks.terminate(String,String)
   - com.microsoft.azure.batch.protocol._tasks.terminate(String,String,TaskTerminateOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._tasks.update(String,String)
   - com.microsoft.azure.batch.protocol._tasks.update(String,String,TaskConstraints,TaskUpdateOptions)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
   href: com.microsoft.azure.batch.protocol._tasks.yml
   langs:
   - java
@@ -133,7 +133,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
   id: addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -169,7 +169,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
   id: addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -208,7 +208,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >)
+- uid: com.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >)
   id: addCollection(String,List< TaskAddParameter >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -245,7 +245,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
+- uid: com.microsoft.azure.batch.protocol._tasks.addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
   id: addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -285,7 +285,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
+- uid: com.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
   id: addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -321,7 +321,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
+- uid: com.microsoft.azure.batch.protocol._tasks.addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
   id: addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -437,7 +437,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,final ServiceCallback< Void >)
   id: deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -473,7 +473,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
   id: deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -589,7 +589,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.getAsync(String,String,final ServiceCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol._tasks.getAsync(String,String,final ServiceCallback< CloudTask >)
   id: getAsync(String,String,final ServiceCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -625,7 +625,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol._tasks.getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
   id: getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -664,7 +664,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.list(final String)
+- uid: com.microsoft.azure.batch.protocol._tasks.list(final String)
   id: list(final String)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -698,7 +698,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.list(final String,final TaskListOptions)
+- uid: com.microsoft.azure.batch.protocol._tasks.list(final String,final TaskListOptions)
   id: list(final String,final TaskListOptions)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -735,7 +735,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listAsync(final String,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol._tasks.listAsync(final String,final ListOperationCallback< CloudTask >)
   id: listAsync(final String,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -768,7 +768,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol._tasks.listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
   id: listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -804,7 +804,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._tasks.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -838,7 +838,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listNext(final String,final TaskListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._tasks.listNext(final String,final TaskListNextOptions)
   id: listNext(final String,final TaskListNextOptions)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -875,7 +875,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   id: listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -911,7 +911,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol._tasks.listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   id: listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1027,7 +1027,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
+- uid: com.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
   id: listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1063,7 +1063,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
+- uid: com.microsoft.azure.batch.protocol._tasks.listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
   id: listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1179,7 +1179,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,final ServiceCallback< Void >)
   id: terminateAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1215,7 +1215,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
   id: terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1334,7 +1334,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,final ServiceCallback< Void >)
   id: updateAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1370,7 +1370,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._tasks.updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
   id: updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._tasks
   href: com.microsoft.azure.batch.protocol._tasks.yml
@@ -1871,7 +1871,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.addAsync(String,TaskAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: addAsync(String jobId, TaskAddParameter task, final ServiceCallback< Void > serviceCallback)
@@ -1945,7 +1945,7 @@ references:
   summary: <p>Additional parameters for the Task_Add operation. </p>
   syntax:
     content: public class TaskAddOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.addAsync(String,TaskAddParameter,TaskAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: addAsync(String jobId, TaskAddParameter task, TaskAddOptions taskAddOptions, final ServiceCallback< Void > serviceCallback)
@@ -2006,7 +2006,7 @@ references:
   summary: <p>Defines headers for List operation. </p>
   syntax:
     content: public class TaskListHeaders
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.list(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.list(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: list(final String jobId)
@@ -2025,7 +2025,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_task0506df69com.microsoft.azure.batch.protocol.models._task_list_headers9ec3e006
       description: <p>the List&lt;CloudTask&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listAsync(final String,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listAsync(final String,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listAsync(final String jobId, final ListOperationCallback< CloudTask > serviceCallback)
@@ -2062,7 +2062,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.list(final String,final TaskListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.list(final String,final TaskListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: list(final String jobId, final TaskListOptions taskListOptions)
@@ -2093,7 +2093,7 @@ references:
   summary: <p>Additional parameters for the Task_List operation. </p>
   syntax:
     content: public class TaskListOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listAsync(final String,final TaskListOptions,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listAsync(final String jobId, final TaskListOptions taskListOptions, final ListOperationCallback< CloudTask > serviceCallback)
@@ -2136,7 +2136,7 @@ references:
   summary: <p>Defines headers for AddCollection operation. </p>
   syntax:
     content: public class TaskAddCollectionHeaders
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollection(String,List< TaskAddParameter >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollection(String,List< TaskAddParameter >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: addCollection(String jobId, List< TaskAddParameter > value)
@@ -2158,7 +2158,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._task_add_collection_resultb33c76fccom.microsoft.azure.batch.protocol.models._task_add_collection_headers9ec3e006
       description: <p>the TaskAddCollectionResult object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollectionAsync(String,List< TaskAddParameter >,final ServiceCallback< TaskAddCollectionResult >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: addCollectionAsync(String jobId, List< TaskAddParameter > value, final ServiceCallback< TaskAddCollectionResult > serviceCallback)
@@ -2183,7 +2183,7 @@ references:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._task_add_collection_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollection(String,List< TaskAddParameter >,TaskAddCollectionOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: addCollection(String jobId, List< TaskAddParameter > value, TaskAddCollectionOptions taskAddCollectionOptions)
@@ -2217,7 +2217,7 @@ references:
   summary: <p>Additional parameters for the Task_AddCollection operation. </p>
   syntax:
     content: public class TaskAddCollectionOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.addCollectionAsync(String,List< TaskAddParameter >,TaskAddCollectionOptions,final ServiceCallback< TaskAddCollectionResult >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: addCollectionAsync(String jobId, List< TaskAddParameter > value, TaskAddCollectionOptions taskAddCollectionOptions, final ServiceCallback< TaskAddCollectionResult > serviceCallback)
@@ -2276,7 +2276,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._task_delete_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.deleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: deleteAsync(String jobId, String taskId, final ServiceCallback< Void > serviceCallback)
@@ -2335,7 +2335,7 @@ references:
   summary: <p>Additional parameters for the Task_Delete operation. </p>
   syntax:
     content: public class TaskDeleteOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.deleteAsync(String,String,TaskDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: deleteAsync(String jobId, String taskId, TaskDeleteOptions taskDeleteOptions, final ServiceCallback< Void > serviceCallback)
@@ -2394,7 +2394,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._cloud_taskb33c76fccom.microsoft.azure.batch.protocol.models._task_get_headers9ec3e006
       description: <p>the CloudTask object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.getAsync(String,String,final ServiceCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.getAsync(String,String,final ServiceCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: getAsync(String jobId, String taskId, final ServiceCallback< CloudTask > serviceCallback)
@@ -2453,7 +2453,7 @@ references:
   summary: <p>Additional parameters for the Task_Get operation. </p>
   syntax:
     content: public class TaskGetOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.getAsync(String,String,TaskGetOptions,final ServiceCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: getAsync(String jobId, String taskId, TaskGetOptions taskGetOptions, final ServiceCallback< CloudTask > serviceCallback)
@@ -2512,7 +2512,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._task_update_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.updateAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.updateAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: updateAsync(String jobId, String taskId, final ServiceCallback< Void > serviceCallback)
@@ -2583,7 +2583,7 @@ references:
   summary: <p>Additional parameters for the Task_Update operation. </p>
   syntax:
     content: public class TaskUpdateOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.updateAsync(String,String,TaskConstraints,TaskUpdateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: updateAsync(String jobId, String taskId, TaskConstraints constraints, TaskUpdateOptions taskUpdateOptions, final ServiceCallback< Void > serviceCallback)
@@ -2654,7 +2654,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._cloud_task_list_subtasks_resultb33c76fccom.microsoft.azure.batch.protocol.models._task_list_subtasks_headers9ec3e006
       description: <p>the CloudTaskListSubtasksResult object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listSubtasksAsync(String,String,final ServiceCallback< CloudTaskListSubtasksResult >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listSubtasksAsync(String jobId, String taskId, final ServiceCallback< CloudTaskListSubtasksResult > serviceCallback)
@@ -2713,7 +2713,7 @@ references:
   summary: <p>Additional parameters for the Task_ListSubtasks operation. </p>
   syntax:
     content: public class TaskListSubtasksOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listSubtasksAsync(String,String,TaskListSubtasksOptions,final ServiceCallback< CloudTaskListSubtasksResult >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listSubtasksAsync(String jobId, String taskId, TaskListSubtasksOptions taskListSubtasksOptions, final ServiceCallback< CloudTaskListSubtasksResult > serviceCallback)
@@ -2772,7 +2772,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._task_terminate_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.terminateAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.terminateAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: terminateAsync(String jobId, String taskId, final ServiceCallback< Void > serviceCallback)
@@ -2831,7 +2831,7 @@ references:
   summary: <p>Additional parameters for the Task_Terminate operation. </p>
   syntax:
     content: public class TaskTerminateOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.terminateAsync(String,String,TaskTerminateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: terminateAsync(String jobId, String taskId, TaskTerminateOptions taskTerminateOptions, final ServiceCallback< Void > serviceCallback)
@@ -2874,7 +2874,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listNext(final String nextPageLink)
@@ -2893,7 +2893,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_task0506df69com.microsoft.azure.batch.protocol.models._task_list_headers9ec3e006
       description: <p>the List&lt;CloudTask&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listNextAsync(final String,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< CloudTask >> serviceCall, final ListOperationCallback< CloudTask > serviceCallback)
@@ -2918,7 +2918,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_taskd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listNext(final String,final TaskListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listNext(final String,final TaskListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listNext(final String nextPageLink, final TaskListNextOptions taskListNextOptions)
@@ -2949,7 +2949,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class TaskListNextOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._tasks_impl.listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
+- uid: com.microsoft.azure.batch.protocol.implementation._tasks_impl.listNextAsync(final String,final TaskListNextOptions,final ServiceCall< List< CloudTask >>,final ListOperationCallback< CloudTask >)
   parent: com.microsoft.azure.batch.protocol.implementation._tasks_impl
   href: com.microsoft.azure.batch.protocol.implementation._tasks_impl.yml
   name: listNextAsync(final String nextPageLink, final TaskListNextOptions taskListNextOptions, final ServiceCall< List< CloudTask >> serviceCall, final ListOperationCallback< CloudTask > serviceCallback)

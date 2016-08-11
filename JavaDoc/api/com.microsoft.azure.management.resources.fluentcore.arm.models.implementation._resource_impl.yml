@@ -15,7 +15,7 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withRegion(Region)
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withRegion(String)
   - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withTag(String,String)
-  - classcom.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withTags(Map< String, String >)
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withTags(Map< String, String >)
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
   langs:
   - java
@@ -58,11 +58,11 @@ items:
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl
   inheritedMembers:
-  - classcom.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.addCreatableDependency(Creatable<?extends ResourceT >)
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.addCreatableDependency(Creatable<?extends ResourceT >)
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.CreatableImpl(String,InnerModelT)
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_updatable_impl.CreatableUpdatableImpl(String,InnerModelT)
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.create()
-  - classcom.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createAsync(ServiceCallback< FluentModelT >)
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createAsync(ServiceCallback< FluentModelT >)
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createdResource(String)
   - com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.creatorTaskGroup()
   - com.microsoft.azure.management.resources.fluentcore.model._indexable.key()
@@ -329,7 +329,7 @@ items:
     return:
       type: 9406c15b
       description: <p>the next stage of the resource definition/update </p>
-- uid: classcom.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withTags(Map< String, String >)
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.withTags(Map< String, String >)
   id: withTags(Map< String, String >)
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.implementation._resource_impl.yml
@@ -382,7 +382,7 @@ references:
   spec.java:
   - name: final FluentModelImplT
     fullName: final FluentModelImplT
-- uid: classcom.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.addCreatableDependency(Creatable<?extends ResourceT >)
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.addCreatableDependency(Creatable<?extends ResourceT >)
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
   name: addCreatableDependency(Creatable<?extends ResourceT > creatableResource)
@@ -439,14 +439,14 @@ references:
     return:
       type: 664a96a9
       description: <p>the created resource </p>
-- uid: classcom.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createAsync(ServiceCallback< FluentModelT >)
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createAsync(ServiceCallback< FluentModelT >)
   parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl
   href: com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.yml
   name: createAsync(ServiceCallback< FluentModelT > callback)
   fullName: ServiceCall<FluentModelT> com.microsoft.azure.management.resources.fluentcore.model.implementation.CreatableImpl< FluentModelT extends ResourceT, InnerModelT, FluentModelImplT, ResourceT >.createAsync(ServiceCallback< FluentModelT > callback)
   type: Method
   summary: >-
-    <p>Default implementation of <xref href="classcom.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createAsync(ServiceCallback&lt; FluentModelT &gt;)" data-throw-if-not-resolved="false"></xref>.</p>
+    <p>Default implementation of <xref href="com.microsoft.azure.management.resources.fluentcore.model.implementation._creatable_impl.createAsync(ServiceCallback&lt; FluentModelT &gt;)" data-throw-if-not-resolved="false"></xref>.</p>
 
     <p></p>
   syntax:

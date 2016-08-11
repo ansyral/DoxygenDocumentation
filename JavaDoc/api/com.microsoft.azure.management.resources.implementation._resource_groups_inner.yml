@@ -4,31 +4,31 @@ items:
   parent: com.microsoft.azure.management.resources.implementation
   children:
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.beginDelete(String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.beginDeleteAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.beginDeleteAsync(String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.checkExistence(String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.checkExistenceAsync(String,final ServiceCallback< Boolean >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.checkExistenceAsync(String,final ServiceCallback< Boolean >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.createOrUpdate(String,ResourceGroupInner)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.createOrUpdateAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.createOrUpdateAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.delete(String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.deleteAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.deleteAsync(String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.exportTemplate(String,ExportTemplateRequestInner)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.exportTemplateAsync(String,ExportTemplateRequestInner,final ServiceCallback< ResourceGroupExportResultInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.exportTemplateAsync(String,ExportTemplateRequestInner,final ServiceCallback< ResourceGroupExportResultInner >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.get(String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.getAsync(String,final ServiceCallback< ResourceGroupInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.getAsync(String,final ServiceCallback< ResourceGroupInner >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.list()
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.list(final String,final Integer)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final ListOperationCallback< ResourceGroupInner >)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final String,final Integer,final ListOperationCallback< ResourceGroupInner >)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listNext(final String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listNextAsync(final String,final ServiceCall< List< ResourceGroupInner >>,final ListOperationCallback< ResourceGroupInner >)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String,final String,final String,final Integer)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final ListOperationCallback< GenericResourceInner >)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final String,final String,final Integer,final ListOperationCallback< GenericResourceInner >)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNext(final String)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNextAsync(final String,final ServiceCall< List< GenericResourceInner >>,final ListOperationCallback< GenericResourceInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.list(final String,final Integer)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final ListOperationCallback< ResourceGroupInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final String,final Integer,final ListOperationCallback< ResourceGroupInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listNext(final String)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listNextAsync(final String,final ServiceCall< List< ResourceGroupInner >>,final ListOperationCallback< ResourceGroupInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String,final String,final String,final Integer)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final ListOperationCallback< GenericResourceInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final String,final String,final Integer,final ListOperationCallback< GenericResourceInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNext(final String)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNextAsync(final String,final ServiceCall< List< GenericResourceInner >>,final ListOperationCallback< GenericResourceInner >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.patch(String,ResourceGroupInner)
-  - classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.patchAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
+  - com.microsoft.azure.management.resources.implementation._resource_groups_inner.patchAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
   - com.microsoft.azure.management.resources.implementation._resource_groups_inner.ResourceGroupsInner(Retrofit,ResourceManagementClientImpl)
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
   langs:
@@ -83,7 +83,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.beginDeleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.beginDeleteAsync(String,final ServiceCallback< Void >)
   id: beginDeleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -147,7 +147,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.checkExistenceAsync(String,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.checkExistenceAsync(String,final ServiceCallback< Boolean >)
   id: checkExistenceAsync(String,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -214,7 +214,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.createOrUpdateAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.createOrUpdateAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
   id: createOrUpdateAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -283,7 +283,7 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.deleteAsync(String,final ServiceCallback< Void >)
   id: deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -350,7 +350,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.exportTemplateAsync(String,ExportTemplateRequestInner,final ServiceCallback< ResourceGroupExportResultInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.exportTemplateAsync(String,ExportTemplateRequestInner,final ServiceCallback< ResourceGroupExportResultInner >)
   id: exportTemplateAsync(String,ExportTemplateRequestInner,final ServiceCallback< ResourceGroupExportResultInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -417,7 +417,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.getAsync(String,final ServiceCallback< ResourceGroupInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.getAsync(String,final ServiceCallback< ResourceGroupInner >)
   id: getAsync(String,final ServiceCallback< ResourceGroupInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -477,7 +477,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.list(final String,final Integer)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.list(final String,final Integer)
   id: list(final String,final Integer)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -514,7 +514,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final ListOperationCallback< ResourceGroupInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final ListOperationCallback< ResourceGroupInner >)
   id: listAsync(final ListOperationCallback< ResourceGroupInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -541,7 +541,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.resources.implementation._resource_group_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final String,final Integer,final ListOperationCallback< ResourceGroupInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listAsync(final String,final Integer,final ListOperationCallback< ResourceGroupInner >)
   id: listAsync(final String,final Integer,final ListOperationCallback< ResourceGroupInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -574,7 +574,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.resources.implementation._resource_group_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listNext(final String)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -608,7 +608,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listNextAsync(final String,final ServiceCall< List< ResourceGroupInner >>,final ListOperationCallback< ResourceGroupInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listNextAsync(final String,final ServiceCall< List< ResourceGroupInner >>,final ListOperationCallback< ResourceGroupInner >)
   id: listNextAsync(final String,final ServiceCall< List< ResourceGroupInner >>,final ListOperationCallback< ResourceGroupInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -641,7 +641,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.resources.implementation._resource_group_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String)
   id: listResources(final String)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -675,7 +675,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String,final String,final String,final Integer)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResources(final String,final String,final String,final Integer)
   id: listResources(final String,final String,final String,final Integer)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -718,7 +718,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final ListOperationCallback< GenericResourceInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final ListOperationCallback< GenericResourceInner >)
   id: listResourcesAsync(final String,final ListOperationCallback< GenericResourceInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -748,7 +748,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.resources.implementation._generic_resource_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final String,final String,final Integer,final ListOperationCallback< GenericResourceInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesAsync(final String,final String,final String,final Integer,final ListOperationCallback< GenericResourceInner >)
   id: listResourcesAsync(final String,final String,final String,final Integer,final ListOperationCallback< GenericResourceInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -787,7 +787,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.resources.implementation._generic_resource_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNext(final String)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNext(final String)
   id: listResourcesNext(final String)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -821,7 +821,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNextAsync(final String,final ServiceCall< List< GenericResourceInner >>,final ListOperationCallback< GenericResourceInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.listResourcesNextAsync(final String,final ServiceCall< List< GenericResourceInner >>,final ListOperationCallback< GenericResourceInner >)
   id: listResourcesNextAsync(final String,final ServiceCall< List< GenericResourceInner >>,final ListOperationCallback< GenericResourceInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml
@@ -893,7 +893,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.resources.implementation._resource_groups_inner.patchAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
+- uid: com.microsoft.azure.management.resources.implementation._resource_groups_inner.patchAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
   id: patchAsync(String,ResourceGroupInner,final ServiceCallback< ResourceGroupInner >)
   parent: com.microsoft.azure.management.resources.implementation._resource_groups_inner
   href: com.microsoft.azure.management.resources.implementation._resource_groups_inner.yml

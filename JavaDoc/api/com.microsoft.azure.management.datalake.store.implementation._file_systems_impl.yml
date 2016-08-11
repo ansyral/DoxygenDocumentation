@@ -5,63 +5,63 @@ items:
   children:
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.append(String,String,byte[])
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.append(String,String,byte[],Long)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccess(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccess(String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concat(String,String,List< String >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concat(String,String,List< String >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppend(String,String,byte[])
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppend(String,String,byte[],AppendModeType)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.create(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.create(String,String,byte[],Boolean)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.delete(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.delete(String,String,Boolean)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.FileSystemsImpl(Retrofit,DataLakeStoreFileSystemManagementClientImpl)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getAclStatus(String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getContentSummary(String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getFileStatus(String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatus(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatus(String,String,Integer,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.mkdirs(String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.modifyAclEntries(String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcat(String,String,byte[])
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcat(String,String,byte[],Boolean)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.open(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.open(String,String,Long,Long)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,final ServiceCallback< InputStream >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.removeAclEntries(String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.rename(String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setAcl(String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setAclAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setAclAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwner(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwner(String,String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermission(String,String)
   - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermission(String,String,String)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
   langs:
   - java
@@ -167,7 +167,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],final ServiceCallback< Void >)
   id: appendAsync(String,String,byte[],final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -203,8 +203,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
   id: appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -243,7 +243,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccess(String,String)
   id: checkAccess(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -323,7 +323,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,final ServiceCallback< Void >)
   id: checkAccessAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -356,8 +356,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
   id: checkAccessAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -393,8 +393,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concat(String,String,List< String >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concat(String,String,List< String >)
   id: concat(String,String,List< String >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -427,7 +427,7 @@ items:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.concat(String,String,List< String >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.concat(String,String,List< String >)
   exceptions:
   - type: "24876076"
     description: <p>exception thrown from REST call </p>
@@ -435,7 +435,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
   id: concatAsync(String,String,List< String >,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -471,7 +471,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppend(String,String,byte[])
   id: concurrentAppend(String,String,byte[])
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -557,7 +557,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
   id: concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -596,8 +596,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
   id: concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -633,7 +633,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.create(String,String)
   id: create(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -716,7 +716,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
   id: createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -755,8 +755,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.createAsync(String,String,final ServiceCallback< Void >)
   id: createAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -789,7 +789,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.delete(String,String)
   id: delete(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -869,7 +869,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
   id: deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -905,8 +905,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
   id: deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -939,7 +939,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.FileSystemsImpl(Retrofit,DataLakeStoreFileSystemManagementClientImpl)
   id: FileSystemsImpl(Retrofit,DataLakeStoreFileSystemManagementClientImpl)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1005,7 +1005,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
   id: getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1038,7 +1038,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._acl_status_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getContentSummary(String,String)
   id: getContentSummary(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1077,7 +1077,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
   id: getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1110,7 +1110,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._content_summary_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getFileStatus(String,String)
   id: getFileStatus(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1149,7 +1149,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
   id: getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1182,7 +1182,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_status_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatus(String,String)
   id: listFileStatus(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1268,7 +1268,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
   id: listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1301,8 +1301,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_statuses_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
   id: listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1344,7 +1344,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_statuses_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.mkdirs(String,String)
   id: mkdirs(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1383,7 +1383,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
   id: mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1416,7 +1416,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.modifyAclEntries(String,String,String)
   id: modifyAclEntries(String,String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1458,7 +1458,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   id: modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1494,7 +1494,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcat(String,String,byte[])
   id: msConcat(String,String,byte[])
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1580,7 +1580,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
   id: msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1619,8 +1619,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
   id: msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1656,7 +1656,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.open(String,String)
   id: open(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1739,7 +1739,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,final ServiceCallback< InputStream >)
   id: openAsync(String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1772,8 +1772,8 @@ items:
     return:
       type: com.microsoft.rest._service_call7f11b53f
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,final ServiceCallback< InputStream >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
   id: openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1812,7 +1812,7 @@ items:
     return:
       type: com.microsoft.rest._service_call7f11b53f
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.removeAclEntries(String,String,String)
   id: removeAclEntries(String,String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1854,7 +1854,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   id: removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1890,7 +1890,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.rename(String,String,String)
   id: rename(String,String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -1932,7 +1932,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
   id: renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -1968,7 +1968,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setAcl(String,String,String)
   id: setAcl(String,String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -2010,7 +2010,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setAclAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setAclAsync(String,String,String,final ServiceCallback< Void >)
   id: setAclAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -2046,7 +2046,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.setAclAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.setAclAsync(String,String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwner(String,String)
   id: setOwner(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -2129,7 +2129,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,final ServiceCallback< Void >)
   id: setOwnerAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -2162,8 +2162,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
   id: setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -2202,7 +2202,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermission(String,String)
   id: setPermission(String,String)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
@@ -2282,7 +2282,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,final ServiceCallback< Void >)
   id: setPermissionAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -2315,8 +2315,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
   id: setPermissionAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl
   href: com.microsoft.azure.management.datalake.store.implementation._file_systems_impl.yml
@@ -2352,7 +2352,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
 references:
 - uid: 964879b9
   spec.java:
@@ -2765,7 +2765,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: concurrentAppendAsync(String accountName, String filePath, byte[] streamContents, final ServiceCallback< Void > serviceCallback)
@@ -2845,7 +2845,7 @@ references:
   summary: <p>Defines values for <xref href="com.microsoft.azure.management.datalake.store.models._append_mode_type" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum AppendModeType
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.concurrentAppendAsync(String,String,byte[],AppendModeType,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: concurrentAppendAsync(String accountName, String filePath, byte[] streamContents, AppendModeType appendMode, final ServiceCallback< Void > serviceCallback)
@@ -2898,7 +2898,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: checkAccessAsync(String accountName, String path, final ServiceCallback< Void > serviceCallback)
@@ -2948,7 +2948,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.checkAccessAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: checkAccessAsync(String accountName, String path, String fsaction, final ServiceCallback< Void > serviceCallback)
@@ -3007,7 +3007,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the FileOperationResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.mkdirsAsync(String,String,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: mkdirsAsync(String accountName, String path, final ServiceCallback< FileOperationResult > serviceCallback)
@@ -3032,7 +3032,7 @@ references:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.concat(String,String,List< String >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.concat(String,String,List< String >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: concat(String accountName, String destinationPath, List< String > sources)
@@ -3057,7 +3057,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.concatAsync(String,String,List< String >,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: concatAsync(String accountName, String destinationPath, List< String > sources, final ServiceCallback< Void > serviceCallback)
@@ -3110,7 +3110,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: msConcatAsync(String accountName, String msConcatDestinationPath, byte[] streamContents, final ServiceCallback< Void > serviceCallback)
@@ -3166,7 +3166,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.msConcatAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: msConcatAsync(String accountName, String msConcatDestinationPath, byte[] streamContents, Boolean deleteSourceDirectory, final ServiceCallback< Void > serviceCallback)
@@ -3228,7 +3228,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_statuses_result9ec3e006
       description: <p>the FileStatusesResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,final ServiceCallback< FileStatusesResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: listFileStatusAsync(String accountName, String listFilePath, final ServiceCallback< FileStatusesResult > serviceCallback)
@@ -3284,7 +3284,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_statuses_result9ec3e006
       description: <p>the FileStatusesResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.listFileStatusAsync(String,String,Integer,String,String,final ServiceCallback< FileStatusesResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: listFileStatusAsync(String accountName, String listFilePath, Integer listSize, String listAfter, String listBefore, final ServiceCallback< FileStatusesResult > serviceCallback)
@@ -3349,7 +3349,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._content_summary_result9ec3e006
       description: <p>the ContentSummaryResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.getContentSummaryAsync(String,String,final ServiceCallback< ContentSummaryResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: getContentSummaryAsync(String accountName, String getContentSummaryFilePath, final ServiceCallback< ContentSummaryResult > serviceCallback)
@@ -3405,7 +3405,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_status_result9ec3e006
       description: <p>the FileStatusResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.getFileStatusAsync(String,String,final ServiceCallback< FileStatusResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: getFileStatusAsync(String accountName, String getFilePath, final ServiceCallback< FileStatusResult > serviceCallback)
@@ -3455,7 +3455,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: appendAsync(String accountName, String directFilePath, byte[] streamContents, final ServiceCallback< Void > serviceCallback)
@@ -3511,7 +3511,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.appendAsync(String,String,byte[],Long,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: appendAsync(String accountName, String directFilePath, byte[] streamContents, Long offset, final ServiceCallback< Void > serviceCallback)
@@ -3564,7 +3564,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: createAsync(String accountName, String directFilePath, final ServiceCallback< Void > serviceCallback)
@@ -3617,7 +3617,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.createAsync(String,String,byte[],Boolean,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: createAsync(String accountName, String directFilePath, byte[] streamContents, Boolean overwrite, final ServiceCallback< Void > serviceCallback)
@@ -3670,7 +3670,7 @@ references:
     return:
       type: com.microsoft.rest._service_response7f11b53f
       description: <p>the InputStream object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: openAsync(String accountName, String directFilePath, final ServiceCallback< InputStream > serviceCallback)
@@ -3723,7 +3723,7 @@ references:
     return:
       type: com.microsoft.rest._service_response7f11b53f
       description: <p>the InputStream object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.openAsync(String,String,Long,Long,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: openAsync(String accountName, String directFilePath, Long length, Long offset, final ServiceCallback< InputStream > serviceCallback)
@@ -3779,7 +3779,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.setAclAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.setAclAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: setAclAsync(String accountName, String setAclFilePath, String aclspec, final ServiceCallback< Void > serviceCallback)
@@ -3832,7 +3832,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.modifyAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: modifyAclEntriesAsync(String accountName, String modifyAclFilePath, String aclspec, final ServiceCallback< Void > serviceCallback)
@@ -3885,7 +3885,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.removeAclEntriesAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: removeAclEntriesAsync(String accountName, String removeAclFilePath, String aclspec, final ServiceCallback< Void > serviceCallback)
@@ -3944,7 +3944,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._acl_status_result9ec3e006
       description: <p>the AclStatusResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.getAclStatusAsync(String,String,final ServiceCallback< AclStatusResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: getAclStatusAsync(String accountName, String aclFilePath, final ServiceCallback< AclStatusResult > serviceCallback)
@@ -3991,7 +3991,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the FileOperationResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: deleteAsync(String accountName, String filePath, final ServiceCallback< FileOperationResult > serviceCallback)
@@ -4041,7 +4041,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the FileOperationResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.deleteAsync(String,String,Boolean,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: deleteAsync(String accountName, String filePath, Boolean recursive, final ServiceCallback< FileOperationResult > serviceCallback)
@@ -4094,7 +4094,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.store.models._file_operation_result9ec3e006
       description: <p>the FileOperationResult object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.renameAsync(String,String,String,final ServiceCallback< FileOperationResult >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: renameAsync(String accountName, String renameFilePath, String destination, final ServiceCallback< FileOperationResult > serviceCallback)
@@ -4144,7 +4144,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: setOwnerAsync(String accountName, String setOwnerFilePath, final ServiceCallback< Void > serviceCallback)
@@ -4197,7 +4197,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.setOwnerAsync(String,String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: setOwnerAsync(String accountName, String setOwnerFilePath, String owner, String group, final ServiceCallback< Void > serviceCallback)
@@ -4250,7 +4250,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: setPermissionAsync(String accountName, String setPermissionFilePath, final ServiceCallback< Void > serviceCallback)
@@ -4300,7 +4300,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.store._file_systems.setPermissionAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.store._file_systems
   href: com.microsoft.azure.management.datalake.store._file_systems.yml
   name: setPermissionAsync(String accountName, String setPermissionFilePath, String permission, final ServiceCallback< Void > serviceCallback)

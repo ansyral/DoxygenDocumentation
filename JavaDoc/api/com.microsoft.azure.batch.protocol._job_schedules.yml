@@ -5,48 +5,48 @@ items:
   children:
   - com.microsoft.azure.batch.protocol._job_schedules.add(JobScheduleAddParameter)
   - com.microsoft.azure.batch.protocol._job_schedules.add(JobScheduleAddParameter,JobScheduleAddOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._job_schedules.delete(String)
   - com.microsoft.azure.batch.protocol._job_schedules.delete(String,JobScheduleDeleteOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._job_schedules.disable(String)
   - com.microsoft.azure.batch.protocol._job_schedules.disable(String,JobScheduleDisableOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._job_schedules.enable(String)
   - com.microsoft.azure.batch.protocol._job_schedules.enable(String,JobScheduleEnableOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._job_schedules.exists(String)
   - com.microsoft.azure.batch.protocol._job_schedules.exists(String,JobScheduleExistsOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,final ServiceCallback< Boolean >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
+  - com.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,final ServiceCallback< Boolean >)
+  - com.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
   - com.microsoft.azure.batch.protocol._job_schedules.get(String)
   - com.microsoft.azure.batch.protocol._job_schedules.get(String,JobScheduleGetOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.getAsync(String,final ServiceCallback< CloudJobSchedule >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
+  - com.microsoft.azure.batch.protocol._job_schedules.getAsync(String,final ServiceCallback< CloudJobSchedule >)
+  - com.microsoft.azure.batch.protocol._job_schedules.getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
   - com.microsoft.azure.batch.protocol._job_schedules.list()
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.list(final JobScheduleListOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.listAsync(final ListOperationCallback< CloudJobSchedule >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.listNext(final String)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.listNext(final String,final JobScheduleListNextOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
+  - com.microsoft.azure.batch.protocol._job_schedules.list(final JobScheduleListOptions)
+  - com.microsoft.azure.batch.protocol._job_schedules.listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
+  - com.microsoft.azure.batch.protocol._job_schedules.listAsync(final ListOperationCallback< CloudJobSchedule >)
+  - com.microsoft.azure.batch.protocol._job_schedules.listNext(final String)
+  - com.microsoft.azure.batch.protocol._job_schedules.listNext(final String,final JobScheduleListNextOptions)
+  - com.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
+  - com.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   - com.microsoft.azure.batch.protocol._job_schedules.patch(String,JobSchedulePatchParameter)
   - com.microsoft.azure.batch.protocol._job_schedules.patch(String,JobSchedulePatchParameter,JobSchedulePatchOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._job_schedules.terminate(String)
   - com.microsoft.azure.batch.protocol._job_schedules.terminate(String,JobScheduleTerminateOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._job_schedules.update(String,JobScheduleUpdateParameter)
   - com.microsoft.azure.batch.protocol._job_schedules.update(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
   langs:
   - java
@@ -135,7 +135,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
   id: addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -168,7 +168,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
   id: addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -275,7 +275,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,final ServiceCallback< Void >)
   id: deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -308,7 +308,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
   id: deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -415,7 +415,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,final ServiceCallback< Void >)
   id: disableAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -448,7 +448,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
   id: disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -555,7 +555,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,final ServiceCallback< Void >)
   id: enableAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -588,7 +588,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
   id: enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -695,7 +695,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,final ServiceCallback< Boolean >)
   id: existsAsync(String,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -728,7 +728,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
   id: existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -835,7 +835,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.getAsync(String,final ServiceCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.getAsync(String,final ServiceCallback< CloudJobSchedule >)
   id: getAsync(String,final ServiceCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -868,7 +868,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
   id: getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -934,7 +934,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.list(final JobScheduleListOptions)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.list(final JobScheduleListOptions)
   id: list(final JobScheduleListOptions)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -968,7 +968,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
   id: listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1001,7 +1001,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.listAsync(final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.listAsync(final ListOperationCallback< CloudJobSchedule >)
   id: listAsync(final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1031,7 +1031,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1065,7 +1065,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.listNext(final String,final JobScheduleListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.listNext(final String,final JobScheduleListNextOptions)
   id: listNext(final String,final JobScheduleListNextOptions)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1102,7 +1102,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   id: listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1141,7 +1141,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   id: listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1254,7 +1254,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
   id: patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1290,7 +1290,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
   id: patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1400,7 +1400,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,final ServiceCallback< Void >)
   id: terminateAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1433,7 +1433,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
   id: terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1546,7 +1546,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
   id: updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -1582,7 +1582,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._job_schedules.updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
   id: updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._job_schedules
   href: com.microsoft.azure.batch.protocol._job_schedules.yml
@@ -2032,7 +2032,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.existsAsync(String,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.existsAsync(String,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: existsAsync(String jobScheduleId, final ServiceCallback< Boolean > serviceCallback)
@@ -2100,7 +2100,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Exists operation. </p>
   syntax:
     content: public class JobScheduleExistsOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.existsAsync(String,JobScheduleExistsOptions,final ServiceCallback< Boolean >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: existsAsync(String jobScheduleId, JobScheduleExistsOptions jobScheduleExistsOptions, final ServiceCallback< Boolean > serviceCallback)
@@ -2153,7 +2153,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_schedule_delete_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: deleteAsync(String jobScheduleId, final ServiceCallback< Void > serviceCallback)
@@ -2206,7 +2206,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Delete operation. </p>
   syntax:
     content: public class JobScheduleDeleteOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.deleteAsync(String,JobScheduleDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: deleteAsync(String jobScheduleId, JobScheduleDeleteOptions jobScheduleDeleteOptions, final ServiceCallback< Void > serviceCallback)
@@ -2268,7 +2268,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job_scheduleb33c76fccom.microsoft.azure.batch.protocol.models._job_schedule_get_headers9ec3e006
       description: <p>the CloudJobSchedule object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.getAsync(String,final ServiceCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.getAsync(String,final ServiceCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: getAsync(String jobScheduleId, final ServiceCallback< CloudJobSchedule > serviceCallback)
@@ -2321,7 +2321,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Get operation. </p>
   syntax:
     content: public class JobScheduleGetOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.getAsync(String,JobScheduleGetOptions,final ServiceCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: getAsync(String jobScheduleId, JobScheduleGetOptions jobScheduleGetOptions, final ServiceCallback< CloudJobSchedule > serviceCallback)
@@ -2386,7 +2386,7 @@ references:
   summary: <p>Parameters for a CloudJobScheduleOperations.Patch request. </p>
   syntax:
     content: public class JobSchedulePatchParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.patchAsync(String,JobSchedulePatchParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: patchAsync(String jobScheduleId, JobSchedulePatchParameter jobSchedulePatchParameter, final ServiceCallback< Void > serviceCallback)
@@ -2445,7 +2445,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Patch operation. </p>
   syntax:
     content: public class JobSchedulePatchOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.patchAsync(String,JobSchedulePatchParameter,JobSchedulePatchOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: patchAsync(String jobScheduleId, JobSchedulePatchParameter jobSchedulePatchParameter, JobSchedulePatchOptions jobSchedulePatchOptions, final ServiceCallback< Void > serviceCallback)
@@ -2513,7 +2513,7 @@ references:
   summary: <p>Parameters for a CloudJobScheduleOperations.Update request. </p>
   syntax:
     content: public class JobScheduleUpdateParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.updateAsync(String,JobScheduleUpdateParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: updateAsync(String jobScheduleId, JobScheduleUpdateParameter jobScheduleUpdateParameter, final ServiceCallback< Void > serviceCallback)
@@ -2572,7 +2572,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Update operation. </p>
   syntax:
     content: public class JobScheduleUpdateOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.updateAsync(String,JobScheduleUpdateParameter,JobScheduleUpdateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: updateAsync(String jobScheduleId, JobScheduleUpdateParameter jobScheduleUpdateParameter, JobScheduleUpdateOptions jobScheduleUpdateOptions, final ServiceCallback< Void > serviceCallback)
@@ -2628,7 +2628,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_schedule_disable_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.disableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.disableAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: disableAsync(String jobScheduleId, final ServiceCallback< Void > serviceCallback)
@@ -2681,7 +2681,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Disable operation. </p>
   syntax:
     content: public class JobScheduleDisableOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.disableAsync(String,JobScheduleDisableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: disableAsync(String jobScheduleId, JobScheduleDisableOptions jobScheduleDisableOptions, final ServiceCallback< Void > serviceCallback)
@@ -2734,7 +2734,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_schedule_enable_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.enableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.enableAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: enableAsync(String jobScheduleId, final ServiceCallback< Void > serviceCallback)
@@ -2787,7 +2787,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Enable operation. </p>
   syntax:
     content: public class JobScheduleEnableOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.enableAsync(String,JobScheduleEnableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: enableAsync(String jobScheduleId, JobScheduleEnableOptions jobScheduleEnableOptions, final ServiceCallback< Void > serviceCallback)
@@ -2840,7 +2840,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_schedule_terminate_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.terminateAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.terminateAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: terminateAsync(String jobScheduleId, final ServiceCallback< Void > serviceCallback)
@@ -2893,7 +2893,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Terminate operation. </p>
   syntax:
     content: public class JobScheduleTerminateOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.terminateAsync(String,JobScheduleTerminateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: terminateAsync(String jobScheduleId, JobScheduleTerminateOptions jobScheduleTerminateOptions, final ServiceCallback< Void > serviceCallback)
@@ -2955,7 +2955,7 @@ references:
   summary: <p>A job schedule that allows recurring jobs by specifying when to run jobs and a specification used to create each job. </p>
   syntax:
     content: public class JobScheduleAddParameter
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.addAsync(JobScheduleAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: addAsync(JobScheduleAddParameter cloudJobSchedule, final ServiceCallback< Void > serviceCallback)
@@ -3008,7 +3008,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_Add operation. </p>
   syntax:
     content: public class JobScheduleAddOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.addAsync(JobScheduleAddParameter,JobScheduleAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: addAsync(JobScheduleAddParameter cloudJobSchedule, JobScheduleAddOptions jobScheduleAddOptions, final ServiceCallback< Void > serviceCallback)
@@ -3072,7 +3072,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job_schedule0506df69com.microsoft.azure.batch.protocol.models._job_schedule_list_headers9ec3e006
       description: <p>the List&lt;CloudJobSchedule&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listAsync(final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listAsync(final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: listAsync(final ListOperationCallback< CloudJobSchedule > serviceCallback)
@@ -3106,7 +3106,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.list(final JobScheduleListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.list(final JobScheduleListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: list(final JobScheduleListOptions jobScheduleListOptions)
@@ -3134,7 +3134,7 @@ references:
   summary: <p>Additional parameters for the JobSchedule_List operation. </p>
   syntax:
     content: public class JobScheduleListOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listAsync(final JobScheduleListOptions,final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: listAsync(final JobScheduleListOptions jobScheduleListOptions, final ListOperationCallback< CloudJobSchedule > serviceCallback)
@@ -3171,7 +3171,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: listNext(final String nextPageLink)
@@ -3190,7 +3190,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job_schedule0506df69com.microsoft.azure.batch.protocol.models._job_schedule_list_headers9ec3e006
       description: <p>the List&lt;CloudJobSchedule&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNextAsync(final String,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< CloudJobSchedule >> serviceCall, final ListOperationCallback< CloudJobSchedule > serviceCallback)
@@ -3215,7 +3215,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_job_scheduled4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNext(final String,final JobScheduleListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNext(final String,final JobScheduleListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: listNext(final String nextPageLink, final JobScheduleListNextOptions jobScheduleListNextOptions)
@@ -3246,7 +3246,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class JobScheduleListNextOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
+- uid: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.listNextAsync(final String,final JobScheduleListNextOptions,final ServiceCall< List< CloudJobSchedule >>,final ListOperationCallback< CloudJobSchedule >)
   parent: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl
   href: com.microsoft.azure.batch.protocol.implementation._job_schedules_impl.yml
   name: listNextAsync(final String nextPageLink, final JobScheduleListNextOptions jobScheduleListNextOptions, final ServiceCall< List< CloudJobSchedule >> serviceCall, final ListOperationCallback< CloudJobSchedule > serviceCallback)

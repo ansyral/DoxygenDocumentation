@@ -5,10 +5,10 @@ items:
   children:
   - com.microsoft.azure.batch._application_operations.customBehaviors()
   - com.microsoft.azure.batch._application_operations.getApplication(String)
-  - classcom.microsoft.azure.batch._application_operations.getApplication(String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._application_operations.getApplication(String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._application_operations.listApplications()
-  - classcom.microsoft.azure.batch._application_operations.listApplications(Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._application_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._application_operations.listApplications(Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._application_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   href: com.microsoft.azure.batch._application_operations.yml
   langs:
   - java
@@ -29,7 +29,7 @@ items:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
   inheritedMembers:
-  - classcom.microsoft.azure.batch._application_operations.ApplicationOperations(BatchClient,Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._application_operations.ApplicationOperations(BatchClient,Collection< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._application_operations.customBehaviors()
   id: customBehaviors()
   parent: com.microsoft.azure.batch._application_operations
@@ -70,7 +70,7 @@ items:
       type: "26831127"
     return:
       type: com.microsoft.azure.batch.protocol.models._application_summary
-- uid: classcom.microsoft.azure.batch._application_operations.getApplication(String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._application_operations.getApplication(String,Iterable< BatchClientBehavior >)
   id: getApplication(String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._application_operations
   href: com.microsoft.azure.batch._application_operations.yml
@@ -111,7 +111,7 @@ items:
     content: public List< ApplicationSummary > listApplications()
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._application_summary9ec3e006
-- uid: classcom.microsoft.azure.batch._application_operations.listApplications(Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._application_operations.listApplications(Iterable< BatchClientBehavior >)
   id: listApplications(Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._application_operations
   href: com.microsoft.azure.batch._application_operations.yml
@@ -132,7 +132,7 @@ items:
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._application_summary9ec3e006
-- uid: classcom.microsoft.azure.batch._application_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._application_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   id: withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._application_operations
   href: com.microsoft.azure.batch._application_operations.yml
@@ -153,7 +153,7 @@ items:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: com.microsoft.azure.batch._i_inherited_behaviors
-  overridden: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+  overridden: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
 references:
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
@@ -189,7 +189,7 @@ references:
   spec.java:
   - name: String
     fullName: String
-- uid: classcom.microsoft.azure.batch._application_operations.ApplicationOperations(BatchClient,Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._application_operations.ApplicationOperations(BatchClient,Collection< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
@@ -224,7 +224,7 @@ references:
     content: public Collection< BatchClientBehavior > customBehaviors()
     return:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._i_inherited_behaviors
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
   name: withCustomBehaviors(Collection< BatchClientBehavior > behaviors)

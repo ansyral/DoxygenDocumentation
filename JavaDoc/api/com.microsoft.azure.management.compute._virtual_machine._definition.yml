@@ -21,7 +21,7 @@ items:
     content: public interface Definition extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIp,VirtualMachine.DefinitionStages.WithPublicIpAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithRootUserName,VirtualMachine.DefinitionStages.WithAdminUserName,VirtualMachine.DefinitionStages.WithLinuxCreate,VirtualMachine.DefinitionStages.WithWindowsCreate,VirtualMachine.DefinitionStages.WithCreate
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._creatable.create()
-  - interfacecom.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_data_disk.defineExistingDataDisk(String)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_data_disk.defineNewDataDisk(String)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_windows_create.disableAutoUpdate()
@@ -39,16 +39,16 @@ items:
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s.withLatestLinuxImage(String,String,String)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s.withLatestWindowsImage(String,String,String)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set.withNewAvailabilitySet(String)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set.withNewAvailabilitySet(Creatable< AvailabilitySet >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set.withNewAvailabilitySet(Creatable< AvailabilitySet >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_data_disk.withNewDataDisk(Integer)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(String)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982.withNewPrimaryPublicIpAddress(String)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_s6e5bccbbb244e347da9f62b7d1a60117.withNewSecondaryNetworkInterface(Creatable< NetworkInterface >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_s6e5bccbbb244e347da9f62b7d1a60117.withNewSecondaryNetworkInterface(Creatable< NetworkInterface >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account.withNewStorageAccount(String)
-  - interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account.withNewStorageAccount(Creatable< StorageAccount >)
+  - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account.withNewStorageAccount(Creatable< StorageAccount >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s.withOsDisk(String,OperatingSystemTypes)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_os_disk_settings.withOsDiskCaching(CachingTypes)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_os_disk_settings.withOsDiskEncryptionSettings(DiskEncryptionSettings)
@@ -71,7 +71,7 @@ items:
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s.withStoredWindowsImage(String)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_subnet.withSubnet(String)
   - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTag(String,String)
-  - interfacecom.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_windows_create.withTimeZone(String)
   - com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_windows_create.withWinRm(WinRMListener)
 references:
@@ -90,7 +90,7 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the create resource </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
   parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
   name: createAsync(ServiceCallback< T > callback)
@@ -434,7 +434,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_create
       description: <p>the stage representing creatable VM definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set.withNewAvailabilitySet(Creatable< AvailabilitySet >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set.withNewAvailabilitySet(Creatable< AvailabilitySet >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set
   href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_availability_set.yml
   name: withNewAvailabilitySet(Creatable< AvailabilitySet > creatable)
@@ -474,7 +474,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_create
       description: <p>the stage representing creatable VM definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.withNewPrimaryNetwork(Creatable< Network >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network
   href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_network.yml
   name: withNewPrimaryNetwork(Creatable< Network > creatable)
@@ -514,7 +514,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_private_ip
       description: <p>the next stage of the virtual machine definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.withNewPrimaryNetworkInterface(Creatable< NetworkInterface >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb
   href: com.microsoft.azure.management.compute._virtual_machine._definition_sc350eb35b657c4f77b2e638dd5735cbb.yml
   name: withNewPrimaryNetworkInterface(Creatable< NetworkInterface > creatable)
@@ -533,7 +533,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s
       description: <p>The next stage of the virtual machine definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982
   href: com.microsoft.azure.management.compute._virtual_machine._definition_s7c0146f2b67f4707768bd727ff09d982.yml
   name: withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress > creatable)
@@ -573,7 +573,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_o_s
       description: <p>the next stage of the virtual machine definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_s6e5bccbbb244e347da9f62b7d1a60117.withNewSecondaryNetworkInterface(Creatable< NetworkInterface >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_s6e5bccbbb244e347da9f62b7d1a60117.withNewSecondaryNetworkInterface(Creatable< NetworkInterface >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_s6e5bccbbb244e347da9f62b7d1a60117
   href: com.microsoft.azure.management.compute._virtual_machine._definition_s6e5bccbbb244e347da9f62b7d1a60117.yml
   name: withNewSecondaryNetworkInterface(Creatable< NetworkInterface > creatable)
@@ -615,7 +615,7 @@ references:
     return:
       type: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_create
       description: <p>the stage representing creatable VM definition </p>
-- uid: interfacecom.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account.withNewStorageAccount(Creatable< StorageAccount >)
+- uid: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account.withNewStorageAccount(Creatable< StorageAccount >)
   parent: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account
   href: com.microsoft.azure.management.compute._virtual_machine._definition_stages._with_storage_account.yml
   name: withNewStorageAccount(Creatable< StorageAccount > creatable)
@@ -1054,7 +1054,7 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the next stage of the resource definition </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
   name: withTags(Map< String, String > tags)

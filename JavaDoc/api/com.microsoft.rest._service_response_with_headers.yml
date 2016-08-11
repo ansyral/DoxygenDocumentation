@@ -4,8 +4,8 @@ items:
   parent: com.microsoft.rest
   children:
   - com.microsoft.rest._service_response_with_headers.getHeaders()
-  - classcom.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(TBody,THeader,Response< ResponseBody >)
-  - classcom.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(THeader,Response< Void >)
+  - com.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(TBody,THeader,Response< ResponseBody >)
+  - com.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(THeader,Response< Void >)
   href: com.microsoft.rest._service_response_with_headers.yml
   langs:
   - java
@@ -38,8 +38,8 @@ items:
   - com.microsoft.rest._service_response.getBody()
   - com.microsoft.rest._service_response.getHeadResponse()
   - com.microsoft.rest._service_response.getResponse()
-  - classcom.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
-  - classcom.microsoft.rest._service_response.ServiceResponse(Response< Void >)
+  - com.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
+  - com.microsoft.rest._service_response.ServiceResponse(Response< Void >)
   - com.microsoft.rest._service_response.setBody(T)
 - uid: com.microsoft.rest._service_response_with_headers.getHeaders()
   id: getHeaders()
@@ -61,7 +61,7 @@ items:
     return:
       type: "77199363"
       description: <p>the response headers. Null if there isn't one. </p>
-- uid: classcom.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(TBody,THeader,Response< ResponseBody >)
+- uid: com.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(TBody,THeader,Response< ResponseBody >)
   id: ServiceResponseWithHeaders(TBody,THeader,Response< ResponseBody >)
   parent: com.microsoft.rest._service_response_with_headers
   href: com.microsoft.rest._service_response_with_headers.yml
@@ -91,7 +91,7 @@ items:
     - id: response
       type: "1755e818"
       description: <p>raw REST response </p>
-- uid: classcom.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(THeader,Response< Void >)
+- uid: com.microsoft.rest._service_response_with_headers.ServiceResponseWithHeaders(THeader,Response< Void >)
   id: ServiceResponseWithHeaders(THeader,Response< Void >)
   parent: com.microsoft.rest._service_response_with_headers
   href: com.microsoft.rest._service_response_with_headers.yml
@@ -177,7 +177,7 @@ references:
     return:
       type: "1755e818"
       description: <p>the raw REST response. </p>
-- uid: classcom.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
+- uid: com.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
   parent: com.microsoft.rest._service_response
   href: com.microsoft.rest._service_response.yml
   name: ServiceResponse(T body, Response< ResponseBody > response)
@@ -196,7 +196,7 @@ references:
     - id: response
       type: "1755e818"
       description: <p>raw REST response </p>
-- uid: classcom.microsoft.rest._service_response.ServiceResponse(Response< Void >)
+- uid: com.microsoft.rest._service_response.ServiceResponse(Response< Void >)
   parent: com.microsoft.rest._service_response
   href: com.microsoft.rest._service_response.yml
   name: ServiceResponse(Response< Void > headResponse)

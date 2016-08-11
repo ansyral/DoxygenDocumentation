@@ -5,44 +5,44 @@ items:
   children:
   - com.microsoft.azure.batch.protocol._files.deleteFromComputeNode(String,String,String)
   - com.microsoft.azure.batch.protocol._files.deleteFromComputeNode(String,String,String,Boolean,FileDeleteFromComputeNodeOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._files.deleteFromTask(String,String,String)
   - com.microsoft.azure.batch.protocol._files.deleteFromTask(String,String,String,Boolean,FileDeleteFromTaskOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._files.getFromComputeNode(String,String,String)
   - com.microsoft.azure.batch.protocol._files.getFromComputeNode(String,String,String,FileGetFromComputeNodeOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
-  - interfacecom.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
   - com.microsoft.azure.batch.protocol._files.getFromTask(String,String,String)
   - com.microsoft.azure.batch.protocol._files.getFromTask(String,String,String,FileGetFromTaskOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
-  - interfacecom.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
   - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNode(String,String,String)
   - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNode(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTask(String,String,String)
   - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTask(String,String,String,FileGetNodeFilePropertiesFromTaskOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTask(final String,final String)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNext(final String)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNext(final String,final FileListFromTaskNextOptions)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
-  - interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromTask(final String,final String)
+  - com.microsoft.azure.batch.protocol._files.listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
+  - com.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromTaskNext(final String)
+  - com.microsoft.azure.batch.protocol._files.listFromTaskNext(final String,final FileListFromTaskNextOptions)
+  - com.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+  - com.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   href: com.microsoft.azure.batch.protocol._files.yml
   langs:
   - java
@@ -146,7 +146,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
   id: deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -191,7 +191,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   id: deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -316,7 +316,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
   id: deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -361,7 +361,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   id: deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -483,7 +483,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
   id: getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -525,7 +525,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol._files.getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
   id: getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -647,7 +647,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
   id: getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -689,7 +689,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol._files.getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
   id: getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -811,7 +811,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
   id: getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -853,7 +853,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   id: getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -975,7 +975,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
   id: getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1017,7 +1017,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._files.getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   id: getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1056,7 +1056,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String)
   id: listFromComputeNode(final String,final String)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1093,7 +1093,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
   id: listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1136,7 +1136,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
   id: listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1178,7 +1178,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
   id: listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1214,7 +1214,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String)
   id: listFromComputeNodeNext(final String)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1248,7 +1248,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
   id: listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1285,7 +1285,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   id: listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1324,7 +1324,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   id: listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1360,7 +1360,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTask(final String,final String)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTask(final String,final String)
   id: listFromTask(final String,final String)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1397,7 +1397,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
   id: listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1440,7 +1440,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
   id: listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1482,7 +1482,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
   id: listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1518,7 +1518,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNext(final String)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTaskNext(final String)
   id: listFromTaskNext(final String)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1552,7 +1552,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNext(final String,final FileListFromTaskNextOptions)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTaskNext(final String,final FileListFromTaskNextOptions)
   id: listFromTaskNext(final String,final FileListFromTaskNextOptions)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1589,7 +1589,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   id: listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -1628,7 +1628,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol._files.listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   id: listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol._files
   href: com.microsoft.azure.batch.protocol._files.yml
@@ -2079,7 +2079,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: deleteFromTaskAsync(String jobId, String taskId, String fileName, final ServiceCallback< Void > serviceCallback)
@@ -2162,7 +2162,7 @@ references:
   summary: <p>Additional parameters for the File_DeleteFromTask operation. </p>
   syntax:
     content: public class FileDeleteFromTaskOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromTaskAsync(String,String,String,Boolean,FileDeleteFromTaskOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: deleteFromTaskAsync(String jobId, String taskId, String fileName, Boolean recursive, FileDeleteFromTaskOptions fileDeleteFromTaskOptions, final ServiceCallback< Void > serviceCallback)
@@ -2230,7 +2230,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers4de3300dcom.microsoft.azure.batch.protocol.models._file_get_from_task_headers9ec3e006
       description: <p>the InputStream object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getFromTaskAsync(String,String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getFromTaskAsync(String jobId, String taskId, String fileName, final ServiceCallback< InputStream > serviceCallback)
@@ -2295,7 +2295,7 @@ references:
   summary: <p>Additional parameters for the File_GetFromTask operation. </p>
   syntax:
     content: public class FileGetFromTaskOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getFromTaskAsync(String,String,String,FileGetFromTaskOptions,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getFromTaskAsync(String jobId, String taskId, String fileName, FileGetFromTaskOptions fileGetFromTaskOptions, final ServiceCallback< InputStream > serviceCallback)
@@ -2360,7 +2360,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._file_get_node_file_properties_from_task_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromTaskAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getNodeFilePropertiesFromTaskAsync(String jobId, String taskId, String fileName, final ServiceCallback< Void > serviceCallback)
@@ -2425,7 +2425,7 @@ references:
   summary: <p>Additional parameters for the File_GetNodeFilePropertiesFromTask operation. </p>
   syntax:
     content: public class FileGetNodeFilePropertiesFromTaskOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromTaskAsync(String,String,String,FileGetNodeFilePropertiesFromTaskOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getNodeFilePropertiesFromTaskAsync(String jobId, String taskId, String fileName, FileGetNodeFilePropertiesFromTaskOptions fileGetNodeFilePropertiesFromTaskOptions, final ServiceCallback< Void > serviceCallback)
@@ -2490,7 +2490,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._file_delete_from_compute_node_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: deleteFromComputeNodeAsync(String poolId, String nodeId, String fileName, final ServiceCallback< Void > serviceCallback)
@@ -2558,7 +2558,7 @@ references:
   summary: <p>Additional parameters for the File_DeleteFromComputeNode operation. </p>
   syntax:
     content: public class FileDeleteFromComputeNodeOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.deleteFromComputeNodeAsync(String,String,String,Boolean,FileDeleteFromComputeNodeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: deleteFromComputeNodeAsync(String poolId, String nodeId, String fileName, Boolean recursive, FileDeleteFromComputeNodeOptions fileDeleteFromComputeNodeOptions, final ServiceCallback< Void > serviceCallback)
@@ -2626,7 +2626,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers4de3300dcom.microsoft.azure.batch.protocol.models._file_get_from_compute_node_headers9ec3e006
       description: <p>the InputStream object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getFromComputeNodeAsync(String,String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getFromComputeNodeAsync(String poolId, String nodeId, String fileName, final ServiceCallback< InputStream > serviceCallback)
@@ -2691,7 +2691,7 @@ references:
   summary: <p>Additional parameters for the File_GetFromComputeNode operation. </p>
   syntax:
     content: public class FileGetFromComputeNodeOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getFromComputeNodeAsync(String,String,String,FileGetFromComputeNodeOptions,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getFromComputeNodeAsync(String poolId, String nodeId, String fileName, FileGetFromComputeNodeOptions fileGetFromComputeNodeOptions, final ServiceCallback< InputStream > serviceCallback)
@@ -2756,7 +2756,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._file_get_node_file_properties_from_compute_node_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getNodeFilePropertiesFromComputeNodeAsync(String poolId, String nodeId, String fileName, final ServiceCallback< Void > serviceCallback)
@@ -2821,7 +2821,7 @@ references:
   summary: <p>Additional parameters for the File_GetNodeFilePropertiesFromComputeNode operation. </p>
   syntax:
     content: public class FileGetNodeFilePropertiesFromComputeNodeOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.getNodeFilePropertiesFromComputeNodeAsync(String,String,String,FileGetNodeFilePropertiesFromComputeNodeOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: getNodeFilePropertiesFromComputeNodeAsync(String poolId, String nodeId, String fileName, FileGetNodeFilePropertiesFromComputeNodeOptions fileGetNodeFilePropertiesFromComputeNodeOptions, final ServiceCallback< Void > serviceCallback)
@@ -2885,7 +2885,7 @@ references:
   summary: <p>Defines headers for ListFromTask operation. </p>
   syntax:
     content: public class FileListFromTaskHeaders
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTask(final String,final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTask(final String,final String)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTask(final String jobId, final String taskId)
@@ -2907,7 +2907,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._node_file0506df69com.microsoft.azure.batch.protocol.models._file_list_from_task_headers9ec3e006
       description: <p>the List&lt;NodeFile&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskAsync(final String,final String,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTaskAsync(final String jobId, final String taskId, final ListOperationCallback< NodeFile > serviceCallback)
@@ -2947,7 +2947,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTask(final String,final String,final Boolean,final FileListFromTaskOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTask(final String jobId, final String taskId, final Boolean recursive, final FileListFromTaskOptions fileListFromTaskOptions)
@@ -2984,7 +2984,7 @@ references:
   summary: <p>Additional parameters for the File_ListFromTask operation. </p>
   syntax:
     content: public class FileListFromTaskOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskAsync(final String,final String,final Boolean,final FileListFromTaskOptions,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTaskAsync(final String jobId, final String taskId, final Boolean recursive, final FileListFromTaskOptions fileListFromTaskOptions, final ListOperationCallback< NodeFile > serviceCallback)
@@ -3024,7 +3024,7 @@ references:
   summary: <p>Defines headers for ListFromComputeNode operation. </p>
   syntax:
     content: public class FileListFromComputeNodeHeaders
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNode(final String,final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNode(final String,final String)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNode(final String poolId, final String nodeId)
@@ -3046,7 +3046,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._node_file0506df69com.microsoft.azure.batch.protocol.models._file_list_from_compute_node_headers9ec3e006
       description: <p>the List&lt;NodeFile&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeAsync(final String,final String,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNodeAsync(final String poolId, final String nodeId, final ListOperationCallback< NodeFile > serviceCallback)
@@ -3071,7 +3071,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_filed4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNode(final String,final String,final Boolean,final FileListFromComputeNodeOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNode(final String poolId, final String nodeId, final Boolean recursive, final FileListFromComputeNodeOptions fileListFromComputeNodeOptions)
@@ -3108,7 +3108,7 @@ references:
   summary: <p>Additional parameters for the File_ListFromComputeNode operation. </p>
   syntax:
     content: public class FileListFromComputeNodeOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeAsync(final String,final String,final Boolean,final FileListFromComputeNodeOptions,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNodeAsync(final String poolId, final String nodeId, final Boolean recursive, final FileListFromComputeNodeOptions fileListFromComputeNodeOptions, final ListOperationCallback< NodeFile > serviceCallback)
@@ -3154,7 +3154,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNext(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTaskNext(final String nextPageLink)
@@ -3173,7 +3173,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_file0506df69com.microsoft.azure.batch.protocol.models._file_list_from_task_headers9ec3e006
       description: <p>the List&lt;NodeFile&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTaskNextAsync(final String nextPageLink, final ServiceCall< List< NodeFile >> serviceCall, final ListOperationCallback< NodeFile > serviceCallback)
@@ -3198,7 +3198,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_filed4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNext(final String,final FileListFromTaskNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNext(final String,final FileListFromTaskNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTaskNext(final String nextPageLink, final FileListFromTaskNextOptions fileListFromTaskNextOptions)
@@ -3229,7 +3229,7 @@ references:
   summary: <p>Additional parameters for the ListFromTaskNext operation. </p>
   syntax:
     content: public class FileListFromTaskNextOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromTaskNextAsync(final String,final FileListFromTaskNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromTaskNextAsync(final String nextPageLink, final FileListFromTaskNextOptions fileListFromTaskNextOptions, final ServiceCall< List< NodeFile >> serviceCall, final ListOperationCallback< NodeFile > serviceCallback)
@@ -3257,7 +3257,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_filed4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNext(final String)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNodeNext(final String nextPageLink)
@@ -3276,7 +3276,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_file0506df69com.microsoft.azure.batch.protocol.models._file_list_from_compute_node_headers9ec3e006
       description: <p>the List&lt;NodeFile&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNextAsync(final String,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNodeNextAsync(final String nextPageLink, final ServiceCall< List< NodeFile >> serviceCall, final ListOperationCallback< NodeFile > serviceCallback)
@@ -3301,7 +3301,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_filed4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNext(final String,final FileListFromComputeNodeNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNodeNext(final String nextPageLink, final FileListFromComputeNodeNextOptions fileListFromComputeNodeNextOptions)
@@ -3332,7 +3332,7 @@ references:
   summary: <p>Additional parameters for the ListFromComputeNodeNext operation. </p>
   syntax:
     content: public class FileListFromComputeNodeNextOptions
-- uid: classcom.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
+- uid: com.microsoft.azure.batch.protocol.implementation._files_impl.listFromComputeNodeNextAsync(final String,final FileListFromComputeNodeNextOptions,final ServiceCall< List< NodeFile >>,final ListOperationCallback< NodeFile >)
   parent: com.microsoft.azure.batch.protocol.implementation._files_impl
   href: com.microsoft.azure.batch.protocol.implementation._files_impl.yml
   name: listFromComputeNodeNextAsync(final String nextPageLink, final FileListFromComputeNodeNextOptions fileListFromComputeNodeNextOptions, final ServiceCall< List< NodeFile >> serviceCall, final ListOperationCallback< NodeFile > serviceCallback)

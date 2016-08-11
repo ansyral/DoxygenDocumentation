@@ -4,8 +4,8 @@ items:
   parent: com.microsoft.azure
   children:
   - com.microsoft.azure._azure_service_response_builder.AzureServiceResponseBuilder(JacksonMapperAdapter)
-  - classcom.microsoft.azure._azure_service_response_builder.AzureServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
-  - classcom.microsoft.azure._azure_service_response_builder.buildEmpty(Response< Void >)
+  - com.microsoft.azure._azure_service_response_builder.AzureServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
+  - com.microsoft.azure._azure_service_response_builder.buildEmpty(Response< Void >)
   href: com.microsoft.azure._azure_service_response_builder.yml
   langs:
   - java
@@ -35,18 +35,18 @@ items:
   - java.lang.Object
   - com.microsoft.rest._service_response_builder
   inheritedMembers:
-  - classcom.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
+  - com.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
   - com.microsoft.rest._service_response_builder.buildBody(int,ResponseBody)
-  - classcom.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
-  - classcom.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
+  - com.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
+  - com.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
   - com.microsoft.rest._service_response_builder.exceptionType()
   - com.microsoft.rest._service_response_builder.mapperAdapter()
-  - classcom.microsoft.rest._service_response_builder.register(int,final Type)
-  - classcom.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
-  - classcom.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
+  - com.microsoft.rest._service_response_builder.register(int,final Type)
+  - com.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
+  - com.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
   - com.microsoft.rest._service_response_builder.responseTypes()
   - com.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter)
-  - classcom.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
+  - com.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
 - uid: com.microsoft.azure._azure_service_response_builder.AzureServiceResponseBuilder(JacksonMapperAdapter)
   id: AzureServiceResponseBuilder(JacksonMapperAdapter)
   parent: com.microsoft.azure._azure_service_response_builder
@@ -71,7 +71,7 @@ items:
     - id: deserializer
       type: com.microsoft.rest.serializer._jackson_mapper_adapter
       description: <p>the serialization utils to use for deserialization operations </p>
-- uid: classcom.microsoft.azure._azure_service_response_builder.AzureServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
+- uid: com.microsoft.azure._azure_service_response_builder.AzureServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
   id: AzureServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
   parent: com.microsoft.azure._azure_service_response_builder
   href: com.microsoft.azure._azure_service_response_builder.yml
@@ -98,7 +98,7 @@ items:
     - id: responseTypes
       type: b91d9c77
       description: <p>a mapping of response status codes and response destination types. </p>
-- uid: classcom.microsoft.azure._azure_service_response_builder.buildEmpty(Response< Void >)
+- uid: com.microsoft.azure._azure_service_response_builder.buildEmpty(Response< Void >)
   id: buildEmpty(Response< Void >)
   parent: com.microsoft.azure._azure_service_response_builder
   href: com.microsoft.azure._azure_service_response_builder.yml
@@ -144,7 +144,7 @@ references:
     href: com.microsoft.rest._service_response.yml
   - name: < T >
     fullName: < T >
-- uid: classcom.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
+- uid: com.microsoft.rest._service_response_builder.build(Response< ResponseBody >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: build(Response< ResponseBody > response)
@@ -187,7 +187,7 @@ references:
     return:
       type: "79317049"
       description: <p>the response body, deserialized </p>
-- uid: classcom.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
+- uid: com.microsoft.rest._service_response_builder.buildEmptyWithHeaders(Response< Void >,Class< THeader >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: buildEmptyWithHeaders(Response< Void > response, Class< THeader > headerType)
@@ -211,7 +211,7 @@ references:
     return:
       type: 7ed6cabdcom.microsoft.rest._service_response_with_headers629a7163
       description: <p>a <xref href="com.microsoft.rest._service_response_with_headers" data-throw-if-not-resolved="false"></xref> instance of generic type <ref refid="" kindref="compound">T</ref></p>
-- uid: classcom.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
+- uid: com.microsoft.rest._service_response_builder.buildWithHeaders(Response< ResponseBody >,Class< THeader >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: buildWithHeaders(Response< ResponseBody > response, Class< THeader > headerType)
@@ -257,7 +257,7 @@ references:
     content: protected JacksonMapperAdapter mapperAdapter
     return:
       type: com.microsoft.rest.serializer._jackson_mapper_adapter
-- uid: classcom.microsoft.rest._service_response_builder.register(int,final Type)
+- uid: com.microsoft.rest._service_response_builder.register(int,final Type)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: register(int statusCode, final Type type)
@@ -279,7 +279,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_builderc95ff18c
       description: <p>the same builder instance. </p>
-- uid: classcom.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
+- uid: com.microsoft.rest._service_response_builder.registerAll(Map< Integer, Type >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: registerAll(Map< Integer, Type > responseTypes)
@@ -298,7 +298,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_builderc95ff18c
       description: <p>the same builder instance. </p>
-- uid: classcom.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
+- uid: com.microsoft.rest._service_response_builder.registerError(final Class<?extends RestException >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: registerError(final Class<?extends RestException > type)
@@ -344,7 +344,7 @@ references:
     - id: mapperAdapter
       type: com.microsoft.rest.serializer._jackson_mapper_adapter
       description: <p>the serialization utils to use for deserialization operations </p>
-- uid: classcom.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
+- uid: com.microsoft.rest._service_response_builder.ServiceResponseBuilder(JacksonMapperAdapter,Map< Integer, Type >)
   parent: com.microsoft.rest._service_response_builder
   href: com.microsoft.rest._service_response_builder.yml
   name: ServiceResponseBuilder(JacksonMapperAdapter mapperAdapter, Map< Integer, Type > responseTypes)

@@ -4,58 +4,58 @@ items:
   parent: com.microsoft.azure.batch
   children:
   - com.microsoft.azure.batch._pool_operations.changeOSVersion(String,String)
-  - classcom.microsoft.azure.batch._pool_operations.changeOSVersion(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.changeOSVersion(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.createPool(PoolAddParameter)
-  - classcom.microsoft.azure.batch._pool_operations.createPool(PoolAddParameter,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.createPool(PoolAddParameter,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration)
   - com.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,int)
-  - classcom.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Integer,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Integer,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration)
   - com.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,int)
-  - classcom.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Integer,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Integer,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.customBehaviors()
   - com.microsoft.azure.batch._pool_operations.deletePool(String)
-  - classcom.microsoft.azure.batch._pool_operations.deletePool(String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.deletePool(String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.disableAutoScale(String)
-  - classcom.microsoft.azure.batch._pool_operations.disableAutoScale(String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.disableAutoScale(String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.enableAutoScale(String)
   - com.microsoft.azure.batch._pool_operations.enableAutoScale(String,String)
   - com.microsoft.azure.batch._pool_operations.enableAutoScale(String,String,Period)
-  - classcom.microsoft.azure.batch._pool_operations.enableAutoScale(String,String,Period,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.enableAutoScale(String,String,Period,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.evaluateAutoScale(String,String)
-  - classcom.microsoft.azure.batch._pool_operations.evaluateAutoScale(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.evaluateAutoScale(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.existsPool(String)
-  - classcom.microsoft.azure.batch._pool_operations.existsPool(String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.existsPool(String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.getAllPoolsLifetimeStatistics()
-  - classcom.microsoft.azure.batch._pool_operations.getAllPoolsLifetimeStatistics(Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.getAllPoolsLifetimeStatistics(Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.getPool(String)
   - com.microsoft.azure.batch._pool_operations.getPool(String,DetailLevel)
-  - classcom.microsoft.azure.batch._pool_operations.getPool(String,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.getPool(String,DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.listPools()
   - com.microsoft.azure.batch._pool_operations.listPools(DetailLevel)
-  - classcom.microsoft.azure.batch._pool_operations.listPools(DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.listPools(DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.listPoolUsageMetrics(DateTime,DateTime)
   - com.microsoft.azure.batch._pool_operations.listPoolUsageMetrics(DateTime,DateTime,DetailLevel)
-  - classcom.microsoft.azure.batch._pool_operations.listPoolUsageMetrics(DateTime,DateTime,DetailLevel,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
-  - classcom.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.listPoolUsageMetrics(DateTime,DateTime,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
+  - com.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.removeNodeFromPool(String,String)
   - com.microsoft.azure.batch._pool_operations.removeNodeFromPool(String,String,ComputeNodeDeallocationOption)
-  - classcom.microsoft.azure.batch._pool_operations.removeNodeFromPool(String,String,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >)
-  - classcom.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption)
-  - classcom.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.removeNodeFromPool(String,String,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >)
+  - com.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption)
+  - com.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.resizePool(String,int)
   - com.microsoft.azure.batch._pool_operations.resizePool(String,int,Period)
   - com.microsoft.azure.batch._pool_operations.resizePool(String,int,Period,ComputeNodeDeallocationOption)
-  - classcom.microsoft.azure.batch._pool_operations.resizePool(String,int,Period,ComputeNodeDeallocationOption,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.resizePool(String,int,Period,ComputeNodeDeallocationOption,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._pool_operations.stopResizePool(String)
-  - classcom.microsoft.azure.batch._pool_operations.stopResizePool(String,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
-  - classcom.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._pool_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.stopResizePool(String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
+  - com.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   href: com.microsoft.azure.batch._pool_operations.yml
   langs:
   - java
@@ -76,7 +76,7 @@ items:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
   inheritedMembers:
-  - classcom.microsoft.azure.batch._pool_operations.PoolOperations(BatchClient,Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._pool_operations.PoolOperations(BatchClient,Collection< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._pool_operations.changeOSVersion(String,String)
   id: changeOSVersion(String,String)
   parent: com.microsoft.azure.batch._pool_operations
@@ -98,7 +98,7 @@ items:
       type: "26831127"
     - id: targetOSVersion
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._pool_operations.changeOSVersion(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.changeOSVersion(String,String,Iterable< BatchClientBehavior >)
   id: changeOSVersion(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -140,7 +140,7 @@ items:
     parameters:
     - id: parameter
       type: com.microsoft.azure.batch.protocol.models._pool_add_parameter
-- uid: classcom.microsoft.azure.batch._pool_operations.createPool(PoolAddParameter,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.createPool(PoolAddParameter,Iterable< BatchClientBehavior >)
   id: createPool(PoolAddParameter,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -209,7 +209,7 @@ items:
       type: com.microsoft.azure.batch.protocol.models._cloud_service_configuration
     - id: targetDedicated
       type: f75371fa
-- uid: classcom.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Integer,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Integer,Iterable< BatchClientBehavior >)
   id: createPool(String,String,CloudServiceConfiguration,Integer,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -236,7 +236,7 @@ items:
       type: 08effaa0
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.createPool(String,String,CloudServiceConfiguration,Iterable< BatchClientBehavior >)
   id: createPool(String,String,CloudServiceConfiguration,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -309,7 +309,7 @@ items:
       type: com.microsoft.azure.batch.protocol.models._virtual_machine_configuration
     - id: targetDedicated
       type: f75371fa
-- uid: classcom.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Integer,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Integer,Iterable< BatchClientBehavior >)
   id: createPool(String,String,VirtualMachineConfiguration,Integer,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -336,7 +336,7 @@ items:
       type: 08effaa0
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.createPool(String,String,VirtualMachineConfiguration,Iterable< BatchClientBehavior >)
   id: createPool(String,String,VirtualMachineConfiguration,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -399,7 +399,7 @@ items:
     parameters:
     - id: poolId
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._pool_operations.deletePool(String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.deletePool(String,Iterable< BatchClientBehavior >)
   id: deletePool(String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -439,7 +439,7 @@ items:
     parameters:
     - id: poolId
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._pool_operations.disableAutoScale(String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.disableAutoScale(String,Iterable< BatchClientBehavior >)
   id: disableAutoScale(String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -523,7 +523,7 @@ items:
       type: "26831127"
     - id: autoScaleEvaluationInterval
       type: "6e600119"
-- uid: classcom.microsoft.azure.batch._pool_operations.enableAutoScale(String,String,Period,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.enableAutoScale(String,String,Period,Iterable< BatchClientBehavior >)
   id: enableAutoScale(String,String,Period,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -571,7 +571,7 @@ items:
       type: "26831127"
     return:
       type: com.microsoft.azure.batch.protocol.models._auto_scale_run
-- uid: classcom.microsoft.azure.batch._pool_operations.evaluateAutoScale(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.evaluateAutoScale(String,String,Iterable< BatchClientBehavior >)
   id: evaluateAutoScale(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -617,7 +617,7 @@ items:
       type: "26831127"
     return:
       type: 4fc6e284
-- uid: classcom.microsoft.azure.batch._pool_operations.existsPool(String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.existsPool(String,Iterable< BatchClientBehavior >)
   id: existsPool(String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -658,7 +658,7 @@ items:
     content: public PoolStatistics getAllPoolsLifetimeStatistics()
     return:
       type: com.microsoft.azure.batch.protocol.models._pool_statistics
-- uid: classcom.microsoft.azure.batch._pool_operations.getAllPoolsLifetimeStatistics(Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.getAllPoolsLifetimeStatistics(Iterable< BatchClientBehavior >)
   id: getAllPoolsLifetimeStatistics(Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -723,7 +723,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: com.microsoft.azure.batch.protocol.models._cloud_pool
-- uid: classcom.microsoft.azure.batch._pool_operations.getPool(String,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.getPool(String,DetailLevel,Iterable< BatchClientBehavior >)
   id: getPool(String,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -787,7 +787,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._cloud_pool9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.listPools(DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.listPools(DetailLevel,Iterable< BatchClientBehavior >)
   id: listPools(DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -858,7 +858,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._pool_usage_metrics9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.listPoolUsageMetrics(DateTime,DateTime,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.listPoolUsageMetrics(DateTime,DateTime,DetailLevel,Iterable< BatchClientBehavior >)
   id: listPoolUsageMetrics(DateTime,DateTime,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -885,7 +885,7 @@ items:
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._pool_usage_metrics9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
+- uid: com.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
   id: patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -910,7 +910,7 @@ items:
       type: 642418facom.microsoft.azure.batch.protocol.models._certificate_reference9ec3e006
     - id: metadata
       type: 642418facom.microsoft.azure.batch.protocol.models._metadata_item9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
   id: patchPool(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -981,7 +981,7 @@ items:
       type: "26831127"
     - id: deallocationOption
       type: com.microsoft.azure.batch.protocol.models._compute_node_deallocation_option
-- uid: classcom.microsoft.azure.batch._pool_operations.removeNodeFromPool(String,String,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.removeNodeFromPool(String,String,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
   id: removeNodeFromPool(String,String,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1008,7 +1008,7 @@ items:
       type: "6e600119"
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >)
+- uid: com.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >)
   id: removeNodesFromPool(String,Collection< ComputeNode >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1029,7 +1029,7 @@ items:
       type: "26831127"
     - id: computeNodes
       type: 642418facom.microsoft.azure.batch.protocol.models._compute_node9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption)
+- uid: com.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption)
   id: removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1052,7 +1052,7 @@ items:
       type: 642418facom.microsoft.azure.batch.protocol.models._compute_node9ec3e006
     - id: deallocationOption
       type: com.microsoft.azure.batch.protocol.models._compute_node_deallocation_option
-- uid: classcom.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
   id: removeNodesFromPool(String,Collection< ComputeNode >,ComputeNodeDeallocationOption,Period,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1148,7 +1148,7 @@ items:
       type: "6e600119"
     - id: deallocationOption
       type: com.microsoft.azure.batch.protocol.models._compute_node_deallocation_option
-- uid: classcom.microsoft.azure.batch._pool_operations.resizePool(String,int,Period,ComputeNodeDeallocationOption,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.resizePool(String,int,Period,ComputeNodeDeallocationOption,Iterable< BatchClientBehavior >)
   id: resizePool(String,int,Period,ComputeNodeDeallocationOption,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1194,7 +1194,7 @@ items:
     parameters:
     - id: poolId
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._pool_operations.stopResizePool(String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.stopResizePool(String,Iterable< BatchClientBehavior >)
   id: stopResizePool(String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1215,7 +1215,7 @@ items:
       type: "26831127"
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
+- uid: com.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
   id: updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1240,7 +1240,7 @@ items:
       type: 642418facom.microsoft.azure.batch.protocol.models._certificate_reference9ec3e006
     - id: metadata
       type: 642418facom.microsoft.azure.batch.protocol.models._metadata_item9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
   id: updatePoolProperties(String,StartTask,Collection< CertificateReference >,Collection< MetadataItem >,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1267,7 +1267,7 @@ items:
       type: 642418facom.microsoft.azure.batch.protocol.models._metadata_item9ec3e006
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._pool_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   id: withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._pool_operations
   href: com.microsoft.azure.batch._pool_operations.yml
@@ -1288,7 +1288,7 @@ items:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: com.microsoft.azure.batch._i_inherited_behaviors
-  overridden: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+  overridden: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
 references:
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
@@ -1384,7 +1384,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._pool_usage_metrics.yml
   - name: " >"
     fullName: " >"
-- uid: classcom.microsoft.azure.batch._pool_operations.PoolOperations(BatchClient,Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._pool_operations.PoolOperations(BatchClient,Collection< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
@@ -1419,7 +1419,7 @@ references:
     content: public Collection< BatchClientBehavior > customBehaviors()
     return:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._i_inherited_behaviors
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
   name: withCustomBehaviors(Collection< BatchClientBehavior > behaviors)

@@ -24,7 +24,7 @@ items:
     content: public interface Update extends Appliable< NetworkInterface >,Resource.UpdateWithTags< Update >,NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet,NetworkInterface.UpdateStages.WithPrimaryPrivateIp,NetworkInterface.UpdateStages.WithPrimaryPublicIpAddress,NetworkInterface.UpdateStages.WithNetworkSecurityGroup,NetworkInterface.UpdateStages.WithIpForwarding,NetworkInterface.UpdateStages.WithDnsServer,NetworkInterface.UpdateStages.WithIpConfiguration
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()
-  - interfacecom.microsoft.azure.management.resources.fluentcore.model._appliable.applyAsync(ServiceCallback< T >)
+  - com.microsoft.azure.management.resources.fluentcore.model._appliable.applyAsync(ServiceCallback< T >)
   - com.microsoft.azure.management.network._network_interface._update_stages._with_ip_configuration.defineSecondaryIpConfiguration(String)
   - com.microsoft.azure.management.resources.fluentcore.model._indexable.key()
   - com.microsoft.azure.management.network._network_interface._update_stages._with_ip_configuration.updateIpConfiguration(String)
@@ -33,8 +33,8 @@ items:
   - com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.withExistingNetworkSecurityGroup(NetworkSecurityGroup)
   - com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withExistingPrimaryPublicIpAddress(PublicIpAddress)
   - com.microsoft.azure.management.network._network_interface._update_stages._with_ip_forwarding.withIpForwarding()
-  - interfacecom.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.withNewNetworkSecurityGroup(Creatable< NetworkSecurityGroup >)
-  - interfacecom.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
+  - com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.withNewNetworkSecurityGroup(Creatable< NetworkSecurityGroup >)
+  - com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
   - com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withNewPrimaryPublicIpAddress()
   - com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withNewPrimaryPublicIpAddress(String)
   - com.microsoft.azure.management.network._network_interface._update_stages._with_dns_server.withoutDnsServer(String)
@@ -46,7 +46,7 @@ items:
   - com.microsoft.azure.management.network._network_interface._update_stages._with_primary_private_ip.withPrimaryPrivateIpAddressStatic(String)
   - com.microsoft.azure.management.network._network_interface._update_sta3a82e2907fe76308aed92e5b7bd001f7.withSubnet(String)
   - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.withTag(String,String)
-  - interfacecom.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.withTags(Map< String, String >)
+  - com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.withTags(Map< String, String >)
 references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()
   parent: com.microsoft.azure.management.resources.fluentcore.model._appliable
@@ -63,7 +63,7 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the updated resource </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.model._appliable.applyAsync(ServiceCallback< T >)
+- uid: com.microsoft.azure.management.resources.fluentcore.model._appliable.applyAsync(ServiceCallback< T >)
   parent: com.microsoft.azure.management.resources.fluentcore.model._appliable
   href: com.microsoft.azure.management.resources.fluentcore.model._appliable.yml
   name: applyAsync(ServiceCallback< T > callback)
@@ -222,7 +222,7 @@ references:
     return:
       type: com.microsoft.azure.management.network._network_interface._update
       description: <p>the next stage of the network interface update </p>
-- uid: interfacecom.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.withNewNetworkSecurityGroup(Creatable< NetworkSecurityGroup >)
+- uid: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.withNewNetworkSecurityGroup(Creatable< NetworkSecurityGroup >)
   parent: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc
   href: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.yml
   name: withNewNetworkSecurityGroup(Creatable< NetworkSecurityGroup > creatable)
@@ -241,7 +241,7 @@ references:
     return:
       type: com.microsoft.azure.management.network._network_interface._update
       description: <p>the next stage of the network interface update </p>
-- uid: interfacecom.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
+- uid: com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress >)
   parent: com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f
   href: com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.yml
   name: withNewPrimaryPublicIpAddress(Creatable< PublicIpAddress > creatable)
@@ -452,7 +452,7 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the next stage of the resource update </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.withTags(Map< String, String >)
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.withTags(Map< String, String >)
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags
   href: com.microsoft.azure.management.resources.fluentcore.arm.models._resource._update_with_tags.yml
   name: withTags(Map< String, String > tags)

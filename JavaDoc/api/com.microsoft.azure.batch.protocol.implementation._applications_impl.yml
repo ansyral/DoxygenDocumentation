@@ -6,16 +6,16 @@ items:
   - com.microsoft.azure.batch.protocol.implementation._applications_impl.ApplicationsImpl(Retrofit,BatchServiceClientImpl)
   - com.microsoft.azure.batch.protocol.implementation._applications_impl.get(String)
   - com.microsoft.azure.batch.protocol.implementation._applications_impl.get(String,ApplicationGetOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,final ServiceCallback< ApplicationSummary >)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,final ServiceCallback< ApplicationSummary >)
   - com.microsoft.azure.batch.protocol.implementation._applications_impl.list()
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.list(final ApplicationListOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ListOperationCallback< ApplicationSummary >)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String,final ApplicationListNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
-  - classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.list(final ApplicationListOptions)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ListOperationCallback< ApplicationSummary >)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String,final ApplicationListNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+  - com.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
   langs:
   - java
@@ -136,7 +136,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
   id: getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -169,8 +169,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._application_summary9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,final ServiceCallback< ApplicationSummary >)
+  overridden: com.microsoft.azure.batch.protocol._applications.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.getAsync(String,final ServiceCallback< ApplicationSummary >)
   id: getAsync(String,final ServiceCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -200,7 +200,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._application_summary9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.getAsync(String,final ServiceCallback< ApplicationSummary >)
+  overridden: com.microsoft.azure.batch.protocol._applications.getAsync(String,final ServiceCallback< ApplicationSummary >)
 - uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.list()
   id: list()
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
@@ -232,7 +232,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.list(final ApplicationListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.list(final ApplicationListOptions)
   id: list(final ApplicationListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -259,7 +259,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._application_summary0506df69com.microsoft.azure.batch.protocol.models._application_list_headers9ec3e006
       description: <p>the List&lt;ApplicationSummary&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.list(final ApplicationListOptions)
+  overridden: com.microsoft.azure.batch.protocol._applications.list(final ApplicationListOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -267,7 +267,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
   id: listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -297,8 +297,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._application_summaryd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ListOperationCallback< ApplicationSummary >)
+  overridden: com.microsoft.azure.batch.protocol._applications.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.listAsync(final ListOperationCallback< ApplicationSummary >)
   id: listAsync(final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -325,8 +325,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._application_summaryd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.listAsync(final ListOperationCallback< ApplicationSummary >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._applications.listAsync(final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -353,7 +353,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._application_summary0506df69com.microsoft.azure.batch.protocol.models._application_list_headers9ec3e006
       description: <p>the List&lt;ApplicationSummary&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._applications.listNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -361,7 +361,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String,final ApplicationListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.listNext(final String,final ApplicationListNextOptions)
   id: listNext(final String,final ApplicationListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -391,7 +391,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._application_summary0506df69com.microsoft.azure.batch.protocol.models._application_list_headers9ec3e006
       description: <p>the List&lt;ApplicationSummary&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.listNext(final String,final ApplicationListNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._applications.listNext(final String,final ApplicationListNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -399,7 +399,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   id: listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -435,8 +435,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._application_summaryd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+  overridden: com.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol.implementation._applications_impl.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   id: listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol.implementation._applications_impl
   href: com.microsoft.azure.batch.protocol.implementation._applications_impl.yml
@@ -469,7 +469,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._application_summaryd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+  overridden: com.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
 references:
 - uid: 964879b9
   spec.java:
@@ -774,7 +774,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.listAsync(final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol._applications.listAsync(final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: listAsync(final ListOperationCallback< ApplicationSummary > serviceCallback)
@@ -808,7 +808,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.list(final ApplicationListOptions)
+- uid: com.microsoft.azure.batch.protocol._applications.list(final ApplicationListOptions)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: list(final ApplicationListOptions applicationListOptions)
@@ -836,7 +836,7 @@ references:
   summary: <p>Additional parameters for the Application_List operation. </p>
   syntax:
     content: public class ApplicationListOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol._applications.listAsync(final ApplicationListOptions,final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: listAsync(final ApplicationListOptions applicationListOptions, final ListOperationCallback< ApplicationSummary > serviceCallback)
@@ -886,7 +886,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._application_summaryb33c76fccom.microsoft.azure.batch.protocol.models._application_get_headers9ec3e006
       description: <p>the ApplicationSummary object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.getAsync(String,final ServiceCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol._applications.getAsync(String,final ServiceCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: getAsync(String applicationId, final ServiceCallback< ApplicationSummary > serviceCallback)
@@ -954,7 +954,7 @@ references:
   summary: <p>Additional parameters for the Application_Get operation. </p>
   syntax:
     content: public class ApplicationGetOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol._applications.getAsync(String,ApplicationGetOptions,final ServiceCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: getAsync(String applicationId, ApplicationGetOptions applicationGetOptions, final ServiceCallback< ApplicationSummary > serviceCallback)
@@ -994,7 +994,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._applications.listNext(final String)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: listNext(final String nextPageLink)
@@ -1013,7 +1013,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._application_summary0506df69com.microsoft.azure.batch.protocol.models._application_list_headers9ec3e006
       description: <p>the List&lt;ApplicationSummary&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< ApplicationSummary >> serviceCall, final ListOperationCallback< ApplicationSummary > serviceCallback)
@@ -1038,7 +1038,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._application_summaryd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.listNext(final String,final ApplicationListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._applications.listNext(final String,final ApplicationListNextOptions)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: listNext(final String nextPageLink, final ApplicationListNextOptions applicationListNextOptions)
@@ -1069,7 +1069,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class ApplicationListNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
+- uid: com.microsoft.azure.batch.protocol._applications.listNextAsync(final String,final ApplicationListNextOptions,final ServiceCall< List< ApplicationSummary >>,final ListOperationCallback< ApplicationSummary >)
   parent: com.microsoft.azure.batch.protocol._applications
   href: com.microsoft.azure.batch.protocol._applications.yml
   name: listNextAsync(final String nextPageLink, final ApplicationListNextOptions applicationListNextOptions, final ServiceCall< List< ApplicationSummary >> serviceCall, final ListOperationCallback< ApplicationSummary > serviceCallback)

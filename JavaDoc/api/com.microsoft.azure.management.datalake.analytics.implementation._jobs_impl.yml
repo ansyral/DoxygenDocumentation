@@ -4,24 +4,24 @@ items:
   parent: com.microsoft.azure.management.datalake.analytics.implementation
   children:
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.build(String,JobInformation)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.cancel(String,UUID)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.cancelAsync(String,UUID,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.cancelAsync(String,UUID,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.create(String,UUID,JobInformation)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.get(String,UUID)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getAsync(String,UUID,final ServiceCallback< JobInformation >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getAsync(String,UUID,final ServiceCallback< JobInformation >)
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getDebugDataPath(String,UUID)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getStatistics(String,UUID)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
   - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.JobsImpl(Retrofit,DataLakeAnalyticsJobManagementClientImpl)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final ListOperationCallback< JobInformation >)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNext(final String)
-  - classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final ListOperationCallback< JobInformation >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNext(final String)
+  - com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
   langs:
   - java
@@ -80,7 +80,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
   id: buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -113,7 +113,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_information9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.cancel(String,UUID)
   id: cancel(String,UUID)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
@@ -152,7 +152,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.cancelAsync(String,UUID,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.cancelAsync(String,UUID,final ServiceCallback< Void >)
   id: cancelAsync(String,UUID,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -185,7 +185,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.cancelAsync(String,UUID,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.cancelAsync(String,UUID,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.create(String,UUID,JobInformation)
   id: create(String,UUID,JobInformation)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
@@ -227,7 +227,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
   id: createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -263,7 +263,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_information9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.get(String,UUID)
   id: get(String,UUID)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
@@ -302,7 +302,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getAsync(String,UUID,final ServiceCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getAsync(String,UUID,final ServiceCallback< JobInformation >)
   id: getAsync(String,UUID,final ServiceCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -335,7 +335,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_information9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.getAsync(String,UUID,final ServiceCallback< JobInformation >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.getAsync(String,UUID,final ServiceCallback< JobInformation >)
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getDebugDataPath(String,UUID)
   id: getDebugDataPath(String,UUID)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
@@ -374,7 +374,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
   id: getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -407,7 +407,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_data_path9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getStatistics(String,UUID)
   id: getStatistics(String,UUID)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
@@ -446,7 +446,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
   id: getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -479,7 +479,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_statistics9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
 - uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.JobsImpl(Retrofit,DataLakeAnalyticsJobManagementClientImpl)
   id: JobsImpl(Retrofit,DataLakeAnalyticsJobManagementClientImpl)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
@@ -507,7 +507,7 @@ items:
     - id: client
       type: com.microsoft.azure.management.datalake.analytics.implementation._data1e182d99db7720babacb832862cb4c49
       description: <p>the instance of the service client containing this operation class. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String)
   id: list(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -534,7 +534,7 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the List&lt;JobInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.list(final String)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.list(final String)
   exceptions:
   - type: com.microsoft.azure._cloud_exception
     description: <p>exception thrown from REST call </p>
@@ -542,7 +542,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   id: list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -596,7 +596,7 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the List&lt;JobInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   exceptions:
   - type: com.microsoft.azure._cloud_exception
     description: <p>exception thrown from REST call </p>
@@ -604,7 +604,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final ListOperationCallback< JobInformation >)
   id: listAsync(final String,final ListOperationCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -634,8 +634,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final ListOperationCallback< JobInformation >)
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
   id: listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -692,8 +692,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNext(final String)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -720,7 +720,7 @@ items:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the List&lt;JobInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listNext(final String)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.listNext(final String)
   exceptions:
   - type: com.microsoft.azure._cloud_exception
     description: <p>exception thrown from REST call </p>
@@ -728,7 +728,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
   id: listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._jobs_impl.yml
@@ -761,7 +761,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
+  overridden: com.microsoft.azure.management.datalake.analytics._jobs.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
 references:
 - uid: 964879b9
   spec.java:
@@ -1144,7 +1144,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.getStatisticsAsync(String,UUID,final ServiceCallback< JobStatistics >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: getStatisticsAsync(String accountName, UUID jobIdentity, final ServiceCallback< JobStatistics > serviceCallback)
@@ -1215,7 +1215,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_data_path9ec3e006
       description: <p>the JobDataPath object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.getDebugDataPathAsync(String,UUID,final ServiceCallback< JobDataPath >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: getDebugDataPathAsync(String accountName, UUID jobIdentity, final ServiceCallback< JobDataPath > serviceCallback)
@@ -1271,7 +1271,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_information9ec3e006
       description: <p>the JobInformation object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.buildAsync(String,JobInformation,final ServiceCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: buildAsync(String accountName, JobInformation parameters, final ServiceCallback< JobInformation > serviceCallback)
@@ -1318,7 +1318,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.cancelAsync(String,UUID,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.cancelAsync(String,UUID,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: cancelAsync(String accountName, UUID jobIdentity, final ServiceCallback< Void > serviceCallback)
@@ -1365,7 +1365,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_information9ec3e006
       description: <p>the JobInformation object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.getAsync(String,UUID,final ServiceCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.getAsync(String,UUID,final ServiceCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: getAsync(String accountName, UUID jobIdentity, final ServiceCallback< JobInformation > serviceCallback)
@@ -1415,7 +1415,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_information9ec3e006
       description: <p>the JobInformation object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.createAsync(String,UUID,JobInformation,final ServiceCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: createAsync(String accountName, UUID jobIdentity, JobInformation parameters, final ServiceCallback< JobInformation > serviceCallback)
@@ -1458,7 +1458,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the element type. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.list(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.list(final String)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: list(final String accountName)
@@ -1477,7 +1477,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the List&lt;JobInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final ListOperationCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: listAsync(final String accountName, final ListOperationCallback< JobInformation > serviceCallback)
@@ -1514,7 +1514,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.list(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: list(final String accountName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format)
@@ -1560,7 +1560,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the List&lt;JobInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.listAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: listAsync(final String accountName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format, final ListOperationCallback< JobInformation > serviceCallback)
@@ -1624,7 +1624,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.listNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: listNext(final String nextPageLink)
@@ -1643,7 +1643,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._job_informationd4c4bc88
       description: <p>the List&lt;JobInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._jobs.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
+- uid: com.microsoft.azure.management.datalake.analytics._jobs.listNextAsync(final String,final ServiceCall< List< JobInformation >>,final ListOperationCallback< JobInformation >)
   parent: com.microsoft.azure.management.datalake.analytics._jobs
   href: com.microsoft.azure.management.datalake.analytics._jobs.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< JobInformation >> serviceCall, final ListOperationCallback< JobInformation > serviceCallback)

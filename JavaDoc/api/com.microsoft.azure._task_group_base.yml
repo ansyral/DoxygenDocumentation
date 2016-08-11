@@ -5,9 +5,9 @@ items:
   children:
   - com.microsoft.azure._task_group_base.dag()
   - com.microsoft.azure._task_group_base.execute()
-  - classcom.microsoft.azure._task_group_base.executeAsync(final ServiceCallback< T >)
+  - com.microsoft.azure._task_group_base.executeAsync(final ServiceCallback< T >)
   - com.microsoft.azure._task_group_base.isPreparer()
-  - classcom.microsoft.azure._task_group_base.merge(TaskGroup< T, U >)
+  - com.microsoft.azure._task_group_base.merge(TaskGroup< T, U >)
   - com.microsoft.azure._task_group_base.prepare()
   - com.microsoft.azure._task_group_base.TaskGroupBase(String,U)
   - com.microsoft.azure._task_group_base.taskResult(String)
@@ -40,7 +40,7 @@ items:
   - java.lang.Object
   - com.microsoft.azure._task_group
   inheritedMembers:
-  - interfacecom.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
+  - com.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
 - uid: com.microsoft.azure._task_group_base.dag()
   id: dag()
   parent: com.microsoft.azure._task_group_base
@@ -75,7 +75,7 @@ items:
   package: com.microsoft.azure
   syntax:
     content: public void execute()
-- uid: classcom.microsoft.azure._task_group_base.executeAsync(final ServiceCallback< T >)
+- uid: com.microsoft.azure._task_group_base.executeAsync(final ServiceCallback< T >)
   id: executeAsync(final ServiceCallback< T >)
   parent: com.microsoft.azure._task_group_base
   href: com.microsoft.azure._task_group_base.yml
@@ -114,7 +114,7 @@ items:
     content: public boolean isPreparer()
     return:
       type: 4fc6e284
-- uid: classcom.microsoft.azure._task_group_base.merge(TaskGroup< T, U >)
+- uid: com.microsoft.azure._task_group_base.merge(TaskGroup< T, U >)
   id: merge(TaskGroup< T, U >)
   parent: com.microsoft.azure._task_group_base
   href: com.microsoft.azure._task_group_base.yml
@@ -254,7 +254,7 @@ references:
     href: com.microsoft.rest._service_call.yml
   - name: < T >
     fullName: < T >
-- uid: interfacecom.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
+- uid: com.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
   parent: com.microsoft.azure._task_group
   href: com.microsoft.azure._task_group.yml
   name: executeAsync(ServiceCallback< T > callback)

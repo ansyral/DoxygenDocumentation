@@ -26,9 +26,9 @@ items:
   - com.microsoft.azure._cloud_exception
   inheritedMembers:
   - com.microsoft.azure._cloud_exception.CloudException()
-  - classcom.microsoft.azure._cloud_exception.CloudException(final String)
-  - classcom.microsoft.azure._cloud_exception.CloudException(final String,final Throwable)
-  - classcom.microsoft.azure._cloud_exception.CloudException(final Throwable)
+  - com.microsoft.azure._cloud_exception.CloudException(final String)
+  - com.microsoft.azure._cloud_exception.CloudException(final String,final Throwable)
+  - com.microsoft.azure._cloud_exception.CloudException(final Throwable)
   - com.microsoft.azure._cloud_exception.getBody()
   - com.microsoft.azure._cloud_exception.getResponse()
   - com.microsoft.rest._rest_exception.RestException()
@@ -48,7 +48,7 @@ references:
   summary: <p>Initializes a new instance of the ServiceException class. </p>
   syntax:
     content: public CloudException()
-- uid: classcom.microsoft.azure._cloud_exception.CloudException(final String)
+- uid: com.microsoft.azure._cloud_exception.CloudException(final String)
   parent: com.microsoft.azure._cloud_exception
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException(final String message)
@@ -64,7 +64,7 @@ references:
     - id: message
       type: 3d93591e
       description: <p>The exception message. </p>
-- uid: classcom.microsoft.azure._cloud_exception.CloudException(final String,final Throwable)
+- uid: com.microsoft.azure._cloud_exception.CloudException(final String,final Throwable)
   parent: com.microsoft.azure._cloud_exception
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException(final String message, final Throwable cause)
@@ -83,7 +83,7 @@ references:
     - id: cause
       type: fa00b19f
       description: <p>exception that caused this exception to occur </p>
-- uid: classcom.microsoft.azure._cloud_exception.CloudException(final Throwable)
+- uid: com.microsoft.azure._cloud_exception.CloudException(final Throwable)
   parent: com.microsoft.azure._cloud_exception
   href: com.microsoft.azure._cloud_exception.yml
   name: CloudException(final Throwable cause)

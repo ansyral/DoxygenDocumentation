@@ -5,29 +5,29 @@ items:
   children:
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.add(CertificateAddParameter)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.add(CertificateAddParameter,CertificateAddOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletion(String,String)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletion(String,String,CertificateCancelDeletionOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.CertificatesImpl(Retrofit,BatchServiceClientImpl)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.delete(String,String)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.delete(String,String,CertificateDeleteOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.get(String,String)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.get(String,String,CertificateGetOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,final ServiceCallback< Certificate >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,final ServiceCallback< Certificate >)
   - com.microsoft.azure.batch.protocol.implementation._certificates_impl.list()
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.list(final CertificateListOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final ListOperationCallback< Certificate >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String,final CertificateListNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
-  - classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.list(final CertificateListOptions)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final ListOperationCallback< Certificate >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String,final CertificateListNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+  - com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
   langs:
   - java
@@ -121,7 +121,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
   id: addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -154,8 +154,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
   id: addAsync(CertificateAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -185,7 +185,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletion(String,String)
   id: cancelDeletion(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
@@ -265,7 +265,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
   id: cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -301,8 +301,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
   id: cancelDeletionAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -335,7 +335,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.CertificatesImpl(Retrofit,BatchServiceClientImpl)
   id: CertificatesImpl(Retrofit,BatchServiceClientImpl)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
@@ -442,7 +442,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
   id: deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -478,8 +478,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.deleteAsync(String,String,final ServiceCallback< Void >)
   id: deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -512,7 +512,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.get(String,String)
   id: get(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
@@ -592,7 +592,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
   id: getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -628,8 +628,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._certificate9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,final ServiceCallback< Certificate >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.getAsync(String,String,final ServiceCallback< Certificate >)
   id: getAsync(String,String,final ServiceCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -662,7 +662,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._certificate9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.getAsync(String,String,final ServiceCallback< Certificate >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.getAsync(String,String,final ServiceCallback< Certificate >)
 - uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.list()
   id: list()
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
@@ -694,7 +694,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.list(final CertificateListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.list(final CertificateListOptions)
   id: list(final CertificateListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -721,7 +721,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._certificate0506df69com.microsoft.azure.batch.protocol.models._certificate_list_headers9ec3e006
       description: <p>the List&lt;Certificate&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.list(final CertificateListOptions)
+  overridden: com.microsoft.azure.batch.protocol._certificates.list(final CertificateListOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -729,7 +729,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
   id: listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -759,8 +759,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._certificated4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final ListOperationCallback< Certificate >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.listAsync(final ListOperationCallback< Certificate >)
   id: listAsync(final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -787,8 +787,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._certificated4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.listAsync(final ListOperationCallback< Certificate >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._certificates.listAsync(final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -815,7 +815,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._certificate0506df69com.microsoft.azure.batch.protocol.models._certificate_list_headers9ec3e006
       description: <p>the List&lt;Certificate&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._certificates.listNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -823,7 +823,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String,final CertificateListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNext(final String,final CertificateListNextOptions)
   id: listNext(final String,final CertificateListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -853,7 +853,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._certificate0506df69com.microsoft.azure.batch.protocol.models._certificate_list_headers9ec3e006
       description: <p>the List&lt;Certificate&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.listNext(final String,final CertificateListNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._certificates.listNext(final String,final CertificateListNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -861,7 +861,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   id: listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -897,8 +897,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._certificated4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol.implementation._certificates_impl.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   id: listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol.implementation._certificates_impl
   href: com.microsoft.azure.batch.protocol.implementation._certificates_impl.yml
@@ -931,7 +931,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._certificated4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+  overridden: com.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
 references:
 - uid: 964879b9
   spec.java:
@@ -1285,7 +1285,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: addAsync(CertificateAddParameter certificate, final ServiceCallback< Void > serviceCallback)
@@ -1353,7 +1353,7 @@ references:
   summary: <p>Additional parameters for the Certificate_Add operation. </p>
   syntax:
     content: public class CertificateAddOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._certificates.addAsync(CertificateAddParameter,CertificateAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: addAsync(CertificateAddParameter certificate, CertificateAddOptions certificateAddOptions, final ServiceCallback< Void > serviceCallback)
@@ -1426,7 +1426,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._certificate0506df69com.microsoft.azure.batch.protocol.models._certificate_list_headers9ec3e006
       description: <p>the List&lt;Certificate&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.listAsync(final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol._certificates.listAsync(final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: listAsync(final ListOperationCallback< Certificate > serviceCallback)
@@ -1460,7 +1460,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.list(final CertificateListOptions)
+- uid: com.microsoft.azure.batch.protocol._certificates.list(final CertificateListOptions)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: list(final CertificateListOptions certificateListOptions)
@@ -1488,7 +1488,7 @@ references:
   summary: <p>Additional parameters for the Certificate_List operation. </p>
   syntax:
     content: public class CertificateListOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol._certificates.listAsync(final CertificateListOptions,final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: listAsync(final CertificateListOptions certificateListOptions, final ListOperationCallback< Certificate > serviceCallback)
@@ -1541,7 +1541,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._certificate_cancel_deletion_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: cancelDeletionAsync(String thumbprintAlgorithm, String thumbprint, final ServiceCallback< Void > serviceCallback)
@@ -1600,7 +1600,7 @@ references:
   summary: <p>Additional parameters for the Certificate_CancelDeletion operation. </p>
   syntax:
     content: public class CertificateCancelDeletionOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._certificates.cancelDeletionAsync(String,String,CertificateCancelDeletionOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: cancelDeletionAsync(String thumbprintAlgorithm, String thumbprint, CertificateCancelDeletionOptions certificateCancelDeletionOptions, final ServiceCallback< Void > serviceCallback)
@@ -1659,7 +1659,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._certificate_delete_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: deleteAsync(String thumbprintAlgorithm, String thumbprint, final ServiceCallback< Void > serviceCallback)
@@ -1718,7 +1718,7 @@ references:
   summary: <p>Additional parameters for the Certificate_Delete operation. </p>
   syntax:
     content: public class CertificateDeleteOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._certificates.deleteAsync(String,String,CertificateDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: deleteAsync(String thumbprintAlgorithm, String thumbprint, CertificateDeleteOptions certificateDeleteOptions, final ServiceCallback< Void > serviceCallback)
@@ -1777,7 +1777,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._certificateb33c76fccom.microsoft.azure.batch.protocol.models._certificate_get_headers9ec3e006
       description: <p>the Certificate object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.getAsync(String,String,final ServiceCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol._certificates.getAsync(String,String,final ServiceCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: getAsync(String thumbprintAlgorithm, String thumbprint, final ServiceCallback< Certificate > serviceCallback)
@@ -1836,7 +1836,7 @@ references:
   summary: <p>Additional parameters for the Certificate_Get operation. </p>
   syntax:
     content: public class CertificateGetOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol._certificates.getAsync(String,String,CertificateGetOptions,final ServiceCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: getAsync(String thumbprintAlgorithm, String thumbprint, CertificateGetOptions certificateGetOptions, final ServiceCallback< Certificate > serviceCallback)
@@ -1879,7 +1879,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._certificates.listNext(final String)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: listNext(final String nextPageLink)
@@ -1898,7 +1898,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._certificate0506df69com.microsoft.azure.batch.protocol.models._certificate_list_headers9ec3e006
       description: <p>the List&lt;Certificate&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< Certificate >> serviceCall, final ListOperationCallback< Certificate > serviceCallback)
@@ -1923,7 +1923,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._certificated4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.listNext(final String,final CertificateListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._certificates.listNext(final String,final CertificateListNextOptions)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: listNext(final String nextPageLink, final CertificateListNextOptions certificateListNextOptions)
@@ -1954,7 +1954,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class CertificateListNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
+- uid: com.microsoft.azure.batch.protocol._certificates.listNextAsync(final String,final CertificateListNextOptions,final ServiceCall< List< Certificate >>,final ListOperationCallback< Certificate >)
   parent: com.microsoft.azure.batch.protocol._certificates
   href: com.microsoft.azure.batch.protocol._certificates.yml
   name: listNextAsync(final String nextPageLink, final CertificateListNextOptions certificateListNextOptions, final ServiceCall< List< Certificate >> serviceCall, final ListOperationCallback< Certificate > serviceCallback)

@@ -4,67 +4,67 @@ items:
   parent: com.microsoft.azure.management.datalake.analytics
   children:
   - com.microsoft.azure.management.datalake.analytics._accounts.addDataLakeStoreAccount(String,String,String,AddDataLakeStoreParameters)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics._accounts.addStorageAccount(String,String,String,AddStorageAccountParameters)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics._accounts.beginCreate(String,String,DataLakeAnalyticsAccount)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   - com.microsoft.azure.management.datalake.analytics._accounts.beginDelete(String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.beginDeleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.beginDeleteAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics._accounts.beginUpdate(String,String,DataLakeAnalyticsAccount)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   - com.microsoft.azure.management.datalake.analytics._accounts.create(String,String,DataLakeAnalyticsAccount)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   - com.microsoft.azure.management.datalake.analytics._accounts.delete(String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.deleteAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.deleteAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics._accounts.deleteDataLakeStoreAccount(String,String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics._accounts.deleteStorageAccount(String,String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.management.datalake.analytics._accounts.get(String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
   - com.microsoft.azure.management.datalake.analytics._accounts.getDataLakeStoreAccount(String,String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
   - com.microsoft.azure.management.datalake.analytics._accounts.getStorageAccount(String,String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
   - com.microsoft.azure.management.datalake.analytics._accounts.getStorageContainer(String,String,String,String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
   - com.microsoft.azure.management.datalake.analytics._accounts.list()
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNext(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNext(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listNext(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokens(final String,final String,final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNext(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNext(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainers(final String,final String,final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNext(final String)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNext(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNext(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listNext(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listSasTokens(final String,final String,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNext(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNext(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainers(final String,final String,final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNext(final String)
+  - com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
   - com.microsoft.azure.management.datalake.analytics._accounts.update(String,String,DataLakeAnalyticsAccount)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   - com.microsoft.azure.management.datalake.analytics._accounts.updateStorageAccount(String,String,String,AddStorageAccountParameters)
-  - interfacecom.microsoft.azure.management.datalake.analytics._accounts.updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
+  - com.microsoft.azure.management.datalake.analytics._accounts.updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
   langs:
   - java
@@ -125,7 +125,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
   id: addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -210,7 +210,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   id: addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -292,7 +292,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   id: beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -368,7 +368,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.beginDeleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.beginDeleteAsync(String,String,final ServiceCallback< Void >)
   id: beginDeleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -444,7 +444,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   id: beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -525,7 +525,7 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   id: createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -603,7 +603,7 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.deleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.deleteAsync(String,String,final ServiceCallback< Void >)
   id: deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -679,7 +679,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
   id: deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -758,7 +758,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
   id: deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -834,7 +834,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
   id: getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -910,7 +910,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
   id: getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -989,7 +989,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
   id: getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1071,7 +1071,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
   id: getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1143,7 +1143,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   id: list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1201,7 +1201,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
   id: listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1231,7 +1231,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   id: listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1288,7 +1288,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String)
   id: listByResourceGroup(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1322,7 +1322,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   id: listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1383,7 +1383,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   id: listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1416,7 +1416,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   id: listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1476,7 +1476,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNext(final String)
   id: listByResourceGroupNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1510,7 +1510,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
   id: listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1546,7 +1546,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String)
   id: listDataLakeStoreAccounts(final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1583,7 +1583,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   id: listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1647,7 +1647,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
   id: listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1683,7 +1683,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
   id: listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1746,7 +1746,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNext(final String)
   id: listDataLakeStoreAccountsNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1780,7 +1780,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
   id: listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1816,7 +1816,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1850,7 +1850,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
   id: listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1886,7 +1886,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokens(final String,final String,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listSasTokens(final String,final String,final String,final String)
   id: listSasTokens(final String,final String,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1929,7 +1929,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
   id: listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -1971,7 +1971,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNext(final String)
   id: listSasTokensNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2005,7 +2005,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
   id: listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2041,7 +2041,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String)
   id: listStorageAccounts(final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2078,7 +2078,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   id: listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2142,7 +2142,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
   id: listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2178,7 +2178,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
   id: listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2241,7 +2241,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNext(final String)
   id: listStorageAccountsNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2275,7 +2275,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
   id: listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2311,7 +2311,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainers(final String,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainers(final String,final String,final String)
   id: listStorageContainers(final String,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2351,7 +2351,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
   id: listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2390,7 +2390,7 @@ items:
   exceptions:
   - type: 3c87bd19
     description: <p>thrown if callback is null </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNext(final String)
   id: listStorageContainersNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2424,7 +2424,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
   id: listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2502,7 +2502,7 @@ items:
     description: <p>exception thrown from invalid parameters </p>
   - type: 8256ba40
     description: <p>exception thrown when long running operation is interrupted </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   id: updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -2584,7 +2584,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: interfacecom.microsoft.azure.management.datalake.analytics._accounts.updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics._accounts.updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   id: updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics._accounts
   href: com.microsoft.azure.management.datalake.analytics._accounts.yml
@@ -3381,7 +3381,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getStorageAccountAsync(String,String,String,final ServiceCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: getStorageAccountAsync(String resourceGroupName, String accountName, String storageAccountName, final ServiceCallback< StorageAccountInfo > serviceCallback)
@@ -3449,7 +3449,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.deleteStorageAccountAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: deleteStorageAccountAsync(String resourceGroupName, String accountName, String storageAccountName, final ServiceCallback< Void > serviceCallback)
@@ -3514,7 +3514,7 @@ references:
   summary: <p>Additional <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Storage account parameters. </p>
   syntax:
     content: public class AddStorageAccountParameters
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.updateStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: updateStorageAccountAsync(String resourceGroupName, String accountName, String storageAccountName, AddStorageAccountParameters parameters, final ServiceCallback< Void > serviceCallback)
@@ -3573,7 +3573,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.addStorageAccountAsync(String,String,String,AddStorageAccountParameters,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: addStorageAccountAsync(String resourceGroupName, String accountName, String storageAccountName, AddStorageAccountParameters parameters, final ServiceCallback< Void > serviceCallback)
@@ -3644,7 +3644,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._blob_container9ec3e006
       description: <p>the BlobContainer object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getStorageContainerAsync(String,String,String,String,final ServiceCallback< BlobContainer >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: getStorageContainerAsync(String resourceGroupName, String accountName, String storageAccountName, String containerName, final ServiceCallback< BlobContainer > serviceCallback)
@@ -3690,7 +3690,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the element type. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainers(final String,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainers(final String,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageContainers(final String resourceGroupName, final String accountName, final String storageAccountName)
@@ -3715,7 +3715,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._blob_containerd4c4bc88
       description: <p>the List&lt;BlobContainer&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainersAsync(final String,final String,final String,final ListOperationCallback< BlobContainer >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageContainersAsync(final String resourceGroupName, final String accountName, final String storageAccountName, final ListOperationCallback< BlobContainer > serviceCallback)
@@ -3767,7 +3767,7 @@ references:
   summary: <p>SAS token information. </p>
   syntax:
     content: public class SasTokenInfo
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokens(final String,final String,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokens(final String,final String,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listSasTokens(final String resourceGroupName, final String accountName, final String storageAccountName, final String containerName)
@@ -3795,7 +3795,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._sas_token_infod4c4bc88
       description: <p>the List&lt;SasTokenInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokensAsync(final String,final String,final String,final String,final ListOperationCallback< SasTokenInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listSasTokensAsync(final String resourceGroupName, final String accountName, final String storageAccountName, final String containerName, final ListOperationCallback< SasTokenInfo > serviceCallback)
@@ -3860,7 +3860,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_store_account_info9ec3e006
       description: <p>the DataLakeStoreAccountInfo object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: getDataLakeStoreAccountAsync(String resourceGroupName, String accountName, String dataLakeStoreAccountName, final ServiceCallback< DataLakeStoreAccountInfo > serviceCallback)
@@ -3913,7 +3913,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.deleteDataLakeStoreAccountAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: deleteDataLakeStoreAccountAsync(String resourceGroupName, String accountName, String dataLakeStoreAccountName, final ServiceCallback< Void > serviceCallback)
@@ -3978,7 +3978,7 @@ references:
   summary: <p>Additional Data Lake Store parameters. </p>
   syntax:
     content: public class AddDataLakeStoreParameters
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.addDataLakeStoreAccountAsync(String,String,String,AddDataLakeStoreParameters,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: addDataLakeStoreAccountAsync(String resourceGroupName, String accountName, String dataLakeStoreAccountName, AddDataLakeStoreParameters parameters, final ServiceCallback< Void > serviceCallback)
@@ -4009,7 +4009,7 @@ references:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccounts(final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccounts(final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageAccounts(final String resourceGroupName, final String accountName)
@@ -4031,7 +4031,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._storage_account_infod4c4bc88
       description: <p>the List&lt;StorageAccountInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsAsync(final String,final String,final ListOperationCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageAccountsAsync(final String resourceGroupName, final String accountName, final ListOperationCallback< StorageAccountInfo > serviceCallback)
@@ -4056,7 +4056,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._storage_account_infod4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageAccounts(final String resourceGroupName, final String accountName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format)
@@ -4105,7 +4105,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._storage_account_infod4c4bc88
       description: <p>the List&lt;StorageAccountInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageAccountsAsync(final String resourceGroupName, final String accountName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format, final ListOperationCallback< StorageAccountInfo > serviceCallback)
@@ -4157,7 +4157,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._storage_account_infod4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccounts(final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccounts(final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listDataLakeStoreAccounts(final String resourceGroupName, final String accountName)
@@ -4179,7 +4179,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_store_account_infod4c4bc88
       description: <p>the List&lt;DataLakeStoreAccountInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsAsync(final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listDataLakeStoreAccountsAsync(final String resourceGroupName, final String accountName, final ListOperationCallback< DataLakeStoreAccountInfo > serviceCallback)
@@ -4204,7 +4204,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._data_lake_store_account_infod4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccounts(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listDataLakeStoreAccounts(final String resourceGroupName, final String accountName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format)
@@ -4253,7 +4253,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_store_account_infod4c4bc88
       description: <p>the List&lt;DataLakeStoreAccountInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsAsync(final String,final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listDataLakeStoreAccountsAsync(final String resourceGroupName, final String accountName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format, final ListOperationCallback< DataLakeStoreAccountInfo > serviceCallback)
@@ -4314,7 +4314,7 @@ references:
   summary: <p>A Data Lake Analytics account object, containing all information associated with the named Data Lake Analytics account. </p>
   syntax:
     content: public class DataLakeAnalyticsAccount
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroup(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroup(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listByResourceGroup(final String resourceGroupName)
@@ -4333,7 +4333,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the List&lt;DataLakeAnalyticsAccount&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupAsync(final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listByResourceGroupAsync(final String resourceGroupName, final ListOperationCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4355,7 +4355,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroup(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listByResourceGroup(final String resourceGroupName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format)
@@ -4401,7 +4401,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the List&lt;DataLakeAnalyticsAccount&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupAsync(final String,final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listByResourceGroupAsync(final String resourceGroupName, final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format, final ListOperationCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4465,7 +4465,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the List&lt;DataLakeAnalyticsAccount&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listAsync(final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listAsync(final ListOperationCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4484,7 +4484,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.list(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: list(final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format)
@@ -4527,7 +4527,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the List&lt;DataLakeAnalyticsAccount&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listAsync(final String,final Integer,final Integer,final String,final String,final String,final Boolean,final String,final String,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listAsync(final String filter, final Integer top, final Integer skip, final String expand, final String select, final String orderby, final Boolean count, final String search, final String format, final ListOperationCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4595,7 +4595,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_account9ec3e006
       description: <p>the DataLakeAnalyticsAccount object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.getAsync(String,String,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: getAsync(String resourceGroupName, String accountName, final ServiceCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4642,7 +4642,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the ServiceResponse object if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.deleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.deleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: deleteAsync(String resourceGroupName, String accountName, final ServiceCallback< Void > serviceCallback)
@@ -4689,7 +4689,7 @@ references:
     return:
       type: com.microsoft.rest._service_responsee35e5465
       description: <p>the <ref refid="" kindref="compound">ServiceResponse</ref> object if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.beginDeleteAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.beginDeleteAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: beginDeleteAsync(String resourceGroupName, String accountName, final ServiceCallback< Void > serviceCallback)
@@ -4739,7 +4739,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_account9ec3e006
       description: <p>the DataLakeAnalyticsAccount object wrapped in ServiceResponse if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.createAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: createAsync(String resourceGroupName, String name, DataLakeAnalyticsAccount parameters, final ServiceCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4792,7 +4792,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_account9ec3e006
       description: <p>the DataLakeAnalyticsAccount object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.beginCreateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: beginCreateAsync(String resourceGroupName, String name, DataLakeAnalyticsAccount parameters, final ServiceCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4845,7 +4845,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_account9ec3e006
       description: <p>the DataLakeAnalyticsAccount object wrapped in ServiceResponse if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.updateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: updateAsync(String resourceGroupName, String name, DataLakeAnalyticsAccount parameters, final ServiceCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4898,7 +4898,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_account9ec3e006
       description: <p>the DataLakeAnalyticsAccount object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.beginUpdateAsync(String,String,DataLakeAnalyticsAccount,final ServiceCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: beginUpdateAsync(String resourceGroupName, String name, DataLakeAnalyticsAccount parameters, final ServiceCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -4941,7 +4941,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainersNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainersNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageContainersNext(final String nextPageLink)
@@ -4960,7 +4960,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._blob_containerd4c4bc88
       description: <p>the List&lt;BlobContainer&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageContainersNextAsync(final String,final ServiceCall< List< BlobContainer >>,final ListOperationCallback< BlobContainer >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageContainersNextAsync(final String nextPageLink, final ServiceCall< List< BlobContainer >> serviceCall, final ListOperationCallback< BlobContainer > serviceCallback)
@@ -4985,7 +4985,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._blob_containerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokensNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokensNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listSasTokensNext(final String nextPageLink)
@@ -5004,7 +5004,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._sas_token_infod4c4bc88
       description: <p>the List&lt;SasTokenInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listSasTokensNextAsync(final String,final ServiceCall< List< SasTokenInfo >>,final ListOperationCallback< SasTokenInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listSasTokensNextAsync(final String nextPageLink, final ServiceCall< List< SasTokenInfo >> serviceCall, final ListOperationCallback< SasTokenInfo > serviceCallback)
@@ -5029,7 +5029,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._sas_token_infod4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageAccountsNext(final String nextPageLink)
@@ -5048,7 +5048,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._storage_account_infod4c4bc88
       description: <p>the List&lt;StorageAccountInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listStorageAccountsNextAsync(final String,final ServiceCall< List< StorageAccountInfo >>,final ListOperationCallback< StorageAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listStorageAccountsNextAsync(final String nextPageLink, final ServiceCall< List< StorageAccountInfo >> serviceCall, final ListOperationCallback< StorageAccountInfo > serviceCallback)
@@ -5073,7 +5073,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._storage_account_infod4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listDataLakeStoreAccountsNext(final String nextPageLink)
@@ -5092,7 +5092,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_store_account_infod4c4bc88
       description: <p>the List&lt;DataLakeStoreAccountInfo&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listDataLakeStoreAccountsNextAsync(final String,final ServiceCall< List< DataLakeStoreAccountInfo >>,final ListOperationCallback< DataLakeStoreAccountInfo >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listDataLakeStoreAccountsNextAsync(final String nextPageLink, final ServiceCall< List< DataLakeStoreAccountInfo >> serviceCall, final ListOperationCallback< DataLakeStoreAccountInfo > serviceCallback)
@@ -5117,7 +5117,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._data_lake_store_account_infod4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listByResourceGroupNext(final String nextPageLink)
@@ -5136,7 +5136,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the List&lt;DataLakeAnalyticsAccount&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listByResourceGroupNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listByResourceGroupNextAsync(final String nextPageLink, final ServiceCall< List< DataLakeAnalyticsAccount >> serviceCall, final ListOperationCallback< DataLakeAnalyticsAccount > serviceCallback)
@@ -5161,7 +5161,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listNext(final String)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listNext(final String)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listNext(final String nextPageLink)
@@ -5180,7 +5180,7 @@ references:
     return:
       type: com.microsoft.rest._service_response151dc42ccom.microsoft.azure.management.datalake.analytics.models._page_impl151dc42ccom.microsoft.azure.management.datalake.analytics.models._data_lake_analytics_accountd4c4bc88
       description: <p>the List&lt;DataLakeAnalyticsAccount&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponse</ref> if successful. </p>
-- uid: classcom.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
+- uid: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.listNextAsync(final String,final ServiceCall< List< DataLakeAnalyticsAccount >>,final ListOperationCallback< DataLakeAnalyticsAccount >)
   parent: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl
   href: com.microsoft.azure.management.datalake.analytics.implementation._accounts_impl.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< DataLakeAnalyticsAccount >> serviceCall, final ListOperationCallback< DataLakeAnalyticsAccount > serviceCallback)

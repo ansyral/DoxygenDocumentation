@@ -5,53 +5,53 @@ items:
   children:
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUser(String,String,ComputeNodeUser)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUser(String,String,ComputeNodeUser,ComputeNodeAddUserOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.ComputeNodesImpl(Retrofit,BatchServiceClientImpl)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUser(String,String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUser(String,String,String,ComputeNodeDeleteUserOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableScheduling(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableScheduling(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableScheduling(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableScheduling(String,String,ComputeNodeEnableSchedulingOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.get(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.get(String,String,ComputeNodeGetOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,final ServiceCallback< ComputeNode >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,final ServiceCallback< ComputeNode >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktop(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktop(String,String,ComputeNodeGetRemoteDesktopOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettings(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettings(String,String,ComputeNodeGetRemoteLoginSettingsOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String,final ComputeNodeListOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ListOperationCallback< ComputeNode >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String,final ComputeNodeListNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String,final ComputeNodeListOptions)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ListOperationCallback< ComputeNode >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String,final ComputeNodeListNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reboot(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reboot(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimage(String,String)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimage(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUser(String,String,String,NodeUpdateUserParameter)
   - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUser(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
   langs:
   - java
@@ -157,7 +157,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
   id: addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -196,8 +196,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
   id: addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -233,7 +233,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.ComputeNodesImpl(Retrofit,BatchServiceClientImpl)
   id: ComputeNodesImpl(Retrofit,BatchServiceClientImpl)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -346,7 +346,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
   id: deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -385,8 +385,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
   id: deleteUserAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -422,7 +422,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableScheduling(String,String)
   id: disableScheduling(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -505,7 +505,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
   id: disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -544,8 +544,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
   id: disableSchedulingAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -578,7 +578,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableScheduling(String,String)
   id: enableScheduling(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -658,7 +658,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
   id: enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -694,8 +694,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
   id: enableSchedulingAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -728,7 +728,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.get(String,String)
   id: get(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -808,7 +808,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
   id: getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -844,8 +844,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._compute_node9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,final ServiceCallback< ComputeNode >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getAsync(String,String,final ServiceCallback< ComputeNode >)
   id: getAsync(String,String,final ServiceCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -878,7 +878,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._compute_node9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,final ServiceCallback< ComputeNode >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,final ServiceCallback< ComputeNode >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktop(String,String)
   id: getRemoteDesktop(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -958,7 +958,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
   id: getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -994,8 +994,8 @@ items:
     return:
       type: com.microsoft.rest._service_call7f11b53f
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
   id: getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1028,7 +1028,7 @@ items:
     return:
       type: com.microsoft.rest._service_call7f11b53f
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettings(String,String)
   id: getRemoteLoginSettings(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -1108,7 +1108,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
   id: getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1144,8 +1144,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._compute_node_get_remote_login_settings_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
   id: getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1178,8 +1178,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._compute_node_get_remote_login_settings_result9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String)
   id: list(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1206,7 +1206,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._compute_node0506df69com.microsoft.azure.batch.protocol.models._compute_node_list_headers9ec3e006
       description: <p>the List&lt;ComputeNode&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.list(final String)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.list(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1214,7 +1214,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String,final ComputeNodeListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.list(final String,final ComputeNodeListOptions)
   id: list(final String,final ComputeNodeListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1244,7 +1244,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._compute_node0506df69com.microsoft.azure.batch.protocol.models._compute_node_list_headers9ec3e006
       description: <p>the List&lt;ComputeNode&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.list(final String,final ComputeNodeListOptions)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.list(final String,final ComputeNodeListOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1252,7 +1252,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
   id: listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1285,8 +1285,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._compute_noded4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ListOperationCallback< ComputeNode >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listAsync(final String,final ListOperationCallback< ComputeNode >)
   id: listAsync(final String,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1316,8 +1316,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._compute_noded4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ListOperationCallback< ComputeNode >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1344,7 +1344,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._compute_node0506df69com.microsoft.azure.batch.protocol.models._compute_node_list_headers9ec3e006
       description: <p>the List&lt;ComputeNode&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.listNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1352,7 +1352,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String,final ComputeNodeListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNext(final String,final ComputeNodeListNextOptions)
   id: listNext(final String,final ComputeNodeListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1382,7 +1382,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._compute_node0506df69com.microsoft.azure.batch.protocol.models._compute_node_list_headers9ec3e006
       description: <p>the List&lt;ComputeNode&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNext(final String,final ComputeNodeListNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.listNext(final String,final ComputeNodeListNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1390,7 +1390,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   id: listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1426,8 +1426,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._compute_noded4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   id: listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1460,7 +1460,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._compute_noded4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reboot(String,String)
   id: reboot(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -1543,7 +1543,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
   id: rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1582,8 +1582,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.rebootAsync(String,String,final ServiceCallback< Void >)
   id: rebootAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1616,7 +1616,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimage(String,String)
   id: reimage(String,String)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -1699,7 +1699,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
   id: reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1738,8 +1738,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.reimageAsync(String,String,final ServiceCallback< Void >)
   id: reimageAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1772,7 +1772,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUser(String,String,String,NodeUpdateUserParameter)
   id: updateUser(String,String,String,NodeUpdateUserParameter)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
@@ -1864,7 +1864,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
   id: updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1906,8 +1906,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
   id: updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl
   href: com.microsoft.azure.batch.protocol.implementation._compute_nodes_impl.yml
@@ -1946,7 +1946,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
 references:
 - uid: 964879b9
   spec.java:
@@ -2444,7 +2444,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: addUserAsync(String poolId, String nodeId, ComputeNodeUser user, final ServiceCallback< Void > serviceCallback)
@@ -2524,7 +2524,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_AddUser operation. </p>
   syntax:
     content: public class ComputeNodeAddUserOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.addUserAsync(String,String,ComputeNodeUser,ComputeNodeAddUserOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: addUserAsync(String poolId, String nodeId, ComputeNodeUser user, ComputeNodeAddUserOptions computeNodeAddUserOptions, final ServiceCallback< Void > serviceCallback)
@@ -2589,7 +2589,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._compute_node_delete_user_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: deleteUserAsync(String poolId, String nodeId, String userName, final ServiceCallback< Void > serviceCallback)
@@ -2654,7 +2654,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_DeleteUser operation. </p>
   syntax:
     content: public class ComputeNodeDeleteUserOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.deleteUserAsync(String,String,String,ComputeNodeDeleteUserOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: deleteUserAsync(String poolId, String nodeId, String userName, ComputeNodeDeleteUserOptions computeNodeDeleteUserOptions, final ServiceCallback< Void > serviceCallback)
@@ -2731,7 +2731,7 @@ references:
   summary: <p>Parameters for a ComputeNodeOperations.UpdateUser request. </p>
   syntax:
     content: public class NodeUpdateUserParameter
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: updateUserAsync(String poolId, String nodeId, String userName, NodeUpdateUserParameter nodeUpdateUserParameter, final ServiceCallback< Void > serviceCallback)
@@ -2802,7 +2802,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_UpdateUser operation. </p>
   syntax:
     content: public class ComputeNodeUpdateUserOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.updateUserAsync(String,String,String,NodeUpdateUserParameter,ComputeNodeUpdateUserOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: updateUserAsync(String poolId, String nodeId, String userName, NodeUpdateUserParameter nodeUpdateUserParameter, ComputeNodeUpdateUserOptions computeNodeUpdateUserOptions, final ServiceCallback< Void > serviceCallback)
@@ -2876,7 +2876,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._compute_nodeb33c76fccom.microsoft.azure.batch.protocol.models._compute_node_get_headers9ec3e006
       description: <p>the ComputeNode object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,final ServiceCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,final ServiceCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: getAsync(String poolId, String nodeId, final ServiceCallback< ComputeNode > serviceCallback)
@@ -2935,7 +2935,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_Get operation. </p>
   syntax:
     content: public class ComputeNodeGetOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.getAsync(String,String,ComputeNodeGetOptions,final ServiceCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: getAsync(String poolId, String nodeId, ComputeNodeGetOptions computeNodeGetOptions, final ServiceCallback< ComputeNode > serviceCallback)
@@ -2994,7 +2994,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._compute_node_reboot_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: rebootAsync(String poolId, String nodeId, final ServiceCallback< Void > serviceCallback)
@@ -3065,7 +3065,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_Reboot operation. </p>
   syntax:
     content: public class ComputeNodeRebootOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.rebootAsync(String,String,ComputeNodeRebootOption,ComputeNodeRebootOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: rebootAsync(String poolId, String nodeId, ComputeNodeRebootOption nodeRebootOption, ComputeNodeRebootOptions computeNodeRebootOptions, final ServiceCallback< Void > serviceCallback)
@@ -3127,7 +3127,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._compute_node_reimage_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: reimageAsync(String poolId, String nodeId, final ServiceCallback< Void > serviceCallback)
@@ -3198,7 +3198,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_Reimage operation. </p>
   syntax:
     content: public class ComputeNodeReimageOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.reimageAsync(String,String,ComputeNodeReimageOption,ComputeNodeReimageOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: reimageAsync(String poolId, String nodeId, ComputeNodeReimageOption nodeReimageOption, ComputeNodeReimageOptions computeNodeReimageOptions, final ServiceCallback< Void > serviceCallback)
@@ -3260,7 +3260,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._compute_node_disable_scheduling_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: disableSchedulingAsync(String poolId, String nodeId, final ServiceCallback< Void > serviceCallback)
@@ -3331,7 +3331,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_DisableScheduling operation. </p>
   syntax:
     content: public class ComputeNodeDisableSchedulingOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.disableSchedulingAsync(String,String,DisableComputeNodeSchedulingOption,ComputeNodeDisableSchedulingOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: disableSchedulingAsync(String poolId, String nodeId, DisableComputeNodeSchedulingOption nodeDisableSchedulingOption, ComputeNodeDisableSchedulingOptions computeNodeDisableSchedulingOptions, final ServiceCallback< Void > serviceCallback)
@@ -3393,7 +3393,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._compute_node_enable_scheduling_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: enableSchedulingAsync(String poolId, String nodeId, final ServiceCallback< Void > serviceCallback)
@@ -3452,7 +3452,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_EnableScheduling operation. </p>
   syntax:
     content: public class ComputeNodeEnableSchedulingOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.enableSchedulingAsync(String,String,ComputeNodeEnableSchedulingOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: enableSchedulingAsync(String poolId, String nodeId, ComputeNodeEnableSchedulingOptions computeNodeEnableSchedulingOptions, final ServiceCallback< Void > serviceCallback)
@@ -3520,7 +3520,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._compute_node_get_remote_login_settings_resultb33c76fccom.microsoft.azure.batch.protocol.models._compute_node_get_remote_login_settings_headers9ec3e006
       description: <p>the ComputeNodeGetRemoteLoginSettingsResult object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: getRemoteLoginSettingsAsync(String poolId, String nodeId, final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult > serviceCallback)
@@ -3579,7 +3579,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_GetRemoteLoginSettings operation. </p>
   syntax:
     content: public class ComputeNodeGetRemoteLoginSettingsOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteLoginSettingsAsync(String,String,ComputeNodeGetRemoteLoginSettingsOptions,final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: getRemoteLoginSettingsAsync(String poolId, String nodeId, ComputeNodeGetRemoteLoginSettingsOptions computeNodeGetRemoteLoginSettingsOptions, final ServiceCallback< ComputeNodeGetRemoteLoginSettingsResult > serviceCallback)
@@ -3638,7 +3638,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers4de3300dcom.microsoft.azure.batch.protocol.models._compute_node_get_remote_desktop_headers9ec3e006
       description: <p>the InputStream object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: getRemoteDesktopAsync(String poolId, String nodeId, final ServiceCallback< InputStream > serviceCallback)
@@ -3697,7 +3697,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_GetRemoteDesktop operation. </p>
   syntax:
     content: public class ComputeNodeGetRemoteDesktopOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.getRemoteDesktopAsync(String,String,ComputeNodeGetRemoteDesktopOptions,final ServiceCallback< InputStream >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: getRemoteDesktopAsync(String poolId, String nodeId, ComputeNodeGetRemoteDesktopOptions computeNodeGetRemoteDesktopOptions, final ServiceCallback< InputStream > serviceCallback)
@@ -3749,7 +3749,7 @@ references:
   summary: <p>Defines headers for List operation. </p>
   syntax:
     content: public class ComputeNodeListHeaders
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.list(final String)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.list(final String)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: list(final String poolId)
@@ -3768,7 +3768,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._compute_node0506df69com.microsoft.azure.batch.protocol.models._compute_node_list_headers9ec3e006
       description: <p>the List&lt;ComputeNode&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: listAsync(final String poolId, final ListOperationCallback< ComputeNode > serviceCallback)
@@ -3805,7 +3805,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.list(final String,final ComputeNodeListOptions)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.list(final String,final ComputeNodeListOptions)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: list(final String poolId, final ComputeNodeListOptions computeNodeListOptions)
@@ -3836,7 +3836,7 @@ references:
   summary: <p>Additional parameters for the ComputeNode_List operation. </p>
   syntax:
     content: public class ComputeNodeListOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.listAsync(final String,final ComputeNodeListOptions,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: listAsync(final String poolId, final ComputeNodeListOptions computeNodeListOptions, final ListOperationCallback< ComputeNode > serviceCallback)
@@ -3876,7 +3876,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.listNext(final String)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: listNext(final String nextPageLink)
@@ -3895,7 +3895,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._compute_node0506df69com.microsoft.azure.batch.protocol.models._compute_node_list_headers9ec3e006
       description: <p>the List&lt;ComputeNode&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< ComputeNode >> serviceCall, final ListOperationCallback< ComputeNode > serviceCallback)
@@ -3920,7 +3920,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._compute_noded4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNext(final String,final ComputeNodeListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.listNext(final String,final ComputeNodeListNextOptions)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: listNext(final String nextPageLink, final ComputeNodeListNextOptions computeNodeListNextOptions)
@@ -3951,7 +3951,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class ComputeNodeListNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
+- uid: com.microsoft.azure.batch.protocol._compute_nodes.listNextAsync(final String,final ComputeNodeListNextOptions,final ServiceCall< List< ComputeNode >>,final ListOperationCallback< ComputeNode >)
   parent: com.microsoft.azure.batch.protocol._compute_nodes
   href: com.microsoft.azure.batch.protocol._compute_nodes.yml
   name: listNextAsync(final String nextPageLink, final ComputeNodeListNextOptions computeNodeListNextOptions, final ServiceCall< List< ComputeNode >> serviceCall, final ListOperationCallback< ComputeNode > serviceCallback)

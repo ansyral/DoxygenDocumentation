@@ -5,9 +5,9 @@ items:
   children:
   - com.microsoft.azure._task_group.dag()
   - com.microsoft.azure._task_group.execute()
-  - interfacecom.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
+  - com.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
   - com.microsoft.azure._task_group.isPreparer()
-  - interfacecom.microsoft.azure._task_group.merge(TaskGroup< T, U >)
+  - com.microsoft.azure._task_group.merge(TaskGroup< T, U >)
   - com.microsoft.azure._task_group.prepare()
   - com.microsoft.azure._task_group.taskResult(String)
   href: com.microsoft.azure._task_group.yml
@@ -83,7 +83,7 @@ items:
   exceptions:
   - type: 8a99d4b0
     description: <p>the exception </p>
-- uid: interfacecom.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
+- uid: com.microsoft.azure._task_group.executeAsync(ServiceCallback< T >)
   id: executeAsync(ServiceCallback< T >)
   parent: com.microsoft.azure._task_group
   href: com.microsoft.azure._task_group.yml
@@ -132,7 +132,7 @@ items:
         <p>
 
           <code>true</code> if the group is responsible for preparing execution of original task in this group and all tasks belong other task group it composes. </p>
-- uid: interfacecom.microsoft.azure._task_group.merge(TaskGroup< T, U >)
+- uid: com.microsoft.azure._task_group.merge(TaskGroup< T, U >)
   id: merge(TaskGroup< T, U >)
   parent: com.microsoft.azure._task_group
   href: com.microsoft.azure._task_group.yml

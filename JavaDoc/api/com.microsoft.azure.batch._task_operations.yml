@@ -4,26 +4,26 @@ items:
   parent: com.microsoft.azure.batch
   children:
   - com.microsoft.azure.batch._task_operations.createTask(String,TaskAddParameter)
-  - classcom.microsoft.azure.batch._task_operations.createTask(String,TaskAddParameter,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >)
-  - classcom.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.createTask(String,TaskAddParameter,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >)
+  - com.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._task_operations.customBehaviors()
   - com.microsoft.azure.batch._task_operations.deleteTask(String,String)
-  - classcom.microsoft.azure.batch._task_operations.deleteTask(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.deleteTask(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._task_operations.getTask(String,String)
   - com.microsoft.azure.batch._task_operations.getTask(String,String,DetailLevel)
-  - classcom.microsoft.azure.batch._task_operations.getTask(String,String,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.getTask(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._task_operations.listSubtasks(String,String)
   - com.microsoft.azure.batch._task_operations.listSubtasks(String,String,DetailLevel)
-  - classcom.microsoft.azure.batch._task_operations.listSubtasks(String,String,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.listSubtasks(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._task_operations.listTasks(String)
   - com.microsoft.azure.batch._task_operations.listTasks(String,DetailLevel)
-  - classcom.microsoft.azure.batch._task_operations.listTasks(String,DetailLevel,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.listTasks(String,DetailLevel,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._task_operations.terminateTask(String,String)
-  - classcom.microsoft.azure.batch._task_operations.terminateTask(String,String,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.terminateTask(String,String,Iterable< BatchClientBehavior >)
   - com.microsoft.azure.batch._task_operations.updateTask(String,String,TaskConstraints)
-  - classcom.microsoft.azure.batch._task_operations.updateTask(String,String,TaskConstraints,Iterable< BatchClientBehavior >)
-  - classcom.microsoft.azure.batch._task_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.updateTask(String,String,TaskConstraints,Iterable< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   href: com.microsoft.azure.batch._task_operations.yml
   langs:
   - java
@@ -44,7 +44,7 @@ items:
   - java.lang.Object
   - com.microsoft.azure.batch._i_inherited_behaviors
   inheritedMembers:
-  - classcom.microsoft.azure.batch._task_operations.TaskOperations(BatchClient,Collection< BatchClientBehavior >)
+  - com.microsoft.azure.batch._task_operations.TaskOperations(BatchClient,Collection< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._task_operations.createTask(String,TaskAddParameter)
   id: createTask(String,TaskAddParameter)
   parent: com.microsoft.azure.batch._task_operations
@@ -66,7 +66,7 @@ items:
       type: "26831127"
     - id: taskToAdd
       type: com.microsoft.azure.batch.protocol.models._task_add_parameter
-- uid: classcom.microsoft.azure.batch._task_operations.createTask(String,TaskAddParameter,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.createTask(String,TaskAddParameter,Iterable< BatchClientBehavior >)
   id: createTask(String,TaskAddParameter,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -89,7 +89,7 @@ items:
       type: com.microsoft.azure.batch.protocol.models._task_add_parameter
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >)
+- uid: com.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >)
   id: createTasks(String,List< TaskAddParameter >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -110,7 +110,7 @@ items:
       type: "26831127"
     - id: taskList
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._task_add_parameter9ec3e006
-- uid: classcom.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.createTasks(String,List< TaskAddParameter >,Iterable< BatchClientBehavior >)
   id: createTasks(String,List< TaskAddParameter >,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -173,7 +173,7 @@ items:
       type: "26831127"
     - id: taskId
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._task_operations.deleteTask(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.deleteTask(String,String,Iterable< BatchClientBehavior >)
   id: deleteTask(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -244,7 +244,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: com.microsoft.azure.batch.protocol.models._cloud_task
-- uid: classcom.microsoft.azure.batch._task_operations.getTask(String,String,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.getTask(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   id: getTask(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -319,7 +319,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._subtask_information9ec3e006
-- uid: classcom.microsoft.azure.batch._task_operations.listSubtasks(String,String,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.listSubtasks(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   id: listSubtasks(String,String,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -390,7 +390,7 @@ items:
       type: com.microsoft.azure.batch._detail_level
     return:
       type: f6a6204dcom.microsoft.azure.batch.protocol.models._cloud_task9ec3e006
-- uid: classcom.microsoft.azure.batch._task_operations.listTasks(String,DetailLevel,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.listTasks(String,DetailLevel,Iterable< BatchClientBehavior >)
   id: listTasks(String,DetailLevel,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -436,7 +436,7 @@ items:
       type: "26831127"
     - id: taskId
       type: "26831127"
-- uid: classcom.microsoft.azure.batch._task_operations.terminateTask(String,String,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.terminateTask(String,String,Iterable< BatchClientBehavior >)
   id: terminateTask(String,String,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -482,7 +482,7 @@ items:
       type: "26831127"
     - id: constraints
       type: com.microsoft.azure.batch.protocol.models._task_constraints
-- uid: classcom.microsoft.azure.batch._task_operations.updateTask(String,String,TaskConstraints,Iterable< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.updateTask(String,String,TaskConstraints,Iterable< BatchClientBehavior >)
   id: updateTask(String,String,TaskConstraints,Iterable< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -507,7 +507,7 @@ items:
       type: com.microsoft.azure.batch.protocol.models._task_constraints
     - id: additionalBehaviors
       type: ca2e68b6com.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: classcom.microsoft.azure.batch._task_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.withCustomBehaviors(Collection< BatchClientBehavior >)
   id: withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._task_operations
   href: com.microsoft.azure.batch._task_operations.yml
@@ -528,7 +528,7 @@ items:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
     return:
       type: com.microsoft.azure.batch._i_inherited_behaviors
-  overridden: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+  overridden: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
 references:
 - uid: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
   spec.java:
@@ -584,7 +584,7 @@ references:
     href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
   - name: " >"
     fullName: " >"
-- uid: classcom.microsoft.azure.batch._task_operations.TaskOperations(BatchClient,Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._task_operations.TaskOperations(BatchClient,Collection< BatchClientBehavior >)
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
@@ -619,7 +619,7 @@ references:
     content: public Collection< BatchClientBehavior > customBehaviors()
     return:
       type: 642418facom.microsoft.azure.batch._batch_client_behavior9ec3e006
-- uid: interfacecom.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
+- uid: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection< BatchClientBehavior >)
   parent: com.microsoft.azure.batch._i_inherited_behaviors
   href: com.microsoft.azure.batch._i_inherited_behaviors.yml
   name: withCustomBehaviors(Collection< BatchClientBehavior > behaviors)

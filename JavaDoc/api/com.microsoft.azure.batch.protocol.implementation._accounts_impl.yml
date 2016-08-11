@@ -5,13 +5,13 @@ items:
   children:
   - com.microsoft.azure.batch.protocol.implementation._accounts_impl.AccountsImpl(Retrofit,BatchServiceClientImpl)
   - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkus()
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
-  - classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+  - com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
   langs:
   - java
@@ -90,7 +90,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
   id: listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -117,7 +117,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -125,7 +125,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
   id: listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -155,8 +155,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_agent_skud4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
   id: listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -183,8 +183,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_agent_skud4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String)
   id: listNodeAgentSkusNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -211,7 +211,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -219,7 +219,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
   id: listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -249,7 +249,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -257,7 +257,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   id: listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -293,8 +293,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_agent_skud4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol.implementation._accounts_impl.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   id: listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol.implementation._accounts_impl
   href: com.microsoft.azure.batch.protocol.implementation._accounts_impl.yml
@@ -327,7 +327,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_agent_skud4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+  overridden: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
 references:
 - uid: 964879b9
   spec.java:
@@ -587,7 +587,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkusAsync(final ListOperationCallback< NodeAgentSku > serviceCallback)
@@ -621,7 +621,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkus(final AccountListNodeAgentSkusOptions accountListNodeAgentSkusOptions)
@@ -649,7 +649,7 @@ references:
   summary: <p>Additional parameters for the Account_ListNodeAgentSkus operation. </p>
   syntax:
     content: public class AccountListNodeAgentSkusOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions,final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkusAsync(final AccountListNodeAgentSkusOptions accountListNodeAgentSkusOptions, final ListOperationCallback< NodeAgentSku > serviceCallback)
@@ -686,7 +686,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkusNext(final String nextPageLink)
@@ -705,7 +705,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._node_agent_sku0506df69com.microsoft.azure.batch.protocol.models._account_list_node_agent_skus_headers9ec3e006
       description: <p>the List&lt;NodeAgentSku&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkusNextAsync(final String nextPageLink, final ServiceCall< List< NodeAgentSku >> serviceCall, final ListOperationCallback< NodeAgentSku > serviceCallback)
@@ -730,7 +730,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._node_agent_skud4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNext(final String,final AccountListNodeAgentSkusNextOptions)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkusNext(final String nextPageLink, final AccountListNodeAgentSkusNextOptions accountListNodeAgentSkusNextOptions)
@@ -761,7 +761,7 @@ references:
   summary: <p>Additional parameters for the ListNodeAgentSkusNext operation. </p>
   syntax:
     content: public class AccountListNodeAgentSkusNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
+- uid: com.microsoft.azure.batch.protocol._accounts.listNodeAgentSkusNextAsync(final String,final AccountListNodeAgentSkusNextOptions,final ServiceCall< List< NodeAgentSku >>,final ListOperationCallback< NodeAgentSku >)
   parent: com.microsoft.azure.batch.protocol._accounts
   href: com.microsoft.azure.batch.protocol._accounts.yml
   name: listNodeAgentSkusNextAsync(final String nextPageLink, final AccountListNodeAgentSkusNextOptions accountListNodeAgentSkusNextOptions, final ServiceCall< List< NodeAgentSku >> serviceCall, final ListOperationCallback< NodeAgentSku > serviceCallback)

@@ -36,8 +36,8 @@ items:
   - com.microsoft.rest._service_response.getBody()
   - com.microsoft.rest._service_response.getHeadResponse()
   - com.microsoft.rest._service_response.getResponse()
-  - classcom.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
-  - classcom.microsoft.rest._service_response.ServiceResponse(Response< Void >)
+  - com.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
+  - com.microsoft.rest._service_response.ServiceResponse(Response< Void >)
   - com.microsoft.rest._service_response.setBody(T)
 - uid: com.microsoft.azure._azure_response.AzureResponse(T,Response)
   id: AzureResponse(T,Response)
@@ -168,7 +168,7 @@ references:
     return:
       type: "1755e818"
       description: <p>the raw REST response. </p>
-- uid: classcom.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
+- uid: com.microsoft.rest._service_response.ServiceResponse(T,Response< ResponseBody >)
   parent: com.microsoft.rest._service_response
   href: com.microsoft.rest._service_response.yml
   name: ServiceResponse(T body, Response< ResponseBody > response)
@@ -187,7 +187,7 @@ references:
     - id: response
       type: "1755e818"
       description: <p>raw REST response </p>
-- uid: classcom.microsoft.rest._service_response.ServiceResponse(Response< Void >)
+- uid: com.microsoft.rest._service_response.ServiceResponse(Response< Void >)
   parent: com.microsoft.rest._service_response
   href: com.microsoft.rest._service_response.yml
   name: ServiceResponse(Response< Void > headResponse)

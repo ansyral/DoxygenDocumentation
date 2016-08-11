@@ -4,17 +4,17 @@ items:
   parent: com.microsoft.azure.management.compute.implementation
   children:
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.get(String,String,String,String,String)
-  - classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.getAsync(String,String,String,String,String,final ServiceCallback< VirtualMachineImageInner >)
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.getAsync(String,String,String,String,String,final ServiceCallback< VirtualMachineImageInner >)
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.list(String,String,String,String)
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.list(String,String,String,String,String,Integer,String)
-  - classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
-  - classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,String,Integer,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,String,Integer,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listOffers(String,String)
-  - classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listOffersAsync(String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listOffersAsync(String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listPublishers(String)
-  - classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listPublishersAsync(String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listPublishersAsync(String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listSkus(String,String,String)
-  - classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listSkusAsync(String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+  - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listSkusAsync(String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   - com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.VirtualMachineImagesInner(Retrofit,ComputeManagementClientImpl)
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml
   langs:
@@ -81,7 +81,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.getAsync(String,String,String,String,String,final ServiceCallback< VirtualMachineImageInner >)
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.getAsync(String,String,String,String,String,final ServiceCallback< VirtualMachineImageInner >)
   id: getAsync(String,String,String,String,String,final ServiceCallback< VirtualMachineImageInner >)
   parent: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml
@@ -218,7 +218,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   id: listAsync(String,String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   parent: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml
@@ -257,7 +257,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.management.compute.implementation._virtual_machine_image_resource_innerd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-- uid: classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,String,Integer,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listAsync(String,String,String,String,String,Integer,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   id: listAsync(String,String,String,String,String,Integer,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   parent: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml
@@ -342,7 +342,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listOffersAsync(String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listOffersAsync(String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   id: listOffersAsync(String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   parent: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml
@@ -409,7 +409,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listPublishersAsync(String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listPublishersAsync(String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   id: listPublishersAsync(String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   parent: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml
@@ -479,7 +479,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listSkusAsync(String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
+- uid: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.listSkusAsync(String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   id: listSkusAsync(String,String,String,final ServiceCallback< List< VirtualMachineImageResourceInner >>)
   parent: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner
   href: com.microsoft.azure.management.compute.implementation._virtual_machine_images_inner.yml

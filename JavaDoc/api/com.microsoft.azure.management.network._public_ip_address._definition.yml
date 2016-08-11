@@ -21,7 +21,7 @@ items:
     content: public interface Definition extends PublicIpAddress.DefinitionStages.Blank,PublicIpAddress.DefinitionStages.WithGroup,PublicIpAddress.DefinitionStages.WithCreate
   inheritedMembers:
   - com.microsoft.azure.management.resources.fluentcore.model._creatable.create()
-  - interfacecom.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
+  - com.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
   - com.microsoft.azure.management.resources.fluentcore.model._indexable.key()
   - com.microsoft.azure.management.resources.fluentcore.model._creatable.name()
   - com.microsoft.azure.management.network._public_ip_address._definition_stages._with_ip_address.withDynamicIp()
@@ -32,7 +32,7 @@ items:
   - com.microsoft.azure.management.network._public_ip_address._definitionbced8ddea27ac5c1965e42da5fdd25b6.withReverseFqdn(String)
   - com.microsoft.azure.management.network._public_ip_address._definition_stages._with_ip_address.withStaticIp()
   - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTag(String,String)
-  - interfacecom.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
 references:
 - uid: com.microsoft.azure.management.resources.fluentcore.model._creatable.create()
   parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
@@ -49,7 +49,7 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the create resource </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
+- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable.createAsync(ServiceCallback< T >)
   parent: com.microsoft.azure.management.resources.fluentcore.model._creatable
   href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
   name: createAsync(ServiceCallback< T > callback)
@@ -225,7 +225,7 @@ references:
     return:
       type: 8ce1ecb9
       description: <p>the next stage of the resource definition </p>
-- uid: interfacecom.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.withTags(Map< String, String >)
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09
   href: com.microsoft.azure.management.resources.fluentcore.arm.models.720b3efb4062edecc50de4ad58dc1c09.yml
   name: withTags(Map< String, String > tags)

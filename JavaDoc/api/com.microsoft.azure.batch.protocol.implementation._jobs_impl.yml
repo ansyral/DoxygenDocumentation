@@ -5,65 +5,65 @@ items:
   children:
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.add(JobAddParameter)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.add(JobAddParameter,JobAddOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.delete(String)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.delete(String,JobDeleteOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.disable(String,DisableJobOption)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.disable(String,DisableJobOption,JobDisableOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.enable(String)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.enable(String,JobEnableOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.get(String)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.get(String,JobGetOptions)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatistics()
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatistics(JobGetAllJobsLifetimeStatisticsOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,final ServiceCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,final ServiceCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.JobsImpl(Retrofit,BatchServiceClientImpl)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.list()
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.list(final JobListOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String,final JobListNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.list(final JobListOptions)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String,final JobListNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.patch(String,JobPatchParameter)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.patch(String,JobPatchParameter,JobPatchOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminate(String)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminate(String,String,JobTerminateOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.update(String,JobUpdateParameter)
   - com.microsoft.azure.batch.protocol.implementation._jobs_impl.update(String,JobUpdateParameter,JobUpdateOptions)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
-  - classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
+  - com.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
   langs:
   - java
@@ -157,7 +157,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,final ServiceCallback< Void >)
   id: addAsync(JobAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -187,8 +187,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
   id: addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -221,7 +221,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.delete(String)
   id: delete(String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -295,7 +295,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,final ServiceCallback< Void >)
   id: deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -325,8 +325,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.deleteAsync(String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
   id: deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -359,7 +359,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.disable(String,DisableJobOption)
   id: disable(String,DisableJobOption)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -439,7 +439,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
   id: disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -472,8 +472,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
   id: disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -509,7 +509,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.enable(String)
   id: enable(String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -583,7 +583,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,final ServiceCallback< Void >)
   id: enableAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -613,8 +613,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.enableAsync(String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.enableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
   id: enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -647,7 +647,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.get(String)
   id: get(String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -787,7 +787,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
   id: getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -814,8 +814,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._job_statistics9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
   id: getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -845,8 +845,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._job_statistics9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,final ServiceCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,final ServiceCallback< CloudJob >)
   id: getAsync(String,final ServiceCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -876,8 +876,8 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.getAsync(String,final ServiceCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.getAsync(String,final ServiceCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
   id: getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -910,7 +910,7 @@ items:
     return:
       type: com.microsoft.rest._service_call151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job9ec3e006
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.JobsImpl(Retrofit,BatchServiceClientImpl)
   id: JobsImpl(Retrofit,BatchServiceClientImpl)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -969,7 +969,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.list(final JobListOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.list(final JobListOptions)
   id: list(final JobListOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -996,7 +996,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.list(final JobListOptions)
+  overridden: com.microsoft.azure.batch.protocol._jobs.list(final JobListOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1004,7 +1004,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
   id: listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1034,8 +1034,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final ListOperationCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listAsync(final ListOperationCallback< CloudJob >)
   id: listAsync(final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1062,8 +1062,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listAsync(final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listAsync(final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String)
   id: listFromJobSchedule(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1090,7 +1090,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_from_job_schedule_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1098,7 +1098,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
   id: listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1128,7 +1128,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_from_job_schedule_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1136,7 +1136,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
   id: listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1169,8 +1169,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
   id: listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1200,8 +1200,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String)
   id: listFromJobScheduleNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1228,7 +1228,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_from_job_schedule_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1236,7 +1236,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
   id: listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1266,7 +1266,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_from_job_schedule_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1274,7 +1274,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   id: listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1310,8 +1310,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   id: listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1344,8 +1344,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String)
   id: listNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1372,7 +1372,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1380,7 +1380,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String,final JobListNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNext(final String,final JobListNextOptions)
   id: listNext(final String,final JobListNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1410,7 +1410,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listNext(final String,final JobListNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listNext(final String,final JobListNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1418,7 +1418,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   id: listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1454,8 +1454,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   id: listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1488,8 +1488,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String)
   id: listPreparationAndReleaseTaskStatus(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1516,7 +1516,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_information0506df69com.microsoft.azure.batch.protocol.models._job_list_preparation_and_release_task_status_headers9ec3e006
       description: <p>the List&lt;JobPreparationAndReleaseTaskExecutionInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1524,7 +1524,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
   id: listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1554,7 +1554,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_information0506df69com.microsoft.azure.batch.protocol.models._job_list_preparation_and_release_task_status_headers9ec3e006
       description: <p>the List&lt;JobPreparationAndReleaseTaskExecutionInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1562,7 +1562,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   id: listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1595,8 +1595,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   id: listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1626,8 +1626,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String)
   id: listPreparationAndReleaseTaskStatusNext(final String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1654,7 +1654,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_information0506df69com.microsoft.azure.batch.protocol.models._job_list_preparation_and_release_task_status_headers9ec3e006
       description: <p>the List&lt;JobPreparationAndReleaseTaskExecutionInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1662,7 +1662,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
   id: listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1692,7 +1692,7 @@ items:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_information0506df69com.microsoft.azure.batch.protocol.models._job_list_preparation_and_release_task_status_headers9ec3e006
       description: <p>the List&lt;JobPreparationAndReleaseTaskExecutionInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
   exceptions:
   - type: c8683d81
     description: <p>exception thrown from REST call </p>
@@ -1700,7 +1700,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   id: listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1736,8 +1736,8 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   id: listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1770,7 +1770,7 @@ items:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.patch(String,JobPatchParameter)
   id: patch(String,JobPatchParameter)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -1850,7 +1850,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
   id: patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1883,8 +1883,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
   id: patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -1920,7 +1920,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminate(String)
   id: terminate(String)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -1997,7 +1997,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,final ServiceCallback< Void >)
   id: terminateAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -2027,8 +2027,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.terminateAsync(String,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.terminateAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
   id: terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -2064,7 +2064,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
 - uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.update(String,JobUpdateParameter)
   id: update(String,JobUpdateParameter)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
@@ -2144,7 +2144,7 @@ items:
     description: <p>exception thrown from serialization/deserialization </p>
   - type: 3c87bd19
     description: <p>exception thrown from invalid parameters </p>
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
   id: updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -2177,8 +2177,8 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
-- uid: classcom.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol.implementation._jobs_impl.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
   id: updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol.implementation._jobs_impl
   href: com.microsoft.azure.batch.protocol.implementation._jobs_impl.yml
@@ -2214,7 +2214,7 @@ items:
     return:
       type: com.microsoft.rest._service_calle35e5465
       description: <p>the <ref refid="" kindref="compound">Call</ref> object </p>
-  overridden: interfacecom.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
+  overridden: com.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
 references:
 - uid: 964879b9
   spec.java:
@@ -2855,7 +2855,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>the type of the returning object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: getAllJobsLifetimeStatisticsAsync(final ServiceCallback< JobStatistics > serviceCallback)
@@ -2917,7 +2917,7 @@ references:
   summary: <p>Additional parameters for the Job_GetAllJobsLifetimeStatistics operation. </p>
   syntax:
     content: public class JobGetAllJobsLifetimeStatisticsOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
+- uid: com.microsoft.azure.batch.protocol._jobs.getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions,final ServiceCallback< JobStatistics >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: getAllJobsLifetimeStatisticsAsync(JobGetAllJobsLifetimeStatisticsOptions jobGetAllJobsLifetimeStatisticsOptions, final ServiceCallback< JobStatistics > serviceCallback)
@@ -2967,7 +2967,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_delete_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.deleteAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.deleteAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: deleteAsync(String jobId, final ServiceCallback< Void > serviceCallback)
@@ -3020,7 +3020,7 @@ references:
   summary: <p>Additional parameters for the Job_Delete operation. </p>
   syntax:
     content: public class JobDeleteOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.deleteAsync(String,JobDeleteOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: deleteAsync(String jobId, JobDeleteOptions jobDeleteOptions, final ServiceCallback< Void > serviceCallback)
@@ -3082,7 +3082,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._cloud_jobb33c76fccom.microsoft.azure.batch.protocol.models._job_get_headers9ec3e006
       description: <p>the CloudJob object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.getAsync(String,final ServiceCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.getAsync(String,final ServiceCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: getAsync(String jobId, final ServiceCallback< CloudJob > serviceCallback)
@@ -3135,7 +3135,7 @@ references:
   summary: <p>Additional parameters for the Job_Get operation. </p>
   syntax:
     content: public class JobGetOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.getAsync(String,JobGetOptions,final ServiceCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: getAsync(String jobId, JobGetOptions jobGetOptions, final ServiceCallback< CloudJob > serviceCallback)
@@ -3200,7 +3200,7 @@ references:
   summary: <p>Parameters for a CloudJobOperations.Patch request. </p>
   syntax:
     content: public class JobPatchParameter
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: patchAsync(String jobId, JobPatchParameter jobPatchParameter, final ServiceCallback< Void > serviceCallback)
@@ -3259,7 +3259,7 @@ references:
   summary: <p>Additional parameters for the Job_Patch operation. </p>
   syntax:
     content: public class JobPatchOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.patchAsync(String,JobPatchParameter,JobPatchOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: patchAsync(String jobId, JobPatchParameter jobPatchParameter, JobPatchOptions jobPatchOptions, final ServiceCallback< Void > serviceCallback)
@@ -3327,7 +3327,7 @@ references:
   summary: <p>Parameters for a CloudJobOperations.Update request. </p>
   syntax:
     content: public class JobUpdateParameter
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: updateAsync(String jobId, JobUpdateParameter jobUpdateParameter, final ServiceCallback< Void > serviceCallback)
@@ -3386,7 +3386,7 @@ references:
   summary: <p>Additional parameters for the Job_Update operation. </p>
   syntax:
     content: public class JobUpdateOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.updateAsync(String,JobUpdateParameter,JobUpdateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: updateAsync(String jobId, JobUpdateParameter jobUpdateParameter, JobUpdateOptions jobUpdateOptions, final ServiceCallback< Void > serviceCallback)
@@ -3454,7 +3454,7 @@ references:
   summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._disable_job_option" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public enum DisableJobOption
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: disableAsync(String jobId, DisableJobOption disableTasks, final ServiceCallback< Void > serviceCallback)
@@ -3513,7 +3513,7 @@ references:
   summary: <p>Additional parameters for the Job_Disable operation. </p>
   syntax:
     content: public class JobDisableOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.disableAsync(String,DisableJobOption,JobDisableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: disableAsync(String jobId, DisableJobOption disableTasks, JobDisableOptions jobDisableOptions, final ServiceCallback< Void > serviceCallback)
@@ -3569,7 +3569,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_enable_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.enableAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.enableAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: enableAsync(String jobId, final ServiceCallback< Void > serviceCallback)
@@ -3622,7 +3622,7 @@ references:
   summary: <p>Additional parameters for the Job_Enable operation. </p>
   syntax:
     content: public class JobEnableOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.enableAsync(String,JobEnableOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: enableAsync(String jobId, JobEnableOptions jobEnableOptions, final ServiceCallback< Void > serviceCallback)
@@ -3675,7 +3675,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headersd167e849com.microsoft.azure.batch.protocol.models._job_terminate_headers9ec3e006
       description: <p>the <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> object if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.terminateAsync(String,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.terminateAsync(String,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: terminateAsync(String jobId, final ServiceCallback< Void > serviceCallback)
@@ -3731,7 +3731,7 @@ references:
   summary: <p>Additional parameters for the Job_Terminate operation. </p>
   syntax:
     content: public class JobTerminateOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.terminateAsync(String,String,JobTerminateOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: terminateAsync(String jobId, String terminateReason, JobTerminateOptions jobTerminateOptions, final ServiceCallback< Void > serviceCallback)
@@ -3796,7 +3796,7 @@ references:
   summary: <p>An <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> Batch job to add. </p>
   syntax:
     content: public class JobAddParameter
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: addAsync(JobAddParameter job, final ServiceCallback< Void > serviceCallback)
@@ -3849,7 +3849,7 @@ references:
   summary: <p>Additional parameters for the Job_Add operation. </p>
   syntax:
     content: public class JobAddOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
+- uid: com.microsoft.azure.batch.protocol._jobs.addAsync(JobAddParameter,JobAddOptions,final ServiceCallback< Void >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: addAsync(JobAddParameter job, JobAddOptions jobAddOptions, final ServiceCallback< Void > serviceCallback)
@@ -3913,7 +3913,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listAsync(final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listAsync(final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listAsync(final ListOperationCallback< CloudJob > serviceCallback)
@@ -3947,7 +3947,7 @@ references:
     typeParameters:
     - type: 0ca03e3a
       description: <p>the item type </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.list(final JobListOptions)
+- uid: com.microsoft.azure.batch.protocol._jobs.list(final JobListOptions)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: list(final JobListOptions jobListOptions)
@@ -3975,7 +3975,7 @@ references:
   summary: <p>Additional parameters for the Job_List operation. </p>
   syntax:
     content: public class JobListOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listAsync(final JobListOptions,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listAsync(final JobListOptions jobListOptions, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4006,7 +4006,7 @@ references:
   summary: <p>Defines headers for ListFromJobSchedule operation. </p>
   syntax:
     content: public class JobListFromJobScheduleHeaders
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobSchedule(final String jobScheduleId)
@@ -4025,7 +4025,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_from_job_schedule_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobScheduleAsync(final String jobScheduleId, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4047,7 +4047,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobSchedule(final String jobScheduleId, final JobListFromJobScheduleOptions jobListFromJobScheduleOptions)
@@ -4078,7 +4078,7 @@ references:
   summary: <p>Additional parameters for the Job_ListFromJobSchedule operation. </p>
   syntax:
     content: public class JobListFromJobScheduleOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleAsync(final String,final JobListFromJobScheduleOptions,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobScheduleAsync(final String jobScheduleId, final JobListFromJobScheduleOptions jobListFromJobScheduleOptions, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4121,7 +4121,7 @@ references:
   summary: <p>Defines headers for ListPreparationAndReleaseTaskStatus operation. </p>
   syntax:
     content: public class JobListPreparationAndReleaseTaskStatusHeaders
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatus(final String jobId)
@@ -4140,7 +4140,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure._paged_list151dc42ccom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_information0506df69com.microsoft.azure.batch.protocol.models._job_list_preparation_and_release_task_status_headers9ec3e006
       description: <p>the List&lt;JobPreparationAndReleaseTaskExecutionInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatusAsync(final String jobId, final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation > serviceCallback)
@@ -4162,7 +4162,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatus(final String,final JobListPreparationAndReleaseTaskStatusOptions)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatus(final String jobId, final JobListPreparationAndReleaseTaskStatusOptions jobListPreparationAndReleaseTaskStatusOptions)
@@ -4193,7 +4193,7 @@ references:
   summary: <p>Additional parameters for the Job_ListPreparationAndReleaseTaskStatus operation. </p>
   syntax:
     content: public class JobListPreparationAndReleaseTaskStatusOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusAsync(final String,final JobListPreparationAndReleaseTaskStatusOptions,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatusAsync(final String jobId, final JobListPreparationAndReleaseTaskStatusOptions jobListPreparationAndReleaseTaskStatusOptions, final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation > serviceCallback)
@@ -4233,7 +4233,7 @@ references:
     typeParameters:
     - type: 8ce1ecb9
       description: <p>type of <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref> resource </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listNext(final String)
+- uid: com.microsoft.azure.batch.protocol._jobs.listNext(final String)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listNext(final String nextPageLink)
@@ -4252,7 +4252,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listNextAsync(final String nextPageLink, final ServiceCall< List< CloudJob >> serviceCall, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4277,7 +4277,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listNext(final String,final JobListNextOptions)
+- uid: com.microsoft.azure.batch.protocol._jobs.listNext(final String,final JobListNextOptions)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listNext(final String nextPageLink, final JobListNextOptions jobListNextOptions)
@@ -4308,7 +4308,7 @@ references:
   summary: <p>Additional parameters for the ListNext operation. </p>
   syntax:
     content: public class JobListNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listNextAsync(final String,final JobListNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listNextAsync(final String nextPageLink, final JobListNextOptions jobListNextOptions, final ServiceCall< List< CloudJob >> serviceCall, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4336,7 +4336,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobScheduleNext(final String nextPageLink)
@@ -4355,7 +4355,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._cloud_job0506df69com.microsoft.azure.batch.protocol.models._job_list_from_job_schedule_headers9ec3e006
       description: <p>the List&lt;CloudJob&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobScheduleNextAsync(final String nextPageLink, final ServiceCall< List< CloudJob >> serviceCall, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4380,7 +4380,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNext(final String,final JobListFromJobScheduleNextOptions)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobScheduleNext(final String nextPageLink, final JobListFromJobScheduleNextOptions jobListFromJobScheduleNextOptions)
@@ -4411,7 +4411,7 @@ references:
   summary: <p>Additional parameters for the ListFromJobScheduleNext operation. </p>
   syntax:
     content: public class JobListFromJobScheduleNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listFromJobScheduleNextAsync(final String,final JobListFromJobScheduleNextOptions,final ServiceCall< List< CloudJob >>,final ListOperationCallback< CloudJob >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listFromJobScheduleNextAsync(final String nextPageLink, final JobListFromJobScheduleNextOptions jobListFromJobScheduleNextOptions, final ServiceCall< List< CloudJob >> serviceCall, final ListOperationCallback< CloudJob > serviceCallback)
@@ -4439,7 +4439,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._cloud_jobd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatusNext(final String nextPageLink)
@@ -4458,7 +4458,7 @@ references:
     return:
       type: com.microsoft.rest._service_response_with_headers151dc42ccom.microsoft.azure.batch.protocol.models._page_impl151dc42ccom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_information0506df69com.microsoft.azure.batch.protocol.models._job_list_preparation_and_release_task_status_headers9ec3e006
       description: <p>the List&lt;JobPreparationAndReleaseTaskExecutionInformation&gt; object wrapped in <ref refid="" kindref="compound">ServiceResponseWithHeaders</ref> if successful. </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatusNextAsync(final String nextPageLink, final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >> serviceCall, final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation > serviceCallback)
@@ -4483,7 +4483,7 @@ references:
     return:
       type: com.microsoft.rest._service_callf93d48dacom.microsoft.azure.batch.protocol.models._job_preparation_and_release_task_execution_informationd4c4bc88
       description: <p>the <ref refid="" kindref="compound">ServiceCall</ref> object </p>
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNext(final String,final JobListPreparationAndReleaseTaskStatusNextOptions)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatusNext(final String nextPageLink, final JobListPreparationAndReleaseTaskStatusNextOptions jobListPreparationAndReleaseTaskStatusNextOptions)
@@ -4514,7 +4514,7 @@ references:
   summary: <p>Additional parameters for the ListPreparationAndReleaseTaskStatusNext operation. </p>
   syntax:
     content: public class JobListPreparationAndReleaseTaskStatusNextOptions
-- uid: interfacecom.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
+- uid: com.microsoft.azure.batch.protocol._jobs.listPreparationAndReleaseTaskStatusNextAsync(final String,final JobListPreparationAndReleaseTaskStatusNextOptions,final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >>,final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation >)
   parent: com.microsoft.azure.batch.protocol._jobs
   href: com.microsoft.azure.batch.protocol._jobs.yml
   name: listPreparationAndReleaseTaskStatusNextAsync(final String nextPageLink, final JobListPreparationAndReleaseTaskStatusNextOptions jobListPreparationAndReleaseTaskStatusNextOptions, final ServiceCall< List< JobPreparationAndReleaseTaskExecutionInformation >> serviceCall, final ListOperationCallback< JobPreparationAndReleaseTaskExecutionInformation > serviceCallback)
