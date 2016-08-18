@@ -1191,15 +1191,6 @@ references:
   summary: <p>Grouping of network interface definition stages. </p>
   syntax:
     content: public interface DefinitionStages
-- uid: com.microsoft.azure.management.network._network_security_group._definition_stages
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_group._definition_stages.yml
-  name: NetworkSecurityGroup.DefinitionStages
-  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages
-  type: Interface
-  summary: <p>Grouping of network security group definition stages. </p>
-  syntax:
-    content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_stages
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_stages.yml
@@ -1236,6 +1227,15 @@ references:
   summary: <p>Grouping of subnet definition stages. </p>
   syntax:
     content: public interface DefinitionStages
+- uid: com.microsoft.azure.management.network._network_security_group._definition_stages
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_stages.yml
+  name: NetworkSecurityGroup.DefinitionStages
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages
+  type: Interface
+  summary: <p>Grouping of network security group definition stages. </p>
+  syntax:
+    content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.network._network._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._update.yml
@@ -1248,15 +1248,6 @@ references:
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Update extends Appliable< Network >,Resource.UpdateWithTags< Update >,Network.UpdateStages.WithSubnet,Network.UpdateStages.WithDnsServer,Network.UpdateStages.WithAddressSpace
-- uid: com.microsoft.azure.management.network._nic_ip_configuration._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
-  name: NicIpConfiguration.Update
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
-  type: Interface
-  summary: <p>The entirety of a network interface IP configuration update as part of a network interface update. </p>
-  syntax:
-    content: public interface Update extends Settable< NetworkInterface.Update >,NicIpConfiguration.UpdateStages.WithSubnet,NicIpConfiguration.UpdateStages.WithPrivateIp,NicIpConfiguration.UpdateStages.WithPublicIpAddress,NicIpConfiguration.UpdateStages.WithLoadBalancer,NicIpConfiguration.UpdateStages.WithBackendAddressPool
 - uid: com.microsoft.azure.management.network._public_ip_address._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._update.yml
@@ -1269,36 +1260,6 @@ references:
     <p>Use <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Update extends Appliable< PublicIpAddress >,PublicIpAddress.UpdateStages.WithIpAddress,PublicIpAddress.UpdateStages.WithLeafDomainLabel,PublicIpAddress.UpdateStages.WithReverseFQDN,PublicIpAddress.UpdateStages.WithIdleTimout,Resource.UpdateWithTags< Update >
-- uid: com.microsoft.azure.management.network._subnet._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._subnet._update.yml
-  name: Subnet.Update
-  fullName: com.microsoft.azure.management.network.Subnet.Update
-  type: Interface
-  summary: <p>The entirety of a subnet update as part of a network update. </p>
-  syntax:
-    content: public interface Update extends Subnet.UpdateStages.WithAddressPrefix,Subnet.UpdateStages.WithNetworkSecurityGroup,Settable< Network.Update >
-- uid: com.microsoft.azure.management.network._load_balancer._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._load_balancer._update.yml
-  name: LoadBalancer.Update
-  fullName: com.microsoft.azure.management.network.LoadBalancer.Update
-  type: Interface
-  summary: >-
-    <p>The template for a load balancer update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
-  syntax:
-    content: public interface Update extends Appliable< LoadBalancer >,Resource.UpdateWithTags< Update >
-- uid: com.microsoft.azure.management.network._network_security_rule._update
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._update.yml
-  name: NetworkSecurityRule.Update
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Update
-  type: Interface
-  summary: <p>The entirety of a security rule update as part of a network security group update. </p>
-  syntax:
-    content: public interface Update extends NetworkSecurityRule.UpdateStages.WithDirectionAccess,NetworkSecurityRule.UpdateStages.WithSourceAddress,NetworkSecurityRule.UpdateStages.WithSourcePort,NetworkSecurityRule.UpdateStages.WithDestinationAddress,NetworkSecurityRule.UpdateStages.WithDestinationPort,NetworkSecurityRule.UpdateStages.WithProtocol,Settable< NetworkSecurityGroup.Update >
 - uid: com.microsoft.azure.management.network._network_security_group._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._update.yml
@@ -1311,6 +1272,45 @@ references:
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Update extends Appliable< NetworkSecurityGroup >,Resource.UpdateWithTags< Update >,NetworkSecurityGroup.UpdateStages.WithRule
+- uid: com.microsoft.azure.management.network._load_balancer._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._load_balancer._update.yml
+  name: LoadBalancer.Update
+  fullName: com.microsoft.azure.management.network.LoadBalancer.Update
+  type: Interface
+  summary: >-
+    <p>The template for a load balancer update operation, containing all the settings that can be modified. </p>
+
+    <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public interface Update extends Appliable< LoadBalancer >,Resource.UpdateWithTags< Update >
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update.yml
+  name: NicIpConfiguration.Update
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.Update
+  type: Interface
+  summary: <p>The entirety of a network interface IP configuration update as part of a network interface update. </p>
+  syntax:
+    content: public interface Update extends Settable< NetworkInterface.Update >,NicIpConfiguration.UpdateStages.WithSubnet,NicIpConfiguration.UpdateStages.WithPrivateIp,NicIpConfiguration.UpdateStages.WithPublicIpAddress,NicIpConfiguration.UpdateStages.WithLoadBalancer,NicIpConfiguration.UpdateStages.WithBackendAddressPool
+- uid: com.microsoft.azure.management.network._subnet._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._subnet._update.yml
+  name: Subnet.Update
+  fullName: com.microsoft.azure.management.network.Subnet.Update
+  type: Interface
+  summary: <p>The entirety of a subnet update as part of a network update. </p>
+  syntax:
+    content: public interface Update extends Subnet.UpdateStages.WithAddressPrefix,Subnet.UpdateStages.WithNetworkSecurityGroup,Settable< Network.Update >
+- uid: com.microsoft.azure.management.network._network_security_rule._update
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._update.yml
+  name: NetworkSecurityRule.Update
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Update
+  type: Interface
+  summary: <p>The entirety of a security rule update as part of a network security group update. </p>
+  syntax:
+    content: public interface Update extends NetworkSecurityRule.UpdateStages.WithDirectionAccess,NetworkSecurityRule.UpdateStages.WithSourceAddress,NetworkSecurityRule.UpdateStages.WithSourcePort,NetworkSecurityRule.UpdateStages.WithDestinationAddress,NetworkSecurityRule.UpdateStages.WithDestinationPort,NetworkSecurityRule.UpdateStages.WithProtocol,Settable< NetworkSecurityGroup.Update >
 - uid: com.microsoft.azure.management.network._network_interface._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._update.yml
@@ -1323,18 +1323,6 @@ references:
     <p>Call <xref href="com.microsoft.azure.management.resources.fluentcore.model._appliable.apply()" data-throw-if-not-resolved="false"></xref> to apply the changes to the resource in <xref href="com.microsoft.azure._azure" data-throw-if-not-resolved="false"></xref>. </p>
   syntax:
     content: public interface Update extends Appliable< NetworkInterface >,Resource.UpdateWithTags< Update >,NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet,NetworkInterface.UpdateStages.WithPrimaryPrivateIp,NetworkInterface.UpdateStages.WithPrimaryPublicIpAddress,NetworkInterface.UpdateStages.WithNetworkSecurityGroup,NetworkInterface.UpdateStages.WithIpForwarding,NetworkInterface.UpdateStages.WithDnsServer,NetworkInterface.UpdateStages.WithIpConfiguration
-- uid: com.microsoft.azure.management.network._network_security_rule._update_definition
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._update_definition.yml
-  name: NetworkSecurityRule.UpdateDefinition<ParentT>
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinition<ParentT>
-  type: Interface
-  summary: <p>The entirety of a network security rule definition as part of a network security group update. </p>
-  syntax:
-    content: public interface UpdateDefinition<ParentT> extends NetworkSecurityRule.UpdateDefinitionStages.Blank< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithSourceAddress< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithSourcePort< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithDestinationAddress< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithDestinationPort< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithProtocol< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithAttach< ParentT >
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of the final <ref refid="" kindref="compound">UpdateDefinitionStages.WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._subnet._update_definition
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._update_definition.yml
@@ -1344,6 +1332,18 @@ references:
   summary: <p>The entirety of a subnet definition as part of a virtual network update. </p>
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Subnet.UpdateDefinitionStages.Blank< ParentT >,Subnet.UpdateDefinitionStages.WithAddressPrefix< ParentT >,Subnet.UpdateDefinitionStages.WithNetworkSecurityGroup< ParentT >,Subnet.UpdateDefinitionStages.WithAttach< ParentT >
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of the final <ref refid="" kindref="compound">UpdateDefinitionStages.WithAttach#attach()</ref></p>
+- uid: com.microsoft.azure.management.network._network_security_rule._update_definition
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._update_definition.yml
+  name: NetworkSecurityRule.UpdateDefinition<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinition<ParentT>
+  type: Interface
+  summary: <p>The entirety of a network security rule definition as part of a network security group update. </p>
+  syntax:
+    content: public interface UpdateDefinition<ParentT> extends NetworkSecurityRule.UpdateDefinitionStages.Blank< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithSourceAddress< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithSourcePort< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithDestinationAddress< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithDestinationPort< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithProtocol< ParentT >,NetworkSecurityRule.UpdateDefinitionStages.WithAttach< ParentT >
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">UpdateDefinitionStages.WithAttach#attach()</ref></p>
@@ -1359,6 +1359,15 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">UpdateDefinitionStages.WithAttach#attach()</ref></p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_definition_stages
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update_definition_stages.yml
+  name: NicIpConfiguration.UpdateDefinitionStages
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateDefinitionStages
+  type: Interface
+  summary: <p>Grouping of network interface IP configuration definition stages. </p>
+  syntax:
+    content: public interface UpdateDefinitionStages
 - uid: com.microsoft.azure.management.network._subnet._update_definition_stages
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._update_definition_stages.yml
@@ -1377,15 +1386,33 @@ references:
   summary: <p>Grouping of security rule definition stages applicable as part of a network security group update. </p>
   syntax:
     content: public interface UpdateDefinitionStages
-- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_definition_stages
+- uid: com.microsoft.azure.management.network._public_ip_address._update_stages
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._nic_ip_configuration._update_definition_stages.yml
-  name: NicIpConfiguration.UpdateDefinitionStages
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateDefinitionStages
+  href: com.microsoft.azure.management.network._public_ip_address._update_stages.yml
+  name: PublicIpAddress.UpdateStages
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateStages
   type: Interface
-  summary: <p>Grouping of network interface IP configuration definition stages. </p>
+  summary: <p>Grouping of public IP address update stages. </p>
   syntax:
-    content: public interface UpdateDefinitionStages
+    content: public interface UpdateStages
+- uid: com.microsoft.azure.management.network._load_balancer._update_stages
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._load_balancer._update_stages.yml
+  name: LoadBalancer.UpdateStages
+  fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages
+  type: Interface
+  summary: <p>Grouping of load balancer update stages. </p>
+  syntax:
+    content: public interface UpdateStages
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages.yml
+  name: NicIpConfiguration.UpdateStages
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateStages
+  type: Interface
+  summary: <p>Grouping of network interface IP configuration update stages. </p>
+  syntax:
+    content: public interface UpdateStages
 - uid: com.microsoft.azure.management.network._network_security_group._update_stages
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._update_stages.yml
@@ -1413,33 +1440,6 @@ references:
   summary: <p>Grouping of subnet update stages. </p>
   syntax:
     content: public interface UpdateStages
-- uid: com.microsoft.azure.management.network._public_ip_address._update_stages
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._update_stages.yml
-  name: PublicIpAddress.UpdateStages
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateStages
-  type: Interface
-  summary: <p>Grouping of public IP address update stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.network._network._update_stages
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._update_stages.yml
-  name: Network.UpdateStages
-  fullName: com.microsoft.azure.management.network.Network.UpdateStages
-  type: Interface
-  summary: <p>Grouping of virtual network update stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.network._load_balancer._update_stages
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._load_balancer._update_stages.yml
-  name: LoadBalancer.UpdateStages
-  fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages
-  type: Interface
-  summary: <p>Grouping of load balancer update stages. </p>
-  syntax:
-    content: public interface UpdateStages
 - uid: com.microsoft.azure.management.network._network_interface._update_stages
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._update_stages.yml
@@ -1449,13 +1449,13 @@ references:
   summary: <p>Grouping of network interface update stages. </p>
   syntax:
     content: public interface UpdateStages
-- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages
+- uid: com.microsoft.azure.management.network._network._update_stages
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages.yml
-  name: NicIpConfiguration.UpdateStages
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateStages
+  href: com.microsoft.azure.management.network._network._update_stages.yml
+  name: Network.UpdateStages
+  fullName: com.microsoft.azure.management.network.Network.UpdateStages
   type: Interface
-  summary: <p>Grouping of network interface IP configuration update stages. </p>
+  summary: <p>Grouping of virtual network update stages. </p>
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.network._subnet._update_definition_stages._with_address_prefix
@@ -1500,6 +1500,21 @@ references:
   summary: <p>The stage of the virtual network update allowing to specify the address space. </p>
   syntax:
     content: public interface WithAddressSpace
+- uid: com.microsoft.azure.management.network._network_security_rule._updatef364b26b1f5821c0720c3f0a2b5df9fc
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._updatef364b26b1f5821c0720c3f0a2b5df9fc.yml
+  name: NetworkSecurityRule.UpdateDefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: >-
+    <p>The final stage of the security rule definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <ref refid="" kindref="compound">WithAttach#attach()</ref>. </p>
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable< ParentT >.InUpdate
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_attach
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_attach.yml
@@ -1547,21 +1562,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
-- uid: com.microsoft.azure.management.network._network_security_rule._updatef364b26b1f5821c0720c3f0a2b5df9fc
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._updatef364b26b1f5821c0720c3f0a2b5df9fc.yml
-  name: NetworkSecurityRule.UpdateDefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: >-
-    <p>The final stage of the security rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the security rule definition can be attached to the parent network security group definition using <ref refid="" kindref="compound">WithAttach#attach()</ref>. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable< ParentT >.InUpdate
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_b03bb382568b5bfa54cd6309635c9089
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._update_b03bb382568b5bfa54cd6309635c9089.yml
@@ -1603,24 +1603,6 @@ references:
   summary: <p>The stage of the network interface IP configuration update allowing to specify the load balancer back end address pool to add it to. </p>
   syntax:
     content: public interface WithBackendAddressPool
-- uid: com.microsoft.azure.management.network._network_interface._definition_stages._with_create
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_stages._with_create.yml
-  name: NetworkInterface.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable.create()" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable< NetworkInterface >,Resource.DefinitionWithTags< WithCreate >,NetworkInterface.DefinitionStages.WithPrimaryPublicIpAddress,NetworkInterface.DefinitionStages.WithNetworkSecurityGroup,NetworkInterface.DefinitionStages.WithSecondaryIpConfiguration
-- uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_create
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_create.yml
-  name: LoadBalancer.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>The stage of the load balancer definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable.create()" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable< LoadBalancer >,Resource.DefinitionWithTags< WithCreate >,LoadBalancer.DefinitionStages.WithPublicIpAddresses
 - uid: com.microsoft.azure.management.network._network._definition_stages._with_create
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_stages._with_create.yml
@@ -1651,6 +1633,24 @@ references:
   summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable.create()" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
   syntax:
     content: public interface WithCreate extends Creatable< PublicIpAddress >,PublicIpAddress.DefinitionStages.WithLeafDomainLabel,PublicIpAddress.DefinitionStages.WithIpAddress,PublicIpAddress.DefinitionStages.WithReverseFQDN,PublicIpAddress.DefinitionStages.WithIdleTimeout,Resource.DefinitionWithTags< WithCreate >
+- uid: com.microsoft.azure.management.network._network_interface._definition_stages._with_create
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition_stages._with_create.yml
+  name: NetworkInterface.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
+  type: Interface
+  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable.create()" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface WithCreate extends Creatable< NetworkInterface >,Resource.DefinitionWithTags< WithCreate >,NetworkInterface.DefinitionStages.WithPrimaryPublicIpAddress,NetworkInterface.DefinitionStages.WithNetworkSecurityGroup,NetworkInterface.DefinitionStages.WithSecondaryIpConfiguration
+- uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_create
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_create.yml
+  name: LoadBalancer.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreate
+  type: Interface
+  summary: <p>The stage of the load balancer definition which contains all the minimum required inputs for the resource to be created (via <xref href="com.microsoft.azure.management.resources.fluentcore.model._creatable.create()" data-throw-if-not-resolved="false"></xref>), but also allows for any other optional settings to be specified. </p>
+  syntax:
+    content: public interface WithCreate extends Creatable< LoadBalancer >,Resource.DefinitionWithTags< WithCreate >,LoadBalancer.DefinitionStages.WithPublicIpAddresses
 - uid: com.microsoft.azure.management.network._network._definition_stages._with_create_and_subnet
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_stages._with_create_and_subnet.yml
@@ -1681,18 +1681,6 @@ references:
   summary: <p>The stage of the network rule description allowing the destination address to be specified. </p>
   syntax:
     content: public interface WithDestinationAddress
-- uid: com.microsoft.azure.management.network._network_security_rule._definibb4c2587790f5ace959eecd95ec9cd3f
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definibb4c2587790f5ace959eecd95ec9cd3f.yml
-  name: NetworkSecurityRule.DefinitionStages.WithDestinationAddress<ParentT>
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithDestinationAddress<ParentT>
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
-  syntax:
-    content: public interface WithDestinationAddress<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._network_security_rule._update878489e446ef4f27a75c3a05b6ce7bfd
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._update878489e446ef4f27a75c3a05b6ce7bfd.yml
@@ -1705,15 +1693,15 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
-- uid: com.microsoft.azure.management.network._network_security_rule._definib65495f9d0212959cf16f0f9a2f9f83a
+- uid: com.microsoft.azure.management.network._network_security_rule._definibb4c2587790f5ace959eecd95ec9cd3f
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._definib65495f9d0212959cf16f0f9a2f9f83a.yml
-  name: NetworkSecurityRule.DefinitionStages.WithDestinationPort<ParentT>
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithDestinationPort<ParentT>
+  href: com.microsoft.azure.management.network._network_security_rule._definibb4c2587790f5ace959eecd95ec9cd3f.yml
+  name: NetworkSecurityRule.DefinitionStages.WithDestinationAddress<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithDestinationAddress<ParentT>
   type: Interface
-  summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
+  summary: <p>The stage of the network rule definition allowing the destination address to be specified. </p>
   syntax:
-    content: public interface WithDestinationPort<ParentT>
+    content: public interface WithDestinationAddress<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
@@ -1722,6 +1710,18 @@ references:
   href: com.microsoft.azure.management.network._network_security_rule._update3dbf7cfcbf9c42bb857ebf4f4617699a.yml
   name: NetworkSecurityRule.UpdateDefinitionStages.WithDestinationPort<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.WithDestinationPort<ParentT>
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
+  syntax:
+    content: public interface WithDestinationPort<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
+- uid: com.microsoft.azure.management.network._network_security_rule._definib65495f9d0212959cf16f0f9a2f9f83a
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._definib65495f9d0212959cf16f0f9a2f9f83a.yml
+  name: NetworkSecurityRule.DefinitionStages.WithDestinationPort<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithDestinationPort<ParentT>
   type: Interface
   summary: <p>The stage of the network rule definition allowing the destination port(s) to be specified. </p>
   syntax:
@@ -1747,18 +1747,6 @@ references:
   summary: <p>The stage of the network rule description allowing the direction and the access type to be specified. </p>
   syntax:
     content: public interface WithDirectionAccess
-- uid: com.microsoft.azure.management.network._network_security_rule._update4ad42f79306768ce22953a4b2d43e793
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._update4ad42f79306768ce22953a4b2d43e793.yml
-  name: NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess<ParentT>
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess<ParentT>
-  type: Interface
-  summary: <p>The stage of the network rule description allowing the direction and the access type to be specified. </p>
-  syntax:
-    content: public interface WithDirectionAccess<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._network_security_rule._defini74d972150cc5c8ff9a4cdb52e30d7d4f
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._defini74d972150cc5c8ff9a4cdb52e30d7d4f.yml
@@ -1771,15 +1759,18 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
-- uid: com.microsoft.azure.management.network._network_interface._update_stages._with_dns_server
+- uid: com.microsoft.azure.management.network._network_security_rule._update4ad42f79306768ce22953a4b2d43e793
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._update_stages._with_dns_server.yml
-  name: NetworkInterface.UpdateStages.WithDnsServer
-  fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer
+  href: com.microsoft.azure.management.network._network_security_rule._update4ad42f79306768ce22953a4b2d43e793.yml
+  name: NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess<ParentT>
   type: Interface
-  summary: <p>The stage of the network interface update allowing to specify DNS servers. </p>
+  summary: <p>The stage of the network rule description allowing the direction and the access type to be specified. </p>
   syntax:
-    content: public interface WithDnsServer
+    content: public interface WithDirectionAccess<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._network._update_stages._with_dns_server
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._update_stages._with_dns_server.yml
@@ -1789,24 +1780,24 @@ references:
   summary: <p>The stage of the virtual network update allowing to specify the DNS server. </p>
   syntax:
     content: public interface WithDnsServer
-- uid: com.microsoft.azure.management.network._network_security_group._definition_stages._with_group
+- uid: com.microsoft.azure.management.network._network_interface._update_stages._with_dns_server
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_group._definition_stages._with_group.yml
-  name: NetworkSecurityGroup.DefinitionStages.WithGroup
-  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages.WithGroup
+  href: com.microsoft.azure.management.network._network_interface._update_stages._with_dns_server.yml
+  name: NetworkInterface.UpdateStages.WithDnsServer
+  fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer
   type: Interface
-  summary: <p>The stage allowing to specify the resource group. </p>
+  summary: <p>The stage of the network interface update allowing to specify DNS servers. </p>
   syntax:
-    content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithCreate >
-- uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_group
+    content: public interface WithDnsServer
+- uid: com.microsoft.azure.management.network._network_interface._definition_stages._with_group
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_group.yml
-  name: LoadBalancer.DefinitionStages.WithGroup
-  fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithGroup
+  href: com.microsoft.azure.management.network._network_interface._definition_stages._with_group.yml
+  name: NetworkInterface.DefinitionStages.WithGroup
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the load balancer definition allowing to specify the resource group. </p>
+  summary: <p>The stage of the network interface definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithVirtualMachine >
+    content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithPrimaryNetwork >
 - uid: com.microsoft.azure.management.network._network._definition_stages._with_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network._definition_stages._with_group.yml
@@ -1825,15 +1816,24 @@ references:
   summary: <p>The stage of the public IP address definition allowing to specify the resource group. </p>
   syntax:
     content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithCreate >
-- uid: com.microsoft.azure.management.network._network_interface._definition_stages._with_group
+- uid: com.microsoft.azure.management.network._load_balancer._definition_stages._with_group
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition_stages._with_group.yml
-  name: NetworkInterface.DefinitionStages.WithGroup
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup
+  href: com.microsoft.azure.management.network._load_balancer._definition_stages._with_group.yml
+  name: LoadBalancer.DefinitionStages.WithGroup
+  fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify the resource group. </p>
+  summary: <p>The stage of the load balancer definition allowing to specify the resource group. </p>
   syntax:
-    content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithPrimaryNetwork >
+    content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithVirtualMachine >
+- uid: com.microsoft.azure.management.network._network_security_group._definition_stages._with_group
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._definition_stages._with_group.yml
+  name: NetworkSecurityGroup.DefinitionStages.WithGroup
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages.WithGroup
+  type: Interface
+  summary: <p>The stage allowing to specify the resource group. </p>
+  syntax:
+    content: public interface WithGroup extends GroupableResource.DefinitionStages.WithGroup< WithCreate >
 - uid: com.microsoft.azure.management.network._public_ip_address._definition_stages._with_idle_timeout
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._definition_stages._with_idle_timeout.yml
@@ -1888,15 +1888,6 @@ references:
   summary: <p>The stage of the network interface update allowing to enable or disable IP forwarding. </p>
   syntax:
     content: public interface WithIpForwarding
-- uid: com.microsoft.azure.management.network._public_ip_address._definition47b7d72dd27c231fc73e12d2ab637377
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._public_ip_address._definition47b7d72dd27c231fc73e12d2ab637377.yml
-  name: PublicIpAddress.DefinitionStages.WithLeafDomainLabel
-  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionStages.WithLeafDomainLabel
-  type: Interface
-  summary: <p>A public IP address definition allowing to specify the leaf domain label, if any. </p>
-  syntax:
-    content: public interface WithLeafDomainLabel
 - uid: com.microsoft.azure.management.network._public_ip_address._update_stages._with_leaf_domain_label
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._public_ip_address._update_stages._with_leaf_domain_label.yml
@@ -1904,6 +1895,15 @@ references:
   fullName: com.microsoft.azure.management.network.PublicIpAddress.UpdateStages.WithLeafDomainLabel
   type: Interface
   summary: <p>A public IP address update allowing to change the leaf domain label, if any. </p>
+  syntax:
+    content: public interface WithLeafDomainLabel
+- uid: com.microsoft.azure.management.network._public_ip_address._definition47b7d72dd27c231fc73e12d2ab637377
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._public_ip_address._definition47b7d72dd27c231fc73e12d2ab637377.yml
+  name: PublicIpAddress.DefinitionStages.WithLeafDomainLabel
+  fullName: com.microsoft.azure.management.network.PublicIpAddress.DefinitionStages.WithLeafDomainLabel
+  type: Interface
+  summary: <p>A public IP address definition allowing to specify the leaf domain label, if any. </p>
   syntax:
     content: public interface WithLeafDomainLabel
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_load_balancer
@@ -1915,21 +1915,6 @@ references:
   summary: <p>The stage of the network interface's IP configuration allowing to specify the load balancer to associate this IP configuration with. </p>
   syntax:
     content: public interface WithLoadBalancer
-- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_network
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_network.yml
-  name: NicIpConfiguration.DefinitionStages.WithNetwork<ParentT>
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionStages.WithNetwork<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to specify the virtual network.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithNetwork<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable.attach()" data-throw-if-not-resolved="false"></xref></p>
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_4d4942651fb5f90938036133fce17248
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._update_4d4942651fb5f90938036133fce17248.yml
@@ -1945,6 +1930,30 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable.attach()" data-throw-if-not-resolved="false"></xref></p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_network
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_network.yml
+  name: NicIpConfiguration.DefinitionStages.WithNetwork<ParentT>
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.DefinitionStages.WithNetwork<ParentT>
+  type: Interface
+  summary: >-
+    <p>The stage of the network interface IP configuration definition allowing to specify the virtual network.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithNetwork<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable.attach()" data-throw-if-not-resolved="false"></xref></p>
+- uid: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.yml
+  name: NetworkInterface.UpdateStages.WithNetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup
+  type: Interface
+  summary: <p>The stage of the network interface update allowing to associate network security group. </p>
+  syntax:
+    content: public interface WithNetworkSecurityGroup
 - uid: com.microsoft.azure.management.network._subnet._update_stages._with_network_security_group
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._update_stages._with_network_security_group.yml
@@ -1966,24 +1975,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the parent type </p>
-- uid: com.microsoft.azure.management.network._network_interface._definition5863ef7e2aac363b1903b20980e558ce
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition5863ef7e2aac363b1903b20980e558ce.yml
-  name: NetworkInterface.DefinitionStages.WithNetworkSecurityGroup
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithNetworkSecurityGroup
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to associate a network security group. </p>
-  syntax:
-    content: public interface WithNetworkSecurityGroup
-- uid: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._update_sta803c8680c297d966300609e91b4d08fc.yml
-  name: NetworkInterface.UpdateStages.WithNetworkSecurityGroup
-  fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup
-  type: Interface
-  summary: <p>The stage of the network interface update allowing to associate network security group. </p>
-  syntax:
-    content: public interface WithNetworkSecurityGroup
 - uid: com.microsoft.azure.management.network._subnet._update_definition_sta79836a8a389d37509302fc5cc83393cf
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._subnet._update_definition_sta79836a8a389d37509302fc5cc83393cf.yml
@@ -1996,6 +1987,15 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the parent type </p>
+- uid: com.microsoft.azure.management.network._network_interface._definition5863ef7e2aac363b1903b20980e558ce
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definition5863ef7e2aac363b1903b20980e558ce.yml
+  name: NetworkInterface.DefinitionStages.WithNetworkSecurityGroup
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithNetworkSecurityGroup
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to associate a network security group. </p>
+  syntax:
+    content: public interface WithNetworkSecurityGroup
 - uid: com.microsoft.azure.management.network._network_interface._definition53f7a82dfcaab10f0d3fc1d4b42b8cb9
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definition53f7a82dfcaab10f0d3fc1d4b42b8cb9.yml
@@ -2023,15 +2023,6 @@ references:
   summary: <p>The stage of the network interface update allowing to specify subnet. </p>
   syntax:
     content: public interface WithPrimaryNetworkSubnet
-- uid: com.microsoft.azure.management.network._network_interface._definition7f964b22a07b57f2aa01ac11c4c7fd5d
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definition7f964b22a07b57f2aa01ac11c4c7fd5d.yml
-  name: NetworkInterface.DefinitionStages.WithPrimaryPrivateIp
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIp
-  type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
-  syntax:
-    content: public interface WithPrimaryPrivateIp
 - uid: com.microsoft.azure.management.network._network_interface._update_stages._with_primary_private_ip
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._update_stages._with_primary_private_ip.yml
@@ -2041,15 +2032,15 @@ references:
   summary: <p>The stage of the network interface update allowing to specify private IP address within a virtual network subnet. </p>
   syntax:
     content: public interface WithPrimaryPrivateIp
-- uid: com.microsoft.azure.management.network._network_interface._definitiona84708f60f7aea0e74591ae14b76a237
+- uid: com.microsoft.azure.management.network._network_interface._definition7f964b22a07b57f2aa01ac11c4c7fd5d
   parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_interface._definitiona84708f60f7aea0e74591ae14b76a237.yml
-  name: NetworkInterface.DefinitionStages.WithPrimaryPublicIpAddress
-  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPublicIpAddress
+  href: com.microsoft.azure.management.network._network_interface._definition7f964b22a07b57f2aa01ac11c4c7fd5d.yml
+  name: NetworkInterface.DefinitionStages.WithPrimaryPrivateIp
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIp
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary IP configuration. </p>
+  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
   syntax:
-    content: public interface WithPrimaryPublicIpAddress
+    content: public interface WithPrimaryPrivateIp
 - uid: com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._update_stad1b81598d845b62f6f003f25c9f8819f.yml
@@ -2057,6 +2048,15 @@ references:
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIpAddress
   type: Interface
   summary: <p>The stage of the network interface update allowing to associate public IP address with it's primary IP configuration. </p>
+  syntax:
+    content: public interface WithPrimaryPublicIpAddress
+- uid: com.microsoft.azure.management.network._network_interface._definitiona84708f60f7aea0e74591ae14b76a237
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_interface._definitiona84708f60f7aea0e74591ae14b76a237.yml
+  name: NetworkInterface.DefinitionStages.WithPrimaryPublicIpAddress
+  fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPublicIpAddress
+  type: Interface
+  summary: <p>The stage of the network interface definition allowing to associate public IP address with it's primary IP configuration. </p>
   syntax:
     content: public interface WithPrimaryPublicIpAddress
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_stages._with_priority
@@ -2071,15 +2071,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
-- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_private_ip
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_private_ip.yml
-  name: NicIpConfiguration.UpdateStages.WithPrivateIp
-  fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateStages.WithPrivateIp
-  type: Interface
-  summary: <p>The stage of the network interface IP configuration update allowing to specify private IP. </p>
-  syntax:
-    content: public interface WithPrivateIp
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_private_ip
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._definition_stages._with_private_ip.yml
@@ -2110,6 +2101,24 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable.attach()" data-throw-if-not-resolved="false"></xref></p>
+- uid: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_private_ip
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._nic_ip_configuration._update_stages._with_private_ip.yml
+  name: NicIpConfiguration.UpdateStages.WithPrivateIp
+  fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateStages.WithPrivateIp
+  type: Interface
+  summary: <p>The stage of the network interface IP configuration update allowing to specify private IP. </p>
+  syntax:
+    content: public interface WithPrivateIp
+- uid: com.microsoft.azure.management.network._network_security_rule._update_stages._with_protocol
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._update_stages._with_protocol.yml
+  name: NetworkSecurityRule.UpdateStages.WithProtocol
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithProtocol
+  type: Interface
+  summary: <p>The stage of the security rule description allowing the protocol that the rule applies to to be specified. </p>
+  syntax:
+    content: public interface WithProtocol
 - uid: com.microsoft.azure.management.network._network_security_rule._update9cdbc7a60e9693ec95fa681cef81ff49
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._update9cdbc7a60e9693ec95fa681cef81ff49.yml
@@ -2122,15 +2131,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
-- uid: com.microsoft.azure.management.network._network_security_rule._update_stages._with_protocol
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._update_stages._with_protocol.yml
-  name: NetworkSecurityRule.UpdateStages.WithProtocol
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithProtocol
-  type: Interface
-  summary: <p>The stage of the security rule description allowing the protocol that the rule applies to to be specified. </p>
-  syntax:
-    content: public interface WithProtocol
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_stages._with_protocol
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_stages._with_protocol.yml
@@ -2209,15 +2209,6 @@ references:
   summary: <p>A public IP address definition allowing the reverse FQDN to be specified. </p>
   syntax:
     content: public interface WithReverseFQDN
-- uid: com.microsoft.azure.management.network._network_security_group._update_stages._with_rule
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_group._update_stages._with_rule.yml
-  name: NetworkSecurityGroup.UpdateStages.WithRule
-  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateStages.WithRule
-  type: Interface
-  summary: <p>The stage of the resource definition allowing to add or remove security rules. </p>
-  syntax:
-    content: public interface WithRule
 - uid: com.microsoft.azure.management.network._network_security_group._definition_stages._with_rule
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_group._definition_stages._with_rule.yml
@@ -2230,6 +2221,15 @@ references:
     <p>When the security rule description is complete enough, use <xref href="com.microsoft.azure.management.resources.fluentcore.model._attachable.attach()" data-throw-if-not-resolved="false"></xref> to attach it to this network security group. </p>
   syntax:
     content: public interface WithRule
+- uid: com.microsoft.azure.management.network._network_security_group._update_stages._with_rule
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_group._update_stages._with_rule.yml
+  name: NetworkSecurityGroup.UpdateStages.WithRule
+  fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateStages.WithRule
+  type: Interface
+  summary: <p>The stage of the resource definition allowing to add or remove security rules. </p>
+  syntax:
+    content: public interface WithRule
 - uid: com.microsoft.azure.management.network._network_interface._definition2778b1beb8b5adb87f17616b70b15577
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_interface._definition2778b1beb8b5adb87f17616b70b15577.yml
@@ -2239,6 +2239,18 @@ references:
   summary: <p>The stage of the network interface definition allowing to associate a secondary IP configurations. </p>
   syntax:
     content: public interface WithSecondaryIpConfiguration
+- uid: com.microsoft.azure.management.network._network_security_rule._defini710e9f7993d777336782cf7baf68c613
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network_security_rule._defini710e9f7993d777336782cf7baf68c613.yml
+  name: NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>
+  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>
+  type: Interface
+  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
+  syntax:
+    content: public interface WithSourceAddress<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._network_security_rule._update928956742883131b835c1bcdf1c6b669
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._update928956742883131b835c1bcdf1c6b669.yml
@@ -2260,18 +2272,6 @@ references:
   summary: <p>The stage of the network rule description allowing the source address to be specified. </p>
   syntax:
     content: public interface WithSourceAddress
-- uid: com.microsoft.azure.management.network._network_security_rule._defini710e9f7993d777336782cf7baf68c613
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network_security_rule._defini710e9f7993d777336782cf7baf68c613.yml
-  name: NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>
-  fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>
-  type: Interface
-  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
-  syntax:
-    content: public interface WithSourceAddress<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of the final <ref refid="" kindref="compound">WithAttach#attach()</ref></p>
 - uid: com.microsoft.azure.management.network._network_security_rule._defini923fef172158bb38e98c7721fe1251a6
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._defini923fef172158bb38e98c7721fe1251a6.yml
@@ -2305,6 +2305,15 @@ references:
   summary: <p>The stage of the network rule description allowing the source port(s) to be specified. </p>
   syntax:
     content: public interface WithSourcePort
+- uid: com.microsoft.azure.management.network._network._definition_stages._with_subnet
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._network._definition_stages._with_subnet.yml
+  name: Network.DefinitionStages.WithSubnet
+  fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet
+  type: Interface
+  summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
+  syntax:
+    content: public interface WithSubnet
 - uid: com.microsoft.azure.management.network._nic_ip_configuration._update_0c219f411cd16a2405d14265ba10c9a6
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._nic_ip_configuration._update_0c219f411cd16a2405d14265ba10c9a6.yml
@@ -2342,15 +2351,6 @@ references:
   fullName: com.microsoft.azure.management.network.NicIpConfiguration.UpdateStages.WithSubnet
   type: Interface
   summary: <p>The stage of the network interface IP configuration update allowing to specify subnet. </p>
-  syntax:
-    content: public interface WithSubnet
-- uid: com.microsoft.azure.management.network._network._definition_stages._with_subnet
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._network._definition_stages._with_subnet.yml
-  name: Network.DefinitionStages.WithSubnet
-  fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet
-  type: Interface
-  summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.network._network._update_stages._with_subnet
