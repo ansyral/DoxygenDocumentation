@@ -13,7 +13,7 @@
       },
       {
         "files": [
-          "toc.yml"
+          "**/toc.yml"
         ],
         "src": "docs-ref-autogen",
         "dest": "."
@@ -90,11 +90,14 @@
         "docs-ref-autogen/com.microsoft.azure.servicebus**.yml": "service-bus",
         "docs-ref-autogen/com.microsoft.azure.storage**.yml": "storage",
         "docs-ref-autogen/com.microsoft.appplicationinsights**.yml": "application-insights"
+      },
+	  "langs": {
+        "docs-ref-autogen/**.yml":  ["java"]
       }
     },
     "template": [
       "docs.html"
     ],
-    "dest": "azure/sdk/java"
+    "dest": "java"
   }
 }
