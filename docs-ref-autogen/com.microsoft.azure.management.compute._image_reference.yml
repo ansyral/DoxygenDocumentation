@@ -1,0 +1,508 @@
+items:
+- uid: com.microsoft.azure.management.compute._image_reference
+  id: _image_reference
+  parent: com.microsoft.azure.management.compute
+  children:
+  - com.microsoft.azure.management.compute._image_reference.id()
+  - com.microsoft.azure.management.compute._image_reference.ImageReference()
+  - com.microsoft.azure.management.compute._image_reference.ImageReference(ImageReferenceInner)
+  - com.microsoft.azure.management.compute._image_reference.inner()
+  - com.microsoft.azure.management.compute._image_reference.offer()
+  - com.microsoft.azure.management.compute._image_reference.publisher()
+  - com.microsoft.azure.management.compute._image_reference.sku()
+  - com.microsoft.azure.management.compute._image_reference.version()
+  - com.microsoft.azure.management.compute._image_reference.withId(String)
+  - com.microsoft.azure.management.compute._image_reference.withOffer(String)
+  - com.microsoft.azure.management.compute._image_reference.withPublisher(String)
+  - com.microsoft.azure.management.compute._image_reference.withSku(String)
+  - com.microsoft.azure.management.compute._image_reference.withVersion(String)
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: ImageReference
+  nameWithType: ImageReference
+  fullName: com.microsoft.azure.management.compute.ImageReference
+  type: Class
+  source:
+    remote: &o0
+      path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 16
+  package: com.microsoft.azure.management.compute
+  summary: <p>The image reference. </p>
+  syntax: &o1
+    content: public class ImageReference extends WrapperImpl<ImageReferenceInner>
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.azure.management.resources.fluentcore.model._has_inner
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.setInner(InnerT)
+  - com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.WrapperImpl(InnerT)
+- uid: com.microsoft.azure.management.compute._image_reference.id()
+  id: id()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: id()
+  nameWithType: ImageReference.id()
+  fullName: String com.microsoft.azure.management.compute.ImageReference.id()
+  overload: com.microsoft.azure.management.compute._image_reference.id*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 63
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public String id()
+    return:
+      type: "26831127"
+      description: <p>the resource ID of the image </p>
+- uid: com.microsoft.azure.management.compute._image_reference.ImageReference()
+  id: ImageReference()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: ImageReference()
+  nameWithType: ImageReference.ImageReference()
+  fullName: com.microsoft.azure.management.compute.ImageReference.ImageReference()
+  overload: com.microsoft.azure.management.compute._image_reference.ImageReference*
+  type: Constructor
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 27
+  package: com.microsoft.azure.management.compute
+  summary: <p>Creates <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public ImageReference()
+- uid: com.microsoft.azure.management.compute._image_reference.ImageReference(ImageReferenceInner)
+  id: ImageReference(ImageReferenceInner)
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: ImageReference(ImageReferenceInner inner)
+  nameWithType: ImageReference.ImageReference(ImageReferenceInner inner)
+  fullName: com.microsoft.azure.management.compute.ImageReference.ImageReference(ImageReferenceInner inner)
+  overload: com.microsoft.azure.management.compute._image_reference.ImageReference*
+  type: Constructor
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 36
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Creates <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public ImageReference(ImageReferenceInner inner)
+    parameters:
+    - id: inner
+      type: com.microsoft.azure.management.compute.implementation._image_reference_inner
+      description: <p>the inner object </p>
+- uid: com.microsoft.azure.management.compute._image_reference.inner()
+  id: inner()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: inner()
+  nameWithType: ImageReference.inner()
+  fullName: ImageReferenceInner com.microsoft.azure.management.compute.ImageReference.inner()
+  overload: com.microsoft.azure.management.compute._image_reference.inner*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 46
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public ImageReferenceInner inner()
+    return:
+      type: com.microsoft.azure.management.compute.implementation._image_reference_inner
+      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on <xref href="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false"></xref> REST API </p>
+  overridden: com.microsoft.azure.management.resources.fluentcore.model._has_inner.inner()
+- uid: com.microsoft.azure.management.compute._image_reference.offer()
+  id: offer()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: offer()
+  nameWithType: ImageReference.offer()
+  fullName: String com.microsoft.azure.management.compute.ImageReference.offer()
+  overload: com.microsoft.azure.management.compute._image_reference.offer*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 102
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Get the offer value.</p>
+
+    <p></p>
+  syntax:
+    content: public String offer()
+    return:
+      type: "26831127"
+      description: <p>the offer value </p>
+- uid: com.microsoft.azure.management.compute._image_reference.publisher()
+  id: publisher()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: publisher()
+  nameWithType: ImageReference.publisher()
+  fullName: String com.microsoft.azure.management.compute.ImageReference.publisher()
+  overload: com.microsoft.azure.management.compute._image_reference.publisher*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 82
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Get the publisher value.</p>
+
+    <p></p>
+  syntax:
+    content: public String publisher()
+    return:
+      type: "26831127"
+      description: <p>the publisher value </p>
+- uid: com.microsoft.azure.management.compute._image_reference.sku()
+  id: sku()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: sku()
+  nameWithType: ImageReference.sku()
+  fullName: String com.microsoft.azure.management.compute.ImageReference.sku()
+  overload: com.microsoft.azure.management.compute._image_reference.sku*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 120
+  package: com.microsoft.azure.management.compute
+  syntax:
+    content: public String sku()
+    return:
+      type: "26831127"
+      description: <p>the SKU </p>
+- uid: com.microsoft.azure.management.compute._image_reference.version()
+  id: version()
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: version()
+  nameWithType: ImageReference.version()
+  fullName: String com.microsoft.azure.management.compute.ImageReference.version()
+  overload: com.microsoft.azure.management.compute._image_reference.version*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 140
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Get the version value.</p>
+
+    <p></p>
+  syntax:
+    content: public String version()
+    return:
+      type: "26831127"
+      description: <p>the version value </p>
+- uid: com.microsoft.azure.management.compute._image_reference.withId(String)
+  id: withId(String)
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: withId(String id)
+  nameWithType: ImageReference.withId(String id)
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withId(String id)
+  overload: com.microsoft.azure.management.compute._image_reference.withId*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 72
+  package: com.microsoft.azure.management.compute
+  summary: <p>Sets the image resource ID value. </p>
+  syntax:
+    content: public ImageReference withId(String id)
+    parameters:
+    - id: id
+      type: "26831127"
+      description: <p>the ID </p>
+    return:
+      type: com.microsoft.azure.management.compute._image_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute._image_reference.withOffer(String)
+  id: withOffer(String)
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: withOffer(String offer)
+  nameWithType: ImageReference.withOffer(String offer)
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withOffer(String offer)
+  overload: com.microsoft.azure.management.compute._image_reference.withOffer*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 112
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Set the offer value.</p>
+
+    <p></p>
+  syntax:
+    content: public ImageReference withOffer(String offer)
+    parameters:
+    - id: offer
+      type: "26831127"
+      description: <p>the offer value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute._image_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute._image_reference.withPublisher(String)
+  id: withPublisher(String)
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: withPublisher(String publisher)
+  nameWithType: ImageReference.withPublisher(String publisher)
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withPublisher(String publisher)
+  overload: com.microsoft.azure.management.compute._image_reference.withPublisher*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 92
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Set the publisher value.</p>
+
+    <p></p>
+  syntax:
+    content: public ImageReference withPublisher(String publisher)
+    parameters:
+    - id: publisher
+      type: "26831127"
+      description: <p>the publisher value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute._image_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute._image_reference.withSku(String)
+  id: withSku(String)
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: withSku(String sku)
+  nameWithType: ImageReference.withSku(String sku)
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withSku(String sku)
+  overload: com.microsoft.azure.management.compute._image_reference.withSku*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 130
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Sets the SKU.</p>
+
+    <p></p>
+  syntax:
+    content: public ImageReference withSku(String sku)
+    parameters:
+    - id: sku
+      type: "26831127"
+      description: <p>the SKU </p>
+    return:
+      type: com.microsoft.azure.management.compute._image_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.management.compute._image_reference.withVersion(String)
+  id: withVersion(String)
+  parent: com.microsoft.azure.management.compute._image_reference
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  langs:
+  - java
+  name: withVersion(String version)
+  nameWithType: ImageReference.withVersion(String version)
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withVersion(String version)
+  overload: com.microsoft.azure.management.compute._image_reference.withVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/ImageReference.java
+    startLine: 150
+  package: com.microsoft.azure.management.compute
+  summary: >-
+    <p>Set the version value.</p>
+
+    <p></p>
+  syntax:
+    content: public ImageReference withVersion(String version)
+    parameters:
+    - id: version
+      type: "26831127"
+      description: <p>the version value to set </p>
+    return:
+      type: com.microsoft.azure.management.compute._image_reference
+      description: <p>the <xref href="com.microsoft.azure.management.compute._image_reference" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: com.microsoft.azure.management.compute._image_reference.ImageReference*
+  name: ImageReference
+  nameWithType: ImageReference.ImageReference
+  fullName: com.microsoft.azure.management.compute.ImageReference.ImageReference
+- uid: com.microsoft.azure.management.compute._image_reference.inner*
+  name: inner
+  nameWithType: ImageReference.inner
+  fullName: ImageReferenceInner com.microsoft.azure.management.compute.ImageReference.inner
+- uid: com.microsoft.azure.management.compute._image_reference.id*
+  name: id
+  nameWithType: ImageReference.id
+  fullName: String com.microsoft.azure.management.compute.ImageReference.id
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.compute._image_reference.withId*
+  name: withId
+  nameWithType: ImageReference.withId
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withId
+- uid: com.microsoft.azure.management.compute._image_reference.publisher*
+  name: publisher
+  nameWithType: ImageReference.publisher
+  fullName: String com.microsoft.azure.management.compute.ImageReference.publisher
+- uid: com.microsoft.azure.management.compute._image_reference.withPublisher*
+  name: withPublisher
+  nameWithType: ImageReference.withPublisher
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withPublisher
+- uid: com.microsoft.azure.management.compute._image_reference.offer*
+  name: offer
+  nameWithType: ImageReference.offer
+  fullName: String com.microsoft.azure.management.compute.ImageReference.offer
+- uid: com.microsoft.azure.management.compute._image_reference.withOffer*
+  name: withOffer
+  nameWithType: ImageReference.withOffer
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withOffer
+- uid: com.microsoft.azure.management.compute._image_reference.sku*
+  name: sku
+  nameWithType: ImageReference.sku
+  fullName: String com.microsoft.azure.management.compute.ImageReference.sku
+- uid: com.microsoft.azure.management.compute._image_reference.withSku*
+  name: withSku
+  nameWithType: ImageReference.withSku
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withSku
+- uid: com.microsoft.azure.management.compute._image_reference.version*
+  name: version
+  nameWithType: ImageReference.version
+  fullName: String com.microsoft.azure.management.compute.ImageReference.version
+- uid: com.microsoft.azure.management.compute._image_reference.withVersion*
+  name: withVersion
+  nameWithType: ImageReference.withVersion
+  fullName: ImageReference com.microsoft.azure.management.compute.ImageReference.withVersion
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.setInner(InnerT)
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
+  name: setInner(InnerT inner)
+  nameWithType: WrapperImpl<InnerT>.setInner(InnerT inner)
+  fullName: void com.microsoft.azure.management.resources.fluentcore.model.implementation.WrapperImpl<InnerT>.setInner(InnerT inner)
+  type: Method
+  summary: >-
+    <p>Sets the inner object of the wrapper. </p>
+
+    <p>(Internal use only) </p>
+  syntax:
+    content: public void setInner(InnerT inner)
+    parameters:
+    - id: inner
+      type: 52cf8095
+      description: <p>an inner object </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.WrapperImpl(InnerT)
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
+  name: WrapperImpl(InnerT innerObject)
+  nameWithType: WrapperImpl<InnerT>.WrapperImpl(InnerT innerObject)
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.WrapperImpl<InnerT>.WrapperImpl(InnerT innerObject)
+  type: Constructor
+  syntax:
+    content: protected WrapperImpl(InnerT innerObject)
+    parameters:
+    - id: innerObject
+      type: 52cf8095
+- uid: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl
+  parent: com.microsoft.azure.management.resources.fluentcore.model.implementation
+  href: com.microsoft.azure.management.resources.fluentcore.model.implementation._wrapper_impl.yml
+  name: WrapperImpl<InnerT>
+  nameWithType: WrapperImpl<InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.implementation.WrapperImpl<InnerT>
+  type: Class
+  summary: >-
+    <p>Base implementation for Wrapper interface.</p>
+
+    <p></p>
+  syntax:
+    content: public class WrapperImpl<InnerT>
+    typeParameters:
+    - type: 52cf8095
+      description: <p>wrapped type </p>
+- uid: com.microsoft.azure.management.compute._image_reference
+  parent: com.microsoft.azure.management.compute
+  href: com.microsoft.azure.management.compute._image_reference.yml
+  name: ImageReference
+  nameWithType: ImageReference
+  fullName: com.microsoft.azure.management.compute.ImageReference
+  type: Class
+  summary: <p>The image reference. </p>
+  syntax: *o1
+- uid: com.microsoft.azure.management.compute.implementation._image_reference_inner
+  parent: com.microsoft.azure.management.compute.implementation
+  href: com.microsoft.azure.management.compute.implementation._image_reference_inner.yml
+  name: ImageReferenceInner
+  nameWithType: ImageReferenceInner
+  fullName: com.microsoft.azure.management.compute.implementation.ImageReferenceInner
+  type: Class
+  summary: <p>The image reference. </p>
+  syntax:
+    content: public class ImageReferenceInner
+- uid: com.microsoft.azure.management.resources.fluentcore.model._has_inner.inner()
+  parent: com.microsoft.azure.management.resources.fluentcore.model._has_inner
+  href: com.microsoft.azure.management.resources.fluentcore.model._has_inner.yml
+  name: inner()
+  nameWithType: HasInner<T>.inner()
+  fullName: T com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>.inner()
+  type: Method
+  syntax:
+    content: public T inner()
+    return:
+      type: 8ce1ecb9
+      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on <xref href="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false"></xref> REST API </p>
+- uid: com.microsoft.azure.management._azure
+  parent: com.microsoft.azure.management
+  href: com.microsoft.azure.management._azure.yml
+  name: Azure
+  nameWithType: Azure
+  fullName: com.microsoft.azure.management.Azure
+  type: Class
+  summary: <p>The entry point for accessing resource management APIs in <xref href="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public class Azure

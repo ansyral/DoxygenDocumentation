@@ -5,7 +5,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "JavaDoc",
-      "build_source_folder": "JavaDoc",
+      "build_source_folder": ".",
       "build_output_subfolder": "java",
       "locale": "en-us",
       "version": 0,
@@ -16,12 +16,21 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+	  "customized_template_paths": [
+         "_dependentPackages/memberpage.plugins/content"
+      ],
+	  "customized_tasks": {
+        "docset_prebuild": [
+          "_dependentPackages/splitToc/tools/run.ps1"
+        ]
+      }
     }
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
+  "need_preview_pull_request": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -29,5 +38,23 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ]
+  ],
+  "dependent_packages": [
+    {
+      "id": "memberpage.plugins",
+      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
+      "path_to_root": "_dependentPackages/memberpage.plugins",
+      "target_framework": "net45",
+      "version": "latest"
+    },
+	{
+      "id": "SplitToc",
+      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
+      "path_to_root": "_dependentPackages/splitToc",
+      "target_framework": "net45",
+      "version": "latest"
+    }
+  ],
+  "need_generate_pdf_url_template": false,
+  "toc_path_need_to_split": "docs-ref-autogen/toc.yml"
 }

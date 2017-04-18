@@ -1,0 +1,79 @@
+items:
+- uid: system.fabric._service_group_management_client
+  id: _service_group_management_client
+  parent: system.fabric
+  children:
+  - system.fabric._service_group_management_client.close()
+  - system.fabric._service_group_management_client.ServiceGroupManagementClient(long)
+  href: system.fabric._service_group_management_client.yml
+  langs:
+  - java
+  name: ServiceGroupManagementClient
+  nameWithType: ServiceGroupManagementClient
+  fullName: system.fabric.ServiceGroupManagementClient
+  type: Class
+  source:
+    remote: &o0
+      path: src/prod/src/java/system.fabric/src/system/fabric/ServiceGroupManagementClient.java
+      branch: master
+      repo: https://msazure.visualstudio.com/One/_git/sf-java
+    path: src/prod/src/java/system.fabric/src/system/fabric/ServiceGroupManagementClient.java
+    startLine: 2
+  package: system.fabric
+  syntax:
+    content: public class ServiceGroupManagementClient
+  inheritance:
+  - java.lang.Object
+  - AutoCloseable
+- uid: system.fabric._service_group_management_client.close()
+  id: close()
+  parent: system.fabric._service_group_management_client
+  href: system.fabric._service_group_management_client.yml
+  langs:
+  - java
+  name: close()
+  nameWithType: ServiceGroupManagementClient.close()
+  fullName: void system.fabric.ServiceGroupManagementClient.close()
+  overload: system.fabric._service_group_management_client.close*
+  type: Method
+  source:
+    remote: *o0
+    path: src/prod/src/java/system.fabric/src/system/fabric/ServiceGroupManagementClient.java
+    startLine: 14
+  package: system.fabric
+  syntax:
+    content: public void close()
+- uid: system.fabric._service_group_management_client.ServiceGroupManagementClient(long)
+  id: ServiceGroupManagementClient(long)
+  parent: system.fabric._service_group_management_client
+  href: system.fabric._service_group_management_client.yml
+  langs:
+  - java
+  name: ServiceGroupManagementClient(long nativeServiceGroupClient)
+  nameWithType: ServiceGroupManagementClient.ServiceGroupManagementClient(long nativeServiceGroupClient)
+  fullName: system.fabric.ServiceGroupManagementClient.ServiceGroupManagementClient(long nativeServiceGroupClient)
+  overload: system.fabric._service_group_management_client.ServiceGroupManagementClient*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/prod/src/java/system.fabric/src/system/fabric/ServiceGroupManagementClient.java
+    startLine: 4
+  package: system.fabric
+  syntax:
+    content: public ServiceGroupManagementClient(long nativeServiceGroupClient)
+    parameters:
+    - id: nativeServiceGroupClient
+      type: 0364520f
+references:
+- uid: system.fabric._service_group_management_client.ServiceGroupManagementClient*
+  name: ServiceGroupManagementClient
+  nameWithType: ServiceGroupManagementClient.ServiceGroupManagementClient
+  fullName: system.fabric.ServiceGroupManagementClient.ServiceGroupManagementClient
+- uid: 0364520f
+  spec.java:
+  - name: long
+    fullName: long
+- uid: system.fabric._service_group_management_client.close*
+  name: close
+  nameWithType: ServiceGroupManagementClient.close
+  fullName: void system.fabric.ServiceGroupManagementClient.close

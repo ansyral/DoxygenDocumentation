@@ -1,0 +1,79 @@
+items:
+- uid: system.fabric._fault_management_client
+  id: _fault_management_client
+  parent: system.fabric
+  children:
+  - system.fabric._fault_management_client.close()
+  - system.fabric._fault_management_client.FaultManagementClient(long)
+  href: system.fabric._fault_management_client.yml
+  langs:
+  - java
+  name: FaultManagementClient
+  nameWithType: FaultManagementClient
+  fullName: system.fabric.FaultManagementClient
+  type: Class
+  source:
+    remote: &o0
+      path: src/prod/src/java/system.fabric/src/system/fabric/FaultManagementClient.java
+      branch: master
+      repo: https://msazure.visualstudio.com/One/_git/sf-java
+    path: src/prod/src/java/system.fabric/src/system/fabric/FaultManagementClient.java
+    startLine: 2
+  package: system.fabric
+  syntax:
+    content: public class FaultManagementClient
+  inheritance:
+  - java.lang.Object
+  - AutoCloseable
+- uid: system.fabric._fault_management_client.close()
+  id: close()
+  parent: system.fabric._fault_management_client
+  href: system.fabric._fault_management_client.yml
+  langs:
+  - java
+  name: close()
+  nameWithType: FaultManagementClient.close()
+  fullName: void system.fabric.FaultManagementClient.close()
+  overload: system.fabric._fault_management_client.close*
+  type: Method
+  source:
+    remote: *o0
+    path: src/prod/src/java/system.fabric/src/system/fabric/FaultManagementClient.java
+    startLine: 14
+  package: system.fabric
+  syntax:
+    content: public void close()
+- uid: system.fabric._fault_management_client.FaultManagementClient(long)
+  id: FaultManagementClient(long)
+  parent: system.fabric._fault_management_client
+  href: system.fabric._fault_management_client.yml
+  langs:
+  - java
+  name: FaultManagementClient(long nativeFaultManagementClient)
+  nameWithType: FaultManagementClient.FaultManagementClient(long nativeFaultManagementClient)
+  fullName: system.fabric.FaultManagementClient.FaultManagementClient(long nativeFaultManagementClient)
+  overload: system.fabric._fault_management_client.FaultManagementClient*
+  type: Constructor
+  source:
+    remote: *o0
+    path: src/prod/src/java/system.fabric/src/system/fabric/FaultManagementClient.java
+    startLine: 4
+  package: system.fabric
+  syntax:
+    content: public FaultManagementClient(long nativeFaultManagementClient)
+    parameters:
+    - id: nativeFaultManagementClient
+      type: 0364520f
+references:
+- uid: system.fabric._fault_management_client.FaultManagementClient*
+  name: FaultManagementClient
+  nameWithType: FaultManagementClient.FaultManagementClient
+  fullName: system.fabric.FaultManagementClient.FaultManagementClient
+- uid: 0364520f
+  spec.java:
+  - name: long
+    fullName: long
+- uid: system.fabric._fault_management_client.close*
+  name: close
+  nameWithType: FaultManagementClient.close
+  fullName: void system.fabric.FaultManagementClient.close

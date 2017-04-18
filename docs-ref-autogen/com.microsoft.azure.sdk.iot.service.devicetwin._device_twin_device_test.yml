@@ -1,0 +1,830 @@
+items:
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  id: _device_twin_device_test
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin
+  children:
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsDes()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsTags()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearTwinClears()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorCreatesNewDevice()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnEmptyDeviceID()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnNullDeviceID()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desiredToStringReturnsDesired()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desToStringReturnsEmptyIfTagsEmpty()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredPropGets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredReturnsEmptyIfNullMap()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDeviceIdGets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGetsEmptyIfNotPresent()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGetsEmptyIfNotPresent()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsDes()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsRep()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsTags()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.gettersAlwaysCreatesNewSets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectGets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectUniquePerDevice()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.reportedToStringReturnsReported()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.repToStringReturnsEmptyIfTagsEmpty()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredPropSets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredThrowsIfNullInput()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setReportedPropSets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsSets()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsThrowsIsNullInput()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.settersAlwaysCreatesNewMaps()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsDes()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsRep()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsTags()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsEmptyIfTagsEmpty()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsTags()
+  - com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.toStringReturnsAll()
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: DeviceTwinDeviceTest
+  nameWithType: DeviceTwinDeviceTest
+  fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest
+  type: Class
+  source:
+    remote: &o0
+      path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 18
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public class DeviceTwinDeviceTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsDes()
+  id: clearClearsMapsDes()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: clearClearsMapsDes()
+  nameWithType: DeviceTwinDeviceTest.clearClearsMapsDes()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.clearClearsMapsDes()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsDes*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 538
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void clearClearsMapsDes()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsTags()
+  id: clearClearsMapsTags()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: clearClearsMapsTags()
+  nameWithType: DeviceTwinDeviceTest.clearClearsMapsTags()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.clearClearsMapsTags()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsTags*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 417
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void clearClearsMapsTags()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearTwinClears()
+  id: clearTwinClears()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: clearTwinClears()
+  nameWithType: DeviceTwinDeviceTest.clearTwinClears()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.clearTwinClears()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearTwinClears*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 558
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void clearTwinClears()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorCreatesNewDevice()
+  id: constructorCreatesNewDevice()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: constructorCreatesNewDevice()
+  nameWithType: DeviceTwinDeviceTest.constructorCreatesNewDevice()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.constructorCreatesNewDevice()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorCreatesNewDevice*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 24
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void constructorCreatesNewDevice()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnEmptyDeviceID()
+  id: constructorThrowsOnEmptyDeviceID()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyDeviceID()
+  nameWithType: DeviceTwinDeviceTest.constructorThrowsOnEmptyDeviceID()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.constructorThrowsOnEmptyDeviceID()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnEmptyDeviceID*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 50
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void constructorThrowsOnEmptyDeviceID()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnNullDeviceID()
+  id: constructorThrowsOnNullDeviceID()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullDeviceID()
+  nameWithType: DeviceTwinDeviceTest.constructorThrowsOnNullDeviceID()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.constructorThrowsOnNullDeviceID()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnNullDeviceID*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 43
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void constructorThrowsOnNullDeviceID()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desiredToStringReturnsDesired()
+  id: desiredToStringReturnsDesired()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: desiredToStringReturnsDesired()
+  nameWithType: DeviceTwinDeviceTest.desiredToStringReturnsDesired()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.desiredToStringReturnsDesired()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desiredToStringReturnsDesired*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 659
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void desiredToStringReturnsDesired()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desToStringReturnsEmptyIfTagsEmpty()
+  id: desToStringReturnsEmptyIfTagsEmpty()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: desToStringReturnsEmptyIfTagsEmpty()
+  nameWithType: DeviceTwinDeviceTest.desToStringReturnsEmptyIfTagsEmpty()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.desToStringReturnsEmptyIfTagsEmpty()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desToStringReturnsEmptyIfTagsEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 684
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void desToStringReturnsEmptyIfTagsEmpty()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredPropGets()
+  id: getDesiredPropGets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getDesiredPropGets()
+  nameWithType: DeviceTwinDeviceTest.getDesiredPropGets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getDesiredPropGets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredPropGets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 149
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getDesiredPropGets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredReturnsEmptyIfNullMap()
+  id: getDesiredReturnsEmptyIfNullMap()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getDesiredReturnsEmptyIfNullMap()
+  nameWithType: DeviceTwinDeviceTest.getDesiredReturnsEmptyIfNullMap()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getDesiredReturnsEmptyIfNullMap()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredReturnsEmptyIfNullMap*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 173
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getDesiredReturnsEmptyIfNullMap()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDeviceIdGets()
+  id: getDeviceIdGets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getDeviceIdGets()
+  nameWithType: DeviceTwinDeviceTest.getDeviceIdGets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getDeviceIdGets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDeviceIdGets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 60
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getDeviceIdGets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGets()
+  id: getReportedPropGets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getReportedPropGets()
+  nameWithType: DeviceTwinDeviceTest.getReportedPropGets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getReportedPropGets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 190
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getReportedPropGets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGetsEmptyIfNotPresent()
+  id: getReportedPropGetsEmptyIfNotPresent()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getReportedPropGetsEmptyIfNotPresent()
+  nameWithType: DeviceTwinDeviceTest.getReportedPropGetsEmptyIfNotPresent()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getReportedPropGetsEmptyIfNotPresent()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGetsEmptyIfNotPresent*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 215
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getReportedPropGetsEmptyIfNotPresent()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGets()
+  id: getTagsGets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getTagsGets()
+  nameWithType: DeviceTwinDeviceTest.getTagsGets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTagsGets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 108
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getTagsGets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGetsEmptyIfNotPresent()
+  id: getTagsGetsEmptyIfNotPresent()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getTagsGetsEmptyIfNotPresent()
+  nameWithType: DeviceTwinDeviceTest.getTagsGetsEmptyIfNotPresent()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTagsGetsEmptyIfNotPresent()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGetsEmptyIfNotPresent*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 132
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getTagsGetsEmptyIfNotPresent()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsDes()
+  id: getterGetsMapsDes()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getterGetsMapsDes()
+  nameWithType: DeviceTwinDeviceTest.getterGetsMapsDes()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getterGetsMapsDes()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsDes*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 490
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getterGetsMapsDes()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsRep()
+  id: getterGetsMapsRep()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getterGetsMapsRep()
+  nameWithType: DeviceTwinDeviceTest.getterGetsMapsRep()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getterGetsMapsRep()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsRep*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 439
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getterGetsMapsRep()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsTags()
+  id: getterGetsMapsTags()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getterGetsMapsTags()
+  nameWithType: DeviceTwinDeviceTest.getterGetsMapsTags()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getterGetsMapsTags()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsTags*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 370
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getterGetsMapsTags()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.gettersAlwaysCreatesNewSets()
+  id: gettersAlwaysCreatesNewSets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: gettersAlwaysCreatesNewSets()
+  nameWithType: DeviceTwinDeviceTest.gettersAlwaysCreatesNewSets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.gettersAlwaysCreatesNewSets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.gettersAlwaysCreatesNewSets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 349
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void gettersAlwaysCreatesNewSets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectGets()
+  id: getTwinObjectGets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getTwinObjectGets()
+  nameWithType: DeviceTwinDeviceTest.getTwinObjectGets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTwinObjectGets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectGets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 77
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getTwinObjectGets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectUniquePerDevice()
+  id: getTwinObjectUniquePerDevice()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: getTwinObjectUniquePerDevice()
+  nameWithType: DeviceTwinDeviceTest.getTwinObjectUniquePerDevice()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTwinObjectUniquePerDevice()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectUniquePerDevice*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 90
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void getTwinObjectUniquePerDevice()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.reportedToStringReturnsReported()
+  id: reportedToStringReturnsReported()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: reportedToStringReturnsReported()
+  nameWithType: DeviceTwinDeviceTest.reportedToStringReturnsReported()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.reportedToStringReturnsReported()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.reportedToStringReturnsReported*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 700
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void reportedToStringReturnsReported()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.repToStringReturnsEmptyIfTagsEmpty()
+  id: repToStringReturnsEmptyIfTagsEmpty()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: repToStringReturnsEmptyIfTagsEmpty()
+  nameWithType: DeviceTwinDeviceTest.repToStringReturnsEmptyIfTagsEmpty()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.repToStringReturnsEmptyIfTagsEmpty()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.repToStringReturnsEmptyIfTagsEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 725
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void repToStringReturnsEmptyIfTagsEmpty()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredPropSets()
+  id: setDesiredPropSets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setDesiredPropSets()
+  nameWithType: DeviceTwinDeviceTest.setDesiredPropSets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setDesiredPropSets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredPropSets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 271
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setDesiredPropSets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredThrowsIfNullInput()
+  id: setDesiredThrowsIfNullInput()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setDesiredThrowsIfNullInput()
+  nameWithType: DeviceTwinDeviceTest.setDesiredThrowsIfNullInput()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setDesiredThrowsIfNullInput()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredThrowsIfNullInput*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 296
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setDesiredThrowsIfNullInput()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setReportedPropSets()
+  id: setReportedPropSets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setReportedPropSets()
+  nameWithType: DeviceTwinDeviceTest.setReportedPropSets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setReportedPropSets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setReportedPropSets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 309
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setReportedPropSets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsSets()
+  id: setTagsSets()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setTagsSets()
+  nameWithType: DeviceTwinDeviceTest.setTagsSets()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setTagsSets()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsSets*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 232
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setTagsSets()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsThrowsIsNullInput()
+  id: setTagsThrowsIsNullInput()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setTagsThrowsIsNullInput()
+  nameWithType: DeviceTwinDeviceTest.setTagsThrowsIsNullInput()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setTagsThrowsIsNullInput()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsThrowsIsNullInput*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 257
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setTagsThrowsIsNullInput()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.settersAlwaysCreatesNewMaps()
+  id: settersAlwaysCreatesNewMaps()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: settersAlwaysCreatesNewMaps()
+  nameWithType: DeviceTwinDeviceTest.settersAlwaysCreatesNewMaps()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.settersAlwaysCreatesNewMaps()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.settersAlwaysCreatesNewMaps*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 331
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void settersAlwaysCreatesNewMaps()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsDes()
+  id: setterSetsMapsDes()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setterSetsMapsDes()
+  nameWithType: DeviceTwinDeviceTest.setterSetsMapsDes()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setterSetsMapsDes()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsDes*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 515
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setterSetsMapsDes()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsRep()
+  id: setterSetsMapsRep()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setterSetsMapsRep()
+  nameWithType: DeviceTwinDeviceTest.setterSetsMapsRep()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setterSetsMapsRep()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsRep*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 464
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setterSetsMapsRep()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsTags()
+  id: setterSetsMapsTags()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: setterSetsMapsTags()
+  nameWithType: DeviceTwinDeviceTest.setterSetsMapsTags()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setterSetsMapsTags()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsTags*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 395
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void setterSetsMapsTags()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsEmptyIfTagsEmpty()
+  id: tagsToStringReturnsEmptyIfTagsEmpty()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: tagsToStringReturnsEmptyIfTagsEmpty()
+  nameWithType: DeviceTwinDeviceTest.tagsToStringReturnsEmptyIfTagsEmpty()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.tagsToStringReturnsEmptyIfTagsEmpty()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsEmptyIfTagsEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 643
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void tagsToStringReturnsEmptyIfTagsEmpty()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsTags()
+  id: tagsToStringReturnsTags()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: tagsToStringReturnsTags()
+  nameWithType: DeviceTwinDeviceTest.tagsToStringReturnsTags()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.tagsToStringReturnsTags()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsTags*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 619
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void tagsToStringReturnsTags()
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.toStringReturnsAll()
+  id: toStringReturnsAll()
+  parent: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test
+  href: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.yml
+  langs:
+  - java
+  name: toStringReturnsAll()
+  nameWithType: DeviceTwinDeviceTest.toStringReturnsAll()
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.toStringReturnsAll()
+  overload: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.toStringReturnsAll*
+  type: Method
+  source:
+    remote: *o0
+    path: service/iot-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/service/DeviceTwin/DeviceTwinDeviceTest.java
+    startLine: 586
+  package: com.microsoft.azure.sdk.iot.service.devicetwin
+  syntax:
+    content: public void toStringReturnsAll()
+references:
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorCreatesNewDevice*
+  name: constructorCreatesNewDevice
+  nameWithType: DeviceTwinDeviceTest.constructorCreatesNewDevice
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.constructorCreatesNewDevice
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnNullDeviceID*
+  name: constructorThrowsOnNullDeviceID
+  nameWithType: DeviceTwinDeviceTest.constructorThrowsOnNullDeviceID
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.constructorThrowsOnNullDeviceID
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.constructorThrowsOnEmptyDeviceID*
+  name: constructorThrowsOnEmptyDeviceID
+  nameWithType: DeviceTwinDeviceTest.constructorThrowsOnEmptyDeviceID
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.constructorThrowsOnEmptyDeviceID
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDeviceIdGets*
+  name: getDeviceIdGets
+  nameWithType: DeviceTwinDeviceTest.getDeviceIdGets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getDeviceIdGets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectGets*
+  name: getTwinObjectGets
+  nameWithType: DeviceTwinDeviceTest.getTwinObjectGets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTwinObjectGets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTwinObjectUniquePerDevice*
+  name: getTwinObjectUniquePerDevice
+  nameWithType: DeviceTwinDeviceTest.getTwinObjectUniquePerDevice
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTwinObjectUniquePerDevice
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGets*
+  name: getTagsGets
+  nameWithType: DeviceTwinDeviceTest.getTagsGets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTagsGets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getTagsGetsEmptyIfNotPresent*
+  name: getTagsGetsEmptyIfNotPresent
+  nameWithType: DeviceTwinDeviceTest.getTagsGetsEmptyIfNotPresent
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getTagsGetsEmptyIfNotPresent
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredPropGets*
+  name: getDesiredPropGets
+  nameWithType: DeviceTwinDeviceTest.getDesiredPropGets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getDesiredPropGets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getDesiredReturnsEmptyIfNullMap*
+  name: getDesiredReturnsEmptyIfNullMap
+  nameWithType: DeviceTwinDeviceTest.getDesiredReturnsEmptyIfNullMap
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getDesiredReturnsEmptyIfNullMap
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGets*
+  name: getReportedPropGets
+  nameWithType: DeviceTwinDeviceTest.getReportedPropGets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getReportedPropGets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getReportedPropGetsEmptyIfNotPresent*
+  name: getReportedPropGetsEmptyIfNotPresent
+  nameWithType: DeviceTwinDeviceTest.getReportedPropGetsEmptyIfNotPresent
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getReportedPropGetsEmptyIfNotPresent
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsSets*
+  name: setTagsSets
+  nameWithType: DeviceTwinDeviceTest.setTagsSets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setTagsSets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setTagsThrowsIsNullInput*
+  name: setTagsThrowsIsNullInput
+  nameWithType: DeviceTwinDeviceTest.setTagsThrowsIsNullInput
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setTagsThrowsIsNullInput
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredPropSets*
+  name: setDesiredPropSets
+  nameWithType: DeviceTwinDeviceTest.setDesiredPropSets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setDesiredPropSets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setDesiredThrowsIfNullInput*
+  name: setDesiredThrowsIfNullInput
+  nameWithType: DeviceTwinDeviceTest.setDesiredThrowsIfNullInput
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setDesiredThrowsIfNullInput
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setReportedPropSets*
+  name: setReportedPropSets
+  nameWithType: DeviceTwinDeviceTest.setReportedPropSets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setReportedPropSets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.settersAlwaysCreatesNewMaps*
+  name: settersAlwaysCreatesNewMaps
+  nameWithType: DeviceTwinDeviceTest.settersAlwaysCreatesNewMaps
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.settersAlwaysCreatesNewMaps
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.gettersAlwaysCreatesNewSets*
+  name: gettersAlwaysCreatesNewSets
+  nameWithType: DeviceTwinDeviceTest.gettersAlwaysCreatesNewSets
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.gettersAlwaysCreatesNewSets
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsTags*
+  name: getterGetsMapsTags
+  nameWithType: DeviceTwinDeviceTest.getterGetsMapsTags
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getterGetsMapsTags
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsTags*
+  name: setterSetsMapsTags
+  nameWithType: DeviceTwinDeviceTest.setterSetsMapsTags
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setterSetsMapsTags
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsTags*
+  name: clearClearsMapsTags
+  nameWithType: DeviceTwinDeviceTest.clearClearsMapsTags
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.clearClearsMapsTags
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsRep*
+  name: getterGetsMapsRep
+  nameWithType: DeviceTwinDeviceTest.getterGetsMapsRep
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getterGetsMapsRep
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsRep*
+  name: setterSetsMapsRep
+  nameWithType: DeviceTwinDeviceTest.setterSetsMapsRep
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setterSetsMapsRep
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.getterGetsMapsDes*
+  name: getterGetsMapsDes
+  nameWithType: DeviceTwinDeviceTest.getterGetsMapsDes
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.getterGetsMapsDes
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.setterSetsMapsDes*
+  name: setterSetsMapsDes
+  nameWithType: DeviceTwinDeviceTest.setterSetsMapsDes
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.setterSetsMapsDes
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearClearsMapsDes*
+  name: clearClearsMapsDes
+  nameWithType: DeviceTwinDeviceTest.clearClearsMapsDes
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.clearClearsMapsDes
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.clearTwinClears*
+  name: clearTwinClears
+  nameWithType: DeviceTwinDeviceTest.clearTwinClears
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.clearTwinClears
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.toStringReturnsAll*
+  name: toStringReturnsAll
+  nameWithType: DeviceTwinDeviceTest.toStringReturnsAll
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.toStringReturnsAll
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsTags*
+  name: tagsToStringReturnsTags
+  nameWithType: DeviceTwinDeviceTest.tagsToStringReturnsTags
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.tagsToStringReturnsTags
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.tagsToStringReturnsEmptyIfTagsEmpty*
+  name: tagsToStringReturnsEmptyIfTagsEmpty
+  nameWithType: DeviceTwinDeviceTest.tagsToStringReturnsEmptyIfTagsEmpty
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.tagsToStringReturnsEmptyIfTagsEmpty
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desiredToStringReturnsDesired*
+  name: desiredToStringReturnsDesired
+  nameWithType: DeviceTwinDeviceTest.desiredToStringReturnsDesired
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.desiredToStringReturnsDesired
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.desToStringReturnsEmptyIfTagsEmpty*
+  name: desToStringReturnsEmptyIfTagsEmpty
+  nameWithType: DeviceTwinDeviceTest.desToStringReturnsEmptyIfTagsEmpty
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.desToStringReturnsEmptyIfTagsEmpty
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.reportedToStringReturnsReported*
+  name: reportedToStringReturnsReported
+  nameWithType: DeviceTwinDeviceTest.reportedToStringReturnsReported
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.reportedToStringReturnsReported
+- uid: com.microsoft.azure.sdk.iot.service.devicetwin._device_twin_device_test.repToStringReturnsEmptyIfTagsEmpty*
+  name: repToStringReturnsEmptyIfTagsEmpty
+  nameWithType: DeviceTwinDeviceTest.repToStringReturnsEmptyIfTagsEmpty
+  fullName: void com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDeviceTest.repToStringReturnsEmptyIfTagsEmpty

@@ -1,0 +1,713 @@
+items:
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information
+  id: _subtask_information
+  parent: com.microsoft.azure.batch.protocol.models
+  children:
+  - com.microsoft.azure.batch.protocol.models._subtask_information.endTime()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.exitCode()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.id()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.nodeInfo()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.previousState()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.previousStateTransitionTime()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.schedulingError()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.startTime()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.state()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.stateTransitionTime()
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withEndTime(DateTime)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withExitCode(Integer)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withId(Integer)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withNodeInfo(ComputeNodeInformation)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousState(SubtaskState)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousStateTransitionTime(DateTime)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withSchedulingError(TaskSchedulingError)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withStartTime(DateTime)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withState(SubtaskState)
+  - com.microsoft.azure.batch.protocol.models._subtask_information.withStateTransitionTime(DateTime)
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: SubtaskInformation
+  nameWithType: SubtaskInformation
+  fullName: com.microsoft.azure.batch.protocol.models.SubtaskInformation
+  type: Class
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+      branch: master
+      repo: https://github.com/Azure/azure-batch-sdk-for-java
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 16
+  package: com.microsoft.azure.batch.protocol.models
+  summary: <p>Information about an Azure Batch subtask. </p>
+  syntax: &o1
+    content: public class SubtaskInformation
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.endTime()
+  id: endTime()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: endTime()
+  nameWithType: SubtaskInformation.endTime()
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.endTime()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.endTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 157
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the endTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime endTime()
+    return:
+      type: 230df18c
+      description: <p>the endTime value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.exitCode()
+  id: exitCode()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: exitCode()
+  nameWithType: SubtaskInformation.exitCode()
+  fullName: Integer com.microsoft.azure.batch.protocol.models.SubtaskInformation.exitCode()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.exitCode*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 177
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the exitCode value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer exitCode()
+    return:
+      type: 08effaa0
+      description: <p>the exitCode value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.id()
+  id: id()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: id()
+  nameWithType: SubtaskInformation.id()
+  fullName: Integer com.microsoft.azure.batch.protocol.models.SubtaskInformation.id()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.id*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 97
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the id value.</p>
+
+    <p></p>
+  syntax:
+    content: public Integer id()
+    return:
+      type: 08effaa0
+      description: <p>the id value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.nodeInfo()
+  id: nodeInfo()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: nodeInfo()
+  nameWithType: SubtaskInformation.nodeInfo()
+  fullName: ComputeNodeInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.nodeInfo()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.nodeInfo*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 117
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the nodeInfo value.</p>
+
+    <p></p>
+  syntax:
+    content: public ComputeNodeInformation nodeInfo()
+    return:
+      type: com.microsoft.azure.batch.protocol.models._compute_node_information
+      description: <p>the nodeInfo value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.previousState()
+  id: previousState()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: previousState()
+  nameWithType: SubtaskInformation.previousState()
+  fullName: SubtaskState com.microsoft.azure.batch.protocol.models.SubtaskInformation.previousState()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.previousState*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 257
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the previousState value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskState previousState()
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_state
+      description: <p>the previousState value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.previousStateTransitionTime()
+  id: previousStateTransitionTime()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: previousStateTransitionTime()
+  nameWithType: SubtaskInformation.previousStateTransitionTime()
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.previousStateTransitionTime()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.previousStateTransitionTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 277
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the previousStateTransitionTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime previousStateTransitionTime()
+    return:
+      type: 230df18c
+      description: <p>the previousStateTransitionTime value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.schedulingError()
+  id: schedulingError()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: schedulingError()
+  nameWithType: SubtaskInformation.schedulingError()
+  fullName: TaskSchedulingError com.microsoft.azure.batch.protocol.models.SubtaskInformation.schedulingError()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.schedulingError*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 197
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the schedulingError value.</p>
+
+    <p></p>
+  syntax:
+    content: public TaskSchedulingError schedulingError()
+    return:
+      type: com.microsoft.azure.batch.protocol.models._task_scheduling_error
+      description: <p>the schedulingError value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.startTime()
+  id: startTime()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: startTime()
+  nameWithType: SubtaskInformation.startTime()
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.startTime()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.startTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 137
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the startTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime startTime()
+    return:
+      type: 230df18c
+      description: <p>the startTime value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.state()
+  id: state()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: state()
+  nameWithType: SubtaskInformation.state()
+  fullName: SubtaskState com.microsoft.azure.batch.protocol.models.SubtaskInformation.state()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.state*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 217
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the state value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskState state()
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_state
+      description: <p>the state value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.stateTransitionTime()
+  id: stateTransitionTime()
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: stateTransitionTime()
+  nameWithType: SubtaskInformation.stateTransitionTime()
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.stateTransitionTime()
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.stateTransitionTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 237
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Get the stateTransitionTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime stateTransitionTime()
+    return:
+      type: 230df18c
+      description: <p>the stateTransitionTime value </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withEndTime(DateTime)
+  id: withEndTime(DateTime)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withEndTime(DateTime endTime)
+  nameWithType: SubtaskInformation.withEndTime(DateTime endTime)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withEndTime(DateTime endTime)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withEndTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 167
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the endTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withEndTime(DateTime endTime)
+    parameters:
+    - id: endTime
+      type: 230df18c
+      description: <p>the endTime value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withExitCode(Integer)
+  id: withExitCode(Integer)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withExitCode(Integer exitCode)
+  nameWithType: SubtaskInformation.withExitCode(Integer exitCode)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withExitCode(Integer exitCode)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withExitCode*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 187
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the exitCode value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withExitCode(Integer exitCode)
+    parameters:
+    - id: exitCode
+      type: 08effaa0
+      description: <p>the exitCode value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withId(Integer)
+  id: withId(Integer)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withId(Integer id)
+  nameWithType: SubtaskInformation.withId(Integer id)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withId(Integer id)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withId*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 107
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the id value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withId(Integer id)
+    parameters:
+    - id: id
+      type: 08effaa0
+      description: <p>the id value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withNodeInfo(ComputeNodeInformation)
+  id: withNodeInfo(ComputeNodeInformation)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withNodeInfo(ComputeNodeInformation nodeInfo)
+  nameWithType: SubtaskInformation.withNodeInfo(ComputeNodeInformation nodeInfo)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withNodeInfo(ComputeNodeInformation nodeInfo)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withNodeInfo*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 127
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the nodeInfo value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withNodeInfo(ComputeNodeInformation nodeInfo)
+    parameters:
+    - id: nodeInfo
+      type: com.microsoft.azure.batch.protocol.models._compute_node_information
+      description: <p>the nodeInfo value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousState(SubtaskState)
+  id: withPreviousState(SubtaskState)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withPreviousState(SubtaskState previousState)
+  nameWithType: SubtaskInformation.withPreviousState(SubtaskState previousState)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withPreviousState(SubtaskState previousState)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousState*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 267
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the previousState value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withPreviousState(SubtaskState previousState)
+    parameters:
+    - id: previousState
+      type: com.microsoft.azure.batch.protocol.models._subtask_state
+      description: <p>the previousState value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousStateTransitionTime(DateTime)
+  id: withPreviousStateTransitionTime(DateTime)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withPreviousStateTransitionTime(DateTime previousStateTransitionTime)
+  nameWithType: SubtaskInformation.withPreviousStateTransitionTime(DateTime previousStateTransitionTime)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withPreviousStateTransitionTime(DateTime previousStateTransitionTime)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousStateTransitionTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 287
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the previousStateTransitionTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withPreviousStateTransitionTime(DateTime previousStateTransitionTime)
+    parameters:
+    - id: previousStateTransitionTime
+      type: 230df18c
+      description: <p>the previousStateTransitionTime value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withSchedulingError(TaskSchedulingError)
+  id: withSchedulingError(TaskSchedulingError)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withSchedulingError(TaskSchedulingError schedulingError)
+  nameWithType: SubtaskInformation.withSchedulingError(TaskSchedulingError schedulingError)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withSchedulingError(TaskSchedulingError schedulingError)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withSchedulingError*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 207
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the schedulingError value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withSchedulingError(TaskSchedulingError schedulingError)
+    parameters:
+    - id: schedulingError
+      type: com.microsoft.azure.batch.protocol.models._task_scheduling_error
+      description: <p>the schedulingError value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withStartTime(DateTime)
+  id: withStartTime(DateTime)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withStartTime(DateTime startTime)
+  nameWithType: SubtaskInformation.withStartTime(DateTime startTime)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withStartTime(DateTime startTime)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withStartTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 147
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the startTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withStartTime(DateTime startTime)
+    parameters:
+    - id: startTime
+      type: 230df18c
+      description: <p>the startTime value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withState(SubtaskState)
+  id: withState(SubtaskState)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withState(SubtaskState state)
+  nameWithType: SubtaskInformation.withState(SubtaskState state)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withState(SubtaskState state)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withState*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 227
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the state value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withState(SubtaskState state)
+    parameters:
+    - id: state
+      type: com.microsoft.azure.batch.protocol.models._subtask_state
+      description: <p>the state value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withStateTransitionTime(DateTime)
+  id: withStateTransitionTime(DateTime)
+  parent: com.microsoft.azure.batch.protocol.models._subtask_information
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  langs:
+  - java
+  name: withStateTransitionTime(DateTime stateTransitionTime)
+  nameWithType: SubtaskInformation.withStateTransitionTime(DateTime stateTransitionTime)
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withStateTransitionTime(DateTime stateTransitionTime)
+  overload: com.microsoft.azure.batch.protocol.models._subtask_information.withStateTransitionTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/batch/protocol/models/SubtaskInformation.java
+    startLine: 247
+  package: com.microsoft.azure.batch.protocol.models
+  summary: >-
+    <p>Set the stateTransitionTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public SubtaskInformation withStateTransitionTime(DateTime stateTransitionTime)
+    parameters:
+    - id: stateTransitionTime
+      type: 230df18c
+      description: <p>the stateTransitionTime value to set </p>
+    return:
+      type: com.microsoft.azure.batch.protocol.models._subtask_information
+      description: <p>the <xref href="com.microsoft.azure.batch.protocol.models._subtask_information" data-throw-if-not-resolved="false"></xref> object itself. </p>
+references:
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.id*
+  name: id
+  nameWithType: SubtaskInformation.id
+  fullName: Integer com.microsoft.azure.batch.protocol.models.SubtaskInformation.id
+- uid: 08effaa0
+  spec.java:
+  - name: Integer
+    fullName: Integer
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withId*
+  name: withId
+  nameWithType: SubtaskInformation.withId
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withId
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.nodeInfo*
+  name: nodeInfo
+  nameWithType: SubtaskInformation.nodeInfo
+  fullName: ComputeNodeInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.nodeInfo
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withNodeInfo*
+  name: withNodeInfo
+  nameWithType: SubtaskInformation.withNodeInfo
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withNodeInfo
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.startTime*
+  name: startTime
+  nameWithType: SubtaskInformation.startTime
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.startTime
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withStartTime*
+  name: withStartTime
+  nameWithType: SubtaskInformation.withStartTime
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withStartTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.endTime*
+  name: endTime
+  nameWithType: SubtaskInformation.endTime
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.endTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withEndTime*
+  name: withEndTime
+  nameWithType: SubtaskInformation.withEndTime
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withEndTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.exitCode*
+  name: exitCode
+  nameWithType: SubtaskInformation.exitCode
+  fullName: Integer com.microsoft.azure.batch.protocol.models.SubtaskInformation.exitCode
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withExitCode*
+  name: withExitCode
+  nameWithType: SubtaskInformation.withExitCode
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withExitCode
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.schedulingError*
+  name: schedulingError
+  nameWithType: SubtaskInformation.schedulingError
+  fullName: TaskSchedulingError com.microsoft.azure.batch.protocol.models.SubtaskInformation.schedulingError
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withSchedulingError*
+  name: withSchedulingError
+  nameWithType: SubtaskInformation.withSchedulingError
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withSchedulingError
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.state*
+  name: state
+  nameWithType: SubtaskInformation.state
+  fullName: SubtaskState com.microsoft.azure.batch.protocol.models.SubtaskInformation.state
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withState*
+  name: withState
+  nameWithType: SubtaskInformation.withState
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withState
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.stateTransitionTime*
+  name: stateTransitionTime
+  nameWithType: SubtaskInformation.stateTransitionTime
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.stateTransitionTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withStateTransitionTime*
+  name: withStateTransitionTime
+  nameWithType: SubtaskInformation.withStateTransitionTime
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withStateTransitionTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.previousState*
+  name: previousState
+  nameWithType: SubtaskInformation.previousState
+  fullName: SubtaskState com.microsoft.azure.batch.protocol.models.SubtaskInformation.previousState
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousState*
+  name: withPreviousState
+  nameWithType: SubtaskInformation.withPreviousState
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withPreviousState
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.previousStateTransitionTime*
+  name: previousStateTransitionTime
+  nameWithType: SubtaskInformation.previousStateTransitionTime
+  fullName: DateTime com.microsoft.azure.batch.protocol.models.SubtaskInformation.previousStateTransitionTime
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information.withPreviousStateTransitionTime*
+  name: withPreviousStateTransitionTime
+  nameWithType: SubtaskInformation.withPreviousStateTransitionTime
+  fullName: SubtaskInformation com.microsoft.azure.batch.protocol.models.SubtaskInformation.withPreviousStateTransitionTime
+- uid: com.microsoft.azure.batch.protocol.models._compute_node_information
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._compute_node_information.yml
+  name: ComputeNodeInformation
+  nameWithType: ComputeNodeInformation
+  fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeInformation
+  type: Class
+  summary: <p>Information about the compute node on which a task ran. </p>
+  syntax:
+    content: public class ComputeNodeInformation
+- uid: com.microsoft.azure.batch.protocol.models._task_scheduling_error
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._task_scheduling_error.yml
+  name: TaskSchedulingError
+  nameWithType: TaskSchedulingError
+  fullName: com.microsoft.azure.batch.protocol.models.TaskSchedulingError
+  type: Class
+  summary: <p>Information about an error when scheduling a task. </p>
+  syntax:
+    content: public class TaskSchedulingError
+- uid: com.microsoft.azure.batch.protocol.models._subtask_state
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._subtask_state.yml
+  name: SubtaskState
+  nameWithType: SubtaskState
+  fullName: com.microsoft.azure.batch.protocol.models.SubtaskState
+  type: Enum
+  summary: <p>Defines values for <xref href="com.microsoft.azure.batch.protocol.models._subtask_state" data-throw-if-not-resolved="false"></xref>. </p>
+  syntax:
+    content: public enum SubtaskState
+- uid: com.microsoft.azure.batch.protocol.models._subtask_information
+  parent: com.microsoft.azure.batch.protocol.models
+  href: com.microsoft.azure.batch.protocol.models._subtask_information.yml
+  name: SubtaskInformation
+  nameWithType: SubtaskInformation
+  fullName: com.microsoft.azure.batch.protocol.models.SubtaskInformation
+  type: Class
+  summary: <p>Information about an Azure Batch subtask. </p>
+  syntax: *o1
