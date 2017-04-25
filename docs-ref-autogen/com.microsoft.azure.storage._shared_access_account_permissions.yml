@@ -240,10 +240,6 @@ items:
   syntax:
     content: public WRITE=('w')
 references:
-- uid: com.microsoft.azure.storage._shared_access_account_permissions.permissionsToString*
-  name: permissionsToString
-  nameWithType: SharedAccessAccountPermissions.permissionsToString
-  fullName: static String com.microsoft.azure.storage.SharedAccessAccountPermissions.permissionsToString
 - uid: de404d8acom.microsoft.azure.storage._shared_access_account_permissionsa08ddfce
   spec.java:
   - name: EnumSet<
@@ -258,10 +254,16 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.storage._shared_access_account_permissions.permissionsToString*
+  name: permissionsToString
+  nameWithType: SharedAccessAccountPermissions.permissionsToString
+  fullName: static String com.microsoft.azure.storage.SharedAccessAccountPermissions.permissionsToString
+  package: com.microsoft.azure.storage
 - uid: com.microsoft.azure.storage._shared_access_account_permissions.permissionsFromString*
   name: permissionsFromString
   nameWithType: SharedAccessAccountPermissions.permissionsFromString
   fullName: static EnumSet<SharedAccessAccountPermissions> com.microsoft.azure.storage.SharedAccessAccountPermissions.permissionsFromString
+  package: com.microsoft.azure.storage
 - uid: com.microsoft.azure.storage._permissions
   parent: com.microsoft.azure.storage
   href: com.microsoft.azure.storage._permissions.yml

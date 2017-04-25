@@ -135,11 +135,12 @@ items:
   syntax:
     content: public UpgradeDomainTimeout=(0x0003)
 references:
-- uid: system.fabric._upgrade_failure_reason.getValue*
-  name: getValue
-  nameWithType: UpgradeFailureReason.getValue
-  fullName: int system.fabric.UpgradeFailureReason.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric._upgrade_failure_reason.getValue*
+  name: getValue
+  nameWithType: UpgradeFailureReason.getValue
+  fullName: int system.fabric.UpgradeFailureReason.getValue
+  package: system.fabric

@@ -104,14 +104,15 @@ items:
   syntax:
     content: public UUID=(1)
 references:
-- uid: microsoft.servicefabric.actors._actor_id_kind.ActorIdKind*
-  name: ActorIdKind
-  nameWithType: ActorIdKind.ActorIdKind
-  fullName: microsoft.servicefabric.actors.ActorIdKind.ActorIdKind
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: microsoft.servicefabric.actors._actor_id_kind.ActorIdKind*
+  name: ActorIdKind
+  nameWithType: ActorIdKind.ActorIdKind
+  fullName: microsoft.servicefabric.actors.ActorIdKind.ActorIdKind
+  package: microsoft.servicefabric.actors
 - uid: microsoft.servicefabric.actors._actor_id
   parent: microsoft.servicefabric.actors
   href: microsoft.servicefabric.actors._actor_id.yml

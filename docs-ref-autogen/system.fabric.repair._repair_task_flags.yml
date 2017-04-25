@@ -165,18 +165,20 @@ items:
   syntax:
     content: public ValidMask=(0 | 1 | 2 | 4)
 references:
-- uid: system.fabric.repair._repair_task_flags.getValue*
-  name: getValue
-  nameWithType: RepairTaskFlags.getValue
-  fullName: long system.fabric.repair.RepairTaskFlags.getValue
 - uid: 0364520f
   spec.java:
   - name: long
     fullName: long
+- uid: system.fabric.repair._repair_task_flags.getValue*
+  name: getValue
+  nameWithType: RepairTaskFlags.getValue
+  fullName: long system.fabric.repair.RepairTaskFlags.getValue
+  package: system.fabric.repair
 - uid: system.fabric.repair._repair_task_flags.get*
   name: get
   nameWithType: RepairTaskFlags.get
   fullName: static RepairTaskFlags system.fabric.repair.RepairTaskFlags.get
+  package: system.fabric.repair
 - uid: system.fabric.repair._repair_task_flags
   parent: system.fabric.repair
   href: system.fabric.repair._repair_task_flags.yml

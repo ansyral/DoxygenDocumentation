@@ -1391,22 +1391,19 @@ items:
       type: 5f2aaa64
       description: <p>The updated service. </p>
 references:
-- uid: system.fabric._service_management_client.createService*
-  name: createService
-  nameWithType: ServiceManagementClient.createService
-  fullName: CompletableFuture system.fabric.ServiceManagementClient.createService
 - uid: 5f2aaa64
   spec.java:
   - name: CompletableFuture
     fullName: CompletableFuture
+- uid: system.fabric._service_management_client.createService*
+  name: createService
+  nameWithType: ServiceManagementClient.createService
+  fullName: CompletableFuture system.fabric.ServiceManagementClient.createService
+  package: system.fabric
 - uid: e02a2de0
   spec.java:
   - name: Duration
     fullName: Duration
-- uid: system.fabric._service_management_client.createServiceFromTemplate*
-  name: createServiceFromTemplate
-  nameWithType: ServiceManagementClient.createServiceFromTemplate
-  fullName: CompletableFuture system.fabric.ServiceManagementClient.createServiceFromTemplate
 - uid: "62304784"
   spec.java:
   - name: URI
@@ -1423,14 +1420,16 @@ references:
   spec.java:
   - name: byte []
     fullName: byte []
+- uid: system.fabric._service_management_client.createServiceFromTemplate*
+  name: createServiceFromTemplate
+  nameWithType: ServiceManagementClient.createServiceFromTemplate
+  fullName: CompletableFuture system.fabric.ServiceManagementClient.createServiceFromTemplate
+  package: system.fabric
 - uid: system.fabric._service_management_client.deleteService*
   name: deleteService
   nameWithType: ServiceManagementClient.deleteService
   fullName: CompletableFuture system.fabric.ServiceManagementClient.deleteService
-- uid: system.fabric._service_management_client.getServiceDescription*
-  name: getServiceDescription
-  nameWithType: ServiceManagementClient.getServiceDescription
-  fullName: CompletableFuture<ServiceDescription> system.fabric.ServiceManagementClient.getServiceDescription
+  package: system.fabric
 - uid: 9cdf14d0system.fabric._service_descriptiona08ddfce
   spec.java:
   - name: CompletableFuture<
@@ -1441,18 +1440,21 @@ references:
     href: system.fabric._service_description.yml
   - name: '>'
     fullName: '>'
+- uid: system.fabric._service_management_client.getServiceDescription*
+  name: getServiceDescription
+  nameWithType: ServiceManagementClient.getServiceDescription
+  fullName: CompletableFuture<ServiceDescription> system.fabric.ServiceManagementClient.getServiceDescription
+  package: system.fabric
 - uid: system.fabric._service_management_client.registerServicePartitionResolutionChangeHandler*
   name: registerServicePartitionResolutionChangeHandler
   nameWithType: ServiceManagementClient.registerServicePartitionResolutionChangeHandler
   fullName: long system.fabric.ServiceManagementClient.registerServicePartitionResolutionChangeHandler
+  package: system.fabric
 - uid: system.fabric._service_management_client.unRegisterServicePartitionResolutionChangeHandler*
   name: unRegisterServicePartitionResolutionChangeHandler
   nameWithType: ServiceManagementClient.unRegisterServicePartitionResolutionChangeHandler
   fullName: void system.fabric.ServiceManagementClient.unRegisterServicePartitionResolutionChangeHandler
-- uid: system.fabric._service_management_client.resolveServicePartitionAsync*
-  name: resolveServicePartitionAsync
-  nameWithType: ServiceManagementClient.resolveServicePartitionAsync
-  fullName: CompletableFuture<ResolvedServicePartition> system.fabric.ServiceManagementClient.resolveServicePartitionAsync
+  package: system.fabric
 - uid: 9cdf14d0system.fabric._resolved_service_partitiona08ddfce
   spec.java:
   - name: CompletableFuture<
@@ -1463,22 +1465,25 @@ references:
     href: system.fabric._resolved_service_partition.yml
   - name: '>'
     fullName: '>'
-- uid: system.fabric._service_management_client.getServiceManifest*
-  name: getServiceManifest
-  nameWithType: ServiceManagementClient.getServiceManifest
-  fullName: CompletableFuture<String> system.fabric.ServiceManagementClient.getServiceManifest
+- uid: system.fabric._service_management_client.resolveServicePartitionAsync*
+  name: resolveServicePartitionAsync
+  nameWithType: ServiceManagementClient.resolveServicePartitionAsync
+  fullName: CompletableFuture<ResolvedServicePartition> system.fabric.ServiceManagementClient.resolveServicePartitionAsync
+  package: system.fabric
 - uid: 06be942d
   spec.java:
   - name: CompletableFuture<String>
     fullName: CompletableFuture<String>
+- uid: system.fabric._service_management_client.getServiceManifest*
+  name: getServiceManifest
+  nameWithType: ServiceManagementClient.getServiceManifest
+  fullName: CompletableFuture<String> system.fabric.ServiceManagementClient.getServiceManifest
+  package: system.fabric
 - uid: system.fabric._service_management_client.updateService*
   name: updateService
   nameWithType: ServiceManagementClient.updateService
   fullName: CompletableFuture system.fabric.ServiceManagementClient.updateService
-- uid: system.fabric._service_management_client.removeReplica*
-  name: removeReplica
-  nameWithType: ServiceManagementClient.removeReplica
-  fullName: CompletableFuture system.fabric.ServiceManagementClient.removeReplica
+  package: system.fabric
 - uid: add9545a
   spec.java:
   - name: UUID
@@ -1487,26 +1492,30 @@ references:
   spec.java:
   - name: boolean
     fullName: boolean
+- uid: system.fabric._service_management_client.removeReplica*
+  name: removeReplica
+  nameWithType: ServiceManagementClient.removeReplica
+  fullName: CompletableFuture system.fabric.ServiceManagementClient.removeReplica
+  package: system.fabric
 - uid: system.fabric._service_management_client.restartReplica*
   name: restartReplica
   nameWithType: ServiceManagementClient.restartReplica
   fullName: CompletableFuture system.fabric.ServiceManagementClient.restartReplica
-- uid: system.fabric._service_management_client.registerServiceNotificationFilter*
-  name: registerServiceNotificationFilter
-  nameWithType: ServiceManagementClient.registerServiceNotificationFilter
-  fullName: CompletableFuture<Long> system.fabric.ServiceManagementClient.registerServiceNotificationFilter
+  package: system.fabric
 - uid: 30822cb1
   spec.java:
   - name: CompletableFuture<Long>
     fullName: CompletableFuture<Long>
+- uid: system.fabric._service_management_client.registerServiceNotificationFilter*
+  name: registerServiceNotificationFilter
+  nameWithType: ServiceManagementClient.registerServiceNotificationFilter
+  fullName: CompletableFuture<Long> system.fabric.ServiceManagementClient.registerServiceNotificationFilter
+  package: system.fabric
 - uid: system.fabric._service_management_client.unRegisterServiceNotificationFilter*
   name: unRegisterServiceNotificationFilter
   nameWithType: ServiceManagementClient.unRegisterServiceNotificationFilter
   fullName: CompletableFuture system.fabric.ServiceManagementClient.unRegisterServiceNotificationFilter
-- uid: system.fabric._service_management_client.getServiceNotificationFilterMatched*
-  name: getServiceNotificationFilterMatched
-  nameWithType: ServiceManagementClient.getServiceNotificationFilterMatched
-  fullName: Observable<ServiceNotification> system.fabric.ServiceManagementClient.getServiceNotificationFilterMatched
+  package: system.fabric
 - uid: system.fabric._observable78504a52system.fabric._service_notificationa08ddfce
   spec.java:
   - uid: system.fabric._observable
@@ -1521,10 +1530,16 @@ references:
     href: system.fabric._service_notification.yml
   - name: '>'
     fullName: '>'
+- uid: system.fabric._service_management_client.getServiceNotificationFilterMatched*
+  name: getServiceNotificationFilterMatched
+  nameWithType: ServiceManagementClient.getServiceNotificationFilterMatched
+  fullName: Observable<ServiceNotification> system.fabric.ServiceManagementClient.getServiceNotificationFilterMatched
+  package: system.fabric
 - uid: system.fabric._service_management_client.close*
   name: close
   nameWithType: ServiceManagementClient.close
   fullName: void system.fabric.ServiceManagementClient.close
+  package: system.fabric
 - uid: system.fabric._service_management_client.beginCreateService(long,int,long,long,NativeAsyncCallback)
 - uid: system.fabric._service_management_client.beginCreateServiceFromTemplate(long,String,String,String,long,long,long,NativeAsyncCallback)
 - uid: system.fabric._service_management_client.beginDeleteService(long,String,long,NativeAsyncCallback)

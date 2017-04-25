@@ -1027,10 +1027,6 @@ items:
       description: <p>The current instance. </p>
   overridden: com.microsoft.azure.batch._i_inherited_behaviors.withCustomBehaviors(Collection<BatchClientBehavior>)
 references:
-- uid: com.microsoft.azure.batch._job_schedule_operations.customBehaviors*
-  name: customBehaviors
-  nameWithType: JobScheduleOperations.customBehaviors
-  fullName: Collection<BatchClientBehavior> com.microsoft.azure.batch.JobScheduleOperations.customBehaviors
 - uid: 12ebb11acom.microsoft.azure.batch._batch_client_behaviora08ddfce
   spec.java:
   - name: Collection<
@@ -1041,14 +1037,16 @@ references:
     href: com.microsoft.azure.batch._batch_client_behavior.yml
   - name: '>'
     fullName: '>'
+- uid: com.microsoft.azure.batch._job_schedule_operations.customBehaviors*
+  name: customBehaviors
+  nameWithType: JobScheduleOperations.customBehaviors
+  fullName: Collection<BatchClientBehavior> com.microsoft.azure.batch.JobScheduleOperations.customBehaviors
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.withCustomBehaviors*
   name: withCustomBehaviors
   nameWithType: JobScheduleOperations.withCustomBehaviors
   fullName: IInheritedBehaviors com.microsoft.azure.batch.JobScheduleOperations.withCustomBehaviors
-- uid: com.microsoft.azure.batch._job_schedule_operations.existsJobSchedule*
-  name: existsJobSchedule
-  nameWithType: JobScheduleOperations.existsJobSchedule
-  fullName: boolean com.microsoft.azure.batch.JobScheduleOperations.existsJobSchedule
+  package: com.microsoft.azure.batch
 - uid: c8683d81
   spec.java:
   - name: BatchErrorException
@@ -1065,6 +1063,11 @@ references:
   spec.java:
   - name: boolean
     fullName: boolean
+- uid: com.microsoft.azure.batch._job_schedule_operations.existsJobSchedule*
+  name: existsJobSchedule
+  nameWithType: JobScheduleOperations.existsJobSchedule
+  fullName: boolean com.microsoft.azure.batch.JobScheduleOperations.existsJobSchedule
+  package: com.microsoft.azure.batch
 - uid: 2a13b5a5com.microsoft.azure.batch._batch_client_behaviora08ddfce
   spec.java:
   - name: Iterable<
@@ -1079,14 +1082,17 @@ references:
   name: deleteJobSchedule
   nameWithType: JobScheduleOperations.deleteJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.deleteJobSchedule
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.getJobSchedule*
   name: getJobSchedule
   nameWithType: JobScheduleOperations.getJobSchedule
   fullName: CloudJobSchedule com.microsoft.azure.batch.JobScheduleOperations.getJobSchedule
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.patchJobSchedule*
   name: patchJobSchedule
   nameWithType: JobScheduleOperations.patchJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.patchJobSchedule
+  package: com.microsoft.azure.batch
 - uid: 5618da2dcom.microsoft.azure.batch.protocol.models._metadata_itema08ddfce
   spec.java:
   - name: List<
@@ -1101,26 +1107,27 @@ references:
   name: updateJobSchedule
   nameWithType: JobScheduleOperations.updateJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.updateJobSchedule
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.disableJobSchedule*
   name: disableJobSchedule
   nameWithType: JobScheduleOperations.disableJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.disableJobSchedule
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.enableJobSchedule*
   name: enableJobSchedule
   nameWithType: JobScheduleOperations.enableJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.enableJobSchedule
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.terminateJobSchedule*
   name: terminateJobSchedule
   nameWithType: JobScheduleOperations.terminateJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.terminateJobSchedule
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.createJobSchedule*
   name: createJobSchedule
   nameWithType: JobScheduleOperations.createJobSchedule
   fullName: void com.microsoft.azure.batch.JobScheduleOperations.createJobSchedule
-- uid: com.microsoft.azure.batch._job_schedule_operations.listJobSchedules*
-  name: listJobSchedules
-  nameWithType: JobScheduleOperations.listJobSchedules
-  fullName: List<CloudJobSchedule> com.microsoft.azure.batch.JobScheduleOperations.listJobSchedules
+  package: com.microsoft.azure.batch
 - uid: 5618da2dcom.microsoft.azure.batch.protocol.models._cloud_job_schedulea08ddfce
   spec.java:
   - name: List<
@@ -1131,6 +1138,11 @@ references:
     href: com.microsoft.azure.batch.protocol.models._cloud_job_schedule.yml
   - name: '>'
     fullName: '>'
+- uid: com.microsoft.azure.batch._job_schedule_operations.listJobSchedules*
+  name: listJobSchedules
+  nameWithType: JobScheduleOperations.listJobSchedules
+  fullName: List<CloudJobSchedule> com.microsoft.azure.batch.JobScheduleOperations.listJobSchedules
+  package: com.microsoft.azure.batch
 - uid: com.microsoft.azure.batch._job_schedule_operations.JobScheduleOperations(BatchClient,Iterable<BatchClientBehavior>)
 - uid: com.microsoft.azure.batch._i_inherited_behaviors
   parent: com.microsoft.azure.batch

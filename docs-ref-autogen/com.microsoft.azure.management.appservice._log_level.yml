@@ -193,22 +193,25 @@ items:
   syntax:
     content: public WARNING=("Warning")
 references:
-- uid: com.microsoft.azure.management.appservice._log_level.LogLevel*
-  name: LogLevel
-  nameWithType: LogLevel.LogLevel
-  fullName: com.microsoft.azure.management.appservice.LogLevel.LogLevel
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.management.appservice._log_level.LogLevel*
+  name: LogLevel
+  nameWithType: LogLevel.LogLevel
+  fullName: com.microsoft.azure.management.appservice.LogLevel.LogLevel
+  package: com.microsoft.azure.management.appservice
 - uid: com.microsoft.azure.management.appservice._log_level.toString*
   name: toString
   nameWithType: LogLevel.toString
   fullName: String com.microsoft.azure.management.appservice.LogLevel.toString
+  package: com.microsoft.azure.management.appservice
 - uid: com.microsoft.azure.management.appservice._log_level.fromString*
   name: fromString
   nameWithType: LogLevel.fromString
   fullName: static LogLevel com.microsoft.azure.management.appservice.LogLevel.fromString
+  package: com.microsoft.azure.management.appservice
 - uid: com.microsoft.azure.management.appservice._log_level
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._log_level.yml

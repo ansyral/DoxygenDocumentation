@@ -146,18 +146,20 @@ items:
   syntax:
     content: public Restart=(2)
 references:
-- uid: system.fabric.repair._node_impact_level.getValue*
-  name: getValue
-  nameWithType: NodeImpactLevel.getValue
-  fullName: int system.fabric.repair.NodeImpactLevel.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric.repair._node_impact_level.getValue*
+  name: getValue
+  nameWithType: NodeImpactLevel.getValue
+  fullName: int system.fabric.repair.NodeImpactLevel.getValue
+  package: system.fabric.repair
 - uid: system.fabric.repair._node_impact_level.get*
   name: get
   nameWithType: NodeImpactLevel.get
   fullName: static NodeImpactLevel system.fabric.repair.NodeImpactLevel.get
+  package: system.fabric.repair
 - uid: system.fabric.repair._node_impact_level
   parent: system.fabric.repair
   href: system.fabric.repair._node_impact_level.yml

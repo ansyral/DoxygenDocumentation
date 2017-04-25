@@ -49,10 +49,6 @@ items:
       type: ba46146acom.microsoft.azure.management.network._application_gateway._definition_stages._with_createa08ddfce
       description: <p>the first stage of the certificate definition </p>
 references:
-- uid: com.microsoft.azure.management.network._application_gateway._definition_stages._with_ssl_cert.defineSslCertificate*
-  name: defineSslCertificate
-  nameWithType: ApplicationGateway.DefinitionStages.WithSslCert.defineSslCertificate
-  fullName: ApplicationGatewaySslCertificate.DefinitionStages.Blank<WithCreate> com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSslCert.defineSslCertificate
 - uid: "26831127"
   spec.java:
   - name: String
@@ -67,6 +63,11 @@ references:
     href: com.microsoft.azure.management.network._application_gateway._definition_stages._with_create.yml
   - name: '>'
     fullName: '>'
+- uid: com.microsoft.azure.management.network._application_gateway._definition_stages._with_ssl_cert.defineSslCertificate*
+  name: defineSslCertificate
+  nameWithType: ApplicationGateway.DefinitionStages.WithSslCert.defineSslCertificate
+  fullName: ApplicationGatewaySslCertificate.DefinitionStages.Blank<WithCreate> com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSslCert.defineSslCertificate
+  package: com.microsoft.azure.management.network
 - uid: com.microsoft.azure.management.network._application_gateway._definition_stages._with_create
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._application_gateway._definition_stages._with_create.yml

@@ -269,22 +269,25 @@ items:
   syntax:
     content: public UNKNOWN=("Unknown")
 references:
-- uid: com.microsoft.azure.management.servicebus._entity_status.EntityStatus*
-  name: EntityStatus
-  nameWithType: EntityStatus.EntityStatus
-  fullName: com.microsoft.azure.management.servicebus.EntityStatus.EntityStatus
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.management.servicebus._entity_status.EntityStatus*
+  name: EntityStatus
+  nameWithType: EntityStatus.EntityStatus
+  fullName: com.microsoft.azure.management.servicebus.EntityStatus.EntityStatus
+  package: com.microsoft.azure.management.servicebus
 - uid: com.microsoft.azure.management.servicebus._entity_status.toString*
   name: toString
   nameWithType: EntityStatus.toString
   fullName: String com.microsoft.azure.management.servicebus.EntityStatus.toString
+  package: com.microsoft.azure.management.servicebus
 - uid: com.microsoft.azure.management.servicebus._entity_status.fromString*
   name: fromString
   nameWithType: EntityStatus.fromString
   fullName: static EntityStatus com.microsoft.azure.management.servicebus.EntityStatus.fromString
+  package: com.microsoft.azure.management.servicebus
 - uid: com.microsoft.azure.management.servicebus._entity_status
   parent: com.microsoft.azure.management.servicebus
   href: com.microsoft.azure.management.servicebus._entity_status.yml

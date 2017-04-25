@@ -991,22 +991,25 @@ items:
   syntax:
     content: public USE_PROXY=("UseProxy")
 references:
-- uid: com.microsoft.azure.management.dns._http_status_code.HttpStatusCode*
-  name: HttpStatusCode
-  nameWithType: HttpStatusCode.HttpStatusCode
-  fullName: com.microsoft.azure.management.dns.HttpStatusCode.HttpStatusCode
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.management.dns._http_status_code.HttpStatusCode*
+  name: HttpStatusCode
+  nameWithType: HttpStatusCode.HttpStatusCode
+  fullName: com.microsoft.azure.management.dns.HttpStatusCode.HttpStatusCode
+  package: com.microsoft.azure.management.dns
 - uid: com.microsoft.azure.management.dns._http_status_code.toString*
   name: toString
   nameWithType: HttpStatusCode.toString
   fullName: String com.microsoft.azure.management.dns.HttpStatusCode.toString
+  package: com.microsoft.azure.management.dns
 - uid: com.microsoft.azure.management.dns._http_status_code.fromString*
   name: fromString
   nameWithType: HttpStatusCode.fromString
   fullName: static HttpStatusCode com.microsoft.azure.management.dns.HttpStatusCode.fromString
+  package: com.microsoft.azure.management.dns
 - uid: com.microsoft.azure.management.dns._http_status_code
   parent: com.microsoft.azure.management.dns
   href: com.microsoft.azure.management.dns._http_status_code.yml

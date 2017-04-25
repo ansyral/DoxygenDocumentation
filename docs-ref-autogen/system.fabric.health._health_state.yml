@@ -159,18 +159,20 @@ items:
   syntax:
     content: public Warning=(2)
 references:
-- uid: system.fabric.health._health_state.getValue*
-  name: getValue
-  nameWithType: HealthState.getValue
-  fullName: int system.fabric.health.HealthState.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric.health._health_state.getValue*
+  name: getValue
+  nameWithType: HealthState.getValue
+  fullName: int system.fabric.health.HealthState.getValue
+  package: system.fabric.health
 - uid: system.fabric.health._health_state.get*
   name: get
   nameWithType: HealthState.get
   fullName: static HealthState system.fabric.health.HealthState.get
+  package: system.fabric.health
 - uid: system.fabric.health._health_state
   parent: system.fabric.health
   href: system.fabric.health._health_state.yml

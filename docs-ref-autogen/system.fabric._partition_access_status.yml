@@ -135,11 +135,12 @@ items:
   syntax:
     content: public ReconfigurationPending=(2)
 references:
-- uid: system.fabric._partition_access_status.getValue*
-  name: getValue
-  nameWithType: PartitionAccessStatus.getValue
-  fullName: int system.fabric.PartitionAccessStatus.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric._partition_access_status.getValue*
+  name: getValue
+  nameWithType: PartitionAccessStatus.getValue
+  fullName: int system.fabric.PartitionAccessStatus.getValue
+  package: system.fabric

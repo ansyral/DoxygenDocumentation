@@ -117,14 +117,12 @@ references:
   name: BlobContainerPermissions
   nameWithType: BlobContainerPermissions.BlobContainerPermissions
   fullName: com.microsoft.azure.storage.blob.BlobContainerPermissions.BlobContainerPermissions
+  package: com.microsoft.azure.storage.blob
 - uid: com.microsoft.azure.storage.blob._blob_container_permissions.getPublicAccess*
   name: getPublicAccess
   nameWithType: BlobContainerPermissions.getPublicAccess
   fullName: BlobContainerPublicAccessType com.microsoft.azure.storage.blob.BlobContainerPermissions.getPublicAccess
-- uid: com.microsoft.azure.storage.blob._blob_container_permissions.setPublicAccess*
-  name: setPublicAccess
-  nameWithType: BlobContainerPermissions.setPublicAccess
-  fullName: void com.microsoft.azure.storage.blob.BlobContainerPermissions.setPublicAccess
+  package: com.microsoft.azure.storage.blob
 - uid: 93de0ef9com.microsoft.azure.storage.blob._blob_container_public_access_type
   spec.java:
   - name: 'final '
@@ -133,6 +131,11 @@ references:
     name: BlobContainerPublicAccessType
     fullName: com.microsoft.azure.storage.blob.BlobContainerPublicAccessType
     href: com.microsoft.azure.storage.blob._blob_container_public_access_type.yml
+- uid: com.microsoft.azure.storage.blob._blob_container_permissions.setPublicAccess*
+  name: setPublicAccess
+  nameWithType: BlobContainerPermissions.setPublicAccess
+  fullName: void com.microsoft.azure.storage.blob.BlobContainerPermissions.setPublicAccess
+  package: com.microsoft.azure.storage.blob
 - uid: com.microsoft.azure.storage._permissions.getSharedAccessPolicies()
   parent: com.microsoft.azure.storage._permissions
   href: com.microsoft.azure.storage._permissions.yml

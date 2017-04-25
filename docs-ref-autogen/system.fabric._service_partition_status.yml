@@ -160,14 +160,15 @@ items:
   syntax:
     content: public RECONFIGURING=(4)
 references:
-- uid: system.fabric._service_partition_status.getValue*
-  name: getValue
-  nameWithType: ServicePartitionStatus.getValue
-  fullName: int system.fabric.ServicePartitionStatus.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric._service_partition_status.getValue*
+  name: getValue
+  nameWithType: ServicePartitionStatus.getValue
+  fullName: int system.fabric.ServicePartitionStatus.getValue
+  package: system.fabric
 - uid: system.fabric._stateful_service_description.getMinReplicaSetSize()
   parent: system.fabric._stateful_service_description
   href: system.fabric._stateful_service_description.yml

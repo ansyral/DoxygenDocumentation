@@ -497,22 +497,25 @@ items:
   syntax:
     content: public UPDATED=("Updated")
 references:
-- uid: com.microsoft.azure.management.appservice._domain_status.DomainStatus*
-  name: DomainStatus
-  nameWithType: DomainStatus.DomainStatus
-  fullName: com.microsoft.azure.management.appservice.DomainStatus.DomainStatus
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.management.appservice._domain_status.DomainStatus*
+  name: DomainStatus
+  nameWithType: DomainStatus.DomainStatus
+  fullName: com.microsoft.azure.management.appservice.DomainStatus.DomainStatus
+  package: com.microsoft.azure.management.appservice
 - uid: com.microsoft.azure.management.appservice._domain_status.toString*
   name: toString
   nameWithType: DomainStatus.toString
   fullName: String com.microsoft.azure.management.appservice.DomainStatus.toString
+  package: com.microsoft.azure.management.appservice
 - uid: com.microsoft.azure.management.appservice._domain_status.fromString*
   name: fromString
   nameWithType: DomainStatus.fromString
   fullName: static DomainStatus com.microsoft.azure.management.appservice.DomainStatus.fromString
+  package: com.microsoft.azure.management.appservice
 - uid: com.microsoft.azure.management.appservice._domain_status
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._domain_status.yml

@@ -172,14 +172,15 @@ items:
   syntax:
     content: public Standby=(2)
 references:
-- uid: system.fabric.query._service_replica_status.getValue*
-  name: getValue
-  nameWithType: ServiceReplicaStatus.getValue
-  fullName: int system.fabric.query.ServiceReplicaStatus.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric.query._service_replica_status.getValue*
+  name: getValue
+  nameWithType: ServiceReplicaStatus.getValue
+  fullName: int system.fabric.query.ServiceReplicaStatus.getValue
+  package: system.fabric.query
 - uid: system.fabric.query._replica
   parent: system.fabric.query
   href: system.fabric.query._replica.yml

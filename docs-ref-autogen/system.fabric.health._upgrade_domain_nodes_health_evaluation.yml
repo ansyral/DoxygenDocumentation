@@ -140,10 +140,6 @@ items:
 
           <ref refid="" kindref="compound">java.lang.String</ref> upgradeDomainName </p>
 references:
-- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getUnhealthyEvaluations*
-  name: getUnhealthyEvaluations
-  nameWithType: UpgradeDomainNodesHealthEvaluation.getUnhealthyEvaluations
-  fullName: List<HealthEvaluation> system.fabric.health.UpgradeDomainNodesHealthEvaluation.getUnhealthyEvaluations
 - uid: 5618da2dsystem.fabric.health._health_evaluationa08ddfce
   spec.java:
   - name: List<
@@ -154,30 +150,38 @@ references:
     href: system.fabric.health._health_evaluation.yml
   - name: '>'
     fullName: '>'
-- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getTotalCount*
-  name: getTotalCount
-  nameWithType: UpgradeDomainNodesHealthEvaluation.getTotalCount
-  fullName: long system.fabric.health.UpgradeDomainNodesHealthEvaluation.getTotalCount
+- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getUnhealthyEvaluations*
+  name: getUnhealthyEvaluations
+  nameWithType: UpgradeDomainNodesHealthEvaluation.getUnhealthyEvaluations
+  fullName: List<HealthEvaluation> system.fabric.health.UpgradeDomainNodesHealthEvaluation.getUnhealthyEvaluations
+  package: system.fabric.health
 - uid: 0364520f
   spec.java:
   - name: long
     fullName: long
-- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getMaxPercentUnhealthyNodes*
-  name: getMaxPercentUnhealthyNodes
-  nameWithType: UpgradeDomainNodesHealthEvaluation.getMaxPercentUnhealthyNodes
-  fullName: byte system.fabric.health.UpgradeDomainNodesHealthEvaluation.getMaxPercentUnhealthyNodes
+- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getTotalCount*
+  name: getTotalCount
+  nameWithType: UpgradeDomainNodesHealthEvaluation.getTotalCount
+  fullName: long system.fabric.health.UpgradeDomainNodesHealthEvaluation.getTotalCount
+  package: system.fabric.health
 - uid: d357ea40
   spec.java:
   - name: byte
     fullName: byte
-- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getUpgradeDomainName*
-  name: getUpgradeDomainName
-  nameWithType: UpgradeDomainNodesHealthEvaluation.getUpgradeDomainName
-  fullName: String system.fabric.health.UpgradeDomainNodesHealthEvaluation.getUpgradeDomainName
+- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getMaxPercentUnhealthyNodes*
+  name: getMaxPercentUnhealthyNodes
+  nameWithType: UpgradeDomainNodesHealthEvaluation.getMaxPercentUnhealthyNodes
+  fullName: byte system.fabric.health.UpgradeDomainNodesHealthEvaluation.getMaxPercentUnhealthyNodes
+  package: system.fabric.health
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
+- uid: system.fabric.health._upgrade_domain_nodes_health_evaluation.getUpgradeDomainName*
+  name: getUpgradeDomainName
+  nameWithType: UpgradeDomainNodesHealthEvaluation.getUpgradeDomainName
+  fullName: String system.fabric.health.UpgradeDomainNodesHealthEvaluation.getUpgradeDomainName
+  package: system.fabric.health
 - uid: system.fabric.health._health_evaluation.fromNative(long)
   parent: system.fabric.health._health_evaluation
   href: system.fabric.health._health_evaluation.yml

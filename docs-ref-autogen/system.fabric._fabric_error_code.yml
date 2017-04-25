@@ -2877,11 +2877,12 @@ items:
   syntax:
     content: public WriteConflict=(InternalFabricErrorCode.FABRIC_E_WRITE_CONFLICT.getValue())
 references:
-- uid: system.fabric._fabric_error_code.getValue*
-  name: getValue
-  nameWithType: FabricErrorCode.getValue
-  fullName: long system.fabric.FabricErrorCode.getValue
 - uid: 0364520f
   spec.java:
   - name: long
     fullName: long
+- uid: system.fabric._fabric_error_code.getValue*
+  name: getValue
+  nameWithType: FabricErrorCode.getValue
+  fullName: long system.fabric.FabricErrorCode.getValue
+  package: system.fabric

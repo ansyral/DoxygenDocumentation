@@ -200,38 +200,39 @@ items:
       type: com.microsoft.azure.management.network._application_gateway._update
       description: <p>the next stage of the update </p>
 references:
-- uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.withoutFrontend*
-  name: withoutFrontend
-  nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutFrontend
-  fullName: Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutFrontend
 - uid: "26831127"
   spec.java:
   - name: String
     fullName: String
-- uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.updateFrontend*
-  name: updateFrontend
-  nameWithType: ApplicationGateway.UpdateStages.WithFrontend.updateFrontend
-  fullName: ApplicationGatewayFrontend.Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.updateFrontend
+- uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.withoutFrontend*
+  name: withoutFrontend
+  nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutFrontend
+  fullName: Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutFrontend
+  package: com.microsoft.azure.management.network
 - uid: 03c831ef
   spec.java:
   - name: ApplicationGatewayFrontend.Update
     fullName: ApplicationGatewayFrontend.Update
+- uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.updateFrontend*
+  name: updateFrontend
+  nameWithType: ApplicationGateway.UpdateStages.WithFrontend.updateFrontend
+  fullName: ApplicationGatewayFrontend.Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.updateFrontend
+  package: com.microsoft.azure.management.network
 - uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.withoutPublicFrontend*
   name: withoutPublicFrontend
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutPublicFrontend
   fullName: Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutPublicFrontend
+  package: com.microsoft.azure.management.network
 - uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.withoutPrivateFrontend*
   name: withoutPrivateFrontend
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutPrivateFrontend
   fullName: Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutPrivateFrontend
+  package: com.microsoft.azure.management.network
 - uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.updatePublicFrontend*
   name: updatePublicFrontend
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.updatePublicFrontend
   fullName: ApplicationGatewayFrontend.Update com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.updatePublicFrontend
-- uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.definePublicFrontend*
-  name: definePublicFrontend
-  nameWithType: ApplicationGateway.UpdateStages.WithFrontend.definePublicFrontend
-  fullName: ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<Update> com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.definePublicFrontend
+  package: com.microsoft.azure.management.network
 - uid: b7486db1com.microsoft.azure.management.network._application_gateway._updatea08ddfce
   spec.java:
   - name: ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<
@@ -242,10 +243,16 @@ references:
     href: com.microsoft.azure.management.network._application_gateway._update.yml
   - name: '>'
     fullName: '>'
+- uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.definePublicFrontend*
+  name: definePublicFrontend
+  nameWithType: ApplicationGateway.UpdateStages.WithFrontend.definePublicFrontend
+  fullName: ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<Update> com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.definePublicFrontend
+  package: com.microsoft.azure.management.network
 - uid: com.microsoft.azure.management.network._application_gateway._update_stages._with_frontend.definePrivateFrontend*
   name: definePrivateFrontend
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.definePrivateFrontend
   fullName: ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<Update> com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.definePrivateFrontend
+  package: com.microsoft.azure.management.network
 - uid: com.microsoft.azure.management.network._application_gateway._update
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._application_gateway._update.yml

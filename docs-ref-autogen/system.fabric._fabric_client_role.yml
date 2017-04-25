@@ -105,18 +105,20 @@ items:
   syntax:
     content: public USER=(0x0001)
 references:
-- uid: system.fabric._fabric_client_role.getValue*
-  name: getValue
-  nameWithType: FabricClientRole.getValue
-  fullName: int system.fabric.FabricClientRole.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric._fabric_client_role.getValue*
+  name: getValue
+  nameWithType: FabricClientRole.getValue
+  fullName: int system.fabric.FabricClientRole.getValue
+  package: system.fabric
 - uid: system.fabric._fabric_client_role.get*
   name: get
   nameWithType: FabricClientRole.get
   fullName: static FabricClientRole system.fabric.FabricClientRole.get
+  package: system.fabric
 - uid: system.fabric._fabric_client_role
   parent: system.fabric
   href: system.fabric._fabric_client_role.yml

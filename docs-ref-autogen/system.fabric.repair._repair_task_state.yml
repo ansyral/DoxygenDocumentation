@@ -222,18 +222,20 @@ items:
   syntax:
     content: public Restoring=(20)
 references:
-- uid: system.fabric.repair._repair_task_state.getValue*
-  name: getValue
-  nameWithType: RepairTaskState.getValue
-  fullName: int system.fabric.repair.RepairTaskState.getValue
 - uid: f75371fa
   spec.java:
   - name: int
     fullName: int
+- uid: system.fabric.repair._repair_task_state.getValue*
+  name: getValue
+  nameWithType: RepairTaskState.getValue
+  fullName: int system.fabric.repair.RepairTaskState.getValue
+  package: system.fabric.repair
 - uid: system.fabric.repair._repair_task_state.get*
   name: get
   nameWithType: RepairTaskState.get
   fullName: static RepairTaskState system.fabric.repair.RepairTaskState.get
+  package: system.fabric.repair
 - uid: system.fabric.repair._repair_task_state
   parent: system.fabric.repair
   href: system.fabric.repair._repair_task_state.yml
