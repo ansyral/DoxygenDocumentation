@@ -300,12 +300,17 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/FabricClientSettings.java
     startLine: 180
   package: system.fabric
-  summary: "<p>Gets the bucket count used by the clientâ€™s service resolution cache.</p>\r\n<p>\r\n  <bold>Remarks:</bold>The default value is 1024. </p>"
+  summary: >-
+    <p>Gets the bucket count used by the clientâ€™s service resolution cache.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>The default value is 1024. </p>
   syntax:
     content: public long getPartitionLocationCacheBucketCount()
     return:
       type: 0364520f
-      description: "<p>The bucket count used by the clientâ€™s service resolution cache. </p>"
+      description: <p>The bucket count used by the clientâ€™s service resolution cache. </p>
 - uid: system.fabric._fabric_client_settings.getPartitionLocationCacheLimit()
   id: getPartitionLocationCacheLimit()
   parent: system.fabric._fabric_client_settings
@@ -596,13 +601,18 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/FabricClientSettings.java
     startLine: 193
   package: system.fabric
-  summary: "<p>Sets the bucket count used by the clientâ€™s service resolution cache.</p>\r\n<p>\r\n  <bold>Remarks:</bold>The default value is 1024. </p>"
+  summary: >-
+    <p>Sets the bucket count used by the clientâ€™s service resolution cache.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>The default value is 1024. </p>
   syntax:
     content: public void setPartitionLocationCacheBucketCount(long partitionLocationCacheBucketCount)
     parameters:
     - id: partitionLocationCacheBucketCount
       type: 0364520f
-      description: "<p>The bucket count used by the clientâ€™s service resolution cache. </p>"
+      description: <p>The bucket count used by the clientâ€™s service resolution cache. </p>
 - uid: system.fabric._fabric_client_settings.setPartitionLocationCacheLimit(long)
   id: setPartitionLocationCacheLimit(long)
   parent: system.fabric._fabric_client_settings

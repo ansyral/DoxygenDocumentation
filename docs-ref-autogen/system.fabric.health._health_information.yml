@@ -270,7 +270,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/health/HealthInformation.java
     startLine: 163
   package: system.fabric.health
-  summary: "<p>Gets a value that indicates whetherÂ the report is removed from health store when it expires. If set to false, the report is treated as an error when expired. false by default.</p>\r\n<p>\r\n  <bold>Remarks:</bold>When clients report periodically, they should set RemoveWhenExpired false (default). This way, is the reporter has issues (eg. deadlock) and can't report, the entity is evaluated at error when the health report expires, and this will flag the entity as <ref refid=\"\" kindref=\"compound\">system.fabric.health.HealthState#Error</ref>. Periodic health clients should send reports with higher frequency than time to live to account for delays due to health client batching, message transport over the wire and health store processing. </p>"
+  summary: >-
+    <p>Gets a value that indicates whetherÂ the report is removed from health store when it expires. If set to false, the report is treated as an error when expired. false by default.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>When clients report periodically, they should set RemoveWhenExpired false (default). This way, is the reporter has issues (eg. deadlock) and can't report, the entity is evaluated at error when the health report expires, and this will flag the entity as <ref refid="" kindref="compound">system.fabric.health.HealthState#Error</ref>. Periodic health clients should send reports with higher frequency than time to live to account for delays due to health client batching, message transport over the wire and health store processing. </p>
   syntax:
     content: public boolean isRemoveWhenExpired()
     return:
@@ -320,7 +325,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/health/HealthInformation.java
     startLine: 243
   package: system.fabric.health
-  summary: "<p>Sets a value that indicates whetherÂ the report is removed from health store when it expires. If set to false, the report is treated as an error when expired. false by default.</p>\r\n<p>\r\n  <bold>Remarks:</bold>When clients report periodically, they should set RemoveWhenExpired false (default). This way, is the reporter has issues (eg. deadlock) and can't report, the entity is evaluated at error when the health report expires, and this will flag the entity as <ref refid=\"\" kindref=\"compound\">system.fabric.health.HealthState#Error</ref>. Periodic health clients should send reports with higher frequency than time to live to account for delays due to health client batching, message transport over the wire and health store processing. </p>"
+  summary: >-
+    <p>Sets a value that indicates whetherÂ the report is removed from health store when it expires. If set to false, the report is treated as an error when expired. false by default.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>When clients report periodically, they should set RemoveWhenExpired false (default). This way, is the reporter has issues (eg. deadlock) and can't report, the entity is evaluated at error when the health report expires, and this will flag the entity as <ref refid="" kindref="compound">system.fabric.health.HealthState#Error</ref>. Periodic health clients should send reports with higher frequency than time to live to account for delays due to health client batching, message transport over the wire and health store processing. </p>
   syntax:
     content: public void setRemoveWhenExpired(boolean removeWhenExpired)
     parameters:

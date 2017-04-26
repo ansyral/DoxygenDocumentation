@@ -343,7 +343,10 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/FabricUpgradeProgress.java
     startLine: 187
   package: system.fabric
-  summary: "<p>Gets the health evaluations which describe the data and the algorithm used by health manager to evaluate cluster health. Only populated when the clusterâ€™s aggregated health state is <ref refid=\"\" kindref=\"compound\">system.fabric.health.HealthState#Error</ref>. When the upgrade rolls back because of health evaluation, it provides a snapshot view of the health at the time the health check was performed.</p>\r\n<p></p>"
+  summary: >-
+    <p>Gets the health evaluations which describe the data and the algorithm used by health manager to evaluate cluster health. Only populated when the clusterâ€™s aggregated health state is <ref refid="" kindref="compound">system.fabric.health.HealthState#Error</ref>. When the upgrade rolls back because of health evaluation, it provides a snapshot view of the health at the time the health check was performed.</p>
+
+    <p></p>
   syntax:
     content: public List<HealthEvaluation> getUnhealthyEvaluations()
     return:

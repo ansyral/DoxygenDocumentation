@@ -164,7 +164,7 @@ items:
     parameters:
     - id: rebootType
       type: com.microsoft.azure.management.redis._reboot_type
-      description: '<p>specifies which Redis node(s) to reboot. Depending on this value data loss is possible. Possible values include: ''PrimaryNode'', ''SecondaryNode'', ''AllNodes''. </p>'
+      description: "<p>specifies which Redis node(s) to reboot. Depending on this value data loss is possible. Possible values include: 'PrimaryNode', 'SecondaryNode', 'AllNodes'. </p>"
 - uid: com.microsoft.azure.management.redis._redis_cache_premium.forceReboot(RebootType,int)
   id: forceReboot(RebootType,int)
   parent: com.microsoft.azure.management.redis._redis_cache_premium
@@ -190,7 +190,7 @@ items:
     parameters:
     - id: rebootType
       type: com.microsoft.azure.management.redis._reboot_type
-      description: '<p>specifies which Redis node(s) to reboot. Depending on this value data loss is possible. Possible values include: ''PrimaryNode'', ''SecondaryNode'', ''AllNodes''. </p>'
+      description: "<p>specifies which Redis node(s) to reboot. Depending on this value data loss is possible. Possible values include: 'PrimaryNode', 'SecondaryNode', 'AllNodes'. </p>"
     - id: shardId
       type: f75371fa
       description: <p>In case of cluster cache, this specifies shard id which should be rebooted. </p>

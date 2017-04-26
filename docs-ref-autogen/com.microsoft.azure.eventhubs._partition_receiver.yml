@@ -44,9 +44,9 @@ items:
     content: public class PartitionReceiver extends ClientEntity implements IReceiverSettingsProvider
   see:
   - type: com.microsoft.azure.eventhubs._event_hub_client.createReceiver(final String,final String,final String)
-    description: 
+    description: ''
   - type: com.microsoft.azure.eventhubs._event_hub_client.createEpochReceiver(final String,final String,final String,final long)
-    description: 
+    description: ''
   inheritance:
   - java.lang.Object
   - com.microsoft.azure.servicebus._client_entity
@@ -189,7 +189,7 @@ items:
       description: <p>the upper limit of events this receiver will actively receive regardless of whether a receive operation is pending. </p>
   see:
   - type: com.microsoft.azure.eventhubs._partition_receiver.setPrefetchCount(final int)
-    description: 
+    description: ''
 - uid: com.microsoft.azure.eventhubs._partition_receiver.getProperties()
   id: getProperties()
   parent: com.microsoft.azure.eventhubs._partition_receiver

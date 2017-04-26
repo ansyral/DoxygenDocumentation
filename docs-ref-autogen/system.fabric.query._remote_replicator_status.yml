@@ -27,7 +27,7 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/query/RemoteReplicatorStatus.java
     startLine: 10
   package: system.fabric.query
-  summary: "<p>Represents the state of the secondary replicator from the primary replicatorâ€™s point of view. </p>"
+  summary: <p>Represents the state of the secondary replicator from the primary replicatorâ€™s point of view. </p>
   syntax:
     content: public class RemoteReplicatorStatus
   inheritance:
@@ -83,7 +83,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/query/RemoteReplicatorStatus.java
     startLine: 130
   package: system.fabric.query
-  summary: "<p>Gets the highest copy operation sequence number that the secondary has applied to its state.</p>\r\n<p>\r\n  <bold>Remarks:</bold>A value of â€˜-1â€™ can be ignored since it indicates that the copy process is complete. </p>"
+  summary: >-
+    <p>Gets the highest copy operation sequence number that the secondary has applied to its state.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>A value of â€˜-1â€™ can be ignored since it indicates that the copy process is complete. </p>
   syntax:
     content: public long getLastAppliedCopySequenceNumber()
     return:
@@ -130,7 +135,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/query/RemoteReplicatorStatus.java
     startLine: 116
   package: system.fabric.query
-  summary: "<p>Gets the highest copy operation sequence number that the secondary has received from the primary.</p>\r\n<p>\r\n  <bold>Remarks:</bold>A value of â€˜-1â€™ can be ignored since it indicates that the copy process is complete. </p>"
+  summary: >-
+    <p>Gets the highest copy operation sequence number that the secondary has received from the primary.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>A value of â€˜-1â€™ can be ignored since it indicates that the copy process is complete. </p>
   syntax:
     content: public long getLastReceivedCopySequenceNumber()
     return:

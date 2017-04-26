@@ -73,7 +73,7 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
     startLine: 23
   package: system.fabric
-  summary: "<p>Provides a transactional, replicated, associative data storage to service writers â€“ ready for integration into any Service Fabric service. </p>"
+  summary: <p>Provides a transactional, replicated, associative data storage to service writers â€“ ready for integration into any Service Fabric service. </p>
   syntax: &o1
     content: public class KeyValueStoreReplica implements StatefulServiceReplica
   inheritance:
@@ -2204,7 +2204,7 @@ references:
   nameWithType: KeyValueStoreReplica
   fullName: system.fabric.KeyValueStoreReplica
   type: Class
-  summary: "<p>Provides a transactional, replicated, associative data storage to service writers â€“ ready for integration into any Service Fabric service. </p>"
+  summary: <p>Provides a transactional, replicated, associative data storage to service writers â€“ ready for integration into any Service Fabric service. </p>
   syntax: *o1
 - uid: system.fabric.interop._native_async_callback
   parent: system.fabric.interop
@@ -2328,7 +2328,7 @@ references:
   name: FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY
   nameWithType: StoreBackupOption.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY
   fullName: system.fabric.StoreBackupOption.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY
-  type: Constructor
+  type: Field
   summary: >-
     <p>Option to truncate the transaction logs of the key-value store without creating any backup files. </p>
 
@@ -2353,7 +2353,7 @@ references:
   name: FABRIC_STORE_BACKUP_OPTION_INCREMENTAL
   nameWithType: StoreBackupOption.FABRIC_STORE_BACKUP_OPTION_INCREMENTAL
   fullName: system.fabric.StoreBackupOption.FABRIC_STORE_BACKUP_OPTION_INCREMENTAL
-  type: Constructor
+  type: Field
   summary: <p>Incremental backup of the key-value store. i.e. only the log files created since the last full or incremental backup will be backed up. </p>
   syntax:
     content: public FABRIC_STORE_BACKUP_OPTION_INCREMENTAL=(2)
@@ -2486,7 +2486,7 @@ references:
           <xref href="system.fabric._cancellation_token" data-throw-if-not-resolved="false"></xref> object to indicate the cancellation status of the operation. </p>
     return:
       type: 06be942d
-      description: "<p>Returns <ref refid=\"\" kindref=\"compound\">CompletableFuture</ref> of type <ref refid=\"\" kindref=\"compound\">java.lang.String</ref>, the serviceâ€™s new connection address that is to be associated with the replica via Service Fabric Naming. </p>"
+      description: <p>Returns <ref refid="" kindref="compound">CompletableFuture</ref> of type <ref refid="" kindref="compound">java.lang.String</ref>, the serviceâ€™s new connection address that is to be associated with the replica via Service Fabric Naming. </p>
 - uid: system.fabric._key_value_store_replica.onChangeRoleAsync(ReplicaRole,CancellationToken)
   parent: system.fabric._key_value_store_replica
   href: system.fabric._key_value_store_replica.yml

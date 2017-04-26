@@ -578,7 +578,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/ServiceManagementClient.java
     startLine: 490
   package: system.fabric
-  summary: "<p>Registers a handler to be raised when the accessibility information of a service partition changes.</p>\r\n<p>\r\n  <bold>Remarks:</bold>Notification will include changes on partitionâ€™s endpoints or exceptions that occurred while the information was being updated. This overload is used for UniformInt64Range partitioned service instances. Returned Int64 is the callback handle identifier for the registration. Notifications is a mechanism that delivers notifications to userâ€™s code each time there is an service address change or an address resolution error related to a service partition the code has raised interest for. This way instead of resolving every time the current <xref href=\"system.fabric._resolved_service_partition\" data-throw-if-not-resolved=\"false\"></xref> becomes stale, program registers for updates. </p>"
+  summary: >-
+    <p>Registers a handler to be raised when the accessibility information of a service partition changes.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>Notification will include changes on partitionâ€™s endpoints or exceptions that occurred while the information was being updated. This overload is used for UniformInt64Range partitioned service instances. Returned Int64 is the callback handle identifier for the registration. Notifications is a mechanism that delivers notifications to userâ€™s code each time there is an service address change or an address resolution error related to a service partition the code has raised interest for. This way instead of resolving every time the current <xref href="system.fabric._resolved_service_partition" data-throw-if-not-resolved="false"></xref> becomes stale, program registers for updates. </p>
   syntax:
     content: public long registerServicePartitionResolutionChangeHandler(URI serviceName, long partitionKey, ServicePartitionResolutionChangeHandler callback)
     parameters:
@@ -610,7 +615,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/ServiceManagementClient.java
     startLine: 456
   package: system.fabric
-  summary: "<p>Registers a handler to be raised when the accessibility information of a service partition changes.</p>\r\n<p>\r\n  <bold>Remarks:</bold>Notification will include changes on partitionâ€™s endpoints or exceptions that occurred while the information was being updated. This overload is used for Singleton partitioned service instances. Returned Int64 is the callback handle identifier for the registration. Notifications is a mechanism that delivers notifications to userâ€™s code each time there is an service address change or an address resolution error related to a service partition the code has raised interest for. This way instead of resolving every time the current <xref href=\"system.fabric._resolved_service_partition\" data-throw-if-not-resolved=\"false\"></xref> becomes stale, program registers for updates. </p>"
+  summary: >-
+    <p>Registers a handler to be raised when the accessibility information of a service partition changes.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>Notification will include changes on partitionâ€™s endpoints or exceptions that occurred while the information was being updated. This overload is used for Singleton partitioned service instances. Returned Int64 is the callback handle identifier for the registration. Notifications is a mechanism that delivers notifications to userâ€™s code each time there is an service address change or an address resolution error related to a service partition the code has raised interest for. This way instead of resolving every time the current <xref href="system.fabric._resolved_service_partition" data-throw-if-not-resolved="false"></xref> becomes stale, program registers for updates. </p>
   syntax:
     content: public long registerServicePartitionResolutionChangeHandler(URI serviceName, ServicePartitionResolutionChangeHandler callback)
     parameters:
@@ -639,7 +649,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/ServiceManagementClient.java
     startLine: 525
   package: system.fabric
-  summary: "<p>Registers a handler to be raised when the accessibility information of a service partition changes.</p>\r\n<p>\r\n  <bold>Remarks:</bold>Notification will include changes on partitionâ€™s endpoints or exceptions that occurred while the information was being updated. This overload is used for Named partitioned service instances. Returned Int64 is the callback handle identifier for the registration. Notifications is a mechanism that delivers notifications to userâ€™s code each time there is an service address change or an address resolution error related to a service partition the code has raised interest for. This way instead of resolving every time the current <xref href=\"system.fabric._resolved_service_partition\" data-throw-if-not-resolved=\"false\"></xref> becomes stale, program registers for updates. </p>"
+  summary: >-
+    <p>Registers a handler to be raised when the accessibility information of a service partition changes.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>Notification will include changes on partitionâ€™s endpoints or exceptions that occurred while the information was being updated. This overload is used for Named partitioned service instances. Returned Int64 is the callback handle identifier for the registration. Notifications is a mechanism that delivers notifications to userâ€™s code each time there is an service address change or an address resolution error related to a service partition the code has raised interest for. This way instead of resolving every time the current <xref href="system.fabric._resolved_service_partition" data-throw-if-not-resolved="false"></xref> becomes stale, program registers for updates. </p>
   syntax:
     content: public long registerServicePartitionResolutionChangeHandler(URI serviceName, String partitionKey, ServicePartitionResolutionChangeHandler callback)
     parameters:

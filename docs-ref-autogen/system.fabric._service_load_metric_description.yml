@@ -122,7 +122,10 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/ServiceLoadMetricDescription.java
     startLine: 105
   package: system.fabric
-  summary: "<p>Determines the metricâ€™s weight relative to the other metrics that are configured for this service. During runtime, if two metrics end up in conflict, the Load Balancer prefers the metric with the higher weight.</p>\r\n<p></p>"
+  summary: >-
+    <p>Determines the metricâ€™s weight relative to the other metrics that are configured for this service. During runtime, if two metrics end up in conflict, the Load Balancer prefers the metric with the higher weight.</p>
+
+    <p></p>
   syntax:
     content: public ServiceLoadMetricWeight getWeight()
     return:
@@ -235,7 +238,10 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/ServiceLoadMetricDescription.java
     startLine: 69
   package: system.fabric
-  summary: "<p>Determines the metricâ€™s weight relative to the other metrics that are configured for this service. During runtime, if two metrics end up in conflict, the Load Balancer prefers the metric with the higher weight.</p>\r\n<p></p>"
+  summary: >-
+    <p>Determines the metricâ€™s weight relative to the other metrics that are configured for this service. During runtime, if two metrics end up in conflict, the Load Balancer prefers the metric with the higher weight.</p>
+
+    <p></p>
   syntax:
     content: public void setWeight(ServiceLoadMetricWeight weight)
     parameters:

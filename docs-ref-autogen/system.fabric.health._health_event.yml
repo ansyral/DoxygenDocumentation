@@ -323,7 +323,12 @@ items:
     path: src/prod/src/java/system.fabric/src/system/fabric/health/HealthEvent.java
     startLine: 80
   package: system.fabric.health
-  summary: "<p>Gets a value that indicates whetherÂ the health event has expired.</p>\r\n<p>\r\n  <bold>Remarks:</bold>An event can be expired only if RemoveWhenExpired is false. Otherwise, the event is not returned by query and is removed from the store. </p>"
+  summary: >-
+    <p>Gets a value that indicates whetherÂ the health event has expired.</p>
+
+    <p>
+
+      <bold>Remarks:</bold>An event can be expired only if RemoveWhenExpired is false. Otherwise, the event is not returned by query and is removed from the store. </p>
   syntax:
     content: public boolean isExpired()
     return:
